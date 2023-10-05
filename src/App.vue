@@ -1,5 +1,5 @@
 <template>
-  <router-view :ref="page"></router-view>
+  <router-view ref="page"></router-view>
 </template>
 
 <script setup lang="ts">
