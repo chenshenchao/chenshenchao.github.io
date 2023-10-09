@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vueexport-helper-c27b6911.js";import{o,b as r,s}from"./index-563084bb.js";const _={},n={class:"center-part-box"};function c(e,a){return o(),r("div",n,[s(e.$slots,"default",{},void 0,!0)])}const f=t(_,[["render",c],["__scopeId","data-v-24ed63ce"]]);export{f as default};
