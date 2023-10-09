@@ -1,33 +1,38 @@
 <template>
-    <div class="toolbox-cryptic-encode-box">
+    <center-part-box class="toolbox-cryptic-encode-box">
         <h2>编码与解码</h2>
         <textarea v-model="data.originText" rows="4"></textarea>
         <label>Hex 编码：</label>
+        <p>{{ encodeHexText }}</p>
         <label>Base64 编码：</label>
-
-    </div>
+        <p>{{ encodeBase64Text }}</p>
+    </center-part-box>
 </template>
 
 <script setup lang="ts">
-import { reactive } from 'vue';
+import { computed, reactive } from 'vue';
+import Utf8 from 'crypto-js/enc-utf8';
+import Hex from 'crypto-js/enc-hex';
+import Base64 from 'crypto-js/enc-base64';
 
 const data = reactive({
     originText: "",
+});
+
+const encodeHexText = computed(() => {
+    const bytes = Utf8.parse(data.originText);
+    return Hex.stringify(bytes);
+});
+
+const encodeBase64Text = computed(() => {
+    const bytes = Utf8.parse(data.originText);
+    return Base64.stringify(bytes);
 });
 
 </script>
 
 <style scoped lang="scss">
 .toolbox-cryptic-encode-box {
-    display: flex;
-    flex-direction: column;
-    flex-shrink: 1;
-
-    background-color: #4499ff;
-
-    h2 {
-        color: #4499ff;
-        font-size: 2vw;
-    }
+    background-color: white;
 }
 </style>

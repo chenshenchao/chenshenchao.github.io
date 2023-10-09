@@ -1,8 +1,8 @@
 <template>
-    <div class="cryptic-data-page">
+    <center-part-page class="cryptic-data-page">
         <encode-box />
         <hash-box />
-    </div>
+    </center-part-page>
 </template>
 
 <script setup lang="ts">
@@ -11,5 +11,7 @@ import HashBox from './cryptic/HashBox.vue';
 </script>
 
 <style scoped lang="scss">
-.cryptic-data-page {}
+.cryptic-data-page {
+    
+}
 </style>
