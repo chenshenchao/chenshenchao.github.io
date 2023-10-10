@@ -13,7 +13,7 @@
     padding: 1vw;
     align-self: stretch;
 
-    :deep h2 {
+    :deep(h2) {
         color: #444444;
         font-size: 1.4vw;
     }

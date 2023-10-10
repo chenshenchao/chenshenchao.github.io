@@ -15,7 +15,7 @@ export declare interface WidgetLoader {
 export const globWidgets = (): WidgetInfo[] => {
     const widgets = import.meta.glob('./widgets/**/*.vue');
     return Object.keys(widgets)
-        .map(path => path.match(/.\/widgets\/(.*)\.vue/))
+        .map(path => path.match(/.+?\/widgets\/(.*)\.vue/))
         .filter((match): match is RegExpMatchArray => match !== null)
         .map(match => {
             const path = match[0];
@@ -36,10 +36,20 @@ export const createWidgetLoader = (): WidgetLoader => {
         install(app: App) {
             widgets.forEach(wi => {
                 const asyncComponent = defineAsyncComponent(wi.component);
-                // app.component(wi.kebabName, asyncComponent);
                 app.component(wi.pascalName, asyncComponent);
-                // console.log('register widget: ', wi.kebabName, wi.pascalName);
             });
         },
     };
 };
+
+export const globArchives = (): string[] => {
+    const archives = import.meta.glob('../public/archives/**/*.md');
+    return Object.keys(archives)
+        .map(path => path.match(/.+?\/public(\/archives\/.*\.md)/))
+        .filter((match): match is RegExpMatchArray => match !== null)
+        .map(match => {
+            return match[1];
+        });
+};
+
+export const archives = globArchives();

@@ -4,12 +4,16 @@
             <img :src="(route.meta?.iconUri as string)" />
             <span>{{ route.meta?.iconText }}</span>
         </div>
+        <div v-for="archive in archiveUrls">
+            <router-link :to="archive" >{{ archive }}</router-link>
+        </div>
     </center-part-page>
 </template>
 
 <script setup lang="ts">
 import { computed } from 'vue';
 import { routes } from '../router';
+import { archives } from '../loader';
 import { useRouter } from 'vue-router';
 import type { _RouteRecordBase } from 'vue-router';
 
@@ -20,6 +24,9 @@ const toolboxRoutes = computed(() => {
         .filter(i => i.meta?.inToolbox == true);
 });
 
+const archiveUrls = computed(() => {
+    return archives.map(i => `/archive?path=${i}`);
+});
 
 </script>
 
