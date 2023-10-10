@@ -41,15 +41,3 @@ export const createWidgetLoader = (): WidgetLoader => {
         },
     };
 };
-
-export const globArchives = (): string[] => {
-    const archives = import.meta.glob('../public/archives/**/*.md');
-    return Object.keys(archives)
-        .map(path => path.match(/.+?\/public(\/archives\/.*\.md)/))
-        .filter((match): match is RegExpMatchArray => match !== null)
-        .map(match => {
-            return match[1];
-        });
-};
-
-export const archives = globArchives();

@@ -13,7 +13,6 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { routes } from '../router';
-import { archives } from '../loader';
 import { useRouter } from 'vue-router';
 import type { _RouteRecordBase } from 'vue-router';
 
@@ -25,7 +24,7 @@ const toolboxRoutes = computed(() => {
 });
 
 const archiveUrls = computed(() => {
-    return archives.map(i => `/archive?path=${i}`);
+    return __ARICHIVES__.map(i => `/archive?path=${i}`);
 });
 
 </script>
