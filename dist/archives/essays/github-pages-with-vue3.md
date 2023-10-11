@@ -1,4 +1,4 @@
-# GitHub Pages with Vue 3
+# 用 Vue 3 写 GitHub Pages
 
 ```shell
 # 编译 dist
