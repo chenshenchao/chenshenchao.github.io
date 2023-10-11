@@ -48,10 +48,12 @@ const globFiles = (dir: string, suffix: string): ArchiveInfo[] => {
 export const globArchives = (dir: string): ArchiveInfo[] => {
   const archives = globFiles(dir, '.md');
   return archives
-    .map(info => {
+    .sort((a, b) => a.modifyAt - b.modifyAt)
+    .map((info, i) => {
       info.path = relative(dir, info.path).replace(/\\/g, '/');
       info.createAt = format(info.birthtime, 'yyyy-MM-dd');
       info.modifyAt = format(info.mtime, 'yyyy-MM-dd');
+      info.summary = i < 10 ? info.summary : null;
       console.log(info);
       return info;
     });
