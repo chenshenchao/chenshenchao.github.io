@@ -1,3 +1,13 @@
 /// <reference types="vite/client" />
 
-declare const __ARICHIVES__: string[]
+declare class ArchiveInfo {
+    path: string;
+    birthtime: number;
+    mtime: number;
+    title?: string;
+    summary?: string;
+    createAt?: string;
+    modifyAt?: string;
+}
+
+declare const __ARICHIVES__: ArchiveInfo[]
