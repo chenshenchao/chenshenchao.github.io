@@ -1,6 +1,7 @@
 <template>
-  <div :style="store.style">
+  <div class="app" :style="store.style">
     <router-view ref="page"></router-view>
+    <toolbar/>
   </div>
 </template>
 
