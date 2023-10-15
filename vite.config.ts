@@ -12,6 +12,7 @@ const INVALID_CHAR_REGEX = /[\x00-\x1F\x7F<>*#"{}|^[\]`;?:&=+$,]/g;
 const SELF_PATH = fileURLToPath(import.meta.url);
 const PROJECT_DIR = dirname(SELF_PATH);
 const PUBLIC_DIR = join(PROJECT_DIR, 'public');
+const ARCHIVES_DIR = join(PUBLIC_DIR, 'archives');
 
 const readHead = (path: string, length: number): Buffer => {
   const fd = openSync(path, 'r');
@@ -48,7 +49,7 @@ const globFiles = (dir: string, suffix: string): ArchiveInfo[] => {
 export const globArchives = (dir: string): ArchiveInfo[] => {
   const archives = globFiles(dir, '.md');
   return archives
-    .sort((a, b) => a.modifyAt - b.modifyAt)
+    .sort((a, b) => b.mtime - a.mtime)
     .map((info, i) => {
       info.path = relative(dir, info.path).replace(/\\/g, '/');
       info.createAt = format(info.birthtime, 'yyyy-MM-dd');
@@ -64,7 +65,7 @@ export const globArchives = (dir: string): ArchiveInfo[] => {
 export default defineConfig({
   plugins: [vue()],
   define: {
-    __ARICHIVES__: globArchives(PUBLIC_DIR),
+    __ARICHIVES__: globArchives(ARCHIVES_DIR),
   },
   build: {
     rollupOptions: {

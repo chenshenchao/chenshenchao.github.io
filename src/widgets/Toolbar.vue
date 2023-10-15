@@ -46,7 +46,10 @@ const onClickMinor = () => {
     transition: box-shadow 0.4s ease-in-out;
 
     &:hover {
-        box-shadow: 0 .1vw .4vw #fff4, .1vw .1vw .4vw #fff4 inset;
+        animation-name: toolbar-frame-glint;
+        animation-duration: 4s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
     }
 
     .toolbox-item {
@@ -99,10 +102,30 @@ const onClickMinor = () => {
     transform: translate(-50%, 0);
     border-radius: 1.4vw;
     box-shadow: 0 .1vw .4vw #fff4, 0 .1vw .4vw #fff4 inset;
-    transition: box-shadow 0.4s ease-in-out;
 
     &:hover {
+        animation-name: toolbar-frame-glint;
+        animation-duration: 1.4s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+}
+
+@keyframes toolbar-frame-glint {
+    0% {
+        box-shadow: 0 .1vw .4vw #fff4, 0 .1vw .4vw #fff4 inset;
+    }
+
+    50% {
         box-shadow: 0 .1vw .4vw #fff4, .1vw .1vw .4vw #fff4 inset;
+    }
+
+    75% {
+        box-shadow: 0 .1vw .4vw #fff4, .1vw 0 .4vw #fff4 inset;
+    }
+
+    100% {
+        box-shadow: 0 .1vw .4vw #fff4, 0 .1vw .4vw #fff4 inset;
     }
 }
 </style>

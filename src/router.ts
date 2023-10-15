@@ -30,6 +30,10 @@ export const routes = [
         path: '/',
         component: () => import('./pages/IndexPage.vue'),
     },
+    {
+        path: '/archive/:path(.*)',
+        component: () => import('./pages/ArchivePage.vue'),
+    },
     ...globPages(),
 ];
 

@@ -1,14 +1,21 @@
 <template>
     <center-part-page class="index-page">
         <div v-for="archive in archives" class="archive-item">
-            <div v-if="archive.summary" class="archive-summary" @click="router.push(archive.path)" v-html="archive.summary">
+            <div v-if="archive.summary" class="archive-summary" v-html="archive.summary">
             </div>
             <router-link v-else :to="archive.path">{{ archive.title }}</router-link>
-            <div class="archive-time">
-                <span>创建日期：</span>
-                <span>{{ archive.createAt }}</span>
-                <span>修改日期：</span>
-                <span>{{ archive.modifyAt }}</span>
+            <div class="archive-info">
+                <div v-if="archive.summary" class="archive-info-item">
+                    <router-link :to="archive.path">查看全文</router-link>
+                </div>
+                <div class="archive-info-item">
+                    <span>创建日期：</span>
+                    <span>{{ archive.createAt }}</span>
+                </div>
+                <div class="archive-info-item">
+                    <span>修改日期：</span>
+                    <span>{{ archive.modifyAt }}</span>
+                </div>
             </div>
         </div>
     </center-part-page>
@@ -16,7 +23,6 @@
 
 <script setup lang="ts">
 import { onBeforeMount, reactive } from 'vue';
-import { useRouter } from 'vue-router';
 import type { _RouteRecordBase } from 'vue-router';
 import { marked } from '../archive';
 import { computedAsync } from '@vueuse/core';
@@ -32,8 +38,6 @@ const data = reactive({
     archiveEnd: number,
     archives: ArchiveInfo[],
 });
-
-const router = useRouter();
 
 const archives = computedAsync(
     async () => {
@@ -53,7 +57,7 @@ onBeforeMount(async () => {
     const tasks = __ARICHIVES__.map(async i => {
         return {
             ...i,
-            path: `/archive?path=${i.path}`,
+            path: `/archive/${i.path}`,
             summary: i.summary ? await marked.parse(i.summary! + '...') : undefined,
         };
     });
@@ -75,13 +79,18 @@ onBeforeMount(async () => {
             background-color: #f4f4f4;
         }
 
-        .archive-time {
+        .archive-info {
             display: flex;
             align-items: stretch;
             color: gray;
+            font-size: .4vw;
 
-            &>span {
-                font-size: .4vw;
+            .archive-info-item {
+                padding: 1vw 1vw 0 0;
+
+                a {
+                    color: gray;
+                }
             }
         }
     }
