@@ -3,8 +3,9 @@ import { createPinia } from 'pinia';
 import { createPersistedState } from 'pinia-plugin-persistedstate';
 import { router } from './router';
 import { createWidgetLoader } from './loader';
-import './style.scss';
 import 'highlight.js/styles/github.css';
+import 'normalize.css';
+import './style.scss';
 import App from './App.vue';
 
 const state = createPersistedState({
