@@ -40,6 +40,7 @@ const onClickMinor = () => {
     bottom: 1.4vw;
     width: 40vw;
     height: 6.4vw;
+    background-color: #4444;
     transform: translate(-50%, 0);
     border-radius: 1.4vw;
     box-shadow: 0 .1vw .4vw #fff4, 0 .1vw .4vw #fff4 inset;
@@ -99,6 +100,7 @@ const onClickMinor = () => {
     bottom: .2vw;
     height: .4vw;
     width: 24vw;
+    background-color: #4444;
     transform: translate(-50%, 0);
     border-radius: 1.4vw;
     box-shadow: 0 .1vw .4vw #fff4, 0 .1vw .4vw #fff4 inset;

@@ -1,7 +1,7 @@
 <template>
     <center-part-box class="toolbox-cryptic-hash-box">
         <h2>散列</h2>
-        <textarea v-model="data.originText" rows="4"></textarea>
+        <form-textarea v-model="data.originText" rows="4"></form-textarea>
         <label>MD5 (Hex)</label>
         <p>{{ md5HexText }}</p>
         <label>MD5 (Base64)</label>

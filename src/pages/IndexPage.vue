@@ -83,7 +83,7 @@ onBeforeMount(async () => {
             display: flex;
             align-items: stretch;
             color: gray;
-            font-size: .4vw;
+            font-size: .84vw;
 
             .archive-info-item {
                 padding: 1vw 1vw 0 0;

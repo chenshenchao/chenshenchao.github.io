@@ -1,7 +1,7 @@
 <template>
     <center-part-box class="toolbox-cryptic-encode-box">
         <h2>编码与解码</h2>
-        <textarea v-model="data.originText" rows="4"></textarea>
+        <form-textarea v-model="data.originText" rows="4"></form-textarea>
         <label>Hex 编码：</label>
         <p>{{ encodeHexText }}</p>
         <label>Base64 编码：</label>
