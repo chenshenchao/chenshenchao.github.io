@@ -15,8 +15,8 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onBeforeMount, reactive } from 'vue';
-import { onBeforeRouteUpdate, useRoute } from 'vue-router';
+import { computed, onActivated, reactive } from 'vue';
+import { type RouteLocationNormalizedLoaded, onBeforeRouteUpdate, useRoute } from 'vue-router';
 import { loadArchive } from '../archive';
 
 const route = useRoute();
@@ -30,16 +30,23 @@ const info = computed(() => {
     return __ARICHIVES__.find(i => i.path = data.path);
 });
 
-onBeforeMount(async () => {
-    const url = `/archives/${route.params.path}`;
-    data.path = route.params.path as string;
-    data.content = await loadArchive(url);
+const load = async (route: RouteLocationNormalizedLoaded) => {
+    const path = route.params.path as string;
+    const url = `/archives/${path}`;
+    if (path != data.path) {
+        data.path = path;
+        data.content = await loadArchive(url);
+    }
+};
+
+onActivated(async () => {
+    console.log('onActivied');
+    await load(route);
 });
 
 onBeforeRouteUpdate(async (to, _) => {
-    const url = `/archives/${to.params.path}`;
-    data.path = to.params.path as string;
-    data.content = await loadArchive(url);
+    console.log('onBeforeRouteUpdate');
+    await load(to);
 });
 </script>
 
