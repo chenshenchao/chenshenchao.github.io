@@ -1,1 +1,0 @@
-import{_ as o}from"./plugin-vueexport-helper-c27b6911.js";import{f as t,n as _,B as s}from"./index-61c265f0.js";const c={},n={class:"form-row"};function r(e,a){return t(),_("div",n,[s(e.$slots,"default",{},void 0,!0)])}const l=o(c,[["render",r],["__scopeId","data-v-60c1b857"]]);export{l as default};
