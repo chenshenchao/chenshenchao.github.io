@@ -1,1 +1,0 @@
-import{_ as t}from"./plugin-vueexport-helper-c27b6911.js";import{f as s,q as r,C as o,O as _}from"./index-37855c1c.js";const a={};function n(e,c){return s(),r("form",_({class:"form-sheet"},e.$attrs),[o(e.$slots,"default",{},void 0,!0)],16)}const l=t(a,[["render",n],["__scopeId","data-v-91e171d7"]]);export{l as default};
