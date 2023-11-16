@@ -1,7 +1,7 @@
 import { createApp } from 'vue';
 import { createPinia } from 'pinia';
 import { createPersistedState } from 'pinia-plugin-persistedstate';
-import { router } from './router';
+import { createPageRouter } from './router';
 import { createWidgetLoader } from './loader';
 import 'highlight.js/styles/github.css';
 import 'normalize.css';
@@ -13,6 +13,7 @@ const state = createPersistedState({
     key: i => `__persisted__${i}`,
 });
 const pinia = createPinia();
+const router = createPageRouter();
 const loader = createWidgetLoader();
 const app = createApp(App);
 

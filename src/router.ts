@@ -1,6 +1,6 @@
 import { kebabCase } from "lodash";
 import { createRouter, createWebHashHistory } from "vue-router";
-import type { RouteRecordRaw } from 'vue-router';
+import type { RouteRecordRaw, Router } from 'vue-router';
 
 export const globPages = (): RouteRecordRaw[] => {
     const metas = import.meta.glob('./pages/**/*Page.ts', { eager: true });
@@ -37,13 +37,17 @@ export const routes = [
     ...globPages(),
 ];
 
-export const router = createRouter({
-    history: createWebHashHistory(),
-    routes: routes,
-});
+export const createPageRouter = (): Router => {
+    const router = createRouter({
+        history: createWebHashHistory(),
+        routes: routes,
+    });
 
-router.beforeEach(async (to, from) => {
-    console.log('meta', to.meta, from);
+    router.beforeEach(async (to, from) => {
+        console.log('meta', to.meta, from);
 
-    return true;
-});
+        return true;
+    });
+
+    return router;
+};

@@ -43,11 +43,12 @@ const globFilesAsync = async (dir: string, suffix: string): Promise<ArchiveInfo[
             const titleEnd = summary.indexOf('\n');
             const title = titleEnd > 0 ? _.trim(summary.substring(0, titleEnd), ' #') : '';
             const timeline = await readGitTimeline(path);
+
             result.push({
                 path: path,
-                createAt: format(new Date(timeline[timeline.length - 1]), 'yyyy-MM-dd'),
-                modifyAt: format(new Date(timeline[0]), 'yyyy-MM-dd'),
-                mtime: new Date(timeline[0]).getTime(),
+                createAt: _.isEmpty(timeline) ? null : format(new Date(timeline[timeline.length - 1]), 'yyyy-MM-dd'),
+                modifyAt: _.isEmpty(timeline) ? null : format(new Date(timeline[0]), 'yyyy-MM-dd'),
+                mtime: _.isEmpty(timeline) ? null : new Date(timeline[0]).getTime(),
                 title: title,
                 summary: summary,
             });

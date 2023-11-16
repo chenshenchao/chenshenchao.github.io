@@ -27,7 +27,7 @@ const data = reactive({
 });
 
 const info = computed(() => {
-    return __ARICHIVES__.find(i => i.path = data.path);
+    return __ARICHIVES__.find(i => i.path == data.path);
 });
 
 const load = async (route: RouteLocationNormalizedLoaded) => {
