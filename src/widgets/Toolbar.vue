@@ -44,6 +44,7 @@ const onClickMinor = () => {
     transform: translate(-50%, 0);
     border-radius: 1.4vw;
     box-shadow: 0 .1vw .4vw #fff4, 0 .1vw .4vw #fff4 inset;
+    backdrop-filter: blur(.14vw);
     transition: box-shadow 0.4s ease-in-out;
 
     &:hover {
@@ -60,6 +61,7 @@ const onClickMinor = () => {
         justify-content: center;
         align-items: center;
         margin: .4vw;
+        filter: drop-shadow(1px 1px 1px #4444);
 
         img {
             width: 3.4vw;
@@ -101,6 +103,7 @@ const onClickMinor = () => {
     height: .4vw;
     width: 24vw;
     background-color: #4444;
+    backdrop-filter: blur(4px);
     transform: translate(-50%, 0);
     border-radius: 1.4vw;
     box-shadow: 0 .1vw .4vw #fff4, 0 .1vw .4vw #fff4 inset;
