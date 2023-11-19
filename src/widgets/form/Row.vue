@@ -12,6 +12,7 @@
 .form-row {
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin: .4vw;
 }
 </style>
