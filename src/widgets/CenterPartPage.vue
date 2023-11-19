@@ -1,10 +1,18 @@
 <template>
-    <div class="center-part-page">
+    <div ref="$el" class="center-part-page">
         <div class="center-part">
             <slot></slot>
         </div>
     </div>
 </template>
+
+<script setup lang="ts">
+import { type Ref, ref } from 'vue';
+
+const $el: Ref<HTMLElement|undefined> = ref();
+
+defineExpose({$el});
+</script>
 
 <style scoped lang="scss">
 .center-part-page {

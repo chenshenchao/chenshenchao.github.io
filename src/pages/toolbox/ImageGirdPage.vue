@@ -1,45 +1,56 @@
 <template>
-    <center-part-page class="image-gird-page">
+    <center-part-page ref="$el" class="image-gird-page">
         <form-sheet class="image-info-pane">
             <form-row>
                 <label>行数：</label>
-                <form-number-input v-model="data.rowCount" :precision="0" />
+                <form-number-input v-model="tool.imageGird.rowCount" :precision="0" />
                 <label>列数：</label>
-                <form-number-input v-model="data.columnCount" :precision="0" />
+                <form-number-input v-model="tool.imageGird.columnCount" :precision="0" />
             </form-row>
             <form-row>
                 <label>宽：</label>
-                <form-number-input v-model="data.imageWidth" :precision="0" />
+                <form-number-input v-model="tool.imageGird.imageWidth" :precision="0" />
                 <label>长：</label>
-                <form-number-input v-model="data.imageHeight" :precision="0" />
+                <form-number-input v-model="tool.imageGird.imageHeight" :precision="0" />
+            </form-row>
+            <form-row>
+                <form-text-button @click="onClickGenerate">生成</form-text-button>
             </form-row>
         </form-sheet>
 
         <div class="image-gird">
-            <div v-for="row in data.cells" class="image-row">
-                <div v-for="url in row" class="image-cell">
+            <div v-for="(row, i) in data.cells" class="image-row">
+                <div v-for="(url, j) in row" class="image-cell" @click="onClickCell(j, i)">
                     <img v-if="url" :src="url" />
                 </div>
             </div>
+            <input ref="$cellInput" accept="image/*" type="file" @input="onInputCell" style="display: none;" />
+        </div>
+        <div class="image-preview">
+            <img v-if="data.imageTarget" class="image-target" alt="target" :src="data.imageTarget" />
         </div>
     </center-part-page>
 </template>
 
 <script setup lang="ts">
-import { onBeforeMount, reactive, watch } from 'vue';
+import { onBeforeMount, reactive, ref, watch, onMounted } from 'vue';
+import { useToolStore } from '../../stores/ToolStore';
+import CenterPartPage from '../../widgets/CenterPartPage.vue';
+
+const $el = ref<InstanceType<typeof CenterPartPage> | null>();
+const $cellInput = ref<HTMLInputElement>();
+
+const tool = useToolStore();
 
 const data: {
-    rowCount: number,
-    columnCount: number,
-    imageWidth: number,
-    imageHeight: number,
+    imageTarget?: string,
     cells: (string | null)[][],
+    cellX?: number,
+    cellY?: number,
 } = reactive({
-    rowCount: 4,
-    columnCount: 4,
-    imageWidth: 64,
-    imageHeight: 64,
     cells: [],
+    cellX: undefined,
+    cellY: undefined,
 });
 
 const getCell = (x: number, y: number) => {
@@ -50,9 +61,12 @@ const getCell = (x: number, y: number) => {
     return null;
 }
 
-const resizeCells = (rowCount: number, columnCount: number) => {
-    console.log('resizeCells', rowCount, columnCount);
+const resizeCell = (width: number, height: number) => {
+    $el.value?.$el?.style.setProperty('--cell-width', `${width}px`);
+    $el.value?.$el?.style.setProperty('--cell-height', `${height}px`);
+};
 
+const resizeCells = (rowCount: number, columnCount: number) => {
     const gird = [];
     for (let i = 0; i < rowCount; ++i) {
         const row = [];
@@ -61,24 +75,82 @@ const resizeCells = (rowCount: number, columnCount: number) => {
         }
         gird.push(row);
     }
-
     data.cells = gird;
-
-    console.log(data.cells);
 };
 
 onBeforeMount(() => {
-    resizeCells(data.rowCount, data.columnCount);
+    resizeCells(tool.imageGird.rowCount, tool.imageGird.columnCount);
 });
 
-watch(() => [data.rowCount, data.columnCount], ([rowCount, columnCount]) => {
+onMounted(() => {
+    resizeCell(tool.imageGird.imageWidth, tool.imageGird.imageHeight);
+});
+
+watch(() => [tool.imageGird.rowCount, tool.imageGird.columnCount], ([rowCount, columnCount]) => {
     resizeCells(rowCount, columnCount);
 });
 
+watch(() => [tool.imageGird.imageWidth, tool.imageGird.imageHeight], ([imageWidth, imageHeight]) => {
+    resizeCell(imageWidth, imageHeight);
+});
+
+
+
+const onClickCell = (x: number, y: number) => {
+    data.cellX = x;
+    data.cellY = y;
+    $cellInput.value?.click();
+};
+
+const onClickGenerate = () => {
+    const canvas = document.createElement('canvas');
+    canvas.width = tool.imageGird.imageWidth * tool.imageGird.columnCount;
+    canvas.height = tool.imageGird.imageHeight * tool.imageGird.rowCount;
+    const context = canvas.getContext('2d');
+    for (let i = 0; i < tool.imageGird.rowCount; ++i) {
+        for (let j = 0; j < tool.imageGird.columnCount; ++j) {
+            const url = data.cells[i][j];
+            if (url) {
+                const image = document.createElement('img');
+                image.src = url;
+                context?.drawImage(
+                    image,
+                    0, 0, image.width, image.height,
+                    j * tool.imageGird.imageWidth,
+                    i * tool.imageGird.imageHeight,
+                    tool.imageGird.imageWidth,
+                    tool.imageGird.imageHeight
+                );
+            }
+        }
+    }
+    canvas.toBlob((b) => {
+        if (data.imageTarget) {
+            URL.revokeObjectURL(data.imageTarget);
+        }
+        data.imageTarget = URL.createObjectURL(b!);
+    }, 'image/png', 0.9);
+};
+
+const onInputCell = (e: Event) => {
+    const i = e.target as HTMLInputElement;
+    const f = i.files![0];
+    const x = data.cellX ?? 0;
+    const y = data.cellY ?? 0;
+    const url = data.cells[y][x];
+    i.value = "";
+    if (url) {
+        URL.revokeObjectURL(url);
+    }
+    data.cells[y][x] = URL.createObjectURL(f);
+};
 </script>
 
 <style scoped lang="scss">
 .image-gird-page {
+    --cell-width: 4em;
+    --cell-height: 4em;
+
     .image-info-pane {
         background-color: white;
     }
@@ -96,9 +168,14 @@ watch(() => [data.rowCount, data.columnCount], ([rowCount, columnCount]) => {
     }
 
     .image-cell {
-        width: 4em;
-        height: 4em;
+        width: var(--cell-width);
+        height: var(--cell-height);
         border: 1px solid #dfdfdf;
+
+        &>img {
+            width: 100%;
+            height: 100%;
+        }
     }
 }
 </style>
