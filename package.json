@@ -13,6 +13,7 @@
     "@vueuse/core": "^10.5.0",
     "crypto-js": "^4.1.1",
     "date-fns": "^2.30.0",
+    "gif.js": "^0.2.0",
     "highlight.js": "^11.8.0",
     "jsencrypt": "^3.3.2",
     "lodash": "^4.17.21",
@@ -26,6 +27,7 @@
   },
   "devDependencies": {
     "@types/crypto-js": "^4.1.2",
+    "@types/gif.js": "^0.2.5",
     "@types/highlightjs": "^9.12.3",
     "@types/lodash": "^4.14.199",
     "@types/node": "^20.8.4",

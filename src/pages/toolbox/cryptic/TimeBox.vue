@@ -1,21 +1,26 @@
 <template>
     <center-part-box class="toolbox-cryptic-time-box">
         <h2>时间</h2>
-        <form-sheet>
+        <form-sheet label-width="8em">
             <form-row>
+                <label>时间戳值：</label>
                 <form-text-input v-model="data.timestampText"/>
             </form-row>
             <form-row>
+                <label>时间格式：</label>
                 <form-text-input v-model="store.time.timestampFormat"/>
             </form-row>
             <form-row>
-                <span>{{ timestampResult }}</span>
+                <label>时间戳文本：</label>
+                <form-text-input v-model="timestampResult" readonly/>
             </form-row>
             <form-row>
+                <label>日期文本：</label>
                 <form-text-input v-model="data.dateText"/>
             </form-row>
             <form-row>
-                <span>{{ dateResult }}</span>
+                <label>日期时间戳值：</label>
+                <form-text-input v-model="dateResult" readonly/>
             </form-row>
         </form-sheet>
     </center-part-box>
@@ -36,11 +41,11 @@ const data = reactive({
 
 const timestampResult = computed(() => {
     const date = new Date();
-    if (/^\d{10}/.test(data.timestampText)) {
+    if (/^\d{10}$/.test(data.timestampText)) {
         date.setTime(Number(`${data.timestampText}000`));
         return format(date, store.time.timestampFormat);
     }
-    if (/^\d{13}/.test(data.timestampText)) {
+    if (/^\d{13}$/.test(data.timestampText)) {
         date.setTime(Number(data.timestampText));
         return format(date, store.time.timestampFormat);
     }
