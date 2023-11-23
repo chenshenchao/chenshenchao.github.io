@@ -1,6 +1,6 @@
 <template>
     <center-part-page ref="$el" class="image-gird-page">
-        <form-sheet class="image-info-pane">
+        <form-sheet class="image-info-pane" @submit.prevent>
             <form-row>
                 <label>行数：</label>
                 <form-number-input v-model="tool.imageGird.rowCount" :precision="0" />
