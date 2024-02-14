@@ -61,6 +61,8 @@ const onClickMinor = () => {
         justify-content: center;
         align-items: center;
         margin: .4vw;
+        cursor: pointer;
+
         filter: drop-shadow(1px 1px 1px #4444);
 
         img {

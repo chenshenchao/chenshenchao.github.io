@@ -13,6 +13,7 @@ const gitOptions: Partial<SimpleGitOptions> = {
 };
 const git: SimpleGit = simpleGit(gitOptions);
 
+// git 获取时间线
 const readGitTimeline = async (path: string): Promise<string[]> => {
     return new Promise((resolve, reject) => {
         git.raw(['log', '--format=%ci', '--', path], (e, r) => {
@@ -33,6 +34,7 @@ const readHead = (path: string, length: number): Buffer => {
     return buffer.subarray(0, end);
 };
 
+// 获取指定目录下的文件信息
 const globFilesAsync = async (dir: string, suffix: string): Promise<ArchiveInfo[]> => {
     const result: ArchiveInfo[] = [];
     for (const name of readdirSync(dir)) {
@@ -59,6 +61,7 @@ const globFilesAsync = async (dir: string, suffix: string): Promise<ArchiveInfo[
     return result;
 }
 
+// 获取指定目录下的文档信息。
 export const globArchivesAsync = async (dir: string): Promise<ArchiveInfo[]> => {
     const archives = await globFilesAsync(dir, '.md');
     return archives

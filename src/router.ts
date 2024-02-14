@@ -2,6 +2,7 @@ import { kebabCase } from "lodash";
 import { createRouter, createWebHashHistory } from "vue-router";
 import type { RouteRecordRaw, Router } from 'vue-router';
 
+// 列举所有 vue 页文件，并加载其 meta 信息的 ts 文件。
 export const globPages = (): RouteRecordRaw[] => {
     const metas = import.meta.glob('./pages/**/*Page.ts', { eager: true });
     const pages = import.meta.glob('./pages/**/*Page.vue');
