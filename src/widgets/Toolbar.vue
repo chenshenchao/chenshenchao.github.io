@@ -109,6 +109,7 @@ const onClickMinor = () => {
     transform: translate(-50%, 0);
     border-radius: 1.4vw;
     box-shadow: 0 .1vw .4vw #fff4, 0 .1vw .4vw #fff4 inset;
+    cursor: pointer;
 
     &:hover {
         animation-name: toolbar-frame-glint;

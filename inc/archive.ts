@@ -65,6 +65,7 @@ const globFilesAsync = async (dir: string, suffix: string): Promise<ArchiveInfo[
 export const globArchivesAsync = async (dir: string): Promise<ArchiveInfo[]> => {
     const archives = await globFilesAsync(dir, '.md');
     return archives
+        .filter(i => i.title.indexOf('[草稿]') < 0)
         .sort((a, b) => b.mtime - a.mtime)
         .map((info, i) => {
             info.path = relative(dir, info.path).replace(/\\/g, '/');
