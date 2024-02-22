@@ -35,6 +35,12 @@ export const globWidgets = (): WidgetInfo[] => {
     return mapWidgets(widgets, path => path.match(/.+?\/widgets\/(.*)\.vue/));
 };
 
+// 加载公共布局
+export const globLayouts = (): WidgetInfo[] => {
+    const widgets = import.meta.glob('./layouts/**/*.vue');
+    return mapWidgets(widgets, path => path.match(/.+?\/layouts\/(.*)\.vue/));
+};
+
 // 加载公共滤镜
 export const globFilters = (): WidgetInfo[] => {
     const filters = import.meta.glob('./filters/**/*.vue');
@@ -43,6 +49,7 @@ export const globFilters = (): WidgetInfo[] => {
 
 export const widgets = globWidgets();
 export const filters = globFilters();
+export const layouts = globLayouts();
 
 export const createWidgetLoader = (): WidgetLoader => {
     return {
@@ -50,6 +57,10 @@ export const createWidgetLoader = (): WidgetLoader => {
             widgets.forEach(wi => {
                 const asyncComponent = defineAsyncComponent(wi.component);
                 app.component(wi.pascalName, asyncComponent);
+            });
+            layouts.forEach(li => {
+                const asyncComponent = defineAsyncComponent(li.component);
+                app.component(li.pascalName, asyncComponent);
             });
             filters.forEach(fi => {
                 const asyncComponent = defineAsyncComponent(fi.component);
