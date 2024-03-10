@@ -1,5 +1,5 @@
 <template>
-    <center-part-page class="archive-page">
+    <center-part-layout class="archive-page">
         <div class="archive-info">
             <div class="archive-info-item">
                 <span>创建日期：</span>
@@ -11,7 +11,7 @@
             </div>
         </div>
         <div class="archive-sheet" v-html="data.content"></div>
-    </center-part-page>
+    </center-part-layout>
 </template>
 
 <script setup lang="ts">

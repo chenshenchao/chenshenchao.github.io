@@ -1,5 +1,5 @@
 <template>
-    <center-part-page ref="$el" class="image-gird-page">
+    <center-part-layout ref="$el" class="image-gird-page">
         <form-sheet class="image-info-pane" @submit.prevent>
             <form-row>
                 <label>行数：</label>
@@ -29,7 +29,7 @@
         <div class="image-preview">
             <img v-if="data.imageTarget" class="image-target" alt="target" :src="data.imageTarget" />
         </div>
-    </center-part-page>
+    </center-part-layout>
 </template>
 
 <script setup lang="ts">
@@ -178,4 +178,4 @@ const onInputCell = (e: Event) => {
         }
     }
 }
-</style>
+</style>../../layouts/CenterPartPage.vue

@@ -1,9 +1,9 @@
 <template>
-    <center-part-page class="cryptic-data-page">
+    <center-part-layout class="cryptic-data-page">
         <encode-box />
         <hash-box />
         <time-box/>
-    </center-part-page>
+    </center-part-layout>
 </template>
 
 <script setup lang="ts">

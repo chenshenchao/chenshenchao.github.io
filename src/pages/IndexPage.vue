@@ -1,6 +1,6 @@
 <template>
     <noise-filter>
-        <center-part-page class="index-page">
+        <center-part-layout class="index-page">
             <div v-for="archive in archives" class="archive-item">
                 <div v-if="archive.summary" class="archive-summary" v-html="archive.summary">
                 </div>
@@ -19,7 +19,7 @@
                     </div>
                 </div>
             </div>
-        </center-part-page>
+        </center-part-layout>
     </noise-filter>
 </template>
 
