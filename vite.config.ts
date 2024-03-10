@@ -23,6 +23,19 @@ export default defineConfig(async ({ command, mode }) => {
     build: {
       rollupOptions: {
         output: {
+          manualChunks: (cn) => {
+            const m = cn.match(/node_modules\/(.+?)\//);
+            if (m) {
+              if (m[1] == 'highlight.js') {
+                const m1 = cn.match(/node_modules\/(.+?)\/(.+?)\/(.+?)\/(.)/);
+                // console.log('chunks:', cn);
+                if (m1) {
+                  return `${m1[1]}-${m1[2]}-${m1[3]}-${m1[4]}`;
+                }
+              }
+              return m[1];
+            }
+          },
           sanitizeFileName(name: string) {
             return _.trim(name, '_').replace(INVALID_CHAR_REGEX, "");
           },
