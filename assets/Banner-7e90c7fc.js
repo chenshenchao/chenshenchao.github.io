@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vueexport-helper-c27b6911.js";import{F as _,B as n}from"./@vue-78d1d333.js";const t={},c={class:"banner"};function o(s,r){return _(),n("div",c)}const f=e(t,[["render",o],["__scopeId","data-v-429ddef6"]]);export{f as default};
