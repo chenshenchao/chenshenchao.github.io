@@ -7,10 +7,10 @@
 </template>
 
 <script lang="ts" setup>
-import { reactive } from 'vue';
+// import { reactive } from 'vue';
 
 const emit = defineEmits(['search']);
-const data = reactive({});
+// const data = reactive({});
 </script>
 
 <style lang="scss" scoped>

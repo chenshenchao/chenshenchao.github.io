@@ -61,7 +61,11 @@ const archives = computedAsync(
         const tasks = data.archives.filter(i => {
             console.log('filter', i.title);
             if (!isEmpty(data.searchText)) {
-                return i.title?.indexOf(data.searchText) >= 0;
+                if (isEmpty(i.title)) {
+                    return false;
+                } else {
+                    return i.title.indexOf(data.searchText) >= 0;
+                }
             }
             return true;
         }).slice(0, data.archiveEnd).map(async i => {

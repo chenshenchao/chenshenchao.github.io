@@ -35,9 +35,9 @@
 <script setup lang="ts">
 import { onBeforeMount, reactive, ref, watch, onMounted } from 'vue';
 import { useToolStore } from '../../stores/ToolStore';
-import CenterPartPage from '../../widgets/CenterPartPage.vue';
+import CenterPartLayout from '../../layouts/CenterPartLayout.vue';
 
-const $el = ref<InstanceType<typeof CenterPartPage> | null>();
+const $el = ref<InstanceType<typeof CenterPartLayout> | null>();
 const $cellInput = ref<HTMLInputElement>();
 
 const tool = useToolStore();
@@ -178,4 +178,4 @@ const onInputCell = (e: Event) => {
         }
     }
 }
-</style>../../layouts/CenterPartPage.vue
+</style>
