@@ -103,6 +103,7 @@ const onClickMinor = () => {
     position: absolute;
     left: 50%;
     bottom: .2vw;
+    z-index: 4444;
     height: .4vw;
     width: 24vw;
     background-color: #4444;

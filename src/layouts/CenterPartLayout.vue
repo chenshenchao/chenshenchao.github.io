@@ -3,6 +3,9 @@
         <div class="center-part">
             <slot></slot>
         </div>
+        <div class="background">
+            <slot name="background"></slot>
+        </div>
     </div>
 </template>
 
@@ -16,6 +19,7 @@ defineExpose({$el});
 
 <style scoped lang="scss">
 .center-part-layout {
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -25,12 +29,21 @@ defineExpose({$el});
 
     .center-part {
         display: flex;
+        position: relative;
+        z-index: 1;
         flex-grow: 1;
         flex-direction: column;
         justify-content: start;
         align-items: start;
         margin: 0 14vw;
-        background-color: #1e1e20;
+    }
+
+    .background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 0;
     }
 }
 </style>

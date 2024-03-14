@@ -59,7 +59,7 @@ const data = reactive({
 const archives = computedAsync(
     async () => {
         const tasks = data.archives.filter(i => {
-            console.log('filter', i.title);
+            // console.log('filter', i.title);
             if (!isEmpty(data.searchText)) {
                 if (isEmpty(i.title)) {
                     return false;

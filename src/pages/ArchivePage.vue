@@ -1,5 +1,10 @@
 <template>
     <center-part-layout class="archive-page">
+        <template v-slot:background>
+            <div class="background"></div>
+        </template>
+
+        <banner/>
         <div class="archive-info">
             <div class="archive-info-item">
                 <span>创建日期：</span>
@@ -54,10 +59,6 @@ onBeforeRouteUpdate(async (to, _) => {
 .archive-page {
     --archive-page-padding: 1vw;
 
-    :deep(.center-part) {
-        position: relative;
-    }
-
     .archive-info {
         display: flex;
         position: absolute;
@@ -81,6 +82,12 @@ onBeforeRouteUpdate(async (to, _) => {
         padding: 1vw;
         flex-shrink: 1;
         background-color: white;
+    }
+
+    .background {
+        width: 100%;
+        height: 24vh;
+        background: #444;
     }
 }
 </style>

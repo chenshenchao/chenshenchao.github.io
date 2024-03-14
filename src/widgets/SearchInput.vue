@@ -1,7 +1,7 @@
 <template>
     <div class="search-input">
         <div class="input">
-            <input v-model="value" />
+            <input v-model="value" @keydown.enter.native="emit('search', value)" />
         </div>
         <button @click="emit('search', value)">搜索</button>
     </div>
@@ -43,6 +43,7 @@ const value = ref("");
         margin-left: .4em;
         background-color: #fff;
         border: 1px solid #ddd;
+        cursor: pointer;
 
         &:active {
             color: #fff;
