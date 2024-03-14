@@ -1,7 +1,7 @@
 <template>
     <div class="form-text-input">
         <span v-if="props.readonly">{{ value }}</span>
-        <input v-else input v-model="value" />
+        <input v-else v-model="value" />
     </div>
 </template>
 

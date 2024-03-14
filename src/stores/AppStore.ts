@@ -5,7 +5,8 @@ export const useAppStore = defineStore('app', () => {
     const style = reactive({
         width: '100%',
         height: '100%',
-        background: '#161618'
+        // background: '#161618',
+        background: '#ededed',
     });
     return {
         style,

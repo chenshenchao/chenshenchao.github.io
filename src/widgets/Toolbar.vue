@@ -38,6 +38,7 @@ const onClickMinor = () => {
     overflow: hidden;
     left: 50%;
     bottom: 1.4vw;
+    z-index: 4444;
     width: 40vw;
     height: 6.4vw;
     background-color: #4444;

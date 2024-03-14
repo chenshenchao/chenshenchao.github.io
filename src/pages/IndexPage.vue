@@ -1,6 +1,15 @@
 <template>
     <noise-filter>
-        <center-part-layout class="index-page">
+        <double-column-layout class="index-page">
+            <template v-slot:minor>
+                <sidebar @search="data.searchText=$event"/>
+            </template>
+
+            <template v-slot:background>
+                <div class="background"></div>
+            </template>
+
+            <banner />
             <div v-for="archive in archives" class="archive-item">
                 <div v-if="archive.summary" class="archive-summary" v-html="archive.summary">
                 </div>
@@ -19,7 +28,7 @@
                     </div>
                 </div>
             </div>
-        </center-part-layout>
+        </double-column-layout>
     </noise-filter>
 </template>
 
@@ -29,6 +38,7 @@ import { marked } from '../archive';
 import { computedAsync } from '@vueuse/core';
 import { fetchPart } from '../utils/io';
 import { trimUtf8 } from '../utils/encode';
+import { isEmpty } from 'lodash';
 import Utf8 from 'crypto-js/enc-utf8';
 import WordArray from 'crypto-js/lib-typedarrays';
 
@@ -39,14 +49,22 @@ declare class ArchiveBoxInfo extends ArchiveInfo {
 const data = reactive({
     archiveEnd: 10,
     archives: [],
+    searchText: "",
 } as {
     archiveEnd: number,
     archives: ArchiveBoxInfo[],
+    searchText: String,
 });
 
 const archives = computedAsync(
     async () => {
-        const tasks = data.archives.slice(0, data.archiveEnd).map(async i => {
+        const tasks = data.archives.filter(i => {
+            console.log('filter', i.title);
+            if (!isEmpty(data.searchText)) {
+                return i.title?.indexOf(data.searchText) >= 0;
+            }
+            return true;
+        }).slice(0, data.archiveEnd).map(async i => {
             if (!i.summary) {
                 const bytes = await fetchPart(i.path, 140);
                 i.summary = Utf8.stringify(WordArray.create(trimUtf8(bytes).buffer as unknown as number[]));
@@ -101,6 +119,12 @@ onBeforeMount(async () => {
                 }
             }
         }
+    }
+
+    .background {
+        width: 100%;
+        height: 24vh;
+        background: #444;
     }
 }
 </style>
