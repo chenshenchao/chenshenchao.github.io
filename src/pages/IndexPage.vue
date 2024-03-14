@@ -64,7 +64,8 @@ const archives = computedAsync(
                 if (isEmpty(i.title)) {
                     return false;
                 } else {
-                    return i.title.indexOf(data.searchText) >= 0;
+                    // @ts-ignore
+                    return i.title!.indexOf(data.searchText) >= 0;
                 }
             }
             return true;
