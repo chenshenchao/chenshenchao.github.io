@@ -2,11 +2,12 @@
     <noise-filter>
         <double-column-layout class="index-page">
             <template v-slot:minor>
-                <sidebar @search="data.searchText=$event"/>
+                <sidebar @search="data.searchText = $event" />
             </template>
 
             <template v-slot:background>
-                <div class="background"></div>
+                <div class="background top"></div>
+                <div class="background bottom"></div>
             </template>
 
             <banner />
@@ -28,6 +29,7 @@
                     </div>
                 </div>
             </div>
+            <div style="height: 4em;"></div>
         </double-column-layout>
     </noise-filter>
 </template>
@@ -127,9 +129,20 @@ onBeforeMount(async () => {
     }
 
     .background {
+        position: absolute;
         width: 100%;
-        height: 24vh;
-        background: #444;
+
+        &.top {
+            top: 0;
+            height: 24vh;
+            background: #444;
+        }
+
+        &.bottom {
+            bottom: 0;
+            height: 24em;
+            background: #4444;
+        }
     }
 }
 </style>
