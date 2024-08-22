@@ -1,5 +1,5 @@
 <template>
-    <div class="form-textarea">
+    <div class="pc-form-textarea">
         <textarea ref="textarea" v-model="value" v-bind="$attrs" :style="style"></textarea>
     </div>
 </template>
@@ -51,7 +51,7 @@ onBeforeUnmount(() => {
 </script>
 
 <style scoped lang="scss">
-.form-textarea {
+.pc-form-textarea {
     display: flex;
     padding: .2em .4em;
     border: 1px solid #dfdfdf;

@@ -37,8 +37,8 @@ export const globWidgets = (): WidgetInfo[] => {
 
 // 加载公共布局
 export const globLayouts = (): WidgetInfo[] => {
-    const widgets = import.meta.glob('./layouts/**/*.vue');
-    return mapWidgets(widgets, path => path.match(/.+?\/layouts\/(.*)\.vue/));
+    const layouts = import.meta.glob('./layouts/**/*.vue');
+    return mapWidgets(layouts, path => path.match(/.+?\/layouts\/(.*)\.vue/));
 };
 
 // 加载公共滤镜
@@ -58,14 +58,19 @@ export const createWidgetLoader = (): WidgetLoader => {
                 const asyncComponent = defineAsyncComponent(wi.component);
                 app.component(wi.pascalName, asyncComponent);
             });
+            console.log('widgets', widgets.map(i => i.pascalName));
+
             layouts.forEach(li => {
                 const asyncComponent = defineAsyncComponent(li.component);
                 app.component(li.pascalName, asyncComponent);
             });
+            console.log('layouts', layouts.map(i => i.pascalName));
+
             filters.forEach(fi => {
                 const asyncComponent = defineAsyncComponent(fi.component);
                 app.component(fi.pascalName, asyncComponent);
             });
+            console.log('filters', filters.map(i => i.pascalName));
         },
     };
 };

@@ -1,5 +1,5 @@
 <template>
-    <center-part-box class="toolbox-cryptic-time-box">
+    <center-part-box class="pc-toolbox-cryptic-time-box">
         <h2>时间</h2>
         <form-sheet label-width="8em">
             <form-row>
@@ -28,7 +28,7 @@
 
 <script setup lang="ts">
 import { computed, reactive } from 'vue';
-import { useToolStore } from '../../../stores/ToolStore';
+import { useToolStore } from '../../../../stores/ToolStore';
 import { format } from 'date-fns';
 
 
@@ -59,7 +59,7 @@ const dateResult = computed(() => {
 
 <style scoped lang="scss">
 
-.toolbox-cryptic-time-box {
+.pc-toolbox-cryptic-time-box {
     background-color: white;
 }
 </style>

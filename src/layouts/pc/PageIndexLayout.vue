@@ -1,5 +1,5 @@
 <template>
-    <div class="page-index-layout">
+    <div class="pc-page-index-layout">
         <slot></slot>
     </div>
 </template>
@@ -9,7 +9,7 @@
 </script>
 
 <style scoped lang="scss">
-.page-index-layout {
+.pc-page-index-layout {
     display: flex;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <div ref="$el" class="center-part-layout">
+    <div ref="$el" class="pc-center-part-layout">
         <div class="center-part">
             <slot></slot>
         </div>
@@ -18,7 +18,7 @@ defineExpose({$el});
 </script>
 
 <style scoped lang="scss">
-.center-part-layout {
+.pc-center-part-layout {
     position: relative;
     display: flex;
     flex-direction: column;

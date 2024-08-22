@@ -1,26 +1,26 @@
 <template>
     <transition>
-        <div v-if="store.state.visible" class="toolbar">
-            <div v-for="route in toolboxRoutes" class="toolbox-item" @click="router.push(route.alias as string)">
+        <div v-if="store.state.visible" class="pc-toolbar">
+            <div v-for="route in toolboxRoutes" class="pc-toolbox-item" @click="router.push(route.alias as string)">
                 <img :src="(route.meta?.iconUri as string)" />
                 <span>{{ route.meta?.iconText }}</span>
             </div>
         </div>
     </transition>
-    <div class="toolbar-minor" @click="onClickMinor"></div>
+    <div class="pc-toolbar-minor" @click="onClickMinor"></div>
 </template>
 
 <script setup lang="ts">
 import { computed } from 'vue';
 import { useRouter, type _RouteRecordBase } from 'vue-router';
-import { routes } from '../router';
-import { useToolStore } from '../stores/ToolStore';
+import { pcRoutes } from '../../router';
+import { useToolStore } from '../../stores/ToolStore';
 
 const router = useRouter();
 const store = useToolStore();
 
 const toolboxRoutes = computed(() => {
-    return (routes as _RouteRecordBase[])
+    return (pcRoutes as _RouteRecordBase[])
         .filter(i => i.meta?.inToolbox == true);
 });
 
@@ -30,7 +30,7 @@ const onClickMinor = () => {
 </script>
 
 <style scoped lang="scss">
-.toolbar {
+.pc-toolbar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,7 +55,7 @@ const onClickMinor = () => {
         animation-iteration-count: infinite;
     }
 
-    .toolbox-item {
+    .pc-toolbox-item {
         display: flex;
         flex-direction: column;
         flex-shrink: 1;
@@ -96,7 +96,7 @@ const onClickMinor = () => {
     }
 }
 
-.toolbar-minor {
+.pc-toolbar-minor {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,14 +114,14 @@ const onClickMinor = () => {
     cursor: pointer;
 
     &:hover {
-        animation-name: toolbar-frame-glint;
+        animation-name: pc-toolbar-frame-glint;
         animation-duration: 1.4s;
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
     }
 }
 
-@keyframes toolbar-frame-glint {
+@keyframes pc-toolbar-frame-glint {
     0% {
         box-shadow: 0 .1vw .4vw #fff4, 0 .1vw .4vw #fff4 inset;
     }

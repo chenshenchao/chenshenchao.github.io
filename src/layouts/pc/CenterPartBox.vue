@@ -1,11 +1,11 @@
 <template>
-    <div class="center-part-box">
+    <div class="pc-center-part-box">
         <slot></slot>
     </div>
 </template>
 
 <style scoped lang="scss">
-.center-part-box {
+.pc-center-part-box {
     display: flex;
     flex-direction: column;
     flex-shrink: 1;

@@ -1,5 +1,5 @@
 <template>
-    <div class="form-number-input">
+    <div class="pc-form-number-input">
         <input :value="data.value" @input="onInput" @blur="onBlur" />
     </div>
 </template>
@@ -60,7 +60,7 @@ const onBlur = () => {
 </script>
 
 <style scoped lang="scss">
-.form-number-input {
+.pc-form-number-input {
     padding: .2em .4em;
     border: 1px solid #dfdfdf;
     border-radius: .2em;

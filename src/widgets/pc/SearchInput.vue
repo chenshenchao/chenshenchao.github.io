@@ -1,6 +1,6 @@
 <template>
-    <div class="search-input">
-        <div class="input">
+    <div class="pc-search-input">
+        <div class="pc-input">
             <input v-model="value" @keydown.enter.native="emit('search', value)" />
         </div>
         <button @click="emit('search', value)">搜索</button>
@@ -16,7 +16,7 @@ const value = ref("");
 </script>
 
 <style scoped lang="scss">
-.search-input {
+.pc-search-input {
     display: flex;
     flex-direction: row;
     justify-content: stretch;
@@ -25,7 +25,7 @@ const value = ref("");
     flex-shrink: 1;
     width: 100%;
 
-    &>.input {
+    &>.pc-input {
         display: flex;
         flex-grow: 1;
         flex-shrink: 1;

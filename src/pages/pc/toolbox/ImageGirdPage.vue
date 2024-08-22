@@ -1,5 +1,5 @@
 <template>
-    <center-part-layout ref="$el" class="image-gird-page">
+    <pc-center-part-layout ref="$el" class="pc-image-gird-page">
         <form-sheet class="image-info-pane" @submit.prevent>
             <form-row>
                 <label>行数：</label>
@@ -29,13 +29,13 @@
         <div class="image-preview">
             <img v-if="data.imageTarget" class="image-target" alt="target" :src="data.imageTarget" />
         </div>
-    </center-part-layout>
+    </pc-center-part-layout>
 </template>
 
 <script setup lang="ts">
 import { onBeforeMount, reactive, ref, watch, onMounted } from 'vue';
-import { useToolStore } from '../../stores/ToolStore';
-import CenterPartLayout from '../../layouts/CenterPartLayout.vue';
+import { useToolStore } from '../../../stores/ToolStore';
+import CenterPartLayout from '../../../layouts/pc/CenterPartLayout.vue';
 
 const $el = ref<InstanceType<typeof CenterPartLayout> | null>();
 const $cellInput = ref<HTMLInputElement>();
@@ -147,7 +147,7 @@ const onInputCell = (e: Event) => {
 </script>
 
 <style scoped lang="scss">
-.image-gird-page {
+.pc-image-gird-page {
     --cell-width: 4em;
     --cell-height: 4em;
 

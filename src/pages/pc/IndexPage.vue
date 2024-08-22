@@ -1,8 +1,8 @@
 <template>
     <noise-filter>
-        <double-column-layout class="index-page">
+        <pc-double-column-layout class="pc-index-page">
             <template v-slot:minor>
-                <sidebar @search="data.searchText = $event" />
+                <pc-sidebar @search="data.searchText = $event" />
             </template>
 
             <template v-slot:background>
@@ -10,7 +10,7 @@
                 <div class="background bottom"></div>
             </template>
 
-            <banner />
+            <pc-banner />
             <div v-for="archive in archives" class="archive-item">
                 <div v-if="archive.summary" class="archive-summary" v-html="archive.summary">
                 </div>
@@ -30,16 +30,16 @@
                 </div>
             </div>
             <div style="height: 4em;"></div>
-        </double-column-layout>
+        </pc-double-column-layout>
     </noise-filter>
 </template>
 
 <script setup lang="ts">
 import { onBeforeMount, reactive } from 'vue';
-import { marked } from '../archive';
+import { marked } from '../../archive';
 import { computedAsync } from '@vueuse/core';
-import { fetchPart } from '../utils/io';
-import { trimUtf8 } from '../utils/encode';
+import { fetchPart } from '../../utils/io';
+import { trimUtf8 } from '../../utils/encode';
 import { isEmpty } from 'lodash';
 import Utf8 from 'crypto-js/enc-utf8';
 import WordArray from 'crypto-js/lib-typedarrays';
@@ -88,7 +88,7 @@ onBeforeMount(async () => {
         return {
             ...i,
             path: `/archives/${i.path}`,
-            link: `/archive/${i.path}`,
+            link: `/pc/archive/${i.path}`,
             summary: i.summary ? await marked.parse(i.summary! + '...') : undefined,
         };
     });
@@ -100,7 +100,7 @@ onBeforeMount(async () => {
 </script>
 
 <style scoped lang="scss">
-.index-page {
+.pc-index-page {
     .archive-item {
         align-self: stretch;
         margin: 1vw;

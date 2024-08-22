@@ -1,10 +1,10 @@
 <template>
-    <center-part-layout class="archive-page">
+    <pc-center-part-layout class="pc-archive-page">
         <template v-slot:background>
             <div class="background"></div>
         </template>
 
-        <banner/>
+        <pc-banner/>
         <div class="archive-info">
             <div class="archive-info-item">
                 <span>创建日期：</span>
@@ -16,13 +16,13 @@
             </div>
         </div>
         <div class="archive-sheet" v-html="data.content"></div>
-    </center-part-layout>
+    </pc-center-part-layout>
 </template>
 
 <script setup lang="ts">
 import { computed, onActivated, reactive } from 'vue';
 import { type RouteLocationNormalizedLoaded, onBeforeRouteUpdate, useRoute } from 'vue-router';
-import { loadArchive } from '../archive';
+import { loadArchive } from '../../archive';
 
 const route = useRoute();
 
@@ -56,7 +56,7 @@ onBeforeRouteUpdate(async (to, _) => {
 </script>
 
 <style scoped lang="scss">
-.archive-page {
+.pc-archive-page {
     --archive-page-padding: 1vw;
 
     .archive-info {

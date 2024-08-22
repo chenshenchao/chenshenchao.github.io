@@ -1,5 +1,5 @@
 <template>
-    <div class="form-row">
+    <div class="pc-form-row">
         <slot></slot>
     </div>
 </template>
@@ -9,7 +9,7 @@
 </script>
 
 <style scoped lang="scss">
-.form-row {
+.pc-form-row {
     display: flex;
     flex-direction: row;
     align-items: center;

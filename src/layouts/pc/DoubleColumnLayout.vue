@@ -1,5 +1,5 @@
 <template>
-    <div class="double-column-layout">
+    <div class="pc-double-column-layout">
         <div class="content">
             <div class="major">
                 <slot></slot>
@@ -19,7 +19,7 @@
 </script>
 
 <style lang="scss" scoped>
-.double-column-layout {
+.pc-double-column-layout {
     display: flex;
     flex-direction: column;
     position: relative;

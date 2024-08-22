@@ -1,12 +1,12 @@
 <template>
-    <div v-show="visible" class="popup" :data-popup-id="id" ref="$el" :style="style">
+    <div v-show="visible" class="pc-popup" :data-popup-id="id" ref="$el" :style="style">
         <slot></slot>
     </div>
 </template>
 
 <script setup lang="ts">
 import { type Ref, computed, ref, onMounted, onBeforeUnmount, reactive, watch } from 'vue';
-import { getPosition } from '../utils/dom';
+import { getPosition } from '../../utils/dom';
 
 const $el: Ref<HTMLElement | undefined> = ref();
 
@@ -64,7 +64,7 @@ watch(() => props.visible, (_, __) => {
 </script>
 
 <style scoped lang="scss">
-.popup {
+.pc-popup {
     transition: 'transform .1s';
 }
 </style>

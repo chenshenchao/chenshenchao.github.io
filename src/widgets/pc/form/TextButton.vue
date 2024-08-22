@@ -1,5 +1,5 @@
 <template>
-    <button class="form-text-button" v-bind="$attrs">
+    <button class="pc-form-text-button" v-bind="$attrs">
         <slot></slot>
     </button>
 </template>
@@ -9,7 +9,7 @@
 </script>
 
 <style scoped lang="scss">
-.form-text-button {
+.pc-form-text-button {
     
 }
 </style>

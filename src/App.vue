@@ -5,7 +5,6 @@
         <component :is="Component"/>
       </keep-alive>
     </router-view>
-    <toolbar/>
   </div>
 </template>
 

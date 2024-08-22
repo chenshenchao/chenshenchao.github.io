@@ -1,13 +1,18 @@
 import { kebabCase } from "lodash";
 import { createRouter, createWebHashHistory } from "vue-router";
 import type { RouteRecordRaw, Router } from 'vue-router';
+import EnterPage from './pages/EnterPage.vue';
+import PcAppLayout from './layouts/pc/AppLayout.vue';
+import MdAppLayout from './layouts/md/AppLayout.vue';
 
 // 列举所有 vue 页文件，并加载其 meta 信息的 ts 文件。
-export const globPages = (): RouteRecordRaw[] => {
-    const metas = import.meta.glob('./pages/**/*Page.ts', { eager: true });
-    const pages = import.meta.glob('./pages/**/*Page.vue');
+export const mapPages = (
+    pages: Record<string, () => Promise<unknown>>,
+    metas: Record<string, unknown>,
+    mapMatch: (path: string) => RegExpMatchArray | null
+): RouteRecordRaw[] => {
     return Object.keys(pages)
-        .map(path => path.match(/.\/pages\/(.*)Page\.vue/))
+        .map(mapMatch)
         .filter((match): match is RegExpMatchArray => match !== null)
         .map(match => {
             const path = match[0];
@@ -24,18 +29,47 @@ export const globPages = (): RouteRecordRaw[] => {
                 meta: metas[metaPath] as any,
             };
         });
+}
+
+// 列举 PC 所有 vue 页文件，并加载其 meta 信息的 ts 文件。
+export const globPcPages = (): RouteRecordRaw[] => {
+    const metas = import.meta.glob('./pages/pc/**/*Page.ts', { eager: true });
+    const pages = import.meta.glob('./pages/pc/**/*Page.vue');
+    return mapPages(pages, metas, path => path.match(/.\/pages\/(.*)Page\.vue/));
 };
 
-export const routes = [
+// 列举 MD 所有 vue 页文件，并加载其 meta 信息的 ts 文件。
+export const globMdPages = (): RouteRecordRaw[] => {
+    const metas = import.meta.glob('./pages/md/**/*Page.ts', { eager: true });
+    const pages = import.meta.glob('./pages/md/**/*Page.vue');
+    return mapPages(pages, metas, path => path.match(/.\/pages\/(.*)Page\.vue/));
+};
+
+export const pcRoutes = globPcPages();
+export const mdRoutes = globMdPages();
+
+
+export const routes: RouteRecordRaw[] = [
     {
         path: '/',
-        component: () => import('./pages/IndexPage.vue'),
+        component: EnterPage,
     },
     {
-        path: '/archive/:path(.*)',
-        component: () => import('./pages/ArchivePage.vue'),
+        path: '/pc',
+        component: PcAppLayout,
+        children: [
+            {
+                path: '/pc/archive/:path(.*)',
+                component: () => import('./pages/pc/ArchivePage.vue'),
+            },
+            ...pcRoutes,
+        ],
     },
-    ...globPages(),
+    {
+        path: '/md',
+        component: MdAppLayout,
+        children: mdRoutes,
+    },
 ];
 
 export const createPageRouter = (): Router => {
@@ -46,7 +80,6 @@ export const createPageRouter = (): Router => {
 
     router.beforeEach(async (to, from) => {
         console.log('meta', to.meta, from);
-
         return true;
     });
 

@@ -1,5 +1,5 @@
 <template>
-    <div class="bits-image-page">
+    <div class="pc-bits-image-page">
 
     </div>
 </template>
@@ -9,7 +9,7 @@
 </script>
 
 <style lang="scss" scoped>
-.bits-image-page {
+.pc-bits-image-page {
     
 }
 </style>

@@ -1,12 +1,12 @@
 <template>
-    <div class="sidebar">
-        <div class="search-box">
-            <search-input @search="emit('search', $event)" />
+    <div class="pc-sidebar">
+        <div class="pc-search-box">
+            <pc-search-input @search="emit('search', $event)" />
         </div>
-        <div class="tools-box">
+        <div class="pc-tools-box">
             <h4>工具栏</h4>
-            <div class="tool-list">
-                <div v-for="route in toolboxRoutes" class="tool-item" @click="router.push(route.alias as string)">
+            <div class="pc-tool-list">
+                <div v-for="route in toolboxRoutes" class="pc-tool-item" @click="router.push(route.alias as string)">
                     <img :src="(route.meta?.iconUri as string)" />
                 </div>
             </div>
@@ -17,19 +17,19 @@
 <script lang="ts" setup>
 import { computed } from 'vue';
 import { useRouter, type _RouteRecordBase } from 'vue-router';
-import { routes } from '../router';
+import { pcRoutes } from '../../router';
 
 const emit = defineEmits(['search']);
 const router = useRouter();
 const toolboxRoutes = computed(() => {
-    return (routes as _RouteRecordBase[])
+    return (pcRoutes as _RouteRecordBase[])
         .filter(i => i.meta?.inToolbox == true);
 });
 // const data = reactive({});
 </script>
 
 <style lang="scss" scoped>
-.sidebar {
+.pc-sidebar {
     width: 18em;
     margin-top: 14vh;
 
@@ -37,7 +37,7 @@ const toolboxRoutes = computed(() => {
         text-indent: 1em;
     }
 
-    .search-box {
+    .pc-search-box {
         display: flex;
         flex-direction: column;
         height: 2.4em;
@@ -47,7 +47,7 @@ const toolboxRoutes = computed(() => {
         border: 1px solid #ddd;
     }
 
-    .tools-box {
+    .pc-tools-box {
         display: flex;
         flex-direction: column;
         margin-top: .4em;
@@ -55,12 +55,12 @@ const toolboxRoutes = computed(() => {
         box-sizing: border-box;
         border: 1px solid #ddd;
 
-        .tool-list {
+        .pc-tool-list {
             display: flex;
             flex-wrap: wrap;
             padding: .4em;
 
-            .tool-item {
+            .pc-tool-item {
                 display: flex;
                 flex-grow: 0;
                 flex-basis: 33.33%;

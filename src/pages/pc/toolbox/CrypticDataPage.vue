@@ -1,9 +1,9 @@
 <template>
-    <center-part-layout class="cryptic-data-page">
+    <pc-center-part-layout class="pc-cryptic-data-page">
         <encode-box />
         <hash-box />
         <time-box/>
-    </center-part-layout>
+    </pc-center-part-layout>
 </template>
 
 <script setup lang="ts">
@@ -13,7 +13,7 @@ import TimeBox from './cryptic/TimeBox.vue';
 </script>
 
 <style scoped lang="scss">
-.cryptic-data-page {
+.pc-cryptic-data-page {
     
 }
 </style>

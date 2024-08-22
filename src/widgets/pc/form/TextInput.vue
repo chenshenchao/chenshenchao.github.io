@@ -1,5 +1,5 @@
 <template>
-    <div class="form-text-input">
+    <div class="pc-form-text-input">
         <span v-if="props.readonly">{{ value }}</span>
         <input v-else v-model="value" />
     </div>
@@ -24,7 +24,7 @@ const value = computed({
 </script>
 
 <style scoped lang="scss">
-.form-text-input {
+.pc-form-text-input {
     display: flex;
     align-items: center;
     padding: .2em .4em;

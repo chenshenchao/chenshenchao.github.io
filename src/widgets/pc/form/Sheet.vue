@@ -1,5 +1,5 @@
 <template>
-    <form ref="$el" class="form-sheet" v-bind="$attrs">
+    <form ref="$el" class="pc-form-sheet" v-bind="$attrs">
         <slot></slot>
     </form>
 </template>
@@ -26,7 +26,7 @@ watch(() => props.labelWidth, (v) => {
 </script>
 
 <style scoped lang="scss">
-.form-sheet {
+.pc-form-sheet {
     --label-width: 4em;
 
     display: flex;
