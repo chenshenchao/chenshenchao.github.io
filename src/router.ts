@@ -2,8 +2,6 @@ import { kebabCase } from "lodash";
 import { createRouter, createWebHashHistory } from "vue-router";
 import type { RouteRecordRaw, Router } from 'vue-router';
 import EnterPage from './pages/EnterPage.vue';
-import PcAppLayout from './layouts/pc/AppLayout.vue';
-import MdAppLayout from './layouts/md/AppLayout.vue';
 
 // 列举所有 vue 页文件，并加载其 meta 信息的 ts 文件。
 export const mapPages = (
@@ -56,7 +54,7 @@ export const routes: RouteRecordRaw[] = [
     },
     {
         path: '/pc',
-        component: PcAppLayout,
+        component: () => import('./layouts/pc/AppLayout.vue'),
         children: [
             {
                 path: '/pc/archive/:path(.*)',
@@ -67,7 +65,7 @@ export const routes: RouteRecordRaw[] = [
     },
     {
         path: '/md',
-        component: MdAppLayout,
+        component: () => import('./layouts/md/AppLayout.vue'),
         children: mdRoutes,
     },
 ];
