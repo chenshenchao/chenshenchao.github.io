@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vueexport-helper-c27b6911.js";import{A as _,B as t}from"./@vue-9cc5f714.js";const c={},s={class:"pc-bits-image-page"};function a(o,n){return _(),t("div",s)}const p=e(c,[["render",a],["__scopeId","data-v-b4c79ee2"]]);export{p as default};

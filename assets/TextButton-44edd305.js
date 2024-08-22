@@ -1,1 +1,0 @@
-import{_ as t}from"./plugin-vueexport-helper-c27b6911.js";import{F as o,B as s,Y as n,a0 as r}from"./@vue-65204f66.js";const a={};function _(e,c){return o(),s("button",r({class:"form-text-button"},e.$attrs),[n(e.$slots,"default",{},void 0,!0)],16)}const f=t(a,[["render",_],["__scopeId","data-v-638ac540"]]);export{f as default};
