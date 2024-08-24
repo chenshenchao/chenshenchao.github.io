@@ -1,22 +1,22 @@
 <template>
     <pc-center-part-layout ref="$el" class="pc-image-gird-page">
-        <form-sheet class="image-info-pane" @submit.prevent>
-            <form-row>
+        <pc-form-sheet class="image-info-pane" @submit.prevent>
+            <pc-form-row>
                 <label>行数：</label>
-                <form-number-input v-model="tool.imageGird.rowCount" :precision="0" />
+                <pc-form-number-input v-model="tool.imageGird.rowCount" :precision="0" />
                 <label>列数：</label>
-                <form-number-input v-model="tool.imageGird.columnCount" :precision="0" />
-            </form-row>
-            <form-row>
+                <pc-form-number-input v-model="tool.imageGird.columnCount" :precision="0" />
+            </pc-form-row>
+            <pc-form-row>
                 <label>宽：</label>
-                <form-number-input v-model="tool.imageGird.imageWidth" :precision="0" />
+                <pc-form-number-input v-model="tool.imageGird.imageWidth" :precision="0" />
                 <label>长：</label>
-                <form-number-input v-model="tool.imageGird.imageHeight" :precision="0" />
-            </form-row>
-            <form-row>
-                <form-text-button @click="onClickGenerate">生成</form-text-button>
-            </form-row>
-        </form-sheet>
+                <pc-form-number-input v-model="tool.imageGird.imageHeight" :precision="0" />
+            </pc-form-row>
+            <pc-form-row>
+                <pc-form-text-button @click="onClickGenerate">生成</pc-form-text-button>
+            </pc-form-row>
+        </pc-form-sheet>
 
         <div class="image-gird">
             <div v-for="(row, i) in data.cells" class="image-row">

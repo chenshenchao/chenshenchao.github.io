@@ -4,7 +4,7 @@
             <div class="background"></div>
         </template>
 
-        <pc-banner/>
+        <pc-banner />
         <div class="archive-info">
             <div class="archive-info-item">
                 <span>创建日期：</span>
@@ -64,11 +64,13 @@ onBeforeRouteUpdate(async (to, _) => {
         position: absolute;
         top: 0;
         right: 0;
+        z-index: 1000;
         margin: var(--archive-page-padding);
         padding: .4vw;
         font-size: .6vw;
         color: gray;
         background-color: white;
+        // mix-blend-mode: difference;
 
         .archive-info-item {
             margin-left: 1em;

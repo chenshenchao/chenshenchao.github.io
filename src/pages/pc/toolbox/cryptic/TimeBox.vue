@@ -1,29 +1,29 @@
 <template>
-    <center-part-box class="pc-toolbox-cryptic-time-box">
+    <pc-center-part-box class="pc-toolbox-cryptic-time-box">
         <h2>时间</h2>
-        <form-sheet label-width="8em">
-            <form-row>
+        <pc-form-sheet label-width="8em">
+            <pc-form-row>
                 <label>时间戳值：</label>
-                <form-text-input v-model="data.timestampText"/>
-            </form-row>
-            <form-row>
+                <pc-form-text-input v-model="data.timestampText" />
+            </pc-form-row>
+            <pc-form-row>
                 <label>时间格式：</label>
-                <form-text-input v-model="store.time.timestampFormat"/>
-            </form-row>
-            <form-row>
+                <pc-form-text-input v-model="store.time.timestampFormat" />
+            </pc-form-row>
+            <pc-form-row>
                 <label>时间戳文本：</label>
-                <form-text-input v-model="timestampResult" readonly/>
-            </form-row>
-            <form-row>
+                <pc-form-text-input v-model="timestampResult" readonly />
+            </pc-form-row>
+            <pc-form-row>
                 <label>日期文本：</label>
-                <form-text-input v-model="data.dateText"/>
-            </form-row>
-            <form-row>
+                <pc-form-text-input v-model="data.dateText" />
+            </pc-form-row>
+            <pc-form-row>
                 <label>日期时间戳值：</label>
-                <form-text-input v-model="dateResult" readonly/>
-            </form-row>
-        </form-sheet>
-    </center-part-box>
+                <pc-form-text-input v-model="dateResult" readonly />
+            </pc-form-row>
+        </pc-form-sheet>
+    </pc-center-part-box>
 </template>
 
 <script setup lang="ts">
@@ -58,7 +58,6 @@ const dateResult = computed(() => {
 </script>
 
 <style scoped lang="scss">
-
 .pc-toolbox-cryptic-time-box {
     background-color: white;
 }

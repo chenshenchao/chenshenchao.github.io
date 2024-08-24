@@ -1,12 +1,12 @@
 <template>
-    <center-part-box class="pc-toolbox-cryptic-encode-box">
+    <pc-center-part-box class="pc-toolbox-cryptic-encode-box">
         <h2>编码与解码</h2>
-        <form-textarea v-model="data.originText" rows="4"></form-textarea>
+        <pc-form-textarea v-model="data.originText" rows="4"></pc-form-textarea>
         <label>Hex 编码：</label>
         <p>{{ encodeHexText }}</p>
         <label>Base64 编码：</label>
         <p>{{ encodeBase64Text }}</p>
-    </center-part-box>
+    </pc-center-part-box>
 </template>
 
 <script setup lang="ts">

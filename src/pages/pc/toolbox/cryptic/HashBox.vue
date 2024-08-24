@@ -1,12 +1,12 @@
 <template>
-    <center-part-box class="pc-toolbox-cryptic-hash-box">
+    <pc-center-part-box class="pc-toolbox-cryptic-hash-box">
         <h2>散列</h2>
-        <form-textarea v-model="data.originText" rows="4"></form-textarea>
+        <pc-form-textarea v-model="data.originText" rows="4"></pc-form-textarea>
         <label>MD5 (Hex)</label>
         <p>{{ md5HexText }}</p>
         <label>MD5 (Base64)</label>
         <p>{{ md5Base64Text }}</p>
-    </center-part-box>
+    </pc-center-part-box>
 </template>
 
 <script setup lang="ts">

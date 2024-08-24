@@ -34,6 +34,12 @@ const value = ref("");
             width: 100%;
             border: 1px solid #ddd;
             outline: none;
+
+            transition: all .5s;
+
+            &:focus {
+                border: 1px solid #49f;
+            }
         }
     }
 
@@ -45,9 +51,16 @@ const value = ref("");
         border: 1px solid #ddd;
         cursor: pointer;
 
+        transition: all .5s;
+
         &:active {
             color: #fff;
             background-color: #eee;
+        }
+
+        &:hover {
+            color: #49f;
+            border: 1px solid #49f;
         }
     }
 }

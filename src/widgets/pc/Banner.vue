@@ -29,7 +29,8 @@ const router = useRouter();
         width: var(--pc-logo-size);
         height: var(--pc-logo-size);
         margin: var(--pc-logo-margin);
-        border: 1px solid #fff;
+        border: 1px solid #fff4;
+        user-select: none;
 
         transition: all 1s;
 
@@ -37,19 +38,19 @@ const router = useRouter();
             --size: calc(var(--pc-logo-size) - 10%);
             width: var(--size);
             height: var(--size);
-            background-color: #fff;
-            user-select: none;
-            filter: contrast(1);
+            background-color: transparent;
+            filter: contrast(0);
 
             transition: all 1s;
 
             &:hover {
+                background-color: #fff;
                 filter: contrast(4);
             }
         }
 
         &:hover {
-            border: 1px solid #49f;
+            border: 1px solid #49f4;
         }
     }
 
