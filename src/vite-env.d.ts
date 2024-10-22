@@ -10,3 +10,8 @@ declare class ArchiveInfo {
 }
 
 declare const __ARICHIVES__: ArchiveInfo[]
+
+declare module "*.vue" {
+    import type { DefineComponent } from "vue";
+    export default DefineComponent<{}, {}, any>;
+}

@@ -1,5 +1,6 @@
 import { defineStore } from "pinia";
 import { ref } from "vue";
+import { getMediaType } from "../utils/media";
 
 export const useAppStore = defineStore('app', () => {
     const style = ref({
@@ -8,10 +9,12 @@ export const useAppStore = defineStore('app', () => {
         // background: '#161618',
         background: '#ededed',
     });
-    const hasBack = ref(false);
+    const canBack = ref(false);
+    const mediaType = ref(getMediaType());
     return {
         style,
-        hasBack,
+        canBack,
+        mediaType,
     };
 }, {
     persist: true,

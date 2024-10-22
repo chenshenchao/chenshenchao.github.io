@@ -1,7 +1,8 @@
 import { kebabCase } from "lodash";
 import { createRouter, createWebHashHistory } from "vue-router";
-import type { RouteRecordRaw, Router } from 'vue-router';
+import type { RouteLocationNormalized, RouteRecordRaw, Router } from 'vue-router';
 import EnterPage from './pages/EnterPage.vue';
+import { useAppStore } from "./stores/AppStore";
 
 // 列举所有 vue 页文件，并加载其 meta 信息的 ts 文件。
 export const mapPages = (
@@ -70,6 +71,24 @@ export const routes: RouteRecordRaw[] = [
     },
 ];
 
+    
+export const swapMedia = (to: RouteLocationNormalized) => {
+    const appStore = useAppStore();
+    switch (appStore.mediaType) {
+        case "mobile":
+            if (!to.path.startsWith("/md")) {
+                return { path: "/md/index" };
+            }
+            break;
+        case "pc":
+            if (!to.path.startsWith("/pc")) {
+                return { path: "/pc/index" };
+            }
+            break;
+    }
+    return null;
+}
+
 export const createPageRouter = (): Router => {
     const router = createRouter({
         history: createWebHashHistory(),
@@ -77,8 +96,21 @@ export const createPageRouter = (): Router => {
     });
 
     router.beforeEach(async (to, from) => {
+        const mediaAction = swapMedia(to);
+        if (mediaAction) {
+            return mediaAction;
+        }
+
         console.log('meta', to.meta, from);
+        if (to.meta?.title) {
+            document.title = to.meta.title as string;
+        }
         return true;
+    });
+
+    router.afterEach(() => {
+        const appStore = useAppStore();
+        appStore.canBack = router.options.history.state.back != null;
     });
 
     return router;

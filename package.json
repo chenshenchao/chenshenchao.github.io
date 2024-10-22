@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vueuse/core": "^10.5.0",
+    "@vueuse/core": "^10.11.1",
     "crypto-js": "^4.1.1",
     "date-fns": "^2.30.0",
     "gif.js": "^0.2.0",
@@ -33,6 +33,7 @@
     "@types/lodash": "^4.14.199",
     "@types/node": "^20.8.4",
     "@vitejs/plugin-vue": "^4.2.3",
+    "postcss-px-to-viewport-8-plugin": "^1.2.5",
     "sass": "^1.68.0",
     "simple-git": "^3.20.0",
     "typescript": "^5.0.2",

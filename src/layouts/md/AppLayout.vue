@@ -1,4 +1,5 @@
 <template>
+    <md-topbar/>
     <router-view v-slot="{ Component }">
         <keep-alive>
             <component :is="Component" />
@@ -7,5 +8,6 @@
 </template>
 
 <script lang="ts" setup>
+
 
 </script>

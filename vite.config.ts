@@ -3,6 +3,7 @@ import vue from '@vitejs/plugin-vue';
 import _ from 'lodash'; // CommonJs 不支持 import { trim } from 'lodash';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
+import pxToViewport8 from "postcss-px-to-viewport-8-plugin";
 import { globArchivesAsync } from './inc/archive';
 
 // GitHub Pages 静态服务器不支持在路径里的符号（以下正则）和 _ 开头
@@ -40,6 +41,25 @@ export default defineConfig(async ({ command, mode }) => {
             return _.trim(name, '_').replace(INVALID_CHAR_REGEX, "");
           },
         },
+      },
+    },
+    css: {
+      postcss: {
+        plugins: [
+          pxToViewport8({
+            unitToConvert: 'px',
+            unitPrecision: 5, // 单位转换后保留的精度
+            propList: ['*'], // 能转化为vw的属性列表
+            viewportWidth: 375,
+            viewportUnit: "vw",
+            fontViewportUnit: 'vw', // 字体使用的视口单位
+            include: [/\/md\//],
+            exclude: [/node_modules/],
+            minPixelValue: 1,
+            mediaQuery: true,
+            replace: true,
+          }),
+        ],
       },
     },
   };

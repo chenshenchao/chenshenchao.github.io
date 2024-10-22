@@ -7,6 +7,7 @@ import 'highlight.js/styles/github.css';
 import 'normalize.css';
 import './style.scss';
 import './theme-pc.scss';
+import './theme-md.scss';
 import App from './App.vue';
 
 const state = createPersistedState({
