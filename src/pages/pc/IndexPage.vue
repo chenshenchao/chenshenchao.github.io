@@ -40,7 +40,7 @@ import { marked } from '../../archive';
 import { computedAsync } from '@vueuse/core';
 import { fetchPart } from '../../utils/io';
 import { trimUtf8 } from '../../utils/encode';
-import { isEmpty } from 'lodash';
+import { isEmpty, lowerCase } from 'lodash';
 import Utf8 from 'crypto-js/enc-utf8';
 import WordArray from 'crypto-js/lib-typedarrays';
 
@@ -55,7 +55,7 @@ const data = reactive({
 } as {
     archiveEnd: number,
     archives: ArchiveBoxInfo[],
-    searchText: String,
+    searchText: string,
 });
 
 const archives = computedAsync(
@@ -66,8 +66,7 @@ const archives = computedAsync(
                 if (isEmpty(i.title)) {
                     return false;
                 } else {
-                    // @ts-ignore
-                    return i.title!.indexOf(data.searchText) >= 0;
+                    return lowerCase(i.title!).indexOf(lowerCase(data.searchText)) >= 0;
                 }
             }
             return true;
