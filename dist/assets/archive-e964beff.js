@@ -1,1 +1,0 @@
-import{H as r}from"./highlight.js-23c08a4f.js";import{M as i}from"./marked-59892390.js";import{m as s}from"./marked-highlight-d2522e5a.js";const g=new i(s({langPrefix:"hljs language-",highlight(t,a){const e=r.getLanguage(a)?a:"plaintext";return r.highlight(t,{language:e}).value}})),l=async t=>{const e=await(await fetch(t)).text();return await g.parse(e)};export{l,g as m};
