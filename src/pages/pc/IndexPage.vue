@@ -105,6 +105,10 @@ onBeforeMount(async () => {
         .archive-summary {
             padding: 1vw;
             background-color: #f4f4f4;
+
+            :deep(p) {
+                text-indent: 2em;
+            }
         }
 
         .archive-info {

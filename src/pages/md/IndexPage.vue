@@ -102,17 +102,22 @@ onBeforeMount(async () => {
     padding: 2vw;
     background-color: #fff;
     box-shadow: 1vw 1vw 1vw #4444;
+    font-size: 14px;
 }
 
 .archive-summary {
     font-size: 4vw;
 
-    h1 {
-        font-size: 4vw !important;
+    :deep(h1) {
+        font-size: 24px;
+    }
+    :deep(h2) {
+        font-size: 20px;
     }
 
-    p {
-        color: red;
+    :deep(p) {
+        font-size: 14px;
+        text-indent: 2em;
     }
 }
 </style>
