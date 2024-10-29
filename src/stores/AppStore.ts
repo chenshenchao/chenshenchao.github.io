@@ -11,10 +11,13 @@ export const useAppStore = defineStore('app', () => {
     });
     const canBack = ref(false);
     const mediaType = ref(getMediaType());
+    const title = ref(document.title);
+    
     return {
         style,
         canBack,
         mediaType,
+        title,
     };
 }, {
     persist: true,

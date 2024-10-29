@@ -9,6 +9,10 @@ declare class ArchiveInfo {
     modifyAt?: string;
 }
 
+declare class ArchiveBoxInfo extends ArchiveInfo {
+    link: string;
+}
+
 declare const __ARICHIVES__: ArchiveInfo[]
 
 declare module "*.vue" {

@@ -1,4 +1,5 @@
 import hljs from "highlight.js";
+import _ from "lodash";
 import { Marked } from "marked";
 import { markedHighlight } from "marked-highlight";
 
@@ -11,6 +12,12 @@ export const marked = new Marked(
         },
     })
 );
+
+export const getArchiveTitle = (content: string) => {
+    const titleEnd = content.indexOf('\n');
+    const title = titleEnd > 0 ? _.trim(content.substring(0, titleEnd), ' #') : '';
+    return title.replace(/<.+?>/g, '');
+}
 
 export const loadArchive = async (url: string) => {
     const response = await fetch(url);

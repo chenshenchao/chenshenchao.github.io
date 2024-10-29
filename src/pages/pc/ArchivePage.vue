@@ -84,6 +84,10 @@ onBeforeRouteUpdate(async (to, _) => {
         padding: 1vw;
         flex-shrink: 1;
         background-color: white;
+
+        :deep(p) {
+            text-indent: 2em;
+        }
     }
 
     .background {

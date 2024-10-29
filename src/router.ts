@@ -67,11 +67,17 @@ export const routes: RouteRecordRaw[] = [
     {
         path: '/md',
         component: () => import('./layouts/md/AppLayout.vue'),
-        children: mdRoutes,
+        children: [
+            {
+                path: '/md/archive/:path(.*)',
+                component: () => import('./pages/md/ArchivePage.vue'),
+            },
+            ...mdRoutes,
+        ],
     },
 ];
 
-    
+
 export const swapMedia = (to: RouteLocationNormalized) => {
     const appStore = useAppStore();
     switch (appStore.mediaType) {
@@ -110,6 +116,7 @@ export const createPageRouter = (): Router => {
 
     router.afterEach(() => {
         const appStore = useAppStore();
+        appStore.title = document.title;
         appStore.canBack = router.options.history.state.back != null;
     });
 

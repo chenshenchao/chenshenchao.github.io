@@ -44,10 +44,6 @@ import { isEmpty, lowerCase } from 'lodash';
 import Utf8 from 'crypto-js/enc-utf8';
 import WordArray from 'crypto-js/lib-typedarrays';
 
-declare class ArchiveBoxInfo extends ArchiveInfo {
-    link: string;
-}
-
 const data = reactive({
     archiveEnd: 10,
     archives: [],
