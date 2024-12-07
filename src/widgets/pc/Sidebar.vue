@@ -25,7 +25,6 @@ const toolboxRoutes = computed(() => {
     return (pcRoutes as _RouteRecordBase[])
         .filter(i => i.meta?.inToolbox == true);
 });
-// const data = reactive({});
 </script>
 
 <style lang="scss" scoped>
@@ -67,6 +66,7 @@ const toolboxRoutes = computed(() => {
                 justify-content: center;
                 align-items: center;
                 cursor: pointer;
+                aspect-ratio: 1;
 
                 &>img {
                     width: 90%;

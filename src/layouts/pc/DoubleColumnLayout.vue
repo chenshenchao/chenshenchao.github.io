@@ -30,6 +30,7 @@
     .content {
         display: flex;
         flex-direction: row;
+        flex-grow: 1;
         position: relative;
 
         .major {

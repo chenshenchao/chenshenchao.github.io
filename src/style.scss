@@ -1,4 +1,15 @@
-html, body, #app {
+html,
+body,
+#app {
   width: 100%;
   height: 100%;
+}
+
+@font-face {
+  font-family: ebas927;
+  src: url("/fonts/ebas927.ttf");
+}
+
+.font-ebas927 {
+  font-family: ebas927;
 }
