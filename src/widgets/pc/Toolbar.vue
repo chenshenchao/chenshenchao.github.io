@@ -60,19 +60,21 @@ const onClickMinor = () => {
         flex-direction: column;
         flex-shrink: 1;
         justify-content: center;
-        align-items: center;
+        align-items: stretch;
         margin: .4vw;
         cursor: pointer;
 
-        filter: drop-shadow(1px 1px 1px #4444);
+        filter: drop-shadow(1px 1px 1px hsla(0, 0%, 43%, 0.267));
 
         img {
             width: 3.4vw;
+            border: .24vw solid #ddd;
             border-radius: 1vw;
             user-select: none;
         }
 
         span {
+            text-align: center;
             margin-top: .4vw;
             padding: .2vw .4vw;
             font-size: .6vw;

@@ -16,7 +16,7 @@
                 </div>
                 <router-link v-else :to="archive.link">{{ archive.title }}</router-link>
                 <div class="archive-info">
-                    <div v-if="archive.summary" class="archive-info-item">
+                    <div v-if="archive.summary" class="archive-info-link">
                         <router-link :to="archive.link">查看全文</router-link>
                     </div>
                     <div class="archive-info-item">
@@ -116,6 +116,15 @@ onBeforeMount(async () => {
             align-items: stretch;
             color: gray;
             font-size: .84vw;
+
+            .archive-info-link {
+                padding: 1vw 1vw 0 0;
+                user-select: none;
+
+                a {
+                    color: gray;
+                }
+            }
 
             .archive-info-item {
                 padding: 1vw 1vw 0 0;
