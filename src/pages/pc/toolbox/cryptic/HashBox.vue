@@ -33,6 +33,6 @@ const md5Base64Text = computed(() => {
 
 <style scoped lang="scss">
 .pc-toolbox-cryptic-hash-box {
-    background-color: white;
+    
 }
 </style>

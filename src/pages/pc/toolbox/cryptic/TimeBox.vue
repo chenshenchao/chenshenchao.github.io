@@ -59,6 +59,6 @@ const dateResult = computed(() => {
 
 <style scoped lang="scss">
 .pc-toolbox-cryptic-time-box {
-    background-color: white;
+    
 }
 </style>

@@ -33,6 +33,6 @@ const encodeBase64Text = computed(() => {
 
 <style scoped lang="scss">
 .pc-toolbox-cryptic-encode-box {
-    background-color: white;
+    
 }
 </style>

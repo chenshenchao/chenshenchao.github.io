@@ -12,6 +12,7 @@
     margin: 1vw;
     padding: 1vw;
     align-self: stretch;
+    background-color: white;
 
     :deep(h2) {
         color: #444444;
