@@ -12,12 +12,14 @@ export const useAppStore = defineStore('app', () => {
     const canBack = ref(false);
     const mediaType = ref(getMediaType());
     const title = ref(document.title);
+    const isLoading = ref(false);
     
     return {
         style,
         canBack,
         mediaType,
         title,
+        isLoading,
     };
 }, {
     persist: true,

@@ -5,16 +5,28 @@
             <pc-form-textarea v-model="originText" rows="14"></pc-form-textarea>
         </pc-center-part-box>
         <pc-center-part-box class="text-box font-ebas927">
-            <h2><span>小篆</span><span class="download-link" @click="onClickDownload('ebas927')">下载</span></h2>
+            <h2><span>小篆</span><span class="download-link" @click="onClickDownload(fontEbas927!.family)">下载</span></h2>
             <pc-form-textarea v-model="originText" rows="4"></pc-form-textarea>
         </pc-center-part-box>
     </pc-center-part-layout>
 </template>
 
 <script lang="ts" setup>
+import { computedAsync } from '@vueuse/core';
 import { ref } from 'vue';
+import { loadFont } from '../../../utils/font';
+import { useAppStore } from '../../../stores/AppStore';
+
+const appStore = useAppStore();
 
 const originText = ref("天若有情天亦老，道是無情道亦公。");
+const fontEbas927 = computedAsync(async (onCancel) => {
+    appStore.isLoading = true;
+    onCancel(() => appStore.isLoading = false);
+    const f = await loadFont('ebas927', '/fonts/ebas927.ttf');
+    appStore.isLoading = false;
+    return f;
+}, null);
 
 const drawText = async (fontFamily: string): Promise<Blob | null> => {
     const canvas = document.createElement('canvas');
