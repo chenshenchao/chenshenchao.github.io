@@ -95,5 +95,10 @@ onBeforeRouteUpdate(async (to, _) => {
         height: 24vh;
         background: #444;
     }
+
+    :deep(code) {
+        border: 0.1em solid #4444;
+        box-shadow: 0.1em 0.1em 0.1em #4444;
+    }
 }
 </style>

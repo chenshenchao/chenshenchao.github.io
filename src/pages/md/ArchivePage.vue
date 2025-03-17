@@ -83,5 +83,10 @@ onBeforeRouteUpdate(async (to, _) => {
     :deep(p) {
         text-indent: 2em;
     }
+
+    :deep(code) {
+        border: 0.1em solid #4444;
+        box-shadow: 0.1em 0.1em 0.1em #4444;
+    }
 }
 </style>
