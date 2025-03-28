@@ -26,6 +26,19 @@ git branch -u remote_origin_name/remote_branch_name local_branch_name
 git branch -u remote_origin_name branch_name
 ```
 
+## 日志（log）
+
+```bash
+# 打印图 --graph
+# 格式 --pretty https://git-scm.com/docs/pretty-formats
+# %H commit hash 提交的散列
+# %h abbreviated commit hash 提交的散列缩写
+# %ad author date 提交的日期
+# %s subject 提交的消息内容
+# %an author 提交的作者
+git log --pretty=format:"%h %ad | %s [%an]" --graph --date=short
+```
+
 ## 差异（diff）
 
 ```bash
@@ -34,6 +47,29 @@ git diff
 
 # 查看修改差异（指定文件）
 git diff path/to/file
+```
+
+## 删除（rm）
+
+git rm 只删除当前提交内的文件和历史。要全部时期删除需要利用 git filter-branch
+
+```bash
+# 删除指定文件同时包括它的历史记录。
+git rm path/to/file
+
+# 只删除历史记录
+git rm --cached path/to/file
+
+# 删除不匹配（路径错了）而失败时不报错。多和批量操作连用防止报错导致接下来直接退出不执行后续。
+git rm --ignore-unmatch path/to/file
+```
+
+## 垃圾回收（gc）
+
+```bash
+# --aggressive 更耗时，但是优化更好。
+# --prune 修剪松散对象，可指定日期，=now 全部。
+git gc --aggressive --prune=now
 ```
 
 ## 子树（subtree）
@@ -55,6 +91,22 @@ git submodule update
 
 # 更新子模块（一步到位）
 git submodule update --init --recursive
+```
+
+## 过滤分支（filter-branch）
+
+实则是遍历分支并附带各种操作。
+
+```bash
+# 遍历分支执行 git rm -r --cached --ignore-unmatch ./dir 命令
+# 所以要确保被删除的目录是整个都被删除的，不然会把整个目录的历史清掉。
+# 也可以只指定单个文件，这个时候不需要 -r 
+# --prune-empty
+# --force 强制
+# --tag-name-filter cat  执行 cat [tag-name] ，这样会打印各个 tag 的信息
+# --index-filter '要执行的命令行'
+# 注：Windows 下用双引号 "git rm ..."
+git filter-branch --prune-empty --force --tag-name-filter cat --index-filter 'git rm -r --cached --ignore-unmatch ./dir' -- --all
 ```
 
 ## 钩子（Hook）
