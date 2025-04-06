@@ -1,4 +1,4 @@
-# dotnet ef
+# dotnet ef 速查
 
 ```bash
 # 安装 命令行工具

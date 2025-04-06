@@ -1,4 +1,4 @@
-# curl
+# curl 速查
 
 ```bash
 # 使用代理

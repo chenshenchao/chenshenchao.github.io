@@ -1,4 +1,4 @@
-# MySQL 手册
+# MySQL 速查
 
 ## mysql 客户端命令
 
