@@ -1,5 +1,21 @@
 # Git 速查
 
+```bash
+# 初始化，会生成 .get 目录
+git init
+
+# 把修改加入
+git add .
+
+# 提交
+git commit -m "提交备注信息"
+
+# 推送远程
+# --force 强制
+# --all 全部
+git push origin --force --all
+```
+
 ## 克隆（clone）
 
 ```bash

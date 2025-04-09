@@ -1,14 +1,16 @@
-# dotnet ef 速查
+# dotnet 速查
 
 ```bash
-# 安装 命令行工具
+# 安装 ef 命令行工具
 dotnet tool install --global dotnet-ef
 
-# 更新 命令行工具
+# 更新 ef 命令行工具
 dotnet tool update --global dotnet-ef
 ```
 
-## 迁移（Migration）
+## dotnet ef 工具
+
+### 迁移（Migration）
 
 迁移用于定义数据库生成结构脚本，这样每次都能通过这个脚本还原数据库的结构。
 迁移有幂等和顺序的特点，可以随时恢复到某个时间段的数据结构。但是不保证数据的恢复。所以迁移主要用于开发和部署，以及线上更新到最新的数据结构。
@@ -27,7 +29,7 @@ dotnet ef migrations list
 dotnet ef database update -v -- --environment Production
 ```
 
-## DbFirst（Database First）
+### DbFirst（Database First）
 
 通过数据库生成结构代码。
 
@@ -42,7 +44,7 @@ dotnet ef dbcontext scaffold "Data Source=demo.db" "Microsoft.EntityFrameworkCor
 dotnet ef dbcontext scaffold "server=127.0.0.1;port=3306;database=demo;uid=root;pwd=password;CharSet=utf8mb4;SslMode=none" "MySql.EntityFrameworkCore" -o Entities --data-annotations --no-onconfiguring -c YourDbContext -f -v
 ```
 
-## 打包
+### 打包
 
 把迁移脚本打包成一个可执行文件 efbundle 解决源码不好发布出去的问题。
 运行 efbundle 相当于执行 dotnet ef migrations update 命令。
@@ -57,7 +59,7 @@ dotnet ef migrations bundle --self-contained
 dotnet ef migrations bundle --self-contained -r linux-x64
 ```
 
-## 通过代码运行
+### 通过代码运行
 
 ```csharp
 public static async Task Main(string[] args)
