@@ -146,3 +146,31 @@ chown -R www:www .
 wget --post-data 'user=git&password=PASSWORD&other=info' 'http://your.webhook.com'
 curl -d 'user=git&password=PASSWORD&other=info' 'http://your.webhook.com'
 ```
+
+## 大文件存储 LFS
+
+```bash
+# 安装
+git lfs install
+
+# LFS 加入监听指定后缀的文件
+git lfs track "*.bin"
+```
+
+## 第三方插件
+
+### git-filter-repo
+
+```bash
+# 安装
+pip install git-filter-repo
+
+# 清理 大于 100M 的文件。
+git filter-repo --strip-blobs-bigger-than 100M
+
+# 重新配置远程仓库
+git remote add origin <your_repo_url>
+
+# 推
+git push -u origin main
+```
