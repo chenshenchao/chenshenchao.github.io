@@ -1,4 +1,6 @@
-# pip 速查
+# python 速查
+
+## pip
 
 Python 自带的包管理器。
 

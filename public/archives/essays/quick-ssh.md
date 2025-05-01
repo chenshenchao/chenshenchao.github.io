@@ -73,7 +73,10 @@ scp  -i ~/yout_key -r /local/path/ root@remote_ip:/remote/path/
 
 ## sshd
 
-### Win10 OpenSSH 配置
+### Windows 下 OpenSSH Server 配置
+
+“设置” 搜索 “可选功能” 添加 "OpenSSH 服务器"。
+
 
 默认配置路径：C:\ProgramData\ssh\sshd_config
 
