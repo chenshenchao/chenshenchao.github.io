@@ -38,6 +38,25 @@ rustup target list
 rustup show
 ```
 
+### toolchain
+
+```bash
+# 查看 帮助
+rustup help toolchain
+
+# 查看 工具链列表
+rustup toolchain list
+
+# 安装 指定的工具链 1.75.0-x86_64-pc-windows-msvc
+rustup install 1.75.0-x86_64-pc-windows-msvc
+
+# 切换到 1.75.0-x86_64-pc-windows-msvc 这个工具链
+rustup default 1.75.0-x86_64-pc-windows-msvc
+
+# 切回目前最新的版本
+rustup default stable-x86_64-pc-windows-msvc
+```
+
 ## C 混编的问题
 
 ### glibc 不匹配报错
@@ -97,6 +116,7 @@ registry = "git://mirrors.ustc.edu.cn/crates.io-index"
 [source.tuna]
 registry = "https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git"
 
+# 指定 msvc 静态链接 crt
 [target.x86_64-pc-windows-msvc]
 rustflags = ["-C", "target-feature=+crt-static"]
 ```
@@ -124,6 +144,11 @@ cargo build --bin yourapp
 
 # 指定编译目标
 cargo build --release --target=x86_64-unknown-linux-musl
+```
+
+```bash
+# 回退库 cargo_metadata 到指定版本
+cargo update -p cargo_metadata --precise 0.19.0
 ```
 
 ### cargo generate
@@ -223,3 +248,18 @@ fi
 - [sqlx](https://github.com/launchbadge/sqlx)
 - [diesel](https://github.com/diesel-rs/diesel)
 - [rusqlite](https://github.com/rusqlite/rusqlite)
+
+
+## 兼容
+
+### 兼容 Windows 7
+
+rust 为了支持 Windows 7 必须使用 1.75.0 版本。
+
+```bash
+# 安装 1.75.0 版本
+rustup install 1.75.0
+
+# 切换工具链
+rustup default 1.75.0-x86_64-pc-windows-msvc
+```
