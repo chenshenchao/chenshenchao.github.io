@@ -1,5 +1,6 @@
 # Lazarus 速查
 
+- *.lpg Lazarus 项目组文件（XML 源码文件）
 - *.lpi Lazarus 项目文件（XML 源码文件）
 - *.lpr Lazarus 项目主要源码（Pascal 源码文件）
 - *.lps Lazarus 项目文件（XML 源码文件）
@@ -25,6 +26,10 @@
 
 - AnchorDocking 用来把四散的 IDE 窗口合并到一起。
 - AnchorDockingDsgn 用来把四散的 IDE 窗口合并到一起。
+- pas2jsdsgn 转换 Pascal 成 JS 的 pas2js 库的设计器。
+- DCPcrypt 一个加密算法包。
+- [CEF4Delphi](https://github.com/salvadordf/CEF4Delphi) 一个跨平台的 CEF WebView 的封装，（在线软件包可下载，依赖 DCPcrypt）。
+- [WebView4Delphi](https://github.com/salvadordf/WebView4Delphi) 一个 Windows 下 WebView2 的封装，（在线软件包可下载）。
 
 ### 自定义软件包
 
@@ -43,4 +48,37 @@ procedure Register;
 begin
   RegisterComponents('CustomControls', [TMyCustomControl]);
 end; 
+```
+
+### [WebView4Delphi](https://github.com/salvadordf/WebView4Delphi)
+
+- 需要确保运行目录下有 WebView2Loader.dll （这个官方源码里面有bin32和bin64两个版本）
+- 按照官方源码的示例 demos 里面把各种事件做处理，不然会有各种问题。
+
+注：TWVWindowParent 只支持 alClient 布局，无论你改什么他都是这个布局，所以设计的时候最好调成这个布局，才能保证一致性。
+
+这个需要自行下载 WebView2 的发行版本，然后放到指定目录下。
+
+## [pas2js](https://wiki.freepascal.org/pas2js)
+
+- [下载](https://getpas2js.freepascal.org/)解压，不要把 bin 目录添加到 PATH 里面。
+- 确保有装 Pas2Js 软件包，然后打开 “工具” 》 “选项” 》 “Pas2Js" 配置，把 pas2js.exe 的路径设置成刚下载的 bin/pas2js.exe。
+- 如果是 Electron 项目，可以在项目中安装 Electron 然后同样在 “选项” 》 “Pas2Js” 中配置 node_modules\electron\dist\electron.exe。
+
+注：Windows 下 Lazarus 是有把 pas2js.exe 一起分发的，如果 Lazarus 安装目录下 fpc/**/bin 目录添加到 PATH 会导致定位到 pas2js.exe 但是没有配套文件而导致问题。
+
+### 基于 Pas2Js 的 Electron 项目。
+
+其实就是把 Pascal 翻译成 JS ，然后让你用 node 去执行 Electron.说白了，就是在 Electron 原有的开发流程之前多了一步“把 Pascal 翻译成 JS”。
+而因为多了这一步，导致项目复杂了数倍，一个简单的 Electron 项目只要 4个文件，而这个就导致文件多出一堆超过 10个以上。
+而且各种因为 Pascal 翻译 JS 的问题，导致项目麻烦。
+而最应该有的自动打包 Electron 的功能，没有。。。。。全部手动处理 Electron 相关。。。。
+这种项目没有太大意义，会 Electron 的直接用 Electron，不会 Electron 的各种问题，估计也解决不了。
+
+```bat
+@rem 配置 Electron 阿里源
+set electron_mirror=https://npmmirror.com/mirrors/electron/
+
+@rem 安装 Electron
+npm i -D electron
 ```
