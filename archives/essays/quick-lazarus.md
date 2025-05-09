@@ -5,6 +5,7 @@
 - *.lpr Lazarus 项目主要源码（Pascal 源码文件）
 - *.lps Lazarus 项目文件（XML 源码文件）
 - *.lfm Lazarus 窗口定义文件（一种自定义的结构语言 源码文件）
+- *.lrs Lazarus 资源文件（Pascal 源码文件，数据被翻译成字节字面量数组，可以被 include 到源码里提供资源。）
 - *.pas Free Pascal 源码文件（Pascal 源码文件）
 
 ## 重构代码

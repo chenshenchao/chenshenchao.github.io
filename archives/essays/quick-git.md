@@ -155,6 +155,10 @@ git lfs install
 
 # LFS 加入监听指定后缀的文件
 git lfs track "*.bin"
+
+# LFS 去除监听后缀文件
+git lfs untrack "*.png"
+git add --renormalize .
 ```
 
 ## 第三方插件
