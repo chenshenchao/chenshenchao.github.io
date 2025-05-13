@@ -8,6 +8,25 @@ dotnet tool install --global dotnet-ef
 dotnet tool update --global dotnet-ef
 ```
 
+## Windows Kits 使用
+
+Windows 开发工具是专门提供 Windows 系统功能的开发工具库包，驱动开发等都囊括其中。
+
+### .NET 5 及之后使用 Windows Kits 
+
+直接在目标框架上指定 Windows 系统并接上 Windows Kits 版本号。
+
+```xml
+<!-- 后面一串是 Windows Kits 的版本号，会自动引入。 -->
+<TargetFramework>net8.0-windows10.0.22621.0</TargetFramework>
+```
+
+### .NET 5 之前（旧）使用 Windows Kits 
+
+很原始，需要自己复制 Windows.winmd 并引入，还要复制 .net framework 4.* 的 System.Runtime.WindowsRuntime.dll 并引入。
+
+依赖的程序集 Windows.winmd 在 UnionMetadata 下的才有蓝牙，其他的不一定有。路径如： "c:/Program Files (x86)/Windows Kits/10/UnionMetadata/10.0.22621.0/Windows.winmd"
+
 ## dotnet ef 工具
 
 ### 迁移（Migration）

@@ -159,6 +159,12 @@ git lfs track "*.bin"
 # LFS 去除监听后缀文件
 git lfs untrack "*.png"
 git add --renormalize .
+
+# 查看 LFS 已跟踪文件的大小。
+git lfs ls-files --size
+
+# 查看本地 LFS 配置
+git lfs env 
 ```
 
 ## 第三方插件

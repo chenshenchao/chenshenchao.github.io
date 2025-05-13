@@ -21,6 +21,16 @@
 
 - “DPI awarenes” DPI 感知，能够根据 DPI 变化调整大小。
 
+构建模式创建后可以提供不同的构建设置，默认 Default 构建模式。
+
+### 添加与重写
+
+可以添加编译器命令参数等。
+
+添加自定义预编译宏：“Custom” 加入 -dYOUR_MACRO 就加入了 YOUR_MACRO 宏。
+添加后每个构建模式都有个单选框，勾选就是在此构建模式下启用这个宏。
+
+
 ## 软件包
 
 ### 常用软件包
@@ -56,7 +66,9 @@ end;
 - 需要确保运行目录下有 WebView2Loader.dll （这个官方源码里面有bin32和bin64两个版本）
 - 按照官方源码的示例 demos 里面把各种事件做处理，不然会有各种问题。
 
-注：TWVWindowParent 只支持 alClient 布局，无论你改什么他都是这个布局，所以设计的时候最好调成这个布局，才能保证一致性。
+注：
+1. TWVWindowParent 只支持 alClient 布局，无论你改什么他都是这个布局，所以设计的时候最好调成这个布局，才能保证一致性。
+2. TWVBrowser 的 "BrowserExecPath" 和 "UserDataFolder" 属性最好不要用，发布会有问题，建议通过 GlobalWebView2Loader 设置。
 
 这个需要自行下载 WebView2 的发行版本，然后放到指定目录下。
 
