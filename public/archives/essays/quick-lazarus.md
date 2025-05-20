@@ -41,6 +41,7 @@
 - DCPcrypt 一个加密算法包。
 - [CEF4Delphi](https://github.com/salvadordf/CEF4Delphi) 一个跨平台的 CEF WebView 的封装，（在线软件包可下载，依赖 DCPcrypt）。
 - [WebView4Delphi](https://github.com/salvadordf/WebView4Delphi) 一个 Windows 下 WebView2 的封装，（在线软件包可下载）。
+- Rx 一个仿 Delphi RxLib 的一个组件库。
 
 ### 自定义软件包
 
@@ -60,6 +61,8 @@ begin
   RegisterComponents('CustomControls', [TMyCustomControl]);
 end; 
 ```
+
+### [CEF4Delphi](https://github.com/salvadordf/CEF4Delphi)
 
 ### [WebView4Delphi](https://github.com/salvadordf/WebView4Delphi)
 
@@ -94,4 +97,24 @@ set electron_mirror=https://npmmirror.com/mirrors/electron/
 
 @rem 安装 Electron
 npm i -D electron
+```
+
+## LCL
+
+### Windows 下的问题
+
+```pascal
+// 几个 WM_NC*（non client） 开头的 非客户区 Windows 消息都没有办法接收到。
+procedure WMNCCalcSize(var AMessage:TWMNCCalcSize); message WM_NCCALCSIZE;
+procedure WMNCLButtonDown(var AMessage:TWMNCLButtonDown); message WM_NCLBUTTONDOWN;
+procedure WMNCPaint(var AMessage:TWMNCPaint); message WM_NCPAINT;
+
+// 这个 WM_NC* 消息可以接收到。
+procedure WMNCHitTest(var AMessage:TWMNCHitTest); message WM_NCHITTEST;
+
+// 覆盖 窗口处理也是接收不到 非客户区消息。
+procedure WndProc(var Message: TMessage); override;
+
+// 直接用 SendMessage 也是接收不到，可见应该是 LCL 在封装的时候就把这些消息跳过了。
+SendMessage(Handle, WM_NCPAINT, WPARAM(TRUE), LPARAM(nil));
 ```
