@@ -22,7 +22,16 @@ mysql -p root
 mysql -e "SET PASSWORD FOR 'root'@'localhost' = PASSWORD('password');"
 ```
 
-## 数据结构
+## 常用 SQL
+
+### 变量
+
+```bash
+# 查看 x 协议
+SHOW VARIABLES LIKE '%mysqlx%'
+```
+
+### 数据结构
 
 ```sql
 -- 列举数据库
@@ -38,7 +47,7 @@ SHOW TABLES FROM db_name WHERE Name LIKE '%%';
 SHOW CREATE TABLE tbl_name;
 ```
 
-## 用户与权限
+### 用户与权限
 
 ```sql
 -- 创建用户
@@ -91,7 +100,7 @@ SELECT * FROM mysql.user;
 SELECT * FROM mysql.user WHERE Host='' OR User IN ('');
 ```
 
-## 二进制日志（binlog）
+### 二进制日志（binlog）
 
 ```sql
 -- 显示二进制日志列表

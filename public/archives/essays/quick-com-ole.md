@@ -157,6 +157,17 @@ midl your.idl
 GenTLB your.ridl
 ```
 
+### 常用类型与对照
+
+COM 的类型是 C++ 类型为基础，之后是对应的其他语言的类型。
+
+[官方文档（类型）](https://learn.microsoft.com/zh-cn/windows/win32/com/data-type-conversions)
+
+- BSTR 字符串，(Pascal：WideString; Java: String)
+- BOOL 布尔值，(Pascal：没有自动转换，用整数代替吧; Java: bool)
+- INT 4字节整数，(Pascal：Integer; Java: int)
+- IUnknown COM接口，(Pascall: ; Java: com.ms.com.IUnknown)
+
 
 ## 术语、缩写、文件
 
