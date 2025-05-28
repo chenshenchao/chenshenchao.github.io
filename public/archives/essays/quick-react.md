@@ -10,6 +10,7 @@ React 被多种框架所使用，官方文档有多种框架的使用教程。
 ```bash
 # 1.
 # 使用 vite 创建，这样可以使用 编译期 vite 的方法。（网页开发推荐）
+# 而且可以使用 vite 的编译功能，做到自动路由生成。
 npm create vite@latest
 
 # 2.
@@ -41,6 +42,22 @@ npx create-gatsby
 # web 这个直接打不开。
 npx create-expo-app
 ```
+
+## 常用组件
+
+- [StrictMode 严格模式](#1)
+- [Suspense 悬念](#2)
+
+### StrictMode 严格模式
+
+使用严格模式后，所有组件在调试模式都会比正常模式多执行一次。
+这样做的目的是确保你的组件是幂等的，即便多调用一次也不会出错。
+
+### Suspense 悬念
+
+这个组件提供了异步加载界面支持。
+
+注：Vue3 也打算支持这个组件，有个同名组件，但是一直在实验性阶段。
 
 ## 常用 Hooks
 
@@ -89,3 +106,26 @@ function StatefulForm({}) {
 - [react-router-dom](https://github.com/remix-run/react-router) （旧 v6 以及之前的路由库，TS 的话需要 @types/react-router-dom）。
 - [redux](https://github.com/reduxjs/redux) 状态管理库，类似 vue 的 vuex 或 pinia 。
 - [ant design](https://github.com/ant-design/ant-design) 阿里的 UI 组件库。
+- [loadable-components](https://github.com/gregberge/loadable-components) React 有自带的 lazy 函数，这个组件是在 React 没提供时期做的，后来 React 自带了，但是这个库的功能更多。
+
+### react-router
+
+```jsx
+import { useNavigate, Outlet } from "react-router";
+
+// Outlet 用来占位，当一个组件有 children 时，切换路由就会改变 Outlet 对应的子组件。
+export default function Demo() {
+  // useNavigate 用来获取用于触发跳转的函数 navigate
+  let navigate = useNavigate();
+  return (
+    <>
+      <button
+        onClick={() => {
+          navigate(-1);
+        }}
+      />
+      <Outlet />
+    </>
+  );
+}
+```
