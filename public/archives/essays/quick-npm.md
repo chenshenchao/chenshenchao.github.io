@@ -1,12 +1,23 @@
 # npm 速查
 
 npm 是官方标配的包管理器。
-
 国内因为墙的原因，是要使用镜像的。
 
 ```bash
+# 没有 package-lock.json 的项目，安装依赖包
+npm i
+
+# 带有 package-lock.json 的项目，安装依赖包
+npm ci 
+
 # 直接通过命令指定阿里的镜像源
 npm --registry https://registry.npmmirror.com i gsap
+
+# 登录
+npm login
+
+# 发布
+npm publish
 ```
 
 项目目录下 .npmrc 可配置包管理。

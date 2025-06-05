@@ -43,6 +43,11 @@ npx create-gatsby
 npx create-expo-app
 ```
 
+## 常用库与项目
+
+- [Ant Design](https://github.com/ant-design/ant-design) UI组件库
+- [Ant Design Pro](https://github.com/ant-design/ant-design-pro) 后台项目，可用于二开。
+
 ## 常用组件
 
 - [StrictMode 严格模式](#1)

@@ -9,8 +9,8 @@ Sqlite 是动态类型，所以建表时列可以不指定类型。除了主键�
 低层上 Sqlite 存储只用到了以下5种，而在这5种数据之上做扩展来实现其他类型。
 
 - NULL
-- INTEGER
-- REAL
+- INTEGER 8字节整形
+- REAL    8字节双精度浮点
 - TEXT
 - BLOB
 

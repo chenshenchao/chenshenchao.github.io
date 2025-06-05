@@ -1,5 +1,7 @@
 # python 速查
 
+- 3.8.10 最后一个支持 Windows 7 的版本
+
 ## pip
 
 Python 自带的包管理器。
@@ -11,8 +13,17 @@ Python 自带的包管理器。
 pip install -i https://mirrors.aliyun.com/pypi/simple/ numpy
 
 # 更新包
+# -U 如果已安装会变成升级成最新版本
 pip install -U numpy
 ```
+
+### 常用库
+
+- [deeplake](https://github.com/activeloopai/deeplake) v4 版本是个向量数据库；v3 版本时是个张量数据集存储库，用来存储训练数据。
+- [chromadb](https://github.com/chroma-core/chroma) 向量数据库，需要 python 3.9, 用了 dict list 等类型参数，即不支持 Windows 7(python 3.8)
+- [tinydb](https://github.com/msiemens/tinydb) 文档数据库，存储是 JSON 文件，性能不行。
+- [pywin32](https://github.com/mhammond/pywin32) 封装 Windows API 。
+- [loguru](https://github.com/Delgan/loguru) 日志库
 
 ## 打包与发布
 
@@ -121,3 +132,7 @@ python setup.py sdist bdist_whell
 # 上传
 twine upload dist/*
 ```
+
+### 基于 [poetry](https://github.com/python-poetry/poetry) 的打包
+
+

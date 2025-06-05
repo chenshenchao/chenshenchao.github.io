@@ -1,5 +1,7 @@
 # rust 速查
 
+
+
 ## rustup
 
 rustup 用于安装和更新 rust 编译构造工具。
@@ -242,6 +244,12 @@ fi
 注：需要手动添加 $HOME/.cargo/bin 到 PATH 环境变量，不然找不到 rustup
 
 ## 常用库
+
+### UI库
+
+- [iced](https://github.com/iced-rs/iced) 
+- [egui]()
+- [freya](https://github.com/marc2332/freya) 依赖 dioxus 做的扩展。
 
 ### 数据库
 
