@@ -2,6 +2,47 @@
 
 - 3.8.10 最后一个支持 Windows 7 的版本
 
+## 虚拟环境
+
+如 rust、C#、js(node) 等的依赖库都是和项目相关的，而 python 因各种原因，依赖库是全局的，所以为了隔离各自的依赖库不冲突，所以需要使用虚拟环境，把依赖库都安装在项目各自的虚拟环境中。
+
+### Python 标准包 venv
+
+```sh
+python -m venv .pyvenv
+```
+
+通过这条命令会创建一个名为 .pyvenv 的文件夹，里面是根据本地安装的 Python 解析器生成的 Python 运行环境。
+
+```sh
+./.pyvenv/Scripts/activate
+```
+
+通过调用虚拟环境的 activate 脚本激活虚拟环境。
+此时在该终端中执行 python 或 pip 是调用虚拟环境的命令。
+即通过 pip 安装的包都安装到虚拟环境中，而非本地安装的 Python 里。
+所以用 python 命令解释脚本时也需要通过该终端才能使用安装在虚拟环境里的包。
+
+### 功能更强大的 virtualenv
+
+标准包 venv 只是提供生成本地 python 版本的虚拟环境。
+当由于一些包需要的 Python 版本与本地不同时就需要用到 virtualenv 了。
+
+```bash
+pip install virtualenv
+```
+
+下载指定版本的 python 目录于 /path/python 执行以下命令生成。
+
+```bash
+virtualenv .pyvenv -p /path/python
+```
+
+### 使用 Visual Studio Code 快速使用和切换环境
+
+VS Code 是个功能强大的编辑器，其实装上插件功能基本与 IDE 无异。
+只要打开的目录下有 Python 的虚拟环境，便可以被识别到，通过简单地在底部栏地点击就可以切换。
+
 ## pip
 
 Python 自带的包管理器。
@@ -134,5 +175,28 @@ twine upload dist/*
 ```
 
 ### 基于 [poetry](https://github.com/python-poetry/poetry) 的打包
+
+
+### 基于 [PyInstaller](https://github.com/pyinstaller/pyinstaller) 的打包
+
+这种会打包成特定平台的可执行文件。
+
+```sh
+pip install pyinstaller
+```
+
+安装 pyinstaller 后命令行就可以使用 pyinstaller 命令了：
+
+```sh
+pyinstaller -F -i i.ico source.py
+```
+
+- -i PATH 或 --icon PATH 可指定图标文件路径 PATH
+- -n NAME 或 --name NAME 可指定生成的文件名 NAME
+- -F 或 --onefile 生成单一的可执行文件
+- -c 或 --console 或 --nowindowed 生成命令行可执行文件
+- -w 或 --windowed 或 --noconsole 生成原生可执行文件
+
+更多资料详见[官网](https://www.pyinstaller.org)
 
 
