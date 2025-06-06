@@ -65,6 +65,8 @@ pip install -U numpy
 - [tinydb](https://github.com/msiemens/tinydb) 文档数据库，存储是 JSON 文件，性能不行。
 - [pywin32](https://github.com/mhammond/pywin32) 封装 Windows API 。
 - [loguru](https://github.com/Delgan/loguru) 日志库
+- [kivy](https://github.com/kivy/kivy) UI框架
+- [KivyMD](https://github.com/kivymd/KivyMD) 基于 Kivy 框架的 Material Design（安卓的UI设计风格）的组件库
 
 ## 打包与发布
 
