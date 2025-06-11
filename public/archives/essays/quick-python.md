@@ -117,7 +117,7 @@ kivy 的设计有点类似 Flutter（2017年发布） ，但是由于其还是�
 - BoundedNumericProperty
 - OptionProperty
 - ReferenceListProperty
-- AliasProperty
+- AliasProperty 别名属性，类似 vue 的 computed 用来绑定其他属性，在修改时触发 getter setter
 - DictProperty
 - VariableListProperty
 - ConfigParserProperty
@@ -133,6 +133,24 @@ canvas.before 是绘制前事件
 canvas 绘制事件，这个如果重写会导致组件默认的绘制被替换。
 canvas.after 是绘制后事件
 可以在这两个事件绘制。
+
+```kivy
+canvas.before
+  # 创建模板缓存
+  StencilPush
+  # 这个模板缓存限制绘制的区域
+  RoundedRectangle:
+    pos: self.pos
+    size: self.size
+    radius: [50,]  # 设置圆角半径
+  # 启用模板缓存，这样接下来 canvas 的输出就会被现在在里面。
+  StencilUse
+canvas.after
+  # 停止使用模板缓存,之后的绘制离开模板
+  StencilUnUse
+  # 弹出模板
+  StencilPop
+```
 
 ## 打包与发布
 

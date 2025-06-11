@@ -140,3 +140,44 @@ SET GLOBAL sql_mode='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_Z
 ```ini
 sql_mode='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'
 ```
+
+
+## 常见谬误
+
+### IN 和 EXISTS
+
+常见的一个谬误就是认为 EXISTS 比 IN 快，这是很多人在读文章的时候没看“先决条件”导致的，只记住了个结论，却没有记住得出这个结论必须是在“特定条件”下的。
+
+```sql
+-- 以下假定
+-- 1. t1.a 有建索引
+-- 2. t2.c 没有索引需要扫表，有索引则 EXISTS 和 IN 没区别，所以必须没索引。
+-- 3. t1 一共 10万 行数据
+-- 4. t2 一共 5万 行数据
+
+-- 1. IN 最快，因为只做 2 次 SELECT
+-- 所以这个实际扫描 5万
+-- 如果 t2.c 有索引，则只执行 2 次
+SELECT a, b FROM t1
+WHERE a IN (SELECT c FROM t2 WHERE c IN (1,2,3 ....)) -- 这里假定条件是个已知值
+
+-- 2. EXISTS 慢, 因为做了 10万 次 SELECT，只是这些 SELECT 比较快跳出（不一定遍历 5万 行，条件命中就跳出）。
+-- 所以这个实际扫描  【10万, 10万 * 5万 = 50亿] 这个区间内，不同数据不同最少 10万，最多 50亿。
+-- 如果 t2.c 有索引，则是 10万 次
+SELECT a, b FROM t1
+WHERE EXISTS (SELECT c FROM t2 WHERE t1.a = t1.c)
+
+-- 3. IN 最慢, 因为做了 10万 次 SELECT，只是这些 SELECT 必须全部扫完才跳出（扫足 5万 行）。
+-- 所以这个实际扫描  10万 * 5万 = 50亿
+-- 如果 t2.c 有索引，则是 10万 次
+SELECT a, b FROM t1
+WHERE a IN (SELECT c FROM t2 WHERE t1.a = t1.c)
+```
+
+可以看出作为条件的子查询 t2 如果 WHERE 后面的条件 有 t1 的字段，那么用 EXISTS 快，如果没有 t1 的字段，用 IN 快（快很多）。
+而使用 EXISTS 是应该避免的，当你需要用到 EXISTS 的时候，你的表估计设计得不合理。
+不合理之处就在于作为子查询的 t2 使用了 t1 的字段作为条件，这才是慢的根源，而仅是用 EXISTS 替代 IN 仅仅只是饮鸩止渴。
+因为当 t2 的查询出现了 t1 字段作为条件时，就是要逐行执行，只是 EXISTS 有“短路” 机制，但是其本质还是逐行执行。
+所以问题不在于 IN 和 EXISTS ，而在于你不应该让 t1 的字段出现在 子查询 t2 的 WHERE 里面，导致了逐行执行子查询。
+
+结论：EISTS 比 IN 快，先决条件是子查询条件中有主查询表字段，且子表字段没索引。
