@@ -45,8 +45,11 @@ npx create-expo-app
 
 ## 常用库与项目
 
-- [Ant Design](https://github.com/ant-design/ant-design) UI组件库
+- [Ant Design](https://github.com/ant-design/ant-design) UI 组件库
 - [Ant Design Pro](https://github.com/ant-design/ant-design-pro) 后台项目，可用于二开。
+- [react-slick](https://github.com/akiran/react-slick) 轮播
+- [react-virtualized](https://github.com/bvaughn/react-virtualized) 虚拟滚动
+- [ahook](https://github.com/alibaba/hooks) 扩展钩子(Hook)库
 
 ## 常用组件
 
@@ -74,13 +77,43 @@ useState 类似 vue 的 ref 和 reactive ，用来保存状态。
 
 useMemo 类似 vue 的 computed 用来缓存结果。
 
+```tsx
+default export function DemoPage() {
+  const [state, setState] = useState(false);
+  const rState = useMemo(() => {
+    return !state
+  }, [state]);
+
+  return (
+    <>
+    <div>{state}</div>
+    <div>{rState}</div>
+    </>
+  )
+}
+```
+
 ### useEffect
 
-useEffect 类似 compose 的 LaunchedEffect 用来执行有副作用的操作。
+useEffect 类似 compose 的 LaunchedEffect 用来执行有副作用的操作。如果返回值就类似 DisposableEffect 的 dispose。
+
+```tsx
+function DemoPage() {
+  useEffect(() => {}, []); // 没有关联的状态，也最好写个空数组。
+}
+```
 
 ### useCallback
 
 useCallback 类似 compose 的 rememberUpdatedState，用来监听变量改变重新闭包函数。
+
+```tsx
+import { useCallback } from "react";
+function DemoPage() {
+  const doSome = useCallback(() => {}, []);
+}
+
+```
 
 ### useActionState
 

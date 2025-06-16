@@ -181,3 +181,12 @@ WHERE a IN (SELECT c FROM t2 WHERE t1.a = t1.c)
 所以问题不在于 IN 和 EXISTS ，而在于你不应该让 t1 的字段出现在 子查询 t2 的 WHERE 里面，导致了逐行执行子查询。
 
 结论：EISTS 比 IN 快，先决条件是子查询条件中有主查询表字段，且子表字段没索引。
+
+
+## Docker
+
+```bat
+@rem 5.7.44
+@rem -v D:/MySQL/5.7.44/conf:/etc/mysql  如果要把配置弄出来，先要确保本地目录中有配置文件。
+docker run -itd -v D:/MySQL/5.7.44/data:/var/lib/mysql -v D:/MySQL/5.7.44/file:/var/lib/mysql-files  -p 13357:3306 -e MYSQL_ROOT_PASSWORD=root --name mysql5744 mysql:5.7.44
+```
