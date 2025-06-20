@@ -4,12 +4,16 @@
 
 只要远程主机的用户的 .ssh/authorized_keys 文件里有你的公钥，就可以用 ssh 连接。
 
-```bash
-# 生成密钥
+```bat
+@rem 生成密钥
 ssh-keygen -t rsa -b 4096
 
-# 连接
+@rem 连接 进入命令行交互模式
 ssh root@remote_ip:remote_port
+
+@rem 连接后直接执行命令
+ssh root@remote_ip:remote_port "cd /home; uname -a; pwd"
+ssh root@remote_ip:remote_port "cd /www/wwwroot/; chown -R www:www . ; chmod -R 755 ."
 ```
 
 ```bash

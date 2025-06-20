@@ -12,7 +12,11 @@ npm run dev
 
 nextjs 有两种模式：App 和 Pages 模式，推荐使用 App 模式。
 
-注：两种模式只能取绑定的路径一种，例如：
+- 目录以 app 开始为 app 模式。
+- 目录以 pages 开始为 pages 模式。
+- 目录以 public 开始是 静态文件。
+
+注：两种模式可以混合使用，但是同个 url pathname 只能取绑定的路径一种，例如：
 app/page.tsx 和 pages\index.tsx 会冲突，必须删掉一个。
 
 ### app 模式
