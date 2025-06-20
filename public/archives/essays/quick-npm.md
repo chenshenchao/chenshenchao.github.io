@@ -40,3 +40,15 @@ npm i chromedriver --chromedriver_cdnurl=https://..
 # 指定 electron 二进制资源。
 npm i -D electron --electron_mirror=https://..
 ```
+
+## 部署
+
+### yum
+
+```bash
+# 配置 22.x 的源 
+curl -fsSL https://rpm.nodesource.com/setup_22.x | sudo bash -
+
+# 安装
+yum install -y nodejs
+```

@@ -1,10 +1,24 @@
 # Linux 速查
 
 ```bash
+# 查看系统信息
+uname -a
+uname -m
+lsb_release -a
+cat /etc/os-release
+cat /etc/issue
+cat /proc/version
+hostnamectl
+
+
 # 修改权限
 cd /www/wwwroot/
 chown -R www:www .
 chmod -R 755 .
+
+# 创建目录
+# -p 递归创建，已经存在不会报错
+mkdir -p /www/wwwroot/your_dir
 ```
 
 ## 服务

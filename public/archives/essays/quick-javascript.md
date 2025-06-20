@@ -4,6 +4,26 @@
 
 - [handsontable](https://github.com/handsontable/handsontable) Excel 编辑器
 
+## NodeJs
+
+### nvm
+
+[GitHub 仓库](https://github.com/nvm-sh/nvm) 按照 README 安装。
+
+```bat
+@rem 列举已经安装的 node 版本
+nvm list
+
+@rem 查看当前版本
+nvm current
+
+@rem 安装指定版本
+nvm install 22.15.0
+
+@rem 切换版本匹配最近的 16 版本
+nvm use 16
+```
+
 
 ## jsx
 
