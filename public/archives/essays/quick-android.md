@@ -91,6 +91,152 @@ adb shell chmod 644 /system/build.prop
 
 [python-adb](https://github.com/google/python-adb) 一个纯 python 实现的 adb 库，已经停止维护。
 
+### aapt(Android Asset Packaging Tool) 安卓资源包工具
+
+在 Android SDK 的 build-tools 目录下。
+
+```bash
+# dump 出 apk 信息。
+aapt dump badging /path/to/your.app
+```
+
+## 安卓命令
+
+这些命令配合 adb shell 命令，可以在宿主机远程在目标的安卓系统内执行。
+
+### am(Activity Manager) Activity 管理器
+
+```bash
+# 拨打电话
+am start -a android.intent.action.CALL -d tel:12345678910
+
+# 显示信息，和系统的默认处理有关。
+am start -a android.intent.action.VIEW
+
+# 杀指定后台进程
+am kill <package>
+
+# 杀所有后台进程
+am kill-all
+
+# 强杀进程
+am force-stop
+
+# 重启
+am restart
+```
+
+### pm (Package Manager) 软件包管理
+
+```bash
+# 列举包
+# -3 仅显示第三方软件包
+pm list packages [options]
+
+# 卸载软件包
+# 通过查到的包名删除。
+pm uninstall com.example.MyApp
+
+# 输出系统用户
+pm list users
+```
+
+### 输入（input）
+
+详细键值信息，自行网上查找。
+
+```bash
+# 设备返回建
+input keyevent 4
+
+# 锁定
+input keyevent 26
+
+# 解锁屏幕
+input keyevent 82
+
+# 点击屏幕 50 250 位置。
+input tap 50 250
+
+# 滑动屏幕 (50,250) 到 (500, 250) 滑动 600ms
+input swipe 50 250 500 250 600
+
+# 字符输入 abc 是字符底层事件会被输入法捕获。
+# 中文输入查看下面中文输入说明。
+input text abc
+```
+
+输入中文需要安装[ADBKeyBoard](https://github.com/senzhk/ADBKeyBoard)。
+
+1. 安装后需要在 语言与输入设置 里面启用这个输入法。
+2. 把他设置成 默认的输入法 或者 确保在输入时使用该输入法。
+3. 通过 broadcast 发送信息。
+
+```bash
+# GitHub 项目文件里有 apk 文件可安装。
+adb install ADBKeyboard.apk
+
+# 发送中文输入。
+adb shell am broadcast -a ADB_INPUT_TEXT --es msg "你好"
+```
+
+### svc
+
+服务控制
+
+```bash
+# 充电常亮设置，usb 为接入 USB 时常量。
+svc power stayon [true|false|usb|ac]
+
+# 开启或关闭数据流量
+svc data enable
+svc data disable
+
+# 数据流量优先
+svc data prefer
+
+# 开启或关闭 Wifi
+svc wifi enable
+svc wifi disable
+
+# Wifi优先
+svc wifi prefer
+```
+
+
+### ime（Input Method Engine） 输入法引擎
+
+```bash
+# 查看有哪些输入法
+ime list -a
+```
+
+### wm
+
+```bash
+# 屏幕分辨率
+wm size
+# 远程通过 ADB 执行
+adb shell wm size
+```
+
+
+### dumpsys
+
+```bash
+# 列出当前窗口
+dumpsys window windows
+```
+
+### getprop
+
+```bash
+# 获取 Android 版本
+getprop ro.build.version.release
+```
+
+
+
 ## 使用 telnet 连接模拟器管理器
 
 ```bash
