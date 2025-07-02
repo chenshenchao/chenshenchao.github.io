@@ -100,6 +100,19 @@ SELECT * FROM mysql.user;
 SELECT * FROM mysql.user WHERE Host='' OR User IN ('');
 ```
 
+### 预处理
+
+```sql
+/* 预处理,链接级别的，链接断开，预处理就没了。（标准SQL 没有明确规范，但 MySQL，Oracle,PostgreSQL 都是这样处理的） */
+PREPARE stmt1 FROM 'SELECT * FROM table1 WHERE name LIKE ?';
+/* 执行 */
+EXECUTE stmt1 USING '%张%';
+/* 删除预处理 （标准 SQL 的关键字）*/
+DEALLOCATE PREPARE stmt1;
+/* 删除预处理 （MySQL 的关键字）*/
+DROP PREPARE stmt1;
+```
+
 ### 二进制日志（binlog）
 
 ```sql
