@@ -1,5 +1,23 @@
 # Go 速查
 
+## 常用命令
+
+```bash
+# 构建
+# -gcflags="-m" 打印内联信息
+go build -gcflags="-m" main.go
+```
+
+## 单元测试
+
+```bash
+# 当前目录执行测试
+go test
+
+# 遍历目录执行测试
+go test ./...
+```
+
 ## 交叉编译
 
 ```bat

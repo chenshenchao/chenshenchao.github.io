@@ -8,22 +8,23 @@
 
 ## 类型系统
 
-当使用 JS 代码时，如果其没有提供 *.d.ts 文件声明类型的话，我们可以自己声明。
+当使用 JS 代码时，如果其没有提供 \*.d.ts 文件声明类型的话，我们可以自己声明。
 
 ```ts
 // 扩展全局命名空间
-declare {
-    // 声明结构
-    interface YourInterface {
-        f1: {
-            some: {
-                [key: string]: any;
-            }
-        }
-    }
+declare;
+{
+  // 声明结构
+  interface YourInterface {
+    f1: {
+      some: {
+        [key: string]: any;
+      };
+    };
+  }
 
-    // 声明这个字段。
-    var your: Your;
+  // 声明这个字段。
+  var your: Your;
 }
 ```
 
@@ -33,18 +34,32 @@ declare {
 // keyof 得到的是个枚举类型
 // keyof any 这点很诡异，是个“类型枚举”，泛型的 T 相当于 any
 // keyof C 具体类型，得到的是个“字符串枚举”
-type A = keyof any; // string | number | symbol ; 
+type A = keyof any; // string | number | symbol ;
 
 class C {
-    a: string;
-    b: number;
+  a: string;
+  b: number;
 }
 type B = keyof C; // "a" | "b" ; 得到的是一个字符串枚举。
 
-
 // 这么写好像完全没有意义，因为具体类型的枚举就是 string 的。
 // 但是在泛型里配合拼接语法就可以限定类型。
-type B2 = keyof C & string; 
+type B2 = keyof C & string;
+```
+
+### infer
+
+这个类似 C++ 在模板中的 auto 关键字，用于让类型做出推导。
+只能在 extends 子句中使用。
+
+```ts
+type TA<A extends [infer F]>; // 要求 A 必须至少有一个元素
+
+type TB<A extends any[], R> = // 可以级联多级 三元符号判断不同类型。
+    A extends [] ? () => R :
+    A extends [infer F] ? (x: F) => R :
+    A extends [infer F, ...infer FS] => (x: F) => TB<FS, R> :
+    never;
 ```
 
 ### 忽略
@@ -53,7 +68,7 @@ type B2 = keyof C & string;
 
 ```ts
 // 单行忽略(添加到特定行的行前来忽略这一行的错误)
-// @ts-ignore 
+// @ts-ignore
 aaa = 123;
 
 // 跳过对某些文件的检查 (添加到该文件的首行才起作用)
