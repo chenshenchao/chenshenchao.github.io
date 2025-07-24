@@ -1,5 +1,38 @@
 # [草稿]C++ 速查
 
+## 包管理
+
+### vcpkg
+
+需要配置代理：
+
+```bat
+@rem 设置代理
+set HTTP_PROXY=http://127.0.0.1:10808
+set HTTPS_PROXY=http://127.0.0.1:10808
+
+@rem 查看
+echo %HTTP_PROXY%
+echo %HTTPS_PROXY%
+```
+
+```powershell
+$env:HTTP_PROXY="http://127.0.0.1:10808"
+$env:HTTPS_PROXY="http://127.0.0.1:10808"
+```
+
+```bat
+@rem 自动配置 vs
+vcpkg integrate install
+@rem 清除自动配置
+vcpkg integrate remove
+
+@rem 安装
+vcpkg install openssl
+@rem 指定 架构、系统和静态
+vcpkg install openssl:x64-windows-static
+```
+
 ## 常用库
 
 - [faiss](https://github.com/facebookresearch/faiss) 扁平索引实现库。

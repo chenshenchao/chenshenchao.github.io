@@ -2,6 +2,11 @@
 
 Podman 大部分命令和 docker 兼容。
 
+```bash
+# 查看信息
+podman info
+```
+
 ## Windows 下安装
 
 ### 安装 Podman Desktop（推荐）
