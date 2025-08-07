@@ -30,6 +30,8 @@ go build .
 ## 常用库
 
 - [pie](https://github.com/elliotchance/pie) 切片(slice) 和 字典(map) 功能扩展库
+- [bbolt](https://github.com/etcd-io/bbolt) 键值对数据库
+- [urfave/cli](https://github.com/urfave/cli) 命令行参数分析库
 
 ### UI 库
 

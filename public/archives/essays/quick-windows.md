@@ -9,6 +9,19 @@ Windows 下的管道类似文件，而且使用了 ReadFile WriteFile 这些文�
 
 ## 常见命令和工具
 
+### fsutil
+
+```bat
+@rem 查看所有驱动器
+fsutil fsinfo drives
+
+@rem 查看指定驱动器的文件系统信息（需要管理员权限）
+fsutil fsinfo volumeinfo C:
+
+@rem 查看 disableDeleteNotify 状态
+fsutil behavior query disableDeleteNotify
+```
+
 ### dumpbin
 
 ```bat

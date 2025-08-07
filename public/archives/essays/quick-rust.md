@@ -1,7 +1,5 @@
 # rust 速查
 
-
-
 ## rustup
 
 rustup 用于安装和更新 rust 编译构造工具。
@@ -250,6 +248,10 @@ fi
 - [iced](https://github.com/iced-rs/iced) 
 - [egui]()
 - [freya](https://github.com/marc2332/freya) 依赖 dioxus 做的扩展。
+
+### web 开发框架
+
+- [tuono]()
 
 ### 数据库
 
