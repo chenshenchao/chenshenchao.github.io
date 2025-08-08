@@ -100,6 +100,8 @@ cargo build --release --target=x86_64-unknown-linux-musl
 
 包管理工具。
 
+[官方仓库](https://crates.io)
+
 ### 配置镜像
 
 ~/.cargo 目录下，可以创建 config.toml（旧版叫 config 没有.toml后缀） 文件配置镜像。
@@ -241,7 +243,15 @@ fi
 ```
 注：需要手动添加 $HOME/.cargo/bin 到 PATH 环境变量，不然找不到 rustup
 
+## 官方库
+
+- [futures](https://github.com/rust-lang/futures-rs) 异步支持库。
+
 ## 常用库
+
+- [prost](https://github.com/tokio-rs/prost) tokio 团队的 protobuf 实现,actix 的 protobuf 扩展此库(0.13)。
+- [rust-protobuf](https://github.com/stepancheg/rust-protobuf) protobuf 第三方实现。
+- [tonic](https://github.com/hyperium/tonic) grpc 第三方实现。
 
 ### UI库
 
@@ -251,7 +261,8 @@ fi
 
 ### web 开发框架
 
-- [tuono]()
+- [actix-web](https://github.com/actix/actix-web) 基于 actix 的 web 框架，扩展库 [actix-extras](https://github.com/actix/actix-extras)
+- [tuono](https://github.com/tuono-labs/tuono) 用 rust 实现了 NextJs 的框架。
 
 ### 数据库
 
