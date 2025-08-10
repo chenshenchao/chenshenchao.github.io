@@ -1,4 +1,4 @@
-# [草稿]Flutter 速查
+# Flutter 速查
 
 ```bash
 # 诊断，查看环境设配情况
@@ -41,8 +41,12 @@ flutter logs --clear
 - [fluttercommunity 的 font_awesome_flutter](https://github.com/fluttercommunity/font_awesome_flutter) [fontawesome](https://fontawesome.com/icons)图标库的flutter封装。
 - [fluttercommunity 的 flutter_launcher_icons](https://github.com/fluttercommunity/flutter_launcher_icons) 开发工具扩展，可以通过命令行和 pubspec.yaml 的配置生成图标。
 - [flutter_recorder](https://github.com/alnitak/flutter_recorder) 录音库，自带 FFT，兼容多平台。
-- [flutter_slidable](https://github.com/letsar/flutter_slidable) 滑动单元格，类似 vant SwipeCell
-- [flutter_swipe_action_cell](https://github.com/luckysmg/flutter_swipe_action_cell) 滑动单元格，类似 vant SwipeCell
+- [flutter_slidable](https://github.com/letsar/flutter_slidable) 滑动单元格，类似 vant SwipeCell。
+- [flutter_swipe_action_cell](https://github.com/luckysmg/flutter_swipe_action_cell) 滑动单元格，类似 vant SwipeCell。
+- [audioplayers](https://github.com/bluefireteam/audioplayers) 音频播放库。
+- [flame](https://github.com/flame-engine/flame) 游戏开发库，包括 3D、音频 等子库。
+- [marquee](https://github.com/MarcelGarus/marquee) 文字走马灯。
+- [marqueer](https://github.com/GeceGibi/marqueer) 走马灯，可以图片。
 
 ## 常见问题
 

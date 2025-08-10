@@ -262,11 +262,12 @@ fi
 ### web 开发框架
 
 - [actix-web](https://github.com/actix/actix-web) 基于 actix 的 web 框架，扩展库 [actix-extras](https://github.com/actix/actix-extras)
-- [tuono](https://github.com/tuono-labs/tuono) 用 rust 实现了 NextJs 的框架。
+- [tuono](https://github.com/tuono-labs/tuono) 用 rust 实现了 NextJs 的框架，只能使用 pages 模式，目录在 routes 目录下，好处是后端代码由 TS 换成了 rust 这样比较容易分辨前后端代码，NextJs 前后端代码都是 TS。
 
 ### 数据库
 
 - [sqlx](https://github.com/launchbadge/sqlx)
+- [sea-orm](https://github.com/SeaQL/sea-orm) 整合 sqlx 等库，适配 actix、axum 等多个框架，功能比较全。
 - [diesel](https://github.com/diesel-rs/diesel)
 - [rusqlite](https://github.com/rusqlite/rusqlite)
 
