@@ -47,6 +47,7 @@ flutter logs --clear
 - [flame](https://github.com/flame-engine/flame) 游戏开发库，包括 3D、音频 等子库。
 - [marquee](https://github.com/MarcelGarus/marquee) 文字走马灯。
 - [marqueer](https://github.com/GeceGibi/marqueer) 走马灯，可以图片。
+- [Pointy Castle](https://github.com/bcgit/pc-dart) 加密库。
 
 ## 常见问题
 

@@ -50,6 +50,9 @@ npx create-expo-app
 - [react-slick](https://github.com/akiran/react-slick) 轮播
 - [react-virtualized](https://github.com/bvaughn/react-virtualized) 虚拟滚动
 - [ahook](https://github.com/alibaba/hooks) 扩展钩子(Hook)库
+- [redux](https://github.com/reduxjs/redux) 状态管理，厚重稳定。
+- [zustand](https://github.com/pmndrs/zustand) 状态管理，轻量化。
+- [jotai](https://github.com/pmndrs/jotai) 状态管理，原子粒度。
 
 ## 常用组件
 
@@ -71,7 +74,38 @@ npx create-expo-app
 
 ### useState
 
-useState 类似 vue 的 ref 和 reactive ，用来保存状态。
+useState 类似 vue 的 ref 和 reactive ，用来保存简单的状态。
+
+```tsx
+const [name, setName] = useState<string>('');
+
+// 使用值。
+console.log('name', name);
+
+// 传递新值改掉旧值。
+setName('name aaaa');
+```
+
+### useReducer
+
+用 action 来管理状态，可以把逻辑放到 reducer 里面。
+
+```tsx
+// 比 useState 多了个复杂逻辑的 setter 定义。
+const reducer = (state, action) => {
+  switch (action.type) {
+    case 'A': return { a: state.a + 1 };
+    case 'B': return { a: state.a - 1 };
+    default: return { a: 0 }; 
+  }
+}
+
+// 这里的使用和 useState 基本相同。区别的 dispatch 和 setter。
+const [state, dispatch] = useReducer(reducer, { a: 0 });
+
+// 是传递 action 来修改值。而不是直接传递新值改旧值。
+dispatch({type: 'A'});
+```
 
 ### useMemo
 
@@ -136,6 +170,42 @@ function StatefulForm({}) {
     </form>
   );
 }
+```
+
+### createContext 和 useContext 、*Context.Provider、*Context.Consumer
+
+这个类似 Vue 的 Provider 和 Inject ，Jetpack Compose 的 CompositionLocal 和 CompositionLocalProvider， WPF 的 依赖属性。
+提供一种树状状态管理，优点是跨越多个局部作用域共享数据，缺点也是因为局部。
+对于框架开发有用，可以防止污染全局。对于应用开发属于是自己绊倒自己，不如全局的状态管理。
+同时也使得 提供上下文的组件 和 获取数据的组件 耦合，约束了组件的使用方式。
+
+```tsx
+// 上下文
+export const YourContext = createContext('default value');
+
+const [a, setA] = useState('new value a');
+const reducer = (state, action) => {
+  //详见上。
+};
+const [a, dispatchA] = useReducer(reducer, 'new value a');
+
+// 提供者，可以是 useState useReduce 或者 字面量。
+<YourContext.Provider value={{a, setA}}>
+  <YourComponent/>
+</YourContext.Provider>
+
+// 获取值 1，这种比较简便，推荐。
+function YourComponent() {
+  const { a， setA } = useContext(YourContext); // 获取值，但是必须确保被有提供的上下文组件包在子作用域里。
+  // a, 和 setA 的用法如 useState.
+}
+
+// 获取值 2，这种会让 html 多一层。不好看，尤其多个上下文会多出好几层。
+<YourContext.Consumer>
+  {({a, setA}) => (
+    <div>{{a}}</div>
+  )}
+</YourContext.Consumer>
 ```
 
 ## 常用库

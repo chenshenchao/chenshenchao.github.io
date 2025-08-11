@@ -7,6 +7,7 @@
 - bigint ：整型64位
 - character varying(*) ：可变长字符串
 - timestamp with/without time zone ：时间类型 4713 BC 至 294276 AD。
+- numeric(10, 2) ：定点数，类似 MySQL 的 DECIMAL(10, 2) 
 
 ### 自增
 
