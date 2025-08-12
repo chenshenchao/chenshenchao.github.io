@@ -5,6 +5,7 @@
 ## 数据类型
 
 - bigint ：整型64位
+- character(*) ：定长字符串
 - character varying(*) ：可变长字符串
 - timestamp with/without time zone ：时间类型 4713 BC 至 294276 AD。
 - numeric(10, 2) ：定点数，类似 MySQL 的 DECIMAL(10, 2) 
@@ -28,4 +29,13 @@ timestamp without time zone 等价于 MySQL 的 DateTime ，忽略时区，只�
 ```sql
 -- 指定用户 postgres 用户在数据库 demo 的时区时 Asia/Shanghai
 ALTER ROLE postgres IN DATABASE demo SET "TimeZone" TO 'Asia/Shanghai';
+```
+
+### 表空间
+
+表空间用来指定数据存储的物理位置。默认 pg_default 就是放在默认位置。
+
+```sql
+# 创建表空间，指定路径。
+CREATE TABLESPACE fast_ssd LOCATION '/mnt/ssd/postgres_data';
 ```

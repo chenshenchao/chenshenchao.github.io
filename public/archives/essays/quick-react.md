@@ -45,8 +45,10 @@ npx create-expo-app
 
 ## 常用库与项目
 
-- [Ant Design](https://github.com/ant-design/ant-design) UI 组件库
-- [Ant Design Pro](https://github.com/ant-design/ant-design-pro) 后台项目，可用于二开。
+- [Ant Design](https://github.com/ant-design/ant-design) 桌面 UI 组件库
+- [Ant Design Pro](https://github.com/ant-design/ant-design-pro) 基于 Ant Design 后台项目，可用于二开。
+- [shadcn-ui](https://github.com/shadcn-ui/ui) 桌面 UI 组件库，风格简化，方便定制。
+- [radix-ui/themes](https://github.com/radix-ui/themes) 桌面 UI 组件库，有少部分移动端组件。
 - [react-slick](https://github.com/akiran/react-slick) 轮播
 - [react-virtualized](https://github.com/bvaughn/react-virtualized) 虚拟滚动
 - [ahook](https://github.com/alibaba/hooks) 扩展钩子(Hook)库

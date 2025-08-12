@@ -249,6 +249,7 @@ fi
 
 ## 常用库
 
+- [cargo binstall](https://github.com/cargo-bins/cargo-binstall) 对于使用了 C/C++ 的非纯 rust 工具，cargo install 需要配置环境很麻烦，用 binstall 可以直接下载编译好的来安装。
 - [prost](https://github.com/tokio-rs/prost) tokio 团队的 protobuf 实现,actix 的 protobuf 扩展此库(0.13)。
 - [rust-protobuf](https://github.com/stepancheg/rust-protobuf) protobuf 第三方实现。
 - [tonic](https://github.com/hyperium/tonic) grpc 第三方实现。
