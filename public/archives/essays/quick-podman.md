@@ -63,6 +63,13 @@ insecure = true
 
 功能和 docker 的 compose 很接近，好处是不需要 docker-compose.yml 配置文件，坏处也是这点，没有配置文件，每次都输入命令很不现实。
 
+```bash
+# 删除 会删除容器
+podman pod rm my-pod -f
+# 删除时保留指定容器
+podman pod rm --keep <podID或名称>
+```
+
 ### pod 使用 postgres 示例
 
 ```bash

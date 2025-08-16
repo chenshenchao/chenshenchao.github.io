@@ -45,16 +45,18 @@ npx create-expo-app
 
 ## 常用库与项目
 
-- [Ant Design](https://github.com/ant-design/ant-design) 桌面 UI 组件库
+- [Ant Design](https://github.com/ant-design/ant-design) 桌面 UI 组件库，组件多，适合做后台。
 - [Ant Design Pro](https://github.com/ant-design/ant-design-pro) 基于 Ant Design 后台项目，可用于二开。
-- [shadcn-ui](https://github.com/shadcn-ui/ui) 桌面 UI 组件库，风格简化，方便定制。
+- [shadcn-ui](https://github.com/shadcn-ui/ui) 桌面 UI 组件库，风格简约，方便定制，适合做官网。
 - [radix-ui/themes](https://github.com/radix-ui/themes) 桌面 UI 组件库，有少部分移动端组件。
 - [react-slick](https://github.com/akiran/react-slick) 轮播
 - [react-virtualized](https://github.com/bvaughn/react-virtualized) 虚拟滚动
 - [ahook](https://github.com/alibaba/hooks) 扩展钩子(Hook)库
 - [redux](https://github.com/reduxjs/redux) 状态管理，厚重稳定。
+- [redux-persist](https://github.com/rt2zz/redux-persist) redux 持久化扩展，多年不更新，对新 redux 有点小问题。
 - [zustand](https://github.com/pmndrs/zustand) 状态管理，轻量化。
 - [jotai](https://github.com/pmndrs/jotai) 状态管理，原子粒度。
+- [tanstack](https://tanstack.com) 包括原[react-query](https://github.com/tanstack/query)扩展到支持多框架多功能的开发库集合。
 
 ## 常用组件
 
@@ -79,13 +81,13 @@ npx create-expo-app
 useState 类似 vue 的 ref 和 reactive ，用来保存简单的状态。
 
 ```tsx
-const [name, setName] = useState<string>('');
+const [name, setName] = useState<string>("");
 
 // 使用值。
-console.log('name', name);
+console.log("name", name);
 
 // 传递新值改掉旧值。
-setName('name aaaa');
+setName("name aaaa");
 ```
 
 ### useReducer
@@ -96,17 +98,20 @@ setName('name aaaa');
 // 比 useState 多了个复杂逻辑的 setter 定义。
 const reducer = (state, action) => {
   switch (action.type) {
-    case 'A': return { a: state.a + 1 };
-    case 'B': return { a: state.a - 1 };
-    default: return { a: 0 }; 
+    case "A":
+      return { a: state.a + 1 };
+    case "B":
+      return { a: state.a - 1 };
+    default:
+      return { a: 0 };
   }
-}
+};
 
 // 这里的使用和 useState 基本相同。区别的 dispatch 和 setter。
 const [state, dispatch] = useReducer(reducer, { a: 0 });
 
 // 是传递 action 来修改值。而不是直接传递新值改旧值。
-dispatch({type: 'A'});
+dispatch({ type: "A" });
 ```
 
 ### useMemo
@@ -129,6 +134,32 @@ default export function DemoPage() {
 }
 ```
 
+### useRef 和 forwardRef
+
+useRef 区别于 useState 在于 useRef 修改 current 的值不会触发组件重绘。所以很合适用来获取 DOM 对象和存储不引发界面重绘的值。
+
+```tsx
+const e = useRef<HTMLDivElement>(null);
+
+return <div ref={e}></div>;
+```
+
+forwardRef 则用于定义子组件向父组件暴露 ref
+
+```tsx
+// 用 forwardRef 包装函数组件，使其能接收 ref
+const ChildComponent = forwardRef((props, ref) => {
+  return <input ref={ref} {...props} />;
+});
+
+// 父组件获取的 ref 是 子组件的 input
+function ParentComponent() {
+  const inputRef = useRef(null);
+
+  return <ChildComponent ref={inputRef} placeholder="请输入..." />;
+}
+```
+
 ### useEffect
 
 useEffect 类似 compose 的 LaunchedEffect 用来执行有副作用的操作。如果返回值就类似 DisposableEffect 的 dispose。
@@ -148,7 +179,6 @@ import { useCallback } from "react";
 function DemoPage() {
   const doSome = useCallback(() => {}, []);
 }
-
 ```
 
 ### useActionState
@@ -209,6 +239,10 @@ function YourComponent() {
   )}
 </YourContext.Consumer>
 ```
+
+### useId
+
+解决 SSR 场景下服务端和客户端 ID 不一致问题。
 
 ## 常用库
 

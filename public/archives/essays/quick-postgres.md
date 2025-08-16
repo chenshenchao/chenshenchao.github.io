@@ -1,6 +1,7 @@
 # [草稿]Postgres 速查
 
 [pgAdmin](https://www.pgadmin.org/) 客户端管理工具
+[下载 Windows 版本](https://www.postgresql.org/download/windows/) 有些编译用到 libpq.lib 和 libpq.dll 库。
 
 ## 数据类型
 

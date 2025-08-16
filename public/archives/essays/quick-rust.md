@@ -253,6 +253,8 @@ fi
 - [prost](https://github.com/tokio-rs/prost) tokio 团队的 protobuf 实现,actix 的 protobuf 扩展此库(0.13)。
 - [rust-protobuf](https://github.com/stepancheg/rust-protobuf) protobuf 第三方实现。
 - [tonic](https://github.com/hyperium/tonic) grpc 第三方实现。
+- [RustCrypto](https://github.com/RustCrypto) 加密库集合
+- [hex](https://github.com/KokaKiwi/rust-hex) 十六进制转换库
 
 ### UI库
 
@@ -267,10 +269,12 @@ fi
 
 ### 数据库
 
-- [sqlx](https://github.com/launchbadge/sqlx)
+- [sqlx](https://github.com/launchbadge/sqlx) 纯 rust 的 SQL 生成和客户端库。
 - [sea-orm](https://github.com/SeaQL/sea-orm) 整合 sqlx 等库，适配 actix、axum 等多个框架，功能比较全。
-- [diesel](https://github.com/diesel-rs/diesel)
-- [rusqlite](https://github.com/rusqlite/rusqlite)
+- [diesel](https://github.com/diesel-rs/diesel) 多种数据库 ORM，使用了 C 库安装会麻烦点，性能会好点。
+- [r2d2](https://github.com/sfackler/r2d2) 数据库链接池库。
+- [rusqlite](https://github.com/rusqlite/rusqlite) 打包 SQLite 给 rust 使用。
+- [rust-postgres](https://github.com/sfackler/rust-postgres) 多个 postgres 库集合（postgres、tokio-postgres等）
 
 
 ## 兼容
