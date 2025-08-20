@@ -10,6 +10,8 @@
 - character varying(*) ：可变长字符串
 - timestamp with/without time zone ：时间类型 4713 BC 至 294276 AD。
 - numeric(10, 2) ：定点数，类似 MySQL 的 DECIMAL(10, 2) 
+- json ：JSON 文本，存储 JSON 文本，查询较慢，不可以加索引。
+- jsonb ：JSON 存储，底层是二进制，性能好，可以加索引。
 
 ### 自增
 

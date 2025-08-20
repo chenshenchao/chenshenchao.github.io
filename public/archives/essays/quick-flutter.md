@@ -1,5 +1,7 @@
 # Flutter 速查
 
+Flutter 是一个比较早采用组合式开发的图形界面框架，但是也因为比较早所以在组合式上采用了面向对象范式，而不是早期的 imgui 或者后来的 React 和 Jetpack Compose 这种采用函数式范式，所以让 Flutter 的组合式显得很配置式，Container 就是一个无奈地返回配置式的组件。因为其习惯性的面向对象思维方式，采用继承、父子关系这种设计理念来开发，导致 Flutter 的组件数量多得夸张，组合的时候层数也多，其根本原因就在于把原本的配置给拆出来变成组件，然后让组件以父子关系组合。而后来的组合式图形框架则采用链式组合的方式，链式组合能显著降低层数。同时也因为面向对象的原因，链式实现和不可变冲突，所以导致链式发展不起来。而函数式本身就具有链式和不可变两种特性，天然地就采用链式组合。
+
 ```bash
 # 诊断，查看环境设配情况
 flutter doctor -v
@@ -26,11 +28,13 @@ flutter logs
 flutter logs --clear
 ```
 
-[dart 官方库](https://github.com/dart-lang/i18n) 日期格式化库 intl 等。
-[flutter 官方库](https://github.com/flutter/packages) 包括 go_router，flutter_svg，video_player, webview_flutter 等功能库。
-[flutter_web_plugins 官方库](https://docs.flutter.cn/ui/navigation/url-strategies/) web 官方扩展，临时解决 web 开发问题，估计之后会被合并到 flutter SDK。
-[flutter 官方桌面实验性库](https://github.com/google/flutter-desktop-embedding) 提供一些桌面端实验性的功能，如 window_size。
-[flutter 官方示例](https://github.com/flutter/samples)
+- [dart 官方 core 库](https://github.com/dart-lang/core) 包括 crypto 等库。
+- [dart 官方 i18n 库](https://github.com/dart-lang/i18n) 日期格式化库 intl 等。
+- [dart 官方 build 库](https://github.com/dart-lang/build) 用于生成代码，如 build_runner 等。
+- [flutter 官方库](https://github.com/flutter/packages) 包括 go_router，flutter_svg，video_player, webview_flutter 等功能库。
+- [flutter_web_plugins 官方库](https://docs.flutter.cn/ui/navigation/url-strategies/) web 官方扩展，临时解决 web 开发问题，估计之后会被合并到 flutter SDK。
+- [flutter 官方桌面实验性库](https://github.com/google/flutter-desktop-embedding) 提供一些桌面端实验性的功能，如 window_size。
+- [flutter 官方示例](https://github.com/flutter/samples)
 
 ## 常用库
 
@@ -47,7 +51,8 @@ flutter logs --clear
 - [flame](https://github.com/flame-engine/flame) 游戏开发库，包括 3D、音频 等子库。
 - [marquee](https://github.com/MarcelGarus/marquee) 文字走马灯。
 - [marqueer](https://github.com/GeceGibi/marqueer) 走马灯，可以图片。
-- [Pointy Castle](https://github.com/bcgit/pc-dart) 加密库。
+- [pointycastle](https://github.com/bcgit/pc-dart) 加密库。
+- [basic_utils](https://github.com/Ephenodrom/Dart-Basic-Utils) 基础库，比如各种密钥文件转换。
 
 ## 常见问题
 
