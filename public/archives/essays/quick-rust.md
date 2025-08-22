@@ -253,8 +253,9 @@ fi
 - [prost](https://github.com/tokio-rs/prost) tokio 团队的 protobuf 实现,actix 的 protobuf 扩展此库(0.13)。
 - [rust-protobuf](https://github.com/stepancheg/rust-protobuf) protobuf 第三方实现。
 - [tonic](https://github.com/hyperium/tonic) grpc 第三方实现。
-- [RustCrypto](https://github.com/RustCrypto) 加密库集合
-- [hex](https://github.com/KokaKiwi/rust-hex) 十六进制转换库
+- [RustCrypto](https://github.com/RustCrypto) 加密库集合。
+- [hex](https://github.com/KokaKiwi/rust-hex) 十六进制转换库。
+- [tracing](https://github.com/tokio-rs/tracing) tokio 团队开发的跟踪诊断库集合。
 
 ### UI库
 
@@ -262,10 +263,12 @@ fi
 - [egui]()
 - [freya](https://github.com/marc2332/freya) 依赖 dioxus 做的扩展。
 
-### web 开发框架
+### web 开发框架和库
 
 - [actix-web](https://github.com/actix/actix-web) 基于 actix 的 web 框架，扩展库 [actix-extras](https://github.com/actix/actix-extras)
 - [tuono](https://github.com/tuono-labs/tuono) 用 rust 实现了 NextJs 的框架，只能使用 pages 模式，目录在 routes 目录下，好处是后端代码由 TS 换成了 rust 这样比较容易分辨前后端代码，NextJs 前后端代码都是 TS。
+- [axum](https://github.com/tokio-rs/axum) tokio 团队的 web 框架。
+- [tower](https://github.com/tower-rs) web 开发库集合
 
 ### 数据库
 

@@ -15,6 +15,7 @@ AI 应用开发现在的主流应用类型有 agent、workflow 两种。
 ### 开源 AI Agant 项目
 
 - [AutoGen](https://github.com/microsoft/autogen) 微软发布的 multi-agent 框架。
+- [MetaGPT](https://github.com/FoundationAgents/MetaGPT) 软件公司 multi-agent 项目。
 - [AgentGPT](https://github.com/reworkd/AgentGPT)
 - [BabyAGI](https://github.com/yoheinakajima/babyagi)
 
