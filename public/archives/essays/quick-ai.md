@@ -2,9 +2,13 @@
 
 人工智能目前发展迅速，目前最主要的就是 LLM 的 AI 占主导地位。大语言模型开发非常耗费资金，动则上百亿的投入，只有世界上少数几个大公司才能投入，这也是早期大部分开发者都难以参与到大模型 AI 开发的原因。随着 LLM 的推广，为了让更多的人参与进来并让 AI 变现，同时又保护投入早期开发的大公司的利益，在模型开发之后出现应用开发。开发者可以不用开发自己的大模型，把大模型作为一种云服务，开发者通过调用服务商的大模型来开发自己的应用。
 
+[trae](https://www.trae.ai)
+[qcoder](https://qoder.com)
+
 ## AI 应用开发
 
-AI 应用开发现在的主流应用类型有 agent、workflow 两种。
+就像移动端的软件叫 APP ，AI 应用也有个专用词 AI Agent 。
+就目前而言，AI Agent 还未定性，类型繁多。
 大模型由大公司开发，那么小公司如何开发自己的 AI 应用呢？
 就在 AI 的上下文窗口做文章，以下的技术都是在 AI 的上下文进行操作。
 什么是 AI 的上下文，就是对 AI 的输入和输出。
@@ -18,6 +22,7 @@ AI 应用开发现在的主流应用类型有 agent、workflow 两种。
 - [MetaGPT](https://github.com/FoundationAgents/MetaGPT) 软件公司 multi-agent 项目。
 - [AgentGPT](https://github.com/reworkd/AgentGPT)
 - [BabyAGI](https://github.com/yoheinakajima/babyagi)
+- [sim](https://github.com/simstudioai/sim) workflow 项目。
 
 ### RAG（Retrieval Augmented Generation）
 

@@ -3,6 +3,7 @@
 ## 常用库
 
 - [handsontable](https://github.com/handsontable/handsontable) Excel 编辑器
+- [GSAP](https://github.com/greensock/GSAP) 动画库
 
 ## NodeJs
 

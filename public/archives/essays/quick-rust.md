@@ -256,6 +256,7 @@ fi
 - [RustCrypto](https://github.com/RustCrypto) 加密库集合。
 - [hex](https://github.com/KokaKiwi/rust-hex) 十六进制转换库。
 - [tracing](https://github.com/tokio-rs/tracing) tokio 团队开发的跟踪诊断库集合。
+- [if-addrs](https://github.com/messense/if-addrs) 本地网络地址。
 
 ### UI库
 
