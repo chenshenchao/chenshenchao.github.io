@@ -1,5 +1,7 @@
 # MySQL 速查
 
+MySQL 目前由甲骨文维护，同时有一个开源分支 MariaDB 基本上兼容。
+
 ## 基础类型
 
 - TINYINT(*) 8位，*只影响格式化输出。
@@ -21,6 +23,11 @@ mysql -p root
 
 # 通过命令修改 root 密码
 mysql -e "SET PASSWORD FOR 'root'@'localhost' = PASSWORD('password');"
+
+# 魔改 MySQL 源码时候因为出错可能用到的命令。
+# 初始化 datadir
+mysqld --initialize --console --datadir="D:\Program Files (x86)\MariaDB\data"
+mariadb-upgrade -u root -p --datadir="C:\mariadb-data"
 ```
 
 ## 常用 SQL
@@ -67,6 +74,9 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password
 
 -- 修改密码（旧，5.6 版本及以前）
 SET PASSWORD FOR 'root'@'localhost' = PASSWORD('password'); 
+
+-- 直接修改 mysql.user 表（旧，5.7 版本及以前）
+UPDATE mysql.user SET authentication_string = PASSWORD('123456') WHERE User = 'root';
 
 -- 直接通过 UPDATE 修改，执行的权限要求很高。
 UPDATE mysql.user SET password=PASSWORD('password') WHERE user='user_name';

@@ -67,6 +67,8 @@ pip install -U numpy
 - [loguru](https://github.com/Delgan/loguru) 日志库
 - [kivy](https://github.com/kivy/kivy) UI框架
 - [KivyMD](https://github.com/kivymd/KivyMD) 基于 Kivy 框架的 Material Design（安卓的UI设计风格）的组件库
+- [GeoPy](https://github.com/geopy/geopy) 地理经纬库。
+- [cartopy](https://github.com/SciTools/cartopy) 绘制地图库。
 
 #### kivy
 
@@ -259,6 +261,10 @@ python setup.py sdist bdist_whell
 # 上传
 twine upload dist/*
 ```
+
+### 基于 [nuitka](https://github.com/Nuitka/Nuitka) 的打包
+
+这个打包是把 Python 转成 C++ 再编译成二进制，所以使用不同的库会有编译的问题要解决。
 
 ### 基于 [poetry](https://github.com/python-poetry/poetry) 的打包
 

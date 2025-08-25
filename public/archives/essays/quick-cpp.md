@@ -40,6 +40,7 @@ vcpkg install openssl:x64-windows-static
 - [nmslib](https://github.com/nmslib/nmslib) 向量数据库，有标量功能。支持 C++ 、Java 和 Python。
 - [rocksdb](https://github.com/facebook/rocksdb) 键值对存储库。
 - [NuRaft](https://github.com/eBay/NuRaft) 分布式协议 Raft 的实现库。
+- [Poco](https://github.com/pocoproject/poco) 多功能库集合。
 
 ## wxWidgets
 

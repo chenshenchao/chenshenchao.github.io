@@ -279,6 +279,7 @@ fi
 - [r2d2](https://github.com/sfackler/r2d2) 数据库链接池库。
 - [rusqlite](https://github.com/rusqlite/rusqlite) 打包 SQLite 给 rust 使用。
 - [rust-postgres](https://github.com/sfackler/rust-postgres) 多个 postgres 库集合（postgres、tokio-postgres等）
+- [PoloDB](https://github.com/PoloDB/PoloDB) 文档数据库。
 
 
 ## 兼容

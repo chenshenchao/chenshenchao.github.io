@@ -5,6 +5,10 @@
 [trae](https://www.trae.ai)
 [qcoder](https://qoder.com)
 
+## 常用库
+
+- [OpenVINO](https://github.com/openvinotoolkit/openvino) 优化模型库。
+
 ## AI 应用开发
 
 就像移动端的软件叫 APP ，AI 应用也有个专用词 AI Agent 。
