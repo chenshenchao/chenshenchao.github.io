@@ -8,11 +8,11 @@
 ## 常用库
 
 - [OpenVINO](https://github.com/openvinotoolkit/openvino) 优化模型库。
+- [VibeVoice](https://github.com/microsoft/VibeVoice) 微软开源 TTS 模型。
 
 ## AI 应用开发
 
 就像移动端的软件叫 APP ，AI 应用也有个专用词 AI Agent 。
-就目前而言，AI Agent 还未定性，类型繁多。
 大模型由大公司开发，那么小公司如何开发自己的 AI 应用呢？
 就在 AI 的上下文窗口做文章，以下的技术都是在 AI 的上下文进行操作。
 什么是 AI 的上下文，就是对 AI 的输入和输出。
