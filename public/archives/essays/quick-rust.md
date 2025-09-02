@@ -104,8 +104,8 @@ cargo build --release --target=x86_64-unknown-linux-musl
 
 ### 配置镜像
 
-~/.cargo 目录下，可以创建 config.toml（旧版叫 config 没有.toml后缀） 文件配置镜像。
-这个 config（旧版叫 config 没有.toml后缀） 文件不一定有，没有自己创建。
+~/.cargo 目录下，可以创建 config.toml（旧版叫 config 没有.toml 后缀） 文件配置镜像。
+这个 config（旧版叫 config 没有.toml 后缀） 文件不一定有，没有自己创建。
 
 ```ini
 [source.crates-io]
@@ -189,6 +189,7 @@ Windows 10 下载工具集：
 [x86_64-w64-mingw32-cross](https://musl.cc/x86_64-w64-mingw32-cross.tgz)
 解压并添加目录下 bin 目录到 PATH 里面。
 修改 ~/.cargo/config.toml ，添加编译参数 配置链接器为 lld：
+
 ```ini
 [target.x86_64-unknown-linux-musl]
 linker = "x86_64-w64-mingw32-gcc"
@@ -241,6 +242,7 @@ if [ -d "$HOME/.cargo/bin" ] ; then
 	PATH="$HOME/.cargo/bin:$PATH"
 fi
 ```
+
 注：需要手动添加 $HOME/.cargo/bin 到 PATH 环境变量，不然找不到 rustup
 
 ## 官方库
@@ -254,13 +256,14 @@ fi
 - [rust-protobuf](https://github.com/stepancheg/rust-protobuf) protobuf 第三方实现。
 - [tonic](https://github.com/hyperium/tonic) grpc 第三方实现。
 - [RustCrypto](https://github.com/RustCrypto) 加密库集合。
+- [curve25519-dalek](https://github.com/dalek-cryptography/curve25519-dalek) curve25519 加密库。
 - [hex](https://github.com/KokaKiwi/rust-hex) 十六进制转换库。
 - [tracing](https://github.com/tokio-rs/tracing) tokio 团队开发的跟踪诊断库集合。
 - [if-addrs](https://github.com/messense/if-addrs) 本地网络地址。
 
-### UI库
+### UI 库
 
-- [iced](https://github.com/iced-rs/iced) 
+- [iced](https://github.com/iced-rs/iced)
 - [egui]()
 - [freya](https://github.com/marc2332/freya) 依赖 dioxus 做的扩展。
 
@@ -274,13 +277,12 @@ fi
 ### 数据库
 
 - [sqlx](https://github.com/launchbadge/sqlx) 纯 rust 的 SQL 生成和客户端库。
-- [sea-orm](https://github.com/SeaQL/sea-orm) 整合 sqlx 等库，适配 actix、axum 等多个框架，功能比较全。
-- [diesel](https://github.com/diesel-rs/diesel) 多种数据库 ORM，使用了 C 库安装会麻烦点，性能会好点。
+- [sea-orm](https://github.com/SeaQL/sea-orm) 整合 sqlx 等库，适配 actix、axum 等多个框架，功能比较全，迁移、DbFirst、CodeFirst 不合理，生成代码和自定义代码没有分离。
+- [diesel](https://github.com/diesel-rs/diesel) 多种数据库 ORM，使用了 C 库安装会麻烦点，性能会好点，迁移、DbFirst、CodeFirst 配合比较合理。
 - [r2d2](https://github.com/sfackler/r2d2) 数据库链接池库。
 - [rusqlite](https://github.com/rusqlite/rusqlite) 打包 SQLite 给 rust 使用。
-- [rust-postgres](https://github.com/sfackler/rust-postgres) 多个 postgres 库集合（postgres、tokio-postgres等）
+- [rust-postgres](https://github.com/sfackler/rust-postgres) 多个 postgres 库集合（postgres、tokio-postgres 等）
 - [PoloDB](https://github.com/PoloDB/PoloDB) 文档数据库。
-
 
 ## 兼容
 
