@@ -8,6 +8,10 @@
 [trae](https://www.trae.ai)
 [qcoder](https://qoder.com)
 
+## MCP 
+
+[Servers](https://github.com/modelcontextprotocol/servers) 可以找到大部分 MCP Server 。
+
 ## 常用库
 
 - [OpenVINO](https://github.com/openvinotoolkit/openvino) 优化模型库。

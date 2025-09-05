@@ -62,6 +62,70 @@ type TB<A extends any[], R> = // 可以级联多级 三元符号判断不同类�
     never;
 ```
 
+### Exclude、Extract、NonNullable 和 Omit、Pick 和 Partial、Required、Readonly 和 Record 和 ReturnType、Parameters、ThisParameterType、OmitThisParameter 和 InstanceType
+
+```ts
+// 枚举操作
+type A = "a" | "b" | "c";
+type B = "a" | "d";
+type C = Exclude<A, B>; // A 去掉 B 有的， "b" | "c"
+type D = Extract<A, B>; // A 和 B 只保留相同的， "a"
+
+type E = string | number | null | undefined;
+type F = NonNullable<E>; // string | number
+```
+
+```ts
+// 对象类型操作
+// 定义，排除类型 T 里面的字段
+type Omit<T, K extends keyof T> = { [P in Exclude<keyof T, K>]: T[P] };
+
+type A = {
+  id: number;
+  name: string;
+  age?: number;
+};
+
+type B = Omit<A, "name" | "age">; // B 只剩下 A 的 id 字段。
+type C = Pick<A, "name" | "age">; // C 只有 A 的 name 和 age 字段。
+
+type D = Partial<A>; // D 有 A 全部字段，都是可选；{id?: number, ...}
+type E = Required<A>; // E 有 A 全部字段，都非可选；{..., age: number }
+type F = Readonly<A>; // F 有 A 全部字段，都是可选；{readonly id: number, ...}
+```
+
+```ts
+// A 和 B 等价。
+type A = Record<string, number>;
+type B = { [key: string]: number; };
+```
+
+```ts
+type A = (a:number, b:string) => { id: number; name: string };
+type B = ReturnType<A>; // { id: number; name: string }
+type C = Parameters<A>; // [a:number, b:string]
+
+type D = { x: number };
+type E = (this: D, y: number) => number;
+type F = ThisParameterType<E>; // D
+type G = OmitThisParameter<E>; // (y:number) => number
+```
+
+```ts
+// 定义
+type InstanceType<T extends new (...args: any) => any> = T extends new (...args: any) => infer R ? R : any;
+
+// 这是个 class 不是 type
+// type 在 js 是没有的，所以编译后被擦除
+// class 是 js 有的，本质是一个函数。 
+class CA = {
+  id: number;
+  constructor(id: number) { this.id = id;}
+};
+type A = typeof CA; // 得到的是构造函数，因为 CA 在 JS 层是函数，new (id: number) => CA 
+type B = InstanceType<typeof CA>; // {id: number}
+```
+
 ### 忽略
 
 这种方式一般在赶工的时候类型又比较复杂，可以应急使用，忽略掉类型检查让 ts 退化成 js 就不会有类型报错。

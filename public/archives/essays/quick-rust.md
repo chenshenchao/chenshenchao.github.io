@@ -1,5 +1,18 @@
 # rust 速查
 
+'static 是一个名字带有误解生命周期，当作用引用时 &'static str 要求被引用实例的生命周期如静态变量要整个程序运行周期，而作用在实例时 T 'static 则是实例要完整的生命周期可控。所以用 static 作为这个生命周期的名字就很容易造成误解，感觉用 'all 都比 'static 好。
+
+## Option 和 Result
+
+```rust
+// as_ref: Option<String> => Option<&String>
+// as_deref: Option<String> => Option<&'a str>
+// as_deref: Result<String,Error> => Result<&'a str, &Error>
+let a: Option<String> = Some("a".to_string());
+let b: Option<&str> = a.as_deref(); // 等价下面
+let c: Option<&str> = a.as_ref().map(|s| s.deref());
+```
+
 ## rustup
 
 rustup 用于安装和更新 rust 编译构造工具。
