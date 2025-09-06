@@ -273,6 +273,11 @@ fi
 - [hex](https://github.com/KokaKiwi/rust-hex) 十六进制转换库。
 - [tracing](https://github.com/tokio-rs/tracing) tokio 团队开发的跟踪诊断库集合。
 - [if-addrs](https://github.com/messense/if-addrs) 本地网络地址。
+- [lazy_static](https://github.com/rust-lang-nursery/lazy-static.rs) 懒加载，因为标准库已经有 LazyLock 所以基本不用了。
+- [tch](https://github.com/LaurentMazare/tch-rs) 封装 pytorch 的 c++ 版本绑定 rust
+- [burn](https://github.com/tracel-ai/burn) 纯 rust 的深度学习框架。
+- [ndarray](https://github.com/rust-ndarray/ndarray) 类似 python 的 numpy
+- [ort](https://github.com/pykeio/ort) ONNX 格式 rust 库。
 
 ### UI 库
 

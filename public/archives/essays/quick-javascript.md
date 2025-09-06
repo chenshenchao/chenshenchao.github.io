@@ -4,6 +4,8 @@
 
 - [handsontable](https://github.com/handsontable/handsontable) Excel 编辑器
 - [GSAP](https://github.com/greensock/GSAP) 动画库
+- [crypto-js](https://github.com/brix/crypto-js) 散列和对称加密库，但是由于标准已经提供了异步的（Crypto Web API）所以只有在兼容旧环境和非异步情况下才使用。
+- [jsencrypt](https://github.com/travist/jsencrypt) 纯 JS 的非对称算法 RSA 实现，但是标准已经有异步的（Crypto Web API）所以只有在兼容旧环境和非异步情况下才使用。
 
 ## NodeJs
 
@@ -25,10 +27,9 @@ nvm install 22.15.0
 nvm use 16
 ```
 
-
 ## jsx
 
 JSX 是 js 的扩展语言，在 JS 的基本语法上扩展出可以直接写 XML 的语法。
 使用的时候通过 JSX 的编译器前端做语法分析得到中间信息。
 通过提供一个 jsxFactory 工厂函数来对接编译器后端。
-React 和 Vue 都实现了这个工厂函数来对接各自的后端VDOM模板引擎。
+React 和 Vue 都实现了这个工厂函数来对接各自的后端 VDOM 模板引擎。

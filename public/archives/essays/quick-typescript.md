@@ -3,6 +3,9 @@
 ## 常用库
 
 - [date-fns](https://github.com/date-fns/date-fns) 日期库
+- [superjson](https://github.com/flightcontrolhq/superjson) 解决 JSON 不支持 bigint 和 Date 等问题。
+- [noble-hashes](https://github.com/paulmillr/noble-hashes) 纯 TS 实现的 HASH 算法库。
+- [hash-wasm](https://github.com/Daninet/hash-wasm) 基于 WASM 的 HASH 算法库。
 - [canvas-editor](https://github.com/Hufe921/canvas-editor) 类似 Office Word 的一个 canvas/svg 编辑器，可以通过插件导出 svg 或 pdf 文件。
 - [faker](https://github.com/faker-js/faker) 生成伪造数据的库，可以用来生成测试数据。
 
