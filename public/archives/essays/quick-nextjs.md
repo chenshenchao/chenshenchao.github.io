@@ -1,5 +1,10 @@
 # NextJs 速查
 
+NextJS 的复杂度在于其并非宣传的那样是 SSR（Server Side Render）而是结合了 CSR（Client Side Render）的混合，也就是术语“水合”。
+当用户访问页面，因为使用的是浏览器，会有鼠标或者触摸屏事件，所以是单页面的模式，这个模式是 CSR 渲染的页面。
+当爬虫访问页面，因为是直接 HTTP 请求爬取 URL 链接，没有触发鼠标或者触摸屏事件，所以类似多页面模式，这种情况下是 SSR 渲染的页面。
+这样就可以做 SEO 又有单页面的流畅。同时却给开发带来了难度，因为写一个页面要同时能生成 SSR 和 CSR 两种渲染，代码就难写。
+
 ```bash
 # 创建项目
 npx create-next-app@latest
@@ -50,3 +55,10 @@ pages 类似类似 PHP ，文件名 index.tsx 代表目录 其他的是目录名
 - / => pages/index.tsx
 - /about => pages/about.tsx 或者 pages/about/index.tsx
 - /some/thing => pages/some/thing.tsx 或者 pages/some/thing/index.tsx
+
+## API 路由
+
+由于 NextJs 主打的 SSR 做 SEO 的，所以自带了后端，有一套简易的 API 开发方式。
+
+- pages 模式必须在 pages/api 目录下。使用 NextApiRequest, NextApiResponse 对象。
+- app 模式必须在 route.js 或 route.ts 文件里且 route 文件与 page.js 和 page.ts 互斥,函数名必须是 GET、POST、PUT 这种。使用标准 Request 和 Response 或扩展后的 NextRequest 和 NextResponse 对象。

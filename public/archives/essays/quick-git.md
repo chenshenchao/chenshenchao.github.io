@@ -7,6 +7,11 @@ git init
 # 把修改加入
 git add .
 
+# 取消 add 的操作
+git reset HEAD
+# 指定文件或目录
+git reset HEAD ./.gitignore
+
 # 提交
 git commit -m "提交备注信息"
 

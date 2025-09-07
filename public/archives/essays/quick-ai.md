@@ -2,20 +2,20 @@
 
 人工智能目前发展迅速，目前最主要的就是 LLM 的 AI 占主导地位。大语言模型开发非常耗费资金，动则上百亿的投入，只有世界上少数几个大公司才能投入，这也是早期大部分开发者都难以参与到大模型 AI 开发的原因。随着 LLM 的推广，为了让更多的人参与进来并让 AI 变现，同时又保护投入早期开发的大公司的利益，在模型开发之后出现应用开发。开发者可以不用开发自己的大模型，把大模型作为一种云服务，开发者通过调用服务商的大模型来开发自己的应用。
 
-[HuggingFace](https://huggingface.co/)
+[HuggingFace](https://huggingface.co/)  提供模型(Models)、数据集（Datasets）仓库和展示（Spaces）的站点。
 [OpenRouter](https://openrouter.ai/)
 [ModelScope](https://www.modelscope.cn)
 [trae](https://www.trae.ai)
 [qcoder](https://qoder.com)
 
-## MCP 
-
-[Servers](https://github.com/modelcontextprotocol/servers) 可以找到大部分 MCP Server 。
-
 ## 常用库
 
 - [OpenVINO](https://github.com/openvinotoolkit/openvino) 优化模型库。
+
+## 模型
+
 - [VibeVoice](https://github.com/microsoft/VibeVoice) 微软开源 TTS 模型。
+- [TimesFM](https://github.com/google-research/timesfm) 时间序列预测，预测股票走势，采购计划、天气预报等。
 
 ## AI 应用开发
 
@@ -30,7 +30,9 @@
 ### 开源 AI Agant 项目
 
 - [AutoGen](https://github.com/microsoft/autogen) 微软发布的 multi-agent 框架。
-- [MetaGPT](https://github.com/FoundationAgents/MetaGPT) 软件公司 multi-agent 项目。
+- [Agent Lightning](https://github.com/microsoft/agent-lightning) 微软发布的 AI 代理训练与优化的框架，可以和 autogen 结合使用。
+- [MetaGPT](https://github.com/FoundationAgents/MetaGPT) 软件公司 multi-agent 项目，可用于二开。
+- [LiteLLM](https://github.com/BerriAI/litellm) 百种 AI API 接口设配库，解决多厂商 API 兼容性问题。
 - [AgentGPT](https://github.com/reworkd/AgentGPT)
 - [BabyAGI](https://github.com/yoheinakajima/babyagi)
 - [sim](https://github.com/simstudioai/sim) workflow 项目。
@@ -43,6 +45,7 @@
 
 模型上下文协议，是为了规范化 AI 的输入和输出，从而让 AI 可以调用各种软件接口，让模型可以控制电脑、手机、查看浏览器做各种操作。当然由于模型能通过 MCP 连接网络查到更多的数据，也就保证了回答的时效性。
 
+- [Servers](https://github.com/modelcontextprotocol/servers) MCP 官方库可以找到大部分 MCP Server 。
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) 微软 Playwright 的 MCP。
 
 ## AI 模型开发
@@ -54,7 +57,6 @@
 
 ### 微调
 
-[huggingface](https://hf.co/) 模型(Models)、数据集（Datasets）仓库和展示（Spaces）。
 
 ## 开发环境与工具
 

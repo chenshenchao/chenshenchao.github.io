@@ -8,3 +8,5 @@
 - STS（Security Token Service）安全令牌服务：临时账号的生成。
 
 ## 对象存储
+
+- [rustfs](https://github.com/rustfs/rustfs) rust 实现的高性能分布式对象存储。

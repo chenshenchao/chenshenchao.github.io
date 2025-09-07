@@ -8,6 +8,11 @@
 - [hash-wasm](https://github.com/Daninet/hash-wasm) 基于 WASM 的 HASH 算法库。
 - [canvas-editor](https://github.com/Hufe921/canvas-editor) 类似 Office Word 的一个 canvas/svg 编辑器，可以通过插件导出 svg 或 pdf 文件。
 - [faker](https://github.com/faker-js/faker) 生成伪造数据的库，可以用来生成测试数据。
+- [Prisma](https://github.com/prisma/prisma) 数据库 ORM 功能齐全。
+- [Drizzle ORM](https://github.com/drizzle-team/drizzle-orm) 数据库 ORM 轻量级。
+- [sequelize](https://github.com/sequelize/sequelize) 数据库 ORM 比较早就有，版本比较多，一些老项目可能会遇到。
+- [typeorm](https://github.com/typeorm/typeorm) 数据库 ORM 代码设计比较好，性能性能不足，工具不齐全，只能算轻量级。
+- [fingerprintjs](https://github.com/fingerprintjs/fingerprintjs) 生成浏览器指纹。
 
 ## 类型系统
 
