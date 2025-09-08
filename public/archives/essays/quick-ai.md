@@ -5,8 +5,6 @@
 [HuggingFace](https://huggingface.co/)  提供模型(Models)、数据集（Datasets）仓库和展示（Spaces）的站点。
 [OpenRouter](https://openrouter.ai/)
 [ModelScope](https://www.modelscope.cn)
-[trae](https://www.trae.ai)
-[qcoder](https://qoder.com)
 
 ## 常用库
 
