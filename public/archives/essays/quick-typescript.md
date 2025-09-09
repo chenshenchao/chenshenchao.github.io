@@ -13,6 +13,7 @@
 - [sequelize](https://github.com/sequelize/sequelize) 数据库 ORM 比较早就有，版本比较多，一些老项目可能会遇到。
 - [typeorm](https://github.com/typeorm/typeorm) 数据库 ORM 代码设计比较好，性能性能不足，工具不齐全，只能算轻量级。
 - [fingerprintjs](https://github.com/fingerprintjs/fingerprintjs) 生成浏览器指纹。
+- [uuid](https://github.com/uuidjs/uuid) UUID 生成库
 
 ## 类型系统
 

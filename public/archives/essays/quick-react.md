@@ -43,21 +43,6 @@ npx create-gatsby
 npx create-expo-app
 ```
 
-## 常用库与项目
-
-- [Ant Design](https://github.com/ant-design/ant-design) 桌面 UI 组件库，组件多，适合做后台。
-- [Ant Design Pro](https://github.com/ant-design/ant-design-pro) 基于 Ant Design 后台项目，可用于二开。
-- [shadcn-ui](https://github.com/shadcn-ui/ui) 桌面 UI 组件库，风格简约，方便定制，适合做官网。
-- [radix-ui/themes](https://github.com/radix-ui/themes) 桌面 UI 组件库，有少部分移动端组件。
-- [react-slick](https://github.com/akiran/react-slick) 轮播
-- [react-virtualized](https://github.com/bvaughn/react-virtualized) 虚拟滚动
-- [ahook](https://github.com/alibaba/hooks) 扩展钩子(Hook)库
-- [redux](https://github.com/reduxjs/redux) 状态管理，厚重稳定。
-- [redux-persist](https://github.com/rt2zz/redux-persist) redux 持久化扩展，多年不更新，对新 redux 有点小问题。
-- [zustand](https://github.com/pmndrs/zustand) 状态管理，轻量化。
-- [jotai](https://github.com/pmndrs/jotai) 状态管理，原子粒度。
-- [tanstack](https://tanstack.com) 包括原[react-query](https://github.com/tanstack/query)扩展到支持多框架多功能的开发库集合。
-
 ## 常用组件
 
 - [StrictMode 严格模式](#1)
@@ -244,13 +229,23 @@ function YourComponent() {
 
 解决 SSR 场景下服务端和客户端 ID 不一致问题。
 
-## 常用库
+## 常用库与项目
 
+- [Ant Design](https://github.com/ant-design/ant-design) 阿里的桌面 UI 组件库，组件多，适合做后台。
+- [Ant Design Pro](https://github.com/ant-design/ant-design-pro) 基于 Ant Design 后台项目，可用于二开。
+- [shadcn-ui](https://github.com/shadcn-ui/ui) 桌面 UI 组件库，风格简约，方便定制，适合做官网。
+- [radix-ui/themes](https://github.com/radix-ui/themes) 桌面 UI 组件库，有少部分移动端组件。
+- [react-slick](https://github.com/akiran/react-slick) 轮播
+- [react-virtualized](https://github.com/bvaughn/react-virtualized) 虚拟滚动
 - [react-router](https://github.com/remix-run/react-router) v7 及以后 路由库，TS 写的，无需 @types 库。
 - [react-router-dom](https://github.com/remix-run/react-router) （旧 v6 以及之前的路由库，TS 的话需要 @types/react-router-dom）。
-- [redux](https://github.com/reduxjs/redux) 状态管理库，类似 vue 的 vuex 或 pinia 。
-- [ant design](https://github.com/ant-design/ant-design) 阿里的 UI 组件库。
 - [loadable-components](https://github.com/gregberge/loadable-components) React 有自带的 lazy 函数，这个组件是在 React 没提供时期做的，后来 React 自带了，但是这个库的功能更多。
+- [ahook](https://github.com/alibaba/hooks) 扩展钩子(Hook)库
+- [redux](https://github.com/reduxjs/redux) 状态管理，厚重稳定。类似 vue 的 vuex 或 pinia 。
+- [redux-persist](https://github.com/rt2zz/redux-persist) redux 持久化扩展，多年不更新，对新 redux 有点小问题。
+- [zustand](https://github.com/pmndrs/zustand) 状态管理，轻量化。
+- [jotai](https://github.com/pmndrs/jotai) 状态管理，原子粒度。
+- [tanstack](https://tanstack.com) 包括原[react-query](https://github.com/tanstack/query)扩展到支持多框架多功能的开发库集合。
 
 ### react-router
 
@@ -272,4 +267,13 @@ export default function Demo() {
     </>
   );
 }
+```
+
+### shadcn
+
+```bash
+# 初始化，可以在已有项目里面做增量，也可以创建新的项目。
+npx shadcn@latest init
+# 添加组件，每种组件都要通过此命令引入。
+npx shadcn@latest add accordion
 ```
