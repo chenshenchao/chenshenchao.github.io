@@ -231,10 +231,8 @@ function YourComponent() {
 
 ## 常用库与项目
 
-- [Ant Design](https://github.com/ant-design/ant-design) 阿里的桌面 UI 组件库，组件多，适合做后台。
-- [Ant Design Pro](https://github.com/ant-design/ant-design-pro) 基于 Ant Design 后台项目，可用于二开。
-- [shadcn-ui](https://github.com/shadcn-ui/ui) 桌面 UI 组件库，风格简约，方便定制，适合做官网。
-- [radix-ui/themes](https://github.com/radix-ui/themes) 桌面 UI 组件库，有少部分移动端组件。
+- [radix-ui](https://github.com/radix-ui/themes) 无样式 UI 组件库，大部分桌面组件，有少部分移动端组件。
+- [shadcn-ui](https://github.com/shadcn-ui/ui) 基于 radix-ui 做的 UI 组件库和开发工具，风格简约，方便定制，适合做官网。
 - [react-slick](https://github.com/akiran/react-slick) 轮播
 - [react-virtualized](https://github.com/bvaughn/react-virtualized) 虚拟滚动
 - [react-router](https://github.com/remix-run/react-router) v7 及以后 路由库，TS 写的，无需 @types 库。
@@ -246,6 +244,9 @@ function YourComponent() {
 - [zustand](https://github.com/pmndrs/zustand) 状态管理，轻量化。
 - [jotai](https://github.com/pmndrs/jotai) 状态管理，原子粒度。
 - [tanstack](https://tanstack.com) 包括原[react-query](https://github.com/tanstack/query)扩展到支持多框架多功能的开发库集合。
+- [styled-components](https://github.com/styled-components/styled-components) 样式定义组件的库。
+- [Ant Design](https://github.com/ant-design/ant-design) 阿里的桌面 UI 组件库，组件多，很多问题没解决，使用方法旧，不推荐。
+- [Ant Design Pro](https://github.com/ant-design/ant-design-pro) 基于 Ant Design 后台项目，可用于二开，不推荐。
 
 ### react-router
 

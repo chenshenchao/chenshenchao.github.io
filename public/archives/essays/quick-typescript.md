@@ -14,6 +14,9 @@
 - [typeorm](https://github.com/typeorm/typeorm) 数据库 ORM 代码设计比较好，性能性能不足，工具不齐全，只能算轻量级。
 - [fingerprintjs](https://github.com/fingerprintjs/fingerprintjs) 生成浏览器指纹。
 - [uuid](https://github.com/uuidjs/uuid) UUID 生成库
+- [dinero.js](https://github.com/dinerojs/dinero.js) 十进制数，内置货币处理。
+- [protobuf-ts](https://github.com/timostamm/protobuf-ts) protobuf 的 ts 第三方实现。
+- [ts-proto](https://github.com/stephenh/ts-proto) protobuf 的 ts 第三方实现。
 
 ## 类型系统
 
