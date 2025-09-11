@@ -279,6 +279,9 @@ fi
 - [burn](https://github.com/tracel-ai/burn) 纯 rust 的深度学习框架。
 - [ndarray](https://github.com/rust-ndarray/ndarray) 类似 python 的 numpy
 - [ort](https://github.com/pykeio/ort) ONNX 格式 rust 库。
+- [image](https://github.com/image-rs/image) 图片处理库。
+- [bigdecimal-rs](https://github.com/akubera/bigdecimal-rs) 大十进制数库。
+- [rayon](https://github.com/rayon-rs/rayon) 数据并行处理库。
 
 ### UI 库
 

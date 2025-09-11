@@ -13,18 +13,41 @@
 - [国家企业信用信息公示系统]()
 - [中国人民银行征信中心网]()
 
+### 数据站点
+
 - [证券宝](https://www.baostock.com) 免费、开源的证券数据平台（无需注册）。
 - [tushare](https://www.tushare.pro) 大数据开放社区
 - [joinquant](https://www.joinquant.com)
 - [bigquant](https://www.bigquant.com)
 
+### 开发阶段 Fake 站点
+
+- [pravatar](https://i.pravatar.cc/300) 生成随机头像。
 
 ## 常用工具
 
 ### AI 编程工具
 
-[trae](https://www.trae.ai) 字节编程 AI IDE
-[qcoder](https://qoder.com) 阿里编程 AI IDE
+- [trae](https://www.trae.ai) 字节编程 AI IDE
+- [qcoder](https://qoder.com) 阿里编程 AI IDE
+- [qwen code](https://github.com/QwenLM/qwen-code) qwen code 源码
+
+```bash
+# claude code 命令行工具
+npm install -g @anthropic-ai/claude-code
+# 运行
+claude
+
+# openai codex 命令行工具
+npm install -g @openai/codex
+# 运行
+codex
+
+# 千问命令行工具
+npm install -g @qwen-code/qwen-code
+# 运行
+qwen
+```
 
 ### AI 界面设计工具
 

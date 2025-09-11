@@ -12,11 +12,19 @@
 - [Drizzle ORM](https://github.com/drizzle-team/drizzle-orm) 数据库 ORM 轻量级。
 - [sequelize](https://github.com/sequelize/sequelize) 数据库 ORM 比较早就有，版本比较多，一些老项目可能会遇到。
 - [typeorm](https://github.com/typeorm/typeorm) 数据库 ORM 代码设计比较好，性能性能不足，工具不齐全，只能算轻量级。
+- [ioredis](https://github.com/redis/ioredis) redis 官方的客户端库。
+- [node-redis](https://github.com/redis/node-redis) redis 官方的客户端库。
 - [fingerprintjs](https://github.com/fingerprintjs/fingerprintjs) 生成浏览器指纹。
 - [uuid](https://github.com/uuidjs/uuid) UUID 生成库
 - [dinero.js](https://github.com/dinerojs/dinero.js) 十进制数，内置货币处理。
 - [protobuf-ts](https://github.com/timostamm/protobuf-ts) protobuf 的 ts 第三方实现。
 - [ts-proto](https://github.com/stephenh/ts-proto) protobuf 的 ts 第三方实现。
+- [tailwindcss](https://github.com/tailwindlabs/tailwindcss) 通过类名管理 CSS 的库，结合 clsx 库开发很方便。
+- [tw-animate-css](https://github.com/Wombosvideo/tw-animate-css) 对 tailwindcss 的动画扩展库。
+- [tailwind-merge](https://github.com/dcastil/tailwind-merge) 运行时合并类库，可能助长代码变脏，若能编译阶段检查出来会更好。
+- [lucide](https://github.com/lucide-icons/lucide) 支持多种框架（React、Vue等）的图标集合。
+- [jose](https://github.com/panva/jose) jwt 库。
+- [faker-js](https://github.com/faker-js/faker) 开始时调试数据生成库。
 
 ## 类型系统
 

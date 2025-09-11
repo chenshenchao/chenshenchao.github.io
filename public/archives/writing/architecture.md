@@ -61,9 +61,15 @@
 企业系统软件卡多半是设备老旧，业务功能随时间累加后老设备性能慢慢被占满，基本上都是单机服务器，设备常常都是十来年的老设备。
 一两个 4核8G + 几个 1核1G 的云服务器再买些旧设备就能带动日常 几百人 使用。 
 
-### 开源项目
+### 电商系统（E-Commerce）
 
-- [CRMEB（Customer Relationship Management + E-commerce Business）](https://www.crmeb.com) 电商框架
+电子商务系统是比较普遍的，几乎每个人都网购过，形形色色的电商系统大同小异。因为是 To C 的，设计上都要让用户简便操作，注重用户习惯，所以都趋同了。
+
+- [mall 后端](https://github.com/macrozheng/mall) 
+- [mall 后台 前端](https://github.com/macrozheng/mall-admin-web)
+- [mall APP 前端](https://github.com/macrozheng/mall-app-web)
+- [Apache OFBiz](https://ofbiz.apache.org/)
+- [nopCommerce](https://github.com/nopSolutions/nopCommerce) 技术栈比较旧，后端 .Net Formatwork 4.8（只能 Windows）；前端用 gulp 打包 jquery 项目。
 
 ## 权限
 

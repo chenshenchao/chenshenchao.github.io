@@ -9,7 +9,8 @@
 - [decimal.js](https://github.com/MikeMcl/decimal.js) 十进制数，有三角函数。
 - [bignumber.js](https://github.com/MikeMcl/bignumber.js) 十进制数，decimal.js 精简版，只有四则运算。
 - [big.js](https://github.com/MikeMcl/big.js) 十进制数，极简。有 @types/big.js 适配。
-
+- [clsx](https://github.com/lukeed/clsx) HTML 类名设计库，可以结合 tailwindcss 使用管理 react 的 className。
+- [node-jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) jwt 库。
 
 ## NodeJs
 
