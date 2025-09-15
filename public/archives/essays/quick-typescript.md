@@ -23,8 +23,11 @@
 - [tw-animate-css](https://github.com/Wombosvideo/tw-animate-css) 对 tailwindcss 的动画扩展库。
 - [tailwind-merge](https://github.com/dcastil/tailwind-merge) 运行时合并类库，可能助长代码变脏，若能编译阶段检查出来会更好。
 - [lucide](https://github.com/lucide-icons/lucide) 支持多种框架（React、Vue等）的图标集合。
+- [embla-carousel](https://github.com/davidjerleke/embla-carousel)  支持多种框架（React、Vue等）的轮播图。
 - [jose](https://github.com/panva/jose) jwt 库。
 - [faker-js](https://github.com/faker-js/faker) 开始时调试数据生成库。
+- [i18next-resources-for-ts]() i18next 给资源生成 TS 类型。
+- [lingui](https://github.com/lingui/js-lingui) i18n 库。
 
 ## 类型系统
 

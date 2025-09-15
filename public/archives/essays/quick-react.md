@@ -245,6 +245,7 @@ function YourComponent() {
 - [jotai](https://github.com/pmndrs/jotai) 状态管理，原子粒度。
 - [tanstack](https://tanstack.com) 包括原[react-query](https://github.com/tanstack/query)扩展到支持多框架多功能的开发库集合。
 - [styled-components](https://github.com/styled-components/styled-components) 样式定义组件的库。
+- [react-i18next](https://github.com/i18next/react-i18next) 为 React 开发的 i18n 扩展库。
 - [Ant Design](https://github.com/ant-design/ant-design) 阿里的桌面 UI 组件库，组件多，很多问题没解决，使用方法旧，不推荐。
 - [Ant Design Pro](https://github.com/ant-design/ant-design-pro) 基于 Ant Design 后台项目，可用于二开，不推荐。
 

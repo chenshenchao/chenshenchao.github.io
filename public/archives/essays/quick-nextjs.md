@@ -13,6 +13,12 @@ npx create-next-app@latest
 npm run dev
 ```
 
+## 常用库
+
+- [cookies-next](https://github.com/andreizanik/cookies-next) 为 NextJS 的 Cookie 库。
+- [next-i18next](https://github.com/i18next/next-i18next) 为 NextJS 的 Pages 模式的 i18n 多语言库。
+- [next-intl](https://github.com/amannn/next-intl) 为 NextJS 的 i18n 多语言库。
+
 ## 模式
 
 nextjs 有两种模式：App 和 Pages 模式，推荐使用 App 模式。
@@ -46,6 +52,11 @@ app/layout.tsx 会作用于所有页面，app/about/layout.tsx 被当作顶层�
 - / => app/(main)/page.tsx
 - app/(other)/layout.tsx
 - /a => app/(other)/a/page.tsx
+
+通过添加路径参数也可以提供布局 layout.tsx 文件。
+
+- app/[lng]/layout.tsx
+- /zh => app/[lng]/page.tsx
 
 ### pages 模式
 

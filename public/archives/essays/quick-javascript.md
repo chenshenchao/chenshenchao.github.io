@@ -11,6 +11,9 @@
 - [big.js](https://github.com/MikeMcl/big.js) 十进制数，极简。有 @types/big.js 适配。
 - [clsx](https://github.com/lukeed/clsx) HTML 类名设计库，可以结合 tailwindcss 使用管理 react 的 className。
 - [node-jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) jwt 库。
+- [i18next](https://github.com/i18next/i18next) i18n 扩展库。
+- [i18next-browser-languagedetector](https://github.com/i18next/i18next-browser-languageDetector) i18next 浏览器端检查语言类型扩展。
+- [i18next-resources-to-backend](https://github.com/i18next/i18next-resources-to-backend) i18next 加载 JSON 资源。
 
 ## NodeJs
 
