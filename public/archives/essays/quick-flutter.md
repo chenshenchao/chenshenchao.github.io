@@ -53,6 +53,12 @@ flutter logs --clear
 - [marqueer](https://github.com/GeceGibi/marqueer) 走马灯，可以图片。
 - [pointycastle](https://github.com/bcgit/pc-dart) 加密库。
 - [basic_utils](https://github.com/Ephenodrom/Dart-Basic-Utils) 基础库，比如各种密钥文件转换。
+- [flutter_blue](https://github.com/pauldemarco/flutter_blue) 低功耗蓝牙库。
+- [flutter_blue_plus](https://github.com/chipweinberger/flutter_blue_plus) flutter_blue 低功耗蓝牙库的后续开发库。
+- [flutter_blue_plus_windows](https://github.com/chan150/flutter_blue_plus_windows) flutter_blue_plus 低功耗蓝牙库的Windows 扩展。
+- [flutter_reactive_ble](https://github.com/PhilipsHue/flutter_reactive_ble) 低功耗蓝牙库。
+- [bluetooth_classic](https://github.com/matfire/bluetooth_classic) 经典蓝牙库。
+- [print_bluetooth_thermal](https://github.com/andresperezmelo/print_bluetooth_thermal) 蓝牙打印库，ESC/POS 协议封装。
 
 ## 常见问题
 

@@ -28,6 +28,7 @@
 - [faker-js](https://github.com/faker-js/faker) 开始时调试数据生成库。
 - [i18next-resources-for-ts]() i18next 给资源生成 TS 类型。
 - [lingui](https://github.com/lingui/js-lingui) i18n 库。
+- [motion](https://github.com/motiondivision/motion) 动画库。
 
 ## 类型系统
 

@@ -25,6 +25,7 @@
 - [githubusercontent](https://avatars.githubusercontent.com/u/27744505) GitHub 头像。偶尔被墙。
 - [pravatar.cc](https://i.pravatar.cc/300) 生成随机头像。目前没被墙。
 - [picsum.photos](https://picsum.photos/seed/oRV0aovmT/3950/597) 免版权的随机占位图。目前没被墙。
+- [placehold.co](https://placehold.co/200x150/0066CC/FFFFFF?text=UserAvatar) 免费占位图，文字只支持英文，被墙。
 - [loremflickr](https://loremflickr.com/3084/1275?lock=4950428607615840) 免费占位符图片生成服务。好像无了，但是FakerJs 生成用了这个站点。
 - [cdn.jsdelivr.net](https://cdn.jsdelivr.net) CDN 分发，faker 生成图片会出现。
 
