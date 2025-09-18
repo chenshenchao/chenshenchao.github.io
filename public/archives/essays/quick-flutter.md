@@ -28,7 +28,7 @@ flutter logs
 flutter logs --clear
 ```
 
-- [dart 官方 core 库](https://github.com/dart-lang/core) 包括 crypto 等库。
+- [dart 官方 core 库](https://github.com/dart-lang/core) 包括 async, crypto 等库。
 - [dart 官方 i18n 库](https://github.com/dart-lang/i18n) 日期格式化库 intl 等。
 - [dart 官方 build 库](https://github.com/dart-lang/build) 用于生成代码，如 build_runner 等。
 - [flutter 官方库](https://github.com/flutter/packages) 包括 go_router，flutter_svg，video_player, webview_flutter 等功能库。
@@ -38,6 +38,8 @@ flutter logs --clear
 
 ## 常用库
 
+- [permission_handler](https://github.com/baseflow/flutter-permission-handler) 权限库。
+- [image](https://github.com/brendan-duncan/image) 图片处理库。
 - [bloc](https://github.com/felangel/bloc) 状态管理库，拆分成多个库，按需引入，支持 持久化(hydrated_bloc)，回放(replay_bloc) 等功能。
 - [flutter_screenutil](https://github.com/OpenFlutter/flutter_screenutil) 类似 web 前端 vw vh 按屏幕等比缩放，适合移动端应用。
 - [ResponsiveFramework](https://github.com/Codelessly/ResponsiveFramework) 类似 web 前端的多媒体，响应适配不同尺寸的屏幕，适合桌面应用。
@@ -58,7 +60,8 @@ flutter logs --clear
 - [flutter_blue_plus_windows](https://github.com/chan150/flutter_blue_plus_windows) flutter_blue_plus 低功耗蓝牙库的Windows 扩展。
 - [flutter_reactive_ble](https://github.com/PhilipsHue/flutter_reactive_ble) 低功耗蓝牙库。
 - [bluetooth_classic](https://github.com/matfire/bluetooth_classic) 经典蓝牙库。
-- [print_bluetooth_thermal](https://github.com/andresperezmelo/print_bluetooth_thermal) 蓝牙打印库，ESC/POS 协议封装。
+- [print_bluetooth_thermal](https://github.com/andresperezmelo/print_bluetooth_thermal) 蓝牙打印库。
+- [flutter_esc_pos_utils](https://github.com/mjafartp/flutter_esc_pos_utils) ESC/POS 打印协议封装。
 
 ## 常见问题
 
