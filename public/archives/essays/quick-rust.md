@@ -282,6 +282,7 @@ fi
 - [image](https://github.com/image-rs/image) 图片处理库。
 - [bigdecimal-rs](https://github.com/akubera/bigdecimal-rs) 大十进制数库。
 - [rayon](https://github.com/rayon-rs/rayon) 数据并行处理库。
+- [rmcp](https://github.com/modelcontextprotocol/rust-sdk) MCP 开发库。
 
 ### UI 库
 

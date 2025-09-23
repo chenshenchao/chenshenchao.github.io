@@ -7,6 +7,12 @@
 [ModelScope](https://www.modelscope.cn)
 [阿里云百炼](https://bailian.console.aliyun.com/) 云平台，目前有送免费 100万 tokens 额度。
 
+## 术语
+
+- 提示词（Prompt）
+- Token
+
+
 ## 常用库
 
 - [OpenVINO](https://github.com/openvinotoolkit/openvino) 优化模型库。
@@ -15,6 +21,7 @@
 
 - [VibeVoice](https://github.com/microsoft/VibeVoice) 微软开源 TTS 模型。
 - [TimesFM](https://github.com/google-research/timesfm) 时间序列预测，预测股票走势，采购计划、天气预报等。
+- [ttt-video-dit](https://github.com/test-time-training/ttt-video-dit) 视频模型。
 
 ## AI 应用开发
 

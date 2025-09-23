@@ -41,6 +41,21 @@ npm i chromedriver --chromedriver_cdnurl=https://..
 npm i -D electron --electron_mirror=https://..
 ```
 
+## 变体
+
+因为 npm 有着各种缺陷，所以后来出现了各种替代品。不过每隔一段时间这些替代品的功能又可能被 npm 吸纳而失去优势。
+
+### yarn
+
+最早解决 npm 的很多问题的工具，不过后来功能主键被 npm 吸纳，目前失去了优势。 
+
+### pnpm
+
+相对于 npm 还是有一些优势。
+
+```bash
+```
+
 ## 部署
 
 ### yum
