@@ -18,6 +18,7 @@ npm run dev
 - [cookies-next](https://github.com/andreizanik/cookies-next) 为 NextJS 的 Cookie 库。
 - [next-i18next](https://github.com/i18next/next-i18next) 为 NextJS 的 Pages 模式的 i18n 多语言库。
 - [next-intl](https://github.com/amannn/next-intl) 为 NextJS 的 i18n 多语言库。
+- [next-auth](https://github.com/nextauthjs/next-auth) 鉴权库。
 
 ## 模式
 

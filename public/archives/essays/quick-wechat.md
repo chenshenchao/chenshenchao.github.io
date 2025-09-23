@@ -10,6 +10,12 @@
 
 [小程序测试号](https://mp.weixin.qq.com/wxamp/sandbox)
 
+### 常用库
+
+- [taro](https://github.com/nervjs/taro) 京东开源，跨平台开发框架，React 技术栈。
+- [uniapp](https://uniapp.dcloud.net.cn/) 闭源，跨平台开发框架，Vue 技术栈。
+- [vant-weapp](https://github.com/youzan/vant-weapp) 有赞 UI库。
+
 ### 开发与测试
 
 因为预览的时候是用的真机微信，此时本地服务器是没有 HTTPS 证书的，会不能看到图片，必须要有 HTTPS 的图片。

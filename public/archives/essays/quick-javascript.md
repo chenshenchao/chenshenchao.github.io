@@ -6,6 +6,7 @@
 - [GSAP](https://github.com/greensock/GSAP) 动画库
 - [crypto-js](https://github.com/brix/crypto-js) 散列和对称加密库，但是由于标准已经提供了异步的（Crypto Web API）所以只有在兼容旧环境和非异步情况下才使用。
 - [jsencrypt](https://github.com/travist/jsencrypt) 纯 JS 的非对称算法 RSA 实现，但是标准已经有异步的（Crypto Web API）所以只有在兼容旧环境和非异步情况下才使用。
+- [bcrypt](https://github.com/kelektiv/node.bcrypt.js) Node 的 Bcrypt HASH 实现。
 - [decimal.js](https://github.com/MikeMcl/decimal.js) 十进制数，有三角函数。
 - [bignumber.js](https://github.com/MikeMcl/bignumber.js) 十进制数，decimal.js 精简版，只有四则运算。
 - [big.js](https://github.com/MikeMcl/big.js) 十进制数，极简。有 @types/big.js 适配。

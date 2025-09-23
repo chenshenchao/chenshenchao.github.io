@@ -233,6 +233,16 @@ function YourComponent() {
 
 - [radix-ui](https://github.com/radix-ui/themes) 无样式 UI 组件库，大部分桌面组件，有少部分移动端组件。
 - [shadcn-ui](https://github.com/shadcn-ui/ui) 基于 radix-ui 做的 UI 组件库和开发工具，风格简约，方便定制，适合做官网。
+- [tamagui](https://github.com/tamagui/tamagui) 像素风格 UI 组件库。
+- [chakra-ui](https://github.com/chakra-ui/chakra-ui) UI 组件库。
+- [NativeBase](https://github.com/GeekyAnts/NativeBase) 黑白复古风格 UI 组件库。
+- [React Spectrum](https://github.com/adobe/react-spectrum) Adobe，UI 组件库。
+- [primereact](https://github.com/primefaces/primereact) UI 组件库。
+- [evergreen](https://github.com/segmentio/evergreen) UI 组件库。
+- [react-vant](https://github.com/3lang3/react-vant) 移动端 UI 组件库。(vue 的 vant 的第三方开发的 react 版)
+- [nutui-react](https://github.com/jdf2e/nutui-react) 移动端 UI 组件库。(京东 vue 的 nutui 的京东零售开发的 react 版)
+- [ant-design-mobile](https://github.com/ant-design/ant-design-mobile) 阿里，移动端 UI 组件库。
+- [UI Kitten](https://github.com/akveo/react-native-ui-kitten) React native 的 UI 组件库。
 - [react-slick](https://github.com/akiran/react-slick) 轮播
 - [react-virtualized](https://github.com/bvaughn/react-virtualized) 虚拟滚动
 - [react-router](https://github.com/remix-run/react-router) v7 及以后 路由库，TS 写的，无需 @types 库。
@@ -246,7 +256,7 @@ function YourComponent() {
 - [tanstack](https://tanstack.com) 包括原[react-query](https://github.com/tanstack/query)扩展到支持多框架多功能的开发库集合。
 - [styled-components](https://github.com/styled-components/styled-components) 样式定义组件的库。
 - [react-i18next](https://github.com/i18next/react-i18next) 为 React 开发的 i18n 扩展库。
-- [Ant Design](https://github.com/ant-design/ant-design) 阿里的桌面 UI 组件库，组件多，很多问题没解决，使用方法旧，不推荐。
+- [Ant Design](https://github.com/ant-design/ant-design) 阿里，桌面 UI 组件库，组件多，很多问题没解决，使用方法旧，不推荐。
 - [Ant Design Pro](https://github.com/ant-design/ant-design-pro) 基于 Ant Design 后台项目，可用于二开，不推荐。
 
 ### react-router

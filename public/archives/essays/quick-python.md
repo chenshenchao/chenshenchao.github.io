@@ -69,6 +69,9 @@ pip install -U numpy
 - [KivyMD](https://github.com/kivymd/KivyMD) 基于 Kivy 框架的 Material Design（安卓的UI设计风格）的组件库
 - [GeoPy](https://github.com/geopy/geopy) 地理经纬库。
 - [cartopy](https://github.com/SciTools/cartopy) 绘制地图库。
+- [fastapi](https://github.com/fastapi/fastapi) web 框架。
+- [FastUI](https://github.com/pydantic/FastUI) web UI 库。非 HTML 模板，是 Python 代码生成 HTML。
+- [pydantic](https://github.com/pydantic/pydantic) 数据验证库。
 
 #### kivy
 
