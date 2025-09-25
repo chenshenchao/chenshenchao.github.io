@@ -3,6 +3,8 @@
 ## 常用库
 
 - [date-fns](https://github.com/date-fns/date-fns) 日期库
+- [es-toolkit](https://github.com/toss/es-toolkit) 类 lodash 工具库。
+- [radash](https://github.com/sodiray/radash) 类 lodash 工具库。
 - [superjson](https://github.com/flightcontrolhq/superjson) 解决 JSON 不支持 bigint 和 Date 等问题。
 - [noble-hashes](https://github.com/paulmillr/noble-hashes) 纯 TS 实现的 HASH 算法库。
 - [hash-wasm](https://github.com/Daninet/hash-wasm) 基于 WASM 的 HASH 算法库。

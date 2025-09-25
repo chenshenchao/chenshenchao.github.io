@@ -239,6 +239,8 @@ function YourComponent() {
 - [React Spectrum](https://github.com/adobe/react-spectrum) Adobe，UI 组件库。
 - [primereact](https://github.com/primefaces/primereact) UI 组件库。
 - [evergreen](https://github.com/segmentio/evergreen) UI 组件库。
+- [tdesign-react](https://github.com/Tencent/tdesign-react) 腾讯桌面 UI 库。
+- [tdesign-mobile-react](https://github.com/Tencent/tdesign-mobile-react) 腾讯移动 UI 库。
 - [react-vant](https://github.com/3lang3/react-vant) 移动端 UI 组件库。(vue 的 vant 的第三方开发的 react 版)
 - [nutui-react](https://github.com/jdf2e/nutui-react) 移动端 UI 组件库。(京东 vue 的 nutui 的京东零售开发的 react 版)
 - [ant-design-mobile](https://github.com/ant-design/ant-design-mobile) 阿里，移动端 UI 组件库。

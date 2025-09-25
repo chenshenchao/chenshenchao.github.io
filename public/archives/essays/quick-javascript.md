@@ -2,6 +2,8 @@
 
 ## 常用库
 
+- [lodash](https://github.com/lodash/lodash) 基础类型扩展工具库。
+- [ramda](https://github.com/ramda/ramda) 类 lodash 工具库。
 - [handsontable](https://github.com/handsontable/handsontable) Excel 编辑器
 - [GSAP](https://github.com/greensock/GSAP) 动画库
 - [crypto-js](https://github.com/brix/crypto-js) 散列和对称加密库，但是由于标准已经提供了异步的（Crypto Web API）所以只有在兼容旧环境和非异步情况下才使用。
