@@ -1,5 +1,7 @@
 # Linux 速查
 
+## 常用命令
+
 ```bash
 # 查看系统信息
 uname -a
@@ -10,7 +12,6 @@ cat /etc/issue
 cat /proc/version
 hostnamectl
 
-
 # 修改权限
 cd /www/wwwroot/
 chown -R www:www .
@@ -19,6 +20,17 @@ chmod -R 755 .
 # 创建目录
 # -p 递归创建，已经存在不会报错
 mkdir -p /www/wwwroot/your_dir
+```
+
+```bash
+# 查看文件
+more bigfile.txt
+
+# 查看文件，more 的升级版本。
+less bigfile.text
+
+# 查看文件信息，比如文本文件字符集（不一定准确）
+file -i file.txt
 ```
 
 ## 服务

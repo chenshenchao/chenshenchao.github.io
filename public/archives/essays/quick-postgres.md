@@ -3,6 +3,15 @@
 [pgAdmin](https://www.pgadmin.org/) 客户端管理工具
 [下载 Windows 版本](https://www.postgresql.org/download/windows/) 有些编译用到 libpq.lib 和 libpq.dll 库。
 
+## 命令
+
+```bash
+# 查看说明
+psql --help
+# 执行 sql 文件。
+psql -U 用户名 -d 数据库名 -f /路径/文件名.sql
+```
+
 ## 数据类型
 
 - bigint ：整型64位
