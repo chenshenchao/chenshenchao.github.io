@@ -21,6 +21,16 @@
 
 - “DPI awarenes” DPI 感知，能够根据 DPI 变化调整大小。
 
+构建模式创建后可以提供不同的构建设置，默认 Default 构建模式。
+
+### 添加与重写
+
+可以添加编译器命令参数等。
+
+添加自定义预编译宏：“Custom” 加入 -dYOUR_MACRO 就加入了 YOUR_MACRO 宏。
+添加后每个构建模式都有个单选框，勾选就是在此构建模式下启用这个宏。
+
+
 ## 软件包
 
 ### 常用软件包
@@ -31,6 +41,7 @@
 - DCPcrypt 一个加密算法包。
 - [CEF4Delphi](https://github.com/salvadordf/CEF4Delphi) 一个跨平台的 CEF WebView 的封装，（在线软件包可下载，依赖 DCPcrypt）。
 - [WebView4Delphi](https://github.com/salvadordf/WebView4Delphi) 一个 Windows 下 WebView2 的封装，（在线软件包可下载）。
+- Rx 一个仿 Delphi RxLib 的一个组件库。
 
 ### 自定义软件包
 
@@ -51,12 +62,16 @@ begin
 end; 
 ```
 
+### [CEF4Delphi](https://github.com/salvadordf/CEF4Delphi)
+
 ### [WebView4Delphi](https://github.com/salvadordf/WebView4Delphi)
 
 - 需要确保运行目录下有 WebView2Loader.dll （这个官方源码里面有bin32和bin64两个版本）
 - 按照官方源码的示例 demos 里面把各种事件做处理，不然会有各种问题。
 
-注：TWVWindowParent 只支持 alClient 布局，无论你改什么他都是这个布局，所以设计的时候最好调成这个布局，才能保证一致性。
+注：
+1. TWVWindowParent 只支持 alClient 布局，无论你改什么他都是这个布局，所以设计的时候最好调成这个布局，才能保证一致性。
+2. TWVBrowser 的 "BrowserExecPath" 和 "UserDataFolder" 属性最好不要用，发布会有问题，建议通过 GlobalWebView2Loader 设置。
 
 这个需要自行下载 WebView2 的发行版本，然后放到指定目录下。
 
@@ -82,4 +97,24 @@ set electron_mirror=https://npmmirror.com/mirrors/electron/
 
 @rem 安装 Electron
 npm i -D electron
+```
+
+## LCL
+
+### Windows 下的问题
+
+```pascal
+// 几个 WM_NC*（non client） 开头的 非客户区 Windows 消息都没有办法接收到。
+procedure WMNCCalcSize(var AMessage:TWMNCCalcSize); message WM_NCCALCSIZE;
+procedure WMNCLButtonDown(var AMessage:TWMNCLButtonDown); message WM_NCLBUTTONDOWN;
+procedure WMNCPaint(var AMessage:TWMNCPaint); message WM_NCPAINT;
+
+// 这个 WM_NC* 消息可以接收到。
+procedure WMNCHitTest(var AMessage:TWMNCHitTest); message WM_NCHITTEST;
+
+// 覆盖 窗口处理也是接收不到 非客户区消息。
+procedure WndProc(var Message: TMessage); override;
+
+// 直接用 SendMessage 也是接收不到，可见应该是 LCL 在封装的时候就把这些消息跳过了。
+SendMessage(Handle, WM_NCPAINT, WPARAM(TRUE), LPARAM(nil));
 ```

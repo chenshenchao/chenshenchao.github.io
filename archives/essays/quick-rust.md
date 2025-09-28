@@ -1,5 +1,19 @@
 # rust 速查
 
+'static 是一个名字带有误解生命周期，当作用引用时 &'static str 要求被引用实例的生命周期如静态变量要整个程序运行周期，而作用在实例时 T 'static 则是实例要完整的生命周期可控。所以用 static 作为这个生命周期的名字就很容易造成误解，感觉用 'all 都比 'static 好。
+和 C++ 一样有很强的类型推到能力，但是这就导致很多隐式转换，不过因为是通过 trait From Into 和泛型约束，不是使用构造函数所以不会有 C++ 构造函数命中奇怪类型的问题。
+
+## Option 和 Result
+
+```rust
+// as_ref: Option<String> => Option<&String>
+// as_deref: Option<String> => Option<&'a str>
+// as_deref: Result<String,Error> => Result<&'a str, &Error>
+let a: Option<String> = Some("a".to_string());
+let b: Option<&str> = a.as_deref(); // 等价下面
+let c: Option<&str> = a.as_ref().map(|s| s.deref());
+```
+
 ## rustup
 
 rustup 用于安装和更新 rust 编译构造工具。
@@ -100,10 +114,12 @@ cargo build --release --target=x86_64-unknown-linux-musl
 
 包管理工具。
 
+[官方仓库](https://crates.io)
+
 ### 配置镜像
 
-~/.cargo 目录下，可以创建 config.toml（旧版叫 config 没有.toml后缀） 文件配置镜像。
-这个 config（旧版叫 config 没有.toml后缀） 文件不一定有，没有自己创建。
+~/.cargo 目录下，可以创建 config.toml（旧版叫 config 没有.toml 后缀） 文件配置镜像。
+这个 config（旧版叫 config 没有.toml 后缀） 文件不一定有，没有自己创建。
 
 ```ini
 [source.crates-io]
@@ -187,6 +203,7 @@ Windows 10 下载工具集：
 [x86_64-w64-mingw32-cross](https://musl.cc/x86_64-w64-mingw32-cross.tgz)
 解压并添加目录下 bin 目录到 PATH 里面。
 修改 ~/.cargo/config.toml ，添加编译参数 配置链接器为 lld：
+
 ```ini
 [target.x86_64-unknown-linux-musl]
 linker = "x86_64-w64-mingw32-gcc"
@@ -239,16 +256,56 @@ if [ -d "$HOME/.cargo/bin" ] ; then
 	PATH="$HOME/.cargo/bin:$PATH"
 fi
 ```
+
 注：需要手动添加 $HOME/.cargo/bin 到 PATH 环境变量，不然找不到 rustup
+
+## 官方库
+
+- [futures](https://github.com/rust-lang/futures-rs) 异步支持库。
 
 ## 常用库
 
+- [cargo binstall](https://github.com/cargo-bins/cargo-binstall) 对于使用了 C/C++ 的非纯 rust 工具，cargo install 需要配置环境很麻烦，用 binstall 可以直接下载编译好的来安装。
+- [prost](https://github.com/tokio-rs/prost) tokio 团队的 protobuf 实现,actix 的 protobuf 扩展此库(0.13)。
+- [rust-protobuf](https://github.com/stepancheg/rust-protobuf) protobuf 第三方实现。
+- [tonic](https://github.com/hyperium/tonic) grpc 第三方实现。
+- [RustCrypto](https://github.com/RustCrypto) 加密库集合。
+- [curve25519-dalek](https://github.com/dalek-cryptography/curve25519-dalek) curve25519 加密库。
+- [hex](https://github.com/KokaKiwi/rust-hex) 十六进制转换库。
+- [tracing](https://github.com/tokio-rs/tracing) tokio 团队开发的跟踪诊断库集合。
+- [if-addrs](https://github.com/messense/if-addrs) 本地网络地址。
+- [lazy_static](https://github.com/rust-lang-nursery/lazy-static.rs) 懒加载，因为标准库已经有 LazyLock 所以基本不用了。
+- [tch](https://github.com/LaurentMazare/tch-rs) 封装 pytorch 的 c++ 版本绑定 rust
+- [burn](https://github.com/tracel-ai/burn) 纯 rust 的深度学习框架。
+- [ndarray](https://github.com/rust-ndarray/ndarray) 类似 python 的 numpy
+- [ort](https://github.com/pykeio/ort) ONNX 格式 rust 库。
+- [image](https://github.com/image-rs/image) 图片处理库。
+- [bigdecimal-rs](https://github.com/akubera/bigdecimal-rs) 大十进制数库。
+- [rayon](https://github.com/rayon-rs/rayon) 数据并行处理库。
+- [rmcp](https://github.com/modelcontextprotocol/rust-sdk) MCP 开发库。
+
+### UI 库
+
+- [iced](https://github.com/iced-rs/iced)
+- [egui]()
+- [freya](https://github.com/marc2332/freya) 依赖 dioxus 做的扩展。
+
+### web 开发框架和库
+
+- [actix-web](https://github.com/actix/actix-web) 基于 actix 的 web 框架，扩展库 [actix-extras](https://github.com/actix/actix-extras)
+- [tuono](https://github.com/tuono-labs/tuono) 用 rust 实现了 NextJs 的框架，只能使用 pages 模式，目录在 routes 目录下，好处是后端代码由 TS 换成了 rust 这样比较容易分辨前后端代码，NextJs 前后端代码都是 TS。
+- [axum](https://github.com/tokio-rs/axum) tokio 团队的 web 框架。
+- [tower](https://github.com/tower-rs) web 开发库集合
+
 ### 数据库
 
-- [sqlx](https://github.com/launchbadge/sqlx)
-- [diesel](https://github.com/diesel-rs/diesel)
-- [rusqlite](https://github.com/rusqlite/rusqlite)
-
+- [sqlx](https://github.com/launchbadge/sqlx) 纯 rust 的 SQL 生成和客户端库。
+- [sea-orm](https://github.com/SeaQL/sea-orm) 整合 sqlx 等库，适配 actix、axum 等多个框架，功能比较全，迁移、DbFirst、CodeFirst 不合理，生成代码和自定义代码没有分离。
+- [diesel](https://github.com/diesel-rs/diesel) 多种数据库 ORM，使用了 C 库安装会麻烦点，性能会好点，迁移、DbFirst、CodeFirst 配合比较合理。
+- [r2d2](https://github.com/sfackler/r2d2) 数据库链接池库。
+- [rusqlite](https://github.com/rusqlite/rusqlite) 打包 SQLite 给 rust 使用。
+- [rust-postgres](https://github.com/sfackler/rust-postgres) 多个 postgres 库集合（postgres、tokio-postgres 等）
+- [PoloDB](https://github.com/PoloDB/PoloDB) 文档数据库。
 
 ## 兼容
 

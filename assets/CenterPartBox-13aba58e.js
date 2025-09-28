@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vueexport-helper-c27b6911.js";import{C as o,D as r,X as _}from"./@vue-d261f537.js";const c={},n={class:"pc-center-part-box"};function s(e,a){return o(),r("div",n,[_(e.$slots,"default",{},void 0,!0)])}const l=t(c,[["render",s],["__scopeId","data-v-2ef49c52"]]);export{l as default};

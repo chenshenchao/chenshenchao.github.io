@@ -7,6 +7,11 @@ git init
 # 把修改加入
 git add .
 
+# 取消 add 的操作
+git reset HEAD
+# 指定文件或目录
+git reset HEAD ./.gitignore
+
 # 提交
 git commit -m "提交备注信息"
 
@@ -159,6 +164,12 @@ git lfs track "*.bin"
 # LFS 去除监听后缀文件
 git lfs untrack "*.png"
 git add --renormalize .
+
+# 查看 LFS 已跟踪文件的大小。
+git lfs ls-files --size
+
+# 查看本地 LFS 配置
+git lfs env 
 ```
 
 ## 第三方插件

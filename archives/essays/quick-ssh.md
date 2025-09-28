@@ -4,12 +4,25 @@
 
 只要远程主机的用户的 .ssh/authorized_keys 文件里有你的公钥，就可以用 ssh 连接。
 
-```bash
-# 生成密钥
+```bat
+@rem 生成密钥 RSA
 ssh-keygen -t rsa -b 4096
+@rem 生成密钥 ECC  
+@rem 256 位椭圆曲线（nistp256）
+ssh-keygen -t ecdsa -b 256
+@rem 384 位（nistp384）
+ssh-keygen -t ecdsa -b 384
+@rem 521 位（nistp521）
+ssh-keygen -t ecdsa -b 521
+@rem 推荐，现代的椭圆曲线 ed25519
+ssh-keygen -t ed25519
 
-# 连接
+@rem 连接 进入命令行交互模式
 ssh root@remote_ip:remote_port
+
+@rem 连接后直接执行命令
+ssh root@remote_ip:remote_port "cd /home; uname -a; pwd"
+ssh root@remote_ip:remote_port "cd /www/wwwroot/; chown -R www:www . ; chmod -R 755 ."
 ```
 
 ```bash

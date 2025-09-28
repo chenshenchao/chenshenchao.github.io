@@ -1,1 +1,0 @@
-import{_ as t}from"./plugin-vueexport-helper-c27b6911.js";import{C as o,D as _,X as a}from"./@vue-70ee5e1b.js";const n={},s={class:"pc-page-index-layout"};function d(e,c){return o(),_("div",s,[a(e.$slots,"default",{},void 0,!0)])}const u=t(n,[["render",d],["__scopeId","data-v-67e8d062"]]);export{u as default};
