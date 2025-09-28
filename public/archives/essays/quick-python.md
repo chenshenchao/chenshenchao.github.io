@@ -43,6 +43,21 @@ virtualenv .pyvenv -p /path/python
 VS Code 是个功能强大的编辑器，其实装上插件功能基本与 IDE 无异。
 只要打开的目录下有 Python 的虚拟环境，便可以被识别到，通过简单地在底部栏地点击就可以切换。
 
+## [uv](https://github.com/astral-sh/uv)
+
+```ps1
+# 安装,由于墙需要梯子配个代理。
+irm https://astral.sh/uv/install.ps1 -Proxy "http://127.0.0.1:10808" | iex
+```
+
+```bash
+# 枚举 Python 版本，检索能力很强，连自己安装的没有在PATH里的都能枚举到。
+uv python list
+
+# 安装指定版本的 python
+uv python install 3.13
+```
+
 ## pip
 
 Python 自带的包管理器。

@@ -1,5 +1,9 @@
 # Android 速查
 
+- 无障碍服务（Accessibility Service），给残障用户开发辅助工具，可以做自动化。
+
+
+
 ## 开发工具
 
 ### adb(Android Debuger) 安卓调试器

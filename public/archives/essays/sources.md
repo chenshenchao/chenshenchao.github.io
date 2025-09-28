@@ -20,6 +20,10 @@
 - [joinquant](https://www.joinquant.com)
 - [bigquant](https://www.bigquant.com)
 
+### 免费云服务器站点
+
+- [Edge One](https://edgeone.ai/) 腾讯边缘开发者平台。（有类 GitHub Pages 的免费 EdgeOne Pages 服务）
+
 ### 开发阶段 Fake 站点
 
 - [githubusercontent](https://avatars.githubusercontent.com/u/27744505) GitHub 头像。偶尔被墙。
