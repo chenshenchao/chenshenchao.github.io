@@ -1,6 +1,6 @@
 <template>
     <noise-filter>
-        <pc-double-column-layout class="pc-index-page">
+        <pc-double-column-layout class="pc-index-page" @scroll="onScroll" :scrollTop="defaultTop">
             <template v-slot:minor>
                 <pc-sidebar @search="data.searchText = $event" />
             </template>
@@ -29,18 +29,19 @@
                     </div>
                 </div>
             </div>
+            <pc-more-tip v-if="hasMore" @intersect="onIntersect" />
             <div style="height: 4em;"></div>
         </pc-double-column-layout>
     </noise-filter>
 </template>
 
 <script setup lang="ts">
-import { onBeforeMount, reactive } from 'vue';
+import { computed, onActivated, onBeforeMount, reactive, ref } from 'vue';
 import { marked } from '../../archive';
-import { computedAsync } from '@vueuse/core';
+import { watchDebounced } from '@vueuse/core';
 import { fetchPart } from '../../utils/io';
 import { trimUtf8 } from '../../utils/encode';
-import { isEmpty, lowerCase } from 'lodash';
+import { isEmpty } from 'lodash';
 import Utf8 from 'crypto-js/enc-utf8';
 import WordArray from 'crypto-js/lib-typedarrays';
 
@@ -54,29 +55,45 @@ const data = reactive({
     searchText: string,
 });
 
-const archives = computedAsync(
-    async () => {
-        const tasks = data.archives.filter(i => {
-            // console.log('filter', i.title);
-            if (!isEmpty(data.searchText)) {
-                if (isEmpty(i.title)) {
-                    return false;
-                } else {
-                    return lowerCase(i.title!).indexOf(lowerCase(data.searchText)) >= 0;
-                }
+const searchedArchives = computed(() => {
+    return data.archives.filter(i => {
+        // console.log('filter', i.title, data.archiveEnd);
+        if (!isEmpty(data.searchText)) {
+            if (isEmpty(i.title)) {
+                return false;
+            } else {
+                // console.log('search', data.searchText, i.title, i.title!.toLowerCase(), data.searchText.toLowerCase(), i.title!.toLowerCase().indexOf(data.searchText.toLowerCase()) >= 0);
+                return i.title!.toLowerCase().indexOf(data.searchText.toLowerCase()) >= 0;
             }
-            return true;
-        }).slice(0, data.archiveEnd).map(async i => {
-            if (!i.summary) {
-                const bytes = await fetchPart(i.path, 140);
-                i.summary = Utf8.stringify(WordArray.create(trimUtf8(bytes).buffer as unknown as number[]));
-            }
-            return i;
-        });
+        }
+        return true;
+    })
+});
+const hasMore = computed(() => data.archiveEnd <= searchedArchives.value.length);
+const archives = ref<ArchiveBoxInfo[]>([]);
 
-        return await Promise.all(tasks);
-    },
-);
+const updateArchives = async () => {
+    const tasks = searchedArchives.value.slice(0, data.archiveEnd).map(async i => {
+        if (!i.summary) {
+            const bytes = await fetchPart(i.path, 140);
+            const array = WordArray.create(trimUtf8(bytes).buffer as unknown as number[]);
+            // console.log('array', bytes, array);
+            const text = Utf8.stringify(array);
+            i.summary = await marked.parse(text + '...');
+        }
+        return i;
+    });
+
+    // console.log('archives', tasks, data.archiveEnd);
+
+    archives.value = await Promise.all(tasks);
+};
+
+watchDebounced(() => [data.archiveEnd, data.searchText], updateArchives);
+
+const onIntersect = () => {
+    data.archiveEnd += 10;
+};
 
 onBeforeMount(async () => {
     const tasks = __ARICHIVES__.map(async (i): Promise<ArchiveBoxInfo> => {
@@ -89,9 +106,22 @@ onBeforeMount(async () => {
     });
 
     data.archives = await Promise.all(tasks);
-    console.log('load', data.archives);
+    await updateArchives();
+    // console.log('load', data.archives);
 });
 
+let defaultTop = ref(0);
+let scrollTop = 0;
+const onScroll = (e: Event) => {
+    const container = e.target! as HTMLDivElement;
+    // console.log('scroll', container.scrollTop);
+    scrollTop = container.scrollTop;
+}
+
+onActivated(() => {
+    defaultTop.value = scrollTop;
+    // console.log('onActivated', scrollTop);
+});
 </script>
 
 <style scoped lang="scss">

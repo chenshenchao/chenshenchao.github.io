@@ -1,17 +1,18 @@
 export const trimUtf8 = (buffer: Uint8Array): Uint8Array => {
-    let i = buffer.length - 1;
-    let c = buffer[i];
-    let m = 0b10000000;
-    while ((c & 0b11000000) == 0b10000000 && i > 0) {
-        c = buffer[--i];
-        m = (m >> 1) | 0b10000000;
-    }
-    if (m > 0b10000000 && (c & m) == m) {
-        return buffer;
-    }
-    if (c >= 0b11000000 && i > 0) {
-        --i;
-    }
-    const size = i + 1;
-    return size < length ? new Uint8Array(buffer.subarray(0, size)) : buffer;
-}
+  let i = buffer.length - 1;
+  let c = buffer[i];
+  let hasTrim = false;
+  while ((c & 0b11000000) == 0b10000000 && i > 0) {
+    c = buffer[--i] & 0b11000000;
+    hasTrim = true;
+  }
+  if ((c & 0b11100000) == 0b11100000 || (c & 0b11110000) == 0b11110000) {
+    hasTrim = true;
+  }
+
+  if (hasTrim) {
+    --i;
+    // console.log("trim", buffer.subarray(0, i + 1));
+  }
+  return i < buffer.length ? new Uint8Array(buffer.subarray(0, i + 1)) : buffer;
+};

@@ -1,5 +1,5 @@
 <template>
-    <div class="pc-double-column-layout">
+    <div ref="selfRef" @scroll="onScroll" class="pc-double-column-layout">
         <div class="content">
             <div class="major">
                 <slot></slot>
@@ -15,7 +15,31 @@
 </template>
 
 <script lang="ts" setup>
+import { onActivated, ref, watch } from 'vue';
 
+type Props = {
+    scrollTop: number;
+};
+
+const props = withDefaults(defineProps<Props>(), {
+    scrollTop: 0,
+});
+
+const emit = defineEmits(['scroll']);
+const onScroll = (e: Event) => {
+    emit('scroll', e);
+};
+
+const selfRef = ref<HTMLDivElement>();
+watch(() => props.scrollTop, async () => {
+    // console.log('watch', props.scrollTop, selfRef.value, !selfRef.value);
+    selfRef.value?.scrollTo({ top: props.scrollTop });
+});
+
+onActivated(() => {
+    // console.log('dcl onActivated', props.scrollTop, selfRef.value, !selfRef.value);
+    selfRef.value?.scrollTo({ top: props.scrollTop });
+});
 </script>
 
 <style lang="scss" scoped>

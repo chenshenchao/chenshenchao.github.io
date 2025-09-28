@@ -45,12 +45,12 @@ const load = async (route: RouteLocationNormalizedLoaded) => {
 };
 
 onActivated(async () => {
-    console.log('onActivied');
+    // console.log('onActivied');
     await load(route);
 });
 
 onBeforeRouteUpdate(async (to, _) => {
-    console.log('onBeforeRouteUpdate');
+    // console.log('onBeforeRouteUpdate');
     await load(to);
 });
 </script>
