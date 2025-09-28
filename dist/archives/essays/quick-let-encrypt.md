@@ -1,5 +1,20 @@
 # let'encrypt 速查
 
+这是一个提供免费证书的公益服务，但是因为起步较晚，有部分老设备是没有安装其CA根证书，导致这部分旧设备识别其发布的证书为不安全。
+
+[在线证书检验站点](https://www.ssllabs.com/ssltest/)
+
+## Android 查看其证书是否安装
+
+```bash
+# 进入 shell
+adb shell
+
+# 查看 Let Encrypt 证书是否安装 
+# 按理会查到 ISRG Root X1  和 ISRG Root X2
+cat /system/etc/security/cacerts/* | grep ISRG
+```
+
 ## Nginx 自动证书
 
 ### apt 下 certbot 方式

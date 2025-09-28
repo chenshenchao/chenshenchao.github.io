@@ -1,12 +1,23 @@
 # npm 速查
 
 npm 是官方标配的包管理器。
-
 国内因为墙的原因，是要使用镜像的。
 
 ```bash
+# 没有 package-lock.json 的项目，安装依赖包
+npm i
+
+# 带有 package-lock.json 的项目，安装依赖包
+npm ci 
+
 # 直接通过命令指定阿里的镜像源
 npm --registry https://registry.npmmirror.com i gsap
+
+# 登录
+npm login
+
+# 发布
+npm publish
 ```
 
 项目目录下 .npmrc 可配置包管理。
@@ -28,4 +39,31 @@ npm i chromedriver --chromedriver_cdnurl=https://..
 
 # 指定 electron 二进制资源。
 npm i -D electron --electron_mirror=https://..
+```
+
+## 变体
+
+因为 npm 有着各种缺陷，所以后来出现了各种替代品。不过每隔一段时间这些替代品的功能又可能被 npm 吸纳而失去优势。
+
+### yarn
+
+最早解决 npm 的很多问题的工具，不过后来功能主键被 npm 吸纳，目前失去了优势。 
+
+### pnpm
+
+相对于 npm 还是有一些优势。
+
+```bash
+```
+
+## 部署
+
+### yum
+
+```bash
+# 配置 22.x 的源 
+curl -fsSL https://rpm.nodesource.com/setup_22.x | sudo bash -
+
+# 安装
+yum install -y nodejs
 ```
