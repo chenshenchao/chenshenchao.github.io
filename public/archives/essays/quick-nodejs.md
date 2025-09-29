@@ -1,6 +1,12 @@
-# npm 速查
+# nodejs 速查
+
+## 包管理器
+
+### npm
 
 npm 是官方标配的包管理器。
+因为 npm 有着各种缺陷，所以后来出现了各种替代品。
+不过每隔一段时间这些替代品的功能又可能被 npm 吸纳而失去优势。
 国内因为墙的原因，是要使用镜像的。
 
 ```bash
@@ -40,10 +46,6 @@ npm i chromedriver --chromedriver_cdnurl=https://..
 # 指定 electron 二进制资源。
 npm i -D electron --electron_mirror=https://..
 ```
-
-## 变体
-
-因为 npm 有着各种缺陷，所以后来出现了各种替代品。不过每隔一段时间这些替代品的功能又可能被 npm 吸纳而失去优势。
 
 ### yarn
 

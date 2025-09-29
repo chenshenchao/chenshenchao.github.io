@@ -20,6 +20,7 @@
 - [i18next](https://github.com/i18next/i18next) i18n 扩展库。
 - [i18next-browser-languagedetector](https://github.com/i18next/i18next-browser-languageDetector) i18next 浏览器端检查语言类型扩展。
 - [i18next-resources-to-backend](https://github.com/i18next/i18next-resources-to-backend) i18next 加载 JSON 资源。
+- [globals](https://github.com/sindresorhus/globals) 统一全局总变量的名字（浏览器 window, NodeJS global），一般 ESlint 配置文件用到。
 
 ## NodeJs
 

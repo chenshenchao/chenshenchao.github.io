@@ -65,6 +65,7 @@
 
 电子商务系统是比较普遍的，几乎每个人都网购过，形形色色的电商系统大同小异。因为是 To C 的，设计上都要让用户简便操作，注重用户习惯，所以都趋同了。
 
+- [newbee mall](https://github.com/newbee-ltd) 电商系统
 - [mall 后端](https://github.com/macrozheng/mall) 
 - [mall 后台 前端](https://github.com/macrozheng/mall-admin-web)
 - [mall APP 前端](https://github.com/macrozheng/mall-app-web)

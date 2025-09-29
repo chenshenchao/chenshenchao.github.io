@@ -1,6 +1,22 @@
 # python 速查
 
-- 3.8.10 最后一个支持 Windows 7 的版本
+- 3.8.10 最后一个支持 Windows 7 的版本。
+
+## 常用库
+
+- [deeplake](https://github.com/activeloopai/deeplake) v4 版本是个向量数据库；v3 版本时是个张量数据集存储库，用来存储训练数据。
+- [chromadb](https://github.com/chroma-core/chroma) 向量数据库，需要 python 3.9, 用了 dict list 等类型参数，即不支持 Windows 7(python 3.8)
+- [tinydb](https://github.com/msiemens/tinydb) 文档数据库，存储是 JSON 文件，性能不行。
+- [pywin32](https://github.com/mhammond/pywin32) 封装 Windows API 。
+- [loguru](https://github.com/Delgan/loguru) 日志库
+- [kivy](https://github.com/kivy/kivy) UI框架
+- [KivyMD](https://github.com/kivymd/KivyMD) 基于 Kivy 框架的 Material Design（安卓的UI设计风格）的组件库
+- [GeoPy](https://github.com/geopy/geopy) 地理经纬库。
+- [cartopy](https://github.com/SciTools/cartopy) 绘制地图库。
+- [fastapi](https://github.com/fastapi/fastapi) web 框架。
+- [FastUI](https://github.com/pydantic/FastUI) web UI 库。非 HTML 模板，是 Python 代码生成 HTML。
+- [pydantic](https://github.com/pydantic/pydantic) 数据验证库。
+- [ruff](https://github.com/astral-sh/ruff) rust 开发用于格式化和 lint python 的库。
 
 ## 虚拟环境
 
@@ -45,6 +61,8 @@ VS Code 是个功能强大的编辑器，其实装上插件功能基本与 IDE �
 
 ## [uv](https://github.com/astral-sh/uv)
 
+uv 工具集可以说是目前集成化最好的最佳实践。
+
 ```ps1
 # 安装,由于墙需要梯子配个代理。
 irm https://astral.sh/uv/install.ps1 -Proxy "http://127.0.0.1:10808" | iex
@@ -56,6 +74,24 @@ uv python list
 
 # 安装指定版本的 python
 uv python install 3.13
+
+# 创建项目
+uv init <project_name>
+
+# 添加库 ruff
+uv add ruff
+
+# 使用 ruff 做 lint 检查
+uv run ruff check
+
+# 包管理 lock 文件生成。
+uv lock
+
+# 根据 pyproject.toml 拉包
+uv sync
+
+# 执行脚本 main.py
+uv run main.py
 ```
 
 ## pip
@@ -72,21 +108,6 @@ pip install -i https://mirrors.aliyun.com/pypi/simple/ numpy
 # -U 如果已安装会变成升级成最新版本
 pip install -U numpy
 ```
-
-### 常用库
-
-- [deeplake](https://github.com/activeloopai/deeplake) v4 版本是个向量数据库；v3 版本时是个张量数据集存储库，用来存储训练数据。
-- [chromadb](https://github.com/chroma-core/chroma) 向量数据库，需要 python 3.9, 用了 dict list 等类型参数，即不支持 Windows 7(python 3.8)
-- [tinydb](https://github.com/msiemens/tinydb) 文档数据库，存储是 JSON 文件，性能不行。
-- [pywin32](https://github.com/mhammond/pywin32) 封装 Windows API 。
-- [loguru](https://github.com/Delgan/loguru) 日志库
-- [kivy](https://github.com/kivy/kivy) UI框架
-- [KivyMD](https://github.com/kivymd/KivyMD) 基于 Kivy 框架的 Material Design（安卓的UI设计风格）的组件库
-- [GeoPy](https://github.com/geopy/geopy) 地理经纬库。
-- [cartopy](https://github.com/SciTools/cartopy) 绘制地图库。
-- [fastapi](https://github.com/fastapi/fastapi) web 框架。
-- [FastUI](https://github.com/pydantic/FastUI) web UI 库。非 HTML 模板，是 Python 代码生成 HTML。
-- [pydantic](https://github.com/pydantic/pydantic) 数据验证库。
 
 #### kivy
 
