@@ -74,6 +74,17 @@ pages 类似类似 PHP ，文件名 index.tsx 代表目录 其他的是目录名
 - pages 模式必须在 pages/api 目录下。使用 NextApiRequest, NextApiResponse 对象。
 - app 模式必须在 route.js 或 route.ts 文件里且 route 文件与 page.js 和 page.ts 互斥,函数名必须是 GET、POST、PUT 这种。使用标准 Request 和 Response 或扩展后的 NextRequest 和 NextResponse 对象。
 
+## 运行时
+
+NextJS 由于服务端渲染，所以有一个常驻的服务端运行时（NodeJS 或 Edge），这就导致原本浏览器端的状态管理如 redux、jotai 这些在浏览器端按 F5 刷新时状态会还原，而服务端运行时是不受浏览器 F5 影响的，其没有重启（开发模式下修改代码会重启，所以调试容易忽略导致看似问题解决其实没有）状态会一直保留。
+
+页面、布局和 API Routes 的运行时是 NodeJS 所以可以调用数据库。
+中间件的运行时有区别，因为 Vercel 的云服务而改动：
+
+- 13 以前：Node.js Runtime ，中间件是在 NodeJs 环境执行。
+- 13 以后：Edge Runtime，中间件是在 服务器端 V8 环境（接近浏览器，限制颇多，不能使用TCP，但是现在很多云服务提供 HTTP、web Socket 的方式连接数据库）执行，由 NextJs 维护的公司 Vercel 的 CDN 服务扩展开来的技术，Edge Runtime 可以在 Vercel 的 CDN 服务上运行。
+
+
 ## 组件
 
 所有客户端组件（文件顶部 "use client";）的都不能是异步的。

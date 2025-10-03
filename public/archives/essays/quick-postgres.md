@@ -51,3 +51,19 @@ ALTER ROLE postgres IN DATABASE demo SET "TimeZone" TO 'Asia/Shanghai';
 # 创建表空间，指定路径。
 CREATE TABLESPACE fast_ssd LOCATION '/mnt/ssd/postgres_data';
 ```
+
+## 复制（Replication）与 预写日志（WAL：Write Ahead Log）
+
+### 物理复制槽（Physical Slot）
+
+主从复制使用的协议，不同版本不兼容。
+
+### 逻辑复制槽（Logical Slot）
+
+专门为外部数据复制、同步等提供的，版本兼容性好。
+需开启 wal_level = logical，指定解析插件（如pgoutput、wal2json、test_decoding）
+
+```sql
+-- 创建逻辑复制槽
+SELECT * FROM pg_create_logical_replication_slot('test_slot_wal2json', 'wal2json')
+```

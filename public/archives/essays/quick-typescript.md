@@ -14,6 +14,8 @@
 - [Drizzle ORM](https://github.com/drizzle-team/drizzle-orm) 数据库 ORM 轻量级。
 - [sequelize](https://github.com/sequelize/sequelize) 数据库 ORM 比较早就有，版本比较多，一些老项目可能会遇到。
 - [typeorm](https://github.com/typeorm/typeorm) 数据库 ORM 代码设计比较好，性能性能不足，工具不齐全，只能算轻量级。
+- [pg-logical-replication](https://github.com/kibae/pg-logical-replication) PostgreSQL WAL 数据复制库。
+- [libsql-client-ts](https://github.com/tursodatabase/libsql-client-ts) libsql 客户端。
 - [ioredis](https://github.com/redis/ioredis) redis 官方的客户端库。
 - [node-redis](https://github.com/redis/node-redis) redis 官方的客户端库。
 - [fingerprintjs](https://github.com/fingerprintjs/fingerprintjs) 生成浏览器指纹。
@@ -24,8 +26,8 @@
 - [tailwindcss](https://github.com/tailwindlabs/tailwindcss) 通过类名管理 CSS 的库，结合 clsx 库开发很方便。
 - [tw-animate-css](https://github.com/Wombosvideo/tw-animate-css) 对 tailwindcss 的动画扩展库。
 - [tailwind-merge](https://github.com/dcastil/tailwind-merge) 运行时合并类库，可能助长代码变脏，若能编译阶段检查出来会更好。
-- [lucide](https://github.com/lucide-icons/lucide) 支持多种框架（React、Vue等）的图标集合。
-- [embla-carousel](https://github.com/davidjerleke/embla-carousel)  支持多种框架（React、Vue等）的轮播图。
+- [lucide](https://github.com/lucide-icons/lucide) 支持多种框架（React、Vue 等）的图标集合。
+- [embla-carousel](https://github.com/davidjerleke/embla-carousel) 支持多种框架（React、Vue 等）的轮播图。
 - [jose](https://github.com/panva/jose) jwt 库。
 - [faker-js](https://github.com/faker-js/faker) 开始时调试数据生成库。
 - [i18next-resources-for-ts]() i18next 给资源生成 TS 类型。
@@ -51,6 +53,28 @@ declare;
 
   // 声明这个字段。
   var your: Your;
+}
+```
+
+### 修改模块的类型
+
+有时候一些库给出的类型不符合预期，可以通过这种方式改掉其类型申明。
+
+```ts
+// ../next-auth.d.ts
+// 引入这个模块，如果只是修改部分类型这样才能把其原本的类型引入。
+import "next-auth";
+
+// 对他的类型做修改。
+declare module "next-auth" {
+  interface User {
+    id: number;
+    permissions: string[];
+  }
+
+  interface Session {
+    user: User;
+  }
 }
 ```
 
@@ -123,11 +147,11 @@ type F = Readonly<A>; // F 有 A 全部字段，都是可选；{readonly id: num
 ```ts
 // A 和 B 等价。
 type A = Record<string, number>;
-type B = { [key: string]: number; };
+type B = { [key: string]: number };
 ```
 
 ```ts
-type A = (a:number, b:string) => { id: number; name: string };
+type A = (a: number, b: string) => { id: number; name: string };
 type B = ReturnType<A>; // { id: number; name: string }
 type C = Parameters<A>; // [a:number, b:string]
 
@@ -143,12 +167,12 @@ type InstanceType<T extends new (...args: any) => any> = T extends new (...args:
 
 // 这是个 class 不是 type
 // type 在 js 是没有的，所以编译后被擦除
-// class 是 js 有的，本质是一个函数。 
+// class 是 js 有的，本质是一个函数。
 class CA = {
   id: number;
   constructor(id: number) { this.id = id;}
 };
-type A = typeof CA; // 得到的是构造函数，因为 CA 在 JS 层是函数，new (id: number) => CA 
+type A = typeof CA; // 得到的是构造函数，因为 CA 在 JS 层是函数，new (id: number) => CA
 type B = InstanceType<typeof CA>; // {id: number}
 ```
 
