@@ -17,6 +17,7 @@ Composition API 是新的组合式编程的方式来组织代码。vue3 开始�
 - [vueuse](https://vueuse.org/) vue 扩展库，主要扩展了一些钩子。
 - [PPTist](https://github.com/pipipi-pikachu/PPTist) vue 的 PPT 库。
 - [nutui](https://github.com/jd-opensource/nutui) 京东移动端组件库。
+- [vxe-table](https://github.com/x-extends/vxe-table) 虚表格库，功能很多，有免费和付费版本。
 
 ## 用法
 
@@ -27,11 +28,11 @@ Composition API 是新的组合式编程的方式来组织代码。vue3 开始�
 ```vue
 <script setup>
 // 父组件提供一个值，之后在其子树上的组件都可以通过 inject 获取这个值。
-provide('a', 123);
+provide("a", 123);
 </script>
 
 <script setup>
 // 必须确保在 父组件或者父组件的父组件提供了 a 的情况下，不然报错。
-const a = inject('a');
+const a = inject("a");
 </script>
 ```

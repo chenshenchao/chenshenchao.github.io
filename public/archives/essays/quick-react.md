@@ -241,7 +241,7 @@ function YourComponent() {
 - [React Spectrum](https://github.com/adobe/react-spectrum) Adobe，UI 组件库。
 - [primereact](https://github.com/primefaces/primereact) UI 组件库。
 - [evergreen](https://github.com/segmentio/evergreen) UI 组件库。
-- [tdesign-react](https://github.com/Tencent/tdesign-react) 腾讯桌面 UI 库。
+- [tdesign-react](https://github.com/Tencent/tdesign-react) 腾讯桌面 UI 库,Table 等组件问题多，不推荐。
 - [tdesign-mobile-react](https://github.com/Tencent/tdesign-mobile-react) 腾讯移动 UI 库。
 - [react-vant](https://github.com/3lang3/react-vant) 移动端 UI 组件库。(vue 的 vant 的第三方开发的 react 版)
 - [nutui-react](https://github.com/jdf2e/nutui-react) 移动端 UI 组件库。(京东 vue 的 nutui 的京东零售开发的 react 版)
@@ -252,7 +252,8 @@ function YourComponent() {
 - [react-router](https://github.com/remix-run/react-router) v7 及以后 路由库，TS 写的，无需 @types 库。
 - [react-router-dom](https://github.com/remix-run/react-router) （旧 v6 以及之前的路由库，TS 的话需要 @types/react-router-dom）。
 - [loadable-components](https://github.com/gregberge/loadable-components) React 有自带的 lazy 函数，这个组件是在 React 没提供时期做的，后来 React 自带了，但是这个库的功能更多。
-- [ahook](https://github.com/alibaba/hooks) 扩展钩子(Hook)库
+- [ahook](https://github.com/alibaba/hooks) 扩展钩子(Hook)库。
+- [react-use](https://github.com/streamich/react-use) 扩展钩子(Hook)库。
 - [redux](https://github.com/reduxjs/redux) 状态管理，厚重稳定。类似 vue 的 vuex 或 pinia 。
 - [redux-persist](https://github.com/rt2zz/redux-persist) redux 持久化扩展，多年不更新，对新 redux 有点小问题。
 - [zustand](https://github.com/pmndrs/zustand) 状态管理，轻量化。
