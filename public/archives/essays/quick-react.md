@@ -294,3 +294,24 @@ npx shadcn@latest init
 # 添加组件，每种组件都要通过此命令引入。
 npx shadcn@latest add accordion
 ```
+
+## React Native 原生APP
+
+官网文档使用 expo 。
+
+```bash
+# 创建项目
+npx create-expo-app@latest
+```
+
+### 基于 NextJS 的 React Native
+
+#### [t3-app](https://github.com/t3-oss/create-t3-app) 和 [t3-turbo](https://github.com/t3-oss/create-t3-turbo)
+
+```bash
+# 创建 t3 app
+npm create t3-app@latest
+
+# 生成 t3 turbo 项目，必须选 pnpm 包管理。
+npx create-turbo@latest -e https://github.com/t3-oss/create-t3-turbo
+```

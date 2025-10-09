@@ -83,6 +83,28 @@ docker save -o filename.tar image/one [image/two...]
 docker load -q -i filename.tar
 ```
 
+### cp 复制
+
+```bash
+# 把容器的内容复制出来
+docker cp container_name:/dir ./host/dir
+```
+
+### volume 卷
+
+```bash
+# 列举卷
+docker volume ls
+
+# 创建命名卷 docker_mysql_data
+docker volume create docker_mysql_data
+```
+
+```bash
+# 查看命名卷 docker_mysql_data 里面的 /var/lib/mysql 目录下的内容。
+docker run --rm -it -v docker_mysql_data:/var/lib/mysql busybox ls -al /var/lib/mysql
+```
+
 ### compose
 
 通过 docker-compose.yml 文件定制容器组合。
@@ -100,6 +122,24 @@ docker compose down --rmi local
 
 # 逆 compose up, 同时把所有镜像删除
 docker compose down --rmi all
+```
+
+```yml
+services:
+  demo-server:
+    security_opt:
+      # 特权容器无限制，不然报没权限。
+      - seccomp:unconfined
+
+# 命名卷可以规避一些 Windows 和 Linux 系统的不兼容问题
+# 通过临时容器导出内容（推荐，可以保留文件系统的兼容性）：
+# docker run --rm -v <volume-name>:/data_dir -v .:/backup busybox tar -czvf /backup/<backup-filename>.tar.gz -C /data_dir .
+# 或者通过 podman cp 导出命名卷的文件（这种只适合查看文件，一旦进入 Windows 系统就会出现兼容问题）。
+# 再通过创建卷恢复
+# docker run --rm -v <volume-name>:/data_dir -v .:/backup busybox tar -xzvf /backup/<backup-filename>.tar.gz -C /data_dir .
+volumes:
+  mysql_data:                                   # 定义命名卷
+    driver: local
 ```
 
 #### compose 下指定容器

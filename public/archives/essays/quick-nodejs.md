@@ -26,6 +26,16 @@ npm login
 npm publish
 ```
 
+```bash
+# 当出现兼容问题时，可以强制安装。
+npm install --legacy-peer-deps
+# 或
+npm install --force
+
+# ci 也可以用这些参数。
+npm ci --legacy-peer-deps 
+```
+
 项目目录下 .npmrc 可配置包管理。
 
 ```ini

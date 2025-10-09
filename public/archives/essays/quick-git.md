@@ -4,6 +4,14 @@
 # 初始化，会生成 .get 目录
 git init
 
+# 查看用户名和邮件
+git config user.name
+git config user.email
+
+# 修改用户名和邮件,加入 -g 可以全局设置。
+git config user.name chenshenchao
+git config user.email chenshenchao@outlook.com
+
 # 把修改加入
 git add .
 

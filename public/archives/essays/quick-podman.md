@@ -12,6 +12,33 @@ podman ps
 
 [红帽仓库](https://quay.io)
 
+## 常见命令
+
+### cp 复制
+
+```bash
+# 把容器的内容复制出来
+podman cp container_name:/dir ./host/dir
+```
+
+### volume 卷
+
+```bash
+# 列举卷
+podman volume ls
+```
+
+```bash
+# 查看卷指定目录的内容
+podman run --rm -it -v volume-name:/data_dir busybox ls -al /data_dir
+
+# 把卷保存到文件：
+podman run --rm -v volume-name:/data_dir -v .:/backup busybox tar -czvf /backup/backup-filename.tar.gz -C /data_dir .
+
+# 通过文件恢复卷：
+podman run --rm -v volume-name:/data_dir -v .:/backup busybox tar -xzvf /backup/backup-filename.tar.gz -C /data_dir .
+```
+
 ## Windows 下安装
 
 ### 安装 Podman Desktop（推荐）
@@ -115,4 +142,37 @@ podman compose down -v
 
 # 查看 容器进程
 podman compose ps
+```
+
+## Windows 与 WSL 相关
+
+Windows 下的容器是通过 WLS2 的虚拟机（podman-machine-default）里的 linux 系统使用的。
+
+有时候一些文件有权限问题可以临时进入 WSL 的宿主机去修改文件权限。
+
+```bat
+@rem 列举，可以看到 podman-machine-default
+wsl --list
+
+@rem 进入虚拟机的命令行
+wsl -d podman-machine-default
+```
+
+```bash
+# 打开系统配置
+vi /etc/sysctl.d/99-sysctl.conf
+
+# 应用修改
+sysctl -p
+
+# 配置
+sudo sysctl -w net.ipv4.ip_unprivileged_port_start=80
+
+# 列举这个挂在会发现会多 c、d、e 这些就是对照 Windows 的 C盘、D盘、E盘等。
+ls /mnt
+```
+
+```ini
+# 允许 80 端口被容器使用
+net.ipv4.ip_unprivileged_port_start=80
 ```
