@@ -315,3 +315,10 @@ npm create t3-app@latest
 # 生成 t3 turbo 项目，必须选 pnpm 包管理。
 npx create-turbo@latest -e https://github.com/t3-oss/create-t3-turbo
 ```
+
+#### [solito](https://github.com/nandorojo/solito)
+
+```bash
+# 创建项目
+npx create-solito-app@latest my-solito-app
+```

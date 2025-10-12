@@ -55,6 +55,20 @@ git branch -u remote_origin_name/remote_branch_name local_branch_name
 git branch -u remote_origin_name branch_name
 ```
 
+## 标签（tag）
+
+```bash
+# 查看所有标签
+git tag
+# 查看标签，带过滤条件
+git tag -l "pattern"
+# 查看标签，带排序。按版本排序
+git tag --sort=version:refname
+
+# 查看标签详情
+git show <tag>
+```
+
 ## 日志（log）
 
 ```bash

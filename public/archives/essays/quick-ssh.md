@@ -17,6 +17,9 @@ ssh-keygen -t ecdsa -b 521
 @rem 推荐，现代的椭圆曲线 ed25519
 ssh-keygen -t ed25519
 
+@rem 指定 .pub 的备注为邮箱
+ssh-keygen -t ed25519 -C chenshenchao@outlook.com
+
 @rem 连接 进入命令行交互模式
 ssh root@remote_ip:remote_port
 
@@ -54,7 +57,8 @@ ssh -N -D :10808 root@remote_ip:remote_port -i ~/your_key
 ServerAliveInterval 50
 ServerAliveCountMax 3
 
-# 通过不同 Host 使用不同配置。
+# 通过不同 Host 使用不同配置
+# Host 可以被 git 命令识别为域名的别名。
 
 Host gitlab(user)
     HostName target.com

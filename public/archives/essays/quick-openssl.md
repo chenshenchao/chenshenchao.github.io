@@ -42,3 +42,8 @@ openssl genpkey -algorithm EC -pkeyopt ec_paramgen_curve:P-256 -out p256_private
 # 提取公钥
 openssl pkey -in p256_private.pem -pubout -out p256_public.pem
 ```
+
+```bash
+# 得到证书的序列化码
+openssl x509 -in apiclient_cert.pem -noout -serial
+```
