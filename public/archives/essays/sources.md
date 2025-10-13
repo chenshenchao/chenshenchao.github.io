@@ -74,6 +74,11 @@ qwen
 - [Pencil](https://github.com/evolus/pencil) 开源原型设计软件
 - [DrawIO](https://github.com/jgraph/drawio-desktop) 流程图、架构图、导图软件
 
+## 文件处理工具
+
+- [vtracer](https://github.com/visioncortex/vtracer) 像素图(gif、jpg、png等)转SVG命令行工具。
+- [potrace](https://potrace.sourceforge.net/) 像素图（pnm、bmp等）转SVG命令行工具。
+
 ### 服务型工具
 
 - [weaviate](https://github.com/weaviate/weaviate) 向量数据库(GO 语言)

@@ -2,9 +2,30 @@
 
 - 无障碍服务（Accessibility Service），给残障用户开发辅助工具，可以做自动化。
 
-
-
 ## 开发工具
+
+- [QuickType](https://app.quicktype.io/) 可以JSON 转 KotlinX 结构的网页工具
+- [AndroidAssetStudio](https://github.com/romannurik/AndroidAssetStudio) 图标生成网页工具，有一些机型有问题。
+- [icon kitchen](https://icon.kitchen/)  图标生成网页工具，AndroidAssetStudio 不维护，又推荐了这个，还支持 ios 的图标。
+
+### keytool 证书生成命令行（Java SDK 工具）
+
+- .keystore 早期后缀
+- .jks 现在后缀，Java KeyStore 缩写
+
+```bash
+# [alias] 为别名、[name] 为文件名
+# 生成 RSA 证书
+keytool -genkey -alias [alias] -keyalg RSA -keysize 2048 -validity 36500 -keystore [name].keystore
+# 生成 EC 证书
+keytool -genkey -v -keystore [name].jks -keyalg EC -groupname secp256r1 -validity 36500 -alias [alias] -sigalg SHA256withECDSA
+```
+
+```bash
+# 通过安卓自带工具查看证书信息，需要输入证书 key
+keytool -list -v -keystore jcm3demo.jks
+
+```
 
 ### adb(Android Debuger) 安卓调试器
 
