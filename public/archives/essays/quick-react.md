@@ -266,6 +266,25 @@ function YourComponent() {
 
 ### react-router
 
+浏览器端路由库。
+
+```jsx
+import {
+  useLocation,
+  useNavigate,
+  useParams,
+  useSearchParams,
+} from "react-router";
+
+export default function Demo() {
+  let location = useLocation(); // 路由信息。
+  let navigate = useNavigate(); // 导航方法 navigate('/')
+  let params = useParams(); // path 参数信息。
+  let query = useSearchParams(); // query_string
+  return <div></div>;
+}
+```
+
 ```jsx
 import { useNavigate, Outlet } from "react-router";
 
@@ -295,7 +314,7 @@ npx shadcn@latest init
 npx shadcn@latest add accordion
 ```
 
-## React Native 原生APP
+## React Native 原生 APP
 
 官网文档使用 expo 。
 

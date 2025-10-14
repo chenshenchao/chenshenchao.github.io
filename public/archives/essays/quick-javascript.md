@@ -1,7 +1,8 @@
-# [草稿]JavaScript 速查
+# JavaScript 速查
 
 ## 常用库
 
+- [web-vitals](https://github.com/GoogleChrome/web-vitals) 谷歌推出用来测量网站体验的库。
 - [moment](https://github.com/moment/moment) 日期库。
 - [luxon](https://github.com/moment/luxon) 日期库。
 - [dayjs](https://github.com/iamkun/dayjs) 日期库。

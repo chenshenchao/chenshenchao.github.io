@@ -127,9 +127,27 @@ docker compose down --rmi all
 ```yml
 services:
   demo-server:
+    container_name: my-container-server # 指定容器名
+    build: # 指定使用本地的 dockerfile 进行构建镜像，而不是拉取
+      context: . # 构建目录
+      dockerfile: dockerfile # dockerfile 名字
+    restart: always # 一直重启
+    ports: # 指定端口映射
+      - "8080:8080" 
+      - "9090:9090"
+    volumes: 
+      - mysql_data:/data # 使用命名卷
+      - ./host/dir:/container/dir:ro # 只读 readonly
+    networks: # 指定网络
+      - my-net
     security_opt:
       # 特权容器无限制，不然报没权限。
       - seccomp:unconfined
+
+networks: # 配置网络
+  my-net:
+    name: my-net
+    driver: bridge
 
 # 命名卷可以规避一些 Windows 和 Linux 系统的不兼容问题
 # 通过临时容器导出内容（推荐，可以保留文件系统的兼容性）：
