@@ -79,3 +79,31 @@ curl -fsSL https://rpm.nodesource.com/setup_22.x | sudo bash -
 # 安装
 yum install -y nodejs
 ```
+
+## 杂项
+
+### gyp
+
+早年的一些二进制库是通过 gyp 构建的，Windows 构建比较麻烦，留存一些相关的信息。
+
+```bat
+@rem 安装 node-gyp 和 windows-build-tools 构建工具
+@rem 安装可能被墙，因为依赖很繁杂，安装的时候会到处下载而出现形形色色外网链接。
+npm i -g node-gyp
+npm i -g --production windows-build-tools
+@rem 执行构建。
+node-gyp configure build
+```
+
+可以使用 build.gyp 来构建 C 扩展，示例：
+
+```json
+{
+  "targets": [
+    {
+      "target_name": "addon",
+      "sources": [ "path/to/src.cc" ]
+    }
+  ]
+}
+```

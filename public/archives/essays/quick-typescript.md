@@ -35,6 +35,7 @@
 - [i18next-resources-for-ts]() i18next 给资源生成 TS 类型。
 - [lingui](https://github.com/lingui/js-lingui) i18n 库。
 - [motion](https://github.com/motiondivision/motion) 动画库。
+- [floating-ui](https://github.com/floating-ui/floating-ui) 原 Popuper.js 发展起来的弹出层库，提供 React 和 Vue 封装。
 
 ## 类型系统
 
