@@ -1,7 +1,11 @@
 # rust 速查
 
-'static 是一个名字带有误解生命周期，当作用引用时 &'static str 要求被引用实例的生命周期如静态变量要整个程序运行周期，而作用在实例时 T 'static 则是实例要完整的生命周期可控。所以用 static 作为这个生命周期的名字就很容易造成误解，感觉用 'all 都比 'static 好。
-和 C++ 一样有很强的类型推到能力，但是这就导致很多隐式转换，不过因为是通过 trait From Into 和泛型约束，不是使用构造函数所以不会有 C++ 构造函数命中奇怪类型的问题。
+Rust 和 C++ 一样有很强的类型推到能力，但是这就导致很多隐式转换，不过因为是通过 trait From Into 和泛型约束，不是使用构造函数所以不会有 C++ 构造函数命中奇怪类型的问题。
+
+'static 是一个名字带有误解生命周期：
+1. 当作用引用时 &'static str 要求被引用实例的生命周期如静态变量要整个程序运行周期
+2. 而作用在实例时 T 'static 则是实例要完整的生命周期可控。
+所以用 static 作为这个生命周期的名字就很容易造成误解，感觉用 'all 都比 'static 好。
 
 ## Option 和 Result
 
@@ -302,6 +306,7 @@ fi
 - [sqlx](https://github.com/launchbadge/sqlx) 纯 rust 的 SQL 生成和客户端库。
 - [sea-orm](https://github.com/SeaQL/sea-orm) 整合 sqlx 等库，适配 actix、axum 等多个框架，功能比较全，迁移、DbFirst、CodeFirst 不合理，生成代码和自定义代码没有分离。
 - [diesel](https://github.com/diesel-rs/diesel) 多种数据库 ORM，使用了 C 库安装会麻烦点，性能会好点，迁移、DbFirst、CodeFirst 配合比较合理。
+- [kosame](https://github.com/pikaju/kosame) 类 Prisma 的 ORM。
 - [r2d2](https://github.com/sfackler/r2d2) 数据库链接池库。
 - [rusqlite](https://github.com/rusqlite/rusqlite) 打包 SQLite 给 rust 使用。
 - [rust-postgres](https://github.com/sfackler/rust-postgres) 多个 postgres 库集合（postgres、tokio-postgres 等）
