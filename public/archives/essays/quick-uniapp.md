@@ -18,6 +18,46 @@ npx @dcloudio/uvm@latest
 ## 常见问题
 
 1. 微信小程序如果使用 SWC ，每次重新打开微信开发者工具都会丢失这个设置，需要手动设置回去。
+2. uni.addInterceptor 拦截 navigateTo 后 invoke 返回 false 后 navigateTo 会直接废掉。
+3. uni.showToast 因同 wx.showToast 而 icon 非 'none' 时只能显示单行8字。
+
+## 路由与权限
+
+1. 必须自定义 Tabbar 以接管 Tabbar 的事件，靠 pages.json 配置底部栏无法拦截
+2. 通过 uni.addInterceptor 拦截导航的几个函数做处理。
+
+```ts
+const getCurrentRoute = () => {
+    // 这个 page 的类型不支持 console.log 打印，
+    // 需要指定具体字段。不然会出现不报错，但是程序中断的情况。
+    // 这种会影响调试判断。
+    const pages = getCurrentPages();
+    const page = pages[pages.length - 1]; // 当前页面。
+    console.log(`pages: ${pages.length} ${page.route}`);
+    return page.route;
+}
+
+// 几个路由函数如下，根据需求做拦截。
+const ROUTE_NAV_FUNC = [
+	'navigateTo',
+	'redirectTo',
+	'reLaunch',
+	'switchTab',
+];
+const ROUTE_BACK_FUNC = 'navigateBack';
+
+uni.addInterceptor('navigateTo', {
+    invoke(e) {
+        if (e.url?.indexOf("cantin") >= 0) { // 这个条件自己限定
+            e.url = getCurrentRoute();
+            console.log(`重定向到 ${e.url}`);
+        }
+
+        // 不要听网上的返回 false,会导致整个 navigateTo 从此废掉，调用无作用，不能路由。
+        // return false;
+    },
+});
+```
 
 ## 声明周期
 
@@ -42,7 +82,7 @@ onLoad(() => {
 
 ## 区分平台
 
-### 编译宏
+### 编译宏区分平台
 
 uniapp 使用单行注释里写类似 C 宏的方式来做编译宏。
 
@@ -85,7 +125,7 @@ console.log('这是微信小程序')
 <!-- #endif -->
 ```
 
-### 运行时区分
+### 运行时区分平台
 
 ```js
 // APP 平台

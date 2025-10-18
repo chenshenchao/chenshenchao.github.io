@@ -79,6 +79,10 @@ qwen
 - [vtracer](https://github.com/visioncortex/vtracer) 像素图(gif、jpg、png等)转SVG命令行工具。
 - [potrace](https://potrace.sourceforge.net/) 像素图（pnm、bmp等）转SVG命令行工具。
 
+## 监控工具
+
+- [grafana](https://github.com/grafana/grafana) Web 数据库监控面板。
+
 ### 服务型工具
 
 - [weaviate](https://github.com/weaviate/weaviate) 向量数据库(GO 语言)

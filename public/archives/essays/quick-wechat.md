@@ -43,6 +43,14 @@
 wx.getPrivacySetting
 ```
 
+## 微信接口
+
+### access_token 的处理
+
+微信的API在调用前，都需要有 access_token ，而 access_token 有效期 2 小时，且只保证最后一次调用获取的有效。
+所以在多个项目共用一个微信公众号或者小程序的时候，要确保 access_token 的共享，防止频繁调用 access_token 导致多项目竞抢。
+最简单的做法就是存到同一个 Redis 里面，这样使用共享同一个缓存问题也就解决了。
+
 ## 微信支付
 
 随着政策的变动，微信支付的接口也在变动，现在是 APIv3 版本。
