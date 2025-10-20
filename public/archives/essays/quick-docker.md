@@ -27,6 +27,12 @@ Docker 核心功能只能做单节点容器管理，没有集群协调能力。�
 }
 ```
 
+### 网络
+
+在同个 compose.yml 的同一个网络下的容器，容器名会被解析到该容器的内网IP，host.docker.internal 被解析到宿主机的内网 IP。
+所以在一些应用里，可以直接  tcp://redis-container-name  就相当于 tcp://174.xx.xx.xx，因为域名 redis-container-name 被解析到 Redis 的容器上了。
+而容器要访问宿主则通过 host.docker.internal 域名。
+
 ## 常用命令
 
 ### 日志(logs)

@@ -21,7 +21,7 @@ npx @dcloudio/uvm@latest
 2. uni.addInterceptor 拦截 navigateTo 后 invoke 返回 false 后 navigateTo 会直接废掉。
 3. uni.showToast 因同 wx.showToast 而 icon 非 'none' 时只能显示单行8字。
 
-## 路由与权限
+### 路由与权限
 
 1. 必须自定义 Tabbar 以接管 Tabbar 的事件，靠 pages.json 配置底部栏无法拦截
 2. 通过 uni.addInterceptor 拦截导航的几个函数做处理。
@@ -57,6 +57,30 @@ uni.addInterceptor('navigateTo', {
         // return false;
     },
 });
+```
+
+### 状态管理与持久化
+
+使用 HBuilderX 的项目不需要安装 pinia ，而使用命令行创建的要手动安装。
+[uniapp 使用 pinia 相关文档](https://uniapp.dcloud.net.cn/tutorial/vue3-pinia.html)
+
+pinia 与 vue3 的版本有对应的要求，uniapp 目前时 vue@3.4 对应 pinia@2.2.4 版本。
+
+uniapp Vue3 版本项目使用 pinia 的基本定式：
+
+```ts
+import { createSSRApp } from "vue";
+import * as Pinia from 'pinia';
+import App from "./App.vue";
+
+export function createApp() {
+  const app = createSSRApp(App);
+  app.use(Pinia.createPinia());
+  return {
+    app,
+	Pinia, // 必须返回 Pinia
+  };
+}
 ```
 
 ## 声明周期

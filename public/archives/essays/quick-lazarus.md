@@ -1,5 +1,7 @@
 # Lazarus 速查
 
+[官网](https://www.lazarus-ide.org/)
+
 - *.lpg Lazarus 项目组文件（XML 源码文件）
 - *.lpi Lazarus 项目文件（XML 源码文件）
 - *.lpr Lazarus 项目主要源码（Pascal 源码文件）
@@ -33,19 +35,24 @@
 
 ## 软件包
 
+安装插件：“菜单” 》“软件包” 》“插件管理”
+通过 lpk 安装包： “菜单” 》“软件包” 》“打开 lpk”
+
 ### 常用软件包
 
 - AnchorDocking 用来把四散的 IDE 窗口合并到一起。
 - AnchorDockingDsgn 用来把四散的 IDE 窗口合并到一起。
+- DockedFormEditor
 - pas2jsdsgn 转换 Pascal 成 JS 的 pas2js 库的设计器。
 - DCPcrypt 一个加密算法包。
 - [CEF4Delphi](https://github.com/salvadordf/CEF4Delphi) 一个跨平台的 CEF WebView 的封装，（在线软件包可下载，依赖 DCPcrypt）。
 - [WebView4Delphi](https://github.com/salvadordf/WebView4Delphi) 一个 Windows 下 WebView2 的封装，（在线软件包可下载）。
 - Rx 一个仿 Delphi RxLib 的一个组件库。
+- [brookfreepascal](https://github.com/risoflora/brookfreepascal) Web 框架支持多种开发方式。
 
 ### 自定义软件包
 
-菜单 “软件包” 》 “新建软件包”
+“菜单” 》“软件包” 》“新建软件包”
 
 要扩展自定义控件，并让控件可以被 IDE 识别，就必须把控件定义到一个软件包中，在让 IDE 安装此软件包。
 （不得不说，这样调试很麻烦）
@@ -61,6 +68,19 @@ begin
   RegisterComponents('CustomControls', [TMyCustomControl]);
 end; 
 ```
+
+### [brookfreepascal](https://github.com/risoflora/brookfreepascal)
+
+Web 开发框架，支持生成类型：
+
+Full Cgi/FastCGI Server 项是有个导航页，用来引导生成项目。
+
+- CGI ，老式的网关协议，可执行文件，有安全隐患。
+- FastCGI， PHP 使用的 CGI 协议，通过 socket 和反向代理交互。
+- 内嵌服务器， 就是一般 golang rust c++ 生成的 exe HTTP 服务器后端。
+- embed daemon server 这种不知道是啥，生成了 exe 文件，执行没有反应。。。。
+
+这框架文档只到了开启服务器，没看到其他文档，基本上要靠自己扩展开发了吧，太裸了。
 
 ### [CEF4Delphi](https://github.com/salvadordf/CEF4Delphi)
 

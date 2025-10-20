@@ -1,5 +1,9 @@
 # Redis 速查
 
+## 配置
+
+
+
 ## 常用 C 扩展
 
 - [RediSearch](https://github.com/RediSearch/RediSearch) 全文搜索插件，对中文分词有问题。
