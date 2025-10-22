@@ -85,7 +85,9 @@ qwen
 
 ### 服务型工具
 
+- [milvus](https://milvus.io) 向量数据库(GO 语言)，官方给出了很多应用示例（RAG、图搜等）快速开发应用。
 - [weaviate](https://github.com/weaviate/weaviate) 向量数据库(GO 语言)
 - [rustfs](https://github.com/rustfs/rustfs) rust 实现的高性能分布式对象存储。
+- [etcd](https://github.com/etcd-io/etcd) go 开发的配置管理服务器。
 - [ONLYOFFICE](https://github.com/ONLYOFFICE) 囊括了 microsoft office 以及 adobe pdf 等办公文件处理和前端插件的一套技术解决方案，有免费版本。
 - [JasperReports](https://www.jaspersoft.com/products/jaspersoft-community) Java 开发的报表软件，[GitHub仓库](https://github.com/Jaspersoft/jasperreports)，功能上比市面上的 FastReport、ActiveReports 等要少一些，但是胜在有免费版。
