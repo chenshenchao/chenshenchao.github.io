@@ -21,6 +21,24 @@ npx @dcloudio/uvm@latest
 2. uni.addInterceptor 拦截 navigateTo 后 invoke 返回 false 后 navigateTo 会直接废掉。
 3. uni.showToast 因同 wx.showToast 而 icon 非 'none' 时只能显示单行8字。
 
+### renderjs
+
+直接在 WebView 中执行JS的方法，renderjs 只支持 APP 和 H5，不支持小程序平台。
+
+### WXS
+
+小程序端用来在 WebView 中执行JS的方法。
+
+### [nvue 原生插件](https://uniapp.dcloud.net.cn/tutorial/nvue-api.html)
+
+由于 nvue 使用 Weex 做渲染，没有 WebView 环境，所以没有 DOM 就不能使用 renderjs ，而要操作元素就得使用原生插件。
+
+```ts
+uni.requireNativePlugin('dom') // 仿 dom 方式的元素操作插件
+uni.requireNativePlugin('animation') // 动画插件
+const Binding = uni.requireNativePlugin('bindingx') // 元素绑定插件
+```
+
 ### 路由与权限
 
 1. 必须自定义 Tabbar 以接管 Tabbar 的事件，靠 pages.json 配置底部栏无法拦截
