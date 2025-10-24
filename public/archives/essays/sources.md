@@ -1,4 +1,4 @@
-# 资源
+# 资源速查
 
 ## 字体
 
@@ -73,6 +73,11 @@ qwen
 
 - [Pencil](https://github.com/evolus/pencil) 开源原型设计软件
 - [DrawIO](https://github.com/jgraph/drawio-desktop) 流程图、架构图、导图软件
+
+## 编辑器
+
+- [Zed](https://zed.dev/) rust 开发，打开很快，可以取代 Notepad++ 
+- [LiteXL]() 打开稍快于 VSCode 但功能又弱之。
 
 ## 文件处理工具
 

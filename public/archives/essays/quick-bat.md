@@ -12,3 +12,8 @@ for /r "%sql_dir%" %%f in (*.txt) do (
     cat %%f
 )
 ```
+
+```bat
+@rem 执行 VS2019 的开发环境，举一反三可以设配其他版本 VS
+%comspec% /k "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\VsDevCmd.bat"
+```

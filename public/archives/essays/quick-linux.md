@@ -12,6 +12,9 @@ cat /etc/issue
 cat /proc/version
 hostnamectl
 
+# 查到 DNS 配置文件,WSL 下可看到宿主信息
+cat /etc/resolv.conf
+
 # 修改权限
 cd /www/wwwroot/
 chown -R www:www .
@@ -32,6 +35,74 @@ less bigfile.text
 # 查看文件信息，比如文本文件字符集（不一定准确）
 file -i file.txt
 ```
+
+### apt
+
+apt 是 debian 以及 ubuntu 的软件管理器。
+由于墙的原因时常需要使用国内镜像。
+/etc/apt/sources.list
+
+- [阿里源](https://developer.aliyun.com/mirror/)
+- [阿里源 ubuntu](https://developer.aliyun.com/mirror/ubuntu)
+
+```bash
+# 阿里云镜像
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
+sudo sed -i 's/security.ubuntu/mirrors.aliyun/g' /etc/apt/sources.list
+sudo sed -i 's/archive.ubuntu/mirrors.aliyun/g' /etc/apt/sources.list
+sudo apt update
+# //更新已安装的包到最新，这个是可选的
+sudo apt-get upgrade
+```
+
+
+```ini
+# 中科大镜像
+deb http://mirrors.ustc.edu.cn/ubuntu/ xenial main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ xenial-security main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ xenial-updates main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ xenial-proposed main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial-security main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial-updates main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial-proposed main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse
+
+
+# 清华镜像
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial main restricted
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-updates main restricted
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial universe
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-updates universe
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial multiverse
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-updates multiverse
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-security main restricted
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-security universe
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-security multiverse
+```
+
+```bash
+sudo apt-get update # 更新源
+sudo apt-get install package # 安装包
+sudo apt-get remove package # 删除包
+sudo apt-cache search package # 搜索软件包
+sudo apt-cache show package  # 获取包的相关信息，如说明、大小、版本等
+sudo apt-get install package --reinstall  # 重新安装包
+sudo apt-get -f install  # 修复安装
+sudo apt-get remove package --purge # 删除包，包括配置文件等
+sudo apt-get build-dep package # 安装相关的编译环境
+sudo apt-get upgrade # 更新已安装的包
+sudo apt-get dist-upgrade # 升级系统
+sudo apt-cache depends package # 了解使用该包依赖那些包
+sudo apt-cache rdepends package #  查看该包被哪些包依赖
+sudo apt-get source package # 下载该包的源代码
+sudo apt-get clean && sudo apt-get autoclean # 清理无用的包
+sudo apt-get check # 检查是否有损坏的依赖
+```
+
+### yum
 
 ## 服务
 

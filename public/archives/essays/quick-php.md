@@ -1,5 +1,18 @@
 # PHP 速查
 
+## 命令规范
+
+PHP 是有一套标准库的，所以最好的命名规范就是保持和 PHP 的标准库一致。
+很多 PHP 的代码看着脏乱差的一个原因就是命名规范混乱，加上很多 PHPer 直接复制别人的代码段不修改，就造成了很多公司的 PHP 代码被称作“屎山”。
+
+- 类名 PascalCase
+- 类成员方法名 camelCase
+- 类成员字段名 camelCase
+- 函数名 snake_case
+- 局部变量名 camelCase
+- 常量名 UPPER_CASE
+
+
 ## Composer
 
 ```bash
