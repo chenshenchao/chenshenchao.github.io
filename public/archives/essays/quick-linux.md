@@ -12,8 +12,12 @@ cat /etc/issue
 cat /proc/version
 hostnamectl
 
+# 查看IP 
+hostname -I
+
 # 查到 DNS 配置文件,WSL 下可看到宿主信息
 cat /etc/resolv.conf
+cat /etc/resolv.conf | grep nameserver | awk '{ print $2 }'
 
 # 修改权限
 cd /www/wwwroot/
@@ -55,6 +59,14 @@ sudo apt update
 sudo apt-get upgrade
 ```
 
+```bash
+# 清华镜像源
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
+sudo sed -i 's#http://security.ubuntu.com#https://mirrors.tuna.tsinghua.edu.cn#g' /etc/apt/sources.list
+sudo sed -i 's#http://archive.ubuntu.com#https://mirrors.tuna.tsinghua.edu.cn#g' /etc/apt/sources.list
+sudo apt update
+sudo apt-get upgrade
+```
 
 ```ini
 # 中科大镜像
@@ -84,6 +96,9 @@ deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-security multiverse
 ```
 
 ```bash
+# apt 启用代理， WSL 代理监听端口要 0.0.0.0 不要只接收 127.0.0.1 
+apt install android-sdk -o Acquire::http::proxy=http://172.18.208.1:10808
+
 sudo apt-get update # 更新源
 sudo apt-get install package # 安装包
 sudo apt-get remove package # 删除包
