@@ -12,6 +12,15 @@ PHP 是有一套标准库的，所以最好的命名规范就是保持和 PHP �
 - 局部变量名 camelCase
 - 常量名 UPPER_CASE
 
+## 常用命令
+
+```bash
+# 查看版本
+php -v
+
+# 进入交互模式
+php -a
+```
 
 ## Composer
 

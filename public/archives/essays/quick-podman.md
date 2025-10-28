@@ -14,6 +14,16 @@ podman ps
 
 ## 常见命令
 
+### build
+
+```bash
+# 使用 podmanfile 类似 docker 使用 dockerfile
+podman build .
+
+# 使用 dockerfile 时，因为名字需要自己指定文件
+podman build -f dockerfile
+```
+
 ### cp 复制
 
 ```bash
