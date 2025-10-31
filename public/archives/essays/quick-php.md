@@ -20,6 +20,10 @@ php -v
 
 # 进入交互模式
 php -a
+
+# 启动开发服务器，类似 CGI 服务，找不到的文件会执行目录下 router.php 文件处理。
+php -S [host:port] [document_root]
+php -S 0.0.0.0:80
 ```
 
 ## Composer

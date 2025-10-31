@@ -15,6 +15,9 @@ hostnamectl
 # 查看IP 
 hostname -I
 
+# 查看 glibc 版本
+ldd --version
+
 # 查到 DNS 配置文件,WSL 下可看到宿主信息
 cat /etc/resolv.conf
 cat /etc/resolv.conf | grep nameserver | awk '{ print $2 }'

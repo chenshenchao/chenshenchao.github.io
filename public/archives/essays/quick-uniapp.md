@@ -151,6 +151,10 @@ console.log('这是 H5 平台')
 // #ifdef MP-WEIXIN
 console.log('这是微信小程序')
 // #endif
+
+// #ifdef APP-PLUS || MP-WEIXIN
+console.log('这是 App 或 微信小程序')
+// #endif
 ```
 
 ```xml

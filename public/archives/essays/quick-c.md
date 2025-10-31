@@ -1,5 +1,10 @@
 # [草稿]C 速查
 
+## 包管理
+
+- CMake
+- [clib](https://github.com/clibs/clib) 
+
 ## 常用库
 
 - [sokol](https://github.com/floooh/sokol) 跨平台包括图形、多媒体等的单头文件库。
