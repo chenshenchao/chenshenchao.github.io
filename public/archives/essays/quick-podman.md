@@ -157,8 +157,9 @@ podman compose ps
 ## Windows 与 WSL 相关
 
 Windows 下的容器是通过 WLS2 的虚拟机（podman-machine-default）里的 linux 系统使用的。
-
+Windows 下的容器只能 Windows 宿主机访问，无法像 Docker 的容器在内网被访问。[相关的 GitHub issue](https://github.com/containers/podman/issues/19890)
 有时候一些文件有权限问题可以临时进入 WSL 的宿主机去修改文件权限。
+
 
 ```bat
 @rem 列举，可以看到 podman-machine-default
