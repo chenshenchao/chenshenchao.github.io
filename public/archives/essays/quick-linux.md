@@ -43,6 +43,16 @@ less bigfile.text
 file -i file.txt
 ```
 
+```bash
+# 得到真随机的 hex
+# /dev/random 可以拿到机器采集的真随机数流。但是拿光了会阻塞等待采集。
+head -c 100 /dev/random | xxd -p
+
+# 得到真随机的 hex
+# /dev/urandom 可以拿到机器采集的真随机数流。拿光了会复用之前旧的采集数据。
+head -c 100 /dev/urandom | xxd -p
+```
+
 ### apt
 
 apt 是 debian 以及 ubuntu 的软件管理器。
