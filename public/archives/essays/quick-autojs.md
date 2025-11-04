@@ -6,6 +6,18 @@ AutoJs 2019 年停止更新开源并闭源，社区 fork 出分支为 AutoX.js �
 
 注：如非只是做自动化，还是使用 appium 而不要用 autojs 社区环境、文档等差太多。如果要写 UI 界面打包成 APP 发布，那么 autoxjs 才能满足需求。
 
+## UI 界面
+
+## 控件操作
+
+```js
+const id = uiObject.id();
+console.log(id, uiObject.id()); // 大概率会输出2个不同的值，很奇怪赋值后就出错了。
+
+const className = uiObject.className();
+console.log(className, uiObject.className()); // 同 id 一样，也有这个问题。
+```
+
 ## 开发流程
 
 ### 移动端开发
@@ -24,8 +36,6 @@ AutoJs 2019 年停止更新开源并闭源，社区 fork 出分支为 AutoX.js �
 5. Step 2: 1. 无线连接，把 Step 1 的 IP 在手机端菜单的 “连接电脑” 输入(或者 Ctrl+Shift+P show qr code 出现二维码扫码)
 6. Step 2: 2. USB 调试连接，确保类似普通安卓开发那样 adb 的工作方式正常。
 7. Step 3: VS code 编辑，F5 调试。
-
-## UI 界面
 
 ## 打包 APP
 
