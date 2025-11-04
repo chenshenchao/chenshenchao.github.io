@@ -1,8 +1,16 @@
 # gulp 速查
 
+[gulp 官网](https://gulpjs.com/)
+
+gulp 的设计理念是基于管道（pipe）的，这样多个任务就可以被串在一起。而且管道的代码是命令式的，可以看出代码的执行顺序。
+即便是 webpack 和 rollup 乃至之后的 vite 等构造工具的兴起，gulp 还是会有其一席之地，毕竟它足够简单。
+
 ## 常用插件
 
-- gulp-concat 拼接
+- [vinyl](https://github.com/gulpjs/vinyl) 
+- [gulp-concat](https://github.com/gulp-community/gulp-concat) 拼接文件
+- [gulp-header](https://github.com/gulp-community/gulp-header) 加入头部
+- [gulp-footer](https://github.com/gulp-community/gulp-footer) 加入底部
 
 ## 示例
 
