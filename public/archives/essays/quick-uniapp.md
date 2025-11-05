@@ -101,9 +101,9 @@ export function createApp() {
 }
 ```
 
-## 声明周期
+## 生命周期
 
-### App.vue
+### App.vue 应用生命周期
 
 ```ts
 {
@@ -113,14 +113,29 @@ export function createApp() {
 }
 ```
 
-### 页面
+### 页面生命周期
+
+页面生命周期作为组件有 Vue 的组件生命周期外多出几个生命周期。
 
 ```ts
 onLoad(() => {
     // 可以获得上次 App.onShow(res) 的内容，小程序开发使用。
     app.globalData.lastShowRes
 });
+
+// 页面触底，这个事件只能页面使用，非页面的组件虽然也可以挂载，但不要使用。
+// 因为组件被 v-if 删除后，旧组件没了，但是挂的 onReachBottom 还在，会有幽灵事件触发。
+// 最好一个页面只挂载一个 onReachBottom 事件。
+onReachBottom(() => {
+    
+});
 ```
+
+### 组件生命周期
+
+组件生命周期基本就是 Vue 的生命周期。
+虽然 setup 模式下组件内页可以 import 到页面的生命周期挂载函数。
+但是使用时要小心，如果组件被销毁重建等重复多次会导致幽灵事件被挂载并触发。
 
 ## 区分平台
 

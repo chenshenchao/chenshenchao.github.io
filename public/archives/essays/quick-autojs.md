@@ -8,7 +8,34 @@ AutoJs 2019 年停止更新开源并闭源，社区 fork 出分支为 AutoX.js �
 
 ## UI 界面
 
-## 控件操作
+## 控件选中与操作
+
+- UiSelector 选择器，用于选中，类似 jquery 可以链式选中函数。
+- UiObject 控件对象，用于操作，操作函数。
+- UiCollection 控件集合，用于操作，操作函数。
+
+使用模式，通过 UiSelector 调用 名字里带 *find* 的函数获取得到 UiObject 或 UiCollection 对象做操作。
+虽然 UiObject 和 UiCollection 对象不能转变成 UiSelector 对象，但是 find 和 findOne 这几个函数可以使用 UiSelector 来选择子控件。
+
+所以有两种模式：
+1. 通过 UiSelector 全局选中后，调用 *find* 系列函数变成 UiObject 或 UiCollection 后做操作。
+2. 已经有 UiObject 或 UiCollection 对象了，调用 *find* 系列函数可以选中子控件，可重复此过程选中深层子控件，然后操作。
+
+### UiSelector 选中
+
+- findOne 会使得 UiSelector 变成 UiObject
+- find 会使得 UiSelector 变成 UiCollection
+- untilFind 会等待，会使得 UiSelector 变成 UiCollection
+
+### UiObject 操作
+
+- find(selector) 传入 UiSelector 获取 UiCollection
+- findOne(selector) 传入 UiSelector 获取 UiObject
+
+### UiCollection 操作
+
+- find(selector) 传入 UiSelector 获取 UiCollection
+- findOne(selector) 传入 UiSelector 获取 UiObject
 
 ```js
 const id = uiObject.id();
