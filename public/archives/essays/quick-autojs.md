@@ -10,6 +10,12 @@ AutoJs 2019 年停止更新开源并闭源，社区 fork 出分支为 AutoX.js �
 
 ## 控件选中与操作
 
+与 jquery 的区别：
+jquery 的选择器也是操作器，可以直接通过选择器操作元素。
+autojs 的选择器只能选中控件，必须调用 find 系列函数变成 UiObject 或 UiCollection 才能操作控件。
+
+所以这一套的设计更像是吸收了 jquery 后的 web 标准 querySelector* 这系列函数。
+
 - UiSelector 选择器，用于选中，类似 jquery 可以链式选中函数。
 - UiObject 控件对象，用于操作，操作函数。
 - UiCollection 控件集合，用于操作，操作函数。
