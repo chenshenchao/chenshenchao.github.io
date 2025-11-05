@@ -8,6 +8,23 @@ AutoJs 2019 年停止更新开源并闭源，社区 fork 出分支为 AutoX.js �
 
 ## UI 界面
 
+- frame  框布局
+- vertical  竖布局
+- horizontal 横布局
+- button 按钮
+
+- id:
+- w：*、auto、100dp、100px、100mm、100in  没有 vw 或 rpx 这种自适应单位。
+- h: *、auto、100
+- layout_weight
+- margin
+- padding
+- alpha
+- bg: 
+- text:
+
+ui.findView(id)
+
 ## 控件选中与操作
 
 与 jquery 的区别：
