@@ -48,7 +48,16 @@ git clone --recurse-submodules git@github.com:path/to/r.git
 # 查看分支详情
 git branch -avv
 
-# 设置本地分支关联的远程分支
+# 删除分支
+git branch -d <branch_name>
+
+# 强制删除分支
+git branch -D <branch_name>
+
+# 分支改名
+git branch -m <old_name> <new_name>
+
+# 设置本地分支关联的远程分支，一般要先 git fetch 把新的仓库拉下来。
 git branch -u remote_origin_name/remote_branch_name local_branch_name
 
 # 设置本地分支关联的远程分支（同名）
@@ -113,6 +122,29 @@ git rm --ignore-unmatch path/to/file
 # --aggressive 更耗时，但是优化更好。
 # --prune 修剪松散对象，可指定日期，=now 全部。
 git gc --aggressive --prune=now
+```
+
+## 远程（remote）
+
+```bash
+# 查看远程仓库
+git remote
+
+# 查看远程仓库详细
+git remote -v
+
+# 添加远程仓库
+git remote add <remote_name> <remote_url>
+git remote add origin git@github.com:chenshenchao/project.git
+
+# 删除远程仓库
+git remote rm <remote_name>
+
+# 修改远程仓库 url
+git remote set-url <remote_name> <remote_url>
+
+# 修改远程仓库名字
+git remote rename <remote_old> <remote_new>
 ```
 
 ## 子树（subtree）
