@@ -19,6 +19,7 @@ sdk list java
 
 ## 常用库
 
+- [rhino](https://github.com/mozilla/rhino) 一个 JavaScript 实现。
 - [jooq(Java Object Oriented Querying)](https://github.com/jOOQ/jOOQ) 只有查询功能的 ORM ，需要构建配置代码生成。
 
 ## 包管理工具

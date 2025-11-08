@@ -23,6 +23,7 @@
 - [TimesFM](https://github.com/google-research/timesfm) 时间序列预测，预测股票走势，采购计划、天气预报等。
 - [ttt-video-dit](https://github.com/test-time-training/ttt-video-dit) 视频模型。
 - [star-vector](https://github.com/joanrod/star-vector) 像素图转SVG模型。
+- [AnimateDiff](https://github.com/guoyww/AnimateDiff) 动画模型。
 
 ## AI 应用开发
 
