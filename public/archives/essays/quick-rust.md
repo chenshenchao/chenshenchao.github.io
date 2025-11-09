@@ -287,6 +287,7 @@ fi
 - [bigdecimal-rs](https://github.com/akubera/bigdecimal-rs) 大十进制数库。
 - [rayon](https://github.com/rayon-rs/rayon) 数据并行处理库。
 - [rmcp](https://github.com/modelcontextprotocol/rust-sdk) MCP 开发库。
+- [qrcode](https://github.com/kennytm/qrcode-rust) 生成二维码库。
 
 ### UI 库
 
