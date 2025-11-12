@@ -19,6 +19,8 @@ git add .
 git reset HEAD
 # 指定文件或目录
 git reset HEAD ./.gitignore
+# 取消最近一个 commit 的操作
+git reset --mixed HEAD~1
 
 # 提交
 git commit -m "提交备注信息"
@@ -115,6 +117,23 @@ git rm --cached path/to/file
 # 删除不匹配（路径错了）而失败时不报错。多和批量操作连用防止报错导致接下来直接退出不执行后续。
 git rm --ignore-unmatch path/to/file
 ```
+
+## （reset）
+
+重置分支，从 HEAD 往前的提交。
+
+```bash
+# 撤销已加入 HEAD 的内容。
+git reset HEAD
+
+# 撤销最近1个提交历史，修改内容保留。
+git reset --soft HEAD~1
+
+# 撤销最近2个提交历史，修改内容删除。
+git reset --hard HEAD~2
+```
+
+## （rebase）
 
 ## 垃圾回收（gc）
 

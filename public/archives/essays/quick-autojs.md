@@ -1,8 +1,14 @@
 # AutoJS 速查
 
-AutoJs 2019 年停止更新开源并闭源，社区 fork 出分支为 AutoX.js 并维护。
-[AutoX GitHub 仓库](https://github.com/aiselp/AutoX)
 自动化方面没有 appium 那么专业，开发工具齐全，多语言等特性，但是 AutoXjs 有个优势，能打包成 APP 发布就挺适合做小工具的。
+
+由于 AutoJs 的原作者不再维护，这区分裂了，有 AutoX 是免费的， AutoJs6 也是免费的。
+两者的开发工具和 VsCode 插件 不兼容。
+
+- [AutoX](https://github.com/aiselp/AutoX) AutoJs 2019 年停止更新开源并闭源，社区 fork 出分支为 AutoX.js 并维护。
+- [Auto.js-Autox.js-VSCodeExt](https://marketplace.visualstudio.com/items?itemName=aaroncheng.auto-js-vsce-fixed) AutoX 的 VsCode 插件。
+- [AutoJs6](https://github.com/SuperMonster003/AutoJs6) 基于 Auto.js 4.1.1 Alpha2 开发的项目
+- [AutoJs6-VSCode-Extension](https://github.com/SuperMonster003/AutoJs6-VSCode-Extension) AutoJs6 的 VsCode 插件。
 
 注：如非只是做自动化，还是使用 appium 而不要用 autojs 社区环境、文档等差太多。如果要写 UI 界面打包成 APP 发布，那么 autoxjs 才能满足需求。
 
@@ -70,14 +76,28 @@ console.log(className, uiObject.className()); // 同 id 一样，也有这个问
 
 ## 开发流程
 
-### 移动端开发
+### AutoJs6 开发流程
+
+#### 移动端开发
+
+- []() 下载并安装 apk 到控制的手机
+- 
+
+#### PC 端开发
+
+- VsCode 搜索 “AutoJs6” 并安装插件。
+- Ctrl + Shift + P 打开命令搜 “AutoJs6” 选择 连接的模式。
+
+### AutoX.Js 开发流程
+
+#### 移动端开发
 
 1. [下载](https://github.com/aiselp/AutoX/releases) apk 并安装到要控制的手机。
 2. 打开 AutoX app 并在菜单中开启 “无障碍服务” 和 “悬浮窗”、“USB 调试”。
 3. 打开要操作的目标 app ,通过悬浮窗分析组件布局等，得到要操作的组件的定位条件进行脚本编写。
 4. 执行脚本并调试。
 
-### PC 端开发
+#### PC 端开发
 
 1. 先完成移动端开发的步骤，并 PC 端按 [示例](https://github.com/aiselp/AutoX/tree/setup-v7/app/src/main/assets/sample) 搞个项目出来。
 2. 安装 VSCODE 插件 [Auto.js-Autox.js-VSCodeExt](https://marketplace.visualstudio.com/items?itemName=aaroncheng.auto-js-vsce-fixed)
@@ -89,13 +109,19 @@ console.log(className, uiObject.className()); // 同 id 一样，也有这个问
 
 ## 打包 APP
 
-AutoXjs 可以写 UI 界面，并打包成 APP 发布。
-
-### 打包单个脚本
+### AutoJs6 打包
 
 脚本列表右边 三个点 图标点开可以打包，点打包填表开始打包即可。
 
-### 项目创建
+### AutoX.js 打包
+
+AutoX.js 可以写 UI 界面，并打包成 APP 发布。
+
+#### 打包单个脚本
+
+脚本列表右边 三个点 图标点开可以打包，点打包填表开始打包即可。
+
+#### 项目创建
 
 1. 在 AutoXjs App 里 有个浮动按钮 + 可以添加文件、项目等，选创建项目。
 2. 填完表后就可以创建项目开始开发。

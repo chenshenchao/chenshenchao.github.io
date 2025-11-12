@@ -288,6 +288,7 @@ fi
 - [rayon](https://github.com/rayon-rs/rayon) 数据并行处理库。
 - [rmcp](https://github.com/modelcontextprotocol/rust-sdk) MCP 开发库。
 - [qrcode](https://github.com/kennytm/qrcode-rust) 生成二维码库。
+- [bardecoder](https://github.com/piderman314/bardecoder) 二维码识别库。
 
 ### UI 库
 
