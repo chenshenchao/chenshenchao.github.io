@@ -109,6 +109,38 @@ pip install -i https://mirrors.aliyun.com/pypi/simple/ numpy
 pip install -U numpy
 ```
 
+### pip 配置
+
+pip 在 Linux 和 Windows 下的配置路径不一致。
+
+Linux：
+
+- 全局级：/etc/pip.conf
+- 用户级（旧）：~/.pip/pip.conf
+- 用户级（新）：~/.config/pip/pip.conf
+
+```conf
+[global]
+index-url = https://mirrors.aliyun.com/pypi/simple/
+
+[install]
+trusted-host=mirrors.aliyun.com
+```
+
+Windows: 
+
+- 全局级：%ProgramData%\pip\pip.ini
+- 用户级：%AppData%\Roaming\pip\pip.ini
+
+```ini
+[global]
+index-url=https://mirrors.aliyun.com/pypi/simple/
+
+[install]
+trusted-host=mirrors.aliyun.com
+```
+
+
 #### kivy
 
 kivy 的设计有点类似 Flutter（2017年发布） ，但是由于其还是设计得比较早（2011年发布），所以有些东西设计得还不够好。没有新出的框架在代码设计上先进。

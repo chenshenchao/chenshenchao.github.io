@@ -1,6 +1,6 @@
 # Android 速查
 
-- 无障碍服务（Accessibility Service），给残障用户开发辅助工具，可以做自动化。
+- 无障碍服务（Accessibility Service），给残障用户开发辅助工具，可以做自动化。uiautomatorviewer.bat 可以对其进行操作。
 
 ## 开发工具
 
@@ -28,6 +28,8 @@ keytool -list -v -keystore jcm3demo.jks
 ```
 
 ### adb(Android Debuger) 安卓调试器
+
+在 SDK 的 platform-tools 目录下。
 
 ```bash
 # 查看文档
@@ -112,6 +114,12 @@ adb shell reboot
 # 确保文件权限为 644 ，默认是 644，不是时需手动修改。
 # 如果权限不够，进入 shell 处理。
 adb shell chmod 644 /system/build.prop
+```
+
+```bash
+# 手机 开发者模式 打开 无线调试 会显示 IP 和端口号
+# 连接 被调试手机
+adb connect <ip>:<port>
 ```
 
 [python-adb](https://github.com/google/python-adb) 一个纯 python 实现的 adb 库，已经停止维护。
