@@ -242,3 +242,62 @@ firewall-cmd --add-masquerade --permanent
 # 重启防火墙
 firewall-cmd --reload
 ```
+
+### crontab 计划任务
+
+- crond 是 crontab 的服务，每次修改都要重启该服务。
+
+```bash
+# 编辑计划任务
+crontab -e
+
+# 查看计划任务
+crontab -l
+
+# 用 systemctl 重启
+systemctl restart crond
+
+# 用 service 重启
+service crond restart
+```
+
+#### Crontab 定时任务格式
+
+```bash
+# * 代表所有可能值。
+# , 列举可能值之间不能有空格，例：1,2,23,56。
+# - 范围值，例：2-6 等价于 2,3,4,5,6
+# / 可以用来表示值间隔，例如：0-8/2 代表 0 到 23 间隔是 2,等价于 0,2,4,8
+# 例 * 分别是 (0-59) 分, (0-23) 时，(1-31)日，(1-12)月，(0-7) (周日为 0 或 7)星期几
+# 接下来是 用户名 和 命令
+* * * * * username command
+```
+
+### pureftpd 文件传输服务
+
+虽然说现在基本上 sftp 替代 ftp 了，但是还是有不少小公司的老服务器在使用 ftp 服务。
+pureftpd 算是比较常见的，虽然有 宝塔 封装了图形界面，但是有时还是用命令行操作方便点，尤其是写脚本自动化的时候。
+
+```bash
+# 显示 help
+pure-pw --help
+
+# pure-pw 有些没有加到 PATH 里面，所以直接到安装路径下去执行。
+# ftpuser 通过 cat /etc/passwd 对应
+# pureftpd 通过查看配置 SyslogFacility 指定 /etc/passwd 里面的
+# 添加用户 user1  
+# 指定路径 -d /var/www/site1  系统的 user1 要有访问权限
+pure-pw useradd user1 -u ftpuser -g ftpgroup -d /var/www/site1
+
+# 修改密码
+pure-pw passwd user1
+
+# 刷新用户数据。
+pure-pw mkdb
+
+# 显示用户列表
+pure-pw list
+
+# 显示用户（查看已有用户参考配置）
+pure-pw show user1
+```
