@@ -2,15 +2,14 @@
 
 自动化方面没有 appium 那么专业，开发工具齐全，多语言等特性，但是 AutoXjs 有个优势，能打包成 APP 发布就挺适合做小工具的。
 
-由于 AutoJs 的原作者不再维护，这区分裂了，有 AutoX 是免费的， AutoJs6 也是免费的。
-两者的开发工具和 VsCode 插件 不兼容。
+由于 AutoJs 的原作者不再维护，社区分裂了，有 AutoX 和 AutoJs6 两个后续的项目，两者的开发工具和 VsCode 插件 不兼容。
 
 - [AutoX](https://github.com/aiselp/AutoX) AutoJs 2019 年停止更新开源并闭源，社区 fork 出分支为 AutoX.js 并维护。
 - [Auto.js-Autox.js-VSCodeExt](https://marketplace.visualstudio.com/items?itemName=aaroncheng.auto-js-vsce-fixed) AutoX 的 VsCode 插件。
 - [AutoJs6](https://github.com/SuperMonster003/AutoJs6) 基于 Auto.js 4.1.1 Alpha2 开发的项目
 - [AutoJs6-VSCode-Extension](https://github.com/SuperMonster003/AutoJs6-VSCode-Extension) AutoJs6 的 VsCode 插件。
 
-注：如非只是做自动化，还是使用 appium 而不要用 autojs 社区环境、文档等差太多。如果要写 UI 界面打包成 APP 发布，那么 autoxjs 才能满足需求。
+注：如只是做自动化，还是使用 appium 而不要用 autojs 社区环境、文档等差太多。如果要写 UI 界面打包成 APP 发布，那么 autoxjs 才能满足需求。
 
 ## UI 界面
 
