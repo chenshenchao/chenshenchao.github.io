@@ -83,6 +83,7 @@ qwen
 
 - [vtracer](https://github.com/visioncortex/vtracer) 像素图(gif、jpg、png等)转SVG命令行工具。
 - [potrace](https://potrace.sourceforge.net/) 像素图（pnm、bmp等）转SVG命令行工具。
+- [EasyDb](https://github.com/shencangsheng/easydb_app) 用 SQL 像数据库一样处理 CSV、JSON、Excel 等文件的查询。
 
 ## 监控工具
 

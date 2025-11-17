@@ -289,6 +289,8 @@ fi
 - [rmcp](https://github.com/modelcontextprotocol/rust-sdk) MCP 开发库。
 - [qrcode](https://github.com/kennytm/qrcode-rust) 生成二维码库。
 - [bardecoder](https://github.com/piderman314/bardecoder) 二维码识别库。
+- [datafusion](https://github.com/apache/datafusion) 用 SQL 处理 CSV、JSON、Parquet、Avro、Arrow 等文件的库，可自定义文件格式做扩展。
+- [calamine](https://github.com/tafia/calamine) 纯 Rust 实现 Excel/OpenDocument 库。
 
 ### UI 库
 

@@ -41,6 +41,7 @@ vcpkg install openssl:x64-windows-static
 - [rocksdb](https://github.com/facebook/rocksdb) 键值对存储库。
 - [NuRaft](https://github.com/eBay/NuRaft) 分布式协议 Raft 的实现库。
 - [Poco](https://github.com/pocoproject/poco) 多功能库集合。
+- [tesseract](https://github.com/tesseract-ocr/tesseract) OCR 库。
 
 ## wxWidgets
 

@@ -17,6 +17,7 @@
 - [FastUI](https://github.com/pydantic/FastUI) web UI 库。非 HTML 模板，是 Python 代码生成 HTML。
 - [pydantic](https://github.com/pydantic/pydantic) 数据验证库。
 - [ruff](https://github.com/astral-sh/ruff) rust 开发用于格式化和 lint python 的库。
+- [pytesseract](https://github.com/madmaze/pytesseract) 封装 C++ 库 tesseract 的 OCR 库。
 
 ## 虚拟环境
 

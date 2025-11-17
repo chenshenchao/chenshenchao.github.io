@@ -114,12 +114,21 @@ adb shell reboot
 # 确保文件权限为 644 ，默认是 644，不是时需手动修改。
 # 如果权限不够，进入 shell 处理。
 adb shell chmod 644 /system/build.prop
+
+# dump 出 UI 布局的 XML 文件到  /sdcard/window_dump.xml
+# 注：有些APP，比如 微信 就有防止被 dump 的方法，导致出来的 XML 内容很少。
+adb shell uiautomator dump
 ```
 
 ```bash
 # 手机 开发者模式 打开 无线调试 会显示 IP 和端口号
 # 连接 被调试手机
 adb connect <ip>:<port>
+
+# 通过 配对码 连接，会让你输入配对码。Android Studio 配对码的命令行形式。
+adb pair <ip>:<port>
+
+# 二维码连接，这个估计没有命令行，没查到。
 ```
 
 [python-adb](https://github.com/google/python-adb) 一个纯 python 实现的 adb 库，已经停止维护。
