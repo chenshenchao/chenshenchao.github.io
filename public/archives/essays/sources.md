@@ -87,6 +87,8 @@ qwen
 
 ## 监控工具
 
+- [wireshark](https://github.com/wireshark/wireshark) 抓包工具。
+- [sniffnet](https://github.com/GyulyVGC/sniffnet) 网络监控工具。
 - [grafana](https://github.com/grafana/grafana) Web 数据库监控面板。
 
 ### 服务型工具

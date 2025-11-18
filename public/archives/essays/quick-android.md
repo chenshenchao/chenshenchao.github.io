@@ -322,3 +322,9 @@ adb shell
 # 按理会查到 ISRG Root X1  和 ISRG Root X2
 cat /system/etc/security/cacerts/* | grep ISRG
 ```
+
+
+## Root
+
+- [Magisk](https://github.com/topjohnwu/Magisk)
+- SuperSU

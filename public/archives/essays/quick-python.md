@@ -78,6 +78,8 @@ uv python install 3.13
 
 # 创建项目
 uv init <project_name>
+# 直接在当前目录创建项目
+uv init
 
 # 添加库 ruff
 uv add ruff
