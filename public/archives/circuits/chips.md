@@ -4,6 +4,8 @@
 
 ### 74HC
 
+- 74HC04D 6路 反相器
+- SN74HC74 双 D触发器（D Type Flip Flops）
 - SN74HC595 8位 移位寄存器 三态输出
 
 ### 74LVC
@@ -20,10 +22,16 @@
 - SN74LVC1G17 单 施密特触发缓冲器(Schmitt-Trigger Buffer)
 - SN74LVC1G34 单 单输入 缓冲器 推挽
 - SN74LVC1G32 单 双输入 或门(OR-GATE)
-- SN74LVC1G74 单 寄存器
+- SN74LVC1G74 单 D触发器（D Type Flip Flops）
 - SN74LVC1G86 单 双输入 异或门(XOR-GATE)
 - SN74LVC1G125 单 双输入 三状态缓冲器 OE高禁
 - SN74LVC1G126 单 双输入 三状态缓冲器 OE低禁
+
+- SN74LVC74A 双 D触发器（D Type Flip Flops）
+
+### 74LS
+
+- SN74LS74 双 D触发器（D Type Flip Flops）
 
 
 ## 定时器
