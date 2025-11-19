@@ -7,6 +7,7 @@
 - [deeplake](https://github.com/activeloopai/deeplake) v4 版本是个向量数据库；v3 版本时是个张量数据集存储库，用来存储训练数据。
 - [chromadb](https://github.com/chroma-core/chroma) 向量数据库，需要 python 3.9, 用了 dict list 等类型参数，即不支持 Windows 7(python 3.8)
 - [tinydb](https://github.com/msiemens/tinydb) 文档数据库，存储是 JSON 文件，性能不行。
+- [whoosh](https://github.com/mchaput/whoosh) 纯 Python 实现全文搜索库。
 - [pywin32](https://github.com/mhammond/pywin32) 封装 Windows API 。
 - [loguru](https://github.com/Delgan/loguru) 日志库
 - [kivy](https://github.com/kivy/kivy) UI框架
@@ -18,6 +19,7 @@
 - [pydantic](https://github.com/pydantic/pydantic) 数据验证库。
 - [ruff](https://github.com/astral-sh/ruff) rust 开发用于格式化和 lint python 的库。
 - [pytesseract](https://github.com/madmaze/pytesseract) 封装 C++ 库 tesseract 的 OCR 库。
+
 
 ## 虚拟环境
 
