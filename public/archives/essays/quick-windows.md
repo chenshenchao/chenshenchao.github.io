@@ -2,6 +2,15 @@
 
 [微软商店在线链接生成工具](https://store.rg-adguard.net/) 用来生成商店里的可用下载链接，而不仅只有图形界面显式的下载按钮。
 
+```bat
+@rem CMD 命令行变量临时设置，配置 HTTP 代理
+set HTTP_PROXY=http://127.0.0.1:10808
+set HTTPS_PROXY=http://127.0.0.1:10808
+set HTTP_PROXY=socks5://127.0.0.1:10808
+set HTTPS_PROXY=socks5://127.0.0.1:10808
+```
+
+
 ## Windows API
 
 ### 管道(pipe)

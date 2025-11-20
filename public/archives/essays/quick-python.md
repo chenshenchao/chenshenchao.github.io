@@ -19,7 +19,8 @@
 - [pydantic](https://github.com/pydantic/pydantic) 数据验证库。
 - [ruff](https://github.com/astral-sh/ruff) rust 开发用于格式化和 lint python 的库。
 - [pytesseract](https://github.com/madmaze/pytesseract) 封装 C++ 库 tesseract 的 OCR 库。
-
+- [opencv-python](https://github.com/opencv/opencv-python) opencv 的 python 封装库。
+- [pyautogui](https://github.com/asweigart/pyautogui) 跨平台桌面系统自动化操作库，模拟鼠标键盘操作。
 
 ## 虚拟环境
 
@@ -231,6 +232,18 @@ canvas.after
 ```
 
 ## 打包与发布
+
+### 使用 uv 创建基于 pyproject.toml 的项目兼容旧依赖方式
+
+- [pip-tools](https://github.com/jazzband/pip-tools) 提供一些 pip-compile 此类工具
+
+```bash
+# 生成兼容旧依赖管理的 requirements.txt 文件。
+pip-compile pyproject.toml
+
+# 通过 requirements.txt 安装依赖。
+pip install -r requirements.txt
+```
 
 ### 新标准 pyproject.toml 方式及新标准库 build 模块
 

@@ -20,6 +20,8 @@
 ## 模型
 
 - [VibeVoice](https://github.com/microsoft/VibeVoice) 微软开源 TTS 模型。
+- [OmniParser](https://github.com/microsoft/OmniParser) 微软开源 UI 界面分析模型。
+- [UI-TARS](https://github.com/bytedance/UI-TARS) 字节开源 UI 界面分析模型。
 - [TimesFM](https://github.com/google-research/timesfm) 时间序列预测，预测股票走势，采购计划、天气预报等。
 - [ttt-video-dit](https://github.com/test-time-training/ttt-video-dit) 视频模型。
 - [star-vector](https://github.com/joanrod/star-vector) 像素图转SVG模型。
