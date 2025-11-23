@@ -6,9 +6,16 @@ npm i -D prisma
 
 # 安装客户端伪包，这个包是空的，只是给生成文件提供一个放代码的地方。
 npm i @prisma/client
+
+# 7.0 开始，数据库设配器拆到其他包,需要手动引入。
+npm i @prisma/adapter-pg pg dotenv
+npm i -D @types/pg
 ```
 
 ```bash
+# 创建一个名叫 init 的迁移脚本
+npx prisma migrate dev --name init
+
 # 执行迁移脚本
 npx prisma migrate deploy
 
@@ -80,6 +87,7 @@ export default defineConfig({
 ```ts
 import { PrismaClient } from "@prisma/client";
 
+// 7.0 以前
 const prisma = new PrismaClient();
 
 async function main() {
@@ -111,4 +119,21 @@ main()
     await prisma.$disconnect();
     process.exit(1);
   });
+```
+
+## lib/prisma.ts
+
+7.0 后需要显式设配数据库，所以官方示例建议定义一个库文件用于共享客户端。
+
+```ts
+import "dotenv/config";
+import { PrismaPg } from "@prisma/adapter-pg";
+import { PrismaClient } from "../generated/prisma/client";
+
+const connectionString = `${process.env.DATABASE_URL}`;
+
+const adapter = new PrismaPg({ connectionString });
+const prisma = new PrismaClient({ adapter });
+
+export { prisma };
 ```
