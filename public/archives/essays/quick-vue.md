@@ -14,6 +14,7 @@ Composition API 是新的组合式编程的方式来组织代码。vue3 开始�
 ## 常用库
 
 - [pinia](https://pinia.vuejs.org/) 存储管理库
+- [pinia-plugin-persistedstate](https://github.com/prazdevs/pinia-plugin-persistedstate) pinia 持久化扩展。
 - [vueuse](https://vueuse.org/) vue 扩展库，主要扩展了一些钩子。
 - [PPTist](https://github.com/pipipi-pikachu/PPTist) vue 的 PPT 库。
 - [nutui](https://github.com/jd-opensource/nutui) 京东移动端组件库。
