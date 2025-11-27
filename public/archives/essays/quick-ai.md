@@ -2,16 +2,62 @@
 
 人工智能目前发展迅速，目前最主要的就是 LLM 的 AI 占主导地位。大语言模型开发非常耗费资金，动则上百亿的投入，只有世界上少数几个大公司才能投入，这也是早期大部分开发者都难以参与到大模型 AI 开发的原因。随着 LLM 的推广，为了让更多的人参与进来并让 AI 变现，同时又保护投入早期开发的大公司的利益，在模型开发之后出现应用开发。开发者可以不用开发自己的大模型，把大模型作为一种云服务，开发者通过调用服务商的大模型来开发自己的应用。
 
+## 资料源
+
 - [HuggingFace](https://huggingface.co/)  提供模型(Models)、数据集（Datasets）仓库和展示（Spaces）的站点。
 - [OpenRouter](https://openrouter.ai/)
 - [ModelScope](https://www.modelscope.cn)
 - [阿里云百炼](https://bailian.console.aliyun.com/) 云平台，目前有送免费 100万 tokens 额度。
 
+### Huggingface 相关
+
+#### huggingface_hub
+
+因为墙 需要使用 huggingface_hub 设置镜像
+
+```bat
+@rem 安装
+pip install -U huggingface_hub
+
+@rem 设置镜像 cmd
+set HF_ENDPOINT=https://hf-mirror.com
+
+@rem 设置镜像 POWERSHELL
+$env:HF_ENDPOINT="https://hf-mirror.com"
+
+@rem 下载到指定路径
+@rem --resume-download （huggingface 路径）发布者/模型
+@rem --local-dir 本地地址 默认 ~/cache/huggingface/hub
+huggingface-cli download --resume-download intfloat/e5-large-v2 --local-dir ~/cache/huggingface/hub
+```
+
+#### hf-transfer
+
+上面切换代理，但是速度还是太慢，因为模型都是用 G 表示大小的。
+
+装上后 使用 huggingface_hub 会提速。
+
+缺点：
+1. 启用后没有进度，所以看着像卡着。。
+2. 启用镜像和国内镜像源不兼容。
+
+```bat
+@rem 安装
+pip install -U hf-transfer
+
+@rem 设置启动 cmd
+set HF_HUB_ENABLE_HF_TRANSFER=1
+
+@rem 设置启动 powershell
+$env:HF_HUB_ENABLE_HF_TRANSFER=1
+
+@rem 之后流程就是使用 huggingface_hub
+```
+
 ## 术语
 
 - 提示词（Prompt）
 - Token
-
 
 ## 常用库
 

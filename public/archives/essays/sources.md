@@ -12,6 +12,8 @@
 - [中国执行信息公开网](https://cjdh.court.gov.cn/performInformation.html)
 - [国家企业信用信息公示系统]()
 - [中国人民银行征信中心网]()
+- [国家智慧教育公共服务平台](https://www.smartedu.cn/)
+- [中国职业技术教育网](https://www.chinazy.org/)
 
 ### 数据站点
 
