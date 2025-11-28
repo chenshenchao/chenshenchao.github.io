@@ -82,7 +82,10 @@ uni.addInterceptor('navigateTo', {
 使用 HBuilderX 的项目不需要安装 pinia ，而使用命令行创建的要手动安装。
 [uniapp 使用 pinia 相关文档](https://uniapp.dcloud.net.cn/tutorial/vue3-pinia.html)
 
-pinia 与 vue3 的版本有对应的要求，uniapp 目前时 vue@3.4 对应 pinia@2.2.4 版本。
+uniapp 的项目管理依赖管理很糟糕，pinia 的安装会遇到不可复现的情况，有时候会出现下面几种情况：
+
+1. pinia 与 vue3 的版本有对应的要求，uniapp 目前时 vue@3.4 对应 pinia@2.2.4 版本。
+2. 必须 npm install pinia --legacy-peer-deps 安装，装 2.2.4 不行。这样会装最新的，可能有兼容问题，要自己看情况。
 
 uniapp Vue3 版本项目使用 pinia 的基本定式：
 
