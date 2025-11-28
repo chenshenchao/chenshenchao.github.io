@@ -18,7 +18,9 @@
 - [FastUI](https://github.com/pydantic/FastUI) web UI 库。非 HTML 模板，是 Python 代码生成 HTML。
 - [pydantic](https://github.com/pydantic/pydantic) 数据验证库。
 - [ruff](https://github.com/astral-sh/ruff) rust 开发用于格式化和 lint python 的库。
-- [pytesseract](https://github.com/madmaze/pytesseract) 封装 C++ 库 tesseract 的 OCR 库。
+- [pytesseract](https://github.com/madmaze/pytesseract) 封装 C++ 的  OCR 库 tesseract 命令行使用的，需要安装 tesseract 在 PATH 里。
+- [EasyOCR](https://github.com/JaidedAI/EasyOCR) OCR 库，配置要求低于 PaddleOCR 但是精度要差一些。
+- [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) OCR 库，精度好，多种场景，配置要求高。
 - [opencv-python](https://github.com/opencv/opencv-python) opencv 的 python 封装库。
 - [pyautogui](https://github.com/asweigart/pyautogui) 跨平台桌面系统自动化操作库，模拟鼠标键盘操作。
 

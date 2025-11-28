@@ -46,6 +46,23 @@ http {
 }
 ```
 
+### server
+
+```ini
+# server 下的 if 要比 location 更高优先级。
+# 此种情况下，只要不是静态文件，都会被 if 里的 rewrite 命中，其他 location 没有处理的机会。
+if (!-f $request_filename) {
+    rewrite  ^(.*)$  /index.php?s=/$1  last;
+}
+
+# 带 location 的 if 可以让其他高优先级的 location 处理没有静态文件的情况。
+location / {
+    if (!-f $request_filename) {
+        rewrite  ^(.*)$  /index.php?s=/$1  last;
+    }
+}
+```
+
 ### location
 
 ```ini
@@ -55,8 +72,8 @@ location = /respond_string {
     return 200 'hello';
 }
 
-# ^~ 前缀匹配，优先级【高】
-location ^~ /api/(.*)$ {}
+# ^~ 前缀匹配，优先级【高】，但是不能写正则式，只能是前缀字符串。
+location ^~ /api {}
 
 # ~ 正则匹配（区分大小写），优先级【中】
 location ~ ^/api/(.*)$ {
