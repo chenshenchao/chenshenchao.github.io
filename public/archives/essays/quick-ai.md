@@ -2,6 +2,13 @@
 
 人工智能目前发展迅速，目前最主要的就是 LLM 的 AI 占主导地位。大语言模型开发非常耗费资金，动则上百亿的投入，只有世界上少数几个大公司才能投入，这也是早期大部分开发者都难以参与到大模型 AI 开发的原因。随着 LLM 的推广，为了让更多的人参与进来并让 AI 变现，同时又保护投入早期开发的大公司的利益，在模型开发之后出现应用开发。开发者可以不用开发自己的大模型，把大模型作为一种云服务，开发者通过调用服务商的大模型来开发自己的应用。
 
+## 框架
+
+- [pytorch](https://github.com/pytorch/pytorch) 脸书的框架，目前主流。
+- [tensorflow](https://github.com/tensorflow/tensorflow) 谷歌的框架，早期主流。
+- [Paddle](https://github.com/PaddlePaddle/Paddle) 百度的框架，中文名“飞桨”。
+- [Paddle Lite](https://github.com/PaddlePaddle/Paddle-Lite.git) 百度飞桨（轻量版），只能用于推理，优化了推理。
+
 ## 资料源
 
 - [HuggingFace](https://huggingface.co/)  提供模型(Models)、数据集（Datasets）仓库和展示（Spaces）的站点。

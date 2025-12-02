@@ -9,23 +9,26 @@
 - [AutoJs6](https://github.com/SuperMonster003/AutoJs6) 基于 Auto.js 4.1.1 Alpha2 开发的项目
 - [AutoJs6-VSCode-Extension](https://github.com/SuperMonster003/AutoJs6-VSCode-Extension) AutoJs6 的 VsCode 插件。
 
-注：如只是做自动化，还是使用 appium 而不要用 autojs 社区环境、文档等差太多。如果要写 UI 界面打包成 APP 发布，那么 autoxjs 才能满足需求。
+注：
+
+1. 如只是做自动化，还是使用 appium 而不要用 autojs 社区环境、文档等差太多。如果要写 UI 界面打包成 APP 发布，那么 autoxjs 才能满足需求。
+2. 由于 autox 和 autojs6 工具不兼容，如果旧的 autojs4 项目推荐用 autox 兼容会好点，如果完全新项目，autojs6 开发工具和功能会更强一些。
 
 ## UI 界面
 
-- frame  框布局
-- vertical  竖布局
+- frame 框布局
+- vertical 竖布局
 - horizontal 横布局
 - button 按钮
 
 - id:
-- w：*、auto、100dp、100px、100mm、100in  没有 vw 或 rpx 这种自适应单位。
-- h: *、auto、100
+- w：\*、auto、100dp、100px、100mm、100in 没有 vw 或 rpx 这种自适应单位。
+- h: \*、auto、100
 - layout_weight
 - margin
 - padding
 - alpha
-- bg: 
+- bg:
 - text:
 
 ui.findView(id)
@@ -36,18 +39,19 @@ ui.findView(id)
 jquery 的选择器也是操作器，可以直接通过选择器操作元素。
 autojs 的选择器只能选中控件，必须调用 find 系列函数变成 UiObject 或 UiCollection 才能操作控件。
 
-所以这一套的设计更像是吸收了 jquery 后的 web 标准 querySelector* 这系列函数。
+所以这一套的设计更像是吸收了 jquery 后的 web 标准 querySelector\* 这系列函数。
 
 - UiSelector 选择器，用于选中，类似 jquery 可以链式选中函数。
 - UiObject 控件对象，用于操作，操作函数。
 - UiCollection 控件集合，用于操作，操作函数。
 
-使用模式，通过 UiSelector 调用 名字里带 *find* 的函数获取得到 UiObject 或 UiCollection 对象做操作。
+使用模式，通过 UiSelector 调用 名字里带 _find_ 的函数获取得到 UiObject 或 UiCollection 对象做操作。
 虽然 UiObject 和 UiCollection 对象不能转变成 UiSelector 对象，但是 find 和 findOne 这几个函数可以使用 UiSelector 来选择子控件。
 
 所以有两种模式：
-1. 通过 UiSelector 全局选中后，调用 *find* 系列函数变成 UiObject 或 UiCollection 后做操作。
-2. 已经有 UiObject 或 UiCollection 对象了，调用 *find* 系列函数可以选中子控件，可重复此过程选中深层子控件，然后操作。
+
+1. 通过 UiSelector 全局选中后，调用 _find_ 系列函数变成 UiObject 或 UiCollection 后做操作。
+2. 已经有 UiObject 或 UiCollection 对象了，调用 _find_ 系列函数可以选中子控件，可重复此过程选中深层子控件，然后操作。
 
 ### UiSelector 选中
 
@@ -80,7 +84,7 @@ console.log(className, uiObject.className()); // 同 id 一样，也有这个问
 #### 移动端开发
 
 - []() 下载并安装 apk 到控制的手机
-- 
+-
 
 #### PC 端开发
 
@@ -127,18 +131,26 @@ AutoX.js 可以写 UI 界面，并打包成 APP 发布。
 
 ```json
 {
-    "name": "AutoX 打包 Demo",
-    "main": "main.js",
-    "ignore": [
-        "build"
-    ],
-    "packageName": "com.autox.demo",
-    "versionName": "1.0.0",
-    "versionCode": 1
+  "name": "AutoX 打包 Demo",
+  "main": "main.js",
+  "ignore": ["build"],
+  "packageName": "com.autox.demo",
+  "versionName": "1.0.0",
+  "versionCode": 1
 }
 ```
 
 1. 编写好已有的项目，和安装好 VSCode 插件，见上开发流程。
 2. 1. Ctrl + Shift + P 搜索 “autoxjs 保存项目到设备”，把脚本发送到手机。（注：VSCode 插件 只能识别当前根目录的 project.json 文件）
-2. 2. 可以选中文件右键菜单传。
+3. 2. 可以选中文件右键菜单传。
 
+## 常见问题
+
+### autojs6 调试时会多开脚本。
+
+有时候调试运行脚本会发现日志都是双份的，这个时候是 autojs6 的 bug 导致同份脚本被执行两次，重启 VSCode 即可。
+
+### autojs6 调试时连不上。
+
+可能是由于 VSCODE 多开，只有一个会被 autojs6 使用，查看多个 VScode 实例看看连的哪个。
+由于 autojs6 的插件不像 autox 必然由开发者手动打开，所以可能一打开就在第一个 VScode 上启动了，所以大概率在第一个 VSCODE 上。

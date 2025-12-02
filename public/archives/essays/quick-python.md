@@ -24,6 +24,7 @@
 - [ddddocr](https://github.com/sml2h3/ddddocr) 针对验证码的 OCR 库。
 - [opencv-python](https://github.com/opencv/opencv-python) opencv 的 python 封装库。
 - [pyautogui](https://github.com/asweigart/pyautogui) 跨平台桌面系统自动化操作库，模拟鼠标键盘操作。
+- [pyttsx3](https://github.com/nateshmbhat/pyttsx3) TTS 库。
 
 ## 虚拟环境
 
