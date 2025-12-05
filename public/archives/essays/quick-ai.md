@@ -79,6 +79,7 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [ttt-video-dit](https://github.com/test-time-training/ttt-video-dit) 视频模型。
 - [star-vector](https://github.com/joanrod/star-vector) 像素图转SVG模型。
 - [AnimateDiff](https://github.com/guoyww/AnimateDiff) 动画模型。
+- [sam3](https://github.com/facebookresearch/sam3) 脸书开源视觉图像模型，比 YOLO 更精细识别物体轮廓。
 
 ## AI 应用开发
 

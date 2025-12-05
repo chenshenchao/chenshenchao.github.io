@@ -1,6 +1,15 @@
 # Android 速查
 
 - 无障碍服务（Accessibility Service），给残障用户开发辅助工具，可以做自动化。uiautomatorviewer.bat 可以对其进行操作。
+- 设置 FLAG_SECURE 的窗口禁止 MediaProjection 截屏等不安全行为，不同系统差异很大，Android 12 + 后，通过 adb 截屏会被系统自动模糊或者全黑。
+- Android 12 + 后，设置 HIDE_OVERLAY_WINDOWS 的窗口禁止其他应用在其界面上绘制，杜绝了悬浮球等。
+- ddmlib 是 adb、ddms（后拆分成 Logcat、设备管理等多个工具，原 ddms 废弃，而 ddmlib 仍维护。） 的底层实现库，连接 adb server 或 adbd，包名：com.android.tools.ddms:ddmlib
+
+## 常用库
+
+- [AndroidHiddenApiBypass](https://github.com/LSPosed/AndroidHiddenApiBypass) 安卓隐藏 API 调用库。
+- [LSPosed](https://github.com/LSPosed/LSPosed) Xposed 的延续。
+- [Xposed](https://github.com/rovo89/Xposed)
 
 ## 开发工具
 
@@ -27,9 +36,10 @@ keytool -list -v -keystore jcm3demo.jks
 
 ```
 
-### adb(Android Debuger) 安卓调试器
+### adb(Android Debug Bridge) 安卓调试桥
 
-在 SDK 的 platform-tools 目录下。
+[官方文档](https://developer.android.com/tools/adb)
+可执行文件 adb 在 SDK 的 platform-tools 目录下。
 
 ```bash
 # 查看文档
@@ -131,7 +141,9 @@ adb pair <ip>:<port>
 # 二维码连接，这个估计没有命令行，没查到。
 ```
 
-[python-adb](https://github.com/google/python-adb) 一个纯 python 实现的 adb 库，已经停止维护。
+- [libadb-android](https://github.com/MuntashirAkon/libadb-android) Java 实现的直连 adbd 做类似 adb server 功能的库。
+- [adbutils](https://github.com/openatx/adbutils) 一个纯 python 实现的 adb 客户端库，用于连接 adb server。
+- [python-adb](https://github.com/google/python-adb) 一个纯 python 实现的 adb 客户端库，用于连接 adb server，已经停止维护。
 
 ### aapt(Android Asset Packaging Tool) 安卓资源包工具
 
