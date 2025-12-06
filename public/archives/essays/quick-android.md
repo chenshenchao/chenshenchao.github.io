@@ -4,6 +4,7 @@
 - 设置 FLAG_SECURE 的窗口禁止 MediaProjection 截屏等不安全行为，不同系统差异很大，Android 12 + 后，通过 adb 截屏会被系统自动模糊或者全黑。
 - Android 12 + 后，设置 HIDE_OVERLAY_WINDOWS 的窗口禁止其他应用在其界面上绘制，杜绝了悬浮球等。
 - ddmlib 是 adb、ddms（后拆分成 Logcat、设备管理等多个工具，原 ddms 废弃，而 ddmlib 仍维护。） 的底层实现库，连接 adb server 或 adbd，包名：com.android.tools.ddms:ddmlib
+- adbd 端口号：5555；adb server 端口号：5037
 
 ## 常用库
 
