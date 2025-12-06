@@ -34,6 +34,10 @@ npm install --force
 
 # ci 也可以用这些参数。
 npm ci --legacy-peer-deps 
+
+# 审核 next 的依赖。
+# 如果用了国内镜像要改原仓库源，国内镜像是不完整的，没有这个功能。
+npm audit --registry=https://registry.npmjs.org/ -scope next
 ```
 
 项目目录下 .npmrc 可配置包管理。
