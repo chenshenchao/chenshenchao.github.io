@@ -67,7 +67,7 @@ GraalVM 除了作为性能向的 JVM 外，还支持把 JVM 语言（Java、Scal
 
 ### Native Image
 
-需要给脚本启用构建工具插件
+需要给脚本启用构建工具插件。
 
 ```groovy
 // 加入构造工具插件
@@ -82,6 +82,8 @@ plugins {
     id("org.graalvm.buildtools.native") version "0.10.3"
 }
 ```
+
+执行这几个任务时需要确保命令行环境的 GRAALVM_HOME 和 JAVA_HOME 环境变量指向 GraalVM 目录，并 PATH 里面是使用 GRAALVM 作为 java 的路径。
 
 ```bash
 # 加入工具后会比一般项目多出几个 native* 开头的任务。
