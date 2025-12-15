@@ -1,17 +1,5 @@
 # PHP 速查
 
-## 命令规范
-
-PHP 是有一套标准库的，所以最好的命名规范就是保持和 PHP 的标准库一致。
-很多 PHP 的代码看着脏乱差的一个原因就是命名规范混乱，加上很多 PHPer 直接复制别人的代码段不修改，就造成了很多公司的 PHP 代码被称作“屎山”。
-
-- 类名 PascalCase
-- 类成员方法名 camelCase
-- 类成员字段名 camelCase
-- 函数名 snake_case
-- 局部变量名 camelCase
-- 常量名 UPPER_CASE
-
 ## 常用命令
 
 ```bash
@@ -41,8 +29,20 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 
 - [laravel](https://github.com/laravel/laravel) PHP 界的 Spring ，功能齐全，就是有点重，服务器要求比其他 PHP 框架高，不然会卡。
 - [symfony](https://github.com/symfony/symfony) Web 框架，拆分出很多基础库，ThinkPHP 大量复用它的基础库。
+- [symfony/dotenv](https://github.com/symfony/dotenv) symfony 环境变量库。
 - [thinkphp](https://github.com/top-think/framework) Web 框架，很多基础库复用 symfony 的，国内大量专用框架由其扩展而来。
 
+## 命令规范
+
+PHP 是有一套标准库的，所以最好的命名规范就是保持和 PHP 的标准库一致。
+很多 PHP 的代码看着脏乱差的一个原因就是命名规范混乱，加上很多 PHPer 直接复制别人的代码段不修改，就造成了很多公司的 PHP 代码被称作“屎山”。
+
+- 类名 PascalCase
+- 类成员方法名 camelCase
+- 类成员字段名 camelCase
+- 函数名 snake_case
+- 局部变量名 camelCase
+- 常量名 UPPER_CASE
 
 ## FastCGI 与 “线上开发”、“线上调试”
 
