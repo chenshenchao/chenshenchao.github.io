@@ -297,6 +297,8 @@ fi
 - [iced](https://github.com/iced-rs/iced)
 - [egui]()
 - [freya](https://github.com/marc2332/freya) 依赖 dioxus 做的扩展。
+- [gpui](https://www.gpui.rs/) Zed 编辑器团队开发的框架，源码在[zed 仓库](https://github.com/zed-industries/zed)里。
+- [gpui-component](https://github.com/longbridge/gpui-component) 基于 GPUI 的控件库。
 
 ### web 开发框架和库
 
