@@ -79,6 +79,8 @@ qwen
 
 - [Pencil](https://github.com/evolus/pencil) 开源原型设计软件
 - [DrawIO](https://github.com/jgraph/drawio-desktop) 流程图、架构图、导图软件
+- [FreeCAD](https://github.com/FreeCAD/FreeCAD) 参数化 3D 建模软件。
+- [KiCAD](https://github.com/KiCad/kicad-source-mirror) 基于 FreeCAD 开发的 PCB 绘图软件。
 
 ## 编辑器
 
