@@ -18,6 +18,7 @@
 - [中国人民银行征信中心网]()
 - [国家智慧教育公共服务平台](https://www.smartedu.cn/)
 - [中国职业技术教育网](https://www.chinazy.org/)
+- [天地图](https://www.tianditu.gov.cn/) 国家地理信息公共服务平台，有提供API服务。
 
 ### 数据站点
 
