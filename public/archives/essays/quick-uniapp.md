@@ -1,7 +1,5 @@
 # UniApp 速查
 
-- [uView](https://github.com/umicro/uView2.0) UI 库。
-
 [命令行创建项目文档](https://uniapp.dcloud.net.cn/quickstart-cli.html) 默认 HBuilderX 只提供 JS 的模板，如果要使用 TS 就必须使用命令行创建项目。
 
 ```bat
@@ -14,6 +12,12 @@ npm i
 @rem 更新 uniapp 依赖为最新，不然刚创建的版本一般会和开发工具对不上。
 npx @dcloudio/uvm@latest
 ```
+
+## 常用库
+
+- [UniUI](https://github.com/dcloudio/uni-ui) 官方 UI 库。
+- [uView](https://github.com/umicro/uView2.0) UI 库，没有 TS 类型声明。
+- [NutUI Uniapp](https://github.com/nutui-uniapp/nutui-uniapp) 京东风格组件库。
 
 ## 常见问题
 
