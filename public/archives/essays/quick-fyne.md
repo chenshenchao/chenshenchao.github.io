@@ -5,7 +5,7 @@
 go install fyne.io/tools/cmd/fyne@latest
 
 # 创建项目
-fyne init --app-id my.domain.appname
+fyne init --name appname --app-id my.domain.appname
 
 # 创建一般的 go 项目后，安装 fyne 库，再拉取依赖
 go mod init <your_go_package>
@@ -24,6 +24,7 @@ set ANDROID_NDK_HOME=%ANDROID_HOME%/ndk/27.0.12077973
 
 # 打包
 fyne package --os android --app-id my.domain.appname
+fyne package --os android --release
 
 # 安装
 fyne install --os android --app-id my.domain.appname
