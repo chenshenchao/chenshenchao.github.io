@@ -2,6 +2,11 @@
 
 - 3.8.10 最后一个支持 Windows 7 的版本。
 
+```bash
+# 当前目录启动一个静态HTTP服务器，8000端口。
+python -m http.server 8000
+```
+
 ## 常用库
 
 - [deeplake](https://github.com/activeloopai/deeplake) v4 版本是个向量数据库；v3 版本时是个张量数据集存储库，用来存储训练数据。

@@ -32,6 +32,8 @@ go build .
 - [bbolt](https://github.com/etcd-io/bbolt) 键值对数据库。
 - [urfave/cli](https://github.com/urfave/cli) 命令行参数分析库。
 - [pgx](https://github.com/jackc/pgx) PostgreSQL 客户端库。
+- [migrate](https://github.com/golang-migrate/migrate) 数据库迁移命令行工具与库。
+- [gorm](https://github.com/go-gorm/gorm) 国人开发的 ORM ，动态类型，功能比较全。
 
 ### UI 库
 
