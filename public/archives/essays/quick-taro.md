@@ -6,6 +6,7 @@
 ## 常用库
 
 - [tarojs-plugin-ssr](https://github.com/NervJS/tarojs-plugin-ssr) 让 Taro H5 支持 SSR 扩展。
+- [taro React Native 开发文档](https://docs.taro.zone/docs/react-native)
 
 ## 常用命令
 
@@ -19,6 +20,13 @@ taro info
 
 # 诊断
 taro doctor
+
+# 创建项目 myApp
+taro init myApp
+
+# 构建项目
+# --type 可以指定类型 weapp jd tt qq
+taro build --type jd
 
 ## 微信小程序
 npm run dev:weapp
@@ -37,7 +45,37 @@ npm run dev:tt
 npm run build:tt
 
 # H5
-$ npm run dev:h5
-$ npm run build:h5
+npm run dev:h5
+npm run build:h5
+
+# React Native
+npm run build:rn --platform ios
+npm run build:rn --platform android
+
+# 在生成的项目里面打包
+./gradlew assembleRelease
 ```
 
+### 企业微信小程序
+
+```bash
+# 企业微信小程序需要多一个插件
+npm i @tarojs/plugin-platform-weapp-qy
+
+# 钉钉小程序
+npm i @tarojs/plugin-platform-alipay-dd
+
+# 支付宝 IOT 小程序
+npm i @tarojs/plugin-platform-alipay-iot
+```
+
+```js
+config = {
+  // ...
+  plugins: [
+    "@tarojs/plugin-platform-weapp-qy",
+    "@tarojs/plugin-platform-alipay-dd",
+    "@tarojs/plugin-platform-alipay-iot",
+  ],
+};
+```

@@ -34,6 +34,7 @@ go build .
 - [pgx](https://github.com/jackc/pgx) PostgreSQL 客户端库。
 - [migrate](https://github.com/golang-migrate/migrate) 数据库迁移命令行工具与库。
 - [gorm](https://github.com/go-gorm/gorm) 国人开发的 ORM ，动态类型，功能比较全。
+- [sqlx](https://github.com/jmoiron/sqlx) 扩展标准库 database/sql 的三方库。
 
 ### UI 库
 
