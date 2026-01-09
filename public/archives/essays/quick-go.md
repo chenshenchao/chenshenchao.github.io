@@ -28,8 +28,10 @@ go build .
 ```
 
 ## 常用库
+
 - [pie](https://github.com/elliotchance/pie) 切片(slice) 和 字典(map) 功能扩展库。
 - [bbolt](https://github.com/etcd-io/bbolt) 键值对数据库。
+- [kektordb](https://github.com/sanonone/kektordb) 可内嵌到项目的向量数据库。
 - [urfave/cli](https://github.com/urfave/cli) 命令行参数分析库。
 - [pgx](https://github.com/jackc/pgx) PostgreSQL 客户端库。
 - [migrate](https://github.com/golang-migrate/migrate) 数据库迁移命令行工具与库。

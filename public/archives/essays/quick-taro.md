@@ -7,6 +7,7 @@
 
 - [tarojs-plugin-ssr](https://github.com/NervJS/tarojs-plugin-ssr) 让 Taro H5 支持 SSR 扩展。
 - [taro React Native 开发文档](https://docs.taro.zone/docs/react-native)
+- [taro-native-shell](https://github.com/NervJS/taro-native-shell) 基于 expo 的壳。
 
 ## 常用命令
 

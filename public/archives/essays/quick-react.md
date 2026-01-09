@@ -43,6 +43,93 @@ npx create-gatsby
 npx create-expo-app
 ```
 
+## 常用库与项目
+
+- [ice.js](https://github.com/alibaba/ice) 阿里 飞冰 框架，支持生成 H5 和 阿里小程序、微信小程序。
+- [radix-ui primitives](https://github.com/radix-ui/primitives) 无样式 UI 组件库，大部分桌面组件，有少部分移动端组件。
+- [radix-ui themes](https://github.com/radix-ui/themes) 有样式的 radix-ui 组件库，大部分桌面组件，有少部分移动端组件。
+- [radix-ui icons](https://github.com/radix-ui/icons) radix-ui 图标库。
+- [shadcn-ui](https://github.com/shadcn-ui/ui) 基于 radix-ui 做的 UI 组件库和开发工具，风格简约，方便定制，适合做官网。
+- [tamagui](https://github.com/tamagui/tamagui) 像素风格 UI 组件库。
+- [chakra-ui](https://github.com/chakra-ui/chakra-ui) UI 组件库。
+- [NativeBase](https://github.com/GeekyAnts/NativeBase) 黑白复古风格 UI 组件库。
+- [React Spectrum](https://github.com/adobe/react-spectrum) Adobe，UI 组件库。
+- [primereact](https://github.com/primefaces/primereact) UI 组件库。
+- [evergreen](https://github.com/segmentio/evergreen) UI 组件库。
+- [tdesign-react](https://github.com/Tencent/tdesign-react) 腾讯桌面 UI 库,Table 等组件问题多，不推荐。
+- [tdesign-mobile-react](https://github.com/Tencent/tdesign-mobile-react) 腾讯移动 UI 库。
+- [react-vant](https://github.com/3lang3/react-vant) 移动端 UI 组件库。(vue 的 vant 的第三方开发的 react 版)
+- [nutui-react](https://github.com/jdf2e/nutui-react) 移动端 UI 组件库。(京东 vue 的 nutui 的京东零售开发的 react 版)
+- [ant-design-mobile](https://github.com/ant-design/ant-design-mobile) 阿里，移动端 UI 组件库。
+- [UI Kitten](https://github.com/akveo/react-native-ui-kitten) React native 的 UI 组件库。
+- [react-slick](https://github.com/akiran/react-slick) 轮播
+- [react-virtualized](https://github.com/bvaughn/react-virtualized) 虚拟滚动
+- [react-router](https://github.com/remix-run/react-router) v7 及以后 路由库，TS 写的，无需 @types 库。
+- [react-router-dom](https://github.com/remix-run/react-router) （旧 v6 以及之前的路由库，TS 的话需要 @types/react-router-dom）。
+- [loadable-components](https://github.com/gregberge/loadable-components) React 有自带的 lazy 函数，这个组件是在 React 没提供时期做的，后来 React 自带了，但是这个库的功能更多。
+- [ahook](https://github.com/alibaba/hooks) 扩展钩子(Hook)库。
+- [react-use](https://github.com/streamich/react-use) 扩展钩子(Hook)库。
+- [redux](https://github.com/reduxjs/redux) 状态管理，厚重稳定。类似 vue 的 vuex 或 pinia 。
+- [redux-persist](https://github.com/rt2zz/redux-persist) redux 持久化扩展，多年不更新，对新 redux 有点小问题。
+- [zustand](https://github.com/pmndrs/zustand) 状态管理，轻量化。
+- [jotai](https://github.com/pmndrs/jotai) 状态管理，原子粒度。
+- [tanstack](https://tanstack.com) 包括原[react-query](https://github.com/tanstack/query)扩展到支持多框架多功能的开发库集合。
+- [styled-components](https://github.com/styled-components/styled-components) 样式定义组件的库。
+- [react-i18next](https://github.com/i18next/react-i18next) 为 React 开发的 i18n 扩展库。
+- [Ant Design](https://github.com/ant-design/ant-design) 阿里，桌面 UI 组件库，组件多，很多问题没解决，使用方法旧，不推荐。
+- [Ant Design Pro](https://github.com/ant-design/ant-design-pro) 基于 Ant Design 后台项目，可用于二开，不推荐。
+- [excalidraw](https://github.com/excalidraw/excalidraw) 流程图、思维导图等图库和软件。
+
+### react-router
+
+浏览器端路由库。
+
+```jsx
+import {
+  useLocation,
+  useNavigate,
+  useParams,
+  useSearchParams,
+} from "react-router";
+
+export default function Demo() {
+  let location = useLocation(); // 路由信息。
+  let navigate = useNavigate(); // 导航方法 navigate('/')
+  let params = useParams(); // path 参数信息。
+  let query = useSearchParams(); // query_string
+  return <div></div>;
+}
+```
+
+```jsx
+import { useNavigate, Outlet } from "react-router";
+
+// Outlet 用来占位，当一个组件有 children 时，切换路由就会改变 Outlet 对应的子组件。
+export default function Demo() {
+  // useNavigate 用来获取用于触发跳转的函数 navigate
+  let navigate = useNavigate();
+  return (
+    <>
+      <button
+        onClick={() => {
+          navigate(-1);
+        }}
+      />
+      <Outlet />
+    </>
+  );
+}
+```
+
+### shadcn
+
+```bash
+# 初始化，可以在已有项目里面做增量，也可以创建新的项目。
+npx shadcn@latest init
+# 添加组件，每种组件都要通过此命令引入。
+npx shadcn@latest add accordion
+```
+
 ## 常用组件
 
 - [StrictMode 严格模式](#1)
@@ -228,92 +315,6 @@ function YourComponent() {
 ### useId
 
 解决 SSR 场景下服务端和客户端 ID 不一致问题。
-
-## 常用库与项目
-
-- [radix-ui primitives](https://github.com/radix-ui/primitives) 无样式 UI 组件库，大部分桌面组件，有少部分移动端组件。
-- [radix-ui themes](https://github.com/radix-ui/themes) 有样式的 radix-ui 组件库，大部分桌面组件，有少部分移动端组件。
-- [radix-ui icons](https://github.com/radix-ui/icons) radix-ui 图标库。
-- [shadcn-ui](https://github.com/shadcn-ui/ui) 基于 radix-ui 做的 UI 组件库和开发工具，风格简约，方便定制，适合做官网。
-- [tamagui](https://github.com/tamagui/tamagui) 像素风格 UI 组件库。
-- [chakra-ui](https://github.com/chakra-ui/chakra-ui) UI 组件库。
-- [NativeBase](https://github.com/GeekyAnts/NativeBase) 黑白复古风格 UI 组件库。
-- [React Spectrum](https://github.com/adobe/react-spectrum) Adobe，UI 组件库。
-- [primereact](https://github.com/primefaces/primereact) UI 组件库。
-- [evergreen](https://github.com/segmentio/evergreen) UI 组件库。
-- [tdesign-react](https://github.com/Tencent/tdesign-react) 腾讯桌面 UI 库,Table 等组件问题多，不推荐。
-- [tdesign-mobile-react](https://github.com/Tencent/tdesign-mobile-react) 腾讯移动 UI 库。
-- [react-vant](https://github.com/3lang3/react-vant) 移动端 UI 组件库。(vue 的 vant 的第三方开发的 react 版)
-- [nutui-react](https://github.com/jdf2e/nutui-react) 移动端 UI 组件库。(京东 vue 的 nutui 的京东零售开发的 react 版)
-- [ant-design-mobile](https://github.com/ant-design/ant-design-mobile) 阿里，移动端 UI 组件库。
-- [UI Kitten](https://github.com/akveo/react-native-ui-kitten) React native 的 UI 组件库。
-- [react-slick](https://github.com/akiran/react-slick) 轮播
-- [react-virtualized](https://github.com/bvaughn/react-virtualized) 虚拟滚动
-- [react-router](https://github.com/remix-run/react-router) v7 及以后 路由库，TS 写的，无需 @types 库。
-- [react-router-dom](https://github.com/remix-run/react-router) （旧 v6 以及之前的路由库，TS 的话需要 @types/react-router-dom）。
-- [loadable-components](https://github.com/gregberge/loadable-components) React 有自带的 lazy 函数，这个组件是在 React 没提供时期做的，后来 React 自带了，但是这个库的功能更多。
-- [ahook](https://github.com/alibaba/hooks) 扩展钩子(Hook)库。
-- [react-use](https://github.com/streamich/react-use) 扩展钩子(Hook)库。
-- [redux](https://github.com/reduxjs/redux) 状态管理，厚重稳定。类似 vue 的 vuex 或 pinia 。
-- [redux-persist](https://github.com/rt2zz/redux-persist) redux 持久化扩展，多年不更新，对新 redux 有点小问题。
-- [zustand](https://github.com/pmndrs/zustand) 状态管理，轻量化。
-- [jotai](https://github.com/pmndrs/jotai) 状态管理，原子粒度。
-- [tanstack](https://tanstack.com) 包括原[react-query](https://github.com/tanstack/query)扩展到支持多框架多功能的开发库集合。
-- [styled-components](https://github.com/styled-components/styled-components) 样式定义组件的库。
-- [react-i18next](https://github.com/i18next/react-i18next) 为 React 开发的 i18n 扩展库。
-- [Ant Design](https://github.com/ant-design/ant-design) 阿里，桌面 UI 组件库，组件多，很多问题没解决，使用方法旧，不推荐。
-- [Ant Design Pro](https://github.com/ant-design/ant-design-pro) 基于 Ant Design 后台项目，可用于二开，不推荐。
-- [excalidraw](https://github.com/excalidraw/excalidraw) 流程图、思维导图等图库和软件。
-
-### react-router
-
-浏览器端路由库。
-
-```jsx
-import {
-  useLocation,
-  useNavigate,
-  useParams,
-  useSearchParams,
-} from "react-router";
-
-export default function Demo() {
-  let location = useLocation(); // 路由信息。
-  let navigate = useNavigate(); // 导航方法 navigate('/')
-  let params = useParams(); // path 参数信息。
-  let query = useSearchParams(); // query_string
-  return <div></div>;
-}
-```
-
-```jsx
-import { useNavigate, Outlet } from "react-router";
-
-// Outlet 用来占位，当一个组件有 children 时，切换路由就会改变 Outlet 对应的子组件。
-export default function Demo() {
-  // useNavigate 用来获取用于触发跳转的函数 navigate
-  let navigate = useNavigate();
-  return (
-    <>
-      <button
-        onClick={() => {
-          navigate(-1);
-        }}
-      />
-      <Outlet />
-    </>
-  );
-}
-```
-
-### shadcn
-
-```bash
-# 初始化，可以在已有项目里面做增量，也可以创建新的项目。
-npx shadcn@latest init
-# 添加组件，每种组件都要通过此命令引入。
-npx shadcn@latest add accordion
-```
 
 ## React Native 原生 APP
 
