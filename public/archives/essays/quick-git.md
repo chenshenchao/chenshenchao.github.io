@@ -424,11 +424,13 @@ git push <remote> <local_name>:<remote_name>
 会直接把目标仓库的历史合并进当前项目。
 
 ```bash
-# 添加子树 --prefix 使用相对项目目录的路径，用来作为子树并入的目录
-git subtree add --prefix=local_subtree_dir git@github.com:your/sub_project.git
+# 添加子树 --prefix 使用相对项目目录的路径必填，用来作为子树并入的目录，main 是分支必填
+git subtree add --prefix=local_subtree_dir git@github.com:your/sub_project.git main
 
-# 指定 仓库和分支合并 --prefix 是必填的 main 指定了分支
-git subtree add --prefix=twodir git@github.com:your/project.git main
+# 更新子树
+git subtree pull --prefix=local_subtree_dir git@github.com:your/sub_project.git main
+# --squash 会压缩成历史提交成一个提交，所以不能保留原历史。
+git subtree pull --prefix=local_subtree_dir git@github.com:your/sub_project.git main --squash
 ```
 
 ## 子模块（submodule）
