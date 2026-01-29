@@ -281,6 +281,7 @@ fi
 - [lazy_static](https://github.com/rust-lang-nursery/lazy-static.rs) 懒加载，因为标准库已经有 LazyLock 所以基本不用了。
 - [tch](https://github.com/LaurentMazare/tch-rs) 封装 pytorch 的 c++ 版本绑定 rust
 - [burn](https://github.com/tracel-ai/burn) 纯 rust 的深度学习框架。
+- [candle](https://github.com/huggingface/candle) huggingface 开发的机器学习框架。
 - [ndarray](https://github.com/rust-ndarray/ndarray) 类似 python 的 numpy
 - [ort](https://github.com/pykeio/ort) ONNX 格式 rust 库。
 - [image](https://github.com/image-rs/image) 图片处理库。
@@ -291,6 +292,9 @@ fi
 - [bardecoder](https://github.com/piderman314/bardecoder) 二维码识别库。
 - [datafusion](https://github.com/apache/datafusion) 用 SQL 处理 CSV、JSON、Parquet、Avro、Arrow 等文件的库，可自定义文件格式做扩展。
 - [calamine](https://github.com/tafia/calamine) 纯 Rust 实现 Excel/OpenDocument 库。
+- [windows-service-rs](https://github.com/mullvad/windows-service-rs) Windows 服务开发库。
+- [fast-socks5](https://github.com/dizda/fast-socks5) socks 协议实现库。
+- [rlt](https://github.com/wfxr/rlt) 多种协议的压力测试工具开发库。
 
 ### UI 库
 
@@ -317,6 +321,8 @@ fi
 - [rusqlite](https://github.com/rusqlite/rusqlite) 打包 SQLite 给 rust 使用。
 - [rust-postgres](https://github.com/sfackler/rust-postgres) 多个 postgres 库集合（postgres、tokio-postgres 等）
 - [PoloDB](https://github.com/PoloDB/PoloDB) 文档数据库。
+- [native_db](https://github.com/vincent-herlemont/native_db) 可嵌入的关系型数据库，不支持 SQL 语言，只能靠 API 操作。
+- [redb](https://github.com/cberner/redb) 可嵌入的键值对数据库。
 
 ## 兼容
 

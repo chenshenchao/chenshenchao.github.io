@@ -19,6 +19,7 @@ Composition API 是新的组合式编程的方式来组织代码。vue3 开始�
 - [PPTist](https://github.com/pipipi-pikachu/PPTist) vue 的 PPT 库。
 - [nutui](https://github.com/jd-opensource/nutui) 京东移动端组件库。
 - [vxe-table](https://github.com/x-extends/vxe-table) 虚表格库，功能很多，有免费和付费版本。
+- [pictode](https://github.com/JessYan0913/pictode) 一个简易的绘图库。
 
 ## 用法
 

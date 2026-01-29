@@ -1,10 +1,30 @@
 # [草稿]C++ 速查
 
-## 包管理
+## 常用库
+
+- [faiss](https://github.com/facebookresearch/faiss) 扁平索引实现库。
+- [hnswlib](https://github.com/nmslib/hnswlib) HNSW 实现库，支持 C++ 和 Python 语言。
+- [nmslib](https://github.com/nmslib/nmslib) 向量数据库，有标量功能。支持 C++ 、Java 和 Python。
+- [rocksdb](https://github.com/facebook/rocksdb) 键值对存储库。
+- [speedb](https://github.com/speedb-io/speedb) 类 rocksdb 键值对存储库。
+- [simdb](https://github.com/LiveAsynchronousVisualizedArchitecture/simdb) 键值对存储库。
+- [lmdb](https://github.com/LMDB/lmdb) 键值对存储库。
+- [NuRaft](https://github.com/eBay/NuRaft) 分布式协议 Raft 的实现库。
+- [Poco](https://github.com/pocoproject/poco) 多功能库集合。
+- [tesseract](https://github.com/tesseract-ocr/tesseract) OCR 库。
+- [quill](https://github.com/odygrd/quill) 异步日志库。
+
+## 包管理与构造工具
+
+### [cmake](./quick-cmake.md)
+
+目前使用最广的 c/c++ 构造工具集（Qt 也开始由原来的 qmake 改用 cmake 了）。
 
 ### vcpkg
 
-需要配置代理：
+基于 cmake 的扩展工具集，有预编译的二进制文件，在 visual studio 配合使用很方便。
+
+直接 git clone 仓库后，由于墙，需要配置代理：
 
 ```bat
 @rem 设置代理
@@ -32,16 +52,6 @@ vcpkg install openssl
 @rem 指定 架构、系统和静态
 vcpkg install openssl:x64-windows-static
 ```
-
-## 常用库
-
-- [faiss](https://github.com/facebookresearch/faiss) 扁平索引实现库。
-- [hnswlib](https://github.com/nmslib/hnswlib) HNSW 实现库，支持 C++ 和 Python 语言。
-- [nmslib](https://github.com/nmslib/nmslib) 向量数据库，有标量功能。支持 C++ 、Java 和 Python。
-- [rocksdb](https://github.com/facebook/rocksdb) 键值对存储库。
-- [NuRaft](https://github.com/eBay/NuRaft) 分布式协议 Raft 的实现库。
-- [Poco](https://github.com/pocoproject/poco) 多功能库集合。
-- [tesseract](https://github.com/tesseract-ocr/tesseract) OCR 库。
 
 ## wxWidgets
 

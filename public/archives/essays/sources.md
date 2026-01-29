@@ -78,8 +78,9 @@ qwen
 
 ### 架构设计工具
 
-- [Pencil](https://github.com/evolus/pencil) 开源原型设计软件
-- [DrawIO](https://github.com/jgraph/drawio-desktop) 流程图、架构图、导图软件
+- [Pencil](https://github.com/evolus/pencil) 开源原型设计软件。
+- [DrawIO](https://github.com/jgraph/drawio-desktop) 流程图、架构图、导图软件。
+- [DrawDB](https://github.com/drawdb-io/drawdb) 数据库设计图形工具。
 - [FreeCAD](https://github.com/FreeCAD/FreeCAD) 参数化 3D 建模软件。
 - [KiCAD](https://github.com/KiCad/kicad-source-mirror) 基于 FreeCAD 开发的 PCB 绘图软件。
 
@@ -106,7 +107,12 @@ qwen
 
 - [milvus](https://milvus.io) 向量数据库(GO 语言)，官方给出了很多应用示例（RAG、图搜等）快速开发应用。
 - [weaviate](https://github.com/weaviate/weaviate) 向量数据库(GO 语言)
+- [zincsearch](https://github.com/zincsearch/zincsearch) 类 ElasticSearch 全文索引数据库（GO 语言）。
+- [qdrant](https://github.com/qdrant/qdrant) 向量数据库（rust 语言），开放给多种语言使用，主要支持 python 的封装。
+- [lancedb](https://github.com/lancedb/lancedb) 支持向量和全文索引数据库（rust 语言），主要支持 python 的封装。
+- [vectordb](https://github.com/epsilla-cloud/vectordb) 向量数据库（C++ 语言），主要支持 python 的封装。
 - [rustfs](https://github.com/rustfs/rustfs) rust 实现的高性能分布式对象存储。
+- [seaweedfs](https://github.com/seaweedfs/seaweedfs) GO 实现的高性能分布式对象存储。
 - [etcd](https://github.com/etcd-io/etcd) Go 开发的配置管理服务器。
 - [Consul](https://github.com/hashicorp/consul) Go 开发的配置管理服务器。
 - [kubebrain](https://github.com/kubewharf/kubebrain) 为 k8s 用 Go 开发的配置管理服务器，兼容 etcd 的 API 协议。

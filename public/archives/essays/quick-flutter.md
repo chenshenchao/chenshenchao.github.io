@@ -62,6 +62,7 @@ flutter logs --clear
 - [bluetooth_classic](https://github.com/matfire/bluetooth_classic) 经典蓝牙库。
 - [print_bluetooth_thermal](https://github.com/andresperezmelo/print_bluetooth_thermal) 蓝牙打印库。
 - [flutter_esc_pos_utils](https://github.com/mjafartp/flutter_esc_pos_utils) ESC/POS 打印协议封装。
+- [tdesign](https://github.com/Tencent/tdesign-flutter) tdesign 的 flutter 版本，目前 alpha 阶段。
 
 ## 常见问题
 
