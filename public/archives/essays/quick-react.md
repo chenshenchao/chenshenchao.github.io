@@ -124,10 +124,14 @@ export default function Demo() {
 ### shadcn
 
 ```bash
+# 查看命令
+npx shadcn@latest --help
 # 初始化，可以在已有项目里面做增量，也可以创建新的项目。
 npx shadcn@latest init
 # 添加组件，每种组件都要通过此命令引入。
 npx shadcn@latest add accordion
+# 查看哪些依赖需要更新。
+npx shadcn@latest diff
 ```
 
 ## 常用组件

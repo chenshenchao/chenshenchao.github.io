@@ -4,6 +4,10 @@
 
 - 官方源（KiCad official repository）https://repository.kicad.org/repository.json
 
+### 第三方扩展
+
+- [Parasitics](https://github.com/Steffen-W/KiCad-Parasitics) 同网络点到点寄生电阻分析。
+
 ## 原理图
 
 

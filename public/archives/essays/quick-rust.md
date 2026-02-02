@@ -167,6 +167,9 @@ cargo build --release --target=x86_64-unknown-linux-musl
 ```
 
 ```bash
+# 升级指定库（可以是间接依赖库）到最新版本。 
+cargo update -p aws_lc_rs
+
 # 回退库 cargo_metadata 到指定版本
 cargo update -p cargo_metadata --precise 0.19.0
 ```
