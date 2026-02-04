@@ -321,11 +321,12 @@ fi
 - [diesel](https://github.com/diesel-rs/diesel) 多种数据库 ORM，使用了 C 库安装会麻烦点，性能会好点，迁移、DbFirst、CodeFirst 配合比较合理。
 - [kosame](https://github.com/pikaju/kosame) 类 Prisma 的 ORM。
 - [r2d2](https://github.com/sfackler/r2d2) 数据库链接池库。
+- [turso](https://github.com/tursodatabase/turso) 可内嵌的 rust 实现的 sqlite 还扩展了一些功能。
 - [rusqlite](https://github.com/rusqlite/rusqlite) 打包 SQLite 给 rust 使用。
 - [rust-postgres](https://github.com/sfackler/rust-postgres) 多个 postgres 库集合（postgres、tokio-postgres 等）
 - [PoloDB](https://github.com/PoloDB/PoloDB) 文档数据库。
-- [native_db](https://github.com/vincent-herlemont/native_db) 可嵌入的关系型数据库，不支持 SQL 语言，只能靠 API 操作。
-- [redb](https://github.com/cberner/redb) 可嵌入的键值对数据库。
+- [native_db](https://github.com/vincent-herlemont/native_db) 可内嵌的关系型数据库，不支持 SQL 语言，只能靠 API 操作。
+- [redb](https://github.com/cberner/redb) 可内嵌的键值对数据库。
 
 ## 兼容
 

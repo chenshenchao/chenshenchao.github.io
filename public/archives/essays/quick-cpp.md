@@ -9,10 +9,13 @@
 - [speedb](https://github.com/speedb-io/speedb) 类 rocksdb 键值对存储库。
 - [simdb](https://github.com/LiveAsynchronousVisualizedArchitecture/simdb) 键值对存储库。
 - [lmdb](https://github.com/LMDB/lmdb) 键值对存储库。
+- [libdb](https://github.com/berkeleydb/libdb) 原 berkeleydb，可内嵌的键值对数据库库。
 - [NuRaft](https://github.com/eBay/NuRaft) 分布式协议 Raft 的实现库。
 - [Poco](https://github.com/pocoproject/poco) 多功能库集合。
 - [tesseract](https://github.com/tesseract-ocr/tesseract) OCR 库。
 - [quill](https://github.com/odygrd/quill) 异步日志库。
+- [libhv](https://github.com/ithewei/libhv) 多种网络协议库。
+- [librg](https://github.com/zpl-c/librg) 多玩家游戏开发库。
 
 ## 包管理与构造工具
 
