@@ -1,6 +1,9 @@
 # Lazarus 速查
 
-[官网](https://www.lazarus-ide.org/)
+- [官网](https://www.lazarus-ide.org/)
+- [GitHub 源码](https://github.com/fpc/Lazarus)
+
+Lazarus 是基于 Free Pascal 的一个 IDE。
 
 - *.lpg Lazarus 项目组文件（XML 源码文件）
 - *.lpi Lazarus 项目文件（XML 源码文件）
@@ -82,8 +85,6 @@ Full Cgi/FastCGI Server 项是有个导航页，用来引导生成项目。
 
 这框架文档只到了开启服务器，没看到其他文档，基本上要靠自己扩展开发了吧，太裸了。
 
-### [CEF4Delphi](https://github.com/salvadordf/CEF4Delphi)
-
 ### [WebView4Delphi](https://github.com/salvadordf/WebView4Delphi)
 
 - 需要确保运行目录下有 WebView2Loader.dll （这个官方源码里面有bin32和bin64两个版本）
@@ -96,6 +97,8 @@ Full Cgi/FastCGI Server 项是有个导航页，用来引导生成项目。
 这个需要自行下载 WebView2 的发行版本，然后放到指定目录下。
 
 ## [pas2js](https://wiki.freepascal.org/pas2js)
+
+把 Pascal 翻译成 JS 的工具。
 
 - [下载](https://getpas2js.freepascal.org/)解压，不要把 bin 目录添加到 PATH 里面。
 - 确保有装 Pas2Js 软件包，然后打开 “工具” 》 “选项” 》 “Pas2Js" 配置，把 pas2js.exe 的路径设置成刚下载的 bin/pas2js.exe。

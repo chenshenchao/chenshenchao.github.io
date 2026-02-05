@@ -2,20 +2,26 @@
 
 ## 常用库
 
+- [opencv](https://github.com/opencv/opencv)
 - [faiss](https://github.com/facebookresearch/faiss) 扁平索引实现库。
 - [hnswlib](https://github.com/nmslib/hnswlib) HNSW 实现库，支持 C++ 和 Python 语言。
 - [nmslib](https://github.com/nmslib/nmslib) 向量数据库，有标量功能。支持 C++ 、Java 和 Python。
+- [leveldb](https://github.com/google/leveldb) 键值对存储库。
 - [rocksdb](https://github.com/facebook/rocksdb) 键值对存储库。
 - [speedb](https://github.com/speedb-io/speedb) 类 rocksdb 键值对存储库。
 - [simdb](https://github.com/LiveAsynchronousVisualizedArchitecture/simdb) 键值对存储库。
 - [lmdb](https://github.com/LMDB/lmdb) 键值对存储库。
 - [libdb](https://github.com/berkeleydb/libdb) 原 berkeleydb，可内嵌的键值对数据库库。
+- [asmjit](https://github.com/asmjit/asmjit) JIT 库。
 - [NuRaft](https://github.com/eBay/NuRaft) 分布式协议 Raft 的实现库。
 - [Poco](https://github.com/pocoproject/poco) 多功能库集合。
 - [tesseract](https://github.com/tesseract-ocr/tesseract) OCR 库。
 - [quill](https://github.com/odygrd/quill) 异步日志库。
 - [libhv](https://github.com/ithewei/libhv) 多种网络协议库。
 - [librg](https://github.com/zpl-c/librg) 多玩家游戏开发库。
+- [Detours](https://github.com/microsoft/Detours) Windows 下监听、拦截 API 调用的库。
+- [elements](https://github.com/cycfi/elements) 声明式的 UI 库，事件的设计上有缺失。
+- [binlog](https://github.com/morganstanley/binlog) mysql binlog 解析库。
 
 ## 包管理与构造工具
 

@@ -62,8 +62,8 @@ npx create-expo-app
 - [nutui-react](https://github.com/jdf2e/nutui-react) 移动端 UI 组件库。(京东 vue 的 nutui 的京东零售开发的 react 版)
 - [ant-design-mobile](https://github.com/ant-design/ant-design-mobile) 阿里，移动端 UI 组件库。
 - [UI Kitten](https://github.com/akveo/react-native-ui-kitten) React native 的 UI 组件库。
-- [react-slick](https://github.com/akiran/react-slick) 轮播
-- [react-virtualized](https://github.com/bvaughn/react-virtualized) 虚拟滚动
+- [react-slick](https://github.com/akiran/react-slick) 轮播库。
+- [react-virtualized](https://github.com/bvaughn/react-virtualized) 虚拟滚动库。
 - [react-router](https://github.com/remix-run/react-router) v7 及以后 路由库，TS 写的，无需 @types 库。
 - [react-router-dom](https://github.com/remix-run/react-router) （旧 v6 以及之前的路由库，TS 的话需要 @types/react-router-dom）。
 - [loadable-components](https://github.com/gregberge/loadable-components) React 有自带的 lazy 函数，这个组件是在 React 没提供时期做的，后来 React 自带了，但是这个库的功能更多。

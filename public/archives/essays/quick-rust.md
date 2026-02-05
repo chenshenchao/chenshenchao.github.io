@@ -276,6 +276,7 @@ fi
 - [prost](https://github.com/tokio-rs/prost) tokio 团队的 protobuf 实现,actix 的 protobuf 扩展此库(0.13)。
 - [rust-protobuf](https://github.com/stepancheg/rust-protobuf) protobuf 第三方实现。
 - [tonic](https://github.com/hyperium/tonic) grpc 第三方实现。
+- [reqwest](https://github.com/seanmonstar/reqwest) HTTP 客户端。
 - [RustCrypto](https://github.com/RustCrypto) 加密库集合。
 - [curve25519-dalek](https://github.com/dalek-cryptography/curve25519-dalek) curve25519 加密库。
 - [hex](https://github.com/KokaKiwi/rust-hex) 十六进制转换库。
@@ -288,6 +289,8 @@ fi
 - [ndarray](https://github.com/rust-ndarray/ndarray) 类似 python 的 numpy
 - [ort](https://github.com/pykeio/ort) ONNX 格式 rust 库。
 - [image](https://github.com/image-rs/image) 图片处理库。
+- [hex](https://github.com/KokaKiwi/rust-hex)
+- [rand](https://github.com/rust-random/rand) 随机数生成库。
 - [bigdecimal-rs](https://github.com/akubera/bigdecimal-rs) 大十进制数库。
 - [rayon](https://github.com/rayon-rs/rayon) 数据并行处理库。
 - [rmcp](https://github.com/modelcontextprotocol/rust-sdk) MCP 开发库。
@@ -295,24 +298,34 @@ fi
 - [bardecoder](https://github.com/piderman314/bardecoder) 二维码识别库。
 - [datafusion](https://github.com/apache/datafusion) 用 SQL 处理 CSV、JSON、Parquet、Avro、Arrow 等文件的库，可自定义文件格式做扩展。
 - [calamine](https://github.com/tafia/calamine) 纯 Rust 实现 Excel/OpenDocument 库。
+- [lopdf](https://github.com/J-F-Liu/lopdf) PDF 库。
+- [pdf-rs](https://github.com/pdf-rs/pdf) PDF 库。
 - [windows-service-rs](https://github.com/mullvad/windows-service-rs) Windows 服务开发库。
 - [fast-socks5](https://github.com/dizda/fast-socks5) socks 协议实现库。
 - [rlt](https://github.com/wfxr/rlt) 多种协议的压力测试工具开发库。
+- [clap](https://github.com/clap-rs/clap) 命令行命令开发库。
 
 ### UI 库
 
 - [iced](https://github.com/iced-rs/iced)
-- [egui]()
+- [egui](https://github.com/emilk/egui)
+- [Relm4](https://github.com/Relm4/Relm4)
+- [kas](https://github.com/kas-gui/kas)
+- [druid](https://github.com/linebender/druid)
 - [freya](https://github.com/marc2332/freya) 依赖 dioxus 做的扩展。
 - [gpui](https://www.gpui.rs/) Zed 编辑器团队开发的框架，源码在[zed 仓库](https://github.com/zed-industries/zed)里。
 - [gpui-component](https://github.com/longbridge/gpui-component) 基于 GPUI 的控件库。
+- [bevy](https://github.com/bevyengine/bevy) 数据驱动的游戏引擎。
+- [tauri](https://github.com/tauri-apps/tauri) 打包 web 成 移动app 或者 桌面软件的框架。
 
 ### web 开发框架和库
 
 - [actix-web](https://github.com/actix/actix-web) 基于 actix 的 web 框架，扩展库 [actix-extras](https://github.com/actix/actix-extras)
 - [tuono](https://github.com/tuono-labs/tuono) 用 rust 实现了 NextJs 的框架，只能使用 pages 模式，目录在 routes 目录下，好处是后端代码由 TS 换成了 rust 这样比较容易分辨前后端代码，NextJs 前后端代码都是 TS。
 - [axum](https://github.com/tokio-rs/axum) tokio 团队的 web 框架。
-- [tower](https://github.com/tower-rs) web 开发库集合
+- [yew](https://github.com/yewstack/yew) rust 写前端页面，亮点是生成 WASM ，缺点是设计比较早，虽然在仿 react ，但没 react 简洁。
+- [leptos](https://github.com/leptos-rs/leptos) rust 写前端页面，代码是类 react 的 jsx-like 风格。
+- [tower](https://github.com/tower-rs) web 开发库集合。
 
 ### 数据库
 
@@ -324,9 +337,13 @@ fi
 - [turso](https://github.com/tursodatabase/turso) 可内嵌的 rust 实现的 sqlite 还扩展了一些功能。
 - [rusqlite](https://github.com/rusqlite/rusqlite) 打包 SQLite 给 rust 使用。
 - [rust-postgres](https://github.com/sfackler/rust-postgres) 多个 postgres 库集合（postgres、tokio-postgres 等）
-- [PoloDB](https://github.com/PoloDB/PoloDB) 文档数据库。
+- [PoloDB](https://github.com/PoloDB/PoloDB) 可内嵌的文档数据库。
 - [native_db](https://github.com/vincent-herlemont/native_db) 可内嵌的关系型数据库，不支持 SQL 语言，只能靠 API 操作。
 - [redb](https://github.com/cberner/redb) 可内嵌的键值对数据库。
+
+### 底层扩展
+
+- [PyO3](https://github.com/PyO3/pyo3) 开发 Python 库。
 
 ## 兼容
 

@@ -13,7 +13,7 @@ python -m http.server 8000
 - [chromadb](https://github.com/chroma-core/chroma) 向量数据库，需要 python 3.9, 用了 dict list 等类型参数，即不支持 Windows 7(python 3.8)
 - [tinydb](https://github.com/msiemens/tinydb) 文档数据库，存储是 JSON 文件，性能不行。
 - [whoosh](https://github.com/mchaput/whoosh) 纯 Python 实现全文搜索库。
-- [pywin32](https://github.com/mhammond/pywin32) 封装 Windows API 。
+- [pywin32](https://github.com/mhammond/pywin32) 封装 Windows API 的 C 扩展。
 - [loguru](https://github.com/Delgan/loguru) 日志库
 - [kivy](https://github.com/kivy/kivy) UI框架
 - [KivyMD](https://github.com/kivymd/KivyMD) 基于 Kivy 框架的 Material Design（安卓的UI设计风格）的组件库
@@ -30,6 +30,10 @@ python -m http.server 8000
 - [opencv-python](https://github.com/opencv/opencv-python) opencv 的 python 封装库。
 - [pyautogui](https://github.com/asweigart/pyautogui) 跨平台桌面系统自动化操作库，模拟鼠标键盘操作。
 - [pyttsx3](https://github.com/nateshmbhat/pyttsx3) TTS 库。
+- [mcp sdk](https://github.com/modelcontextprotocol/python-sdk) MCP 官方发布的客户端 SDK 库。
+- [numba](https://github.com/numba/numba) NumPy 动态编译。
+- [snowflake](https://github.com/vd2org/snowflake) 雪花ID生成库。
+- [pypdf](https://github.com/py-pdf/pypdf) PDF 库。
 
 ## 虚拟环境
 

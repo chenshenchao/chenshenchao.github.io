@@ -30,6 +30,7 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [uuid](https://github.com/ramsey/uuid) uuid 库。
 - [laravel](https://github.com/laravel/laravel) PHP 界的 Spring ，功能齐全，就是有点重，服务器要求比其他 PHP 框架高，不然会卡。
 - [symfony](https://github.com/symfony/symfony) Web 框架，拆分出很多基础库，ThinkPHP 大量复用它的基础库。
+- [tntsearch](https://github.com/teamtnt/tntsearch) 倒排索引库。
 - [symfony/dotenv](https://github.com/symfony/dotenv) symfony 环境变量库。
 - [thinkphp](https://github.com/top-think/framework) Web 框架，很多基础库复用 symfony 的，国内大量专用框架由其扩展而来。
 - [likeadmin](https://www.likeadmin.cn/) 多语言的框架，PHP 版主打线上开发（就是需要服务器，本地开发部分功能不能使用。）很符合 PHP 开发者的习惯，直接在正式服务器上修改代码。

@@ -27,6 +27,7 @@
 - [tesseract.js](https://github.com/naptha/tesseract.js) 纯 JS 实现 OCR 库。
 - [sharp](https://github.com/lovell/sharp) 封装 libvips 的 NodeJS 的 C 扩展 图像处理库。
 - [openlayers](https://github.com/openlayers/openlayers) 瓦片层库，可以用于地图瓦片拼接绘制。（天地图有支持的API）
+- [turn.js](https://github.com/blasten/turn.js) 基于 jQuery 的书刊翻页库。
 
 ## NodeJs
 

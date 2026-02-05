@@ -12,3 +12,7 @@
 - [mjs](https://github.com/cesanta/mjs) 一个 JS 的运行库。
 - [upscaledb](https://github.com/cruppstahl/upscaledb) 键值对型数据库实现。
 - [unqlite](https://github.com/symisc/unqlite) 键值对型数据库实现。
+
+### 嵌入式相关
+
+- [lvgl](https://github.com/lvgl/lvgl) 
