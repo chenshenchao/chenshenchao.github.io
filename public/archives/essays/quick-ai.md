@@ -68,7 +68,7 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 
 ## 常用库
 
-- [OpenVINO](https://github.com/openvinotoolkit/openvino) 优化模型库。
+- [OpenVINO](https://github.com/openvinotoolkit/openvino) 优化模型库，主要优化 Intel 的CPU和GPU。
 
 ## 模型
 
@@ -97,7 +97,8 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [Agent Lightning](https://github.com/microsoft/agent-lightning) 微软发布的 AI 代理训练与优化的框架，可以和 autogen 结合使用。
 - [MetaGPT](https://github.com/FoundationAgents/MetaGPT) 软件公司 multi-agent 项目，可用于二开。
 - [LiteLLM](https://github.com/BerriAI/litellm) 百种 AI API 接口设配库，解决多厂商 API 兼容性问题。
-- [AgentGPT](https://github.com/reworkd/AgentGPT)
+- [AutoAgent](https://github.com/HKUDS/AutoAgent) 命令行界面的 Agent 项目。
+- [AgentGPT](https://github.com/reworkd/AgentGPT) 网页界面的 Agent 项目。
 - [BabyAGI](https://github.com/yoheinakajima/babyagi)
 - [sim](https://github.com/simstudioai/sim) workflow 项目。
 
@@ -124,7 +125,7 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 
 ## 开发环境与工具
 
-### ollama
+### [ollama](https://github.com/ollama/ollama)
 
 ollama 是一个把多个 Transformers 整合到一起，方便安装部署的环境。
 如果不做模型开发，只是做应用开发的话，ollama 很方便。

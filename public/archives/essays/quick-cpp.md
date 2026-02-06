@@ -1,5 +1,7 @@
 # [草稿]C++ 速查
 
+- [STL](https://github.com/microsoft/STL) 微软的 STL 库源码。
+
 ## 常用库
 
 - [opencv](https://github.com/opencv/opencv)
@@ -22,6 +24,13 @@
 - [Detours](https://github.com/microsoft/Detours) Windows 下监听、拦截 API 调用的库。
 - [elements](https://github.com/cycfi/elements) 声明式的 UI 库，事件的设计上有缺失。
 - [binlog](https://github.com/morganstanley/binlog) mysql binlog 解析库。
+- [CSerialPort](https://github.com/itas109/CSerialPort) 跨平台串口库。
+- [libserial](https://github.com/crayzeewulf/libserial) Linux 串口库。
+
+### boost
+
+- [asio](https://github.com/boostorg/asio) 异步IO模块
+- [beast](https://github.com/boostorg/beast) HTTP 服务器。
 
 ## 包管理与构造工具
 

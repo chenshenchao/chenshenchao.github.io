@@ -289,6 +289,8 @@ fi
 - [ndarray](https://github.com/rust-ndarray/ndarray) 类似 python 的 numpy
 - [ort](https://github.com/pykeio/ort) ONNX 格式 rust 库。
 - [image](https://github.com/image-rs/image) 图片处理库。
+- [ico](https://github.com/mdsteele/rust-ico) ico 图标处理库。
+- [resvg](https://github.com/linebender/resvg) svg 库。
 - [hex](https://github.com/KokaKiwi/rust-hex)
 - [rand](https://github.com/rust-random/rand) 随机数生成库。
 - [bigdecimal-rs](https://github.com/akubera/bigdecimal-rs) 大十进制数库。
@@ -304,6 +306,7 @@ fi
 - [fast-socks5](https://github.com/dizda/fast-socks5) socks 协议实现库。
 - [rlt](https://github.com/wfxr/rlt) 多种协议的压力测试工具开发库。
 - [clap](https://github.com/clap-rs/clap) 命令行命令开发库。
+- [rxRust](https://github.com/rxRust/rxRust) rx
 
 ### UI 库
 
@@ -329,6 +332,7 @@ fi
 
 ### 数据库
 
+- [toasty](https://github.com/tokio-rs/toasty) tokio 开发组开发的异步 ORM。
 - [sqlx](https://github.com/launchbadge/sqlx) 纯 rust 的 SQL 生成和客户端库。
 - [sea-orm](https://github.com/SeaQL/sea-orm) 整合 sqlx 等库，适配 actix、axum 等多个框架，功能比较全，迁移、DbFirst、CodeFirst 不合理，生成代码和自定义代码没有分离。
 - [diesel](https://github.com/diesel-rs/diesel) 多种数据库 ORM，使用了 C 库安装会麻烦点，性能会好点，迁移、DbFirst、CodeFirst 配合比较合理。
@@ -344,6 +348,8 @@ fi
 ### 底层扩展
 
 - [PyO3](https://github.com/PyO3/pyo3) 开发 Python 库。
+- [iced](https://github.com/icedland/iced) x86 的汇编器、反汇编器等功能的库，支持多种语言。
+- [probe-rs](https://github.com/probe-rs/probe-rs) ARM、RISC-V 调试工具开发库。
 
 ## 兼容
 

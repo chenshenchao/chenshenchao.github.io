@@ -1,33 +1,20 @@
 # Java 速查
 
-[SDKMAN](https://sdkman.io/) Java SDK 多版本管理工具。（目前只支持 Linux、MacOS； Windows 下只能装虚拟机里或者 WSL 里）
-
-```bash
-# linux 安装 SDKMAN
-curl -s "https://get.sdkman.io" | bash
-
-# SDKMAN 安装 graalvm ， sdk install java <version>-graal
-sdk install java 23-graal
-
-# SDKMAN 搜索
-sdk list java
-```
-
 [Maven 中央仓库](https://search.maven.org/) 由 Apache 授权 Sonatype 维护。
 [Sonatype 仓库](https://central.sonatype.com/) Sonatype 对 Maven 中央仓库的增强，发布包在这里完成。
 [JitPack](https://jitpack.io/) 通过 git 仓库构建成为 jvm 仓库的站点。
 
 ## 常用库
 
+- [zxing](https://github.com/zxing/zxing) 条形码、二维码识别库。
 - [rhino](https://github.com/mozilla/rhino) 一个 JavaScript 实现。
 - [jooq(Java Object Oriented Querying)](https://github.com/jOOQ/jOOQ) 只有查询功能的 ORM ，需要构建配置代码生成。
 
-## 包管理工具
+## 开发环境与包管理工具
 
 常见问题：
 
 1. 如果拉包后出现类找不到的问题，大概率是由于墙的原因，导致拉包失败但是又没有清理干净，导致 gradle 误以为包已经拉取了，但是实际是个空的，此时就会报找不到类。
-
 
 ### maven
 
@@ -57,6 +44,21 @@ gradlew build -x test
 
 # 打印依赖
 gradlew dependencies --configuration runtimeClasspath
+```
+
+### [SDKMAN](https://sdkman.io/)
+
+Java SDK 多版本管理工具。（目前只支持 Linux、MacOS； Windows 下只能装虚拟机里或者 WSL 里）
+
+```bash
+# linux 安装 SDKMAN
+curl -s "https://get.sdkman.io" | bash
+
+# SDKMAN 安装 graalvm ， sdk install java <version>-graal
+sdk install java 23-graal
+
+# SDKMAN 搜索
+sdk list java
 ```
 
 ## GraalVM

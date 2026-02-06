@@ -5,6 +5,7 @@
 ## 常用库
 
 - [logrus](https://github.com/sirupsen/logrus) 结构化的日志库。
+- [zerolog](https://github.com/rs/zerolog) JSON 日志。
 - [pie](https://github.com/elliotchance/pie) 切片(slice) 和 字典(map) 功能扩展库。
 - [bbolt](https://github.com/etcd-io/bbolt) 可内嵌的键值对数据库。
 - [kektordb](https://github.com/sanonone/kektordb) 可内嵌到项目的向量数据库。
@@ -18,9 +19,13 @@
 - [sqlx](https://github.com/jmoiron/sqlx) 扩展标准库 database/sql 的三方库。
 - [go-mysql](https://github.com/go-mysql-org/go-mysql) 纯 Go 实现的 MySQL 客户端，支持binlog做数据迁移。
 - [btree](https://github.com/google/btree) 谷歌开发的一个b树实现。
+- [tinygo](https://github.com/tinygo-org/tinygo) GO 的 MCU、WASM 编译器。
+- [unioffice](https://github.com/unidoc/unioffice) Word、Excel、PPT 库。
+- [unipdf](https://github.com/unidoc/unipdf) PDF 库。
 
 ### Web 框架
 
+- [kratos](https://github.com/go-kratos/kratos) 基于 Protobuf 的微服务框架。
 - [go-micro](https://github.com/micro/go-micro) 简易的 Web 框架。
 
 ### UI 库

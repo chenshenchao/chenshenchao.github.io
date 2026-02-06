@@ -115,6 +115,12 @@ uv sync
 
 # 执行脚本 main.py
 uv run main.py
+
+# 构建
+uv build
+
+# 发布
+uv publish
 ```
 
 ## pip
@@ -288,6 +294,8 @@ twine upload dist/*
 这个打包是把 Python 转成 C++ 再编译成二进制，所以使用不同的库会有编译的问题要解决。
 
 ### 基于 [poetry](https://github.com/python-poetry/poetry) 的打包
+
+### 基于 [pyfuze](https://github.com/TanixLu/pyfuze) 的打包
 
 
 ### 基于 [PyInstaller](https://github.com/pyinstaller/pyinstaller) 的打包

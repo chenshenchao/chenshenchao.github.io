@@ -38,6 +38,8 @@ flutter logs --clear
 
 ## 常用库
 
+- [flutter-tflite](https://github.com/tensorflow/flutter-tflite) Tensorflow lite 的 Flutter 封装。
+- [onnxruntime_flutter](https://github.com/gtbluesky/onnxruntime_flutter) onnx 运行时。
 - [permission_handler](https://github.com/baseflow/flutter-permission-handler) 权限库。
 - [image](https://github.com/brendan-duncan/image) 图片处理库。
 - [bloc](https://github.com/felangel/bloc) 状态管理库，拆分成多个库，按需引入，支持 持久化(hydrated_bloc)，回放(replay_bloc) 等功能。
@@ -46,10 +48,12 @@ flutter logs --clear
 - [fluttercommunity 的 plus_plugins](https://github.com/fluttercommunity/plus_plugins) 提供一些获取设备信息、网络设置信息、传感器信息的库。
 - [fluttercommunity 的 font_awesome_flutter](https://github.com/fluttercommunity/font_awesome_flutter) [fontawesome](https://fontawesome.com/icons)图标库的flutter封装。
 - [fluttercommunity 的 flutter_launcher_icons](https://github.com/fluttercommunity/flutter_launcher_icons) 开发工具扩展，可以通过命令行和 pubspec.yaml 的配置生成图标。
-- [flutter_recorder](https://github.com/alnitak/flutter_recorder) 录音库，自带 FFT，兼容多平台。
 - [flutter_slidable](https://github.com/letsar/flutter_slidable) 滑动单元格，类似 vant SwipeCell。
 - [flutter_swipe_action_cell](https://github.com/luckysmg/flutter_swipe_action_cell) 滑动单元格，类似 vant SwipeCell。
+- [flutter_recorder](https://github.com/alnitak/flutter_recorder) 录音库，自带 FFT，兼容多平台。
 - [audioplayers](https://github.com/bluefireteam/audioplayers) 音频播放库。
+- [flutter_sound](https://github.com/Canardoux/flutter_sound) 录音、播放库。
+- [record](https://github.com/llfbandit/record) 录音、播放库。
 - [flame](https://github.com/flame-engine/flame) 游戏开发库，包括 3D、音频 等子库。
 - [marquee](https://github.com/MarcelGarus/marquee) 文字走马灯。
 - [marqueer](https://github.com/GeceGibi/marqueer) 走马灯，可以图片。
@@ -63,6 +67,7 @@ flutter logs --clear
 - [print_bluetooth_thermal](https://github.com/andresperezmelo/print_bluetooth_thermal) 蓝牙打印库。
 - [flutter_esc_pos_utils](https://github.com/mjafartp/flutter_esc_pos_utils) ESC/POS 打印协议封装。
 - [tdesign](https://github.com/Tencent/tdesign-flutter) tdesign 的 flutter 版本，目前 alpha 阶段。
+- [ResponsiveFramework](https://github.com/Codelessly/ResponsiveFramework) 响应式框架，不太实用。
 
 ## 常见问题
 
