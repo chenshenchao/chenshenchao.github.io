@@ -19,6 +19,7 @@
 - [sqlx](https://github.com/jmoiron/sqlx) 扩展标准库 database/sql 的三方库。
 - [go-mysql](https://github.com/go-mysql-org/go-mysql) 纯 Go 实现的 MySQL 客户端，支持binlog做数据迁移。
 - [btree](https://github.com/google/btree) 谷歌开发的一个b树实现。
+- [go-adaptive-radix-tree](https://github.com/plar/go-adaptive-radix-tree) ART树实现。
 - [tinygo](https://github.com/tinygo-org/tinygo) GO 的 MCU、WASM 编译器。
 - [unioffice](https://github.com/unidoc/unioffice) Word、Excel、PPT 库。
 - [unipdf](https://github.com/unidoc/unipdf) PDF 库。

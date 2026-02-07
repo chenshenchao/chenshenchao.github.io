@@ -53,7 +53,8 @@ podman run --rm -v volume-name:/data_dir -v .:/backup busybox tar -xzvf /backup/
 
 ### 安装 Podman Desktop（推荐）
 
-[Podman Desktop 下载](https://podman-desktop.io/downloads/windows)
+- [podman-desktop](https://github.com/podman-desktop/podman-desktop) 源码。
+- [Podman Desktop 下载](https://podman-desktop.io/downloads/windows)
 
 ### 单独安装 podman （不推荐）
 

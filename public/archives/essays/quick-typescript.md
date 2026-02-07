@@ -24,6 +24,7 @@
 - [uuid](https://github.com/uuidjs/uuid) UUID 生成库
 - [dinero.js](https://github.com/dinerojs/dinero.js) 十进制数，内置货币处理。
 - [protobuf-ts](https://github.com/timostamm/protobuf-ts) protobuf 的 ts 第三方实现。
+- [protoc-gen-ts](https://github.com/thesayyn/protoc-gen-ts) protobuf 的 ts 第三方实现。
 - [ts-proto](https://github.com/stephenh/ts-proto) protobuf 的 ts 第三方实现。
 - [tailwindcss](https://github.com/tailwindlabs/tailwindcss) 通过类名管理 CSS 的库，结合 clsx 库开发很方便。
 - [tw-animate-css](https://github.com/Wombosvideo/tw-animate-css) 对 tailwindcss 的动画扩展库。

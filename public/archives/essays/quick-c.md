@@ -14,6 +14,8 @@
 - [unqlite](https://github.com/symisc/unqlite) 键值对型数据库实现。
 - [libxml2](https://github.com/GNOME/libxml2) xml 库。
 - [msquic](https://github.com/microsoft/msquic) 微软的 QUIC 实现库。
+- [zpl](https://github.com/zpl-c/zpl) 工具集合库。
+- [enet](https://github.com/zpl-c/enet) UDP 框架。
 
 ### 嵌入式相关
 

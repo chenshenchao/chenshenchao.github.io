@@ -111,6 +111,7 @@ qwen
 - [EasyDb](https://github.com/shencangsheng/easydb_app) 用 SQL 像数据库一样处理 CSV、JSON、Excel 等文件的查询。
 - [rembg](https://github.com/danielgatis/rembg) 抠图工具，Python 命令行。
 - [espeak-ng](https://github.com/espeak-ng/espeak-ng) 跨平台 TTS 工具。
+- [Whisper](https://github.com/Const-me/Whisper) 打包了 openai 语言模型，提供命令行和一个简易的界面软件。
 - [olive](https://github.com/olive-editor/olive) 音频编辑工具。
 - [audacity](https://github.com/audacity/audacity) 音频编辑工具。
 - [lmms](https://github.com/LMMS/lmms) 音乐编辑工具。
@@ -118,12 +119,14 @@ qwen
 - [Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy) 可执行文件等多种文件查看探测器。
 - [DIE-engine](https://github.com/horsicq/DIE-engine) DIE 下载点。
 - [ghidra](https://github.com/NationalSecurityAgency/ghidra) 逆向分析工具。
+- [Dependencies](https://github.com/lucasg/Dependencies) C# 重写 depends.exe，用于查看 DLL 依赖的图形工具。
 
 ### 监控工具
 
 - [wireshark](https://github.com/wireshark/wireshark) 抓包工具。
 - [sniffnet](https://github.com/GyulyVGC/sniffnet) 网络监控工具。
 - [grafana](https://github.com/grafana/grafana) Web 数据库监控面板。
+- [1Panel](https://github.com/1Panel-dev/1Panel) 服务器面板服务。
 
 ### 代理
 
@@ -158,6 +161,7 @@ qwen
 
 ### 硬件设计工具
 
+- [openscad](https://github.com/openscad/openscad) 脚本化的 CAD 软件。
 - [FreeCAD](https://github.com/FreeCAD/FreeCAD) 参数化 3D 建模软件。
 - [KiCAD](https://github.com/KiCad/kicad-source-mirror) 基于 FreeCAD 的 EDA。
 - [PcbDraw](https://github.com/yaqwsx/PcbDraw) KiCAD 项目生成 2D 图命令行工具。

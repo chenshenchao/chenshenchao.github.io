@@ -28,6 +28,11 @@
 - [sharp](https://github.com/lovell/sharp) 封装 libvips 的 NodeJS 的 C 扩展 图像处理库。
 - [openlayers](https://github.com/openlayers/openlayers) 瓦片层库，可以用于地图瓦片拼接绘制。（天地图有支持的API）
 - [turn.js](https://github.com/blasten/turn.js) 基于 jQuery 的书刊翻页库。
+- [jszip](https://github.com/Stuk/jszip) zip 库。
+- [zip.js](https://github.com/gildas-lormeau/zip.js) zip 库。
+- [zlib.js](https://github.com/imaya/zlib.js) zlib 库。
+- [protobuf.js](https://github.com/protobufjs/protobuf.js) protobuf 实现。
+- [transformers.js](https://github.com/huggingface/transformers.js) huggingface 开发用于浏览器端运行 transformers 模型的框架。
 
 ## NodeJs
 

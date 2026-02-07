@@ -320,6 +320,7 @@ fi
 - [gpui-component](https://github.com/longbridge/gpui-component) 基于 GPUI 的控件库。
 - [bevy](https://github.com/bevyengine/bevy) 数据驱动的游戏引擎。
 - [tauri](https://github.com/tauri-apps/tauri) 打包 web 成 移动app 或者 桌面软件的框架。
+- [tiny-skia](https://github.com/linebender/tiny-skia) skia 子集，只使用 CPU ，性能差，兼容好。
 
 ### web 开发框架和库
 

@@ -15,12 +15,8 @@ python -m http.server 8000
 - [whoosh](https://github.com/mchaput/whoosh) 纯 Python 实现全文搜索库。
 - [pywin32](https://github.com/mhammond/pywin32) 封装 Windows API 的 C 扩展。
 - [loguru](https://github.com/Delgan/loguru) 日志库
-- [kivy](https://github.com/kivy/kivy) UI框架
-- [KivyMD](https://github.com/kivymd/KivyMD) 基于 Kivy 框架的 Material Design（安卓的UI设计风格）的组件库
 - [GeoPy](https://github.com/geopy/geopy) 地理经纬库。
 - [cartopy](https://github.com/SciTools/cartopy) 绘制地图库。
-- [fastapi](https://github.com/fastapi/fastapi) web 框架。
-- [FastUI](https://github.com/pydantic/FastUI) web UI 库。非 HTML 模板，是 Python 代码生成 HTML。
 - [pydantic](https://github.com/pydantic/pydantic) 数据验证库。
 - [ruff](https://github.com/astral-sh/ruff) rust 开发用于格式化和 lint python 的库。
 - [pytesseract](https://github.com/madmaze/pytesseract) 封装 C++ 的  OCR 库 tesseract 命令行使用的，需要安装 tesseract 在 PATH 里，配置要求低，但是精度差。
@@ -34,6 +30,19 @@ python -m http.server 8000
 - [numba](https://github.com/numba/numba) NumPy 动态编译。
 - [snowflake](https://github.com/vd2org/snowflake) 雪花ID生成库。
 - [pypdf](https://github.com/py-pdf/pypdf) PDF 库。
+- [RxPY](https://github.com/ReactiveX/RxPY) rx
+
+### UI 库
+
+- [kivy](https://github.com/kivy/kivy) UI框架，主移动端。
+- [KivyMD](https://github.com/kivymd/KivyMD) 基于 Kivy 框架的 Material Design（安卓的UI设计风格）的组件库。
+- [toga](https://github.com/beeware/toga) UI 框架，主桌面端。
+
+### Web 库
+
+- [fastapi](https://github.com/fastapi/fastapi) web 框架。
+- [FastUI](https://github.com/pydantic/FastUI) web UI 库。非 HTML 模板，是 Python 代码生成 HTML。
+
 
 ## 虚拟环境
 

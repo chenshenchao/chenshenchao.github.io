@@ -26,6 +26,8 @@
 - [binlog](https://github.com/morganstanley/binlog) mysql binlog 解析库。
 - [CSerialPort](https://github.com/itas109/CSerialPort) 跨平台串口库。
 - [libserial](https://github.com/crayzeewulf/libserial) Linux 串口库。
+- [wxWidgets](https://github.com/wxWidgets/wxWidgets) UI 开发库。
+- [wxFormBuilder](https://github.com/wxFormBuilder/wxFormBuilder) wxWidgets Form 图形化绘制工具。
 
 ### boost
 

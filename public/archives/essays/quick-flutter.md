@@ -42,6 +42,7 @@ flutter logs --clear
 - [onnxruntime_flutter](https://github.com/gtbluesky/onnxruntime_flutter) onnx 运行时。
 - [permission_handler](https://github.com/baseflow/flutter-permission-handler) 权限库。
 - [image](https://github.com/brendan-duncan/image) 图片处理库。
+- [floor](https://github.com/pinchbv/floor) 类型安全的 SQLite 封装。
 - [bloc](https://github.com/felangel/bloc) 状态管理库，拆分成多个库，按需引入，支持 持久化(hydrated_bloc)，回放(replay_bloc) 等功能。
 - [flutter_screenutil](https://github.com/OpenFlutter/flutter_screenutil) 类似 web 前端 vw vh 按屏幕等比缩放，适合移动端应用。
 - [ResponsiveFramework](https://github.com/Codelessly/ResponsiveFramework) 类似 web 前端的多媒体，响应适配不同尺寸的屏幕，适合桌面应用。
