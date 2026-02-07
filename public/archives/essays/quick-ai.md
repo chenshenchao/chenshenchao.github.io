@@ -72,6 +72,8 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 
 ## 模型
 
+- [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
+- [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)
 - [VibeVoice](https://github.com/microsoft/VibeVoice) 微软开源 TTS 模型。
 - [whisper](https://github.com/openai/whisper) openai 开源的语音模型。
 - [OmniParser](https://github.com/microsoft/OmniParser) 微软开源 UI 界面分析模型。

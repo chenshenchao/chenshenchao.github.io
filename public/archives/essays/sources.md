@@ -9,6 +9,7 @@
 
 - [fileformat](https://docs.fileformat.com/) 文件格式文档
 - [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) 教程与习题站点项目。
+- [earthworm](https://github.com/cuixueshe/earthworm) 英语学习站点，有个叫“句乐部”的站点。
 
 ## 资源站点
 

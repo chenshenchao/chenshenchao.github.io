@@ -22,12 +22,17 @@
 - [libhv](https://github.com/ithewei/libhv) 多种网络协议库。
 - [librg](https://github.com/zpl-c/librg) 多玩家游戏开发库。
 - [Detours](https://github.com/microsoft/Detours) Windows 下监听、拦截 API 调用的库。
-- [elements](https://github.com/cycfi/elements) 声明式的 UI 库，事件的设计上有缺失。
 - [binlog](https://github.com/morganstanley/binlog) mysql binlog 解析库。
 - [CSerialPort](https://github.com/itas109/CSerialPort) 跨平台串口库。
 - [libserial](https://github.com/crayzeewulf/libserial) Linux 串口库。
+
+### 图形库
+
+- [tgfx](https://github.com/Tencent/tgfx) 为了替代 skia 的 2D 图形绘制库。
+- [elements](https://github.com/cycfi/elements) 声明式的 UI 库，事件的设计上有缺失。
 - [wxWidgets](https://github.com/wxWidgets/wxWidgets) UI 开发库。
 - [wxFormBuilder](https://github.com/wxFormBuilder/wxFormBuilder) wxWidgets Form 图形化绘制工具。
+- [assimp](https://github.com/assimp/assimp) 支持 40+ 种 3D 资源文件加载库。
 
 ### boost
 
