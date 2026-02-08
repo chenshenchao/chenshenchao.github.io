@@ -169,3 +169,7 @@ qwen
 - [LibrePCB](https://github.com/LibrePCB/LibrePCB) 开源 EDA 。
 - [horizon](https://github.com/horizon-eda/horizon) 开源 EDA 。
 - [SerialTool](https://github.com/skiars/SerialTool) 串口工具。
+
+### 游戏
+
+- [Microverse](https://github.com/KsanaDock/Microverse) Godot 上帝视角沙盒游戏。

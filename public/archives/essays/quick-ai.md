@@ -96,13 +96,13 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 
 ### 开源 AI Agant 项目
 
-- [AutoGen](https://github.com/microsoft/autogen) 微软发布的 multi-agent 框架。
+- [AutoGen](https://github.com/microsoft/autogen) 微软给 python 的 multi-agent 框架。
 - [Agent Lightning](https://github.com/microsoft/agent-lightning) 微软发布的 AI 代理训练与优化的框架，可以和 autogen 结合使用。
 - [MetaGPT](https://github.com/FoundationAgents/MetaGPT) 软件公司 multi-agent 项目，可用于二开。
 - [LiteLLM](https://github.com/BerriAI/litellm) 百种 AI API 接口设配库，解决多厂商 API 兼容性问题。
 - [AutoAgent](https://github.com/HKUDS/AutoAgent) 命令行界面的 Agent 项目。
 - [AgentGPT](https://github.com/reworkd/AgentGPT) 网页界面的 Agent 项目。
-- [BabyAGI](https://github.com/yoheinakajima/babyagi)
+- [BabyAGI](https://github.com/yoheinakajima/babyagi) python 的 AGI 开发库。
 - [sim](https://github.com/simstudioai/sim) workflow 项目。
 
 ### RAG（Retrieval Augmented Generation）

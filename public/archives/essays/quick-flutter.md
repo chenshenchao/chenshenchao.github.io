@@ -58,7 +58,7 @@ flutter logs --clear
 - [flame](https://github.com/flame-engine/flame) 游戏开发库，包括 3D、音频 等子库。
 - [marquee](https://github.com/MarcelGarus/marquee) 文字走马灯。
 - [marqueer](https://github.com/GeceGibi/marqueer) 走马灯，可以图片。
-- [pointycastle](https://github.com/bcgit/pc-dart) 加密库。
+- [cryptography](https://github.com/dint-dev/cryptography) 加密库。
 - [basic_utils](https://github.com/Ephenodrom/Dart-Basic-Utils) 基础库，比如各种密钥文件转换。
 - [flutter_blue](https://github.com/pauldemarco/flutter_blue) 低功耗蓝牙库。
 - [flutter_blue_plus](https://github.com/chipweinberger/flutter_blue_plus) flutter_blue 低功耗蓝牙库的后续开发库。

@@ -9,3 +9,6 @@ Dart 出来好几年却因为没有杀手应用而一直默默无闻，直到被
 
 - [shelf](https://github.com/dart-lang/shelf) 官方提供的 Web 框架。
 - [rxdart](https://github.com/ReactiveX/rxdart) rx
+- [Dart-Basic-Utils](https://github.com/Ephenodrom/Dart-Basic-Utils) 扩展工具库。
+- [protobuf_generator](https://github.com/TamilKannanCV/protobuf_generator) protobuf 生成插件。
+- [pc-dart](https://github.com/bcgit/pc-dart) Pointy Castle 加密算法库。
