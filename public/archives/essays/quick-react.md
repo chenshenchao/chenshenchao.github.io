@@ -73,6 +73,7 @@ npx create-expo-app
 - [redux-persist](https://github.com/rt2zz/redux-persist) redux 持久化扩展，多年不更新，对新 redux 有点小问题。
 - [zustand](https://github.com/pmndrs/zustand) 状态管理，轻量化。
 - [jotai](https://github.com/pmndrs/jotai) 状态管理，原子粒度。
+- [mantine](https://github.com/mantinedev/mantine) 图标、字体等更能齐全的组件库。
 - [tanstack](https://tanstack.com) 包括原[react-query](https://github.com/tanstack/query)扩展到支持多框架多功能的开发库集合。
 - [styled-components](https://github.com/styled-components/styled-components) 样式定义组件的库。
 - [react-i18next](https://github.com/i18next/react-i18next) 为 React 开发的 i18n 扩展库。

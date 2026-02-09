@@ -1,5 +1,13 @@
 # FreeCAD 速查
 
+## 扩展
+
+因为墙，所以要下载需要梯子或国内镜像。代理无效，要用仓库镜像。
+
+清华源：https://mirror.tuna.tsinghua.edu.cn/github-release/FreeCAD/FreeCAD/
+
+- [CurvesWB](https://github.com/tomate44/CurvesWB) 椭圆曲面。
+
 ## 变量
 
 点击 "{}" 图标，创建变量集，双加这个变量集会弹出添加变量的弹出，修改写变量名，变量类型等，可在左侧数据里看到该变量集的所有变量。表达式从 变量集名开始，如：“VarSet.Width” 这样。
@@ -32,11 +40,3 @@
 因为草图只能是平面，所以这个最后出来的是一个扁平的曲面物体。
 
 1. 要有 2个物体，然后摆准角度，【Part】ProjectionOnSurface 就可以投射一个影子到物体上。
-
-## 扩展
-
-因为墙，所以要下载需要梯子或国内镜像。代理无效，要用仓库镜像。
-
-清华源：https://mirror.tuna.tsinghua.edu.cn/github-release/FreeCAD/FreeCAD/
-
-

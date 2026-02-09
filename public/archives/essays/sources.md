@@ -92,7 +92,8 @@ qwen
 
 ### 架构设计工具
 
-- [Pencil](https://github.com/evolus/pencil) 开源原型设计软件。
+- [Pencil](https://github.com/evolus/pencil) 开源 原型设计 软件。
+- [penpot](https://github.com/penpot/penpot) 开源 UI 设计 软件。
 - [DrawIO](https://github.com/jgraph/drawio-desktop) 流程图、架构图、导图软件。
 - [DrawDB](https://github.com/drawdb-io/drawdb) 数据库设计图形工具。
 

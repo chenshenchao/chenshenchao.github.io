@@ -31,11 +31,12 @@ python -m http.server 8000
 - [snowflake](https://github.com/vd2org/snowflake) 雪花ID生成库。
 - [pypdf](https://github.com/py-pdf/pypdf) PDF 库。
 - [RxPY](https://github.com/ReactiveX/RxPY) rx
+- [pytest](https://github.com/pytest-dev/pytest) 单元测试框架。
+- [pytest-order](https://github.com/pytest-dev/pytest-order) pytest 单元测试排序。
 
 ### UI 库
 
 - [kivy](https://github.com/kivy/kivy) UI框架，主移动端。
-- [KivyMD](https://github.com/kivymd/KivyMD) 基于 Kivy 框架的 Material Design（安卓的UI设计风格）的组件库。
 - [toga](https://github.com/beeware/toga) UI 框架，主桌面端。
 
 ### Web 库

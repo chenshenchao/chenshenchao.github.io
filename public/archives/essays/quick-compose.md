@@ -1,6 +1,15 @@
 # [草稿] Compose 速查
 
+## compose multiplatform
+
+早期 compose multiplatform 每个平台提供不同的 UI 框架，不同平台要写各自的 UI 代码。
+桌面用基于 swing 的 UI 框架；安卓用 compose ；IOS 用基于 ViewUI 的框架等。
+后来推出了 SharedUI 统一使用安卓的 compose 组件为基础去适配所有平台。
+
+
 ## Jetpack Compose
+
+安卓平台的 UI 框架实现。
 
 ### CompositionLocal 和 CompositionLocalProvider 
 

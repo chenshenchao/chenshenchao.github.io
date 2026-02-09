@@ -2,6 +2,11 @@
 
 kivy 的设计有点类似 Flutter（2017年发布） ，但是由于其还是设计得比较早（2011年发布），所以有些东西设计得还不够好。没有新出的框架在代码设计上先进。
 
+## 常用库
+
+- [KivyMD](https://github.com/kivymd/KivyMD) 基于 Kivy 框架的 Material Design（安卓的UI设计风格）的组件库。
+- [mapview](https://github.com/kivy-garden/mapview) 地图组件。
+
 ## 布局
 
 注：kivy 的坐标系原点默认在左下角（理科生习惯，学校里用的笛卡尔坐标系第一象限。）而大部分的 UI 框架原点坐标都在左上角（工科生习惯，因为早期显示设备都是从左上向下刷新屏幕的。）
