@@ -33,6 +33,7 @@ python -m http.server 8000
 - [RxPY](https://github.com/ReactiveX/RxPY) rx
 - [pytest](https://github.com/pytest-dev/pytest) 单元测试框架。
 - [pytest-order](https://github.com/pytest-dev/pytest-order) pytest 单元测试排序。
+- [pinout](https://github.com/j0ono0/pinout) 用于生成硬件引脚SVG图的库。
 
 ### UI 库
 
@@ -43,6 +44,7 @@ python -m http.server 8000
 
 - [fastapi](https://github.com/fastapi/fastapi) web 框架。
 - [FastUI](https://github.com/pydantic/FastUI) web UI 库。非 HTML 模板，是 Python 代码生成 HTML。
+- [circuits](https://github.com/circuits/circuits) web 框架。
 
 
 ## 虚拟环境

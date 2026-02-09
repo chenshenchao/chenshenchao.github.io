@@ -51,6 +51,7 @@ Lazarus 是基于 Free Pascal 的一个 IDE。
 - [CEF4Delphi](https://github.com/salvadordf/CEF4Delphi) 一个跨平台的 CEF WebView 的封装，（在线软件包可下载，依赖 DCPcrypt）。
 - [WebView4Delphi](https://github.com/salvadordf/WebView4Delphi) 一个 Windows 下 WebView2 的封装，（在线软件包可下载）。
 - Rx 一个仿 Delphi RxLib 的一个组件库。
+- [fpwebview](https://github.com/PierceNg/fpwebview) webview 封装。
 - [brookfreepascal](https://github.com/risoflora/brookfreepascal) Web 框架支持多种开发方式。
 
 ### 自定义软件包

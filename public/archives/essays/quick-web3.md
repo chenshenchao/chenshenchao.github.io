@@ -9,3 +9,5 @@
 - [rust-web3](https://github.com/tomusdrw/rust-web3) rust 语言的以太坊 JSON-RPC 客户端。
 - [rust-bitcoin](https://github.com/rust-bitcoin/rust-bitcoin) rust 语言的比特币相关消息解析库。
 - [rust-bitcoincore-rpc](https://github.com/rust-bitcoin/rust-bitcoincore-rpc) rust 语言的比特币 JSON-RPC 客户端。
+- [solana](https://github.com/solana-labs/solana) 区块链基础项目。
+- [agave](https://github.com/anza-xyz/agave) fork solana 扩展的区块链基础项目。

@@ -4,12 +4,17 @@
 
 - [思源宋体](https://github.com/adobe-fonts/source-han-serif)
 - [思源黑体](https://github.com/adobe-fonts/source-han-sans)
+- [OSFCC](https://github.com/DrXie/OSFCC) 开源中文字体枚举。
 
 ## 文档与教程
 
 - [fileformat](https://docs.fileformat.com/) 文件格式文档
 - [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) 教程与习题站点项目。
 - [earthworm](https://github.com/cuixueshe/earthworm) 英语学习站点，有个叫“句乐部”的站点。
+
+## 开源书籍
+
+- [LLMs-from-scratch（从零构建大模型）](https://github.com/rasbt/LLMs-from-scratch) 英文原版仓库。
 
 ## 资源站点
 
@@ -170,6 +175,14 @@ qwen
 - [LibrePCB](https://github.com/LibrePCB/LibrePCB) 开源 EDA 。
 - [horizon](https://github.com/horizon-eda/horizon) 开源 EDA 。
 - [SerialTool](https://github.com/skiars/SerialTool) 串口工具。
+- [OpenCircuits](https://github.com/OpenCircuits/OpenCircuits) 数字电路仿真。
+
+
+### 硬件项目
+
+- [ESPboy_GameBoy](https://github.com/ESPboy-edu/ESPboy_GameBoy) ESP 上的 GameBoy 模拟器。
+- [CH552-DAPLink](https://github.com/wagiminator/CH552-DAPLink) 基于 CH552 开发的 DAPLink 固件源码。
+- [CH55x_HS_DAP-Link-v2](https://github.com/posystorage/CH55x_HS_DAP-Link-v2) 基于 CH552 开发的 DAPLink。
 
 ### 游戏
 

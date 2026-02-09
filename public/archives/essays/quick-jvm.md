@@ -1,5 +1,7 @@
 # JVM 速查
 
+- [graalvm-ce-builds](https://github.com/graalvm/graalvm-ce-builds) GraalVM 下载地址。
+
 ## 类型描述
 
 - B 基本数据类型byte

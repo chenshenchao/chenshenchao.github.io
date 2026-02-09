@@ -329,6 +329,7 @@ fi
 - [axum](https://github.com/tokio-rs/axum) tokio 团队的 web 框架。
 - [yew](https://github.com/yewstack/yew) rust 写前端页面，亮点是生成 WASM ，缺点是设计比较早，虽然在仿 react ，但没 react 简洁。
 - [leptos](https://github.com/leptos-rs/leptos) rust 写前端页面，代码是类 react 的 jsx-like 风格。
+- [sycamore](https://github.com/sycamore-rs/sycamore) rust 写前端页面，亮点是生成 WASM，类 react 风格。
 - [tower](https://github.com/tower-rs) web 开发库集合。
 
 ### 数据库
@@ -351,6 +352,7 @@ fi
 - [PyO3](https://github.com/PyO3/pyo3) 开发 Python 库。
 - [iced](https://github.com/icedland/iced) x86 的汇编器、反汇编器等功能的库，支持多种语言。
 - [probe-rs](https://github.com/probe-rs/probe-rs) ARM、RISC-V 调试工具开发库。
+- [cargo-xwin](https://github.com/rust-cross/cargo-xwin) Linux、MacOs 下交叉编译 Windows 的编译工具。
 
 ## 兼容
 
