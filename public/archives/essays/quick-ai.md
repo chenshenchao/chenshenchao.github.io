@@ -85,6 +85,7 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [AnimateDiff](https://github.com/guoyww/AnimateDiff) 动画模型。
 - [sam3](https://github.com/facebookresearch/sam3) 脸书开源视觉图像模型，比 YOLO 更精细识别物体轮廓。
 - [dinov2](https://github.com/facebookresearch/dinov2) 脸书开源视觉图像模型。
+- [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) 肢体语言识别。
 
 ## AI 应用开发
 

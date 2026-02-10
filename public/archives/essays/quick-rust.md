@@ -272,7 +272,6 @@ fi
 
 ## 常用库
 
-- [cargo binstall](https://github.com/cargo-bins/cargo-binstall) 对于使用了 C/C++ 的非纯 rust 工具，cargo install 需要配置环境很麻烦，用 binstall 可以直接下载编译好的来安装。
 - [prost](https://github.com/tokio-rs/prost) tokio 团队的 protobuf 实现,actix 的 protobuf 扩展此库(0.13)。
 - [rust-protobuf](https://github.com/stepancheg/rust-protobuf) protobuf 第三方实现。
 - [tonic](https://github.com/hyperium/tonic) grpc 第三方实现。
@@ -349,10 +348,21 @@ fi
 
 ### 底层扩展
 
+- [cargo binstall](https://github.com/cargo-bins/cargo-binstall) 对于使用了 C/C++ 的非纯 rust 工具，cargo install 需要配置环境很麻烦，用 binstall 可以直接下载编译好的来安装。
 - [PyO3](https://github.com/PyO3/pyo3) 开发 Python 库。
 - [iced](https://github.com/icedland/iced) x86 的汇编器、反汇编器等功能的库，支持多种语言。
 - [probe-rs](https://github.com/probe-rs/probe-rs) ARM、RISC-V 调试工具开发库。
+- [rtic(Real-Time Interrupt-driven Concurrency)](https://github.com/rtic-rs/rtic) ARM Cortex-M 系列 MCU 的实时中断驱动协程框架。 
+- [ch32-rs](https://github.com/ch32-rs/ch32-rs) 第三方 WCH 沁恒 MCU 的 rust 开发包。
+- [esp-rs](https://github.com/esp-rs) 第三方 ESP rust 开发包。
+- [stm32-rs](https://github.com/stm32-rs) 第三方 STM32 rust 开发包。
+- [app-template](https://github.com/knurling-rs/app-template) 一个嵌入式项目模板。
 - [cargo-xwin](https://github.com/rust-cross/cargo-xwin) Linux、MacOs 下交叉编译 Windows 的编译工具。
+- [cargo-wix](https://github.com/volks73/cargo-wix) wix 打包应用工具的 cargo 子命令。
+- [rust-msi](https://github.com/mdsteele/rust-msi) msi 文件读写库。
+- [usb-device](https://github.com/rust-embedded-community/usb-device) USB MCU 驱动开发库。
+- [usbd-serial](https://github.com/rust-embedded-community/usbd-serial) USB 上位机 驱动开发库。
+- [stm32-usbd](https://github.com/stm32-rs/stm32-usbd) USB STM32 驱动开发库。
 
 ## 兼容
 

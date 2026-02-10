@@ -11,6 +11,7 @@
 - [AndroidHiddenApiBypass](https://github.com/LSPosed/AndroidHiddenApiBypass) 安卓隐藏 API 调用库。
 - [LSPosed](https://github.com/LSPosed/LSPosed) Xposed 的延续。
 - [Xposed](https://github.com/rovo89/Xposed)
+- [SerialPortHelper](https://github.com/freyskill/SerialPortHelper) 串口开发库。
 
 ## 开发工具
 

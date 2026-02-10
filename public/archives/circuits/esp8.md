@@ -6,3 +6,5 @@
 其价格要比 ESP32 系列的便宜，用来做 WIFI 控制开关成本可以比 ESP32 系列少很多，但是其算力有限做其他事就差很多了。
 
 不过乐鑫官方开发支持少，ESP-IDF 只支持 ESP32 系列，不过好在此系列发布早于 ESP32 多年有不少开源支持。
+
+- [ESP8266_RTOS_SDK](https://github.com/espressif/ESP8266_RTOS_SDK) IDF 风格的 RTOS

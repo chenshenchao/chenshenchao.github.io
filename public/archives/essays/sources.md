@@ -14,7 +14,8 @@
 
 ## 开源书籍
 
-- [LLMs-from-scratch（从零构建大模型）](https://github.com/rasbt/LLMs-from-scratch) 英文原版仓库。
+- [《LLMs-from-scratch（从零构建大模型）》](https://github.com/rasbt/LLMs-from-scratch) 英文原版仓库。
+- [《hello-algo（Hello 算法）》](https://github.com/krahets/hello-algo)
 
 ## 资源站点
 
@@ -26,6 +27,10 @@
 - [国家智慧教育公共服务平台](https://www.smartedu.cn/)
 - [中国职业技术教育网](https://www.chinazy.org/)
 - [天地图](https://www.tianditu.gov.cn/) 国家地理信息公共服务平台，有提供API服务。
+
+## awesome
+
+- [awesome-electronics](https://github.com/kitspace/awesome-electronics) 电子相关。
 
 ### 数据站点
 
@@ -60,6 +65,8 @@
 - [trae](https://www.trae.ai) 字节编程 AI IDE
 - [qcoder](https://qoder.com) 阿里编程 AI IDE
 - [qwen code](https://github.com/QwenLM/qwen-code) qwen code 源码
+- [LM Studio](https://lmstudio.ai/) 本地模型 AI IDE
+- [lms](https://github.com/lmstudio-ai/lms) LM Studio 命令行工具。
 
 ```bash
 # claude code 命令行工具
@@ -112,7 +119,8 @@ qwen
 
 ### 文件处理工具
 
-- [pdfcpu](https://github.com/pdfcpu/pdfcpu) PDF 命令行工具（GO 语言）
+- [pdfcpu](https://github.com/pdfcpu/pdfcpu) PDF 命令行工具（GO 语言）。
+- [MinerU](https://github.com/opendatalab/MinerU) 基于 LLM 的 PDF 转 markdown、json 的命令行工具。
 - [vtracer](https://github.com/visioncortex/vtracer) 像素图(gif、jpg、png等)转SVG命令行工具。
 - [potrace](https://potrace.sourceforge.net/) 像素图（pnm、bmp等）转SVG命令行工具。
 - [EasyDb](https://github.com/shencangsheng/easydb_app) 用 SQL 像数据库一样处理 CSV、JSON、Excel 等文件的查询。
@@ -126,6 +134,7 @@ qwen
 - [Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy) 可执行文件等多种文件查看探测器。
 - [DIE-engine](https://github.com/horsicq/DIE-engine) DIE 下载点。
 - [ghidra](https://github.com/NationalSecurityAgency/ghidra) 逆向分析工具。
+- [frida](https://github.com/frida/frida) 逆向插桩工具。
 - [Dependencies](https://github.com/lucasg/Dependencies) C# 重写 depends.exe，用于查看 DLL 依赖的图形工具。
 
 ### 监控工具
@@ -164,7 +173,7 @@ qwen
 - [zookeeper](https://github.com/apache/zookeeper) Java 开发的配置管理服务器。
 - [eureka](https://github.com/Netflix/eureka) Netflix 用 Java 开发的配置管理服务器。
 - [ONLYOFFICE](https://github.com/ONLYOFFICE) 囊括了 microsoft office 以及 adobe pdf 等办公文件处理和前端插件的一套技术解决方案，有免费版本。
-- [JasperReports](https://www.jaspersoft.com/products/jaspersoft-community) Java 开发的报表软件，[GitHub仓库](https://github.com/Jaspersoft/jasperreports)，功能上比市面上的 FastReport、ActiveReports 等要少一些，但是胜在有免费版。
+- [nats-server](https://github.com/nats-io/nats-server) 消息中间件服务，支持发布订阅（Pub/Sub）、请求响应（Request/Reply）、队列订阅（Queue） 三种核心通信模式。
 
 ### 硬件设计工具
 
@@ -176,6 +185,9 @@ qwen
 - [horizon](https://github.com/horizon-eda/horizon) 开源 EDA 。
 - [SerialTool](https://github.com/skiars/SerialTool) 串口工具。
 - [OpenCircuits](https://github.com/OpenCircuits/OpenCircuits) 数字电路仿真。
+- [stcgal](https://github.com/grigorig/stcgal) STC MCU ISP 烧录工具。
+- [eide](https://github.com/github0null/eide) 支持  mcs51/stm8/avr/cortex-m/riscv 的 VSCODE 插件。
+- [openocd(Open On-Chip Debugger)](https://github.com/openocd-org/openocd) 嵌入式调试器。
 
 
 ### 硬件项目
@@ -183,6 +195,7 @@ qwen
 - [ESPboy_GameBoy](https://github.com/ESPboy-edu/ESPboy_GameBoy) ESP 上的 GameBoy 模拟器。
 - [CH552-DAPLink](https://github.com/wagiminator/CH552-DAPLink) 基于 CH552 开发的 DAPLink 固件源码。
 - [CH55x_HS_DAP-Link-v2](https://github.com/posystorage/CH55x_HS_DAP-Link-v2) 基于 CH552 开发的 DAPLink。
+- [LonelyWolf stm32](https://github.com/LonelyWolf/stm32) 一些 STM32 外设示例项目。
 
 ### 游戏
 

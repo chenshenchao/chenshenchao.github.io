@@ -27,8 +27,10 @@
 
 ### 嵌入式相关
 
+- [CMSIS-Driver](https://github.com/ARM-software/CMSIS-Driver) CMSIS 驱动源码。
 - [lvgl](https://github.com/lvgl/lvgl) 
 - [u8g2](https://github.com/olikraus/u8g2) 显示屏库。
 - [ssd1306](https://github.com/lexus2k/ssd1306) 显示屏库。
+- [stm32-ssd1306](https://github.com/afiskon/stm32-ssd1306) STM32 SSD1306 显示屏库。
 - [ER_OLEDM1_CH1115](https://github.com/gavinlyonsrepo/ER_OLEDM1_CH1115) CH1115 屏幕驱动。
 - [stlink](https://github.com/stlink-org/stlink) stlink 工具集。

@@ -17,6 +17,7 @@
 - [adonis-ui](https://github.com/benruehl/adonis-ui) UI 组件库。
 - [ControlzEx](https://github.com/ControlzEx/ControlzEx) ToolTip 等 Z 轴相关组件库。
 - [PropertyChanged](https://github.com/Fody/PropertyChanged) 依赖属性方便库。
+- [DevExpress.Mvvm.Free](https://github.com/DevExpress/DevExpress.Mvvm.Free) 工具库。
 
 ## Xamarin 和 MAUI
 

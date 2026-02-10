@@ -34,6 +34,7 @@
 - [wxWidgets](https://github.com/wxWidgets/wxWidgets) UI 开发库。
 - [wxFormBuilder](https://github.com/wxFormBuilder/wxFormBuilder) wxWidgets Form 图形化绘制工具。
 - [assimp](https://github.com/assimp/assimp) 支持 40+ 种 3D 资源文件加载库。
+- [SFML](https://github.com/SFML/SFML) 多媒体库。
 
 ### boost
 

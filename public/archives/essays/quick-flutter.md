@@ -69,6 +69,7 @@ flutter logs --clear
 - [flutter_esc_pos_utils](https://github.com/mjafartp/flutter_esc_pos_utils) ESC/POS 打印协议封装。
 - [tdesign](https://github.com/Tencent/tdesign-flutter) tdesign 的 flutter 版本，目前 alpha 阶段。
 - [ResponsiveFramework](https://github.com/Codelessly/ResponsiveFramework) 响应式框架，不太实用。
+- [styled_widget](https://github.com/ReinBentdal/styled_widget) 链式的组件库。
 
 ## 常见问题
 
