@@ -67,7 +67,7 @@ npx create-expo-app
 - [react-router](https://github.com/remix-run/react-router) v7 及以后 路由库，TS 写的，无需 @types 库。
 - [react-router-dom](https://github.com/remix-run/react-router) （旧 v6 以及之前的路由库，TS 的话需要 @types/react-router-dom）。
 - [loadable-components](https://github.com/gregberge/loadable-components) React 有自带的 lazy 函数，这个组件是在 React 没提供时期做的，后来 React 自带了，但是这个库的功能更多。
-- [ahook](https://github.com/alibaba/hooks) 扩展钩子(Hook)库。
+- [ahooks](https://github.com/alibaba/hooks) 扩展钩子(Hook)库。
 - [react-use](https://github.com/streamich/react-use) 扩展钩子(Hook)库。
 - [redux](https://github.com/reduxjs/redux) 状态管理，厚重稳定。类似 vue 的 vuex 或 pinia 。
 - [redux-persist](https://github.com/rt2zz/redux-persist) redux 持久化扩展，多年不更新，对新 redux 有点小问题。

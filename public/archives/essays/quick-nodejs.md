@@ -1,5 +1,9 @@
 # nodejs 速查
 
+- [nvm](https://github.com/nvm-sh/nvm)
+- [nvm-windows](https://github.com/coreybutler/nvm-windows)
+- [farm](https://github.com/farm-fe/farm) rust 开发的兼容 vite 的构建工具。
+
 ## 包管理器
 
 ### npm

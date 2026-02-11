@@ -33,6 +33,9 @@
 - [zlib.js](https://github.com/imaya/zlib.js) zlib 库。
 - [protobuf.js](https://github.com/protobufjs/protobuf.js) protobuf 实现。
 - [transformers.js](https://github.com/huggingface/transformers.js) huggingface 开发用于浏览器端运行 transformers 模型的框架。
+- [gif.js](https://github.com/jnordberg/gif.js) gif 图片处理库。
+- [vector-drawable-svg](https://github.com/seanghay/vector-drawable-svg) 安卓图标资源（VectorDrawable）转 SVG 库。
+- [jsPDF](https://github.com/parallax/jsPDF) PDF 生成库。
 
 ## NodeJs
 

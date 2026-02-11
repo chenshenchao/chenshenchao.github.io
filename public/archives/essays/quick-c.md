@@ -16,10 +16,12 @@
 - [msquic](https://github.com/microsoft/msquic) 微软的 QUIC 实现库。
 - [zpl](https://github.com/zpl-c/zpl) 工具集合库。
 - [enet](https://github.com/zpl-c/enet) UDP 框架。
+- [sqlcipher](https://github.com/sqlcipher/sqlcipher) fork SQLite 加入了数据库文件 256bit AES 加密。
 
 ### UI 图形库。
 
 - [sokol](https://github.com/floooh/sokol) 跨平台包括 3D 图形、多媒体等的单头文件库。
+- [SDL](https://github.com/libsdl-org/SDL) 
 - [libui](https://github.com/andlabs/libui) UI 图形库。
 - [libui-ng](https://github.com/libui-ng/libui-ng) fork libui 的 UI 图形库。
 - [raygui](https://github.com/raysan5/raygui) 设计风格比较独特的 UI 图形库。
@@ -33,4 +35,9 @@
 - [ssd1306](https://github.com/lexus2k/ssd1306) 显示屏库。
 - [stm32-ssd1306](https://github.com/afiskon/stm32-ssd1306) STM32 SSD1306 显示屏库。
 - [ER_OLEDM1_CH1115](https://github.com/gavinlyonsrepo/ER_OLEDM1_CH1115) CH1115 屏幕驱动。
+- [emwin](https://github.com/Infineon/emwin)
 - [stlink](https://github.com/stlink-org/stlink) stlink 工具集。
+- [ioLibrary_Driver](https://github.com/Wiznet/ioLibrary_Driver) WizNet 的 W5500、W5100 等的驱动。
+- [libwdi](https://github.com/pbatard/libwdi) Windows 下的 USB 驱动开发库。
+- [FwLib_STC8](https://github.com/IOsetting/FwLib_STC8) STC8 固件库。
+- [u-boot](https://github.com/u-boot/u-boot) 引导加载程序。

@@ -306,6 +306,7 @@ fi
 - [rlt](https://github.com/wfxr/rlt) 多种协议的压力测试工具开发库。
 - [clap](https://github.com/clap-rs/clap) 命令行命令开发库。
 - [rxRust](https://github.com/rxRust/rxRust) rx
+- [ritual](https://github.com/rust-qt/ritual) 封装一些 C++ 库成 rust 库，主要封装 Qt。
 
 ### UI 库
 
@@ -314,6 +315,7 @@ fi
 - [Relm4](https://github.com/Relm4/Relm4)
 - [kas](https://github.com/kas-gui/kas)
 - [druid](https://github.com/linebender/druid)
+- [orbtk](https://github.com/redox-os/orbtk)
 - [freya](https://github.com/marc2332/freya) 依赖 dioxus 做的扩展。
 - [gpui](https://www.gpui.rs/) Zed 编辑器团队开发的框架，源码在[zed 仓库](https://github.com/zed-industries/zed)里。
 - [gpui-component](https://github.com/longbridge/gpui-component) 基于 GPUI 的控件库。
@@ -363,6 +365,9 @@ fi
 - [usb-device](https://github.com/rust-embedded-community/usb-device) USB MCU 驱动开发库。
 - [usbd-serial](https://github.com/rust-embedded-community/usbd-serial) USB 上位机 驱动开发库。
 - [stm32-usbd](https://github.com/stm32-rs/stm32-usbd) USB STM32 驱动开发库。
+- [pc-keyboard](https://github.com/rust-embedded-community/pc-keyboard) PS/2 键值解析。
+- [bootloader](https://github.com/rust-osdev/bootloader) x86 引导程序。
+- [bootimage](https://github.com/rust-osdev/bootimage) 生成操作系统镜像工具。
 
 ## 兼容
 

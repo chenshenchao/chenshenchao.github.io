@@ -2,6 +2,8 @@
 
 kivy 的设计有点类似 Flutter（2017年发布） ，但是由于其还是设计得比较早（2011年发布），所以有些东西设计得还不够好。没有新出的框架在代码设计上先进。
 
+- [GitHub 源码仓库](https://github.com/kivy/kivy)
+
 ## 常用库
 
 - [KivyMD](https://github.com/kivymd/KivyMD) 基于 Kivy 框架的 Material Design（安卓的UI设计风格）的组件库。

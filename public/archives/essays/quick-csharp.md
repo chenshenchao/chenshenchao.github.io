@@ -18,6 +18,7 @@
 - [ControlzEx](https://github.com/ControlzEx/ControlzEx) ToolTip 等 Z 轴相关组件库。
 - [PropertyChanged](https://github.com/Fody/PropertyChanged) 依赖属性方便库。
 - [DevExpress.Mvvm.Free](https://github.com/DevExpress/DevExpress.Mvvm.Free) 工具库。
+- [CalcBinding](https://github.com/Alex141/CalcBinding) 提供 XAML 里写计算表达式的绑定。
 
 ## Xamarin 和 MAUI
 

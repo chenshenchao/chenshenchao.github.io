@@ -85,7 +85,9 @@ npm install -g @qwen-code/qwen-code
 qwen
 ```
 
-### AI 界面设计工具
+### AI 工具
+
+- [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
 ### AI 版本控制工具
 
@@ -96,6 +98,8 @@ qwen
 - [Bochs](https://github.com/bochs-emu/Bochs) 跨平台的 x86 模拟器。
 - [Sandboxie](https://github.com/sandboxie/sandboxie) Windows 沙盒。
 - [Sandboxie plus](https://github.com/sandboxie-plus/Sandboxie) Windows 沙盒。
+- [usbipd-win](https://github.com/dorssel/usbipd-win) Windows 下共享 USB 设备给 Hyper-V 和 WSL2 的命令行工具。
+- [gameboy](https://github.com/mohanson/gameboy) rust 开发的 GameBoy 模拟器。
 
 ### 项目版本管理工具
 
@@ -136,6 +140,8 @@ qwen
 - [ghidra](https://github.com/NationalSecurityAgency/ghidra) 逆向分析工具。
 - [frida](https://github.com/frida/frida) 逆向插桩工具。
 - [Dependencies](https://github.com/lucasg/Dependencies) C# 重写 depends.exe，用于查看 DLL 依赖的图形工具。
+- [CyberChef](https://github.com/gchq/CyberChef) 纯静态网页的加密算法、日期格式化等方便工具。
+- [vector-drawable-nextjs](https://github.com/seanghay/vector-drawable-nextjs) 安卓图标资源（VectorDrawable）转 SVG 工具。
 
 ### 监控工具
 
@@ -184,10 +190,17 @@ qwen
 - [LibrePCB](https://github.com/LibrePCB/LibrePCB) 开源 EDA 。
 - [horizon](https://github.com/horizon-eda/horizon) 开源 EDA 。
 - [SerialTool](https://github.com/skiars/SerialTool) 串口工具。
-- [OpenCircuits](https://github.com/OpenCircuits/OpenCircuits) 数字电路仿真。
+- [circuitjs1](https://github.com/sharpie7/circuitjs1) 模拟电路仿真。
+- [circuit-simulator](https://github.com/hausen/circuit-simulator) 模拟电路仿真。
+- [logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) 数字电路仿真器。
+- [Digital](https://github.com/hneemann/Digital) 数字电路仿真器。
+- [OpenCircuits](https://github.com/OpenCircuits/OpenCircuits) 数字电路仿真器。
+- [CircuitVerse](https://github.com/CircuitVerse/CircuitVerse) 数字电路仿真器。
 - [stcgal](https://github.com/grigorig/stcgal) STC MCU ISP 烧录工具。
 - [eide](https://github.com/github0null/eide) 支持  mcs51/stm8/avr/cortex-m/riscv 的 VSCODE 插件。
 - [openocd(Open On-Chip Debugger)](https://github.com/openocd-org/openocd) 嵌入式调试器。
+- [brlcad](https://github.com/BRL-CAD/brlcad) 安装后桌面多出3个图标，打开后没看懂是干嘛的。
+- [sunxi-tools](https://github.com/linux-sunxi/sunxi-tools) Sunxi 工具库。
 
 
 ### 硬件项目
@@ -196,7 +209,10 @@ qwen
 - [CH552-DAPLink](https://github.com/wagiminator/CH552-DAPLink) 基于 CH552 开发的 DAPLink 固件源码。
 - [CH55x_HS_DAP-Link-v2](https://github.com/posystorage/CH55x_HS_DAP-Link-v2) 基于 CH552 开发的 DAPLink。
 - [LonelyWolf stm32](https://github.com/LonelyWolf/stm32) 一些 STM32 外设示例项目。
+- [pulseview](https://github.com/sigrokproject/pulseview) 数字逻辑分析仪上位机分析软件。
+- [nanoDLA](https://github.com/wuxx/nanoDLA) 支持 pulseview 的数字逻辑分析仪。
 
 ### 游戏
 
 - [Microverse](https://github.com/KsanaDock/Microverse) Godot 上帝视角沙盒游戏。
+- [jynew](https://github.com/jynew/jynew) 金庸群侠传3D重置。
