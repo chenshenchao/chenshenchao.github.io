@@ -34,6 +34,8 @@
 - [protobuf.js](https://github.com/protobufjs/protobuf.js) protobuf 实现。
 - [transformers.js](https://github.com/huggingface/transformers.js) huggingface 开发用于浏览器端运行 transformers 模型的框架。
 - [gif.js](https://github.com/jnordberg/gif.js) gif 图片处理库。
+- [gifify](https://github.com/vvo/gifify) 视频转 gif 图片库。
+- [freezeframe.js](https://github.com/ctrl-freaks/freezeframe.js) 控制 gif 动画播放。
 - [vector-drawable-svg](https://github.com/seanghay/vector-drawable-svg) 安卓图标资源（VectorDrawable）转 SVG 库。
 - [jsPDF](https://github.com/parallax/jsPDF) PDF 生成库。
 

@@ -16,6 +16,8 @@
 
 - [《LLMs-from-scratch（从零构建大模型）》](https://github.com/rasbt/LLMs-from-scratch) 英文原版仓库。
 - [《hello-algo（Hello 算法）》](https://github.com/krahets/hello-algo)
+- [《Writing an OS in Rust》](https://github.com/phil-opp/blog_os) 《Writing an OS in Rust》 英文版
+- [《writing-an-os-in-rust（使用Rust编写操作系统）》](https://github.com/rustcc/writing-an-os-in-rust) 中文版
 
 ## 资源站点
 
@@ -101,10 +103,11 @@ qwen
 - [usbipd-win](https://github.com/dorssel/usbipd-win) Windows 下共享 USB 设备给 Hyper-V 和 WSL2 的命令行工具。
 - [gameboy](https://github.com/mohanson/gameboy) rust 开发的 GameBoy 模拟器。
 
-### 项目版本管理工具
+### 项目与版本管理工具
 
 - [git]()
 - [monorepo]()
+- [gauge](https://github.com/getgauge/gauge) 测试套件
 
 ### 架构设计工具
 
@@ -113,13 +116,21 @@ qwen
 - [DrawIO](https://github.com/jgraph/drawio-desktop) 流程图、架构图、导图软件。
 - [DrawDB](https://github.com/drawdb-io/drawdb) 数据库设计图形工具。
 
-### 编辑器
+### 编辑器与IDE
 
 - [Zed](https://zed.dev/) rust 开发，打开很快，可以取代 Notepad++ 。
 - [NotepadNext](https://github.com/dail8859/NotepadNext) Notepad++ 重新实现版。
 - [lapce](https://github.com/lapce/lapce) rust 开发
 - [helix](https://github.com/helix-editor/helix) 类 vim 的命令行文本编辑器。
 - [LiteXL](https://github.com/lite-xl/lite-xl) 打开稍快于 VSCode 但功能又弱之。
+- [VisualMASM](https://github.com/ThomasJaeger/VisualMASM) MASM IDE
+
+### 编译器、解释器、构造工具与代码生成器
+
+- [svg-filters](https://github.com/yoksel/svg-filters) SVG 滤镜代码生成器。
+- [dmc](https://github.com/DigitalMars/dmc) Digital Mars C/C++ 编译器。
+- [lisp](https://github.com/robpike/lisp) 一个 Lisp 1.5 解释器。(Go 语言)
+- [ninja](https://github.com/ninja-build/ninja) 谷歌用于取代 make 的跨平台构建脚本。
 
 ### 文件处理工具
 
@@ -153,9 +164,14 @@ qwen
 ### 代理
 
 - [tun2proxy](https://github.com/tun2proxy/tun2proxy) socks 代理
+- [Clash-for-Windows_Chinese](https://github.com/Z-Siqi/Clash-for-Windows_Chinese) clash 中文汉化版
+- [v2rayNG](https://github.com/2dust/v2rayNG) 安卓
+- [v2rayN](https://github.com/2dust/v2rayN) 桌面
+- [hysteria](https://github.com/apernet/hysteria)
 
 ### 服务型工具
 
+- [caddy](https://github.com/caddyserver/caddy) go 语言实现的类 nginx 的服务器。
 - [oceanbase](https://github.com/oceanbase/oceanbase) 阿里蚂蚁开发的分布式关系数据库。
 - [milvus](https://milvus.io) 向量数据库(GO 语言)，官方给出了很多应用示例（RAG、图搜等）快速开发应用。
 - [weaviate](https://github.com/weaviate/weaviate) 向量数据库(GO 语言)
@@ -214,5 +230,20 @@ qwen
 
 ### 游戏
 
-- [Microverse](https://github.com/KsanaDock/Microverse) Godot 上帝视角沙盒游戏。
+- [minecraft-again](https://github.com/jdah/minecraft-again) 我的世界复刻。
+- [Microverse](https://github.com/KsanaDock/Microverse) Godot 上帝视 2D 角沙盒游戏。
 - [jynew](https://github.com/jynew/jynew) 金庸群侠传3D重置。
+- [LibreMaple-Client](https://github.com/YohananTzeviyah/LibreMaple-Client) 冒险岛客户端复刻。
+- [LibreMaple-Client](https://github.com/Libre-Maple/LibreMaple-Client) 冒险岛客户端复刻。
+- [MapleSolaxiaV2](https://github.com/Libre-Maple/MapleSolaxiaV2) 冒险岛服务端复刻。
+- [MapleStory](https://github.com/ellermister/MapleStory) 冒险岛服务端复刻（对应客户端是二进制修改的官方客户端，没有源码）。
+- [WzComparerR2](https://github.com/Kagamia/WzComparerR2) 冒险岛资源提取器。
+- [MapleStory-GM-Client](https://github.com/Elem8100/MapleStory-GM-Client) 离线冒险岛客户端模拟器。（Delphi）
+- [MapleNecrocer](https://github.com/Elem8100/MapleNecrocer) 离线冒险岛客户端模拟器。（C#）
+- [MapleServer2](https://github.com/AlanMorel/MapleServer2) 冒险岛2 服务端复刻，仅用于教学。
+
+### 游戏素材
+
+- [Universal-LPC-Spritesheet-Character-Generator](https://github.com/LiberatedPixelCup/Universal-LPC-Spritesheet-Character-Generator) 纸娃娃素材生成器。
+- [Universal-LPC-Spritesheet-Character-Generator](https://github.com/sanderfrenken/Universal-LPC-Spritesheet-Character-Generator) 纸娃娃素材生成器。
+- [Universal-LPC-spritesheet](https://github.com/makrohn/Universal-LPC-spritesheet) 纸娃娃素材。

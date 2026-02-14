@@ -2,6 +2,8 @@
 
 [GitHub 源码](https://github.com/golang/go)
 
+- [glog](https://github.com/golang/glog)
+
 ## 常用库
 
 - [logrus](https://github.com/sirupsen/logrus) 结构化的日志库。
@@ -18,6 +20,9 @@
 - [gorm](https://github.com/go-gorm/gorm) 国人开发的 ORM ，动态类型，功能比较全。
 - [sqlx](https://github.com/jmoiron/sqlx) 扩展标准库 database/sql 的三方库。
 - [go-mysql](https://github.com/go-mysql-org/go-mysql) 纯 Go 实现的 MySQL 客户端，支持binlog做数据迁移。
+- [go-redis](https://github.com/redis/go-redis) redis 客户端。
+- [redigo](https://github.com/gomodule/redigo) redis 客户端。
+- [go-duckdb](https://github.com/marcboeker/go-duckdb) database/sql 的 duckDB 引擎。
 - [btree](https://github.com/google/btree) 谷歌开发的一个b树实现。
 - [go-adaptive-radix-tree](https://github.com/plar/go-adaptive-radix-tree) ART树实现。
 - [tinygo](https://github.com/tinygo-org/tinygo) GO 的 MCU、WASM 编译器。

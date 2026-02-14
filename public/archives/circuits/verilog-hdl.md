@@ -1,5 +1,9 @@
 # [草稿] Verilog HDL 
 
+- [TangNano-1K-examples](https://github.com/sipeed/TangNano-1K-examples)
+- [TangPrimer-20K-example](https://github.com/sipeed/TangPrimer-20K-example)
+- [Nano-Doc-Backup](https://github.com/sipeed/Nano-Doc-Backup)
+
 - (01) 上升沿
 - r 上升沿 raise
 - (10) 下降沿
