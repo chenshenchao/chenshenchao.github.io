@@ -11,3 +11,4 @@
 - [rust-bitcoincore-rpc](https://github.com/rust-bitcoin/rust-bitcoincore-rpc) rust 语言的比特币 JSON-RPC 客户端。
 - [solana](https://github.com/solana-labs/solana) 区块链基础项目。
 - [agave](https://github.com/anza-xyz/agave) fork solana 扩展的区块链基础项目。
+- [diem](https://github.com/diem/diem)

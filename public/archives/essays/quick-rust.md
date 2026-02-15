@@ -118,7 +118,9 @@ cargo build --release --target=x86_64-unknown-linux-musl
 
 包管理工具。
 
-[官方仓库](https://crates.io)
+- [官方仓库](https://crates.io)
+- [cargo binstall](https://github.com/cargo-bins/cargo-binstall) 对于使用了 C/C++ 的非纯 rust 工具，cargo install 需要配置环境很麻烦，用 binstall 可以直接下载编译好的来安装。
+- [cargo-edit](https://github.com/killercup/cargo-edit) 通过命令行来修改 Cargo.toml 文件。（挺搞笑的扩展）
 
 ### 配置镜像
 
@@ -350,7 +352,6 @@ fi
 
 ### 底层扩展
 
-- [cargo binstall](https://github.com/cargo-bins/cargo-binstall) 对于使用了 C/C++ 的非纯 rust 工具，cargo install 需要配置环境很麻烦，用 binstall 可以直接下载编译好的来安装。
 - [PyO3](https://github.com/PyO3/pyo3) 开发 Python 库。
 - [iced](https://github.com/icedland/iced) x86 的汇编器、反汇编器等功能的库，支持多种语言。
 - [probe-rs](https://github.com/probe-rs/probe-rs) ARM、RISC-V 调试工具开发库。

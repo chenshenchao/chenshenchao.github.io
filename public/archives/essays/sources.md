@@ -102,6 +102,7 @@ qwen
 - [Sandboxie plus](https://github.com/sandboxie-plus/Sandboxie) Windows 沙盒。
 - [usbipd-win](https://github.com/dorssel/usbipd-win) Windows 下共享 USB 设备给 Hyper-V 和 WSL2 的命令行工具。
 - [gameboy](https://github.com/mohanson/gameboy) rust 开发的 GameBoy 模拟器。
+- [gbdk-2020](https://github.com/gbdk-2020/gbdk-2020) GameBoy 开发套件。
 
 ### 项目与版本管理工具
 
@@ -153,6 +154,7 @@ qwen
 - [Dependencies](https://github.com/lucasg/Dependencies) C# 重写 depends.exe，用于查看 DLL 依赖的图形工具。
 - [CyberChef](https://github.com/gchq/CyberChef) 纯静态网页的加密算法、日期格式化等方便工具。
 - [vector-drawable-nextjs](https://github.com/seanghay/vector-drawable-nextjs) 安卓图标资源（VectorDrawable）转 SVG 工具。
+- [PDFPatcher](https://github.com/wmjordan/PDFPatcher) PDF 编辑工具。
 
 ### 监控工具
 
@@ -172,6 +174,7 @@ qwen
 ### 服务型工具
 
 - [caddy](https://github.com/caddyserver/caddy) go 语言实现的类 nginx 的服务器。
+- [marqo](https://github.com/marqo-ai/marqo) 基于 AI 的产品搜索服务，文本、图片等来搜索产品。
 - [oceanbase](https://github.com/oceanbase/oceanbase) 阿里蚂蚁开发的分布式关系数据库。
 - [milvus](https://milvus.io) 向量数据库(GO 语言)，官方给出了很多应用示例（RAG、图搜等）快速开发应用。
 - [weaviate](https://github.com/weaviate/weaviate) 向量数据库(GO 语言)
@@ -209,6 +212,7 @@ qwen
 - [circuitjs1](https://github.com/sharpie7/circuitjs1) 模拟电路仿真。
 - [circuit-simulator](https://github.com/hausen/circuit-simulator) 模拟电路仿真。
 - [logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) 数字电路仿真器。
+- [platformio-core](https://github.com/platformio/platformio-core) 嵌入式软件开发平台。
 - [Digital](https://github.com/hneemann/Digital) 数字电路仿真器。
 - [OpenCircuits](https://github.com/OpenCircuits/OpenCircuits) 数字电路仿真器。
 - [CircuitVerse](https://github.com/CircuitVerse/CircuitVerse) 数字电路仿真器。
@@ -227,6 +231,7 @@ qwen
 - [LonelyWolf stm32](https://github.com/LonelyWolf/stm32) 一些 STM32 外设示例项目。
 - [pulseview](https://github.com/sigrokproject/pulseview) 数字逻辑分析仪上位机分析软件。
 - [nanoDLA](https://github.com/wuxx/nanoDLA) 支持 pulseview 的数字逻辑分析仪。
+- [avr-progisp-programmer](https://github.com/ioelectro/avr-progisp-programmer)
 
 ### 游戏
 
@@ -247,3 +252,12 @@ qwen
 - [Universal-LPC-Spritesheet-Character-Generator](https://github.com/LiberatedPixelCup/Universal-LPC-Spritesheet-Character-Generator) 纸娃娃素材生成器。
 - [Universal-LPC-Spritesheet-Character-Generator](https://github.com/sanderfrenken/Universal-LPC-Spritesheet-Character-Generator) 纸娃娃素材生成器。
 - [Universal-LPC-spritesheet](https://github.com/makrohn/Universal-LPC-spritesheet) 纸娃娃素材。
+
+### 系统
+
+- [MOOS](https://github.com/nifanfa/MOOS) C# 开发的 x64 操作系统，基于 .NET AOT。
+
+
+### chrome 插件
+
+- [CSS-Diff](https://github.com/kdzwinel/CSS-Diff) 比较 HTML 元素的样式差异。

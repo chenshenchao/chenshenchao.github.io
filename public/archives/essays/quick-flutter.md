@@ -70,6 +70,7 @@ flutter logs --clear
 - [tdesign](https://github.com/Tencent/tdesign-flutter) tdesign 的 flutter 版本，目前 alpha 阶段。
 - [ResponsiveFramework](https://github.com/Codelessly/ResponsiveFramework) 响应式框架，不太实用。
 - [styled_widget](https://github.com/ReinBentdal/styled_widget) 链式的组件库。
+- [flutter_form_builder](https://github.com/flutter-form-builder-ecosystem/flutter_form_builder) Form 组件库。
 
 ## 常见问题
 

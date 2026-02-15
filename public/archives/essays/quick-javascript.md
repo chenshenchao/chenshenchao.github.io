@@ -38,6 +38,7 @@
 - [freezeframe.js](https://github.com/ctrl-freaks/freezeframe.js) 控制 gif 动画播放。
 - [vector-drawable-svg](https://github.com/seanghay/vector-drawable-svg) 安卓图标资源（VectorDrawable）转 SVG 库。
 - [jsPDF](https://github.com/parallax/jsPDF) PDF 生成库。
+- [pdf.js](https://github.com/mozilla/pdf.js) PDF 展示库。
 
 ## NodeJs
 

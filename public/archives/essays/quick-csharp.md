@@ -23,3 +23,15 @@
 ## Xamarin 和 MAUI
 
 - [dotnet-bluetooth-le](https://github.com/dotnet-bluetooth-le/dotnet-bluetooth-le) 蓝牙库。
+
+## AvaloniaUI
+
+第三方的基于 skia 做渲染的 UI 框架，代码风格接近 WPF 。
+
+- [Avalonia](https://github.com/AvaloniaUI/Avalonia)
+- [SukiUI](https://github.com/kikipoulet/SukiUI)
+
+## uno
+
+- [uno](https://github.com/unoplatform/uno)
+

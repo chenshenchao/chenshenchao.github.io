@@ -87,7 +87,13 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [dinov2](https://github.com/facebookresearch/dinov2) 脸书开源视觉图像模型。
 - [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) 肢体语言识别。
 - [stable-diffusion](https://github.com/CompVis/stable-diffusion) 
-- [ESRGAN](https://github.com/xinntao/ESRGAN)
+- [ESRGAN](https://github.com/xinntao/ESRGAN) 生图，预训练模型中文支持很差。
+- [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) 生图，预训练模型中文支持很差。
+- [ControlNet](https://github.com/lllyasviel/ControlNet) 通过参考图控制图片的生成的模型。
+- [bark](https://github.com/suno-ai/bark) 文本生成音频。
+- [roop](https://github.com/s0md3v/roop) 换脸。
+- [whisper-web](https://github.com/xenova/whisper-web) TTS 模型，预训练模型中文支持很差。
+- [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
 
 ## AI 应用开发
 
