@@ -6,6 +6,7 @@
 
 ## 常用库
 
+- [spring-boot](https://github.com/spring-projects/spring-boot)
 - [zxing](https://github.com/zxing/zxing) 条形码、二维码识别库。
 - [rhino](https://github.com/mozilla/rhino) 一个 JavaScript 实现。
 - [jooq(Java Object Oriented Querying)](https://github.com/jOOQ/jOOQ) 只有查询功能的 ORM ，需要构建配置代码生成。

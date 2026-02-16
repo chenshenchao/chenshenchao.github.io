@@ -35,11 +35,14 @@ python -m http.server 8000
 - [pytest-order](https://github.com/pytest-dev/pytest-order) pytest 单元测试排序。
 - [pinout](https://github.com/j0ono0/pinout) 用于生成硬件引脚SVG图的库。
 - [qiskit](https://github.com/Qiskit/qiskit) 量子计算库。
+- [paramiko](https://github.com/paramiko/paramiko) ssh v2 库。
+- [redis-py](https://github.com/redis/redis-py) redis 客户端。
 
 ### UI 库
 
 - [kivy](https://github.com/kivy/kivy) UI框架，主移动端。
 - [toga](https://github.com/beeware/toga) UI 框架，主桌面端。
+- [cefpython](https://github.com/cztomczak/cefpython) CEF 绑定库。
 
 ### Web 库
 

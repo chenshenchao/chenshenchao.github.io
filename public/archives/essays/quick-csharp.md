@@ -6,6 +6,9 @@
 - [obfuscar](https://github.com/obfuscar/obfuscar) 代码混淆。
 - [reactive](https://github.com/dotnet/reactive) rx
 - [shiny](https://github.com/shinyorg/shiny) 跨平台的后台进程库。
+- [serilog-extensions-logging-file](https://github.com/serilog/serilog-extensions-logging-file) 日志写入文件扩展。
+- [lucenenet](https://github.com/apache/lucenenet) Lucene 的 .Net 版本，倒排索引库。
+- [elfsharp](https://github.com/konrad-kruczynski/elfsharp) ELF 库。
 
 ## WPF
 
@@ -19,6 +22,9 @@
 - [PropertyChanged](https://github.com/Fody/PropertyChanged) 依赖属性方便库。
 - [DevExpress.Mvvm.Free](https://github.com/DevExpress/DevExpress.Mvvm.Free) 工具库。
 - [CalcBinding](https://github.com/Alex141/CalcBinding) 提供 XAML 里写计算表达式的绑定。
+- [moq](https://github.com/devlooped/moq) mock 库。
+- [MiniExcel](https://github.com/mini-software/MiniExcel) Excel 处理库。
+- [wix3](https://github.com/wixtoolset/wix3) wix3 打包工具集。
 
 ## Xamarin 和 MAUI
 

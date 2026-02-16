@@ -2,6 +2,7 @@
 
 ## 常用库
 
+- [unplugin-dts](https://github.com/qmhc/unplugin-dts) 支持多种构造工具的通过 *.ts、*.vue 生成 *.d.ts 文件的构造工具插件。
 - [date-fns](https://github.com/date-fns/date-fns) 日期库
 - [es-toolkit](https://github.com/toss/es-toolkit) 类 lodash 工具库。
 - [radash](https://github.com/sodiray/radash) 类 lodash 工具库。

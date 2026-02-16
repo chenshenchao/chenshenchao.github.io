@@ -349,6 +349,7 @@ fi
 - [PoloDB](https://github.com/PoloDB/PoloDB) 可内嵌的文档数据库。
 - [native_db](https://github.com/vincent-herlemont/native_db) 可内嵌的关系型数据库，不支持 SQL 语言，只能靠 API 操作。
 - [redb](https://github.com/cberner/redb) 可内嵌的键值对数据库。
+- [tantivy](https://github.com/quickwit-oss/tantivy) 可内嵌的全文搜索库。
 
 ### 底层扩展
 
@@ -369,6 +370,7 @@ fi
 - [pc-keyboard](https://github.com/rust-embedded-community/pc-keyboard) PS/2 键值解析。
 - [bootloader](https://github.com/rust-osdev/bootloader) x86 引导程序。
 - [bootimage](https://github.com/rust-osdev/bootimage) 生成操作系统镜像工具。
+- [may](https://github.com/Xudong-Huang/may) 协程库。
 
 ## 兼容
 

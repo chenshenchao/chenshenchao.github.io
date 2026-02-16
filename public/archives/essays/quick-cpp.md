@@ -27,6 +27,7 @@
 - [libserial](https://github.com/crayzeewulf/libserial) Linux 串口库。
 - [recastnavigation](https://github.com/recastnavigation/recastnavigation) 导航网格实现库，Unit3D、Godot 等都使用了这个库。
 - [SuperDllHijack](https://github.com/anhkgg/SuperDllHijack) DLL 劫持库。
+- [coost](https://github.com/idealvin/coost) 工具库。
 
 ### 图形库
 

@@ -11,6 +11,7 @@
 - [fileformat](https://docs.fileformat.com/) 文件格式文档
 - [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) 教程与习题站点项目。
 - [earthworm](https://github.com/cuixueshe/earthworm) 英语学习站点，有个叫“句乐部”的站点。
+- [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) 一堆造轮子教程汇集库。
 
 ## 开源书籍
 
@@ -18,6 +19,7 @@
 - [《hello-algo（Hello 算法）》](https://github.com/krahets/hello-algo)
 - [《Writing an OS in Rust》](https://github.com/phil-opp/blog_os) 《Writing an OS in Rust》 英文版
 - [《writing-an-os-in-rust（使用Rust编写操作系统）》](https://github.com/rustcc/writing-an-os-in-rust) 中文版
+- [free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) 免费编程数据汇总
 
 ## 资源站点
 
@@ -130,8 +132,11 @@ qwen
 
 - [svg-filters](https://github.com/yoksel/svg-filters) SVG 滤镜代码生成器。
 - [dmc](https://github.com/DigitalMars/dmc) Digital Mars C/C++ 编译器。
+- [tdm-gcc](https://github.com/jmeubank/tdm-gcc)
+- [llgo](https://github.com/go-llvm/llgo) 基于 LLVM 的 Go 编译器。
 - [lisp](https://github.com/robpike/lisp) 一个 Lisp 1.5 解释器。(Go 语言)
 - [ninja](https://github.com/ninja-build/ninja) 谷歌用于取代 make 的跨平台构建脚本。
+- [pyasm](https://github.com/grant-olson/pyasm) 动态内联 x86 汇编的 python 实现。
 
 ### 文件处理工具
 
@@ -146,6 +151,7 @@ qwen
 - [olive](https://github.com/olive-editor/olive) 音频编辑工具。
 - [audacity](https://github.com/audacity/audacity) 音频编辑工具。
 - [lmms](https://github.com/LMMS/lmms) 音乐编辑工具。
+- [openshot-qt](https://github.com/OpenShot/openshot-qt) 视频剪辑工具。
 - [subtitleedit](https://github.com/SubtitleEdit/subtitleedit) 字幕编辑器。
 - [Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy) 可执行文件等多种文件查看探测器。
 - [DIE-engine](https://github.com/horsicq/DIE-engine) DIE 下载点。
@@ -155,6 +161,7 @@ qwen
 - [CyberChef](https://github.com/gchq/CyberChef) 纯静态网页的加密算法、日期格式化等方便工具。
 - [vector-drawable-nextjs](https://github.com/seanghay/vector-drawable-nextjs) 安卓图标资源（VectorDrawable）转 SVG 工具。
 - [PDFPatcher](https://github.com/wmjordan/PDFPatcher) PDF 编辑工具。
+- [fd](https://github.com/sharkdp/fd) rust 开发的类 find 命令行工具。
 
 ### 监控工具
 
@@ -163,13 +170,14 @@ qwen
 - [grafana](https://github.com/grafana/grafana) Web 数据库监控面板。
 - [1Panel](https://github.com/1Panel-dev/1Panel) 服务器面板服务。
 
-### 代理
+### 代理、远程工具
 
 - [tun2proxy](https://github.com/tun2proxy/tun2proxy) socks 代理
 - [Clash-for-Windows_Chinese](https://github.com/Z-Siqi/Clash-for-Windows_Chinese) clash 中文汉化版
 - [v2rayNG](https://github.com/2dust/v2rayNG) 安卓
 - [v2rayN](https://github.com/2dust/v2rayN) 桌面
 - [hysteria](https://github.com/apernet/hysteria)
+- [rustdesk](https://github.com/rustdesk/rustdesk) 远程桌面工具。
 
 ### 服务型工具
 
@@ -243,6 +251,7 @@ qwen
 - [MapleSolaxiaV2](https://github.com/Libre-Maple/MapleSolaxiaV2) 冒险岛服务端复刻。
 - [MapleStory](https://github.com/ellermister/MapleStory) 冒险岛服务端复刻（对应客户端是二进制修改的官方客户端，没有源码）。
 - [WzComparerR2](https://github.com/Kagamia/WzComparerR2) 冒险岛资源提取器。
+- [Harepacker-resurrected](https://github.com/lastbattle/Harepacker-resurrected) 冒险岛 *.wz 资源提取器。
 - [MapleStory-GM-Client](https://github.com/Elem8100/MapleStory-GM-Client) 离线冒险岛客户端模拟器。（Delphi）
 - [MapleNecrocer](https://github.com/Elem8100/MapleNecrocer) 离线冒险岛客户端模拟器。（C#）
 - [MapleServer2](https://github.com/AlanMorel/MapleServer2) 冒险岛2 服务端复刻，仅用于教学。
@@ -256,8 +265,9 @@ qwen
 ### 系统
 
 - [MOOS](https://github.com/nifanfa/MOOS) C# 开发的 x64 操作系统，基于 .NET AOT。
-
+- [MS-DOS](https://github.com/microsoft/MS-DOS)
 
 ### chrome 插件
 
-- [CSS-Diff](https://github.com/kdzwinel/CSS-Diff) 比较 HTML 元素的样式差异。
+- [CSS-Diff](https://github.com/kdzwinel/CSS-Diff) 比较 HTML 元素的样式差异插件。
+- [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) 代理插件。

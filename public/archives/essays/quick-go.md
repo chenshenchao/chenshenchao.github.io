@@ -28,6 +28,9 @@
 - [tinygo](https://github.com/tinygo-org/tinygo) GO 的 MCU、WASM 编译器。
 - [unioffice](https://github.com/unidoc/unioffice) Word、Excel、PPT 库。
 - [unipdf](https://github.com/unidoc/unipdf) PDF 库。
+- [fresh](https://github.com/gravityblast/fresh) 实现 watch 功能，代码修改自动重启的命令行工具。
+- [air](https://github.com/air-verse/air) 实现 watch 功能，代码修改自动重启的命令行工具。
+- [godotenv](https://github.com/joho/godotenv) .env 处理库。
 
 ### Web 框架
 
@@ -37,6 +40,8 @@
 ### UI 库
 
 - [fyne](https://github.com/fyne-io/fyne) 跨平台，安卓端比较成熟。
+- [wails](https://github.com/wailsapp/wails) 打包 Web 成 桌面应用 的框架。
+- [hover](https://github.com/go-flutter-desktop/hover) go 封装 flutter 的桌面应用开发框架。
 
 ## 常用命令
 
