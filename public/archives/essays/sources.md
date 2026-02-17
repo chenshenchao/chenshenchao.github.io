@@ -97,7 +97,7 @@ qwen
 
 - [DVC](https://github.com/iterative/dvc) 用于数据版本与机器学习试验。
 
-### 模拟器、虚拟机、仿真机、沙盒。
+### 模拟器、虚拟机、仿真机、沙盒、浏览器。
 
 - [Bochs](https://github.com/bochs-emu/Bochs) 跨平台的 x86 模拟器。
 - [Sandboxie](https://github.com/sandboxie/sandboxie) Windows 沙盒。
@@ -105,6 +105,9 @@ qwen
 - [usbipd-win](https://github.com/dorssel/usbipd-win) Windows 下共享 USB 设备给 Hyper-V 和 WSL2 的命令行工具。
 - [gameboy](https://github.com/mohanson/gameboy) rust 开发的 GameBoy 模拟器。
 - [gbdk-2020](https://github.com/gbdk-2020/gbdk-2020) GameBoy 开发套件。
+- [SimpleNES](https://github.com/amhndu/SimpleNES) NES 红白机模拟器。
+- [chromium](https://github.com/chromium/chromium)
+- [v8](https://github.com/v8/v8)
 
 ### 项目与版本管理工具
 
@@ -134,9 +137,11 @@ qwen
 - [dmc](https://github.com/DigitalMars/dmc) Digital Mars C/C++ 编译器。
 - [tdm-gcc](https://github.com/jmeubank/tdm-gcc)
 - [llgo](https://github.com/go-llvm/llgo) 基于 LLVM 的 Go 编译器。
+- [emscripten](https://github.com/emscripten-core/emscripten) 基于 LLVM 的 WASM 编译器。
 - [lisp](https://github.com/robpike/lisp) 一个 Lisp 1.5 解释器。(Go 语言)
 - [ninja](https://github.com/ninja-build/ninja) 谷歌用于取代 make 的跨平台构建脚本。
 - [pyasm](https://github.com/grant-olson/pyasm) 动态内联 x86 汇编的 python 实现。
+- [yadcc](https://github.com/Tencent/yadcc) 分布式 C++ 编译器。
 
 ### 文件处理工具
 
@@ -169,6 +174,7 @@ qwen
 - [sniffnet](https://github.com/GyulyVGC/sniffnet) 网络监控工具。
 - [grafana](https://github.com/grafana/grafana) Web 数据库监控面板。
 - [1Panel](https://github.com/1Panel-dev/1Panel) 服务器面板服务。
+- [ansible](https://github.com/ansible/ansible) 脚本化的运维框架。
 
 ### 代理、远程工具
 
@@ -207,6 +213,8 @@ qwen
 - [eureka](https://github.com/Netflix/eureka) Netflix 用 Java 开发的配置管理服务器。
 - [ONLYOFFICE](https://github.com/ONLYOFFICE) 囊括了 microsoft office 以及 adobe pdf 等办公文件处理和前端插件的一套技术解决方案，有免费版本。
 - [nats-server](https://github.com/nats-io/nats-server) 消息中间件服务，支持发布订阅（Pub/Sub）、请求响应（Request/Reply）、队列订阅（Queue） 三种核心通信模式。
+- [open-im-server](https://github.com/openimsdk/open-im-server) 即时通信服务器（Go 语言）
+- [mjpg-streamer](https://github.com/jacksonliam/mjpg-streamer) JPEG 帧推流命令行工具。
 
 ### 硬件设计工具
 

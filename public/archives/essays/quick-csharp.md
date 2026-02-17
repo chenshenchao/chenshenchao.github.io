@@ -1,5 +1,7 @@
 # C# 速查
 
+- [runtime](https://github.com/dotnet/runtime) .NET 源码。
+
 ## 常用库
 
 - [EmguCV](https://github.com/emgucv/emgucv) OpenCV 的 .Net 包装库。
@@ -9,6 +11,11 @@
 - [serilog-extensions-logging-file](https://github.com/serilog/serilog-extensions-logging-file) 日志写入文件扩展。
 - [lucenenet](https://github.com/apache/lucenenet) Lucene 的 .Net 版本，倒排索引库。
 - [elfsharp](https://github.com/konrad-kruczynski/elfsharp) ELF 库。
+- [MySqlCdc](https://github.com/rusuly/MySqlCdc) MySQL binlog 客户端。
+- [ILPack](https://github.com/Lokad/ILPack) .NET Core IL 生成器。
+- [GtkSharp](https://github.com/GtkSharp/GtkSharp) GTK 封装。
+- [gtk-sharp](https://github.com/mono/gtk-sharp) mono GTK 封装。
+- [xwt](https://github.com/mono/xwt) mono UI 库。
 
 ## WPF
 
@@ -18,6 +25,7 @@
 - [HandyControl](https://github.com/HandyOrg/HandyControl) UI组件库
 - [wpfui](https://github.com/lepoco/wpfui) Fluent 风格UI组件库。
 - [adonis-ui](https://github.com/benruehl/adonis-ui) UI 组件库。
+- [AduSkin](https://github.com/aduskin/AduSkin) UI 组件库。
 - [ControlzEx](https://github.com/ControlzEx/ControlzEx) ToolTip 等 Z 轴相关组件库。
 - [PropertyChanged](https://github.com/Fody/PropertyChanged) 依赖属性方便库。
 - [DevExpress.Mvvm.Free](https://github.com/DevExpress/DevExpress.Mvvm.Free) 工具库。

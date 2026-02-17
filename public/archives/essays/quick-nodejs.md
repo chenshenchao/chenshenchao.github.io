@@ -72,7 +72,9 @@ npm i -D electron --electron_mirror=https://..
 
 ### pnpm
 
-相对于 npm 还是有一些优势。
+- [GitHub 源码仓库](https://github.com/pnpm/pnpm)
+
+相对于 npm 还是有一些优势，主要解决影子依赖问题。
 
 ```bash
 ```

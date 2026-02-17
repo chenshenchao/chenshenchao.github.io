@@ -13,6 +13,7 @@
 - [LSPosed](https://github.com/LSPosed/LSPosed) Xposed 的延续。
 - [Xposed](https://github.com/rovo89/Xposed)
 - [SerialPortHelper](https://github.com/freyskill/SerialPortHelper) 串口开发库。
+- [GSYRecordWave](https://github.com/CarGuo/GSYRecordWave) MP3音频录制库。
 
 ## 开发工具
 

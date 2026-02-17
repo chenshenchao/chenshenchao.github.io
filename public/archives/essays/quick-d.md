@@ -5,6 +5,8 @@
 
 ## 包管理工具 dub
 
+- [GitHub 源码仓库](https://github.com/dlang/dub)
+
 ```bash
 # -h 可以查看帮助
 dub -h
@@ -24,5 +26,5 @@ dub add gtk-d
 
 ## 常用库
 
-- [GtkD](https://gtkd.org/) GTK D 语言封装，需要安装 GTK 运行时。
-
+- [GtkD](https://gtkd.org/) GTK D 语言封装，需要安装 GTK 运行时。[GitHub 仓库](https://github.com/gtkd-developers/GtkD)
+- [hunt-framework](https://github.com/huntlabs/hunt-framework) Web 框架。
