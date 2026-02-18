@@ -39,6 +39,18 @@
 - [vector-drawable-svg](https://github.com/seanghay/vector-drawable-svg) 安卓图标资源（VectorDrawable）转 SVG 库。
 - [jsPDF](https://github.com/parallax/jsPDF) PDF 生成库。
 - [pdf.js](https://github.com/mozilla/pdf.js) PDF 展示库。
+- [simple-virtual-dom](https://github.com/livoras/simple-virtual-dom) 一个虚拟 DOM 实现库。
+- [eva.js](https://github.com/eva-engine/eva.js) 前端简易游戏引擎。
+- [asm-js validator](https://github.com/asm-js/validator) asm.js 的参考验证器。
+- [MIDI.js](https://github.com/mudcube/MIDI.js)
+
+### Web
+
+- [hyperapp](https://github.com/jorgebucaran/hyperapp) 1kb 大小的 web 前端框架。
+- [Gracejs](https://github.com/xiongwilee/Gracejs) 基于 koa2 的框架，设计不太好。
+- [avalon](https://github.com/RubyLouvre/avalon) 前端 MVVM 框架，已经废弃。
+- [lulu](https://github.com/yued-fe/lulu) 原生JS风格的 UI 组件库。
+- [move.js](https://github.com/visionmedia/move.js) JS 生成 CSS 动画库。
 
 ## NodeJs
 

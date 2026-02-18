@@ -12,3 +12,5 @@
 - [solana](https://github.com/solana-labs/solana) 区块链基础项目。
 - [agave](https://github.com/anza-xyz/agave) fork solana 扩展的区块链基础项目。
 - [diem](https://github.com/diem/diem)
+- [substrate](https://github.com/paritytech/substrate) 区块链框架。
+- [bytom](https://github.com/BytomDAO/bytom) 比原链 协议实现。

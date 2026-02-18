@@ -16,6 +16,13 @@
 - [GtkSharp](https://github.com/GtkSharp/GtkSharp) GTK 封装。
 - [gtk-sharp](https://github.com/mono/gtk-sharp) mono GTK 封装。
 - [xwt](https://github.com/mono/xwt) mono UI 库。
+- [MiniExcel](https://github.com/mini-software/MiniExcel) Excel 处理库。
+- [wix3](https://github.com/wixtoolset/wix3) wix3 打包工具集。
+- [moq](https://github.com/devlooped/moq) mock 库。
+- [IdGen](https://github.com/RobThree/IdGen) 类雪花 ID 生成库。
+- [NAudio](https://github.com/naudio/NAudio) 音频文件处理库。
+- [Dapper](https://github.com/DapperLib/Dapper) 一个 ORM 。
+- [SharpVectors](https://github.com/ElinamLLC/SharpVectors) SVG 库。
 
 ## WPF
 
@@ -27,12 +34,11 @@
 - [adonis-ui](https://github.com/benruehl/adonis-ui) UI 组件库。
 - [AduSkin](https://github.com/aduskin/AduSkin) UI 组件库。
 - [ControlzEx](https://github.com/ControlzEx/ControlzEx) ToolTip 等 Z 轴相关组件库。
+- [Dragablz](https://github.com/ButchersBoy/Dragablz) 拖拽库。
 - [PropertyChanged](https://github.com/Fody/PropertyChanged) 依赖属性方便库。
 - [DevExpress.Mvvm.Free](https://github.com/DevExpress/DevExpress.Mvvm.Free) 工具库。
 - [CalcBinding](https://github.com/Alex141/CalcBinding) 提供 XAML 里写计算表达式的绑定。
-- [moq](https://github.com/devlooped/moq) mock 库。
-- [MiniExcel](https://github.com/mini-software/MiniExcel) Excel 处理库。
-- [wix3](https://github.com/wixtoolset/wix3) wix3 打包工具集。
+- [SVGImage](https://github.com/dotnetprojects/SVGImage)
 
 ## Xamarin 和 MAUI
 

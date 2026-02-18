@@ -96,6 +96,7 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
 - [LAVIS](https://github.com/salesforce/LAVIS) 多个图片、视频与文本的视觉模型整合库。
 - [Generative-Adversarial-Networks-Projects](https://github.com/PacktPublishing/Generative-Adversarial-Networks-Projects) 一些 GAN 模型。
+- [GFPGAN](https://github.com/TencentARC/GFPGAN) 照片人脸修复模型。
 
 ## AI 应用开发
 
@@ -110,6 +111,7 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 ### 开源 AI Agant 项目
 
 - [AutoGen](https://github.com/microsoft/autogen) 微软给 python 的 multi-agent 框架。
+- [jina](https://github.com/jina-ai/serve) 多模态 AI 框架。
 - [Agent Lightning](https://github.com/microsoft/agent-lightning) 微软发布的 AI 代理训练与优化的框架，可以和 autogen 结合使用。
 - [MetaGPT](https://github.com/FoundationAgents/MetaGPT) 软件公司 multi-agent 项目，可用于二开。
 - [LiteLLM](https://github.com/BerriAI/litellm) 百种 AI API 接口设配库，解决多厂商 API 兼容性问题。

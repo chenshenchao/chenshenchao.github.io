@@ -10,6 +10,7 @@
 - [zerolog](https://github.com/rs/zerolog) JSON 日志。
 - [pie](https://github.com/elliotchance/pie) 切片(slice) 和 字典(map) 功能扩展库。
 - [bbolt](https://github.com/etcd-io/bbolt) 可内嵌的键值对数据库。
+- [rosedb](https://github.com/rosedblabs/rosedb) 可内嵌的键值对数据库。
 - [kektordb](https://github.com/sanonone/kektordb) 可内嵌到项目的向量数据库。
 - [bleve](https://github.com/blevesearch/bleve) 可内嵌的全文搜索、向量搜索数据库。
 - [riot](https://github.com/go-ego/riot) 可内嵌的全文搜索数据库。

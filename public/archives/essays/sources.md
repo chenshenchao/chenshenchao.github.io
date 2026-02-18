@@ -12,6 +12,7 @@
 - [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) 教程与习题站点项目。
 - [earthworm](https://github.com/cuixueshe/earthworm) 英语学习站点，有个叫“句乐部”的站点。
 - [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) 一堆造轮子教程汇集库。
+- [raspberrypi 文档](https://github.com/raspberrypi/documentation)
 
 ## 开源书籍
 
@@ -20,6 +21,7 @@
 - [《Writing an OS in Rust》](https://github.com/phil-opp/blog_os) 《Writing an OS in Rust》 英文版
 - [《writing-an-os-in-rust（使用Rust编写操作系统）》](https://github.com/rustcc/writing-an-os-in-rust) 中文版
 - [free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) 免费编程数据汇总
+- [write-a-C-interpreter](https://github.com/lotabout/write-a-C-interpreter) 《手把手教你构建 C 语言编译器》
 
 ## 资源站点
 
@@ -35,6 +37,7 @@
 ## awesome
 
 - [awesome-electronics](https://github.com/kitspace/awesome-electronics) 电子相关。
+- [awesome-rust](https://github.com/rust-unofficial/awesome-rust)
 
 ### 数据站点
 
@@ -93,27 +96,27 @@ qwen
 
 - [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
-### AI 版本控制工具
-
-- [DVC](https://github.com/iterative/dvc) 用于数据版本与机器学习试验。
-
-### 模拟器、虚拟机、仿真机、沙盒、浏览器。
+### 模拟器、虚拟机、仿真机、沙盒、浏览器、终端。
 
 - [Bochs](https://github.com/bochs-emu/Bochs) 跨平台的 x86 模拟器。
 - [Sandboxie](https://github.com/sandboxie/sandboxie) Windows 沙盒。
 - [Sandboxie plus](https://github.com/sandboxie-plus/Sandboxie) Windows 沙盒。
 - [usbipd-win](https://github.com/dorssel/usbipd-win) Windows 下共享 USB 设备给 Hyper-V 和 WSL2 的命令行工具。
 - [gameboy](https://github.com/mohanson/gameboy) rust 开发的 GameBoy 模拟器。
+- [PyBoy](https://github.com/Baekalfen/PyBoy) python 开发的 GameBoy 模拟器。
 - [gbdk-2020](https://github.com/gbdk-2020/gbdk-2020) GameBoy 开发套件。
 - [SimpleNES](https://github.com/amhndu/SimpleNES) NES 红白机模拟器。
 - [chromium](https://github.com/chromium/chromium)
 - [v8](https://github.com/v8/v8)
+- [nushell](https://github.com/nushell/nushell)
 
 ### 项目与版本管理工具
 
 - [git]()
 - [monorepo]()
 - [gauge](https://github.com/getgauge/gauge) 测试套件
+- [DVC](https://github.com/iterative/dvc) 用于数据版本与机器学习试验。
+- [dolt](https://github.com/dolthub/dolt) 类 git 的数据库数据版本控制。
 
 ### 架构设计工具
 
@@ -130,6 +133,7 @@ qwen
 - [helix](https://github.com/helix-editor/helix) 类 vim 的命令行文本编辑器。
 - [LiteXL](https://github.com/lite-xl/lite-xl) 打开稍快于 VSCode 但功能又弱之。
 - [VisualMASM](https://github.com/ThomasJaeger/VisualMASM) MASM IDE
+- [thonny](https://github.com/thonny/thonny) 嵌入式 python IDE ，主要 树莓派、ESP 的开发。
 
 ### 编译器、解释器、构造工具与代码生成器
 
@@ -142,6 +146,7 @@ qwen
 - [ninja](https://github.com/ninja-build/ninja) 谷歌用于取代 make 的跨平台构建脚本。
 - [pyasm](https://github.com/grant-olson/pyasm) 动态内联 x86 汇编的 python 实现。
 - [yadcc](https://github.com/Tencent/yadcc) 分布式 C++ 编译器。
+- [vue-compiler](https://github.com/HerringtonDarkholme/vue-compiler) rust 开发的 vue 编译器。
 
 ### 文件处理工具
 
@@ -167,6 +172,9 @@ qwen
 - [vector-drawable-nextjs](https://github.com/seanghay/vector-drawable-nextjs) 安卓图标资源（VectorDrawable）转 SVG 工具。
 - [PDFPatcher](https://github.com/wmjordan/PDFPatcher) PDF 编辑工具。
 - [fd](https://github.com/sharkdp/fd) rust 开发的类 find 命令行工具。
+- [FFmpeg](https://github.com/FFmpeg/FFmpeg)
+- [FFmpeg-Builds](https://github.com/BtbN/FFmpeg-Builds) FFmpeg 下载。
+- [libav](https://github.com/libav/libav) FFmpeg 的分支，已经停止维护。
 
 ### 监控工具
 
@@ -215,6 +223,10 @@ qwen
 - [nats-server](https://github.com/nats-io/nats-server) 消息中间件服务，支持发布订阅（Pub/Sub）、请求响应（Request/Reply）、队列订阅（Queue） 三种核心通信模式。
 - [open-im-server](https://github.com/openimsdk/open-im-server) 即时通信服务器（Go 语言）
 - [mjpg-streamer](https://github.com/jacksonliam/mjpg-streamer) JPEG 帧推流命令行工具。
+- [nocodb](https://github.com/nocodb/nocodb) 开源的 Airtable 替代方案。
+- [phantoscope](https://github.com/zilliztech/phantoscope) 图搜服务。
+- [async_dns](https://github.com/gera2ld/async_dns) DNS 命令行工具。
+- [canal](https://github.com/alibaba/canal) 阿里巴巴 MySQL binlog 增量订阅&消费 服务。
 
 ### 硬件设计工具
 
@@ -225,6 +237,7 @@ qwen
 - [LibrePCB](https://github.com/LibrePCB/LibrePCB) 开源 EDA 。
 - [horizon](https://github.com/horizon-eda/horizon) 开源 EDA 。
 - [SerialTool](https://github.com/skiars/SerialTool) 串口工具。
+- [SimulIDE](https://github.com/SimulIDE/SimulIDE) 模拟电路仿真。
 - [circuitjs1](https://github.com/sharpie7/circuitjs1) 模拟电路仿真。
 - [circuit-simulator](https://github.com/hausen/circuit-simulator) 模拟电路仿真。
 - [logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) 数字电路仿真器。
@@ -248,6 +261,7 @@ qwen
 - [pulseview](https://github.com/sigrokproject/pulseview) 数字逻辑分析仪上位机分析软件。
 - [nanoDLA](https://github.com/wuxx/nanoDLA) 支持 pulseview 的数字逻辑分析仪。
 - [avr-progisp-programmer](https://github.com/ioelectro/avr-progisp-programmer)
+- [pico-examples](https://github.com/raspberrypi/pico-examples) 树莓派 pico 示例。
 
 ### 游戏
 
@@ -279,3 +293,13 @@ qwen
 
 - [CSS-Diff](https://github.com/kdzwinel/CSS-Diff) 比较 HTML 元素的样式差异插件。
 - [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) 代理插件。
+
+### VS code 插件
+
+- [vscode-antlr4](https://github.com/mike-lischke/vscode-antlr4)
+- [code-d](https://github.com/Pure-D/code-d) D 语言插件。
+
+### 移动APP
+
+- [organicmaps](https://github.com/organicmaps/organicmaps) 离线地图 APP 。
+- [firefox-ios](https://github.com/mozilla-mobile/firefox-ios) 火狐 IOS 源码。

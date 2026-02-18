@@ -1,6 +1,7 @@
 # UniApp 速查
 
-[命令行创建项目文档](https://uniapp.dcloud.net.cn/quickstart-cli.html) 默认 HBuilderX 只提供 JS 的模板，如果要使用 TS 就必须使用命令行创建项目。
+- [命令行创建项目文档](https://uniapp.dcloud.net.cn/quickstart-cli.html) 默认 HBuilderX 只提供 JS 的模板，如果要使用 TS 就必须使用命令行创建项目。
+- [GitHub 开源部分源码仓库](https://github.com/dcloudio/uni-app)
 
 ```bat
 @rem 创建 TS + Vue3 项目

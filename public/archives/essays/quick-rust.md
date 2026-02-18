@@ -324,6 +324,7 @@ fi
 - [bevy](https://github.com/bevyengine/bevy) 数据驱动的游戏引擎。
 - [tauri](https://github.com/tauri-apps/tauri) 打包 web 成 移动app 或者 桌面软件的框架。
 - [tiny-skia](https://github.com/linebender/tiny-skia) skia 子集，只使用 CPU ，性能差，兼容好。
+- [azul](https://github.com/fschutt/azul) 目前尚不可用。
 
 ### web 开发框架和库
 
@@ -334,6 +335,7 @@ fi
 - [leptos](https://github.com/leptos-rs/leptos) rust 写前端页面，代码是类 react 的 jsx-like 风格。
 - [sycamore](https://github.com/sycamore-rs/sycamore) rust 写前端页面，亮点是生成 WASM，类 react 风格。
 - [tower](https://github.com/tower-rs) web 开发库集合。
+- [salvo](https://github.com/salvo-rs/salvo) 简易 web 框架。
 
 ### 数据库
 
@@ -353,6 +355,7 @@ fi
 
 ### 底层扩展
 
+- [grmtools](https://github.com/softdevteam/grmtools) 支持 bison 与 flex 的 *.l 和 *.y 文法的构建工具。
 - [PyO3](https://github.com/PyO3/pyo3) 开发 Python 库。
 - [iced](https://github.com/icedland/iced) x86 的汇编器、反汇编器等功能的库，支持多种语言。
 - [probe-rs](https://github.com/probe-rs/probe-rs) ARM、RISC-V 调试工具开发库。

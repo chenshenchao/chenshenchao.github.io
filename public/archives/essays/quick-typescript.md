@@ -38,6 +38,8 @@
 - [lingui](https://github.com/lingui/js-lingui) i18n 库。
 - [motion](https://github.com/motiondivision/motion) 动画库。
 - [floating-ui](https://github.com/floating-ui/floating-ui) 原 Popuper.js 发展起来的弹出层库，提供 React 和 Vue 封装。
+- [pixijs](https://github.com/pixijs/pixijs) 2D webGL 游戏引擎。
+- [Tone.js](https://github.com/Tonejs/Tone.js) 浏览器端 电子音乐 生成库。
 
 ## 类型系统
 

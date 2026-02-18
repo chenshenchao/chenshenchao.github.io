@@ -5,10 +5,15 @@
 Dart 最让人熟知的就是 Flutter 了，很多人知道 Flutter 却不知道 Dart ，但是 Dart 却早于 Flutter 很多年就被创造出来。
 Dart 出来好几年却因为没有杀手应用而一直默默无闻，直到被 Flutter 选用为开发语言，并随着 Flutter 的需要升级 Dart 2.0。
 
-## 常用库
+## 官方库
 
 - [shelf](https://github.com/dart-lang/shelf) 官方提供的 Web 框架。
 - [reflectable.dart](https://github.com/google/reflectable.dart) 使用代码生成的方式来实现静态反射，解决语言自带的动态反射的一些问题。
+
+## 常用库
+
+- [angel](https://github.com/angel-dart/angel) web 框架，已经停止维护。
+- [dartx](https://github.com/simc/dartx) 集合扩展库。
 - [hive](https://github.com/isar/hive) 可内嵌的键值数据库。
 - [rxdart](https://github.com/ReactiveX/rxdart) rx
 - [faker.dart](https://github.com/casvanluijtelaar/faker.dart) 调试数据生成。

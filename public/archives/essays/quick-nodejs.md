@@ -4,6 +4,11 @@
 - [nvm-windows](https://github.com/coreybutler/nvm-windows)
 - [farm](https://github.com/farm-fe/farm) rust 开发的兼容 vite 的构建工具。
 - [unbuild](https://github.com/unjs/unbuild) 构建工具
+- [fis3](https://github.com/fex-team/fis3) 类 gulp 构建工具。
+
+## 常用库
+
+- [thinkjs](https://github.com/thinkjs/thinkjs) 仿 ThinkPHP 的后端框架。
 
 ## 包管理器
 
@@ -69,6 +74,10 @@ npm i -D electron --electron_mirror=https://..
 ### yarn
 
 最早解决 npm 的很多问题的工具，不过后来功能主键被 npm 吸纳，目前失去了优势。 
+
+### [berry](https://github.com/yarnpkg/berry)
+
+yarn 的下一代。
 
 ### pnpm
 

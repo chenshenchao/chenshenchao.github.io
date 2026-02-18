@@ -30,6 +30,7 @@ python -m http.server 8000
 - [numba](https://github.com/numba/numba) NumPy 动态编译。
 - [snowflake](https://github.com/vd2org/snowflake) 雪花ID生成库。
 - [pypdf](https://github.com/py-pdf/pypdf) PDF 库。
+- [pdfplumber](https://github.com/jsvine/pdfplumber) PDF 提取信息库。
 - [RxPY](https://github.com/ReactiveX/RxPY) rx
 - [pytest](https://github.com/pytest-dev/pytest) 单元测试框架。
 - [pytest-order](https://github.com/pytest-dev/pytest-order) pytest 单元测试排序。
@@ -49,6 +50,7 @@ python -m http.server 8000
 - [fastapi](https://github.com/fastapi/fastapi) web 框架。
 - [FastUI](https://github.com/pydantic/FastUI) web UI 库。非 HTML 模板，是 Python 代码生成 HTML。
 - [circuits](https://github.com/circuits/circuits) web 框架。
+- [emsdk](https://github.com/emscripten-core/emsdk) Emscripten SDK
 
 
 ## 虚拟环境
@@ -313,6 +315,7 @@ twine upload dist/*
 
 ### 基于 [pyfuze](https://github.com/TanixLu/pyfuze) 的打包
 
+### 基于 [cx_Freeze](https://github.com/marcelotduarte/cx_Freeze) 的打包
 
 ### 基于 [PyInstaller](https://github.com/pyinstaller/pyinstaller) 的打包
 
