@@ -1,5 +1,7 @@
 # [草稿]Vue 速查
 
+- [vue core](https://github.com/vuejs/core)
+
 ## 常用库
 
 - [pinia](https://pinia.vuejs.org/) 存储管理库
@@ -9,6 +11,7 @@
 - [nutui](https://github.com/jd-opensource/nutui) 京东移动端组件库。
 - [vxe-table](https://github.com/x-extends/vxe-table) 虚表格库，功能很多，有免费和付费版本。
 - [pictode](https://github.com/JessYan0913/pictode) 一个简易的绘图库。
+- [mint-ui](https://github.com/ElemeFE/mint-ui) 饿了么移动端 UI ，已经多年不维护。
 
 ## Options API 和 Composition API
 

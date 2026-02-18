@@ -3,6 +3,7 @@
 ## 编译构造工具与包管理
 
 - CMake
+- [vcpkg](https://github.com/microsoft/vcpkg)
 - [clib](https://github.com/clibs/clib) 
 - [cosmopolitan](https://github.com/jart/cosmopolitan) 打着 “一次编译，到处运行。” 的编译工具库。
 
@@ -10,6 +11,7 @@
 
 - [bdwgc](https://github.com/bdwgc/bdwgc) 垃圾回收库，又叫 bdw-gc, boehm-gc, libgc。
 - [mjs](https://github.com/cesanta/mjs) 一个 JS 的运行库。
+- [QuickJS](https://github.com/quickjs-zh/QuickJS) 一个 JS 的解释器库。
 - [upscaledb](https://github.com/cruppstahl/upscaledb) 键值对型数据库实现。
 - [unqlite](https://github.com/symisc/unqlite) 键值对型数据库实现。
 - [libxml2](https://github.com/GNOME/libxml2) xml 库。

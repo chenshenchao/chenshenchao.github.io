@@ -24,7 +24,13 @@
 - [Dapper](https://github.com/DapperLib/Dapper) 一个 ORM 。
 - [SharpVectors](https://github.com/ElinamLLC/SharpVectors) SVG 库。
 
+## WinForms
+
+- [GitHub 源码仓库](https://github.com/dotnet/winforms)
+
 ## WPF
+
+- [GitHub 源码仓库](https://github.com/dotnet/wpf)
 
 ### WPF 常用库
 

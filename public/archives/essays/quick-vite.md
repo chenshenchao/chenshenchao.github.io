@@ -1,5 +1,6 @@
 # [草稿]Vite 速查
 
+- [GitHub 源码](https://github.com/vitejs/vite)
 - [vitedge](https://github.com/frandiox/vitedge) vitedge 边缘渲染（Edge Side Rendering）框架。
 - [vite-ssr](https://github.com/frandiox/vite-ssr)
 - [vike](https://github.com/vikejs/vike) SSR/SSG 基础设施。

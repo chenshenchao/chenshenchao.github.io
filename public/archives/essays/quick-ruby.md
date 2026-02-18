@@ -1,5 +1,7 @@
 # [草稿]Ruby 速查
 
+- [GitHub 源码仓库](https://github.com/ruby/ruby)
+
 Ruby 是由日本程序员松本行弘开发的编程语言，最为大家熟知的 Ruby 项目就是 GitHub 和 RPG Maker 了。
 Ruby 的名字来源于效仿 Perl 用 “珍珠（Pearl）”起名，所以就叫“红宝石（Ruby）”
 

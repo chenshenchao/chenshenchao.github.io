@@ -49,8 +49,13 @@
 - [hyperapp](https://github.com/jorgebucaran/hyperapp) 1kb 大小的 web 前端框架。
 - [Gracejs](https://github.com/xiongwilee/Gracejs) 基于 koa2 的框架，设计不太好。
 - [avalon](https://github.com/RubyLouvre/avalon) 前端 MVVM 框架，已经废弃。
+- [layui](https://github.com/layui/layui) 类 jQuery 风格的 UI 组件库。
 - [lulu](https://github.com/yued-fe/lulu) 原生JS风格的 UI 组件库。
 - [move.js](https://github.com/visionmedia/move.js) JS 生成 CSS 动画库。
+- [ejs](https://github.com/mde/ejs) 模板引擎
+- [template.js](https://github.com/yanhaijing/template.js) 模板引擎
+- [art-template](https://github.com/goofychris/art-template) 模板引擎
+- [consolidate.js](https://github.com/tj/consolidate.js) 模板引擎整合库。
 
 ## NodeJs
 

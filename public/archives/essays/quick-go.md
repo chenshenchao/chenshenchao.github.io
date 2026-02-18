@@ -37,6 +37,7 @@
 
 - [kratos](https://github.com/go-kratos/kratos) 基于 Protobuf 的微服务框架。
 - [go-micro](https://github.com/micro/go-micro) 简易的 Web 框架。
+- [wasmer-go](https://github.com/wasmerio/wasmer-go) wasm 运行时。
 
 ### UI 库
 

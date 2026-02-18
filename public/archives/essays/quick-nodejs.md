@@ -8,7 +8,13 @@
 
 ## 常用库
 
+- [mysql](https://github.com/mysqljs/mysql) 纯 JS MySQL 客户端。
+
+### Web
+
 - [thinkjs](https://github.com/thinkjs/thinkjs) 仿 ThinkPHP 的后端框架。
+- [pug](https://github.com/pugjs/pug) HTML 模板引擎。
+- [koajs router](https://github.com/koajs/router)
 
 ## 包管理器
 

@@ -12,6 +12,7 @@
 - [rhino](https://github.com/mozilla/rhino) 一个 JavaScript 实现。
 - [jooq(Java Object Oriented Querying)](https://github.com/jOOQ/jOOQ) 只有查询功能的 ORM ，需要构建配置代码生成。
 - [JasperReports](https://www.jaspersoft.com/products/jaspersoft-community) Java 开发的报表软件，[GitHub仓库](https://github.com/Jaspersoft/jasperreports)，功能上比市面上的 FastReport、ActiveReports 等要少一些，但是胜在有免费版。
+- [litiengine](https://github.com/gurkenlabs/litiengine) 2D 游戏引擎，有配套的 Eclipse 插件。
 
 ## 开发环境与包管理工具
 

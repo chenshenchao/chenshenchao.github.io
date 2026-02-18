@@ -2,6 +2,7 @@
 
 ## 常用库
 
+- [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) @type/* 集合仓库，给 JS 库加上类型。
 - [unplugin-dts](https://github.com/qmhc/unplugin-dts) 支持多种构造工具的通过 *.ts、*.vue 生成 *.d.ts 文件的构造工具插件。
 - [date-fns](https://github.com/date-fns/date-fns) 日期库
 - [es-toolkit](https://github.com/toss/es-toolkit) 类 lodash 工具库。
@@ -40,6 +41,14 @@
 - [floating-ui](https://github.com/floating-ui/floating-ui) 原 Popuper.js 发展起来的弹出层库，提供 React 和 Vue 封装。
 - [pixijs](https://github.com/pixijs/pixijs) 2D webGL 游戏引擎。
 - [Tone.js](https://github.com/Tonejs/Tone.js) 浏览器端 电子音乐 生成库。
+- [jest](https://github.com/jestjs/jest) 单元测试框架。
+
+### web
+
+- [strapi](https://github.com/strapi/strapi) CMS 项目。
+- [egg](https://github.com/eggjs/egg) web 框架。
+- [eggjs static](https://github.com/eggjs/static)
+- [mdui](https://github.com/zdhxiong/mdui) 安卓 Material 3 风格的 UI 组件库。
 
 ## 类型系统
 

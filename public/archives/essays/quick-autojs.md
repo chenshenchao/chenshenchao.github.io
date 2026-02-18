@@ -4,6 +4,7 @@
 
 由于 AutoJs 的原作者不再维护，社区分裂了，有 AutoX 和 AutoJs6 两个后续的项目，两者的开发工具和 VsCode 插件 不兼容。
 
+- [原仓库](https://github.com/clearw5/Auto.js) 已经闭源，只剩下 README。
 - [AutoX](https://github.com/aiselp/AutoX) AutoJs 2019 年停止更新开源并闭源，社区 fork 出分支为 AutoX.js 并维护。
 - [Auto.js-Autox.js-VSCodeExt](https://marketplace.visualstudio.com/items?itemName=aaroncheng.auto-js-vsce-fixed) AutoX 的 VsCode 插件。
 - [AutoJs6](https://github.com/SuperMonster003/AutoJs6) 基于 Auto.js 4.1.1 Alpha2 开发的项目

@@ -13,15 +13,21 @@
 - [earthworm](https://github.com/cuixueshe/earthworm) 英语学习站点，有个叫“句乐部”的站点。
 - [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) 一堆造轮子教程汇集库。
 - [raspberrypi 文档](https://github.com/raspberrypi/documentation)
+- [USTC-Course](https://github.com/USTC-Resource/USTC-Course) 中国科学技术大学课程资源
 
 ## 开源书籍
 
+- [free-programming-books](https://github.com/EbookFoundation/free-programming-books) 免费编程书列表
 - [《LLMs-from-scratch（从零构建大模型）》](https://github.com/rasbt/LLMs-from-scratch) 英文原版仓库。
 - [《hello-algo（Hello 算法）》](https://github.com/krahets/hello-algo)
 - [《Writing an OS in Rust》](https://github.com/phil-opp/blog_os) 《Writing an OS in Rust》 英文版
 - [《writing-an-os-in-rust（使用Rust编写操作系统）》](https://github.com/rustcc/writing-an-os-in-rust) 中文版
 - [free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) 免费编程数据汇总
 - [write-a-C-interpreter](https://github.com/lotabout/write-a-C-interpreter) 《手把手教你构建 C 语言编译器》
+- [You-Dont-Know-JS《你不知道的JS》](https://github.com/getify/You-Dont-Know-JS) 英文版。
+- [go-ast-book《Go语言定制指南》](https://github.com/chai2010/go-ast-book)
+- [30dayMakeOS《30天自制操作系统》](https://github.com/yourtion/30dayMakeOS)
+- [the-road-to-learn-react-chinese《React 学习之道》](https://github.com/the-road-to-learn-react/the-road-to-learn-react-chinese)
 
 ## 资源站点
 
@@ -38,6 +44,8 @@
 
 - [awesome-electronics](https://github.com/kitspace/awesome-electronics) 电子相关。
 - [awesome-rust](https://github.com/rust-unofficial/awesome-rust)
+- [awesome-gameserver-cn](https://github.com/hstcscolor/awesome-gameserver-cn)
+- [awesome-vscode](https://github.com/viatsko/awesome-vscode)
 
 ### 数据站点
 
@@ -135,7 +143,7 @@ qwen
 - [VisualMASM](https://github.com/ThomasJaeger/VisualMASM) MASM IDE
 - [thonny](https://github.com/thonny/thonny) 嵌入式 python IDE ，主要 树莓派、ESP 的开发。
 
-### 编译器、解释器、构造工具与代码生成器
+### 编译器、解释器、调试器、构造工具与代码生成器
 
 - [svg-filters](https://github.com/yoksel/svg-filters) SVG 滤镜代码生成器。
 - [dmc](https://github.com/DigitalMars/dmc) Digital Mars C/C++ 编译器。
@@ -147,6 +155,7 @@ qwen
 - [pyasm](https://github.com/grant-olson/pyasm) 动态内联 x86 汇编的 python 实现。
 - [yadcc](https://github.com/Tencent/yadcc) 分布式 C++ 编译器。
 - [vue-compiler](https://github.com/HerringtonDarkholme/vue-compiler) rust 开发的 vue 编译器。
+- [dnSpy](https://github.com/dnSpy/dnSpy) .Net 调试器。
 
 ### 文件处理工具
 
@@ -175,6 +184,9 @@ qwen
 - [FFmpeg](https://github.com/FFmpeg/FFmpeg)
 - [FFmpeg-Builds](https://github.com/BtbN/FFmpeg-Builds) FFmpeg 下载。
 - [libav](https://github.com/libav/libav) FFmpeg 的分支，已经停止维护。
+- [PandaOCR](https://github.com/miaomiaosoft/PandaOCR) OCR 工具。
+- [rufus](https://github.com/pbatard/rufus) USB 格式化工具。
+- [ScreenToGif](https://github.com/NickeManarin/ScreenToGif) C# 开发的 Windows 截屏工具。
 
 ### 监控工具
 
@@ -195,6 +207,7 @@ qwen
 
 ### 服务型工具
 
+- [nginx](https://github.com/nginx/nginx)
 - [caddy](https://github.com/caddyserver/caddy) go 语言实现的类 nginx 的服务器。
 - [marqo](https://github.com/marqo-ai/marqo) 基于 AI 的产品搜索服务，文本、图片等来搜索产品。
 - [oceanbase](https://github.com/oceanbase/oceanbase) 阿里蚂蚁开发的分布式关系数据库。
@@ -227,6 +240,8 @@ qwen
 - [phantoscope](https://github.com/zilliztech/phantoscope) 图搜服务。
 - [async_dns](https://github.com/gera2ld/async_dns) DNS 命令行工具。
 - [canal](https://github.com/alibaba/canal) 阿里巴巴 MySQL binlog 增量订阅&消费 服务。
+- [opa](https://github.com/open-policy-agent/opa)  
+- [gridstudio](https://github.com/ricklamers/gridstudio) 浏览器端通过 python 处理表格数据的 web 服务。
 
 ### 硬件设计工具
 
@@ -266,6 +281,7 @@ qwen
 ### 游戏
 
 - [minecraft-again](https://github.com/jdah/minecraft-again) 我的世界复刻。
+- [Minecraft](https://github.com/fogleman/Minecraft) 基于 python pyglet 开发的简易 我的世界 。
 - [Microverse](https://github.com/KsanaDock/Microverse) Godot 上帝视 2D 角沙盒游戏。
 - [jynew](https://github.com/jynew/jynew) 金庸群侠传3D重置。
 - [LibreMaple-Client](https://github.com/YohananTzeviyah/LibreMaple-Client) 冒险岛客户端复刻。
@@ -286,6 +302,7 @@ qwen
 
 ### 系统
 
+- [linux](https://github.com/torvalds/linux)
 - [MOOS](https://github.com/nifanfa/MOOS) C# 开发的 x64 操作系统，基于 .NET AOT。
 - [MS-DOS](https://github.com/microsoft/MS-DOS)
 
@@ -298,6 +315,7 @@ qwen
 
 - [vscode-antlr4](https://github.com/mike-lischke/vscode-antlr4)
 - [code-d](https://github.com/Pure-D/code-d) D 语言插件。
+- [vscode_deno](https://github.com/denoland/vscode_deno)
 
 ### 移动APP
 

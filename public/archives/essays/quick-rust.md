@@ -274,9 +274,11 @@ fi
 
 ## 常用库
 
+- [tokio](https://github.com/tokio-rs/tokio)
 - [prost](https://github.com/tokio-rs/prost) tokio 团队的 protobuf 实现,actix 的 protobuf 扩展此库(0.13)。
 - [rust-protobuf](https://github.com/stepancheg/rust-protobuf) protobuf 第三方实现。
 - [tonic](https://github.com/hyperium/tonic) grpc 第三方实现。
+- [hyper](https://github.com/hyperium/hyper)  HTTP 客户端。
 - [reqwest](https://github.com/seanmonstar/reqwest) HTTP 客户端。
 - [RustCrypto](https://github.com/RustCrypto) 加密库集合。
 - [curve25519-dalek](https://github.com/dalek-cryptography/curve25519-dalek) curve25519 加密库。
@@ -336,6 +338,7 @@ fi
 - [sycamore](https://github.com/sycamore-rs/sycamore) rust 写前端页面，亮点是生成 WASM，类 react 风格。
 - [tower](https://github.com/tower-rs) web 开发库集合。
 - [salvo](https://github.com/salvo-rs/salvo) 简易 web 框架。
+- [wasmer](https://github.com/wasmerio/wasmer) wasm 运行时。
 
 ### 数据库
 

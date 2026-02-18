@@ -38,17 +38,24 @@ python -m http.server 8000
 - [qiskit](https://github.com/Qiskit/qiskit) 量子计算库。
 - [paramiko](https://github.com/paramiko/paramiko) ssh v2 库。
 - [redis-py](https://github.com/redis/redis-py) redis 客户端。
+- [uiautomator](https://github.com/xiaocong/uiautomator) 安卓 uiautomator 封装。
+- [uiautomator2](https://github.com/openatx/uiautomator2) 安卓 uiautomator2 封装。
 
 ### UI 库
 
 - [kivy](https://github.com/kivy/kivy) UI框架，主移动端。
 - [toga](https://github.com/beeware/toga) UI 框架，主桌面端。
 - [cefpython](https://github.com/cztomczak/cefpython) CEF 绑定库。
+- [pyglet](https://github.com/pyglet/pyglet) UI 多媒体库。
+- [pyxel](https://github.com/kitao/pyxel) rust 开发的游戏引擎，脚本语言是 python 。
+- [pygame_gui](https://github.com/MyreMylar/pygame_gui)
 
 ### Web 库
 
+- [sanic](https://github.com/sanic-org/sanic) web 框架。
 - [fastapi](https://github.com/fastapi/fastapi) web 框架。
 - [FastUI](https://github.com/pydantic/FastUI) web UI 库。非 HTML 模板，是 Python 代码生成 HTML。
+- [jinja](https://github.com/pallets/jinja) 模板引擎。
 - [circuits](https://github.com/circuits/circuits) web 框架。
 - [emsdk](https://github.com/emscripten-core/emsdk) Emscripten SDK
 
