@@ -32,6 +32,7 @@
 - [fresh](https://github.com/gravityblast/fresh) 实现 watch 功能，代码修改自动重启的命令行工具。
 - [air](https://github.com/air-verse/air) 实现 watch 功能，代码修改自动重启的命令行工具。
 - [godotenv](https://github.com/joho/godotenv) .env 处理库。
+- [captcha](https://github.com/dchest/captcha) 验证码。
 
 ### Web 框架
 

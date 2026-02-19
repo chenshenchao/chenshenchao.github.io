@@ -20,8 +20,10 @@
 - [enet](https://github.com/zpl-c/enet) UDP 框架。
 - [sqlcipher](https://github.com/sqlcipher/sqlcipher) fork SQLite 加入了数据库文件 256bit AES 加密。
 - [lz4](https://github.com/lz4/lz4) 压缩算法库。
+- [zstd](https://github.com/facebook/zstd) 压缩算法库。
 - [groonga](https://github.com/groonga/groonga) 全文搜索引擎。
 - [hiredis](https://github.com/redis/hiredis) redis 客户端库。
+- [libpcap](https://github.com/the-tcpdump-group/libpcap) linux 下网络抓包库。
 
 ### UI 图形库。
 

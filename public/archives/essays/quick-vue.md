@@ -1,20 +1,34 @@
 # [草稿]Vue 速查
 
 - [vue core](https://github.com/vuejs/core)
+- [composition-api](https://github.com/vuejs/composition-api) Vue2 的 composition api 支持库。
 - [vue-class-component](https://github.com/vuejs/vue-class-component) 已经废弃的设计。
+- [devtools-v6](https://github.com/vuejs/devtools-v6) Vue2 浏览器开发工具插件。
+- [devtools](https://github.com/vuejs/devtools) Vue3 浏览器开发工具插件。
 
 ## 常用库
 
+- [vxe-table](https://github.com/x-extends/vxe-table) 虚表格库，功能很多，有免费和付费版本。
+- [vueuse](https://vueuse.org/) vue 扩展库，主要扩展了一些钩子。
+- [ant-design-vue](https://github.com/vueComponent/ant-design-vue)
+
+### Vue3
+
 - [pinia](https://pinia.vuejs.org/) 存储管理库
 - [pinia-plugin-persistedstate](https://github.com/prazdevs/pinia-plugin-persistedstate) pinia 持久化扩展。
-- [vueuse](https://vueuse.org/) vue 扩展库，主要扩展了一些钩子。
 - [PPTist](https://github.com/pipipi-pikachu/PPTist) vue 的 PPT 库。
 - [nutui](https://github.com/jd-opensource/nutui) 京东移动端组件库。
-- [vxe-table](https://github.com/x-extends/vxe-table) 虚表格库，功能很多，有免费和付费版本。
 - [pictode](https://github.com/JessYan0913/pictode) 一个简易的绘图库。
+- [element-plus](https://github.com/element-plus/element-plus)
+- [vuetify](https://github.com/vuetifyjs/vuetify)
+- [vue.draggable.next](https://github.com/SortableJS/vue.draggable.next) Vue3 拖拽库。
+- [vue-echarts](https://github.com/ecomfe/vue-echarts)
+
+### Vue2
+
+- [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable) Vue2 拖拽库。
 - [mint-ui](https://github.com/ElemeFE/mint-ui) 饿了么移动端 UI ，已经多年不维护。
 - [vue-property-decorator](https://github.com/kaorun343/vue-property-decorator) 早期给组建了类的装饰器，现在这种设计几乎不用了。
-- [element-plus](https://github.com/element-plus/element-plus)
 
 ## Options API 和 Composition API
 

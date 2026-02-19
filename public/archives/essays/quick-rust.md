@@ -327,6 +327,7 @@ fi
 - [tauri](https://github.com/tauri-apps/tauri) 打包 web 成 移动app 或者 桌面软件的框架。
 - [tiny-skia](https://github.com/linebender/tiny-skia) skia 子集，只使用 CPU ，性能差，兼容好。
 - [azul](https://github.com/fschutt/azul) 目前尚不可用。
+- [amethyst](https://github.com/amethyst/amethyst) 游戏引擎，已废弃。
 
 ### web 开发框架和库
 

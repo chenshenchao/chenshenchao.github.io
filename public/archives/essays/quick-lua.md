@@ -1,5 +1,7 @@
 # lua 速查
 
+- [GitHub 源码仓库](https://github.com/lua/lua)
+
 ## 库与工具集
 
 - [Love2D](https://github.com/love2d/love) 游戏引擎

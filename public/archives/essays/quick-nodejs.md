@@ -30,6 +30,7 @@ nvm use 16
 - [node-mysql2](https://github.com/sidorares/node-mysql2) MySQL 客户端。
 - [pkg](https://github.com/vercel/pkg) 打包项目成可执行文件。
 - [cross-env](https://github.com/kentcdodds/cross-env) package.json scripts 命令环境变量设置。
+- [windows-build-tools](https://github.com/felixrieseberg/windows-build-tools)
 
 ### Web
 

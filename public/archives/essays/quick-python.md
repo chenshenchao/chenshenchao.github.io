@@ -47,6 +47,7 @@ python -m http.server 8000
 - [comtypes](https://github.com/enthought/comtypes) COM（Component Object Model）调用库。
 - [pymunk](https://github.com/viblo/pymunk) 2D 物理引擎。
 - [requests](https://github.com/psf/requests) HTTP 客户端库。
+- [ffmpeg-python](https://github.com/kkroening/ffmpeg-python) ffmpeg 绑定封装库。
 
 ### UI 库
 

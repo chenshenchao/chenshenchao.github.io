@@ -30,6 +30,7 @@
 - [go-ast-book《Go语言定制指南》](https://github.com/chai2010/go-ast-book)
 - [30dayMakeOS《30天自制操作系统》](https://github.com/yourtion/30dayMakeOS)
 - [the-road-to-learn-react-chinese《React 学习之道》](https://github.com/the-road-to-learn-react/the-road-to-learn-react-chinese)
+- [the-craft-of-selfteaching《自学是门手艺》](https://github.com/selfteaching/the-craft-of-selfteaching)
 
 ## 资源站点
 
@@ -117,9 +118,13 @@ qwen
 - [PyBoy](https://github.com/Baekalfen/PyBoy) python 开发的 GameBoy 模拟器。
 - [gbdk-2020](https://github.com/gbdk-2020/gbdk-2020) GameBoy 开发套件。
 - [SimpleNES](https://github.com/amhndu/SimpleNES) NES 红白机模拟器。
+- [nes](https://github.com/fogleman/nes) Go 语言实现的 NES 红白机模拟器。
+- [jsnes](https://github.com/bfirsh/jsnes) JS 语言实现的 NES 红白机模拟器。
+- [rpcs3](https://github.com/RPCS3/rpcs3) PS3（PlayStation 3） 模拟器，调试器。
 - [chromium](https://github.com/chromium/chromium)
 - [v8](https://github.com/v8/v8)
 - [nushell](https://github.com/nushell/nushell)
+- [terminal](https://github.com/microsoft/terminal) Windows 新命令行终端。
 
 ### 项目与版本管理工具
 
@@ -145,8 +150,10 @@ qwen
 - [LiteXL](https://github.com/lite-xl/lite-xl) 打开稍快于 VSCode 但功能又弱之。
 - [VisualMASM](https://github.com/ThomasJaeger/VisualMASM) MASM IDE
 - [thonny](https://github.com/thonny/thonny) 嵌入式 python IDE ，主要 树莓派、ESP 的开发。
+- [neovim](https://github.com/neovim/neovim) 一个 Vim 实现。
+- [xray](https://github.com/atom-archive/xray) 基于 Electron 的一个文本编辑器。
 
-### 编译器、解释器、调试器、构造工具与代码生成器
+### 汇编器、编译器、解释器、调试器、构造工具与代码生成器
 
 - [svg-filters](https://github.com/yoksel/svg-filters) SVG 滤镜代码生成器。
 - [dmc](https://github.com/DigitalMars/dmc) Digital Mars C/C++ 编译器。
@@ -157,12 +164,14 @@ qwen
 - [lisp](https://github.com/robpike/lisp) 一个 Lisp 1.5 解释器。(Go 语言)
 - [ninja](https://github.com/ninja-build/ninja) 谷歌用于取代 make 的跨平台构建脚本。
 - [pyasm](https://github.com/grant-olson/pyasm) 动态内联 x86 汇编的 python 实现。
+- [yasm](https://github.com/yasm/yasm) x86 汇编器。
 - [yadcc](https://github.com/Tencent/yadcc) 分布式 C++ 编译器。
 - [vue-compiler](https://github.com/HerringtonDarkholme/vue-compiler) rust 开发的 vue 编译器。
 - [dnSpy](https://github.com/dnSpy/dnSpy) .Net 调试器。
 - [wenyan](https://github.com/wenyan-lang/wenyan) 文言文編程語言
 - [fanx](https://github.com/fanx-dev/fanx) 全栈编程语言。
 - [stone](https://github.com/chibash/stone) 《两周自制脚本语言》示例语言。
+- [OpenHSP](https://github.com/onitama/OpenHSP) Hot Soup 语言 Processor
 
 ### 文件处理工具
 
@@ -203,7 +212,10 @@ qwen
 - [RedisStudio](https://github.com/cinience/RedisStudio) Redis 图形客户端工具。
 - [PDFPatcher](https://github.com/wmjordan/PDFPatcher) PDF 编辑工具。
 - [music](https://github.com/sunzongzheng/music) vue + electron 音乐播放器。
-- [ieaseMusic](https://github.com/trazyn/ieaseMusic) 网易云音乐第三方
+- [ieaseMusic](https://github.com/trazyn/ieaseMusic) 网易云音乐第三方。
+- [Motrix](https://github.com/agalwood/Motrix) 下载器。
+- [fonteditor](https://github.com/ecomfe/fonteditor) web 字体编辑器。
+- [calculator](https://github.com/microsoft/calculator) Windows 新计算器。
 
 ### 监控工具
 
@@ -266,6 +278,10 @@ qwen
 - [postfixadmin](https://github.com/postfixadmin/postfixadmin)
 - [vue-chat](https://github.com/aermin/vue-chat) vue 开发的聊天工具项目。
 - [vue-chat](https://github.com/microzz/vue-chat) Vue全家桶+Socket.io+Express/Koa2打造一个智能聊天室。
+- [entropic](https://github.com/entropic-dev/entropic) 去中性化的类 npm 包管理系统。
+- [nextcloud server](https://github.com/nextcloud/server) 文件存储托管同步服务。
+- [james-project](https://github.com/apache/james-project) Java 开发的邮箱服务器。
+- [docute](https://github.com/egoist/docute) markdown 展示成网页的站点项目。
 
 ### 硬件设计工具
 
@@ -317,6 +333,8 @@ qwen
 - [MapleStory-GM-Client](https://github.com/Elem8100/MapleStory-GM-Client) 离线冒险岛客户端模拟器。（Delphi）
 - [MapleNecrocer](https://github.com/Elem8100/MapleNecrocer) 离线冒险岛客户端模拟器。（C#）
 - [MapleServer2](https://github.com/AlanMorel/MapleServer2) 冒险岛2 服务端复刻，仅用于教学。
+- [tiled](https://github.com/mapeditor/tiled) 2D 瓦片地图编辑器。
+- [piskel](https://github.com/piskelapp/piskel) 基于 web 的像素素材编辑器。
 
 ### 游戏素材
 

@@ -6,6 +6,7 @@
 - [moment](https://github.com/moment/moment) 日期库。
 - [luxon](https://github.com/moment/luxon) 日期库。
 - [dayjs](https://github.com/iamkun/dayjs) 日期库。
+- [timeago.js](https://github.com/hustcc/timeago.js) 2kb 日期库。
 - [lodash](https://github.com/lodash/lodash) 基础类型扩展工具库。
 - [ramda](https://github.com/ramda/ramda) 类 lodash 工具库。
 - [handsontable](https://github.com/handsontable/handsontable) Excel 编辑器
@@ -40,6 +41,7 @@
 - [jsPDF](https://github.com/parallax/jsPDF) PDF 生成库。
 - [pdf.js](https://github.com/mozilla/pdf.js) PDF 展示库。
 - [simple-virtual-dom](https://github.com/livoras/simple-virtual-dom) 一个虚拟 DOM 实现库。
+- [dyo](https://github.com/dyo/dyo) DOM 元素生成库。
 - [eva.js](https://github.com/eva-engine/eva.js) 前端简易游戏引擎。
 - [asm-js validator](https://github.com/asm-js/validator) asm.js 的参考验证器。
 - [MIDI.js](https://github.com/mudcube/MIDI.js)
@@ -47,6 +49,22 @@
 - [chameleon](https://github.com/didi/chameleon) 跨 web 和多家小程序的 开发框架。
 - [astring](https://github.com/davidbonnet/astring) JS 解析成 AST 库。
 - [draggable](https://github.com/Shopify/draggable) DOM 元素拖拽库。
+- [Sortable](https://github.com/SortableJS/Sortable) DOM 元素拖拽库。
+- [dragula](https://github.com/bevacqua/dragula) DOM 元素拖拽库。
+- [commander.js](https://github.com/tj/commander.js) 命令行参数处理库。
+- [luxbar](https://github.com/balzss/luxbar) 仿 GitHub 响应式导航栏。
+- [pickerjs](https://github.com/fengyuanchen/pickerjs) 日期选择器 UI 组件。
+- [viewerjs](https://github.com/fengyuanchen/viewerjs) 图片浏览器 UI 组件。
+- [cropperjs](https://github.com/fengyuanchen/cropperjs) 图片裁剪器 UI 组件。
+- [compressorjs](https://github.com/fengyuanchen/compressorjs) 图片压缩器 UI 组件。
+- [echarts](https://github.com/apache/echarts)
+- [echarts-wordcloud](https://github.com/ecomfe/echarts-wordcloud) echarts 组件。
+- [echarts-liquidfill](https://github.com/ecomfe/echarts-liquidfill) echarts 组件。
+- [spritejs](https://github.com/spritejs/spritejs) 精灵组件。
+- [size-sensor](https://github.com/hustcc/size-sensor) DOM 元素大小缩放监听库。
+- [canvas-nest.js](https://github.com/hustcc/canvas-nest.js) 一个绘制 连线的 背景动画效果。
+- [FileSaver.js](https://github.com/eligrey/FileSaver.js) 浏览器文件保存库，有内存限制问题。
+- [StreamSaver.js](https://github.com/jimmywarting/StreamSaver.js) 浏览器文件保存库，流式（ReadableStream、WritableStream），解决内存限制问题。
 
 ### Web
 
@@ -57,6 +75,7 @@
 - [layui](https://github.com/layui/layui) 类 jQuery 风格的 UI 组件库。
 - [lulu](https://github.com/yued-fe/lulu) 原生JS风格的 UI 组件库。
 - [move.js](https://github.com/visionmedia/move.js) JS 生成 CSS 动画库。
+- [Proton](https://github.com/drawcall/Proton) 粒子动画库。
 - [ejs](https://github.com/mde/ejs) 模板引擎
 - [template.js](https://github.com/yanhaijing/template.js) 模板引擎
 - [art-template](https://github.com/goofychris/art-template) 模板引擎
@@ -64,6 +83,8 @@
 - [doT](https://github.com/olado/doT) 模板引擎
 - [consolidate.js](https://github.com/tj/consolidate.js) 模板引擎整合库。
 - [vue-lit](https://github.com/yyx990803/vue-lit) 合并了 @vue/reactivity 和 lit-html 做出来的轻量框架。
+- [tabler](https://github.com/tabler/tabler) 基于 Bootstrap 的 UI 库。
+- [AdminLTE](https://github.com/ColorlibHQ/AdminLTE) 基于 Bootstrap 的 UI 库。
 
 ## jsx
 
