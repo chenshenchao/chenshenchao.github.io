@@ -14,6 +14,8 @@
 - [Xposed](https://github.com/rovo89/Xposed)
 - [SerialPortHelper](https://github.com/freyskill/SerialPortHelper) 串口开发库。
 - [GSYRecordWave](https://github.com/CarGuo/GSYRecordWave) MP3音频录制库。
+- [anko](https://github.com/Kotlin/anko) 多工具库。
+- [QMUI_Android](https://github.com/Tencent/QMUI_Android)
 
 ## 开发工具
 

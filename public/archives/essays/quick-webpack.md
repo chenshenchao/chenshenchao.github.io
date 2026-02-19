@@ -2,6 +2,10 @@
 
 多年前，Webpack 还是比 gulp、grunt 这些脚本执行框架要先进的，当时可谓风头正盛，但是随着之后 rollup 系的 vite 出来后渐渐式微，这里仅做留存多年前残留的一些信息，因为已经过去八九年了，正确性不太可考。
 
+## 插件
+
+- [webpack-iconfont-plugin-nodejs](https://github.com/hzsrc/webpack-iconfont-plugin-nodejs) SVG 生成字体图标 ttf,woff2,woff,eot,svg 插件。
+
 ## 配置
 
 webpack.config.js 时代还是 CommonJs 的配置。

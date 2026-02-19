@@ -1,5 +1,10 @@
 # Blender 速查
 
+## 第三方插件
+
+- [collada-exporter-2.8](https://github.com/artellblender/collada-exporter-2.8) 导出模型给 Godot
+- [collada-exporter](https://github.com/godotengine/collada-exporter) 导出模型给 Godot
+
 ## 常用快捷键
 
 - Ctrl + Alt + Q： 三视图切入切出

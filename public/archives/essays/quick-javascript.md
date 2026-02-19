@@ -43,9 +43,14 @@
 - [eva.js](https://github.com/eva-engine/eva.js) 前端简易游戏引擎。
 - [asm-js validator](https://github.com/asm-js/validator) asm.js 的参考验证器。
 - [MIDI.js](https://github.com/mudcube/MIDI.js)
+- [licia](https://github.com/liriliri/licia) 无依赖，自成一体的工具集库（UUID 生成等）。
+- [chameleon](https://github.com/didi/chameleon) 跨 web 和多家小程序的 开发框架。
+- [astring](https://github.com/davidbonnet/astring) JS 解析成 AST 库。
+- [draggable](https://github.com/Shopify/draggable) DOM 元素拖拽库。
 
 ### Web
 
+- [riot](https://github.com/riot/riot) web 前端框架。
 - [hyperapp](https://github.com/jorgebucaran/hyperapp) 1kb 大小的 web 前端框架。
 - [Gracejs](https://github.com/xiongwilee/Gracejs) 基于 koa2 的框架，设计不太好。
 - [avalon](https://github.com/RubyLouvre/avalon) 前端 MVVM 框架，已经废弃。
@@ -55,27 +60,10 @@
 - [ejs](https://github.com/mde/ejs) 模板引擎
 - [template.js](https://github.com/yanhaijing/template.js) 模板引擎
 - [art-template](https://github.com/goofychris/art-template) 模板引擎
+- [mustache.js](https://github.com/janl/mustache.js) 模板引擎
+- [doT](https://github.com/olado/doT) 模板引擎
 - [consolidate.js](https://github.com/tj/consolidate.js) 模板引擎整合库。
-
-## NodeJs
-
-### nvm
-
-[GitHub 仓库](https://github.com/nvm-sh/nvm) 按照 README 安装。
-
-```bat
-@rem 列举已经安装的 node 版本
-nvm list
-
-@rem 查看当前版本
-nvm current
-
-@rem 安装指定版本
-nvm install 22.15.0
-
-@rem 切换版本匹配最近的 16 版本
-nvm use 16
-```
+- [vue-lit](https://github.com/yyx990803/vue-lit) 合并了 @vue/reactivity 和 lit-html 做出来的轻量框架。
 
 ## jsx
 

@@ -39,6 +39,10 @@
 - [assimp](https://github.com/assimp/assimp) 支持 40+ 种 3D 资源文件加载库。
 - [SFML](https://github.com/SFML/SFML) 多媒体库。
 - [cef](https://github.com/chromiumembedded/cef) Chromium Embedded Framework 源码。
+- [spire-engine](https://github.com/spire-engine/spire-engine) 3D 游戏引擎。
+- [GuiLite](https://github.com/idea4good/GuiLite)
+- [imgui](https://github.com/ocornut/imgui)
+- [GacUI](https://github.com/vczh-libraries/GacUI) 轮子哥的UI库。
 
 ### boost
 

@@ -6,15 +6,50 @@
 - [unbuild](https://github.com/unjs/unbuild) 构建工具
 - [fis3](https://github.com/fex-team/fis3) 类 gulp 构建工具。
 
+## nvm
+
+[GitHub 仓库](https://github.com/nvm-sh/nvm) 按照 README 安装。
+
+```bat
+@rem 列举已经安装的 node 版本
+nvm list
+
+@rem 查看当前版本
+nvm current
+
+@rem 安装指定版本
+nvm install 22.15.0
+
+@rem 切换版本匹配最近的 16 版本
+nvm use 16
+```
+
 ## 常用库
 
 - [mysql](https://github.com/mysqljs/mysql) 纯 JS MySQL 客户端。
+- [node-mysql2](https://github.com/sidorares/node-mysql2) MySQL 客户端。
+- [pkg](https://github.com/vercel/pkg) 打包项目成可执行文件。
+- [cross-env](https://github.com/kentcdodds/cross-env) package.json scripts 命令环境变量设置。
 
 ### Web
 
+- [loopback](https://github.com/strongloop/loopback) web 框架，工具齐全。
 - [thinkjs](https://github.com/thinkjs/thinkjs) 仿 ThinkPHP 的后端框架。
 - [pug](https://github.com/pugjs/pug) HTML 模板引擎。
 - [koajs router](https://github.com/koajs/router)
+- [koajs compress](https://github.com/koajs/compress)
+- [koajs static-cache](https://github.com/koajs/static-cache)
+- [koa-websocket](https://github.com/kudos/koa-websocket)
+- [pomelo](https://github.com/NetEase/pomelo) 游戏服务器框架。
+- [pinus](https://github.com/node-pinus/pinus) 基于 pomelo 的游戏服务器框架。
+- [dart-sass](https://github.com/sass/dart-sass)
+- [EvaEngine.js](https://github.com/EvaEngine/EvaEngine.js) 微服务框架。
+
+### UI
+
+- [neutralinojs](https://github.com/neutralinojs/neutralinojs) 桌面应用开发框架。
+- [nw.js](https://github.com/nwjs/nw.js) 桌面应用开发框架。
+- [open-color](https://github.com/yeun/open-color) 颜色设计样式库，因为 tailwindcss 也有这个库也就没啥意义。
 
 ## 包管理器
 

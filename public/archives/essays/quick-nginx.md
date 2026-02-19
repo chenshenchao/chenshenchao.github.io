@@ -1,5 +1,7 @@
 # Nginx 速查
 
+- [unit](https://github.com/nginx/unit) 支持多语言的 web 服务器插件。
+
 ## 常用命令
 
 ```bash

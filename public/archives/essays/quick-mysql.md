@@ -2,6 +2,10 @@
 
 MySQL 目前由甲骨文维护，同时有一个开源分支 MariaDB 基本上兼容。
 
+## 模块与引擎
+
+- [mroonga](https://github.com/mroonga/mroonga) 基于 Groonga 的引擎。
+
 ## 基础类型
 
 - TINYINT(*) 8位，*只影响格式化输出。

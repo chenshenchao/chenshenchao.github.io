@@ -12,6 +12,7 @@
 - [hash-wasm](https://github.com/Daninet/hash-wasm) 基于 WASM 的 HASH 算法库。
 - [canvas-editor](https://github.com/Hufe921/canvas-editor) 类似 Office Word 的一个 canvas/svg 编辑器，可以通过插件导出 svg 或 pdf 文件。
 - [wolf-table](https://github.com/wolf-table/table) 类似 Office Excel 的 canvas 编辑器。
+- [diagram-maker](https://github.com/awslabs/diagram-maker) 流程图、导图等图编辑器库。
 - [ag-grid](https://github.com/ag-grid/ag-grid) 支持 React、Vue 等多框架的表格库。
 - [faker](https://github.com/faker-js/faker) 生成伪造数据的库，可以用来生成测试数据。
 - [Prisma](https://github.com/prisma/prisma) 数据库 ORM 功能齐全。
@@ -49,6 +50,7 @@
 - [egg](https://github.com/eggjs/egg) web 框架。
 - [eggjs static](https://github.com/eggjs/static)
 - [mdui](https://github.com/zdhxiong/mdui) 安卓 Material 3 风格的 UI 组件库。
+- [lit](https://github.com/lit/lit) 基于 web components 开发组件的框架。
 
 ## 类型系统
 

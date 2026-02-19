@@ -40,6 +40,13 @@ python -m http.server 8000
 - [redis-py](https://github.com/redis/redis-py) redis 客户端。
 - [uiautomator](https://github.com/xiaocong/uiautomator) 安卓 uiautomator 封装。
 - [uiautomator2](https://github.com/openatx/uiautomator2) 安卓 uiautomator2 封装。
+- [scapy](https://github.com/secdev/scapy) IP ICMP 等网络报文工具库。
+- [aiosqlite](https://github.com/omnilib/aiosqlite) 异步 SQLite
+- [pycapt](https://github.com/aboutmydreams/pycapt) 验证码生成库。
+- [pywinauto](https://github.com/pywinauto/pywinauto) Windows 自动化测试工具库。
+- [comtypes](https://github.com/enthought/comtypes) COM（Component Object Model）调用库。
+- [pymunk](https://github.com/viblo/pymunk) 2D 物理引擎。
+- [requests](https://github.com/psf/requests) HTTP 客户端库。
 
 ### UI 库
 
@@ -47,6 +54,7 @@ python -m http.server 8000
 - [toga](https://github.com/beeware/toga) UI 框架，主桌面端。
 - [cefpython](https://github.com/cztomczak/cefpython) CEF 绑定库。
 - [pyglet](https://github.com/pyglet/pyglet) UI 多媒体库。
+- [glooey](https://github.com/kxgames/glooey) pyglet UI 组件库。
 - [pyxel](https://github.com/kitao/pyxel) rust 开发的游戏引擎，脚本语言是 python 。
 - [pygame_gui](https://github.com/MyreMylar/pygame_gui)
 
@@ -58,7 +66,7 @@ python -m http.server 8000
 - [jinja](https://github.com/pallets/jinja) 模板引擎。
 - [circuits](https://github.com/circuits/circuits) web 框架。
 - [emsdk](https://github.com/emscripten-core/emsdk) Emscripten SDK
-
+- [wechatpy](https://github.com/wechatpy/wechatpy) 微信SDK
 
 ## 虚拟环境
 

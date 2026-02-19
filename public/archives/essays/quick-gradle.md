@@ -17,3 +17,6 @@
 |       7.6         |       19      |
 |       8.1         |       20      |
 
+## 扩展
+
+- [gradle-bintray-plugin](https://github.com/bintray/gradle-bintray-plugin) 发布到 bintray 的插件。

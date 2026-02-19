@@ -9,6 +9,7 @@
 - [tensorflow](https://github.com/tensorflow/tensorflow) 谷歌的框架，早期主流。
 - [Paddle](https://github.com/PaddlePaddle/Paddle) 百度的框架，中文名“飞桨”。
 - [Paddle Lite](https://github.com/PaddlePaddle/Paddle-Lite.git) 百度飞桨（轻量版），只能用于推理，优化了推理。
+- [auto-sklearn](https://github.com/automl/auto-sklearn) ML 工具包。
 
 ## 资料源
 
@@ -16,6 +17,7 @@
 - [OpenRouter](https://openrouter.ai/)
 - [ModelScope](https://www.modelscope.cn)
 - [阿里云百炼](https://bailian.console.aliyun.com/) 云平台，目前有送免费 100万 tokens 额度。
+- [nlp_chinese_corpus](https://github.com/brightmart/nlp_chinese_corpus) 大规模中文自然语言处理语料
 
 ### Huggingface 相关
 

@@ -1,6 +1,7 @@
 # [草稿]Vue 速查
 
 - [vue core](https://github.com/vuejs/core)
+- [vue-class-component](https://github.com/vuejs/vue-class-component) 已经废弃的设计。
 
 ## 常用库
 
@@ -12,6 +13,8 @@
 - [vxe-table](https://github.com/x-extends/vxe-table) 虚表格库，功能很多，有免费和付费版本。
 - [pictode](https://github.com/JessYan0913/pictode) 一个简易的绘图库。
 - [mint-ui](https://github.com/ElemeFE/mint-ui) 饿了么移动端 UI ，已经多年不维护。
+- [vue-property-decorator](https://github.com/kaorun343/vue-property-decorator) 早期给组建了类的装饰器，现在这种设计几乎不用了。
+- [element-plus](https://github.com/element-plus/element-plus)
 
 ## Options API 和 Composition API
 

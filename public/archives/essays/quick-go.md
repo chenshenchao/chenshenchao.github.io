@@ -36,8 +36,11 @@
 ### Web 框架
 
 - [kratos](https://github.com/go-kratos/kratos) 基于 Protobuf 的微服务框架。
+- [iris](https://github.com/kataras/iris) HTTP/2  Web 框架。
+- [gf](https://github.com/gogf/gf)  Web 框架。
 - [go-micro](https://github.com/micro/go-micro) 简易的 Web 框架。
 - [wasmer-go](https://github.com/wasmerio/wasmer-go) wasm 运行时。
+- [vugu](https://github.com/vugu/vugu) go + wasm 的 web UI 库。
 
 ### UI 库
 

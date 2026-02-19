@@ -1,6 +1,7 @@
 # C# 速查
 
 - [runtime](https://github.com/dotnet/runtime) .NET 源码。
+- [efcore](https://github.com/dotnet/efcore)
 
 ## 常用库
 
@@ -12,6 +13,7 @@
 - [lucenenet](https://github.com/apache/lucenenet) Lucene 的 .Net 版本，倒排索引库。
 - [elfsharp](https://github.com/konrad-kruczynski/elfsharp) ELF 库。
 - [MySqlCdc](https://github.com/rusuly/MySqlCdc) MySQL binlog 客户端。
+- [SQLiteCodeFirst](https://github.com/msallin/SQLiteCodeFirst)
 - [ILPack](https://github.com/Lokad/ILPack) .NET Core IL 生成器。
 - [GtkSharp](https://github.com/GtkSharp/GtkSharp) GTK 封装。
 - [gtk-sharp](https://github.com/mono/gtk-sharp) mono GTK 封装。
@@ -23,6 +25,12 @@
 - [NAudio](https://github.com/naudio/NAudio) 音频文件处理库。
 - [Dapper](https://github.com/DapperLib/Dapper) 一个 ORM 。
 - [SharpVectors](https://github.com/ElinamLLC/SharpVectors) SVG 库。
+- [WinAppDriver](https://github.com/microsoft/WinAppDriver) Windows 类似 Selenium 的自动化测试驱动。
+- [Chromely](https://github.com/chromelyapps/Chromely) WebView 桌面应用开发框架。
+- [electrino](https://github.com/pojala/electrino) WebView 桌面应用开发框架。
+- [Edi.Captcha.AspNetCore](https://github.com/EdiWang/Edi.Captcha.AspNetCore) 验证码。
+- [SSH.NET](https://github.com/sshnet/SSH.NET)
+
 
 ## WinForms
 

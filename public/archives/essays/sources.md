@@ -14,6 +14,8 @@
 - [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) 一堆造轮子教程汇集库。
 - [raspberrypi 文档](https://github.com/raspberrypi/documentation)
 - [USTC-Course](https://github.com/USTC-Resource/USTC-Course) 中国科学技术大学课程资源
+- [iCSS](https://github.com/chokcoco/iCSS) 不止于 CSS，CSS 奇技淫巧。
+- [public-apis](https://github.com/public-apis/public-apis) 公开免费 API 汇集列表。
 
 ## 开源书籍
 
@@ -46,6 +48,7 @@
 - [awesome-rust](https://github.com/rust-unofficial/awesome-rust)
 - [awesome-gameserver-cn](https://github.com/hstcscolor/awesome-gameserver-cn)
 - [awesome-vscode](https://github.com/viatsko/awesome-vscode)
+- [awesome-android-ui](https://github.com/wasabeef/awesome-android-ui)
 
 ### 数据站点
 
@@ -147,6 +150,7 @@ qwen
 
 - [svg-filters](https://github.com/yoksel/svg-filters) SVG 滤镜代码生成器。
 - [dmc](https://github.com/DigitalMars/dmc) Digital Mars C/C++ 编译器。
+- [cling](https://github.com/root-project/cling) C++ 解释器。
 - [tdm-gcc](https://github.com/jmeubank/tdm-gcc)
 - [llgo](https://github.com/go-llvm/llgo) 基于 LLVM 的 Go 编译器。
 - [emscripten](https://github.com/emscripten-core/emscripten) 基于 LLVM 的 WASM 编译器。
@@ -156,6 +160,9 @@ qwen
 - [yadcc](https://github.com/Tencent/yadcc) 分布式 C++ 编译器。
 - [vue-compiler](https://github.com/HerringtonDarkholme/vue-compiler) rust 开发的 vue 编译器。
 - [dnSpy](https://github.com/dnSpy/dnSpy) .Net 调试器。
+- [wenyan](https://github.com/wenyan-lang/wenyan) 文言文編程語言
+- [fanx](https://github.com/fanx-dev/fanx) 全栈编程语言。
+- [stone](https://github.com/chibash/stone) 《两周自制脚本语言》示例语言。
 
 ### 文件处理工具
 
@@ -175,18 +182,28 @@ qwen
 - [Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy) 可执行文件等多种文件查看探测器。
 - [DIE-engine](https://github.com/horsicq/DIE-engine) DIE 下载点。
 - [ghidra](https://github.com/NationalSecurityAgency/ghidra) 逆向分析工具。
+- [cutter](https://github.com/rizinorg/cutter) 逆向分析工具。
+- [ILSpy](https://github.com/icsharpcode/ILSpy) .Net 字节码反编译器。
 - [frida](https://github.com/frida/frida) 逆向插桩工具。
 - [Dependencies](https://github.com/lucasg/Dependencies) C# 重写 depends.exe，用于查看 DLL 依赖的图形工具。
 - [CyberChef](https://github.com/gchq/CyberChef) 纯静态网页的加密算法、日期格式化等方便工具。
 - [vector-drawable-nextjs](https://github.com/seanghay/vector-drawable-nextjs) 安卓图标资源（VectorDrawable）转 SVG 工具。
-- [PDFPatcher](https://github.com/wmjordan/PDFPatcher) PDF 编辑工具。
 - [fd](https://github.com/sharkdp/fd) rust 开发的类 find 命令行工具。
 - [FFmpeg](https://github.com/FFmpeg/FFmpeg)
 - [FFmpeg-Builds](https://github.com/BtbN/FFmpeg-Builds) FFmpeg 下载。
 - [libav](https://github.com/libav/libav) FFmpeg 的分支，已经停止维护。
 - [PandaOCR](https://github.com/miaomiaosoft/PandaOCR) OCR 工具。
 - [rufus](https://github.com/pbatard/rufus) USB 格式化工具。
+
+### 办公软件与应用
+
+- [deskflow](https://github.com/deskflow/deskflow) 多电脑共享键盘鼠标。
 - [ScreenToGif](https://github.com/NickeManarin/ScreenToGif) C# 开发的 Windows 截屏工具。
+- [AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) Redis 图形客户端工具。
+- [RedisStudio](https://github.com/cinience/RedisStudio) Redis 图形客户端工具。
+- [PDFPatcher](https://github.com/wmjordan/PDFPatcher) PDF 编辑工具。
+- [music](https://github.com/sunzongzheng/music) vue + electron 音乐播放器。
+- [ieaseMusic](https://github.com/trazyn/ieaseMusic) 网易云音乐第三方
 
 ### 监控工具
 
@@ -223,9 +240,11 @@ qwen
 - [manticoresearch](https://github.com/manticoresoftware/manticoresearch) 类 ElasticSearch 全文索引数据库（C 语言）。
 - [Toshi](https://github.com/toshi-search/Toshi) 全文搜索引擎。
 - [quickwit](https://github.com/quickwit-oss/quickwit) 全文搜索引擎。
+- [yugabyte-db](https://github.com/yugabyte/yugabyte-db) 兼容 PostgreSQL 的分布式数据库。
 - [questdb](https://github.com/questdb/questdb) 时序数据库（rust 语言），支持多语言客户端。
 - [rustfs](https://github.com/rustfs/rustfs) rust 实现的高性能分布式对象存储。
 - [seaweedfs](https://github.com/seaweedfs/seaweedfs) GO 实现的高性能分布式对象存储。
+- [storj](https://github.com/storj/storj) GO 实现的高性能分布式对象存储。
 - [KeyDB](https://github.com/Snapchat/KeyDB) 扩展 Redis 为多线程的项目。
 - [etcd](https://github.com/etcd-io/etcd) Go 开发的配置管理服务器。
 - [Consul](https://github.com/hashicorp/consul) Go 开发的配置管理服务器。
@@ -242,6 +261,11 @@ qwen
 - [canal](https://github.com/alibaba/canal) 阿里巴巴 MySQL binlog 增量订阅&消费 服务。
 - [opa](https://github.com/open-policy-agent/opa)  
 - [gridstudio](https://github.com/ricklamers/gridstudio) 浏览器端通过 python 处理表格数据的 web 服务。
+- [superset](https://github.com/apache/superset) 数据可视化和数据探索
+- [osmedeus](https://github.com/j3ssie/osmedeus) 款面向渗透测试、自动化安全扫描的集成工具
+- [postfixadmin](https://github.com/postfixadmin/postfixadmin)
+- [vue-chat](https://github.com/aermin/vue-chat) vue 开发的聊天工具项目。
+- [vue-chat](https://github.com/microzz/vue-chat) Vue全家桶+Socket.io+Express/Koa2打造一个智能聊天室。
 
 ### 硬件设计工具
 
@@ -303,13 +327,15 @@ qwen
 ### 系统
 
 - [linux](https://github.com/torvalds/linux)
+- [openwrt](https://github.com/openwrt/openwrt) 嵌入式 linux，适合开发路由器。
 - [MOOS](https://github.com/nifanfa/MOOS) C# 开发的 x64 操作系统，基于 .NET AOT。
 - [MS-DOS](https://github.com/microsoft/MS-DOS)
 
-### chrome 插件
+### 浏览器插件
 
-- [CSS-Diff](https://github.com/kdzwinel/CSS-Diff) 比较 HTML 元素的样式差异插件。
-- [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) 代理插件。
+- [CSS-Diff](https://github.com/kdzwinel/CSS-Diff) 比较 HTML 元素的样式差异 chrome 插件。
+- [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) 代理 chrome 插件。
+- [octotree](https://github.com/ovity/octotree) 增强 GitHub 兼容多种浏览器的插件。
 
 ### VS code 插件
 
