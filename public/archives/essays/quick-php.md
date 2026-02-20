@@ -42,6 +42,8 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [thinkphp](https://github.com/top-think/framework) Web 框架，很多基础库复用 symfony 的，国内大量专用框架由其扩展而来。
 - [think-validate](https://github.com/top-think/think-validate)
 - [think-worker](https://github.com/top-think/think-worker) ThinkPHP Workerman 扩展
+- [think-orm](https://github.com/top-think/think-orm)
+- [think-wechat](https://github.com/qiqizjl/think-wechat) easywechat 封装到 thinkphp
 - [likeadmin](https://www.likeadmin.cn/) 多语言的框架，PHP 版主打线上开发（就是需要服务器，本地开发部分功能不能使用。）很符合 PHP 开发者的习惯，直接在正式服务器上修改代码。基于 ThinkPHP
 - [dompdf](https://github.com/dompdf/dompdf) DOM 转 PDF 的库。
 - [jieba-php](https://github.com/fukuball/jieba-php)
@@ -54,6 +56,8 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [lexer](https://github.com/doctrine/lexer) doctrine 的词法器库。
 - [cache](https://github.com/doctrine/cache) doctrine 的缓存库。
 - [monolog](https://github.com/Seldaek/monolog) 日志库。
+- [PhpSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet) excel 处理库。
+- [psalm](https://github.com/vimeo/psalm) 静态分析工具，可以分析出函数参数类型错误等问题。
 
 ## 命令规范
 

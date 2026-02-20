@@ -10,6 +10,7 @@
 - [lodash](https://github.com/lodash/lodash) 基础类型扩展工具库。
 - [ramda](https://github.com/ramda/ramda) 类 lodash 工具库。
 - [handsontable](https://github.com/handsontable/handsontable) Excel 编辑器
+- [ace](https://github.com/ajaxorg/ace) 代码编辑器。
 - [GSAP](https://github.com/greensock/GSAP) 动画库
 - [crypto-js](https://github.com/brix/crypto-js) 散列和对称加密库，但是由于标准已经提供了异步的（Crypto Web API）所以只有在兼容旧环境和非异步情况下才使用。
 - [jsencrypt](https://github.com/travist/jsencrypt) 纯 JS 的非对称算法 RSA 实现，但是标准已经有异步的（Crypto Web API）所以只有在兼容旧环境和非异步情况下才使用。
@@ -63,11 +64,18 @@
 - [echarts](https://github.com/apache/echarts)
 - [echarts-wordcloud](https://github.com/ecomfe/echarts-wordcloud) echarts 组件。
 - [echarts-liquidfill](https://github.com/ecomfe/echarts-liquidfill) echarts 组件。
+- [joint](https://github.com/clientIO/joint) 图表库。
+- [G6](https://github.com/antvis/G6) 图形图表库。
 - [spritejs](https://github.com/spritejs/spritejs) 精灵组件。
 - [size-sensor](https://github.com/hustcc/size-sensor) DOM 元素大小缩放监听库。
 - [canvas-nest.js](https://github.com/hustcc/canvas-nest.js) 一个绘制 连线的 背景动画效果。
+- [multiscroll.js](https://github.com/alvarotrigo/multiscroll.js) 滚动分屏效果。
+- [impress.js](https://github.com/impress/impress.js) 报纸版面切换效果。
+- [reveal.js](https://github.com/hakimel/reveal.js) 新手引导这类演示动画的框架。
 - [FileSaver.js](https://github.com/eligrey/FileSaver.js) 浏览器文件保存库，有内存限制问题。
 - [StreamSaver.js](https://github.com/jimmywarting/StreamSaver.js) 浏览器文件保存库，流式（ReadableStream、WritableStream），解决内存限制问题。
+- [nsfwjs](https://github.com/infinitered/nsfwjs) 基于 TensorFlow.js 开发的 NSFW（Not Safe For Work）色情暴力图片检测库。
+- [favico.js](https://github.com/ejci/favico.js) 用图片或视频制作 带 badge 的 favico 图标。 
 
 ### Web
 
@@ -88,6 +96,7 @@
 - [vue-lit](https://github.com/yyx990803/vue-lit) 合并了 @vue/reactivity 和 lit-html 做出来的轻量框架。
 - [tabler](https://github.com/tabler/tabler) 基于 Bootstrap 的 UI 库。
 - [AdminLTE](https://github.com/ColorlibHQ/AdminLTE) 基于 Bootstrap 的 UI 库。
+- [hls.js](https://github.com/video-dev/hls.js) 让只支持MSE(Media Source Extensions，W3C 制定)的浏览器支持 HLS(HTTP Live Streaming，苹果公司推出) 的视频播放。
 
 ## jsx
 

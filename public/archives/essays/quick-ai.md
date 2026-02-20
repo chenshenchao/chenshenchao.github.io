@@ -10,6 +10,7 @@
 - [Paddle](https://github.com/PaddlePaddle/Paddle) 百度的框架，中文名“飞桨”。
 - [Paddle Lite](https://github.com/PaddlePaddle/Paddle-Lite.git) 百度飞桨（轻量版），只能用于推理，优化了推理。
 - [auto-sklearn](https://github.com/automl/auto-sklearn) ML 工具包。
+- [darknet](https://github.com/pjreddie/darknet)
 
 ## 资料源
 

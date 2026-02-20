@@ -15,3 +15,4 @@
 - [substrate](https://github.com/paritytech/substrate) 区块链框架。
 - [bytom](https://github.com/BytomDAO/bytom) 比原链 协议实现。
 - [zq1](https://github.com/Zilliqa/zq1) 一个智能合约平台。
+- [vnpy](https://github.com/vnpy/vnpy) 基于Python的开源量化交易平台开发框架

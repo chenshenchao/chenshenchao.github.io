@@ -42,6 +42,8 @@
 - [go-micro](https://github.com/micro/go-micro) 简易的 Web 框架。
 - [wasmer-go](https://github.com/wasmerio/wasmer-go) wasm 运行时。
 - [vugu](https://github.com/vugu/vugu) go + wasm 的 web UI 库。
+- [beego](https://github.com/beego/beego) Web 框架。
+- [bee](https://github.com/beego/bee) beego 的命令行工具。
 
 ### UI 库
 

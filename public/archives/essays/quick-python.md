@@ -50,6 +50,9 @@ python -m http.server 8000
 - [requests](https://github.com/psf/requests) HTTP 客户端库。
 - [ffmpeg-python](https://github.com/kkroening/ffmpeg-python) ffmpeg 绑定封装库。
 
+
+- [jax](https://github.com/jax-ml/jax) 组件化 numpy 使代码更精简，生成 GPU/TPU 的 JIT 。
+
 ### UI 库
 
 - [kivy](https://github.com/kivy/kivy) UI框架，主移动端。
@@ -62,6 +65,8 @@ python -m http.server 8000
 
 ### Web 库
 
+- [gunicorn](https://github.com/benoitc/gunicorn) Unix 下的 WSGI HTTP 服务器。
+- [flask](https://github.com/pallets/flask) web 框架。
 - [sanic](https://github.com/sanic-org/sanic) web 框架。
 - [fastapi](https://github.com/fastapi/fastapi) web 框架。
 - [FastUI](https://github.com/pydantic/FastUI) web UI 库。非 HTML 模板，是 Python 代码生成 HTML。

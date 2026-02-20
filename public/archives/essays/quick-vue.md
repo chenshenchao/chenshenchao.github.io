@@ -15,12 +15,14 @@
 
 ### Vue3
 
+- [nativescript-vue](https://github.com/nativescript-vue/nativescript-vue) Vue + NativeScript 生成原生APP。
 - [pinia](https://pinia.vuejs.org/) 存储管理库
 - [pinia-plugin-persistedstate](https://github.com/prazdevs/pinia-plugin-persistedstate) pinia 持久化扩展。
 - [PPTist](https://github.com/pipipi-pikachu/PPTist) vue 的 PPT 库。
 - [nutui](https://github.com/jd-opensource/nutui) 京东移动端组件库。
 - [pictode](https://github.com/JessYan0913/pictode) 一个简易的绘图库。
-- [element-plus](https://github.com/element-plus/element-plus)
+- [element-plus](https://github.com/element-plus/element-plus) 桌面 UI 库。
+- [vant](https://github.com/youzan/vant) 移动 UI 库。
 - [vuetify](https://github.com/vuetifyjs/vuetify)
 - [vue.draggable.next](https://github.com/SortableJS/vue.draggable.next) Vue3 拖拽库。
 - [vue-echarts](https://github.com/ecomfe/vue-echarts)
@@ -32,6 +34,7 @@
 - [vue-i18n](https://github.com/kazupon/vue-i18n) Vue2 多语言库。
 - [mint-ui](https://github.com/ElemeFE/mint-ui) 饿了么移动端 UI ，已经多年不维护。
 - [vue-property-decorator](https://github.com/kaorun343/vue-property-decorator) 早期给组建了类的装饰器，现在这种设计几乎不用了。
+- [smeditor](https://github.com/GeekPark/smeditor) 基于 Vue.js 2.0+ 石墨文档样式的富文本编辑器组件。
 
 ## Options API 和 Composition API
 

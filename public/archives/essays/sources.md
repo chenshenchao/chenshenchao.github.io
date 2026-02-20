@@ -119,6 +119,7 @@ qwen
 - [gameboy](https://github.com/mohanson/gameboy) rust 开发的 GameBoy 模拟器。
 - [PyBoy](https://github.com/Baekalfen/PyBoy) python 开发的 GameBoy 模拟器。
 - [gbdk-2020](https://github.com/gbdk-2020/gbdk-2020) GameBoy 开发套件。
+- [gbajs](https://github.com/endrift/gbajs) 浏览器端 GameBoyAdvance 模拟器。
 - [SimpleNES](https://github.com/amhndu/SimpleNES) NES 红白机模拟器。
 - [nes](https://github.com/fogleman/nes) Go 语言实现的 NES 红白机模拟器。
 - [jsnes](https://github.com/bfirsh/jsnes) JS 语言实现的 NES 红白机模拟器。
@@ -148,13 +149,15 @@ qwen
 - [Zed](https://zed.dev/) rust 开发，打开很快，可以取代 Notepad++ 。
 - [NotepadNext](https://github.com/dail8859/NotepadNext) Notepad++ 重新实现版。
 - [lapce](https://github.com/lapce/lapce) rust 开发
-- [helix](https://github.com/helix-editor/helix) 类 vim 的命令行文本编辑器。
 - [LiteXL](https://github.com/lite-xl/lite-xl) 打开稍快于 VSCode 但功能又弱之。
 - [VisualMASM](https://github.com/ThomasJaeger/VisualMASM) MASM IDE
 - [thonny](https://github.com/thonny/thonny) 嵌入式 python IDE ，主要 树莓派、ESP 的开发。
+- [helix](https://github.com/helix-editor/helix) 类 vim 的命令行文本编辑器。
 - [neovim](https://github.com/neovim/neovim) 一个 Vim 实现。
+- [SpaceVim](https://github.com/wsdjeg/SpaceVim) 一个 Vim 实现。
 - [xray](https://github.com/atom-archive/xray) 基于 Electron 的一个文本编辑器。
 - [atom](https://github.com/atom/atom) 基于 Electron 的一个文本编辑器。
+- [liteide](https://github.com/visualfc/liteide) Go IDE
 
 ### 汇编器、编译器、解释器、调试器、构造工具与代码生成器
 
@@ -204,6 +207,7 @@ qwen
 - [CyberChef](https://github.com/gchq/CyberChef) 纯静态网页的加密算法、日期格式化等方便工具。
 - [vector-drawable-nextjs](https://github.com/seanghay/vector-drawable-nextjs) 安卓图标资源（VectorDrawable）转 SVG 工具。
 - [fd](https://github.com/sharkdp/fd) rust 开发的类 find 命令行工具。
+- [autojump](https://github.com/wting/autojump) python 开发的类 cd 命令。
 - [FFmpeg](https://github.com/FFmpeg/FFmpeg)
 - [FFmpeg-Builds](https://github.com/BtbN/FFmpeg-Builds) FFmpeg 下载。
 - [libav](https://github.com/libav/libav) FFmpeg 的分支，已经停止维护。
@@ -222,6 +226,7 @@ qwen
 - [Motrix](https://github.com/agalwood/Motrix) 下载器。
 - [fonteditor](https://github.com/ecomfe/fonteditor) web 字体编辑器。
 - [calculator](https://github.com/microsoft/calculator) Windows 新计算器。
+- [carbon](https://github.com/carbon-app/carbon) 代码生成高亮且美观的图片的工具。
 
 ### 监控工具
 
@@ -245,6 +250,7 @@ qwen
 
 - [nginx](https://github.com/nginx/nginx)
 - [caddy](https://github.com/caddyserver/caddy) go 语言实现的类 nginx 的服务器。
+- [uwsgi](https://github.com/unbit/uwsgi) uWSGI HTTP 服务器，官方主要支持 python 和 ruby 。
 - [marqo](https://github.com/marqo-ai/marqo) 基于 AI 的产品搜索服务，文本、图片等来搜索产品。
 - [oceanbase](https://github.com/oceanbase/oceanbase) 阿里蚂蚁开发的分布式关系数据库。
 - [milvus](https://milvus.io) 向量数据库(GO 语言)，官方给出了很多应用示例（RAG、图搜等）快速开发应用。
@@ -264,6 +270,8 @@ qwen
 - [rustfs](https://github.com/rustfs/rustfs) rust 实现的高性能分布式对象存储。
 - [seaweedfs](https://github.com/seaweedfs/seaweedfs) GO 实现的高性能分布式对象存储。
 - [storj](https://github.com/storj/storj) GO 实现的高性能分布式对象存储。
+- [redis](https://github.com/redis/redis) 键值对数据库。
+- [microsoftarchive redis](https://github.com/microsoftarchive/redis) redis 3.0 的 Windows 版本。
 - [KeyDB](https://github.com/Snapchat/KeyDB) 扩展 Redis 为多线程的项目。
 - [etcd](https://github.com/etcd-io/etcd) Go 开发的配置管理服务器。
 - [Consul](https://github.com/hashicorp/consul) Go 开发的配置管理服务器。
@@ -278,6 +286,7 @@ qwen
 - [phantoscope](https://github.com/zilliztech/phantoscope) 图搜服务。
 - [async_dns](https://github.com/gera2ld/async_dns) DNS 命令行工具。
 - [canal](https://github.com/alibaba/canal) 阿里巴巴 MySQL binlog 增量订阅&消费 服务。
+- [logging-flume](https://github.com/apache/logging-flume) 分布式日志服务。
 - [opa](https://github.com/open-policy-agent/opa)  
 - [gridstudio](https://github.com/ricklamers/gridstudio) 浏览器端通过 python 处理表格数据的 web 服务。
 - [superset](https://github.com/apache/superset) 数据可视化和数据探索
@@ -342,6 +351,8 @@ qwen
 - [MapleServer2](https://github.com/AlanMorel/MapleServer2) 冒险岛2 服务端复刻，仅用于教学。
 - [tiled](https://github.com/mapeditor/tiled) 2D 瓦片地图编辑器。
 - [piskel](https://github.com/piskelapp/piskel) 基于 web 的像素素材编辑器。
+- [BrowserQuest](https://github.com/mozilla/BrowserQuest) mozilla 开源的 2D 即时页游。
+- [BrowserQuest-PHP](https://github.com/walkor/BrowserQuest-PHP) 基于 Workerman 的 PHP 版 BrowserQuest。
 
 ### 游戏素材
 
