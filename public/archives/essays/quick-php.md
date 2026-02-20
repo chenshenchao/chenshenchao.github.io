@@ -16,6 +16,7 @@ php -S 0.0.0.0:80
 
 ## C 扩展
 
+- [xdebug](https://github.com/xdebug/xdebug)
 - [php-ext-xlswriter](https://github.com/viest/php-ext-xlswriter) XLSX 工具库。
 
 ## Composer
@@ -31,6 +32,7 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 
 ### 常见包和框架
 
+- [WordPress](https://github.com/WordPress/WordPress)
 - [uuid](https://github.com/ramsey/uuid) uuid 库。
 - [laravel](https://github.com/laravel/laravel) PHP 界的 Spring ，功能齐全，就是有点重，服务器要求比其他 PHP 框架高，不然会卡。
 - [symfony](https://github.com/symfony/symfony) Web 框架，拆分出很多基础库，ThinkPHP 大量复用它的基础库。

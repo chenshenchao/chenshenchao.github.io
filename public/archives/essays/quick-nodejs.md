@@ -5,6 +5,7 @@
 - [farm](https://github.com/farm-fe/farm) rust 开发的兼容 vite 的构建工具。
 - [unbuild](https://github.com/unjs/unbuild) 构建工具
 - [fis3](https://github.com/fex-team/fis3) 类 gulp 构建工具。
+- [snowpack](https://github.com/FredKSchott/snowpack) ESM 前端构建工具。
 
 ## nvm
 

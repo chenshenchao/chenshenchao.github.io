@@ -21,9 +21,11 @@
 - [sqlcipher](https://github.com/sqlcipher/sqlcipher) fork SQLite 加入了数据库文件 256bit AES 加密。
 - [lz4](https://github.com/lz4/lz4) 压缩算法库。
 - [zstd](https://github.com/facebook/zstd) 压缩算法库。
+- [zlib](https://github.com/madler/zlib) 压缩算法库。
 - [groonga](https://github.com/groonga/groonga) 全文搜索引擎。
 - [hiredis](https://github.com/redis/hiredis) redis 客户端库。
 - [libpcap](https://github.com/the-tcpdump-group/libpcap) linux 下网络抓包库。
+- [npcap](https://github.com/nmap/npcap) Windows 下网络抓包库。
 
 ### UI 图形库。
 
@@ -33,6 +35,8 @@
 - [libui-ng](https://github.com/libui-ng/libui-ng) fork libui 的 UI 图形库。
 - [raygui](https://github.com/raysan5/raygui) 设计风格比较独特的 UI 图形库。
 - [raylib](https://github.com/raysan5/raylib) 视频游戏开发库。
+- [libjpeg-turbo](https://github.com/libjpeg-turbo/libjpeg-turbo) JPEG 图片库。
+- [mozjpeg](https://github.com/mozilla/mozjpeg) JPEG 图片库。
 
 ### 嵌入式相关
 

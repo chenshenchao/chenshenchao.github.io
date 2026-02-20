@@ -29,6 +29,10 @@
 - [SuperDllHijack](https://github.com/anhkgg/SuperDllHijack) DLL 劫持库。
 - [coost](https://github.com/idealvin/coost) 工具库。
 - [protobuf](https://github.com/protocolbuffers/protobuf)
+- [bond](https://github.com/microsoft/bond)
+- [box2d](https://github.com/erincatto/box2d) 2D 物理引擎。
+- [box2d-lite](https://github.com/erincatto/box2d-lite) 物理引擎 box2d 的 lite 版本。
+- [xlnt](https://github.com/tfussell/xlnt) xlsx 库。
 
 ### 图形库
 

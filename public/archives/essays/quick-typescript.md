@@ -41,7 +41,6 @@
 - [lingui](https://github.com/lingui/js-lingui) i18n 库。
 - [motion](https://github.com/motiondivision/motion) 动画库。
 - [floating-ui](https://github.com/floating-ui/floating-ui) 原 Popuper.js 发展起来的弹出层库，提供 React 和 Vue 封装。
-- [pixijs](https://github.com/pixijs/pixijs) 2D webGL 游戏引擎。
 - [pixi-tiledmap](https://github.com/riebel/pixi-tiledmap) pixi tilemap 库。
 - [Tone.js](https://github.com/Tonejs/Tone.js) 浏览器端 电子音乐 生成库。
 - [jest](https://github.com/jestjs/jest) 单元测试框架。
@@ -51,8 +50,10 @@
 - [strapi](https://github.com/strapi/strapi) CMS 项目。
 - [egg](https://github.com/eggjs/egg) web 框架。
 - [eggjs static](https://github.com/eggjs/static)
+- [pixijs](https://github.com/pixijs/pixijs) 2D webGL 游戏引擎。
 - [mdui](https://github.com/zdhxiong/mdui) 安卓 Material 3 风格的 UI 组件库。
 - [lit](https://github.com/lit/lit) 基于 web components 开发组件的框架。
+- [better-scroll](https://github.com/ustbhuangyi/better-scroll)
 
 ## 类型系统
 

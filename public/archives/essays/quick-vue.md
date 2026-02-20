@@ -11,6 +11,7 @@
 - [vxe-table](https://github.com/x-extends/vxe-table) 虚表格库，功能很多，有免费和付费版本。
 - [vueuse](https://vueuse.org/) vue 扩展库，主要扩展了一些钩子。
 - [ant-design-vue](https://github.com/vueComponent/ant-design-vue)
+- [tinymce-vue](https://github.com/tinymce/tinymce-vue) 富文本编辑器 TinyMCE 的 vue 封装。
 
 ### Vue3
 
@@ -23,10 +24,12 @@
 - [vuetify](https://github.com/vuetifyjs/vuetify)
 - [vue.draggable.next](https://github.com/SortableJS/vue.draggable.next) Vue3 拖拽库。
 - [vue-echarts](https://github.com/ecomfe/vue-echarts)
+- [vue-i18n](https://github.com/intlify/vue-i18n) Vue3 多语言库。
 
 ### Vue2
 
 - [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable) Vue2 拖拽库。
+- [vue-i18n](https://github.com/kazupon/vue-i18n) Vue2 多语言库。
 - [mint-ui](https://github.com/ElemeFE/mint-ui) 饿了么移动端 UI ，已经多年不维护。
 - [vue-property-decorator](https://github.com/kaorun343/vue-property-decorator) 早期给组建了类的装饰器，现在这种设计几乎不用了。
 

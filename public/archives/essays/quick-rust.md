@@ -120,6 +120,8 @@ cargo build --release --target=x86_64-unknown-linux-musl
 
 - [官方仓库](https://crates.io)
 - [cargo binstall](https://github.com/cargo-bins/cargo-binstall) 对于使用了 C/C++ 的非纯 rust 工具，cargo install 需要配置环境很麻烦，用 binstall 可以直接下载编译好的来安装。
+- [cargo-xwin](https://github.com/rust-cross/cargo-xwin) Linux、MacOs 下交叉编译 Windows 的编译工具。
+- [cargo-wix](https://github.com/volks73/cargo-wix) wix 打包应用工具的 cargo 子命令。
 - [cargo-edit](https://github.com/killercup/cargo-edit) 通过命令行来修改 Cargo.toml 文件。（挺搞笑的扩展）
 
 ### 配置镜像
@@ -357,6 +359,7 @@ fi
 - [redb](https://github.com/cberner/redb) 可内嵌的键值对数据库。
 - [tantivy](https://github.com/quickwit-oss/tantivy) 可内嵌的全文搜索库。
 - [rucene](https://github.com/zhihu/rucene) 倒排索引库。
+- [walrus](https://github.com/nubskr/walrus) 分布式流日志引擎库，日志指的WAL，可用来做队列服务，内置有分布式服务项目 distributed-walrus。
 
 ### 底层扩展
 
@@ -369,8 +372,6 @@ fi
 - [esp-rs](https://github.com/esp-rs) 第三方 ESP rust 开发包。
 - [stm32-rs](https://github.com/stm32-rs) 第三方 STM32 rust 开发包。
 - [app-template](https://github.com/knurling-rs/app-template) 一个嵌入式项目模板。
-- [cargo-xwin](https://github.com/rust-cross/cargo-xwin) Linux、MacOs 下交叉编译 Windows 的编译工具。
-- [cargo-wix](https://github.com/volks73/cargo-wix) wix 打包应用工具的 cargo 子命令。
 - [rust-msi](https://github.com/mdsteele/rust-msi) msi 文件读写库。
 - [usb-device](https://github.com/rust-embedded-community/usb-device) USB MCU 驱动开发库。
 - [usbd-serial](https://github.com/rust-embedded-community/usbd-serial) USB 上位机 驱动开发库。
@@ -379,6 +380,7 @@ fi
 - [bootloader](https://github.com/rust-osdev/bootloader) x86 引导程序。
 - [bootimage](https://github.com/rust-osdev/bootimage) 生成操作系统镜像工具。
 - [may](https://github.com/Xudong-Huang/may) 协程库。
+- [wasm-pack](https://github.com/drager/wasm-pack) 打包 rust 成 wasm 给 nodejs 或浏览器使用的工具。
 
 ## 兼容
 

@@ -12,6 +12,7 @@ Dart 出来好几年却因为没有杀手应用而一直默默无闻，直到被
 
 ## 常用库
 
+- [relic](https://github.com/serverpod/relic) web 框架
 - [angel](https://github.com/angel-dart/angel) web 框架，已经停止维护。
 - [dartx](https://github.com/simc/dartx) 集合扩展库。
 - [hive](https://github.com/isar/hive) 可内嵌的键值数据库。

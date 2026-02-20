@@ -16,6 +16,7 @@
 - [USTC-Course](https://github.com/USTC-Resource/USTC-Course) 中国科学技术大学课程资源
 - [iCSS](https://github.com/chokcoco/iCSS) 不止于 CSS，CSS 奇技淫巧。
 - [public-apis](https://github.com/public-apis/public-apis) 公开免费 API 汇集列表。
+- [blog](https://github.com/dongyuanxin/blog) 专注Web与算法
 
 ## 开源书籍
 
@@ -45,6 +46,7 @@
 
 ## awesome
 
+- [awesome](https://github.com/sindresorhus/awesome)
 - [awesome-electronics](https://github.com/kitspace/awesome-electronics) 电子相关。
 - [awesome-rust](https://github.com/rust-unofficial/awesome-rust)
 - [awesome-gameserver-cn](https://github.com/hstcscolor/awesome-gameserver-cn)
@@ -152,6 +154,7 @@ qwen
 - [thonny](https://github.com/thonny/thonny) 嵌入式 python IDE ，主要 树莓派、ESP 的开发。
 - [neovim](https://github.com/neovim/neovim) 一个 Vim 实现。
 - [xray](https://github.com/atom-archive/xray) 基于 Electron 的一个文本编辑器。
+- [atom](https://github.com/atom/atom) 基于 Electron 的一个文本编辑器。
 
 ### 汇编器、编译器、解释器、调试器、构造工具与代码生成器
 
@@ -172,6 +175,9 @@ qwen
 - [fanx](https://github.com/fanx-dev/fanx) 全栈编程语言。
 - [stone](https://github.com/chibash/stone) 《两周自制脚本语言》示例语言。
 - [OpenHSP](https://github.com/onitama/OpenHSP) Hot Soup 语言 Processor
+- [jsonnet](https://github.com/google/jsonnet) 谷歌开发的类 JSON 的数据语言，官方只支持 c 和 python 模块，其他语言有第三方实现但是热度很低，实现堪忧。
+- [hhvm](https://github.com/facebook/hhvm) Hack 语言，由 PHP 扩展而来的语言。
+- [polarphp](https://github.com/polarphp/polarphp) 第三方的 PHP 编译器和运行时实现。
 
 ### 文件处理工具
 
@@ -223,6 +229,7 @@ qwen
 - [sniffnet](https://github.com/GyulyVGC/sniffnet) 网络监控工具。
 - [grafana](https://github.com/grafana/grafana) Web 数据库监控面板。
 - [1Panel](https://github.com/1Panel-dev/1Panel) 服务器面板服务。
+- [syncd](https://github.com/dreamans/syncd) 服务器面板服务。
 - [ansible](https://github.com/ansible/ansible) 脚本化的运维框架。
 
 ### 代理、远程工具

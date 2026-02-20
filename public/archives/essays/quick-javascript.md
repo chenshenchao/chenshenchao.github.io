@@ -43,6 +43,9 @@
 - [simple-virtual-dom](https://github.com/livoras/simple-virtual-dom) 一个虚拟 DOM 实现库。
 - [dyo](https://github.com/dyo/dyo) DOM 元素生成库。
 - [eva.js](https://github.com/eva-engine/eva.js) 前端简易游戏引擎。
+- [matter-js](https://github.com/liabru/matter-js) 2D 刚体物理引擎。
+- [Oimo.js](https://github.com/lo-th/Oimo.js) 3D 物理引擎。
+- [box2d.js](https://github.com/kripken/box2d.js) box2d 通过 wasm 打包。
 - [asm-js validator](https://github.com/asm-js/validator) asm.js 的参考验证器。
 - [MIDI.js](https://github.com/mudcube/MIDI.js)
 - [licia](https://github.com/liriliri/licia) 无依赖，自成一体的工具集库（UUID 生成等）。

@@ -14,3 +14,4 @@
 - [diem](https://github.com/diem/diem)
 - [substrate](https://github.com/paritytech/substrate) 区块链框架。
 - [bytom](https://github.com/BytomDAO/bytom) 比原链 协议实现。
+- [zq1](https://github.com/Zilliqa/zq1) 一个智能合约平台。
