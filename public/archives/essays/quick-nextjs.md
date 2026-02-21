@@ -1,5 +1,7 @@
 # NextJs 速查
 
+- [next.js 源码](https://github.com/vercel/next.js)
+
 NextJS 的复杂度在于其并非宣传的那样是 SSR（Server Side Render）而是结合了 CSR（Client Side Render）的混合，也就是术语“水合”。
 当用户访问页面，因为使用的是浏览器，会有鼠标或者触摸屏事件，所以是单页面的模式，这个模式是 CSR 渲染的页面。
 当爬虫访问页面，因为是直接 HTTP 请求爬取 URL 链接，没有触发鼠标或者触摸屏事件，所以类似多页面模式，这种情况下是 SSR 渲染的页面。

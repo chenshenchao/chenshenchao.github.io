@@ -5,3 +5,4 @@ Delphi 是 Embarcadero 开发的一个 Object Pascal 语言的 IDE 。很多 Pas
 ## 常用库
 
 - [SynPDF](https://github.com/synopse/SynPDF) PDF 库
+- [skia4delphi](https://github.com/skia4delphi/skia4delphi)

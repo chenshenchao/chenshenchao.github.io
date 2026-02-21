@@ -124,6 +124,7 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [AgentGPT](https://github.com/reworkd/AgentGPT) 网页界面的 Agent 项目。
 - [BabyAGI](https://github.com/yoheinakajima/babyagi) python 的 AGI 开发库。
 - [sim](https://github.com/simstudioai/sim) workflow 项目。
+- [ComfyUI](https://github.com/Comfy-Org/ComfyUI) 基于 sd 的生图工具。
 
 ### RAG（Retrieval Augmented Generation）
 

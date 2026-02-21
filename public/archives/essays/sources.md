@@ -249,6 +249,7 @@ qwen
 - [1Panel](https://github.com/1Panel-dev/1Panel) 服务器面板服务。
 - [syncd](https://github.com/dreamans/syncd) 服务器面板服务。
 - [ansible](https://github.com/ansible/ansible) 脚本化的运维框架。
+- [netdata](https://github.com/netdata/netdata) 实时监控
 
 ### 代理、远程工具
 

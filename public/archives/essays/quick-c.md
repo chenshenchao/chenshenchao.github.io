@@ -9,6 +9,8 @@
 
 ## 常用库
 
+- [xdp-for-windows](https://github.com/microsoft/xdp-for-windows)
+- [robin-map](https://github.com/Tessil/robin-map) 罗宾汉散列算法的散列表。
 - [bdwgc](https://github.com/bdwgc/bdwgc) 垃圾回收库，又叫 bdw-gc, boehm-gc, libgc。
 - [mjs](https://github.com/cesanta/mjs) 一个 JS 的运行库。
 - [QuickJS](https://github.com/quickjs-zh/QuickJS) 一个 JS 的解释器库。
@@ -27,6 +29,12 @@
 - [libpcap](https://github.com/the-tcpdump-group/libpcap) linux 下网络抓包库。
 - [npcap](https://github.com/nmap/npcap) Windows 下网络抓包库。
 - [lemon](https://github.com/lemon-lang/lemon) 可内嵌的小型编程语言 lemon。
+- [mupdf](https://github.com/ArtifexSoftware/mupdf) PDF 库。
+- [pdfio](https://github.com/michaelrsweet/pdfio) PDF 库。
+- [librg](https://github.com/zpl-c/librg) 多玩家游戏开发库。
+- [json-parser](https://github.com/json-parser/json-parser) json 序列化库。
+- [cJSON](https://github.com/DaveGamble/cJSON)  json 序列化库。
+- [json-c](https://github.com/json-c/json-c) json 序列化库。
 
 ### UI 图形库。
 
@@ -39,6 +47,7 @@
 - [libjpeg-turbo](https://github.com/libjpeg-turbo/libjpeg-turbo) JPEG 图片库。
 - [mozjpeg](https://github.com/mozilla/mozjpeg) JPEG 图片库。
 - [gtk](https://github.com/GNOME/gtk)
+
 
 ### 嵌入式相关
 

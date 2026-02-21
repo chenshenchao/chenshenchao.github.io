@@ -45,6 +45,8 @@
 - [vugu](https://github.com/vugu/vugu) go + wasm 的 web UI 库。
 - [beego](https://github.com/beego/beego) Web 框架。
 - [bee](https://github.com/beego/bee) beego 的命令行工具。
+- [go-admin](https://github.com/go-admin-team/go-admin) Gin + Vue + Element UI & Arco Design & Ant Design 的管理系统脚手架，后端项目。
+- [go-admin-ui](https://github.com/go-admin-team/go-admin-ui) go-admin 的前端。
 
 ### UI 库
 

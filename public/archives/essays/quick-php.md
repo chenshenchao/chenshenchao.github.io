@@ -71,6 +71,7 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [Sylius](https://github.com/Sylius/Sylius) 电商项目。
 - [PHP-Parser](https://github.com/nikic/PHP-Parser) PHP 写的 PHP 语法分析器。
 - [pinyin](https://github.com/overtrue/pinyin) 中文转拼音。
+- [pest](https://github.com/pestphp/pest) 测试框架。
 
 ## 命令规范
 

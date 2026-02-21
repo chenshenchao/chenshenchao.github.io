@@ -21,7 +21,6 @@
 - [tesseract](https://github.com/tesseract-ocr/tesseract) OCR 库。
 - [quill](https://github.com/odygrd/quill) 异步日志库。
 - [libhv](https://github.com/ithewei/libhv) 多种网络协议库。
-- [librg](https://github.com/zpl-c/librg) 多玩家游戏开发库。
 - [Detours](https://github.com/microsoft/Detours) Windows 下监听、拦截 API 调用的库。
 - [binlog](https://github.com/morganstanley/binlog) mysql binlog 解析库。
 - [CSerialPort](https://github.com/itas109/CSerialPort) 跨平台串口库。
@@ -34,6 +33,7 @@
 - [box2d](https://github.com/erincatto/box2d) 2D 物理引擎。
 - [box2d-lite](https://github.com/erincatto/box2d-lite) 物理引擎 box2d 的 lite 版本。
 - [xlnt](https://github.com/tfussell/xlnt) xlsx 库。
+- [podofo](https://github.com/podofo/podofo) PDF 库。
 
 ### 图形库
 
