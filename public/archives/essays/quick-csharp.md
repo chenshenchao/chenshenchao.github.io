@@ -1,6 +1,8 @@
 # C# 速查
 
-- [runtime](https://github.com/dotnet/runtime) .NET 源码。
+- [roslyn](https://github.com/dotnet/roslyn) .NET 编译器平台。
+- [runtime](https://github.com/dotnet/runtime) .NET 虚拟机源码。
+- [csharplang](https://github.com/dotnet/csharplang) C# 设计文档。
 - [efcore](https://github.com/dotnet/efcore)
 
 ## 常用库
@@ -30,7 +32,7 @@
 - [electrino](https://github.com/pojala/electrino) WebView 桌面应用开发框架。
 - [Edi.Captcha.AspNetCore](https://github.com/EdiWang/Edi.Captcha.AspNetCore) 验证码。
 - [SSH.NET](https://github.com/sshnet/SSH.NET)
-
+- [xLua](https://github.com/Tencent/xLua) 为 C#（Unity, .Net, Mono）提供的 Lua 运行时实现。
 
 ## WinForms
 

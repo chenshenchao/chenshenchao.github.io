@@ -1,5 +1,8 @@
 # deno 速查
 
+- [deno 源码](https://github.com/denoland/deno)
+- [vscode_deno](https://github.com/denoland/vscode_deno)
+
 ## 常用命令
 
 ```bash

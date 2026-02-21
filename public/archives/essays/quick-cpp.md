@@ -1,6 +1,7 @@
 # [草稿]C++ 速查
 
 - [STL](https://github.com/microsoft/STL) 微软的 STL 库源码。
+- [vscode-cpptools](https://github.com/microsoft/vscode-cpptools)
 
 ## 常用库
 
@@ -48,6 +49,7 @@
 - [imgui](https://github.com/ocornut/imgui)
 - [GacUI](https://github.com/vczh-libraries/GacUI) 轮子哥的UI库。
 - [nana](https://github.com/cnjinhao/nana)
+- [bgfx](https://github.com/bkaradzic/bgfx) 支持多种平台，多种语言绑定的渲染库。
 
 ### boost
 

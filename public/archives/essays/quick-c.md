@@ -26,6 +26,7 @@
 - [hiredis](https://github.com/redis/hiredis) redis 客户端库。
 - [libpcap](https://github.com/the-tcpdump-group/libpcap) linux 下网络抓包库。
 - [npcap](https://github.com/nmap/npcap) Windows 下网络抓包库。
+- [lemon](https://github.com/lemon-lang/lemon) 可内嵌的小型编程语言 lemon。
 
 ### UI 图形库。
 
@@ -37,6 +38,7 @@
 - [raylib](https://github.com/raysan5/raylib) 视频游戏开发库。
 - [libjpeg-turbo](https://github.com/libjpeg-turbo/libjpeg-turbo) JPEG 图片库。
 - [mozjpeg](https://github.com/mozilla/mozjpeg) JPEG 图片库。
+- [gtk](https://github.com/GNOME/gtk)
 
 ### 嵌入式相关
 

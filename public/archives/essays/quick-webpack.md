@@ -5,6 +5,7 @@
 ## 插件
 
 - [webpack-iconfont-plugin-nodejs](https://github.com/hzsrc/webpack-iconfont-plugin-nodejs) SVG 生成字体图标 ttf,woff2,woff,eot,svg 插件。
+- [iconfont-webpack-plugin](https://github.com/jantimon/iconfont-webpack-plugin)  SVG 生成字体图标插件。
 
 ## 配置
 

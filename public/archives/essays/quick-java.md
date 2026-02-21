@@ -6,6 +6,7 @@
 
 ## 常用库
 
+- [guava](https://github.com/google/guava) 谷歌开源的工具库。
 - [spring-boot](https://github.com/spring-projects/spring-boot)
 - [undertow](https://github.com/undertow-io/undertow) Web 服务器。
 - [zxing](https://github.com/zxing/zxing) 条形码、二维码识别库。

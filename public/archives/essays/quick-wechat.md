@@ -14,6 +14,7 @@
 - [小程序测试号](https://mp.weixin.qq.com/wxamp/sandbox)
 - [tdesign](https://github.com/Tencent/tdesign-miniprogram) 腾讯的 组件UI设计 小程序版本库。
 - [wepy](https://github.com/Tencent/wepy) 组件化开发框架。
+- [mpvue](https://github.com/Meituan-Dianping/mpvue) 基于 Vue.js 的小程序开发框架。
 
 使用 npm 时，每次引入新的 npm 包，都要手动通过“工具 》 构建 npm” 构建。而且 js 和 ts 的 npm 配置目录还不一致。
 

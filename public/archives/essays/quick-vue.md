@@ -30,11 +30,14 @@
 
 ### Vue2
 
+- [element](https://github.com/ElemeFE/element) vue2 桌面 UI 库。
+- [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) vue2 基于 element 开发的后台项目。
 - [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable) Vue2 拖拽库。
 - [vue-i18n](https://github.com/kazupon/vue-i18n) Vue2 多语言库。
 - [mint-ui](https://github.com/ElemeFE/mint-ui) 饿了么移动端 UI ，已经多年不维护。
 - [vue-property-decorator](https://github.com/kaorun343/vue-property-decorator) 早期给组建了类的装饰器，现在这种设计几乎不用了。
 - [smeditor](https://github.com/GeekPark/smeditor) 基于 Vue.js 2.0+ 石墨文档样式的富文本编辑器组件。
+- [v-charts](https://github.com/ElemeFE/v-charts) vue2 + echarts 封装。
 
 ## Options API 和 Composition API
 

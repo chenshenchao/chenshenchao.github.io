@@ -27,18 +27,29 @@ nvm use 16
 
 ## 常用库
 
+- [node-ffi](https://github.com/node-ffi/node-ffi)
 - [mysql](https://github.com/mysqljs/mysql) 纯 JS MySQL 客户端。
 - [node-mysql2](https://github.com/sidorares/node-mysql2) MySQL 客户端。
 - [pkg](https://github.com/vercel/pkg) 打包项目成可执行文件。
 - [cross-env](https://github.com/kentcdodds/cross-env) package.json scripts 命令环境变量设置。
 - [windows-build-tools](https://github.com/felixrieseberg/windows-build-tools)
+- [dotenv](https://github.com/motdotla/dotenv) .env 文件加载库。
+- [svg-captcha](https://github.com/produck/svg-captcha) SVG 验证码生成库。
+- [lowdb](https://github.com/typicode/lowdb) 可内嵌的 JSON 数据库。
+- [nedb](https://github.com/louischatriot/nedb) 可内嵌的文档数据库。
 
 ### Web
 
 - [loopback](https://github.com/strongloop/loopback) web 框架，工具齐全。
+- [fastify](https://github.com/fastify/fastify) web 服务器。
+- [Gracejs](https://github.com/xiongwilee/Gracejs) 基于 koa2 的框架，设计不太好。
 - [thinkjs](https://github.com/thinkjs/thinkjs) 仿 ThinkPHP 的后端框架。
 - [pug](https://github.com/pugjs/pug) HTML 模板引擎。
+- [koa](https://github.com/koajs/koa)
+- [koajs bodyparser](https://github.com/koajs/bodyparser)
 - [koajs router](https://github.com/koajs/router)
+- [koa-router](https://github.com/ZijianHe/koa-router) 第三方库，已经停止维护。
+- [koajs static](https://github.com/koajs/static)
 - [koajs compress](https://github.com/koajs/compress)
 - [koajs static-cache](https://github.com/koajs/static-cache)
 - [koa-websocket](https://github.com/kudos/koa-websocket)
@@ -47,6 +58,8 @@ nvm use 16
 - [dart-sass](https://github.com/sass/dart-sass)
 - [EvaEngine.js](https://github.com/EvaEngine/EvaEngine.js) 微服务框架。
 - [jss](https://github.com/cssinjs/jss) css in js
+- [gulp-iconfont](https://github.com/nfroidure/gulp-iconfont) 图标字库生成 gulp 插件。
+- [falcor](https://github.com/Netflix/falcor) 用于高效提供数据的前后端工具库，支持 express web 框架。
 
 ### UI
 
@@ -55,6 +68,7 @@ nvm use 16
 - [neutralinojs](https://github.com/neutralinojs/neutralinojs) 桌面应用开发框架。
 - [nw.js](https://github.com/nwjs/nw.js) 桌面应用开发框架。
 - [open-color](https://github.com/yeun/open-color) 颜色设计样式库，因为 tailwindcss 也有这个库也就没啥意义。
+- [webgradients](https://github.com/itmeo/webgradients) 好看的 web 端渐变色样式集合。
 
 ## 包管理器
 

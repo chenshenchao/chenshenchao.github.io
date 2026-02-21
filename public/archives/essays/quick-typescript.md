@@ -11,6 +11,8 @@
 - [noble-hashes](https://github.com/paulmillr/noble-hashes) 纯 TS 实现的 HASH 算法库。
 - [hash-wasm](https://github.com/Daninet/hash-wasm) 基于 WASM 的 HASH 算法库。
 - [editor.js](https://github.com/codex-team/editor.js) 富文本编辑器。
+- [tiptap](https://github.com/ueberdosis/tiptap)  富文本编辑器。
+- [tui.editor](https://github.com/nhn/tui.editor) markdown 的所见即所得编辑器。
 - [canvas-editor](https://github.com/Hufe921/canvas-editor) 类似 Office Word 的一个 canvas/svg 编辑器，可以通过插件导出 svg 或 pdf 文件。
 - [wolf-table](https://github.com/wolf-table/table) 类似 Office Excel 的 canvas 编辑器。
 - [diagram-maker](https://github.com/awslabs/diagram-maker) 流程图、导图等图编辑器库。
@@ -44,6 +46,7 @@
 - [pixi-tiledmap](https://github.com/riebel/pixi-tiledmap) pixi tilemap 库。
 - [Tone.js](https://github.com/Tonejs/Tone.js) 浏览器端 电子音乐 生成库。
 - [jest](https://github.com/jestjs/jest) 单元测试框架。
+- [fabric.js](https://github.com/fabricjs/fabric.js) SVG 绘制到 canvas 里。
 
 ### web
 

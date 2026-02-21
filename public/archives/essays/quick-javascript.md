@@ -2,6 +2,7 @@
 
 ## 常用库
 
+- [NativeScript](https://github.com/NativeScript/NativeScript) 生成原生APP的工具。
 - [web-vitals](https://github.com/GoogleChrome/web-vitals) 谷歌推出用来测量网站体验的库。
 - [moment](https://github.com/moment/moment) 日期库。
 - [luxon](https://github.com/moment/luxon) 日期库。
@@ -10,6 +11,7 @@
 - [lodash](https://github.com/lodash/lodash) 基础类型扩展工具库。
 - [ramda](https://github.com/ramda/ramda) 类 lodash 工具库。
 - [handsontable](https://github.com/handsontable/handsontable) Excel 编辑器
+- [sheetjs](https://github.com/SheetJS/sheetjs) excel 操作库，免费版本功能有限，Pro 版本收费。
 - [ace](https://github.com/ajaxorg/ace) 代码编辑器。
 - [GSAP](https://github.com/greensock/GSAP) 动画库
 - [crypto-js](https://github.com/brix/crypto-js) 散列和对称加密库，但是由于标准已经提供了异步的（Crypto Web API）所以只有在兼容旧环境和非异步情况下才使用。
@@ -47,6 +49,7 @@
 - [matter-js](https://github.com/liabru/matter-js) 2D 刚体物理引擎。
 - [Oimo.js](https://github.com/lo-th/Oimo.js) 3D 物理引擎。
 - [box2d.js](https://github.com/kripken/box2d.js) box2d 通过 wasm 打包。
+- [planck.js](https://github.com/piqnt/planck.js) 2D 物理引擎。
 - [asm-js validator](https://github.com/asm-js/validator) asm.js 的参考验证器。
 - [MIDI.js](https://github.com/mudcube/MIDI.js)
 - [licia](https://github.com/liriliri/licia) 无依赖，自成一体的工具集库（UUID 生成等）。
@@ -61,11 +64,14 @@
 - [viewerjs](https://github.com/fengyuanchen/viewerjs) 图片浏览器 UI 组件。
 - [cropperjs](https://github.com/fengyuanchen/cropperjs) 图片裁剪器 UI 组件。
 - [compressorjs](https://github.com/fengyuanchen/compressorjs) 图片压缩器 UI 组件。
+- [cropper](https://github.com/fengyuanchen/cropper) 基于 jQuery 的图片裁剪器 UI 组件。
 - [echarts](https://github.com/apache/echarts)
 - [echarts-wordcloud](https://github.com/ecomfe/echarts-wordcloud) echarts 组件。
 - [echarts-liquidfill](https://github.com/ecomfe/echarts-liquidfill) echarts 组件。
 - [joint](https://github.com/clientIO/joint) 图表库。
 - [G6](https://github.com/antvis/G6) 图形图表库。
+- [d3](https://github.com/d3/d3) 图形图表库，细粒度的API。
+- [Chart.js](https://github.com/chartjs/Chart.js) 图形图表库。
 - [spritejs](https://github.com/spritejs/spritejs) 精灵组件。
 - [size-sensor](https://github.com/hustcc/size-sensor) DOM 元素大小缩放监听库。
 - [canvas-nest.js](https://github.com/hustcc/canvas-nest.js) 一个绘制 连线的 背景动画效果。
@@ -76,12 +82,16 @@
 - [StreamSaver.js](https://github.com/jimmywarting/StreamSaver.js) 浏览器文件保存库，流式（ReadableStream、WritableStream），解决内存限制问题。
 - [nsfwjs](https://github.com/infinitered/nsfwjs) 基于 TensorFlow.js 开发的 NSFW（Not Safe For Work）色情暴力图片检测库。
 - [favico.js](https://github.com/ejci/favico.js) 用图片或视频制作 带 badge 的 favico 图标。 
+- [jison](https://github.com/zaach/jison) 类 bison 的 JS 库。
+- [pinyin](https://github.com/hotoo/pinyin) 中文转拼音。
+- [coordtransform](https://github.com/wandergis/coordtransform) 提供了百度坐标（BD09）、国测局坐标（火星坐标，GCJ02）、和WGS84坐标系之间的转换。
+- [picojs](https://github.com/nenadmarkus/picojs) 人脸识别库。
+- [slick](https://github.com/kenwheeler/slick) 基于 jQuery 的轮播组件库。
 
 ### Web
 
 - [riot](https://github.com/riot/riot) web 前端框架。
 - [hyperapp](https://github.com/jorgebucaran/hyperapp) 1kb 大小的 web 前端框架。
-- [Gracejs](https://github.com/xiongwilee/Gracejs) 基于 koa2 的框架，设计不太好。
 - [avalon](https://github.com/RubyLouvre/avalon) 前端 MVVM 框架，已经废弃。
 - [layui](https://github.com/layui/layui) 类 jQuery 风格的 UI 组件库。
 - [lulu](https://github.com/yued-fe/lulu) 原生JS风格的 UI 组件库。
@@ -97,6 +107,9 @@
 - [tabler](https://github.com/tabler/tabler) 基于 Bootstrap 的 UI 库。
 - [AdminLTE](https://github.com/ColorlibHQ/AdminLTE) 基于 Bootstrap 的 UI 库。
 - [hls.js](https://github.com/video-dev/hls.js) 让只支持MSE(Media Source Extensions，W3C 制定)的浏览器支持 HLS(HTTP Live Streaming，苹果公司推出) 的视频播放。
+- [video.js](https://github.com/videojs/video.js) 视频播放器组件。
+- [blockly](https://github.com/RaspberryPiFoundation/blockly) web 可视化编程语言（SCRATCH 等大部分少儿编程都是基于这个库）。
+- [qrcodejs](https://github.com/davidshimjs/qrcodejs) 二维码生成库。
 
 ## jsx
 

@@ -1,5 +1,8 @@
 # PHP 速查
 
+- [php-sdk-binary-tools](https://github.com/microsoft/php-sdk-binary-tools) Windows 下 PHP 构建工具。
+- [zephir](https://github.com/zephir-lang/zephir) 编译型语言，用于 PHP C 扩展的开发。
+
 ## 常用命令
 
 ```bash
@@ -18,8 +21,11 @@ php -S 0.0.0.0:80
 
 - [xdebug](https://github.com/xdebug/xdebug)
 - [php-ext-xlswriter](https://github.com/viest/php-ext-xlswriter) XLSX 工具库。
+- [cphalcon](https://github.com/phalcon/cphalcon) 全栈框架。
 
 ## Composer
+
+- [composer 源码](https://github.com/composer/composer)
 
 ```bash
 # 安装依赖，忽略 ext-* 的 C 扩展
@@ -30,15 +36,19 @@ composer install --ignore-platform-reqs
 composer require monolog/monolog:1.25.0 --with-all-dependencies
 ```
 
-### 常见包和框架
+### 常见包或框架
 
+- [PHP-DI](https://github.com/PHP-DI/PHP-DI) 依赖注入库。
+- [FastRoute](https://github.com/nikic/FastRoute) 路由库。
 - [WordPress](https://github.com/WordPress/WordPress)
+- [Requests](https://github.com/WordPress/Requests) HTTP 客户端库。
 - [uuid](https://github.com/ramsey/uuid) uuid 库。
 - [laravel](https://github.com/laravel/laravel) PHP 界的 Spring ，功能齐全，就是有点重，服务器要求比其他 PHP 框架高，不然会卡。
 - [symfony](https://github.com/symfony/symfony) Web 框架，拆分出很多基础库，ThinkPHP 大量复用它的基础库。
 - [symfony/dotenv](https://github.com/symfony/dotenv) symfony 环境变量库。
 - [CodeIgniter](https://github.com/bcit-ci/CodeIgniter) Web 框架
 - [tntsearch](https://github.com/teamtnt/tntsearch) 倒排索引库。
+- [workerman](https://github.com/walkor/workerman)
 - [thinkphp](https://github.com/top-think/framework) Web 框架，很多基础库复用 symfony 的，国内大量专用框架由其扩展而来。
 - [think-validate](https://github.com/top-think/think-validate)
 - [think-worker](https://github.com/top-think/think-worker) ThinkPHP Workerman 扩展
@@ -58,6 +68,9 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [monolog](https://github.com/Seldaek/monolog) 日志库。
 - [PhpSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet) excel 处理库。
 - [psalm](https://github.com/vimeo/psalm) 静态分析工具，可以分析出函数参数类型错误等问题。
+- [Sylius](https://github.com/Sylius/Sylius) 电商项目。
+- [PHP-Parser](https://github.com/nikic/PHP-Parser) PHP 写的 PHP 语法分析器。
+- [pinyin](https://github.com/overtrue/pinyin) 中文转拼音。
 
 ## 命令规范
 

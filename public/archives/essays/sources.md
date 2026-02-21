@@ -32,6 +32,9 @@
 - [30dayMakeOS《30天自制操作系统》](https://github.com/yourtion/30dayMakeOS)
 - [the-road-to-learn-react-chinese《React 学习之道》](https://github.com/the-road-to-learn-react/the-road-to-learn-react-chinese)
 - [the-craft-of-selfteaching《自学是门手艺》](https://github.com/selfteaching/the-craft-of-selfteaching)
+- [koa2-note《Koa2进阶学习笔记》](https://github.com/chenshenhai/koa2-note)
+- [chrome-plugin-demo《Chrome插件开发全攻略》](https://github.com/sxei/chrome-plugin-demo)
+- [php7-internal《PHP7内核剖析》](https://github.com/pangudashu/php7-internal)
 
 ## 资源站点
 
@@ -146,6 +149,7 @@ qwen
 
 ### 编辑器与IDE
 
+- [vscode](https://github.com/microsoft/vscode)
 - [Zed](https://zed.dev/) rust 开发，打开很快，可以取代 Notepad++ 。
 - [NotepadNext](https://github.com/dail8859/NotepadNext) Notepad++ 重新实现版。
 - [lapce](https://github.com/lapce/lapce) rust 开发
@@ -171,16 +175,30 @@ qwen
 - [ninja](https://github.com/ninja-build/ninja) 谷歌用于取代 make 的跨平台构建脚本。
 - [pyasm](https://github.com/grant-olson/pyasm) 动态内联 x86 汇编的 python 实现。
 - [yasm](https://github.com/yasm/yasm) x86 汇编器。
+- [panopticon](https://github.com/das-labor/panopticon) 反汇编器。
 - [yadcc](https://github.com/Tencent/yadcc) 分布式 C++ 编译器。
 - [vue-compiler](https://github.com/HerringtonDarkholme/vue-compiler) rust 开发的 vue 编译器。
 - [dnSpy](https://github.com/dnSpy/dnSpy) .Net 调试器。
 - [wenyan](https://github.com/wenyan-lang/wenyan) 文言文編程語言
+- [ChezScheme](https://github.com/cisco/ChezScheme) Lisp 方言。
 - [fanx](https://github.com/fanx-dev/fanx) 全栈编程语言。
 - [stone](https://github.com/chibash/stone) 《两周自制脚本语言》示例语言。
 - [OpenHSP](https://github.com/onitama/OpenHSP) Hot Soup 语言 Processor
 - [jsonnet](https://github.com/google/jsonnet) 谷歌开发的类 JSON 的数据语言，官方只支持 c 和 python 模块，其他语言有第三方实现但是热度很低，实现堪忧。
 - [hhvm](https://github.com/facebook/hhvm) Hack 语言，由 PHP 扩展而来的语言。
 - [polarphp](https://github.com/polarphp/polarphp) 第三方的 PHP 编译器和运行时实现。
+- [Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy) 可执行文件等多种文件查看探测器。
+- [DIE-engine](https://github.com/horsicq/DIE-engine) DIE 下载点。
+- [radare2](https://github.com/radareorg/radare2) 逆向分析框架。
+- [ghidra](https://github.com/NationalSecurityAgency/ghidra) 逆向分析工具。
+- [cutter](https://github.com/rizinorg/cutter) 逆向分析工具。
+- [ILSpy](https://github.com/icsharpcode/ILSpy) .Net 字节码反编译器。
+- [frida](https://github.com/frida/frida) 逆向插桩工具。
+- [x64dbg](https://github.com/x64dbg/x64dbg) x64 调试器，动态逆向分析。
+- [arthas](https://github.com/alibaba/arthas) 阿里开源的 Java 项目诊断工具。
+- [pmd](https://github.com/pmd/pmd) Java 等多种语言的静态分析工具。
+- [Dependencies](https://github.com/lucasg/Dependencies) C# 重写 depends.exe，用于查看 DLL 依赖的图形工具。
+- [rufus](https://github.com/pbatard/rufus) USB 格式化工具。
 
 ### 文件处理工具
 
@@ -195,15 +213,9 @@ qwen
 - [olive](https://github.com/olive-editor/olive) 音频编辑工具。
 - [audacity](https://github.com/audacity/audacity) 音频编辑工具。
 - [lmms](https://github.com/LMMS/lmms) 音乐编辑工具。
+- [sonic-pi](https://github.com/sonic-pi-net/sonic-pi) 音乐制作软件，支持使用 ruby 等脚本语言生成音乐。
 - [openshot-qt](https://github.com/OpenShot/openshot-qt) 视频剪辑工具。
 - [subtitleedit](https://github.com/SubtitleEdit/subtitleedit) 字幕编辑器。
-- [Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy) 可执行文件等多种文件查看探测器。
-- [DIE-engine](https://github.com/horsicq/DIE-engine) DIE 下载点。
-- [ghidra](https://github.com/NationalSecurityAgency/ghidra) 逆向分析工具。
-- [cutter](https://github.com/rizinorg/cutter) 逆向分析工具。
-- [ILSpy](https://github.com/icsharpcode/ILSpy) .Net 字节码反编译器。
-- [frida](https://github.com/frida/frida) 逆向插桩工具。
-- [Dependencies](https://github.com/lucasg/Dependencies) C# 重写 depends.exe，用于查看 DLL 依赖的图形工具。
 - [CyberChef](https://github.com/gchq/CyberChef) 纯静态网页的加密算法、日期格式化等方便工具。
 - [vector-drawable-nextjs](https://github.com/seanghay/vector-drawable-nextjs) 安卓图标资源（VectorDrawable）转 SVG 工具。
 - [fd](https://github.com/sharkdp/fd) rust 开发的类 find 命令行工具。
@@ -212,7 +224,6 @@ qwen
 - [FFmpeg-Builds](https://github.com/BtbN/FFmpeg-Builds) FFmpeg 下载。
 - [libav](https://github.com/libav/libav) FFmpeg 的分支，已经停止维护。
 - [PandaOCR](https://github.com/miaomiaosoft/PandaOCR) OCR 工具。
-- [rufus](https://github.com/pbatard/rufus) USB 格式化工具。
 
 ### 办公软件与应用
 
@@ -221,12 +232,14 @@ qwen
 - [AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) Redis 图形客户端工具。
 - [RedisStudio](https://github.com/cinience/RedisStudio) Redis 图形客户端工具。
 - [PDFPatcher](https://github.com/wmjordan/PDFPatcher) PDF 编辑工具。
+- [marktext](https://github.com/marktext/marktext) markdown 编辑器。
 - [music](https://github.com/sunzongzheng/music) vue + electron 音乐播放器。
 - [ieaseMusic](https://github.com/trazyn/ieaseMusic) 网易云音乐第三方。
 - [Motrix](https://github.com/agalwood/Motrix) 下载器。
 - [fonteditor](https://github.com/ecomfe/fonteditor) web 字体编辑器。
 - [calculator](https://github.com/microsoft/calculator) Windows 新计算器。
 - [carbon](https://github.com/carbon-app/carbon) 代码生成高亮且美观的图片的工具。
+- [gimp](https://github.com/GNOME/gimp) 绘图软件。
 
 ### 监控工具
 
@@ -270,6 +283,9 @@ qwen
 - [rustfs](https://github.com/rustfs/rustfs) rust 实现的高性能分布式对象存储。
 - [seaweedfs](https://github.com/seaweedfs/seaweedfs) GO 实现的高性能分布式对象存储。
 - [storj](https://github.com/storj/storj) GO 实现的高性能分布式对象存储。
+- [minio](https://github.com/minio/minio) GO 实现的兼容 S3 的对象存储。
+- [tidb](https://github.com/pingcap/tidb) 分布式关系数据库。
+- [tikv](https://github.com/tikv/tikv) TiDB 的键值对数据库。
 - [redis](https://github.com/redis/redis) 键值对数据库。
 - [microsoftarchive redis](https://github.com/microsoftarchive/redis) redis 3.0 的 Windows 版本。
 - [KeyDB](https://github.com/Snapchat/KeyDB) 扩展 Redis 为多线程的项目。
@@ -287,6 +303,7 @@ qwen
 - [async_dns](https://github.com/gera2ld/async_dns) DNS 命令行工具。
 - [canal](https://github.com/alibaba/canal) 阿里巴巴 MySQL binlog 增量订阅&消费 服务。
 - [logging-flume](https://github.com/apache/logging-flume) 分布式日志服务。
+- [prometheus](https://github.com/prometheus/prometheus) 时间序列数据库。
 - [opa](https://github.com/open-policy-agent/opa)  
 - [gridstudio](https://github.com/ricklamers/gridstudio) 浏览器端通过 python 处理表格数据的 web 服务。
 - [superset](https://github.com/apache/superset) 数据可视化和数据探索
@@ -298,6 +315,8 @@ qwen
 - [nextcloud server](https://github.com/nextcloud/server) 文件存储托管同步服务。
 - [james-project](https://github.com/apache/james-project) Java 开发的邮箱服务器。
 - [docute](https://github.com/egoist/docute) markdown 展示成网页的站点项目。
+- [mkcert](https://github.com/FiloSottile/mkcert) 自动注册 HTTPS 证书并配置站点的服务。
+- [OmniDB](https://github.com/OmniDB/OmniDB) 网页版的数据库客户端管理工具。
 
 ### 硬件设计工具
 
@@ -353,6 +372,7 @@ qwen
 - [piskel](https://github.com/piskelapp/piskel) 基于 web 的像素素材编辑器。
 - [BrowserQuest](https://github.com/mozilla/BrowserQuest) mozilla 开源的 2D 即时页游。
 - [BrowserQuest-PHP](https://github.com/walkor/BrowserQuest-PHP) 基于 Workerman 的 PHP 版 BrowserQuest。
+- [habitica](https://github.com/HabitRPG/habitica) web 端行为计划的游戏化角色扮演游戏。
 
 ### 游戏素材
 
@@ -375,9 +395,7 @@ qwen
 
 ### VS code 插件
 
-- [vscode-antlr4](https://github.com/mike-lischke/vscode-antlr4)
-- [code-d](https://github.com/Pure-D/code-d) D 语言插件。
-- [vscode_deno](https://github.com/denoland/vscode_deno)
+
 
 ### 移动APP
 

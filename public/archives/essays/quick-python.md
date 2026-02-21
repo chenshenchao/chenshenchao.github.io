@@ -29,6 +29,8 @@ python -m http.server 8000
 - [mcp sdk](https://github.com/modelcontextprotocol/python-sdk) MCP 官方发布的客户端 SDK 库。
 - [numba](https://github.com/numba/numba) NumPy 动态编译。
 - [snowflake](https://github.com/vd2org/snowflake) 雪花ID生成库。
+- [xlwt](https://github.com/python-excel/xlwt) 可创建 MS Excel 97/2000/XP/2003 XLS 文件。
+- [xlrd](https://github.com/python-excel/xlrd) 可读取 MS Excel 97/2000/XP/2003 XLS 文件。
 - [pypdf](https://github.com/py-pdf/pypdf) PDF 库。
 - [pdfplumber](https://github.com/jsvine/pdfplumber) PDF 提取信息库。
 - [RxPY](https://github.com/ReactiveX/RxPY) rx
@@ -49,7 +51,8 @@ python -m http.server 8000
 - [pymunk](https://github.com/viblo/pymunk) 2D 物理引擎。
 - [requests](https://github.com/psf/requests) HTTP 客户端库。
 - [ffmpeg-python](https://github.com/kkroening/ffmpeg-python) ffmpeg 绑定封装库。
-
+- [sly](https://github.com/dabeaz/sly) 类 lex、yacc 的 python 库（面向对象设计）。 
+- [ply](https://github.com/dabeaz/ply) 类 lex、yacc 的 python 库（面向过程设计）。 
 
 - [jax](https://github.com/jax-ml/jax) 组件化 numpy 使代码更精简，生成 GPU/TPU 的 JIT 。
 
@@ -70,10 +73,12 @@ python -m http.server 8000
 - [sanic](https://github.com/sanic-org/sanic) web 框架。
 - [fastapi](https://github.com/fastapi/fastapi) web 框架。
 - [FastUI](https://github.com/pydantic/FastUI) web UI 库。非 HTML 模板，是 Python 代码生成 HTML。
+- [vibora](https://github.com/vibora-io/vibora) web 框架。
 - [jinja](https://github.com/pallets/jinja) 模板引擎。
 - [circuits](https://github.com/circuits/circuits) web 框架。
 - [emsdk](https://github.com/emscripten-core/emsdk) Emscripten SDK
 - [wechatpy](https://github.com/wechatpy/wechatpy) 微信SDK
+- [rpyc](https://github.com/tomerfiliba-org/rpyc) RPC 库。
 
 ## 虚拟环境
 
@@ -280,6 +285,8 @@ twine upload dist/*
 ```
 
 ### 旧标准 setuptools 命令
+
+- [setuptools 源码](https://github.com/pypa/setuptools)
 
 setuptools 使用一个 setup.py 来配置。因为是 python 文件，你可以用做任何处理，所以自由度很高，但是问题也是出在这里。自由度太高导致各种包的打包方式没有统一，五花八门的 setup.py 脚本被写了出来，造成了混乱。
 新的 pyproject.toml 使用 toml 就结构上规范了常用配置，使得项目得到了统一。同时旧的 setuptools 退居幕后（pyproject.toml 可以指定 build-system 为 setuptools），由 build 模块根据 pyproject.toml 生成 setup.py 脚本进行打包。

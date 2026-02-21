@@ -313,6 +313,8 @@ fi
 - [clap](https://github.com/clap-rs/clap) 命令行命令开发库。
 - [rxRust](https://github.com/rxRust/rxRust) rx
 - [ritual](https://github.com/rust-qt/ritual) 封装一些 C++ 库成 rust 库，主要封装 Qt。
+- [gluon](https://github.com/gluon-lang/gluon) 可内嵌小型编程语言 gluon 到项目里。
+- [rlua](https://github.com/mlua-rs/rlua) 可内嵌小型编程语言 lua 到项目里。
 
 ### UI 库
 
@@ -342,6 +344,7 @@ fi
 - [tower](https://github.com/tower-rs) web 开发库集合。
 - [salvo](https://github.com/salvo-rs/salvo) 简易 web 框架。
 - [wasmer](https://github.com/wasmerio/wasmer) wasm 运行时。
+- [Rocket](https://github.com/rwf2/Rocket) web 框架。
 
 ### 数据库
 

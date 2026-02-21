@@ -1,7 +1,9 @@
 # [草稿] D 速查
 
-[官网](https://dlang.org/)下载 DMD 安装，并把 bin 目录路径加到 PATH 里。
-[包仓库](https://code.dlang.org/) 可以找包。
+- [官网](https://dlang.org/)下载 DMD 安装，并把 bin 目录路径加到 PATH 里。
+- [包仓库](https://code.dlang.org/) 可以找包。
+- [dmd](https://github.com/dlang/dmd) 源码。
+- [code-d](https://github.com/Pure-D/code-d) VScode D 语言插件。
 
 ## 包管理工具 dub
 
