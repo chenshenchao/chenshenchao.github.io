@@ -13,6 +13,7 @@
 - [auto-sklearn](https://github.com/automl/auto-sklearn) ML 工具包。
 - [darknet](https://github.com/pjreddie/darknet)
 - [botpress](https://github.com/botpress/botpress)
+- [BitNet](https://github.com/microsoft/BitNet)  1-bit LLMs 框架。
 
 ## 资料源
 

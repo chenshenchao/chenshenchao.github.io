@@ -82,6 +82,15 @@ npx create-expo-app
 - [excalidraw](https://github.com/excalidraw/excalidraw) 流程图、思维导图等图库和软件。
 - [tldraw](https://github.com/tldraw/tldraw) 手写板画布组件，功能少，只能用来做手写签名。
 - [GGEditor](https://github.com/alibaba/GGEditor) 可视化图编辑器
+- [keepalive-for-react](https://github.com/finedaybreak/keepalive-for-react) 实现类 vue 的 keepalive 缓存组件状态
+- [react-activation](https://github.com/CJY0208/react-activation) 实现类 vue 的 keepalive
+- [react-keep-alive](https://github.com/StructureBuilder/react-keep-alive) 实现类 vue 的 keepalive，多年没维护。
+- [react-freeze](https://github.com/software-mansion/react-freeze) 冻结子组件树的渲染，类 vue keepalive 。
+- [xyflow](https://github.com/xyflow/xyflow) 流程图组件库。
+
+### react native 相关库
+
+- [react-native-screens](https://github.com/software-mansion/react-native-screens) 将原生导航容器组件引入 React Native
 
 ### react-router
 

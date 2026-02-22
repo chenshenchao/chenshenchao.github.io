@@ -31,6 +31,7 @@ python -m http.server 8000
 - [snowflake](https://github.com/vd2org/snowflake) 雪花ID生成库。
 - [xlwt](https://github.com/python-excel/xlwt) 可创建 MS Excel 97/2000/XP/2003 XLS 文件。
 - [xlrd](https://github.com/python-excel/xlrd) 可读取 MS Excel 97/2000/XP/2003 XLS 文件。
+- [excel2img](https://github.com/glexey/excel2img) excel 生成图片。
 - [pypdf](https://github.com/py-pdf/pypdf) PDF 库。
 - [pdfplumber](https://github.com/jsvine/pdfplumber) PDF 提取信息库。
 - [RxPY](https://github.com/ReactiveX/RxPY) rx

@@ -163,7 +163,7 @@ qwen
 - [atom](https://github.com/atom/atom) 基于 Electron 的一个文本编辑器。
 - [liteide](https://github.com/visualfc/liteide) Go IDE
 
-### 汇编器、编译器、解释器、调试器、构造工具与代码生成器
+### 汇编器、编译器、解释器、调试器、构造工具、分析工具与代码生成器
 
 - [svg-filters](https://github.com/yoksel/svg-filters) SVG 滤镜代码生成器。
 - [dmc](https://github.com/DigitalMars/dmc) Digital Mars C/C++ 编译器。
@@ -173,6 +173,7 @@ qwen
 - [emscripten](https://github.com/emscripten-core/emscripten) 基于 LLVM 的 WASM 编译器。
 - [lisp](https://github.com/robpike/lisp) 一个 Lisp 1.5 解释器。(Go 语言)
 - [ninja](https://github.com/ninja-build/ninja) 谷歌用于取代 make 的跨平台构建脚本。
+- [just](https://github.com/casey/just) 类 make 有 justfile 做为命令行配置，但是并不局限于构建，而是命令的执行。
 - [pyasm](https://github.com/grant-olson/pyasm) 动态内联 x86 汇编的 python 实现。
 - [yasm](https://github.com/yasm/yasm) x86 汇编器。
 - [panopticon](https://github.com/das-labor/panopticon) 反汇编器。
@@ -199,6 +200,7 @@ qwen
 - [pmd](https://github.com/pmd/pmd) Java 等多种语言的静态分析工具。
 - [Dependencies](https://github.com/lucasg/Dependencies) C# 重写 depends.exe，用于查看 DLL 依赖的图形工具。
 - [rufus](https://github.com/pbatard/rufus) USB 格式化工具。
+- [hey](https://github.com/rakyll/hey) Go 开发的压力测试命令行工具。
 
 ### 文件处理工具
 
@@ -318,6 +320,7 @@ qwen
 - [docute](https://github.com/egoist/docute) markdown 展示成网页的站点项目。
 - [mkcert](https://github.com/FiloSottile/mkcert) 自动注册 HTTPS 证书并配置站点的服务。
 - [OmniDB](https://github.com/OmniDB/OmniDB) 网页版的数据库客户端管理工具。
+- [srs](https://github.com/ossrs/srs) 实时媒体服务器，可做直播服务器。
 
 ### 硬件设计工具
 

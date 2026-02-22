@@ -124,6 +124,23 @@ cargo build --release --target=x86_64-unknown-linux-musl
 - [cargo-wix](https://github.com/volks73/cargo-wix) wix 打包应用工具的 cargo 子命令。
 - [cargo-edit](https://github.com/killercup/cargo-edit) 通过命令行来修改 Cargo.toml 文件。（挺搞笑的扩展）
 
+### cargo.toml 配置
+
+```toml
+[package]
+
+[workspace]
+members = [
+	"your_crate", # 具体目录
+    "your_crates/*"#整个目录下都扫描
+]
+
+# 默认会扫描 examples 目录，其他目录可以通过以下配置加入。
+[[example]]
+name = "your_example"# 名字，如果和目录同名则不需要写 path
+path = "your_examples/your_example.rs"#路径
+```
+
 ### 配置镜像
 
 ~/.cargo 目录下，可以创建 config.toml（旧版叫 config 没有.toml 后缀） 文件配置镜像。
@@ -176,6 +193,12 @@ cargo update -p aws_lc_rs
 
 # 回退库 cargo_metadata 到指定版本
 cargo update -p cargo_metadata --precise 0.19.0
+
+# 执行
+cargo run -p <名称>
+
+# 执行示例
+cargo run --example <示例名称>
 ```
 
 ### cargo generate
@@ -276,7 +299,9 @@ fi
 
 ## 常用库
 
-- [tokio](https://github.com/tokio-rs/tokio)
+- [smol](https://github.com/smol-rs/smol) 异步运行时。
+- [async-compat](https://github.com/smol-rs/async-compat) tokio 兼容 futures 的库。
+- [tokio](https://github.com/tokio-rs/tokio) 异步运行时。
 - [prost](https://github.com/tokio-rs/prost) tokio 团队的 protobuf 实现,actix 的 protobuf 扩展此库(0.13)。
 - [rust-protobuf](https://github.com/stepancheg/rust-protobuf) protobuf 第三方实现。
 - [tonic](https://github.com/hyperium/tonic) grpc 第三方实现。
@@ -329,6 +354,8 @@ fi
 - [gpui-component](https://github.com/longbridge/gpui-component) 基于 GPUI 的控件库。
 - [bevy](https://github.com/bevyengine/bevy) 数据驱动的游戏引擎。
 - [tauri](https://github.com/tauri-apps/tauri) 打包 web 成 移动app 或者 桌面软件的框架。
+- [web-view](https://github.com/Boscop/web-view) 绑定 webview 用于开发桌面应用的库。
+- [gosub-engine](https://github.com/gosub-io/gosub-engine) 浏览器引擎，可嵌入应用。
 - [tiny-skia](https://github.com/linebender/tiny-skia) skia 子集，只使用 CPU ，性能差，兼容好。
 - [azul](https://github.com/fschutt/azul) 目前尚不可用。
 - [amethyst](https://github.com/amethyst/amethyst) 游戏引擎，已废弃。

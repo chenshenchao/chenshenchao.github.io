@@ -33,6 +33,7 @@
 - [Edi.Captcha.AspNetCore](https://github.com/EdiWang/Edi.Captcha.AspNetCore) 验证码。
 - [SSH.NET](https://github.com/sshnet/SSH.NET)
 - [xLua](https://github.com/Tencent/xLua) 为 C#（Unity, .Net, Mono）提供的 Lua 运行时实现。
+- [dotenv.net](https://github.com/bolorundurowb/dotenv.net) .env 库。
 
 ## WinForms
 

@@ -47,6 +47,7 @@ flutter logs --clear
 - [image](https://github.com/brendan-duncan/image) 图片处理库。
 - [floor](https://github.com/pinchbv/floor) 类型安全的 SQLite 封装。
 - [bloc](https://github.com/felangel/bloc) 状态管理库，拆分成多个库，按需引入，支持 持久化(hydrated_bloc)，回放(replay_bloc) 等功能。
+- [async_redux](https://github.com/marcglasberg/async_redux) 状态管理库
 - [flutter_screenutil](https://github.com/OpenFlutter/flutter_screenutil) 类似 web 前端 vw vh 按屏幕等比缩放，适合移动端应用。
 - [ResponsiveFramework](https://github.com/Codelessly/ResponsiveFramework) 类似 web 前端的多媒体，响应适配不同尺寸的屏幕，适合桌面应用。
 - [fluttercommunity 的 plus_plugins](https://github.com/fluttercommunity/plus_plugins) 提供一些获取设备信息、网络设置信息、传感器信息的库。

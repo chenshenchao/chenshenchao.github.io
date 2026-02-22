@@ -17,6 +17,7 @@
 - [upscaledb](https://github.com/cruppstahl/upscaledb) 键值对型数据库实现。
 - [unqlite](https://github.com/symisc/unqlite) 键值对型数据库实现。
 - [libxml2](https://github.com/GNOME/libxml2) xml 库。
+- [libexpat](https://github.com/libexpat/libexpat) xml 库。
 - [msquic](https://github.com/microsoft/msquic) 微软的 QUIC 实现库。
 - [zpl](https://github.com/zpl-c/zpl) 工具集合库。
 - [enet](https://github.com/zpl-c/enet) UDP 框架。
@@ -24,6 +25,8 @@
 - [lz4](https://github.com/lz4/lz4) 压缩算法库。
 - [zstd](https://github.com/facebook/zstd) 压缩算法库。
 - [zlib](https://github.com/madler/zlib) 压缩算法库。
+- [zlib-ng](https://github.com/zlib-ng/zlib-ng) 下一代 zlib 压缩算法库。
+- [minizip-ng](https://github.com/zlib-ng/minizip-ng) zip 处理库。
 - [groonga](https://github.com/groonga/groonga) 全文搜索引擎。
 - [hiredis](https://github.com/redis/hiredis) redis 客户端库。
 - [libpcap](https://github.com/the-tcpdump-group/libpcap) linux 下网络抓包库。
@@ -35,6 +38,7 @@
 - [json-parser](https://github.com/json-parser/json-parser) json 序列化库。
 - [cJSON](https://github.com/DaveGamble/cJSON)  json 序列化库。
 - [json-c](https://github.com/json-c/json-c) json 序列化库。
+- [libxo](https://github.com/Juniper/libxo) 格式化输出 文本, XML, JSON, HTML 的库，一般用于日志格式化输出。
 
 ### UI 图形库。
 

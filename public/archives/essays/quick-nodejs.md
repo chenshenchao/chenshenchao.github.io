@@ -28,6 +28,7 @@ nvm use 16
 ## 常用库
 
 - [node-ffi](https://github.com/node-ffi/node-ffi)
+- [oxc](https://github.com/oxc-project/oxc) rust 开发的一个高性能库，有 JS/TS 解释器、压缩等。
 - [mysql](https://github.com/mysqljs/mysql) 纯 JS MySQL 客户端。
 - [node-mysql2](https://github.com/sidorares/node-mysql2) MySQL 客户端。
 - [pkg](https://github.com/vercel/pkg) 打包项目成可执行文件。

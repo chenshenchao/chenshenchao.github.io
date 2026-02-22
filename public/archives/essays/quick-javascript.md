@@ -10,6 +10,7 @@
 - [timeago.js](https://github.com/hustcc/timeago.js) 2kb 日期库。
 - [lodash](https://github.com/lodash/lodash) 基础类型扩展工具库。
 - [ramda](https://github.com/ramda/ramda) 类 lodash 工具库。
+- [x-spreadsheet](https://github.com/myliang/x-spreadsheet) 类似 Office Excel 的 canvas 编辑器，换 TS 开发了 wolf-table。
 - [handsontable](https://github.com/handsontable/handsontable) Excel 编辑器
 - [sheetjs](https://github.com/SheetJS/sheetjs) excel 操作库，免费版本功能有限，Pro 版本收费。
 - [ace](https://github.com/ajaxorg/ace) 代码编辑器。
@@ -86,6 +87,7 @@
 - [pinyin](https://github.com/hotoo/pinyin) 中文转拼音。
 - [coordtransform](https://github.com/wandergis/coordtransform) 提供了百度坐标（BD09）、国测局坐标（火星坐标，GCJ02）、和WGS84坐标系之间的转换。
 - [picojs](https://github.com/nenadmarkus/picojs) 人脸识别库。
+- [clientjs](https://github.com/jackspirou/clientjs) 获取浏览器指纹等用户信息的库。
 - [slick](https://github.com/kenwheeler/slick) 基于 jQuery 的轮播组件库。
 
 ### Web

@@ -34,12 +34,14 @@
 - [box2d-lite](https://github.com/erincatto/box2d-lite) 物理引擎 box2d 的 lite 版本。
 - [xlnt](https://github.com/tfussell/xlnt) xlsx 库。
 - [podofo](https://github.com/podofo/podofo) PDF 库。
+- [ncnn](https://github.com/Tencent/ncnn) 腾讯开源的移动端神经网络框架。
+- [actor-framework](https://github.com/actor-framework/actor-framework) actor 框架。
 
 ### 图形库
 
 - [tgfx](https://github.com/Tencent/tgfx) 为了替代 skia 的 2D 图形绘制库。
 - [elements](https://github.com/cycfi/elements) 声明式的 UI 库，事件的设计上有缺失。
-- [wxWidgets](https://github.com/wxWidgets/wxWidgets) UI 开发库。
+- [wxWidgets](https://github.com/wxWidgets/wxWidgets) UI 开发框架。
 - [wxFormBuilder](https://github.com/wxFormBuilder/wxFormBuilder) wxWidgets Form 图形化绘制工具。
 - [assimp](https://github.com/assimp/assimp) 支持 40+ 种 3D 资源文件加载库。
 - [SFML](https://github.com/SFML/SFML) 多媒体库。
@@ -50,6 +52,8 @@
 - [GacUI](https://github.com/vczh-libraries/GacUI) 轮子哥的UI库。
 - [nana](https://github.com/cnjinhao/nana)
 - [bgfx](https://github.com/bkaradzic/bgfx) 支持多种平台，多种语言绑定的渲染库。
+- [fltk](https://github.com/fltk/fltk) UI 开发库。
+- [webview](https://github.com/webview/webview) 跨平台 WebView 封装。
 
 ### boost
 
@@ -96,5 +100,3 @@ vcpkg install openssl:x64-windows-static
 ```
 
 ## wxWidgets
-
-## Qt

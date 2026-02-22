@@ -10,13 +10,6 @@
 - [superjson](https://github.com/flightcontrolhq/superjson) 解决 JSON 不支持 bigint 和 Date 等问题。
 - [noble-hashes](https://github.com/paulmillr/noble-hashes) 纯 TS 实现的 HASH 算法库。
 - [hash-wasm](https://github.com/Daninet/hash-wasm) 基于 WASM 的 HASH 算法库。
-- [editor.js](https://github.com/codex-team/editor.js) 富文本编辑器。
-- [tiptap](https://github.com/ueberdosis/tiptap)  富文本编辑器。
-- [tui.editor](https://github.com/nhn/tui.editor) markdown 的所见即所得编辑器。
-- [canvas-editor](https://github.com/Hufe921/canvas-editor) 类似 Office Word 的一个 canvas/svg 编辑器，可以通过插件导出 svg 或 pdf 文件。
-- [wolf-table](https://github.com/wolf-table/table) 类似 Office Excel 的 canvas 编辑器。
-- [diagram-maker](https://github.com/awslabs/diagram-maker) 流程图、导图等图编辑器库。
-- [ag-grid](https://github.com/ag-grid/ag-grid) 支持 React、Vue 等多框架的表格库。
 - [faker](https://github.com/faker-js/faker) 生成伪造数据的库，可以用来生成测试数据。
 - [Prisma](https://github.com/prisma/prisma) 数据库 ORM 功能齐全。
 - [Drizzle ORM](https://github.com/drizzle-team/drizzle-orm) 数据库 ORM 轻量级。
@@ -58,6 +51,15 @@
 - [mdui](https://github.com/zdhxiong/mdui) 安卓 Material 3 风格的 UI 组件库。
 - [lit](https://github.com/lit/lit) 基于 web components 开发组件的框架。
 - [better-scroll](https://github.com/ustbhuangyi/better-scroll)
+- [textbus](https://github.com/textbus/textbus) 支持 Viewfly、Vue、React 多框架的富文本编辑器。
+- [editor.js](https://github.com/codex-team/editor.js) 富文本编辑器。
+- [tiptap](https://github.com/ueberdosis/tiptap)  富文本编辑器。
+- [tui.editor](https://github.com/nhn/tui.editor) markdown 的所见即所得编辑器。
+- [canvas-editor](https://github.com/Hufe921/canvas-editor) 类似 Office Word 的一个 canvas/svg 编辑器，可以通过插件导出 svg 或 pdf 文件。
+- [wolf-table](https://github.com/wolf-table/table) 类似 Office Excel 的 canvas 编辑器。
+- [univer](https://github.com/dream-num/univer) 类 Excel、Word 电子表格组件库。
+- [diagram-maker](https://github.com/awslabs/diagram-maker) 流程图、导图等图编辑器库。
+- [ag-grid](https://github.com/ag-grid/ag-grid) 支持 React、Vue 等多框架的表格库。
 
 ## 类型系统
 

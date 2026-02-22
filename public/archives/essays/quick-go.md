@@ -15,6 +15,7 @@
 - [bleve](https://github.com/blevesearch/bleve) 可内嵌的全文搜索、向量搜索数据库。
 - [riot](https://github.com/go-ego/riot) 可内嵌的全文搜索数据库。
 - [urfave/cli](https://github.com/urfave/cli) 命令行参数分析库。
+- [cobra](https://github.com/spf13/cobra) 命令行开发框架。
 - [pgx](https://github.com/jackc/pgx) PostgreSQL 客户端库。
 - [golang-migrate](https://github.com/golang-migrate/migrate) 数据库迁移命令行工具与库。
 - [go-faker](https://github.com/go-faker/faker) 生成调试开发数据的库。
@@ -33,6 +34,7 @@
 - [air](https://github.com/air-verse/air) 实现 watch 功能，代码修改自动重启的命令行工具。
 - [godotenv](https://github.com/joho/godotenv) .env 处理库。
 - [captcha](https://github.com/dchest/captcha) 验证码。
+- [base64Captcha](https://github.com/mojocn/base64Captcha) base64 字符串格式的验证码。
 - [otto](https://github.com/robertkrimen/otto) 可内嵌的 JS 解释器。
 
 ### Web 框架
@@ -52,7 +54,8 @@
 
 - [fyne](https://github.com/fyne-io/fyne) 跨平台，安卓端比较成熟。
 - [wails](https://github.com/wailsapp/wails) 打包 Web 成 桌面应用 的框架。
-- [hover](https://github.com/go-flutter-desktop/hover) go 封装 flutter 的桌面应用开发框架。
+- [hover](https://github.com/go-flutter-desktop/hover) Go 封装 flutter 的桌面应用开发框架。
+- [spot](https://github.com/roblillack/spot) React 代码风格的 Go 桌面应用开发框架。
 
 ## 常用命令
 
