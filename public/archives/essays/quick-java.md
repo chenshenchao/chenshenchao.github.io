@@ -21,6 +21,7 @@
 - [gluonj](https://github.com/chibash/gluonj) AOP 面向切片库。
 - [flink](https://github.com/apache/flink) 流扩展库。
 - [captcha](https://github.com/raodv/captcha) 行为验证码(滑动拼图、点选文字)，适配多种前端（web、安卓、Flutter）
+- [OpenPDF](https://github.com/LibrePDF/OpenPDF) PDF 库。
 
 ## 开发环境与包管理工具
 

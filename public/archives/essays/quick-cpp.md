@@ -36,6 +36,10 @@
 - [podofo](https://github.com/podofo/podofo) PDF 库。
 - [ncnn](https://github.com/Tencent/ncnn) 腾讯开源的移动端神经网络框架。
 - [actor-framework](https://github.com/actor-framework/actor-framework) actor 框架。
+- [rtorrent](https://github.com/rakshasa/rtorrent) Linux 下的 BitTorrent 命令行工具。
+- [libtorrent](https://github.com/rakshasa/libtorrent) Linux 下的  rtorrent 的 BitTorrent 库。
+- [libtorrent](https://github.com/arvidn/libtorrent) 跨平台 BitTorrent 客户端库。
+- [oneDNN](https://github.com/uxlfoundation/oneDNN) 深度神经网络库。
 
 ### 图形库
 
@@ -48,12 +52,16 @@
 - [cef](https://github.com/chromiumembedded/cef) Chromium Embedded Framework 源码。
 - [spire-engine](https://github.com/spire-engine/spire-engine) 3D 游戏引擎。
 - [GuiLite](https://github.com/idea4good/GuiLite)
+- [micro-gl](https://github.com/micro-gl/micro-gl) 单头文件，不依赖标准库，矢量图库。
 - [imgui](https://github.com/ocornut/imgui)
 - [GacUI](https://github.com/vczh-libraries/GacUI) 轮子哥的UI库。
 - [nana](https://github.com/cnjinhao/nana)
 - [bgfx](https://github.com/bkaradzic/bgfx) 支持多种平台，多种语言绑定的渲染库。
 - [fltk](https://github.com/fltk/fltk) UI 开发库。
 - [webview](https://github.com/webview/webview) 跨平台 WebView 封装。
+- [RmlUi](https://github.com/mikke89/RmlUi) 基于类 HTML + CSS 的语言结合 C++ 开发 UI 的框架。
+- [duilib](https://github.com/duilib/duilib) 基于 XML + C++ 的开发框架。 
+- [DuiLib_DuiEditor](https://github.com/xfcanyue/DuiLib_DuiEditor) DUI 的 xml 可视化编辑器。
 
 ### boost
 

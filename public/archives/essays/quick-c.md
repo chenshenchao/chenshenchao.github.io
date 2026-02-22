@@ -52,7 +52,6 @@
 - [mozjpeg](https://github.com/mozilla/mozjpeg) JPEG 图片库。
 - [gtk](https://github.com/GNOME/gtk)
 
-
 ### 嵌入式相关
 
 - [CMSIS-Driver](https://github.com/ARM-software/CMSIS-Driver) CMSIS 驱动源码。

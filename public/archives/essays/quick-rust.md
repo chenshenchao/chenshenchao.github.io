@@ -353,7 +353,6 @@ fi
 - [gpui](https://www.gpui.rs/) Zed 编辑器团队开发的框架，源码在[zed 仓库](https://github.com/zed-industries/zed)里。
 - [gpui-component](https://github.com/longbridge/gpui-component) 基于 GPUI 的控件库。
 - [bevy](https://github.com/bevyengine/bevy) 数据驱动的游戏引擎。
-- [tauri](https://github.com/tauri-apps/tauri) 打包 web 成 移动app 或者 桌面软件的框架。
 - [web-view](https://github.com/Boscop/web-view) 绑定 webview 用于开发桌面应用的库。
 - [gosub-engine](https://github.com/gosub-io/gosub-engine) 浏览器引擎，可嵌入应用。
 - [tiny-skia](https://github.com/linebender/tiny-skia) skia 子集，只使用 CPU ，性能差，兼容好。

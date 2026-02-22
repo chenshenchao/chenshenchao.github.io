@@ -174,6 +174,7 @@ qwen
 - [lisp](https://github.com/robpike/lisp) 一个 Lisp 1.5 解释器。(Go 语言)
 - [ninja](https://github.com/ninja-build/ninja) 谷歌用于取代 make 的跨平台构建脚本。
 - [just](https://github.com/casey/just) 类 make 有 justfile 做为命令行配置，但是并不局限于构建，而是命令的执行。
+- [b2](https://github.com/bfgroup/b2) boost 使用的类 make 有 Jamfile 的 C++ 构造工具。
 - [pyasm](https://github.com/grant-olson/pyasm) 动态内联 x86 汇编的 python 实现。
 - [yasm](https://github.com/yasm/yasm) x86 汇编器。
 - [panopticon](https://github.com/das-labor/panopticon) 反汇编器。

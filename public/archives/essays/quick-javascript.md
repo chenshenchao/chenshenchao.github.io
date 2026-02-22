@@ -89,6 +89,8 @@
 - [picojs](https://github.com/nenadmarkus/picojs) 人脸识别库。
 - [clientjs](https://github.com/jackspirou/clientjs) 获取浏览器指纹等用户信息的库。
 - [slick](https://github.com/kenwheeler/slick) 基于 jQuery 的轮播组件库。
+- [prism](https://github.com/PrismJS/prism) 语法高亮库。
+- [highlight.js](https://github.com/highlightjs/highlight.js) 语法高亮库。
 
 ### Web
 
