@@ -314,6 +314,7 @@ fi
 - [if-addrs](https://github.com/messense/if-addrs) 本地网络地址。
 - [lazy_static](https://github.com/rust-lang-nursery/lazy-static.rs) 懒加载，因为标准库已经有 LazyLock 所以基本不用了。
 - [tch](https://github.com/LaurentMazare/tch-rs) 封装 pytorch 的 c++ 版本绑定 rust
+- [linfa](https://github.com/rust-ml/linfa) 深度学习框架。
 - [burn](https://github.com/tracel-ai/burn) 纯 rust 的深度学习框架。
 - [candle](https://github.com/huggingface/candle) huggingface 开发的机器学习框架。
 - [ndarray](https://github.com/rust-ndarray/ndarray) 类似 python 的 numpy
@@ -329,7 +330,8 @@ fi
 - [qrcode](https://github.com/kennytm/qrcode-rust) 生成二维码库。
 - [bardecoder](https://github.com/piderman314/bardecoder) 二维码识别库。
 - [datafusion](https://github.com/apache/datafusion) 用 SQL 处理 CSV、JSON、Parquet、Avro、Arrow 等文件的库，可自定义文件格式做扩展。
-- [calamine](https://github.com/tafia/calamine) 纯 Rust 实现 Excel/OpenDocument 库。
+- [calamine](https://github.com/tafia/calamine) 纯 Rust 实现 Excel/OpenDocument（xls、xlsx） 库。
+- [rust_xlsxwriter](https://github.com/jmcnamara/rust_xlsxwriter) Excel xlsx 文件创建库。
 - [lopdf](https://github.com/J-F-Liu/lopdf) PDF 库。
 - [pdf-rs](https://github.com/pdf-rs/pdf) PDF 库。
 - [windows-service-rs](https://github.com/mullvad/windows-service-rs) Windows 服务开发库。

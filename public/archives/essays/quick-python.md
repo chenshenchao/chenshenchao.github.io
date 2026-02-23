@@ -29,6 +29,7 @@ python -m http.server 8000
 - [mcp sdk](https://github.com/modelcontextprotocol/python-sdk) MCP 官方发布的客户端 SDK 库。
 - [numba](https://github.com/numba/numba) NumPy 动态编译。
 - [snowflake](https://github.com/vd2org/snowflake) 雪花ID生成库。
+- [openpyxl](https://pypi.org/project/openpyxl/) Excel 2010 xlsx 文件处理库。
 - [xlwt](https://github.com/python-excel/xlwt) 可创建 MS Excel 97/2000/XP/2003 XLS 文件。
 - [xlrd](https://github.com/python-excel/xlrd) 可读取 MS Excel 97/2000/XP/2003 XLS 文件。
 - [excel2img](https://github.com/glexey/excel2img) excel 生成图片。

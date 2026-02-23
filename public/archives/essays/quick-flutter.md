@@ -41,6 +41,7 @@ flutter logs --clear
 
 ## 常用库
 
+- [auto_route_library](https://github.com/Milad-Akarie/auto_route_library) 路由库。
 - [flutter-tflite](https://github.com/tensorflow/flutter-tflite) Tensorflow lite 的 Flutter 封装。
 - [onnxruntime_flutter](https://github.com/gtbluesky/onnxruntime_flutter) onnx 运行时。
 - [permission_handler](https://github.com/baseflow/flutter-permission-handler) 权限库。
@@ -50,9 +51,12 @@ flutter logs --clear
 - [async_redux](https://github.com/marcglasberg/async_redux) 状态管理库
 - [flutter_screenutil](https://github.com/OpenFlutter/flutter_screenutil) 类似 web 前端 vw vh 按屏幕等比缩放，适合移动端应用。
 - [ResponsiveFramework](https://github.com/Codelessly/ResponsiveFramework) 类似 web 前端的多媒体，响应适配不同尺寸的屏幕，适合桌面应用。
+- [responsive_sizer](https://github.com/CoderUni/responsive_sizer) 类似 web 前端 vw vh 按屏幕等比缩放，适合移动端应用。
+- [Sizer](https://github.com/TechnoPrashant/Sizer) 类似 web 前端 vw vh 按屏幕等比缩放，适合移动端应用。
 - [fluttercommunity 的 plus_plugins](https://github.com/fluttercommunity/plus_plugins) 提供一些获取设备信息、网络设置信息、传感器信息的库。
 - [fluttercommunity 的 font_awesome_flutter](https://github.com/fluttercommunity/font_awesome_flutter) [fontawesome](https://fontawesome.com/icons)图标库的flutter封装。
 - [fluttercommunity 的 flutter_launcher_icons](https://github.com/fluttercommunity/flutter_launcher_icons) 开发工具扩展，可以通过命令行和 pubspec.yaml 的配置生成图标。
+- [hugeicons-flutter](https://github.com/hugeicons/hugeicons-flutter) 图标库。
 - [flutter_slidable](https://github.com/letsar/flutter_slidable) 滑动单元格，类似 vant SwipeCell。
 - [flutter_swipe_action_cell](https://github.com/luckysmg/flutter_swipe_action_cell) 滑动单元格，类似 vant SwipeCell。
 - [flutter_recorder](https://github.com/alnitak/flutter_recorder) 录音库，自带 FFT，兼容多平台。
@@ -62,6 +66,7 @@ flutter logs --clear
 - [flame](https://github.com/flame-engine/flame) 游戏开发库，包括 3D、音频 等子库。
 - [marquee](https://github.com/MarcelGarus/marquee) 文字走马灯。
 - [marqueer](https://github.com/GeceGibi/marqueer) 走马灯，可以图片。
+- [flutter_3d_controller](https://github.com/m-r-davari/flutter_3d_controller) 3D 模型显示组件。
 - [cryptography](https://github.com/dint-dev/cryptography) 加密库。
 - [basic_utils](https://github.com/Ephenodrom/Dart-Basic-Utils) 基础库，比如各种密钥文件转换。
 - [flutter_blue](https://github.com/pauldemarco/flutter_blue) 低功耗蓝牙库。
@@ -72,9 +77,9 @@ flutter logs --clear
 - [print_bluetooth_thermal](https://github.com/andresperezmelo/print_bluetooth_thermal) 蓝牙打印库。
 - [flutter_esc_pos_utils](https://github.com/mjafartp/flutter_esc_pos_utils) ESC/POS 打印协议封装。
 - [tdesign](https://github.com/Tencent/tdesign-flutter) tdesign 的 flutter 版本，目前 alpha 阶段。
-- [ResponsiveFramework](https://github.com/Codelessly/ResponsiveFramework) 响应式框架，不太实用。
 - [styled_widget](https://github.com/ReinBentdal/styled_widget) 链式的组件库。
 - [flutter_form_builder](https://github.com/flutter-form-builder-ecosystem/flutter_form_builder) Form 组件库。
+- [flutter_pdfview](https://github.com/endigo/flutter_pdfview) PDF 可视化组件。
 
 ## 常见问题
 

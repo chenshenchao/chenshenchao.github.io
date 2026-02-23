@@ -9,6 +9,7 @@ Dart 出来好几年却因为没有杀手应用而一直默默无闻，直到被
 
 - [shelf](https://github.com/dart-lang/shelf) 官方提供的 Web 框架。
 - [reflectable.dart](https://github.com/google/reflectable.dart) 使用代码生成的方式来实现静态反射，解决语言自带的动态反射的一些问题。
+- [json_serializable.dart](https://github.com/google/json_serializable.dart) JSON 库。
 
 ## 常用库
 

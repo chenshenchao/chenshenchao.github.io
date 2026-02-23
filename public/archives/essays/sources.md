@@ -227,6 +227,7 @@ qwen
 - [FFmpeg-Builds](https://github.com/BtbN/FFmpeg-Builds) FFmpeg 下载。
 - [libav](https://github.com/libav/libav) FFmpeg 的分支，已经停止维护。
 - [PandaOCR](https://github.com/miaomiaosoft/PandaOCR) OCR 工具。
+- [harfbuzz](https://github.com/harfbuzz/harfbuzz) 文本形状，字体处理引擎。
 
 ### 办公软件与应用
 
@@ -243,6 +244,7 @@ qwen
 - [calculator](https://github.com/microsoft/calculator) Windows 新计算器。
 - [carbon](https://github.com/carbon-app/carbon) 代码生成高亮且美观的图片的工具。
 - [gimp](https://github.com/GNOME/gimp) 绘图软件。
+- [tikzit](github.com/tikzit/tikzit) 简单的点线绘图软件。
 
 ### 监控工具
 
@@ -320,6 +322,8 @@ qwen
 - [james-project](https://github.com/apache/james-project) Java 开发的邮箱服务器。
 - [docute](https://github.com/egoist/docute) markdown 展示成网页的站点项目。
 - [mkcert](https://github.com/FiloSottile/mkcert) 自动注册 HTTPS 证书并配置站点的服务。
+- [uacme](https://github.com/ndilieto/uacme) ACMEv2 客户端，自动注册 HTTPS 证书并配置站点的服务。
+- [boulder](https://github.com/letsencrypt/boulder) letsencrypt 的 GO 实现的 ACME 客户端，自动注册 HTTPS 证书。
 - [OmniDB](https://github.com/OmniDB/OmniDB) 网页版的数据库客户端管理工具。
 - [srs](https://github.com/ossrs/srs) 实时媒体服务器，可做直播服务器。
 
@@ -378,6 +382,8 @@ qwen
 - [BrowserQuest](https://github.com/mozilla/BrowserQuest) mozilla 开源的 2D 即时页游。
 - [BrowserQuest-PHP](https://github.com/walkor/BrowserQuest-PHP) 基于 Workerman 的 PHP 版 BrowserQuest。
 - [habitica](https://github.com/HabitRPG/habitica) web 端行为计划的游戏化角色扮演游戏。
+- [DevilutionX](https://github.com/diasurgical/DevilutionX) 暗黑破坏神。
+- [devilutionx-assets](https://github.com/diasurgical/devilutionx-assets) 暗黑破坏神，游戏资源。
 
 ### 游戏素材
 

@@ -49,17 +49,21 @@
 - [eggjs static](https://github.com/eggjs/static)
 - [pixijs](https://github.com/pixijs/pixijs) 2D webGL 游戏引擎。
 - [mdui](https://github.com/zdhxiong/mdui) 安卓 Material 3 风格的 UI 组件库。
+- [stenciljs](https://github.com/stenciljs/core) 基于 web components 的组件开发工具，微前端。
 - [lit](https://github.com/lit/lit) 基于 web components 开发组件的框架。
+- [omi](https://github.com/Tencent/omi) 腾讯开源的 web 前端组件框架。
 - [better-scroll](https://github.com/ustbhuangyi/better-scroll)
 - [textbus](https://github.com/textbus/textbus) 支持 Viewfly、Vue、React 多框架的富文本编辑器。
 - [editor.js](https://github.com/codex-team/editor.js) 富文本编辑器。
 - [tiptap](https://github.com/ueberdosis/tiptap)  富文本编辑器。
+- [wangEditor](https://github.com/wangeditor-team/wangEditor) 富文本编辑器。
 - [tui.editor](https://github.com/nhn/tui.editor) markdown 的所见即所得编辑器。
 - [canvas-editor](https://github.com/Hufe921/canvas-editor) 类似 Office Word 的一个 canvas/svg 编辑器，可以通过插件导出 svg 或 pdf 文件。
 - [wolf-table](https://github.com/wolf-table/table) 类似 Office Excel 的 canvas 编辑器。
 - [univer](https://github.com/dream-num/univer) 类 Excel、Word 电子表格组件库。
 - [diagram-maker](https://github.com/awslabs/diagram-maker) 流程图、导图等图编辑器库。
 - [ag-grid](https://github.com/ag-grid/ag-grid) 支持 React、Vue 等多框架的表格库。
+- [ky](https://github.com/sindresorhus/ky) HTTP 客户端库。
 
 ## 类型系统
 

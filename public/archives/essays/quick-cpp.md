@@ -1,4 +1,4 @@
-# [草稿]C++ 速查
+# C++ 速查
 
 - [STL](https://github.com/microsoft/STL) 微软的 STL 库源码。
 - [vscode-cpptools](https://github.com/microsoft/vscode-cpptools)
@@ -23,6 +23,10 @@
 - [libhv](https://github.com/ithewei/libhv) 多种网络协议库。
 - [Detours](https://github.com/microsoft/Detours) Windows 下监听、拦截 API 调用的库。
 - [binlog](https://github.com/morganstanley/binlog) mysql binlog 解析库。
+- [mysql-connector-cpp](https://github.com/mysql/mysql-connector-cpp) MySQL 客户端库。
+- [sqlpp11](https://github.com/rbock/sqlpp11) SQL 类型安全生成库。
+- [soci](https://github.com/SOCI/soci) 数据库访问库。
+- [ormpp](https://github.com/qicosmos/ormpp) 支持 mysql, postgresql,sqlite 的 ORM 库。
 - [CSerialPort](https://github.com/itas109/CSerialPort) 跨平台串口库。
 - [libserial](https://github.com/crayzeewulf/libserial) Linux 串口库。
 - [recastnavigation](https://github.com/recastnavigation/recastnavigation) 导航网格实现库，Unit3D、Godot 等都使用了这个库。
@@ -40,6 +44,7 @@
 - [libtorrent](https://github.com/rakshasa/libtorrent) Linux 下的  rtorrent 的 BitTorrent 库。
 - [libtorrent](https://github.com/arvidn/libtorrent) 跨平台 BitTorrent 客户端库。
 - [oneDNN](https://github.com/uxlfoundation/oneDNN) 深度神经网络库。
+- [RxCpp](https://github.com/ReactiveX/RxCpp) Rx
 
 ### 图形库
 
@@ -55,6 +60,7 @@
 - [micro-gl](https://github.com/micro-gl/micro-gl) 单头文件，不依赖标准库，矢量图库。
 - [imgui](https://github.com/ocornut/imgui)
 - [GacUI](https://github.com/vczh-libraries/GacUI) 轮子哥的UI库。
+- [mygui](https://github.com/MyGUI/mygui) UI 库。
 - [nana](https://github.com/cnjinhao/nana)
 - [bgfx](https://github.com/bkaradzic/bgfx) 支持多种平台，多种语言绑定的渲染库。
 - [fltk](https://github.com/fltk/fltk) UI 开发库。
@@ -62,6 +68,7 @@
 - [RmlUi](https://github.com/mikke89/RmlUi) 基于类 HTML + CSS 的语言结合 C++ 开发 UI 的框架。
 - [duilib](https://github.com/duilib/duilib) 基于 XML + C++ 的开发框架。 
 - [DuiLib_DuiEditor](https://github.com/xfcanyue/DuiLib_DuiEditor) DUI 的 xml 可视化编辑器。
+- [lunasvg](https://github.com/sammycage/lunasvg) SVG 库。
 
 ### boost
 

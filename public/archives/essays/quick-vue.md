@@ -9,6 +9,7 @@
 ## 常用库
 
 - [vxe-table](https://github.com/x-extends/vxe-table) 虚表格库，功能很多，有免费和付费版本。
+- [vxe-pc-ui](https://github.com/x-extends/vxe-pc-ui) 桌面端 UI 组件库。
 - [vueuse](https://vueuse.org/) vue 扩展库，主要扩展了一些钩子。
 - [ant-design-vue](https://github.com/vueComponent/ant-design-vue)
 - [tinymce-vue](https://github.com/tinymce/tinymce-vue) 富文本编辑器 TinyMCE 的 vue 封装。
@@ -27,11 +28,13 @@
 - [vue.draggable.next](https://github.com/SortableJS/vue.draggable.next) Vue3 拖拽库。
 - [vue-echarts](https://github.com/ecomfe/vue-echarts)
 - [vue-i18n](https://github.com/intlify/vue-i18n) Vue3 多语言库。
+- [vue-quilly](https://github.com/alekswebnet/vue-quilly) Vue3 + Quilly 富文本编辑器封装。
 
 ### Vue2
 
 - [element](https://github.com/ElemeFE/element) vue2 桌面 UI 库。
 - [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) vue2 基于 element 开发的后台项目。
+- [cube-ui](https://github.com/didi/cube-ui) vue2 移动端 UI 库。
 - [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable) Vue2 拖拽库。
 - [vue-i18n](https://github.com/kazupon/vue-i18n) Vue2 多语言库。
 - [mint-ui](https://github.com/ElemeFE/mint-ui) 饿了么移动端 UI ，已经多年不维护。

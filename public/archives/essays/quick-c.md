@@ -27,6 +27,7 @@
 - [zlib](https://github.com/madler/zlib) 压缩算法库。
 - [zlib-ng](https://github.com/zlib-ng/zlib-ng) 下一代 zlib 压缩算法库。
 - [minizip-ng](https://github.com/zlib-ng/minizip-ng) zip 处理库。
+- [libzip](https://github.com/nih-at/libzip) zip 文件处理库。
 - [groonga](https://github.com/groonga/groonga) 全文搜索引擎。
 - [hiredis](https://github.com/redis/hiredis) redis 客户端库。
 - [libpcap](https://github.com/the-tcpdump-group/libpcap) linux 下网络抓包库。
@@ -39,6 +40,9 @@
 - [cJSON](https://github.com/DaveGamble/cJSON)  json 序列化库。
 - [json-c](https://github.com/json-c/json-c) json 序列化库。
 - [libxo](https://github.com/Juniper/libxo) 格式化输出 文本, XML, JSON, HTML 的库，一般用于日志格式化输出。
+- [kissfft](https://github.com/mborgerding/kissfft) FFT（Fast Fourier Transform，快速傅里叶变换）库。
+- [cyrus-sasl](https://github.com/cyrusimap/cyrus-sasl)
+- [gnutls](https://github.com/gnutls/gnutls) GNU TLS 库。
 
 ### UI 图形库。
 
@@ -48,9 +52,15 @@
 - [libui-ng](https://github.com/libui-ng/libui-ng) fork libui 的 UI 图形库。
 - [raygui](https://github.com/raysan5/raygui) 设计风格比较独特的 UI 图形库。
 - [raylib](https://github.com/raysan5/raylib) 视频游戏开发库。
+- [freetype](https://github.com/freetype/freetype)
+- [otfcc](https://github.com/caryll/otfcc) 字体工具库。
+- [libpng](https://github.com/pnggroup/libpng) PNG 图片库。
 - [libjpeg-turbo](https://github.com/libjpeg-turbo/libjpeg-turbo) JPEG 图片库。
 - [mozjpeg](https://github.com/mozilla/mozjpeg) JPEG 图片库。
+- [plutovg](https://github.com/sammycage/plutovg) 2D 矢量图库。
+- [plutosvg](https://github.com/sammycage/plutosvg) SVG 库。
 - [gtk](https://github.com/GNOME/gtk)
+- [tcl](https://github.com/tcltk/tcl)
 
 ### 嵌入式相关
 

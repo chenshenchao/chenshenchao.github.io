@@ -22,6 +22,7 @@
 - [QuickType](https://app.quicktype.io/) 可以JSON 转 KotlinX 结构的网页工具
 - [AndroidAssetStudio](https://github.com/romannurik/AndroidAssetStudio) 图标生成网页工具，有一些机型有问题。
 - [icon kitchen](https://icon.kitchen/)  图标生成网页工具，AndroidAssetStudio 不维护，又推荐了这个，还支持 ios 的图标。
+- [android-backup-extractor](https://github.com/nelenkov/android-backup-extractor) 提取 adb backup 命令打包的文件。
 
 ### keytool 证书生成命令行（Java SDK 工具）
 
@@ -150,6 +151,20 @@ adb pair <ip>:<port>
 - [libadb-android](https://github.com/MuntashirAkon/libadb-android) Java 实现的直连 adbd 做类似 adb server 功能的库。
 - [adbutils](https://github.com/openatx/adbutils) 一个纯 python 实现的 adb 客户端库，用于连接 adb server。
 - [python-adb](https://github.com/google/python-adb) 一个纯 python 实现的 adb 客户端库，用于连接 adb server，已经停止维护。
+
+```bash
+# 备份所有应用（含 APK）、共享存储、系统应用
+adb backup -apk -shared -all -system -f full_backup.ab
+
+# 不包含系统应用和 APK，仅第三方应用
+adb backup -noshared -all -nosystem -f thirdparty_backup.ab
+
+# 指定应用备份
+adb backup -f app_backup.ab your.app.id
+
+# 使用备份文件恢复
+adb restore app_backup.ab
+```
 
 ### aapt(Android Asset Packaging Tool) 安卓资源包工具
 

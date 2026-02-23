@@ -6,6 +6,7 @@
 - [unbuild](https://github.com/unjs/unbuild) 构建工具
 - [fis3](https://github.com/fex-team/fis3) 类 gulp 构建工具。
 - [snowpack](https://github.com/FredKSchott/snowpack) ESM 前端构建工具。
+- [rsbuild](https://github.com/web-infra-dev/rsbuild) 基于 Rspack 的构造工具。
 
 ## nvm
 
@@ -31,6 +32,7 @@ nvm use 16
 - [oxc](https://github.com/oxc-project/oxc) rust 开发的一个高性能库，有 JS/TS 解释器、压缩等。
 - [mysql](https://github.com/mysqljs/mysql) 纯 JS MySQL 客户端。
 - [node-mysql2](https://github.com/sidorares/node-mysql2) MySQL 客户端。
+- [keyv](https://github.com/jaredwray/keyv) 键值对库，适配 valkey、sqlite、MySQL 等。
 - [pkg](https://github.com/vercel/pkg) 打包项目成可执行文件。
 - [cross-env](https://github.com/kentcdodds/cross-env) package.json scripts 命令环境变量设置。
 - [windows-build-tools](https://github.com/felixrieseberg/windows-build-tools)
@@ -61,6 +63,7 @@ nvm use 16
 - [jss](https://github.com/cssinjs/jss) css in js
 - [gulp-iconfont](https://github.com/nfroidure/gulp-iconfont) 图标字库生成 gulp 插件。
 - [falcor](https://github.com/Netflix/falcor) 用于高效提供数据的前后端工具库，支持 express web 框架。
+- [postcss-px-to-viewport](https://github.com/evrone/postcss-px-to-viewport) postcss 转设计稿 px 成 vw 插件。
 
 ### UI
 
