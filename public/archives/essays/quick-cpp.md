@@ -22,12 +22,18 @@
 - [quill](https://github.com/odygrd/quill) 异步日志库。
 - [libhv](https://github.com/ithewei/libhv) 多种网络协议库。
 - [libsourcey](https://github.com/sourcey/libsourcey) 基于 C++14 IO 事件的网络库。
+- [cpp-netlib](https://github.com/cpp-netlib/cpp-netlib) 网络库。
+- [Crow](https://github.com/CrowCpp/Crow) web 框架。
+- [oatpp](https://github.com/oatpp/oatpp) web 框架。
+- [oatpp-swagger](https://github.com/oatpp/oatpp-swagger) atpp openAPI 文档实现。
+- [drogon](https://github.com/drogonframework/drogon) web 框架。
 - [Detours](https://github.com/microsoft/Detours) Windows 下监听、拦截 API 调用的库。
 - [binlog](https://github.com/morganstanley/binlog) mysql binlog 解析库。
 - [mysql-connector-cpp](https://github.com/mysql/mysql-connector-cpp) MySQL 客户端库。
 - [sqlpp11](https://github.com/rbock/sqlpp11) SQL 类型安全生成库。
 - [soci](https://github.com/SOCI/soci) 数据库访问库。
 - [ormpp](https://github.com/qicosmos/ormpp) 支持 mysql, postgresql,sqlite 的 ORM 库。
+- [sqlite_orm](https://github.com/fnc12/sqlite_orm) 头文件库，支付 50$ 可使用。
 - [CSerialPort](https://github.com/itas109/CSerialPort) 跨平台串口库。
 - [libserial](https://github.com/crayzeewulf/libserial) Linux 串口库。
 - [recastnavigation](https://github.com/recastnavigation/recastnavigation) 导航网格实现库，Unit3D、Godot 等都使用了这个库。
@@ -49,6 +55,10 @@
 - [Catch2](https://github.com/catchorg/Catch2) 单元测试框架。
 - [cppzmq](https://github.com/zeromq/cppzmq) ZeroMQ 实现。
 - [libzmq](https://github.com/zeromq/libzmq) ZeroMQ 实现。
+- [sml](https://github.com/qlibs/sml) 状态机库。
+- [escposprinter](https://github.com/cranties/escposprinter) ESC/POS 打印机命令库。
+- [fruit](https://github.com/google/fruit) 依赖注入库。
+- [cppjieba](https://github.com/yanyiwu/cppjieba) jieba 中文分词。
 
 ### 图形库
 
@@ -78,8 +88,12 @@
 
 ### boost
 
+- [boost](https://github.com/boostorg/boost)
 - [asio](https://github.com/boostorg/asio) 异步IO模块
 - [beast](https://github.com/boostorg/beast) HTTP 服务器。
+- [sml](https://github.com/boost-ext/sml) 状态机库。
+- [di](https://github.com/boost-ext/di) 依赖注入库。
+- [yap](https://github.com/boostorg/yap) 表达式库，通过占位符结合原生C++表达式可生成新函数。
 
 ## 包管理与构造工具
 

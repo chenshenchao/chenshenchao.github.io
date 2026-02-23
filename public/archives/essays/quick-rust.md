@@ -342,6 +342,7 @@ fi
 - [ritual](https://github.com/rust-qt/ritual) 封装一些 C++ 库成 rust 库，主要封装 Qt。
 - [gluon](https://github.com/gluon-lang/gluon) 可内嵌小型编程语言 gluon 到项目里。
 - [rlua](https://github.com/mlua-rs/rlua) 可内嵌小型编程语言 lua 到项目里。
+- [rust-psutil](https://github.com/rust-psutil/rust-psutil) 进程系统监控库。
 
 ### UI 库
 
@@ -394,6 +395,8 @@ fi
 - [redb](https://github.com/cberner/redb) 可内嵌的键值对数据库。
 - [tantivy](https://github.com/quickwit-oss/tantivy) 可内嵌的全文搜索库。
 - [rucene](https://github.com/zhihu/rucene) 倒排索引库。
+- [wickdb](https://github.com/Fullstop000/wickdb) LSM-Tree 存储引擎。
+- [leveldb-rs](https://github.com/dermesser/leveldb-rs) rust 实现的 leveldb 键值对存储。
 - [polars](https://github.com/pola-rs/polars) 基于数据帧的查询引擎，提供 rust、python 库。
 - [walrus](https://github.com/nubskr/walrus) 分布式流日志引擎库，日志指的WAL，可用来做队列服务，内置有分布式服务项目 distributed-walrus。
 

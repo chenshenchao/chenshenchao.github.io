@@ -44,6 +44,8 @@
 - [do](https://github.com/samber/do) 依赖注入库。
 - [mimetype](https://github.com/gabriel-vasile/mimetype) 通过文件头部来判断文件 MIME 类型。
 - [filetype](https://github.com/h2non/filetype) 通过文件头部来判断文件类型。
+- [gopsutil](https://github.com/shirou/gopsutil) 进程系统监控库。
+- [packr](https://github.com/gobuffalo/packr) go 低版本没有 embed 时，需要这个库来嵌入文件。
 
 ### Web 框架
 

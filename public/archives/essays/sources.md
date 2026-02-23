@@ -278,13 +278,15 @@ qwen
 - [qdrant](https://github.com/qdrant/qdrant) 向量数据库（rust 语言），开放给多种语言使用，主要支持 python 的封装。
 - [lancedb](https://github.com/lancedb/lancedb) 支持向量和全文索引数据库（rust 语言），主要支持 python 的封装。
 - [vectordb](https://github.com/epsilla-cloud/vectordb) 向量数据库（C++ 语言），主要支持 python 的封装。
+- [rethinkdb](https://github.com/rethinkdb/rethinkdb) 文档数据库。
 - [ElasticSearch](https://github.com/elastic/elasticsearch) 全文索引数据库（Java 语言）。
 - [zincsearch](https://github.com/zincsearch/zincsearch) 类 ElasticSearch 全文索引数据库（GO 语言）。
 - [sonic](https://github.com/valeriansaliou/sonic) 全文搜索数据库。
 - [meilisearch](https://github.com/meilisearch/meilisearch) 全文搜索数据库。
 - [manticoresearch](https://github.com/manticoresoftware/manticoresearch) 类 ElasticSearch 全文索引数据库（C 语言）。
 - [Toshi](https://github.com/toshi-search/Toshi) 全文搜索引擎。
-- [quickwit](https://github.com/quickwit-oss/quickwit) 全文搜索引擎。
+- [quickwit](https://github.com/quickwit-oss/quickwit) 全文搜索引擎，开发了 tantivy 库。
+- [lnx](https://github.com/lnx-search/lnx) 基于 tantivy 的全文搜索引擎。
 - [yugabyte-db](https://github.com/yugabyte/yugabyte-db) 兼容 PostgreSQL 的分布式数据库。
 - [questdb](https://github.com/questdb/questdb) 时序数据库（rust 语言），支持多语言客户端。
 - [rustfs](https://github.com/rustfs/rustfs) rust 实现的高性能分布式对象存储。
@@ -327,6 +329,7 @@ qwen
 - [boulder](https://github.com/letsencrypt/boulder) letsencrypt 的 GO 实现的 ACME 客户端，自动注册 HTTPS 证书。
 - [OmniDB](https://github.com/OmniDB/OmniDB) 网页版的数据库客户端管理工具。
 - [srs](https://github.com/ossrs/srs) 实时媒体服务器，可做直播服务器。
+- [distribution](https://github.com/distribution/distribution) docker 等容器镜像仓库服务。
 
 ### 硬件设计工具
 
@@ -350,6 +353,7 @@ qwen
 - [openocd(Open On-Chip Debugger)](https://github.com/openocd-org/openocd) 嵌入式调试器。
 - [brlcad](https://github.com/BRL-CAD/brlcad) 安装后桌面多出3个图标，打开后没看懂是干嘛的。
 - [sunxi-tools](https://github.com/linux-sunxi/sunxi-tools) Sunxi 工具库。
+- [image2cpp](https://github.com/javl/image2cpp) 基于 web 端开发的一个把图片转成C++代码，用于 OLED 等显示设备。
 
 
 ### 硬件项目

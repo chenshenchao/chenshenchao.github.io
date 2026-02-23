@@ -87,6 +87,8 @@ npx create-expo-app
 - [react-keep-alive](https://github.com/StructureBuilder/react-keep-alive) 实现类 vue 的 keepalive，多年没维护。
 - [react-freeze](https://github.com/software-mansion/react-freeze) 冻结子组件树的渲染，类 vue keepalive 。
 - [xyflow](https://github.com/xyflow/xyflow) 流程图组件库。
+- [echarts-for-react](https://github.com/hustcc/echarts-for-react) echarts 图表库的 react 封装。
+- [TanStack react-charts](https://github.com/TanStack/react-charts) TanStack 的图表库 react 封装，已经停止维护。
 
 ### react native 相关库
 
