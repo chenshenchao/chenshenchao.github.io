@@ -43,6 +43,12 @@
 - [kissfft](https://github.com/mborgerding/kissfft) FFT（Fast Fourier Transform，快速傅里叶变换）库。
 - [cyrus-sasl](https://github.com/cyrusimap/cyrus-sasl)
 - [gnutls](https://github.com/gnutls/gnutls) GNU TLS 库。
+- [libsodium](https://github.com/jedisct1/libsodium) 加密算法库。
+- [shine](https://github.com/toots/shine) MP3 库，支持 前端 JS/WASM 和 安卓 的封装。
+- [minimp3](https://github.com/lieff/minimp3) 单头文件的 MP3 库。
+- [opus](https://github.com/xiph/opus) opus 音频库。
+- [nodejs http-parser](https://github.com/nodejs/http-parser) 的 HTTP 报文解析器。
+- [libuv](https://github.com/libuv/libuv) 跨平台异步IO库。
 
 ### UI 图形库。
 

@@ -41,6 +41,7 @@
 - [jest](https://github.com/jestjs/jest) 单元测试框架。
 - [fabric.js](https://github.com/fabricjs/fabric.js) SVG 绘制到 canvas 里。
 - [tsx](https://github.com/privatenumber/tsx) package.json scripts 里执行 ts 脚本的命令工具。
+- [ts-transformer-keys](https://github.com/kimamula/ts-transformer-keys) 获取类型键名的库。
 
 ### web
 

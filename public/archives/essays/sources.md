@@ -152,7 +152,8 @@ qwen
 - [vscode](https://github.com/microsoft/vscode)
 - [Zed](https://zed.dev/) rust 开发，打开很快，可以取代 Notepad++ 。
 - [NotepadNext](https://github.com/dail8859/NotepadNext) Notepad++ 重新实现版。
-- [lapce](https://github.com/lapce/lapce) rust 开发
+- [lapce](https://github.com/lapce/lapce) rust 开发的代码编辑器。
+- [valin](https://github.com/marc2332/valin) rust 开发的代码编辑器。
 - [LiteXL](https://github.com/lite-xl/lite-xl) 打开稍快于 VSCode 但功能又弱之。
 - [VisualMASM](https://github.com/ThomasJaeger/VisualMASM) MASM IDE
 - [thonny](https://github.com/thonny/thonny) 嵌入式 python IDE ，主要 树莓派、ESP 的开发。

@@ -41,6 +41,7 @@
 - [vue-property-decorator](https://github.com/kaorun343/vue-property-decorator) 早期给组建了类的装饰器，现在这种设计几乎不用了。
 - [smeditor](https://github.com/GeekPark/smeditor) 基于 Vue.js 2.0+ 石墨文档样式的富文本编辑器组件。
 - [v-charts](https://github.com/ElemeFE/v-charts) vue2 + echarts 封装。
+- [rx-ts vue](https://github.com/rx-ts/vue) 基于 rx 开发的几个 Vue2 包集合（vue-{qrcode,qrious,resizor}）
 
 ## Options API 和 Composition API
 

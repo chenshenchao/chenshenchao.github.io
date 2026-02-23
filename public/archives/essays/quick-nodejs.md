@@ -40,6 +40,7 @@ nvm use 16
 - [svg-captcha](https://github.com/produck/svg-captcha) SVG 验证码生成库。
 - [lowdb](https://github.com/typicode/lowdb) 可内嵌的 JSON 数据库。
 - [nedb](https://github.com/louischatriot/nedb) 可内嵌的文档数据库。
+- [quicktype](https://github.com/glideapps/quicktype) 从 JSON, Schema, 和 GraphQL 生成指定语言的数据结构代码。 
 
 ### Web
 

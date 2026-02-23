@@ -21,6 +21,7 @@
 - [tesseract](https://github.com/tesseract-ocr/tesseract) OCR 库。
 - [quill](https://github.com/odygrd/quill) 异步日志库。
 - [libhv](https://github.com/ithewei/libhv) 多种网络协议库。
+- [libsourcey](https://github.com/sourcey/libsourcey) 基于 C++14 IO 事件的网络库。
 - [Detours](https://github.com/microsoft/Detours) Windows 下监听、拦截 API 调用的库。
 - [binlog](https://github.com/morganstanley/binlog) mysql binlog 解析库。
 - [mysql-connector-cpp](https://github.com/mysql/mysql-connector-cpp) MySQL 客户端库。
@@ -45,6 +46,9 @@
 - [libtorrent](https://github.com/arvidn/libtorrent) 跨平台 BitTorrent 客户端库。
 - [oneDNN](https://github.com/uxlfoundation/oneDNN) 深度神经网络库。
 - [RxCpp](https://github.com/ReactiveX/RxCpp) Rx
+- [Catch2](https://github.com/catchorg/Catch2) 单元测试框架。
+- [cppzmq](https://github.com/zeromq/cppzmq) ZeroMQ 实现。
+- [libzmq](https://github.com/zeromq/libzmq) ZeroMQ 实现。
 
 ### 图形库
 
@@ -68,7 +72,9 @@
 - [RmlUi](https://github.com/mikke89/RmlUi) 基于类 HTML + CSS 的语言结合 C++ 开发 UI 的框架。
 - [duilib](https://github.com/duilib/duilib) 基于 XML + C++ 的开发框架。 
 - [DuiLib_DuiEditor](https://github.com/xfcanyue/DuiLib_DuiEditor) DUI 的 xml 可视化编辑器。
+- [nanogui](https://github.com/wjakob/nanogui) OpenGL 的 UI 库。
 - [lunasvg](https://github.com/sammycage/lunasvg) SVG 库。
+- [lodepng](https://github.com/lvandeve/lodepng) PNG 库。
 
 ### boost
 

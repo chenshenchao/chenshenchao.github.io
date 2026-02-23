@@ -351,6 +351,7 @@ fi
 - [kas](https://github.com/kas-gui/kas)
 - [druid](https://github.com/linebender/druid)
 - [orbtk](https://github.com/redox-os/orbtk)
+- [vizia](https://github.com/vizia/vizia) 声明式 UI 库。
 - [freya](https://github.com/marc2332/freya) 依赖 dioxus 做的扩展。
 - [gpui](https://www.gpui.rs/) Zed 编辑器团队开发的框架，源码在[zed 仓库](https://github.com/zed-industries/zed)里。
 - [gpui-component](https://github.com/longbridge/gpui-component) 基于 GPUI 的控件库。
@@ -358,8 +359,10 @@ fi
 - [web-view](https://github.com/Boscop/web-view) 绑定 webview 用于开发桌面应用的库。
 - [gosub-engine](https://github.com/gosub-io/gosub-engine) 浏览器引擎，可嵌入应用。
 - [tiny-skia](https://github.com/linebender/tiny-skia) skia 子集，只使用 CPU ，性能差，兼容好。
+- [rust-skia](https://github.com/rust-skia/rust-skia) skia 绑定封装库。
 - [azul](https://github.com/fschutt/azul) 目前尚不可用。
 - [amethyst](https://github.com/amethyst/amethyst) 游戏引擎，已废弃。
+- [rfd](https://github.com/PolyMeilex/rfd) 跨平台原生系统文件弹窗API封装库。
 
 ### web 开发框架和库
 
@@ -373,6 +376,7 @@ fi
 - [salvo](https://github.com/salvo-rs/salvo) 简易 web 框架。
 - [wasmer](https://github.com/wasmerio/wasmer) wasm 运行时。
 - [Rocket](https://github.com/rwf2/Rocket) web 框架。
+- [zmq.rs](https://github.com/zeromq/zmq.rs) ZeroMQ 的实现。
 
 ### 数据库
 
@@ -390,6 +394,7 @@ fi
 - [redb](https://github.com/cberner/redb) 可内嵌的键值对数据库。
 - [tantivy](https://github.com/quickwit-oss/tantivy) 可内嵌的全文搜索库。
 - [rucene](https://github.com/zhihu/rucene) 倒排索引库。
+- [polars](https://github.com/pola-rs/polars) 基于数据帧的查询引擎，提供 rust、python 库。
 - [walrus](https://github.com/nubskr/walrus) 分布式流日志引擎库，日志指的WAL，可用来做队列服务，内置有分布式服务项目 distributed-walrus。
 
 ### 底层扩展
@@ -397,6 +402,7 @@ fi
 - [grmtools](https://github.com/softdevteam/grmtools) 支持 bison 与 flex 的 *.l 和 *.y 文法的构建工具。
 - [PyO3](https://github.com/PyO3/pyo3) 开发 Python 库。
 - [iced](https://github.com/icedland/iced) x86 的汇编器、反汇编器等功能的库，支持多种语言。
+- [embassy](https://github.com/embassy-rs/embassy) 支持异步的嵌入式框架。
 - [probe-rs](https://github.com/probe-rs/probe-rs) ARM、RISC-V 调试工具开发库。
 - [rtic(Real-Time Interrupt-driven Concurrency)](https://github.com/rtic-rs/rtic) ARM Cortex-M 系列 MCU 的实时中断驱动协程框架。 
 - [ch32-rs](https://github.com/ch32-rs/ch32-rs) 第三方 WCH 沁恒 MCU 的 rust 开发包。
@@ -407,11 +413,14 @@ fi
 - [usb-device](https://github.com/rust-embedded-community/usb-device) USB MCU 驱动开发库。
 - [usbd-serial](https://github.com/rust-embedded-community/usbd-serial) USB 上位机 驱动开发库。
 - [stm32-usbd](https://github.com/stm32-rs/stm32-usbd) USB STM32 驱动开发库。
+- [tock](https://github.com/tock/tock) 嵌入式操作系统。
 - [pc-keyboard](https://github.com/rust-embedded-community/pc-keyboard) PS/2 键值解析。
 - [bootloader](https://github.com/rust-osdev/bootloader) x86 引导程序。
 - [bootimage](https://github.com/rust-osdev/bootimage) 生成操作系统镜像工具。
 - [may](https://github.com/Xudong-Huang/may) 协程库。
 - [wasm-pack](https://github.com/drager/wasm-pack) 打包 rust 成 wasm 给 nodejs 或浏览器使用的工具。
+- [android-activity](https://github.com/rust-mobile/android-activity) GLUE 绑定来开发安卓应用的库。
+- [cargo-apk](https://github.com/rust-mobile/cargo-apk) 打包 apk 工具。
 
 ## 兼容
 

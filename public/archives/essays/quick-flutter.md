@@ -41,6 +41,7 @@ flutter logs --clear
 
 ## 常用库
 
+- [bitsdojo_window](https://github.com/bitsdojo/bitsdojo_window) 桌面端窗口自定义样式。
 - [auto_route_library](https://github.com/Milad-Akarie/auto_route_library) 路由库。
 - [flutter-tflite](https://github.com/tensorflow/flutter-tflite) Tensorflow lite 的 Flutter 封装。
 - [onnxruntime_flutter](https://github.com/gtbluesky/onnxruntime_flutter) onnx 运行时。
@@ -80,6 +81,8 @@ flutter logs --clear
 - [styled_widget](https://github.com/ReinBentdal/styled_widget) 链式的组件库。
 - [flutter_form_builder](https://github.com/flutter-form-builder-ecosystem/flutter_form_builder) Form 组件库。
 - [flutter_pdfview](https://github.com/endigo/flutter_pdfview) PDF 可视化组件。
+- [flutter_hooks](https://github.com/rrousselGit/flutter_hooks) 仿 React Hooks 的 flutter 库，StatefulWidget 改用其 HookWidget 后 可以使用 use* 开头的各种 hook 开发，代码量可以少很多。
+- [bruno](https://github.com/LianjiaTech/bruno) 统一设计风格的 UI 组件库。
 
 ## 常见问题
 

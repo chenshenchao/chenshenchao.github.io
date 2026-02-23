@@ -16,13 +16,16 @@
 - [GSYRecordWave](https://github.com/CarGuo/GSYRecordWave) MP3音频录制库。
 - [anko](https://github.com/Kotlin/anko) 多工具库。
 - [QMUI_Android](https://github.com/Tencent/QMUI_Android)
+- [leakcanary](https://github.com/square/leakcanary) 内存泄露分析库
 
 ## 开发工具
 
+- [Apktool](https://github.com/iBotPeaches/Apktool) 逆向 apk 工具。
 - [QuickType](https://app.quicktype.io/) 可以JSON 转 KotlinX 结构的网页工具
 - [AndroidAssetStudio](https://github.com/romannurik/AndroidAssetStudio) 图标生成网页工具，有一些机型有问题。
 - [icon kitchen](https://icon.kitchen/)  图标生成网页工具，AndroidAssetStudio 不维护，又推荐了这个，还支持 ios 的图标。
 - [android-backup-extractor](https://github.com/nelenkov/android-backup-extractor) 提取 adb backup 命令打包的文件。
+- [ffmpeg-android-maker](https://github.com/Javernaut/ffmpeg-android-maker) 编译安卓可用 ffmpeg *.so 文件的脚本项目。
 
 ### keytool 证书生成命令行（Java SDK 工具）
 

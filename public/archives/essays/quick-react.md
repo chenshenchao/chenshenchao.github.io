@@ -90,6 +90,7 @@ npx create-expo-app
 
 ### react native 相关库
 
+- [hermes](https://github.com/facebook/hermes) 为 React Native 优化的 JS 引擎。
 - [react-native-screens](https://github.com/software-mansion/react-native-screens) 将原生导航容器组件引入 React Native
 
 ### react-router

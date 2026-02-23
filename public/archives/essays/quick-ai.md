@@ -98,6 +98,7 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [ControlNet](https://github.com/lllyasviel/ControlNet) 通过参考图控制图片的生成的模型。
 - [bark](https://github.com/suno-ai/bark) 文本生成音频。
 - [roop](https://github.com/s0md3v/roop) 换脸。
+- [CLIP](https://github.com/openai/CLIP) 输出文本描述输入图片的模型。
 - [whisper-web](https://github.com/xenova/whisper-web) TTS 模型，预训练模型中文支持很差。
 - [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
 - [LAVIS](https://github.com/salesforce/LAVIS) 多个图片、视频与文本的视觉模型整合库。

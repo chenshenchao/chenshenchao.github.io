@@ -16,6 +16,9 @@
 - [riot](https://github.com/go-ego/riot) 可内嵌的全文搜索数据库。
 - [urfave/cli](https://github.com/urfave/cli) 命令行参数分析库。
 - [cobra](https://github.com/spf13/cobra) 命令行开发框架。
+- [go-flags](https://github.com/jessevdk/go-flags) 命令行参数分析库。
+- [kingpin](https://github.com/alecthomas/kingpin) 命令行参数分析库。
+- [kong](https://github.com/alecthomas/kong) 命令行参数分析库。
 - [pgx](https://github.com/jackc/pgx) PostgreSQL 客户端库。
 - [golang-migrate](https://github.com/golang-migrate/migrate) 数据库迁移命令行工具与库。
 - [go-faker](https://github.com/go-faker/faker) 生成调试开发数据的库。
@@ -36,6 +39,11 @@
 - [captcha](https://github.com/dchest/captcha) 验证码。
 - [base64Captcha](https://github.com/mojocn/base64Captcha) base64 字符串格式的验证码。
 - [otto](https://github.com/robertkrimen/otto) 可内嵌的 JS 解释器。
+- [mo](https://github.com/samber/mo) 函数式的算子库。
+- [lo](https://github.com/samber/lo) 链式库。
+- [do](https://github.com/samber/do) 依赖注入库。
+- [mimetype](https://github.com/gabriel-vasile/mimetype) 通过文件头部来判断文件 MIME 类型。
+- [filetype](https://github.com/h2non/filetype) 通过文件头部来判断文件类型。
 
 ### Web 框架
 
@@ -53,6 +61,7 @@
 - [go-admin](https://github.com/go-admin-team/go-admin) Gin + Vue + Element UI & Arco Design & Ant Design 的管理系统脚手架，后端项目。
 - [go-admin-ui](https://github.com/go-admin-team/go-admin-ui) go-admin 的前端。
 - [goa](https://github.com/goadesign/goa) 通过 design.go（类 protobuf 的 *.proto 文件） 文件生成架构代码的 web 框架。
+- [zmq4](https://github.com/pebbe/zmq4) ZeroMQ 实现。
 
 ### UI 库
 
