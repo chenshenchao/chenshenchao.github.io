@@ -281,6 +281,7 @@ qwen
 - [rethinkdb](https://github.com/rethinkdb/rethinkdb) 文档数据库。
 - [ElasticSearch](https://github.com/elastic/elasticsearch) 全文索引数据库（Java 语言）。
 - [zincsearch](https://github.com/zincsearch/zincsearch) 类 ElasticSearch 全文索引数据库（GO 语言）。
+- [gofound](https://github.com/sea-team/gofound) 全文索引数据库（GO 语言），HTTP 接口，有管理后台面板。
 - [sonic](https://github.com/valeriansaliou/sonic) 全文搜索数据库。
 - [meilisearch](https://github.com/meilisearch/meilisearch) 全文搜索数据库。
 - [manticoresearch](https://github.com/manticoresoftware/manticoresearch) 类 ElasticSearch 全文索引数据库（C 语言）。
@@ -329,6 +330,7 @@ qwen
 - [boulder](https://github.com/letsencrypt/boulder) letsencrypt 的 GO 实现的 ACME 客户端，自动注册 HTTPS 证书。
 - [OmniDB](https://github.com/OmniDB/OmniDB) 网页版的数据库客户端管理工具。
 - [srs](https://github.com/ossrs/srs) 实时媒体服务器，可做直播服务器。
+- [packer](https://github.com/hashicorp/packer) docker 等容器镜像构建工具。
 - [distribution](https://github.com/distribution/distribution) docker 等容器镜像仓库服务。
 
 ### 硬件设计工具
@@ -373,12 +375,14 @@ qwen
 - [Minecraft](https://github.com/fogleman/Minecraft) 基于 python pyglet 开发的简易 我的世界 。
 - [Microverse](https://github.com/KsanaDock/Microverse) Godot 上帝视 2D 角沙盒游戏。
 - [jynew](https://github.com/jynew/jynew) 金庸群侠传3D重置。
+- [JourneyClient](https://github.com/SYJourney/JourneyClient) LibreMaple-Client 的前身。
 - [LibreMaple-Client](https://github.com/YohananTzeviyah/LibreMaple-Client) 冒险岛客户端复刻。
 - [LibreMaple-Client](https://github.com/Libre-Maple/LibreMaple-Client) 冒险岛客户端复刻。
 - [MapleSolaxiaV2](https://github.com/Libre-Maple/MapleSolaxiaV2) 冒险岛服务端复刻。
 - [MapleStory](https://github.com/ellermister/MapleStory) 冒险岛服务端复刻（对应客户端是二进制修改的官方客户端，没有源码）。
 - [WzComparerR2](https://github.com/Kagamia/WzComparerR2) 冒险岛资源提取器。
 - [Harepacker-resurrected](https://github.com/lastbattle/Harepacker-resurrected) 冒险岛 *.wz 资源提取器。
+- [NoLifeNx](https://github.com/NoLifeDev/NoLifeNx) Nx 文件提取库。
 - [MapleStory-GM-Client](https://github.com/Elem8100/MapleStory-GM-Client) 离线冒险岛客户端模拟器。（Delphi）
 - [MapleNecrocer](https://github.com/Elem8100/MapleNecrocer) 离线冒险岛客户端模拟器。（C#）
 - [MapleServer2](https://github.com/AlanMorel/MapleServer2) 冒险岛2 服务端复刻，仅用于教学。

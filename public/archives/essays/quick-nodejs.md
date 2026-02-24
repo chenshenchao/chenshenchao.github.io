@@ -7,6 +7,7 @@
 - [fis3](https://github.com/fex-team/fis3) 类 gulp 构建工具。
 - [snowpack](https://github.com/FredKSchott/snowpack) ESM 前端构建工具。
 - [rsbuild](https://github.com/web-infra-dev/rsbuild) 基于 Rspack 的构造工具。
+- [swc](https://github.com/swc-project/swc) Speedy Web Compiler 支持 TS/JS 的编译。
 
 ## nvm
 

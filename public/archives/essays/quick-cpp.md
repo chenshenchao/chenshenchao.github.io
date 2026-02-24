@@ -59,6 +59,8 @@
 - [escposprinter](https://github.com/cranties/escposprinter) ESC/POS 打印机命令库。
 - [fruit](https://github.com/google/fruit) 依赖注入库。
 - [cppjieba](https://github.com/yanyiwu/cppjieba) jieba 中文分词。
+- [sentencepiece](https://github.com/google/sentencepiece) 谷歌开源的基于神经网络的分词器，支持 C++ 和 python 两种语言的库。
+- [faker-cxx](https://github.com/cieslarmichal/faker-cxx) 生成调试数据。
 
 ### 图形库
 
@@ -71,6 +73,7 @@
 - [cef](https://github.com/chromiumembedded/cef) Chromium Embedded Framework 源码。
 - [spire-engine](https://github.com/spire-engine/spire-engine) 3D 游戏引擎。
 - [GuiLite](https://github.com/idea4good/GuiLite)
+- [GuiLiteSamples](https://github.com/idea4good/GuiLiteSamples) GuiLite 示例。
 - [micro-gl](https://github.com/micro-gl/micro-gl) 单头文件，不依赖标准库，矢量图库。
 - [imgui](https://github.com/ocornut/imgui)
 - [GacUI](https://github.com/vczh-libraries/GacUI) 轮子哥的UI库。

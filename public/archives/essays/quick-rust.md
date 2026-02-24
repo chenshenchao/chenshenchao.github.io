@@ -343,6 +343,9 @@ fi
 - [gluon](https://github.com/gluon-lang/gluon) 可内嵌小型编程语言 gluon 到项目里。
 - [rlua](https://github.com/mlua-rs/rlua) 可内嵌小型编程语言 lua 到项目里。
 - [rust-psutil](https://github.com/rust-psutil/rust-psutil) 进程系统监控库。
+- [jieba-rs](https://github.com/messense/jieba-rs) jieba 中文分词。
+- [etcd-client](https://github.com/etcdv3/etcd-client) etcd 客户端。
+- [jsonwebtoken](https://github.com/Keats/jsonwebtoken) JWT 库。
 
 ### UI 库
 
@@ -350,10 +353,12 @@ fi
 - [egui](https://github.com/emilk/egui)
 - [Relm4](https://github.com/Relm4/Relm4)
 - [kas](https://github.com/kas-gui/kas)
-- [druid](https://github.com/linebender/druid)
+- [xilem](https://github.com/linebender/xilem) 实验性的桌面 UI 框架。
+- [druid](https://github.com/linebender/druid) 桌面 UI 框架。
 - [orbtk](https://github.com/redox-os/orbtk)
 - [vizia](https://github.com/vizia/vizia) 声明式 UI 库。
-- [freya](https://github.com/marc2332/freya) 依赖 dioxus 做的扩展。
+- [dioxus](https://github.com/DioxusLabs/dioxus) 全栈框架，React 风格 rsx 界面开发。
+- [freya](https://github.com/marc2332/freya) 基于 skia 渲染，链式风格。
 - [gpui](https://www.gpui.rs/) Zed 编辑器团队开发的框架，源码在[zed 仓库](https://github.com/zed-industries/zed)里。
 - [gpui-component](https://github.com/longbridge/gpui-component) 基于 GPUI 的控件库。
 - [bevy](https://github.com/bevyengine/bevy) 数据驱动的游戏引擎。

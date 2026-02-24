@@ -38,6 +38,7 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 
 ### 常见包或框架
 
+- [zendframework](https://github.com/zendframework/zendframework) 维护 PHP 的 Zend 公司开发的框架，已多年不维护。
 - [PHP-DI](https://github.com/PHP-DI/PHP-DI) 依赖注入库。
 - [FastRoute](https://github.com/nikic/FastRoute) 路由库。
 - [WordPress](https://github.com/WordPress/WordPress)

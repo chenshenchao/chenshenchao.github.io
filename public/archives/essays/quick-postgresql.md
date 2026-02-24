@@ -1,7 +1,11 @@
-# [草稿]Postgres 速查
+# [草稿]PostgreSQL 速查
 
-[pgAdmin](https://www.pgadmin.org/) 客户端管理工具
-[下载 Windows 版本](https://www.postgresql.org/download/windows/) 有些编译用到 libpq.lib 和 libpq.dll 库。
+- [pgAdmin](https://www.pgadmin.org/) 客户端管理工具
+- [下载 Windows 版本](https://www.postgresql.org/download/windows/) 有些编译用到 libpq.lib 和 libpq.dll 库。
+
+## 插件
+
+- [pg_jieba](https://github.com/jaiminpan/pg_jieba) jieba 中文分词插件。
 
 ## 命令
 

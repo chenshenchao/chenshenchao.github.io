@@ -5,3 +5,12 @@
 这点和数学语言很像，只有 +、=、*、/ 时非常好用，之后的越来越多各种 ∫、∑ 奇怪的符号就会使得记忆困难。
 
 - [ghcup-hs](https://github.com/haskell/ghcup-hs)
+
+## 常用库
+
+- [persistent](https://github.com/yesodweb/persistent) 持久化封装库,支持多种数据库
+- [hasql](https://github.com/nikita-volkov/hasql) 基于 libpq 的 PostgreSQL 客户端驱动
+- [mysql-haskell](https://github.com/winterland1989/mysql-haskell) 纯 Haskell 的 Mysql 客户端驱动。
+- [mysql-simple](https://github.com/paul-rouse/mysql-simple) 绑定 mysqlclient。
+- [sqlite-simple](https://github.com/nurpax/sqlite-simple) 绑定 sqlite。
+- [hdbc](https://github.com/hdbc/hdbc) 类 JDBC 的 haskell 实现。
