@@ -375,10 +375,12 @@ qwen
 - [Minecraft](https://github.com/fogleman/Minecraft) 基于 python pyglet 开发的简易 我的世界 。
 - [Microverse](https://github.com/KsanaDock/Microverse) Godot 上帝视 2D 角沙盒游戏。
 - [jynew](https://github.com/jynew/jynew) 金庸群侠传3D重置。
+- [MapleStoryCopy](https://github.com/ZeromaXHe/MapleStoryCopy) 冒险岛 Godot 复刻。
 - [JourneyClient](https://github.com/SYJourney/JourneyClient) LibreMaple-Client 的前身。
 - [LibreMaple-Client](https://github.com/YohananTzeviyah/LibreMaple-Client) 冒险岛客户端复刻。
 - [LibreMaple-Client](https://github.com/Libre-Maple/LibreMaple-Client) 冒险岛客户端复刻。
 - [MapleSolaxiaV2](https://github.com/Libre-Maple/MapleSolaxiaV2) 冒险岛服务端复刻。
+- [ms079](https://github.com/mrzhqiang/ms079) 冒险岛 v079
 - [MapleStory](https://github.com/ellermister/MapleStory) 冒险岛服务端复刻（对应客户端是二进制修改的官方客户端，没有源码）。
 - [WzComparerR2](https://github.com/Kagamia/WzComparerR2) 冒险岛资源提取器。
 - [Harepacker-resurrected](https://github.com/lastbattle/Harepacker-resurrected) 冒险岛 *.wz 资源提取器。

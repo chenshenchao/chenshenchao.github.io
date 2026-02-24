@@ -26,6 +26,8 @@
 - [icon kitchen](https://icon.kitchen/)  图标生成网页工具，AndroidAssetStudio 不维护，又推荐了这个，还支持 ios 的图标。
 - [android-backup-extractor](https://github.com/nelenkov/android-backup-extractor) 提取 adb backup 命令打包的文件。
 - [ffmpeg-android-maker](https://github.com/Javernaut/ffmpeg-android-maker) 编译安卓可用 ffmpeg *.so 文件的脚本项目。
+- [scrcpy](https://github.com/Genymobile/scrcpy) 命令行工具，远程控制安卓设备。
+- [QtScrcpy](https://github.com/barry-ran/QtScrcpy) 远程控制安卓设备。
 
 ### keytool 证书生成命令行（Java SDK 工具）
 

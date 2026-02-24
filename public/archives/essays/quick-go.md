@@ -6,6 +6,7 @@
 
 ## 常用库
 
+- [golang-set](https://github.com/deckarep/golang-set) set 类型实现。
 - [logrus](https://github.com/sirupsen/logrus) 结构化的日志库。
 - [zerolog](https://github.com/rs/zerolog) JSON 日志。
 - [pie](https://github.com/elliotchance/pie) 切片(slice) 和 字典(map) 功能扩展库。

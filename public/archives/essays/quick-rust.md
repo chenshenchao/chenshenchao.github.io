@@ -299,6 +299,7 @@ fi
 
 ## 常用库
 
+- [thiserror](https://github.com/dtolnay/thiserror)
 - [smol](https://github.com/smol-rs/smol) 异步运行时。
 - [async-compat](https://github.com/smol-rs/async-compat) tokio 兼容 futures 的库。
 - [tokio](https://github.com/tokio-rs/tokio) 异步运行时。
@@ -349,6 +350,8 @@ fi
 
 ### UI 库
 
+- [wgpu](https://github.com/gfx-rs/wgpu) 跨平台纯 rust 的图形API。
+- [vello](https://github.com/linebender/vello) 2D 渲染库，基于 wgpu。
 - [iced](https://github.com/iced-rs/iced)
 - [egui](https://github.com/emilk/egui)
 - [Relm4](https://github.com/Relm4/Relm4)
@@ -372,7 +375,8 @@ fi
 
 ### web 开发框架和库
 
-- [actix-web](https://github.com/actix/actix-web) 基于 actix 的 web 框架，扩展库 [actix-extras](https://github.com/actix/actix-extras)
+- [actix-web](https://github.com/actix/actix-web) 基于 actix 的 web 框架。
+- [actix-extras](https://github.com/actix/actix-extras) actix 扩展库。
 - [tuono](https://github.com/tuono-labs/tuono) 用 rust 实现了 NextJs 的框架，只能使用 pages 模式，目录在 routes 目录下，好处是后端代码由 TS 换成了 rust 这样比较容易分辨前后端代码，NextJs 前后端代码都是 TS。
 - [axum](https://github.com/tokio-rs/axum) tokio 团队的 web 框架。
 - [yew](https://github.com/yewstack/yew) rust 写前端页面，亮点是生成 WASM ，缺点是设计比较早，虽然在仿 react ，但没 react 简洁。

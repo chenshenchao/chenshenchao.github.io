@@ -8,9 +8,17 @@
 
 ## 常用库
 
+- [wai](https://github.com/yesodweb/wai) web 框架。
+
+### 数据库
+
+- [beam](https://github.com/haskell-beam/beam) 类型安全的 SQL 库
 - [persistent](https://github.com/yesodweb/persistent) 持久化封装库,支持多种数据库
+- [orville](https://github.com/flipstone/orville) 一个 ORM
 - [hasql](https://github.com/nikita-volkov/hasql) 基于 libpq 的 PostgreSQL 客户端驱动
 - [mysql-haskell](https://github.com/winterland1989/mysql-haskell) 纯 Haskell 的 Mysql 客户端驱动。
+- [beam-mysql](https://github.com/tathougies/beam-mysql)
+- [mysql](https://github.com/paul-rouse/mysql) 绑定 mysqlclient。
 - [mysql-simple](https://github.com/paul-rouse/mysql-simple) 绑定 mysqlclient。
 - [sqlite-simple](https://github.com/nurpax/sqlite-simple) 绑定 sqlite。
 - [hdbc](https://github.com/hdbc/hdbc) 类 JDBC 的 haskell 实现。
