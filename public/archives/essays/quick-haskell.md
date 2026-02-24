@@ -9,6 +9,7 @@
 ## 常用库
 
 - [wai](https://github.com/yesodweb/wai) web 框架。
+- [json-to-haskell](https://github.com/ChrisPenner/json-to-haskell) JSON 库。
 
 ### 数据库
 

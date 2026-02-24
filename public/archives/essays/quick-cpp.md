@@ -5,6 +5,7 @@
 
 ## 常用库
 
+- [folly](https://github.com/facebook/folly) facebook 开源工具库。
 - [opencv](https://github.com/opencv/opencv)
 - [faiss](https://github.com/facebookresearch/faiss) 扁平索引实现库。
 - [hnswlib](https://github.com/nmslib/hnswlib) HNSW 实现库，支持 C++ 和 Python 语言。
@@ -25,6 +26,7 @@
 - [cpp-netlib](https://github.com/cpp-netlib/cpp-netlib) 网络库。
 - [Crow](https://github.com/CrowCpp/Crow) web 框架。
 - [oatpp](https://github.com/oatpp/oatpp) web 框架。
+- [Simple-Web-Server](https://github.com/eidheim/Simple-Web-Server) web 服务器，基于 boost asio。
 - [oatpp-swagger](https://github.com/oatpp/oatpp-swagger) atpp openAPI 文档实现。
 - [drogon](https://github.com/drogonframework/drogon) web 框架。
 - [Detours](https://github.com/microsoft/Detours) Windows 下监听、拦截 API 调用的库。
