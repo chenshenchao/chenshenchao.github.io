@@ -15,6 +15,7 @@
 - [lucenenet](https://github.com/apache/lucenenet) Lucene 的 .Net 版本，倒排索引库。
 - [elfsharp](https://github.com/konrad-kruczynski/elfsharp) ELF 库。
 - [MySqlCdc](https://github.com/rusuly/MySqlCdc) MySQL binlog 客户端。
+- [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis) Redis 客户端。
 - [SQLiteCodeFirst](https://github.com/msallin/SQLiteCodeFirst)
 - [ILPack](https://github.com/Lokad/ILPack) .NET Core IL 生成器。
 - [GtkSharp](https://github.com/GtkSharp/GtkSharp) GTK 封装。

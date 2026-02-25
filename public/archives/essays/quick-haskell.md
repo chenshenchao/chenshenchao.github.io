@@ -8,8 +8,24 @@
 
 ## 常用库
 
-- [wai](https://github.com/yesodweb/wai) web 框架。
+- [Shelly.hs](https://github.com/gregwebs/Shelly.hs) 命令行工具开发库。
 - [json-to-haskell](https://github.com/ChrisPenner/json-to-haskell) JSON 库。
+- [logging-effect](https://github.com/ocharles/logging-effect) 日志库。
+- [LambdaHack](https://github.com/LambdaHack/LambdaHack) roguelike 游戏引擎。
+- [lens](https://github.com/ekmett/lens) 算子库。
+
+### Web
+
+- [ihp](https://github.com/digitallyinduced/ihp) 提供类 JSX 的 HSX 的 web 框架。
+- [wai](https://github.com/yesodweb/wai) web 框架。
+- [scotty](https://github.com/scotty-web/scotty) 基于 WAI 和 Warp 的 web 框架。
+- [yesod](https://github.com/yesodweb/yesod) 基于 WAI 的 web 框架。
+- [okapi](https://github.com/monadicsystems/okapi) web 框架。
+- [Spock](https://github.com/agrafix/Spock) web 框架。
+- [servant](https://github.com/haskell-servant/servant) web 框架。
+- [hakyll](https://github.com/jaspervdj/hakyll) 静态站点的编译库。
+- [websockets](https://github.com/jaspervdj/websockets)
+- [Haxl](https://github.com/facebook/Haxl) HTTP 客户端库，并发、缓存等功能比较多。
 
 ### 数据库
 
@@ -23,3 +39,9 @@
 - [mysql-simple](https://github.com/paul-rouse/mysql-simple) 绑定 mysqlclient。
 - [sqlite-simple](https://github.com/nurpax/sqlite-simple) 绑定 sqlite。
 - [hdbc](https://github.com/hdbc/hdbc) 类 JDBC 的 haskell 实现。
+
+## 项目
+
+- [Allure](https://github.com/AllureOfTheStars/Allure) 命令行 roguelike 游戏。
+- [hledger](https://github.com/simonmichael/hledger) 会计工具。
+- [unison](https://github.com/unisonweb/unison) Haskell 开发的一个类 Haskell 函数式语言。

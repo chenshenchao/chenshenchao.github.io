@@ -35,6 +35,7 @@
 - [gopsutil](https://github.com/shirou/gopsutil) 进程系统监控库。
 - [packr](https://github.com/gobuffalo/packr) go 低版本没有 embed 时，需要这个库来嵌入文件。
 - [jiebago](https://github.com/wangbin/jiebago) jieba 中文分词。
+- [mahonia](https://github.com/axgle/mahonia) 字符集转换库。
 
 ### 数据库
 
@@ -53,6 +54,7 @@
 - [sqlite](https://github.com/go-gorm/sqlite) Sqlite GORM 驱动，有 c 代码编译要求 c 编译环境（Windows 下装 tdm-gcc）。
 - [sqlx](https://github.com/jmoiron/sqlx) 扩展标准库 database/sql 的三方库。
 - [go-mysql](https://github.com/go-mysql-org/go-mysql) 纯 Go 实现的 MySQL 客户端，支持binlog做数据迁移。
+- [go-linq](https://github.com/ahmetb/go-linq) 链式 SQL 拼接，远达不到 C# 的 LINQ 程度，没有改变 GO 语法。
 - [go-redis](https://github.com/redis/go-redis) redis 客户端。
 - [redigo](https://github.com/gomodule/redigo) redis 客户端。
 - [go-duckdb](https://github.com/marcboeker/go-duckdb) database/sql 的 duckDB 引擎。

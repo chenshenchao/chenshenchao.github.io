@@ -25,6 +25,8 @@
 - [java-faker](https://github.com/DiUS/java-faker) 生成调试数据的库。
 - [datafaker](https://github.com/datafaker-net/datafaker) 生成调试数据的库。
 - [instancio](https://github.com/instancio/instancio) 生成数据的库，用于单元测试。
+- [jedis](https://github.com/redis/jedis) redis 客户端库。
+- [redisson](https://github.com/redisson/redisson) redis 客户端库。
 
 ## 开发环境与包管理工具
 

@@ -49,6 +49,7 @@
 - [opus](https://github.com/xiph/opus) opus 音频库。
 - [nodejs http-parser](https://github.com/nodejs/http-parser) 的 HTTP 报文解析器。
 - [libuv](https://github.com/libuv/libuv) 跨平台异步IO库。
+- [cryptlib](https://github.com/cryptlib/cryptlib) TLS 等安全工具库。
 
 ### UI 图形库。
 

@@ -1,5 +1,11 @@
 # Redis 速查
 
+- [redis 源码](https://github.com/redis/redis)
+- [valkey](https://github.com/valkey-io/valkey) redis 分裂的社区项目。
+- [garnet](https://github.com/microsoft/garnet) 微软用 .NET 开发的兼容 Redis 的键值对数据库。
+- [dragonfly](https://github.com/dragonflydb/dragonfly) 兼容 Redis 的键值对数据库。
+- [Windows 下的 redis](https://github.com/tporadowski/redis) 第三方提供的 redis ，版本相对滞后。
+
 ## 配置
 
 

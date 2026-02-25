@@ -22,6 +22,7 @@ php -S 0.0.0.0:80
 - [xdebug](https://github.com/xdebug/xdebug)
 - [php-ext-xlswriter](https://github.com/viest/php-ext-xlswriter) XLSX 工具库。
 - [cphalcon](https://github.com/phalcon/cphalcon) 全栈框架。
+- [phpredis](https://github.com/phpredis/phpredis) redis 客户端。
 
 ## Composer
 
