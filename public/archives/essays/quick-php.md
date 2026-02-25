@@ -49,6 +49,7 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [symfony](https://github.com/symfony/symfony) Web 框架，拆分出很多基础库，ThinkPHP 大量复用它的基础库。
 - [symfony/dotenv](https://github.com/symfony/dotenv) symfony 环境变量库。
 - [CodeIgniter](https://github.com/bcit-ci/CodeIgniter) Web 框架
+- [CodeIgniter4](https://github.com/codeigniter4/CodeIgniter4) Web 框架
 - [tntsearch](https://github.com/teamtnt/tntsearch) 倒排索引库。
 - [workerman](https://github.com/walkor/workerman)
 - [thinkphp](https://github.com/top-think/framework) Web 框架，很多基础库复用 symfony 的，国内大量专用框架由其扩展而来。
@@ -68,6 +69,7 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [lexer](https://github.com/doctrine/lexer) doctrine 的词法器库。
 - [cache](https://github.com/doctrine/cache) doctrine 的缓存库。
 - [monolog](https://github.com/Seldaek/monolog) 日志库。
+- [simplexls](https://github.com/shuchkin/simplexls) excel xls 文件处理库。
 - [PhpSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet) excel 处理库。
 - [psalm](https://github.com/vimeo/psalm) 静态分析工具，可以分析出函数参数类型错误等问题。
 - [Sylius](https://github.com/Sylius/Sylius) 电商项目。

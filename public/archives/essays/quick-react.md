@@ -337,6 +337,8 @@ function YourComponent() {
 
 ## React Native 原生 APP
 
+- [React Native 源码](https://github.com/facebook/react-native)
+
 官网文档使用 expo 。
 
 ```bash

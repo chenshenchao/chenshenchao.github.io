@@ -296,9 +296,13 @@ fi
 ## 官方库
 
 - [futures](https://github.com/rust-lang/futures-rs) 异步支持库。
+- [failure](https://github.com/rust-lang-deprecated/failure) 已废弃，改用 thiserror
+- [rustc_codegen_cranelift](https://github.com/rust-lang/rustc_codegen_cranelift) rustc 替换 cranelift 编译器后端以缩短编译事件。
+- [miri](https://github.com/rust-lang/miri) rust 中间表示 解释器。
 
 ## 常用库
 
+- [serde](https://github.com/serde-rs/serde) 序列化库。
 - [thiserror](https://github.com/dtolnay/thiserror)
 - [smol](https://github.com/smol-rs/smol) 异步运行时。
 - [async-compat](https://github.com/smol-rs/async-compat) tokio 兼容 futures 的库。
@@ -309,8 +313,10 @@ fi
 - [hyper](https://github.com/hyperium/hyper)  HTTP 客户端。
 - [reqwest](https://github.com/seanmonstar/reqwest) HTTP 客户端。
 - [RustCrypto](https://github.com/RustCrypto) 加密库集合。
+- [RustCrypto MACs](https://github.com/RustCrypto/MACs) MAC 算法库。
 - [curve25519-dalek](https://github.com/dalek-cryptography/curve25519-dalek) curve25519 加密库。
 - [hex](https://github.com/KokaKiwi/rust-hex) 十六进制转换库。
+- [base64](https://github.com/marshallpierce/rust-base64) base64 库。
 - [tracing](https://github.com/tokio-rs/tracing) tokio 团队开发的跟踪诊断库集合。
 - [if-addrs](https://github.com/messense/if-addrs) 本地网络地址。
 - [lazy_static](https://github.com/rust-lang-nursery/lazy-static.rs) 懒加载，因为标准库已经有 LazyLock 所以基本不用了。
@@ -323,7 +329,6 @@ fi
 - [image](https://github.com/image-rs/image) 图片处理库。
 - [ico](https://github.com/mdsteele/rust-ico) ico 图标处理库。
 - [resvg](https://github.com/linebender/resvg) svg 库。
-- [hex](https://github.com/KokaKiwi/rust-hex)
 - [rand](https://github.com/rust-random/rand) 随机数生成库。
 - [bigdecimal-rs](https://github.com/akubera/bigdecimal-rs) 大十进制数库。
 - [rayon](https://github.com/rayon-rs/rayon) 数据并行处理库。
@@ -339,6 +344,7 @@ fi
 - [fast-socks5](https://github.com/dizda/fast-socks5) socks 协议实现库。
 - [rlt](https://github.com/wfxr/rlt) 多种协议的压力测试工具开发库。
 - [clap](https://github.com/clap-rs/clap) 命令行命令开发库。
+- [anstyle](https://github.com/rust-cli/anstyle) ANSI 文字样式（命令行颜色）
 - [rxRust](https://github.com/rxRust/rxRust) rx
 - [ritual](https://github.com/rust-qt/ritual) 封装一些 C++ 库成 rust 库，主要封装 Qt。
 - [gluon](https://github.com/gluon-lang/gluon) 可内嵌小型编程语言 gluon 到项目里。
@@ -347,6 +353,9 @@ fi
 - [jieba-rs](https://github.com/messense/jieba-rs) jieba 中文分词。
 - [etcd-client](https://github.com/etcdv3/etcd-client) etcd 客户端。
 - [jsonwebtoken](https://github.com/Keats/jsonwebtoken) JWT 库。
+- [env_logger](https://github.com/rust-cli/env_logger) 日志库。
+- [async-trait](https://github.com/dtolnay/async-trait) 解决有异步方法的 trait 不能支持 dyn trait 的问题。 
+- [apalis](https://github.com/apalis-dev/apalis) 后台进程库。
 
 ### UI 库
 
@@ -377,6 +386,9 @@ fi
 
 - [actix-web](https://github.com/actix/actix-web) 基于 actix 的 web 框架。
 - [actix-extras](https://github.com/actix/actix-extras) actix 扩展库。
+- [tracing-actix-web](https://github.com/LukeMathWalker/tracing-actix-web) actix-web 结构化日志。
+- [actix-taskqueue](https://github.com/huytd/actix-taskqueue) actix 任务队列库。
+- [warp](https://github.com/seanmonstar/warp) web 框架。
 - [tuono](https://github.com/tuono-labs/tuono) 用 rust 实现了 NextJs 的框架，只能使用 pages 模式，目录在 routes 目录下，好处是后端代码由 TS 换成了 rust 这样比较容易分辨前后端代码，NextJs 前后端代码都是 TS。
 - [axum](https://github.com/tokio-rs/axum) tokio 团队的 web 框架。
 - [yew](https://github.com/yewstack/yew) rust 写前端页面，亮点是生成 WASM ，缺点是设计比较早，虽然在仿 react ，但没 react 简洁。
@@ -387,6 +399,7 @@ fi
 - [wasmer](https://github.com/wasmerio/wasmer) wasm 运行时。
 - [Rocket](https://github.com/rwf2/Rocket) web 框架。
 - [zmq.rs](https://github.com/zeromq/zmq.rs) ZeroMQ 的实现。
+- [pingora](https://github.com/cloudflare/pingora) 网络库，反向代理等功能。
 
 ### 数据库
 

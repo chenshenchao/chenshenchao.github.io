@@ -49,6 +49,7 @@ flutter logs --clear
 - [image](https://github.com/brendan-duncan/image) 图片处理库。
 - [floor](https://github.com/pinchbv/floor) 类型安全的 SQLite 封装。
 - [bloc](https://github.com/felangel/bloc) 状态管理库，拆分成多个库，按需引入，支持 持久化(hydrated_bloc)，回放(replay_bloc) 等功能。
+- [riverpod](https://github.com/rrousselGit/riverpod) 状态管理库
 - [async_redux](https://github.com/marcglasberg/async_redux) 状态管理库
 - [flutter_screenutil](https://github.com/OpenFlutter/flutter_screenutil) 类似 web 前端 vw vh 按屏幕等比缩放，适合移动端应用。
 - [ResponsiveFramework](https://github.com/Codelessly/ResponsiveFramework) 类似 web 前端的多媒体，响应适配不同尺寸的屏幕，适合桌面应用。
@@ -83,6 +84,7 @@ flutter logs --clear
 - [flutter_pdfview](https://github.com/endigo/flutter_pdfview) PDF 可视化组件。
 - [flutter_hooks](https://github.com/rrousselGit/flutter_hooks) 仿 React Hooks 的 flutter 库，StatefulWidget 改用其 HookWidget 后 可以使用 use* 开头的各种 hook 开发，代码量可以少很多。
 - [bruno](https://github.com/LianjiaTech/bruno) 统一设计风格的 UI 组件库。
+- [flutter-webview-windows](https://github.com/jnschulze/flutter-webview-windows) Windows 下封装 WebView2 的库。
 
 ## 常见问题
 

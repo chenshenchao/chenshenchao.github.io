@@ -6,6 +6,10 @@
 桌面用基于 swing 的 UI 框架；安卓用 compose ；IOS 用基于 ViewUI 的框架等。
 后来推出了 SharedUI 统一使用安卓的 compose 组件为基础去适配所有平台。
 
+### 常用库
+
+- [lazytable](https://github.com/oleksandrbalan/lazytable) 惰性加载表格组件。
+
 
 ## Jetpack Compose
 

@@ -61,6 +61,7 @@
 - [raylib](https://github.com/raysan5/raylib) 视频游戏开发库。
 - [freetype](https://github.com/freetype/freetype)
 - [otfcc](https://github.com/caryll/otfcc) 字体工具库。
+- [libgd](https://github.com/libgd/libgd) GD 图形库。
 - [libpng](https://github.com/pnggroup/libpng) PNG 图片库。
 - [libjpeg-turbo](https://github.com/libjpeg-turbo/libjpeg-turbo) JPEG 图片库。
 - [mozjpeg](https://github.com/mozilla/mozjpeg) JPEG 图片库。

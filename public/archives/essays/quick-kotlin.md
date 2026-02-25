@@ -9,4 +9,4 @@
 ## 常用库
 
 - [klaxon](https://github.com/cbeust/klaxon) JSON 库。
-
+- [kotlin-faker](https://github.com/serpro69/kotlin-faker)

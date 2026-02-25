@@ -6,3 +6,4 @@
 - [Arduino_DebugUtils](https://github.com/arduino-libraries/Arduino_DebugUtils) printf 风格调试库。
 - [WiFi](https://github.com/arduino-libraries/WiFi)
 - [Adafruit_NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel) WS2812 库。
+- [ArduinoJson](https://github.com/bblanchon/ArduinoJson) JSON 库。

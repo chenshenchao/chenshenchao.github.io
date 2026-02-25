@@ -150,8 +150,10 @@ qwen
 ### 编辑器与IDE
 
 - [vscode](https://github.com/microsoft/vscode)
-- [Zed](https://zed.dev/) rust 开发，打开很快，可以取代 Notepad++ 。
+- [Zed](https://zed.dev/) rust 开发，打开很快，可以取代 Notepad++。[源码](https://github.com/zed-industries/zed)
 - [NotepadNext](https://github.com/dail8859/NotepadNext) Notepad++ 重新实现版。
+- [Notepad3](https://github.com/rizonesoft/Notepad3)
+- [notepad4](https://github.com/zufuliu/notepad4)
 - [lapce](https://github.com/lapce/lapce) rust 开发的代码编辑器。
 - [valin](https://github.com/marc2332/valin) rust 开发的代码编辑器。
 - [LiteXL](https://github.com/lite-xl/lite-xl) 打开稍快于 VSCode 但功能又弱之。
@@ -260,6 +262,7 @@ qwen
 ### 代理、远程工具
 
 - [tun2proxy](https://github.com/tun2proxy/tun2proxy) socks 代理
+- [clash-rs](https://github.com/Watfaq/clash-rs) clash 的 rust 复刻版。
 - [Clash-for-Windows_Chinese](https://github.com/Z-Siqi/Clash-for-Windows_Chinese) clash 中文汉化版
 - [v2rayNG](https://github.com/2dust/v2rayNG) 安卓
 - [v2rayN](https://github.com/2dust/v2rayN) 桌面
@@ -387,6 +390,7 @@ qwen
 - [NoLifeNx](https://github.com/NoLifeDev/NoLifeNx) Nx 文件提取库。
 - [MapleStory-GM-Client](https://github.com/Elem8100/MapleStory-GM-Client) 离线冒险岛客户端模拟器。（Delphi）
 - [MapleNecrocer](https://github.com/Elem8100/MapleNecrocer) 离线冒险岛客户端模拟器。（C#）
+- [WzComparerR2-Plus](https://github.com/Elem8100/WzComparerR2-Plus) 冒险岛 *.wz 资源提取器和清单。
 - [MapleServer2](https://github.com/AlanMorel/MapleServer2) 冒险岛2 服务端复刻，仅用于教学。
 - [tiled](https://github.com/mapeditor/tiled) 2D 瓦片地图编辑器。
 - [piskel](https://github.com/piskelapp/piskel) 基于 web 的像素素材编辑器。
