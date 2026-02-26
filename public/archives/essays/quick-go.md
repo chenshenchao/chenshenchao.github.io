@@ -6,7 +6,9 @@
 
 ## 常用库
 
+- [testify](https://github.com/stretchr/testify) 测试库。
 - [golang-set](https://github.com/deckarep/golang-set) set 类型实现。
+- [zap](https://github.com/uber-go/zap) 日志库。
 - [logrus](https://github.com/sirupsen/logrus) 结构化的日志库。
 - [zerolog](https://github.com/rs/zerolog) JSON 日志。
 - [pie](https://github.com/elliotchance/pie) 切片(slice) 和 字典(map) 功能扩展库。
@@ -42,6 +44,8 @@
 
 ### 数据库
 
+- [ent](https://github.com/ent/ent) 类 C# 的 EF 的框架。
+- [entimport](https://github.com/ariga/entimport) 第三方提供 ent 的工具，已经多年不维护。
 - [pgx](https://github.com/jackc/pgx) PostgreSQL 客户端库。
 - [golang-migrate](https://github.com/golang-migrate/migrate) 数据库迁移命令行工具与库。
 - [goleveldb](https://github.com/syndtr/goleveldb) 可内嵌的键值对数据库。

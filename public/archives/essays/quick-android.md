@@ -23,6 +23,8 @@
 - [TRTC_Android](https://github.com/Tencent-RTC/TRTC_Android)
 - [AndroidAudioConverter](https://github.com/adrielcafe/AndroidAudioConverter) 音频转换库。
 - [VideoProcessor](https://github.com/yellowcath/VideoProcessor) 基于 MediaCodec 的视频处理库。
+- [Compressor](https://github.com/zetbaitsu/Compressor) 图片压缩库。
+- [Luban](https://github.com/Curzibn/Luban) 图片压缩库。
 
 ## 开发工具
 

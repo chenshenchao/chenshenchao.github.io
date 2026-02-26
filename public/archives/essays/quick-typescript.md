@@ -43,6 +43,7 @@
 - [tsx](https://github.com/privatenumber/tsx) package.json scripts 里执行 ts 脚本的命令工具。
 - [ts-transformer-keys](https://github.com/kimamula/ts-transformer-keys) 获取类型键名的库。
 - [class-validator](https://github.com/typestack/class-validator) 基于类定义的验证器库。
+- [image-in-browser](https://github.com/yegor-pelykh/image-in-browser) 浏览器端可用的图片处理库。
 
 ### web
 

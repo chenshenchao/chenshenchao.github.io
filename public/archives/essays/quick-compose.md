@@ -13,6 +13,8 @@
 - [lazytable](https://github.com/oleksandrbalan/lazytable) 惰性加载表格组件。
 - [compose-webview-multiplatform](https://github.com/KevinnZou/compose-webview-multiplatform) 谷歌废弃安卓端的 WebView 封装，由第三方分叉，此库就是该作者发布了的跨平台版本。
 - [okio](https://github.com/square/okio) IO 库。
+- [compose-multiplatform-file-picker](https://github.com/Wavesonics/compose-multiplatform-file-picker) 文件选择器。
+- [PreCompose](https://github.com/Tlaster/PreCompose) 导航和状态管理库。
 
 ## Jetpack Compose
 

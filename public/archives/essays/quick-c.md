@@ -18,9 +18,6 @@
 - [unqlite](https://github.com/symisc/unqlite) 键值对型数据库实现。
 - [libxml2](https://github.com/GNOME/libxml2) xml 库。
 - [libexpat](https://github.com/libexpat/libexpat) xml 库。
-- [msquic](https://github.com/microsoft/msquic) 微软的 QUIC 实现库。
-- [zpl](https://github.com/zpl-c/zpl) 工具集合库。
-- [enet](https://github.com/zpl-c/enet) UDP 框架。
 - [sqlcipher](https://github.com/sqlcipher/sqlcipher) fork SQLite 加入了数据库文件 256bit AES 加密。
 - [lz4](https://github.com/lz4/lz4) 压缩算法库。
 - [zstd](https://github.com/facebook/zstd) 压缩算法库。
@@ -30,8 +27,6 @@
 - [libzip](https://github.com/nih-at/libzip) zip 文件处理库。
 - [groonga](https://github.com/groonga/groonga) 全文搜索引擎。
 - [hiredis](https://github.com/redis/hiredis) redis 客户端库。
-- [libpcap](https://github.com/the-tcpdump-group/libpcap) linux 下网络抓包库。
-- [npcap](https://github.com/nmap/npcap) Windows 下网络抓包库。
 - [lemon](https://github.com/lemon-lang/lemon) 可内嵌的小型编程语言 lemon。
 - [mupdf](https://github.com/ArtifexSoftware/mupdf) PDF 库。
 - [pdfio](https://github.com/michaelrsweet/pdfio) PDF 库。
@@ -42,15 +37,24 @@
 - [json-c](https://github.com/json-c/json-c) json 序列化库。
 - [libxo](https://github.com/Juniper/libxo) 格式化输出 文本, XML, JSON, HTML 的库，一般用于日志格式化输出。
 - [kissfft](https://github.com/mborgerding/kissfft) FFT（Fast Fourier Transform，快速傅里叶变换）库。
-- [cyrus-sasl](https://github.com/cyrusimap/cyrus-sasl)
-- [gnutls](https://github.com/gnutls/gnutls) GNU TLS 库。
 - [libsodium](https://github.com/jedisct1/libsodium) 加密算法库。
 - [shine](https://github.com/toots/shine) MP3 库，支持 前端 JS/WASM 和 安卓 的封装。
 - [minimp3](https://github.com/lieff/minimp3) 单头文件的 MP3 库。
 - [opus](https://github.com/xiph/opus) opus 音频库。
+
+### 网络
+
+- [uSockets](https://github.com/uNetworking/uSockets) web 框架。
+- [msquic](https://github.com/microsoft/msquic) 微软的 QUIC 实现库。
+- [zpl](https://github.com/zpl-c/zpl) 工具集合库。
+- [enet](https://github.com/zpl-c/enet) UDP 框架。
+- [libpcap](https://github.com/the-tcpdump-group/libpcap) linux 下网络抓包库。
+- [npcap](https://github.com/nmap/npcap) Windows 下网络抓包库。
 - [nodejs http-parser](https://github.com/nodejs/http-parser) 的 HTTP 报文解析器。
 - [libuv](https://github.com/libuv/libuv) 跨平台异步IO库。
 - [cryptlib](https://github.com/cryptlib/cryptlib) TLS 等安全工具库。
+- [cyrus-sasl](https://github.com/cyrusimap/cyrus-sasl)
+- [gnutls](https://github.com/gnutls/gnutls) GNU TLS 库。
 
 ### UI 图形库。
 

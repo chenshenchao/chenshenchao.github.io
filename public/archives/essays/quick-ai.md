@@ -7,6 +7,7 @@
 
 - [modular](https://github.com/modular/modular) mojo 语言的框架。
 - [pytorch](https://github.com/pytorch/pytorch) 脸书的框架，目前主流。
+- [captum](https://github.com/meta-pytorch/captum) pytorch 模型归因分析库。
 - [tensorflow](https://github.com/tensorflow/tensorflow) 谷歌的框架，早期主流。
 - [Paddle](https://github.com/PaddlePaddle/Paddle) 百度的框架，中文名“飞桨”。
 - [Paddle Lite](https://github.com/PaddlePaddle/Paddle-Lite.git) 百度飞桨（轻量版），只能用于推理，优化了推理。

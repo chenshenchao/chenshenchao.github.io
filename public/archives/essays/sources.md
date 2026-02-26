@@ -146,6 +146,7 @@ qwen
 - [Pencil](https://github.com/evolus/pencil) 开源 原型设计 软件。
 - [penpot](https://github.com/penpot/penpot) 开源 UI 设计 软件。
 - [DrawIO](https://github.com/jgraph/drawio-desktop) 流程图、架构图、导图软件。
+- [drawio-libs](https://github.com/jgraph/drawio-libs) drawio 的库。
 - [DrawDB](https://github.com/drawdb-io/drawdb) 数据库设计图形工具。
 
 ### 编辑器与IDE
@@ -233,6 +234,8 @@ qwen
 - [PandaOCR](https://github.com/miaomiaosoft/PandaOCR) OCR 工具。
 - [harfbuzz](https://github.com/harfbuzz/harfbuzz) 文本形状，字体处理引擎。
 - [mkspiffs](https://github.com/igrr/mkspiffs) 解析 SPIFFS 工具。
+- [bifrost](https://github.com/ClessLi/bifrost) nginx 配置文件处理工具。
+- [dprint](https://github.com/dprint/dprint) rust 开发的跨平台的代码格式化命令行工具。
 
 ### 办公软件与应用
 

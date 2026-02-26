@@ -91,6 +91,8 @@
 - [slick](https://github.com/kenwheeler/slick) 基于 jQuery 的轮播组件库。
 - [prism](https://github.com/PrismJS/prism) 语法高亮库。
 - [highlight.js](https://github.com/highlightjs/highlight.js) 语法高亮库。
+- [marked](https://github.com/markedjs/marked) markedown 转 HTML 库。
+- [marked-highlight](https://github.com/markedjs/marked-highlight) marked 语法高亮扩展。
 
 ### Web
 
@@ -116,6 +118,7 @@
 - [qrcodejs](https://github.com/davidshimjs/qrcodejs) 二维码生成库。
 - [glisp](https://github.com/baku89/glisp) 基于 lisp 语言做绘图编辑器。
 - [ws](https://github.com/websockets/ws) WebSocket 封装库，支持客户端和 NodeJS 服务端。
+- [js-cookie](https://github.com/js-cookie/js-cookie) cookie 库。
 
 ## jsx
 

@@ -1,7 +1,7 @@
 # nodejs 速查
 
 - [nvm](https://github.com/nvm-sh/nvm)
-- [nvm-windows](https://github.com/coreybutler/nvm-windows)
+- [nvm-windows](https://github.com/coreybutler/nvm-windows) Go 语言开发的 nvm 的 Windows 版本。
 - [farm](https://github.com/farm-fe/farm) rust 开发的兼容 vite 的构建工具。
 - [unbuild](https://github.com/unjs/unbuild) 构建工具
 - [fis3](https://github.com/fex-team/fis3) 类 gulp 构建工具。
@@ -42,10 +42,14 @@ nvm use 16
 - [lowdb](https://github.com/typicode/lowdb) 可内嵌的 JSON 数据库。
 - [nedb](https://github.com/louischatriot/nedb) 可内嵌的文档数据库。
 - [quicktype](https://github.com/glideapps/quicktype) 从 JSON, Schema, 和 GraphQL 生成指定语言的数据结构代码。 
+- [ssh2](https://github.com/mscdex/ssh2) SSH2 客户端库。
+- [cache-manager](https://github.com/nestjs/cache-manager) 缓存库。
+- [node-cache-manager-redis-store](https://github.com/dabroek/node-cache-manager-redis-store) cache-manager 使用 redis 客户端。
+- [git-js](https://github.com/steveukx/git-js) git 命令封装。
 
 ### Web
 
-- [socket.io](https://github.com/socketio/socket.io) 服务器端。
+- [socket.io](https://github.com/socketio/socket.io) 服务器端以及浏览器端。
 - [loopback](https://github.com/strongloop/loopback) web 框架，工具齐全。
 - [fastify](https://github.com/fastify/fastify) web 服务器。
 - [Gracejs](https://github.com/xiongwilee/Gracejs) 基于 koa2 的框架，设计不太好。
@@ -77,6 +81,7 @@ nvm use 16
 - [nw.js](https://github.com/nwjs/nw.js) 桌面应用开发框架。
 - [open-color](https://github.com/yeun/open-color) 颜色设计样式库，因为 tailwindcss 也有这个库也就没啥意义。
 - [webgradients](https://github.com/itmeo/webgradients) 好看的 web 端渐变色样式集合。
+- [normalize.css](https://github.com/necolas/normalize.css) 统一不同浏览器的基础样式，主要是清除样式。
 - [mui](https://github.com/dcloudio/mui) DCloud 早期的项目，后转向 uniapp。
 
 ## 包管理器

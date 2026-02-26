@@ -29,6 +29,8 @@
 - [jedis](https://github.com/redis/jedis) redis 客户端库。
 - [redisson](https://github.com/redisson/redisson) redis 客户端库。
 - [jSerialComm](https://github.com/Fazecast/jSerialComm) 串口库。
+- [mina](https://github.com/apache/mina) Apache 开源的一个 Web 框架。
+- [retrofit](https://github.com/square/retrofit) 类型安全的 HTTP 客户端。
 
 ## 开发环境与包管理工具
 

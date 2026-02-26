@@ -57,6 +57,7 @@
 
 ### 网络
 
+- [uWebSockets](https://github.com/uNetworking/uWebSockets) web 库，支持 websocket。
 - [libhv](https://github.com/ithewei/libhv) 多种网络协议库。
 - [drogon](https://github.com/drogonframework/drogon) web 框架。
 - [paozhu](https://github.com/hggq/paozhu) 内置 ORM、HTTP 客户端、websocket 的 Web 框架。

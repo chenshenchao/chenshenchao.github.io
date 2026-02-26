@@ -451,6 +451,7 @@ fi
 - [android-activity](https://github.com/rust-mobile/android-activity) GLUE 绑定来开发安卓应用的库。
 - [cargo-apk](https://github.com/rust-mobile/cargo-apk) 打包 apk 工具。
 - [pgrx](https://github.com/pgcentralfoundation/pgrx) PostgreSQL 扩展开发工具。
+- [ngx-rust](https://github.com/nginx/ngx-rust) nginx 模块开发库。
 
 ## 兼容
 

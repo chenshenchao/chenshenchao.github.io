@@ -31,6 +31,10 @@
 - [vue-i18n](https://github.com/intlify/vue-i18n) Vue3 多语言库。
 - [vue-quilly](https://github.com/alekswebnet/vue-quilly) Vue3 + Quilly 富文本编辑器封装。
 
+#### 项目
+
+- [vue-manage-system](https://github.com/lin-xin/vue-manage-system) Vue3 + pinia + ElementPlus 管理后台项目。
+
 ### Vue2
 
 - [element](https://github.com/ElemeFE/element) vue2 桌面 UI 库。
