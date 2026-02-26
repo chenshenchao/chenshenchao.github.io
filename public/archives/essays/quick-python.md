@@ -28,6 +28,7 @@ python -m http.server 8000
 - [pyttsx3](https://github.com/nateshmbhat/pyttsx3) TTS 库。
 - [mcp sdk](https://github.com/modelcontextprotocol/python-sdk) MCP 官方发布的客户端 SDK 库。
 - [numba](https://github.com/numba/numba) NumPy 动态编译。
+- [llvmlite](https://github.com/numba/llvmlite) LLVM 封装，提供 JIT 编译。
 - [snowflake](https://github.com/vd2org/snowflake) 雪花ID生成库。
 - [pyexcel](https://github.com/pyexcel/pyexcel) Excel 处理库，支持 csv, ods, xls, xlsx, xlsm 文件。
 - [openpyxl](https://pypi.org/project/openpyxl/) Excel 2010 xlsx 文件处理库。
@@ -60,6 +61,7 @@ python -m http.server 8000
 - [jax](https://github.com/jax-ml/jax) 组件化 numpy 使代码更精简，生成 GPU/TPU 的 JIT 。
 - [deepface](https://github.com/serengil/deepface) 人脸识别库。
 - [insightface](https://github.com/deepinsight/insightface) 人脸识别库。
+- [faker](https://github.com/joke2k/faker) 调试数据生成库。
 
 ### UI 库
 

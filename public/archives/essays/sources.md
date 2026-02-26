@@ -37,6 +37,7 @@
 - [chrome-plugin-demo《Chrome插件开发全攻略》](https://github.com/sxei/chrome-plugin-demo)
 - [php7-internal《PHP7内核剖析》](https://github.com/pangudashu/php7-internal)
 - [frida-all-in-one《FRIDA操作手册》](https://github.com/hookmaster/frida-all-in-one)
+- [mydocker《自己动手写docker》](https://github.com/xianlubird/mydocker)
 
 ## 资源站点
 
@@ -129,6 +130,7 @@ qwen
 - [SimpleNES](https://github.com/amhndu/SimpleNES) NES 红白机模拟器。
 - [nes](https://github.com/fogleman/nes) Go 语言实现的 NES 红白机模拟器。
 - [jsnes](https://github.com/bfirsh/jsnes) JS 语言实现的 NES 红白机模拟器。
+- [dolphin](https://github.com/dolphin-emu/dolphin) GameCube 和 Wii 模拟器。
 - [rpcs3](https://github.com/RPCS3/rpcs3) PS3（PlayStation 3） 模拟器，调试器。
 - [chromium](https://github.com/chromium/chromium)
 - [v8](https://github.com/v8/v8)
@@ -180,6 +182,7 @@ qwen
 - [emscripten](https://github.com/emscripten-core/emscripten) 基于 LLVM 的 WASM 编译器。
 - [lisp](https://github.com/robpike/lisp) 一个 Lisp 1.5 解释器。(Go 语言)
 - [ninja](https://github.com/ninja-build/ninja) 谷歌用于取代 make 的跨平台构建脚本。
+- [meson](https://github.com/mesonbuild/meson) 基于 ninja 和 python 的构造系统。
 - [just](https://github.com/casey/just) 类 make 有 justfile 做为命令行配置，但是并不局限于构建，而是命令的执行。
 - [b2](https://github.com/bfgroup/b2) boost 使用的类 make 有 Jamfile 的 C++ 构造工具。
 - [pyasm](https://github.com/grant-olson/pyasm) 动态内联 x86 汇编的 python 实现。
@@ -187,7 +190,6 @@ qwen
 - [panopticon](https://github.com/das-labor/panopticon) 反汇编器。
 - [yadcc](https://github.com/Tencent/yadcc) 分布式 C++ 编译器。
 - [vue-compiler](https://github.com/HerringtonDarkholme/vue-compiler) rust 开发的 vue 编译器。
-- [dnSpy](https://github.com/dnSpy/dnSpy) .Net 调试器。
 - [wenyan](https://github.com/wenyan-lang/wenyan) 文言文編程語言
 - [ChezScheme](https://github.com/cisco/ChezScheme) Lisp 方言。
 - [fanx](https://github.com/fanx-dev/fanx) 全栈编程语言。
@@ -259,6 +261,7 @@ qwen
 - [gimp](https://github.com/GNOME/gimp) 绘图软件。
 - [tikzit](github.com/tikzit/tikzit) 简单的点线绘图软件。
 - [MODNET-Matting-tool](https://github.com/AIDajiangtang/MODNET-Matting-tool) 抠图工具。
+- [naps2](https://github.com/cyanfish/naps2) 扫描实体书成 PDF 的工具。
 
 ### 监控工具
 

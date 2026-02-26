@@ -13,10 +13,12 @@
 - [quill](https://github.com/odygrd/quill) 异步日志库。
 - [Detours](https://github.com/microsoft/Detours) Windows 下监听、拦截 API 调用的库。
 - [CSerialPort](https://github.com/itas109/CSerialPort) 跨平台串口库。
+- [serial](https://github.com/wjwwood/serial) 跨平台串口库。
 - [libserial](https://github.com/crayzeewulf/libserial) Linux 串口库。
 - [recastnavigation](https://github.com/recastnavigation/recastnavigation) 导航网格实现库，Unit3D、Godot 等都使用了这个库。
 - [SuperDllHijack](https://github.com/anhkgg/SuperDllHijack) DLL 劫持库。
 - [coost](https://github.com/idealvin/coost) 工具库。
+- [grpc](https://github.com/grpc/grpc) 官方实现。
 - [protobuf](https://github.com/protocolbuffers/protobuf)
 - [bond](https://github.com/microsoft/bond)
 - [box2d](https://github.com/erincatto/box2d) 2D 物理引擎。

@@ -1,5 +1,7 @@
 # [草稿]Kotlin 速查
 
+- [kotlin 源码](https://github.com/JetBrains/kotlin)
+
 ## 官方库
 
 - [kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization) 序列化库。
@@ -9,4 +11,5 @@
 ## 常用库
 
 - [klaxon](https://github.com/cbeust/klaxon) JSON 库。
+- [moshi](https://github.com/square/moshi) JSON 库。
 - [kotlin-faker](https://github.com/serpro69/kotlin-faker)

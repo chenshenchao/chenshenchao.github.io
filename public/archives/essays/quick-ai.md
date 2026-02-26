@@ -11,6 +11,8 @@
 - [tensorflow](https://github.com/tensorflow/tensorflow) 谷歌的框架，早期主流。
 - [Paddle](https://github.com/PaddlePaddle/Paddle) 百度的框架，中文名“飞桨”。
 - [Paddle Lite](https://github.com/PaddlePaddle/Paddle-Lite.git) 百度飞桨（轻量版），只能用于推理，优化了推理。
+- [MNN](https://github.com/alibaba/MNN) 阿里的框架。
+- [mnn-llm](https://github.com/wangzhaode/mnn-llm) 基于 MNN 的 LLM，已经合并到 MNN。
 - [auto-sklearn](https://github.com/automl/auto-sklearn) ML 工具包。
 - [darknet](https://github.com/pjreddie/darknet)
 - [botpress](https://github.com/botpress/botpress)
@@ -97,6 +99,8 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [dinov2](https://github.com/facebookresearch/dinov2) 脸书开源视觉图像模型。
 - [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) 肢体语言识别。
 - [stable-diffusion](https://github.com/CompVis/stable-diffusion) 
+- [lambda-diffusers](https://github.com/LambdaLabsML/lambda-diffusers)
+- [diffusers](https://github.com/huggingface/diffusers) PyTorch 中用于图像、视频和音频生成的先进 diffusion 模型。
 - [ESRGAN](https://github.com/xinntao/ESRGAN) 生图，预训练模型中文支持很差。
 - [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) 生图，预训练模型中文支持很差。
 - [ControlNet](https://github.com/lllyasviel/ControlNet) 通过参考图控制图片的生成的模型。

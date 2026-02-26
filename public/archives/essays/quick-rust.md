@@ -215,6 +215,8 @@ cargo generate --git https://github.com/slint-ui/slint-rust-template
 
 ### cargo watch
 
+- [cargo-watch 源码](https://github.com/watchexec/cargo-watch)
+
 类似 nodemon 这种监听代码变化并自动重启命令的命令工具。
 
 ```bash
@@ -310,6 +312,7 @@ fi
 - [prost](https://github.com/tokio-rs/prost) tokio 团队的 protobuf 实现,actix 的 protobuf 扩展此库(0.13)。
 - [rust-protobuf](https://github.com/stepancheg/rust-protobuf) protobuf 第三方实现。
 - [tonic](https://github.com/hyperium/tonic) grpc 第三方实现。
+- [grpc-rs](https://github.com/tikv/grpc-rs) 封装官方 grpc 的第三方库。
 - [hyper](https://github.com/hyperium/hyper)  HTTP 客户端。
 - [reqwest](https://github.com/seanmonstar/reqwest) HTTP 客户端。
 - [ureq](https://github.com/algesten/ureq) HTTP 客户端。

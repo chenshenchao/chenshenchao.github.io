@@ -27,6 +27,7 @@
 - [Luban](https://github.com/Curzibn/Luban) 图片压缩库。
 - [android-gpuimage](https://github.com/cats-oss/android-gpuimage) 图片滤镜功能组件。
 - [android-gpuimage-plus](https://github.com/wysaid/android-gpuimage-plus) 图片滤镜功能组件。
+- [tinker](https://github.com/Tencent/tinker) 腾讯开源的热更新方案库。
 
 ## 开发工具
 
@@ -46,6 +47,7 @@
 - [VideoCompressor](https://github.com/tangpeng/VideoCompressor) MediaCodec 视频压缩示例。
 - [VideoCompressor](https://github.com/fishwjy/VideoCompressor) MediaCodec 视频压缩示例。
 - [small-video-record](https://github.com/mabeijianxi/small-video-record) 基于 ffmpeg 的视频录制示例。
+- [mpv-android](https://github.com/mpv-android/mpv-android) 基于 libmpv 的视频播放器。
 
 ### keytool 证书生成命令行（Java SDK 工具）
 

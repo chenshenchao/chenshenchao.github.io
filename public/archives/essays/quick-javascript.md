@@ -43,7 +43,7 @@
 - [freezeframe.js](https://github.com/ctrl-freaks/freezeframe.js) 控制 gif 动画播放。
 - [vector-drawable-svg](https://github.com/seanghay/vector-drawable-svg) 安卓图标资源（VectorDrawable）转 SVG 库。
 - [jsPDF](https://github.com/parallax/jsPDF) PDF 生成库。
-- [pdf.js](https://github.com/mozilla/pdf.js) PDF 展示库。
+- [pdf.js](https://github.com/mozilla/pdf.js) mozilla 开源的 PDF 展示库。
 - [simple-virtual-dom](https://github.com/livoras/simple-virtual-dom) 一个虚拟 DOM 实现库。
 - [dyo](https://github.com/dyo/dyo) DOM 元素生成库。
 - [eva.js](https://github.com/eva-engine/eva.js) 前端简易游戏引擎。

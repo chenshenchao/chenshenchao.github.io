@@ -22,6 +22,7 @@
 - [flink](https://github.com/apache/flink) 流扩展库。
 - [captcha](https://github.com/raodv/captcha) 行为验证码(滑动拼图、点选文字)，适配多种前端（web、安卓、Flutter）
 - [OpenPDF](https://github.com/LibrePDF/OpenPDF) PDF 库。
+- [pdfbox](https://github.com/apache/pdfbox) Apache 开源的 PDF 库。
 - [easyexcel](https://github.com/alibaba/easyexcel) 阿里开源的 Excel xls xlsx 处理库。
 - [java-faker](https://github.com/DiUS/java-faker) 生成调试数据的库。
 - [datafaker](https://github.com/datafaker-net/datafaker) 生成调试数据的库。
