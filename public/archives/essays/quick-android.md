@@ -25,6 +25,8 @@
 - [VideoProcessor](https://github.com/yellowcath/VideoProcessor) 基于 MediaCodec 的视频处理库。
 - [Compressor](https://github.com/zetbaitsu/Compressor) 图片压缩库。
 - [Luban](https://github.com/Curzibn/Luban) 图片压缩库。
+- [android-gpuimage](https://github.com/cats-oss/android-gpuimage) 图片滤镜功能组件。
+- [android-gpuimage-plus](https://github.com/wysaid/android-gpuimage-plus) 图片滤镜功能组件。
 
 ## 开发工具
 

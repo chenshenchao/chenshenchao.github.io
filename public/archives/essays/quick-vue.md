@@ -19,7 +19,7 @@
 
 - [nativescript-vue](https://github.com/nativescript-vue/nativescript-vue) Vue + NativeScript 生成原生APP。
 - [pinia](https://pinia.vuejs.org/) 存储管理库
-- [pinia-plugin-persistedstate](https://github.com/prazdevs/pinia-plugin-persistedstate) pinia 持久化扩展。
+- [pinia-plugin-persistedstate](https://github.com/prazdevs/pinia-plugin-persistedstate) pinia 持久化扩展。仓库转移到 https://codeberg.org/praz/pinia-plugin-persistedstate。
 - [PPTist](https://github.com/pipipi-pikachu/PPTist) vue 的 PPT 库。
 - [nutui](https://github.com/jd-opensource/nutui) 京东移动端组件库。
 - [pictode](https://github.com/JessYan0913/pictode) 一个简易的绘图库。

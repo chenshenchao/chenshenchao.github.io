@@ -312,6 +312,7 @@ fi
 - [tonic](https://github.com/hyperium/tonic) grpc 第三方实现。
 - [hyper](https://github.com/hyperium/hyper)  HTTP 客户端。
 - [reqwest](https://github.com/seanmonstar/reqwest) HTTP 客户端。
+- [ureq](https://github.com/algesten/ureq) HTTP 客户端。
 - [RustCrypto](https://github.com/RustCrypto) 加密库集合。
 - [RustCrypto MACs](https://github.com/RustCrypto/MACs) MAC 算法库。
 - [curve25519-dalek](https://github.com/dalek-cryptography/curve25519-dalek) curve25519 加密库。
@@ -341,7 +342,6 @@ fi
 - [umya-spreadsheet](https://github.com/MathNya/umya-spreadsheet) Excel xlsx 文件处理库。
 - [lopdf](https://github.com/J-F-Liu/lopdf) PDF 库。
 - [pdf-rs](https://github.com/pdf-rs/pdf) PDF 库。
-- [windows-service-rs](https://github.com/mullvad/windows-service-rs) Windows 服务开发库。
 - [fast-socks5](https://github.com/dizda/fast-socks5) socks 协议实现库。
 - [rlt](https://github.com/wfxr/rlt) 多种协议的压力测试工具开发库。
 - [clap](https://github.com/clap-rs/clap) 命令行命令开发库。
@@ -383,10 +383,12 @@ fi
 - [amethyst](https://github.com/amethyst/amethyst) 游戏引擎，已废弃。
 - [rfd](https://github.com/PolyMeilex/rfd) 跨平台原生系统文件弹窗API封装库。
 
-### web 开发框架和库
+### 网络框架和库
 
+- [actix-net](https://github.com/actix/actix-net) actix 网络库
 - [actix-web](https://github.com/actix/actix-web) 基于 actix 的 web 框架。
 - [actix-extras](https://github.com/actix/actix-extras) actix 扩展库。
+- [actix examples](https://github.com/actix/examples) actix 示例。
 - [tracing-actix-web](https://github.com/LukeMathWalker/tracing-actix-web) actix-web 结构化日志。
 - [actix-taskqueue](https://github.com/huytd/actix-taskqueue) actix 任务队列库。
 - [warp](https://github.com/seanmonstar/warp) web 框架。
@@ -408,6 +410,7 @@ fi
 - [teo](https://github.com/teodevgroup/teo) 纯 rust 的 ORM，不完善。
 - [sqlx](https://github.com/launchbadge/sqlx) 纯 rust 的 SQL 生成和客户端库。
 - [sea-orm](https://github.com/SeaQL/sea-orm) 整合 sqlx 等库，适配 actix、axum 等多个框架，功能比较全，迁移、DbFirst、CodeFirst 不合理，生成代码和自定义代码没有分离。
+- [sea-query](https://github.com/SeaQL/sea-query) 查询 SQL 构建库。
 - [diesel](https://github.com/diesel-rs/diesel) 多种数据库 ORM，使用了 C 库安装会麻烦点，性能会好点，迁移、DbFirst、CodeFirst 配合比较合理。
 - [kosame](https://github.com/pikaju/kosame) 类 Prisma 的 ORM。
 - [r2d2](https://github.com/sfackler/r2d2) 数据库链接池库。
@@ -452,6 +455,8 @@ fi
 - [cargo-apk](https://github.com/rust-mobile/cargo-apk) 打包 apk 工具。
 - [pgrx](https://github.com/pgcentralfoundation/pgrx) PostgreSQL 扩展开发工具。
 - [ngx-rust](https://github.com/nginx/ngx-rust) nginx 模块开发库。
+- [windows-drivers-rs](https://github.com/microsoft/windows-drivers-rs) 开发 Windows 驱动工具。
+- [windows-service-rs](https://github.com/mullvad/windows-service-rs) Windows 服务开发库。
 
 ## 兼容
 

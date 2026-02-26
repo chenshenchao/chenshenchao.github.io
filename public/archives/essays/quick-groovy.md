@@ -1,5 +1,7 @@
 # [草稿]Groovy 速查
 
+- [groovy 源码](https://github.com/apache/groovy)
+
 Groovy 是谷歌开发用于 gradle 构建脚本的语言，在 kotlin script 被推荐作为安卓脚本前，groovy 就是安卓项目的主要构建脚本语言。
 
 作为 gradle 的 groovy 脚本后缀是 *.gradle ，主要用于安卓项目的构建。

@@ -83,6 +83,7 @@ nvm use 16
 - [webgradients](https://github.com/itmeo/webgradients) 好看的 web 端渐变色样式集合。
 - [normalize.css](https://github.com/necolas/normalize.css) 统一不同浏览器的基础样式，主要是清除样式。
 - [mui](https://github.com/dcloudio/mui) DCloud 早期的项目，后转向 uniapp。
+- [GCanvas](https://github.com/alibaba/GCanvas) 阿里开源为 Weex 和 ReactNative 提供的 2D 渲染库。
 
 ## 包管理器
 

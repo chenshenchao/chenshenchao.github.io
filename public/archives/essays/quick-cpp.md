@@ -6,27 +6,12 @@
 ## 常用库
 
 - [folly](https://github.com/facebook/folly) facebook 开源工具库。
-- [opencv](https://github.com/opencv/opencv)
-- [faiss](https://github.com/facebookresearch/faiss) 扁平索引实现库。
-- [hnswlib](https://github.com/nmslib/hnswlib) HNSW 实现库，支持 C++ 和 Python 语言。
-- [nmslib](https://github.com/nmslib/nmslib) 向量数据库，有标量功能。支持 C++ 、Java 和 Python。
-- [leveldb](https://github.com/google/leveldb) 键值对存储库。
-- [rocksdb](https://github.com/facebook/rocksdb) 键值对存储库。
-- [speedb](https://github.com/speedb-io/speedb) 类 rocksdb 键值对存储库。
-- [simdb](https://github.com/LiveAsynchronousVisualizedArchitecture/simdb) 键值对存储库。
-- [lmdb](https://github.com/LMDB/lmdb) 键值对存储库。
-- [libdb](https://github.com/berkeleydb/libdb) 原 berkeleydb，可内嵌的键值对数据库库。
+- [0382 util](https://github.com/0382/util) 开源工具库。
 - [asmjit](https://github.com/asmjit/asmjit) JIT 库。
 - [Poco](https://github.com/pocoproject/poco) 多功能库集合。
 - [tesseract](https://github.com/tesseract-ocr/tesseract) OCR 库。
 - [quill](https://github.com/odygrd/quill) 异步日志库。
 - [Detours](https://github.com/microsoft/Detours) Windows 下监听、拦截 API 调用的库。
-- [binlog](https://github.com/morganstanley/binlog) mysql binlog 解析库。
-- [mysql-connector-cpp](https://github.com/mysql/mysql-connector-cpp) MySQL 客户端库。
-- [sqlpp11](https://github.com/rbock/sqlpp11) SQL 类型安全生成库。
-- [soci](https://github.com/SOCI/soci) 数据库访问库。
-- [ormpp](https://github.com/qicosmos/ormpp) 支持 mysql, postgresql,sqlite 的 ORM 库。
-- [sqlite_orm](https://github.com/fnc12/sqlite_orm) 头文件库，支付 50$ 可使用。
 - [CSerialPort](https://github.com/itas109/CSerialPort) 跨平台串口库。
 - [libserial](https://github.com/crayzeewulf/libserial) Linux 串口库。
 - [recastnavigation](https://github.com/recastnavigation/recastnavigation) 导航网格实现库，Unit3D、Godot 等都使用了这个库。
@@ -54,6 +39,12 @@
 - [cppjieba](https://github.com/yanyiwu/cppjieba) jieba 中文分词。
 - [sentencepiece](https://github.com/google/sentencepiece) 谷歌开源的基于神经网络的分词器，支持 C++ 和 python 两种语言的库。
 - [faker-cxx](https://github.com/cieslarmichal/faker-cxx) 生成调试数据。
+- [gflags](https://github.com/gflags/gflags) 命令行参数处理库。
+- [CLI11](https://github.com/CLIUtils/CLI11) 命令行参数处理库。
+- [SeetaFace6Open](https://github.com/SeetaFace6Open/index) 人脸识别库。
+- [SeetaFace6](https://github.com/seetafaceengine/SeetaFace6) 人脸识别库。
+- [jsoncpp](https://github.com/open-source-parsers/jsoncpp) JSON 库。
+- [configor](https://github.com/l33oo/configor) 配置管理库，目前只支持 JSON 格式。
 
 ### 网络
 
@@ -69,8 +60,27 @@
 - [cpp-netlib](https://github.com/cpp-netlib/cpp-netlib) 网络库。
 - [NuRaft](https://github.com/eBay/NuRaft) 分布式协议 Raft 的实现库。
 
+### 数据库
+
+- [faiss](https://github.com/facebookresearch/faiss) 扁平索引实现库。
+- [hnswlib](https://github.com/nmslib/hnswlib) HNSW 实现库，支持 C++ 和 Python 语言。
+- [nmslib](https://github.com/nmslib/nmslib) 向量数据库，有标量功能。支持 C++ 、Java 和 Python。
+- [leveldb](https://github.com/google/leveldb) 键值对存储库。
+- [rocksdb](https://github.com/facebook/rocksdb) 键值对存储库。
+- [speedb](https://github.com/speedb-io/speedb) 类 rocksdb 键值对存储库。
+- [simdb](https://github.com/LiveAsynchronousVisualizedArchitecture/simdb) 键值对存储库。
+- [lmdb](https://github.com/LMDB/lmdb) 键值对存储库。
+- [libdb](https://github.com/berkeleydb/libdb) 原 berkeleydb，可内嵌的键值对数据库库。
+- [binlog](https://github.com/morganstanley/binlog) mysql binlog 解析库。
+- [mysql-connector-cpp](https://github.com/mysql/mysql-connector-cpp) MySQL 客户端库。
+- [sqlpp11](https://github.com/rbock/sqlpp11) SQL 类型安全生成库。
+- [soci](https://github.com/SOCI/soci) 数据库访问库。
+- [ormpp](https://github.com/qicosmos/ormpp) 支持 mysql, postgresql,sqlite 的 ORM 库。
+- [sqlite_orm](https://github.com/fnc12/sqlite_orm) 头文件 ORM 库，支付 50$ 可使用。
+
 ### 图形库
 
+- [opencv](https://github.com/opencv/opencv)
 - [tgfx](https://github.com/Tencent/tgfx) 为了替代 skia 的 2D 图形绘制库。
 - [elements](https://github.com/cycfi/elements) 声明式的 UI 库，事件的设计上有缺失。
 - [wxWidgets](https://github.com/wxWidgets/wxWidgets) UI 开发框架。

@@ -34,6 +34,7 @@ python -m http.server 8000
 - [xlwt](https://github.com/python-excel/xlwt) 可创建 MS Excel 97/2000/XP/2003 XLS 文件。
 - [xlrd](https://github.com/python-excel/xlrd) 可读取 MS Excel 97/2000/XP/2003 XLS 文件。
 - [excel2img](https://github.com/glexey/excel2img) excel 生成图片。
+- [segno](https://github.com/heuer/segno) 二维码生成库。
 - [pypdf](https://github.com/py-pdf/pypdf) PDF 库。
 - [pdfplumber](https://github.com/jsvine/pdfplumber) PDF 提取信息库。
 - [RxPY](https://github.com/ReactiveX/RxPY) rx
@@ -56,8 +57,9 @@ python -m http.server 8000
 - [ffmpeg-python](https://github.com/kkroening/ffmpeg-python) ffmpeg 绑定封装库。
 - [sly](https://github.com/dabeaz/sly) 类 lex、yacc 的 python 库（面向对象设计）。 
 - [ply](https://github.com/dabeaz/ply) 类 lex、yacc 的 python 库（面向过程设计）。 
-
 - [jax](https://github.com/jax-ml/jax) 组件化 numpy 使代码更精简，生成 GPU/TPU 的 JIT 。
+- [deepface](https://github.com/serengil/deepface) 人脸识别库。
+- [insightface](https://github.com/deepinsight/insightface) 人脸识别库。
 
 ### UI 库
 

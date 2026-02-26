@@ -17,6 +17,7 @@
 - [iCSS](https://github.com/chokcoco/iCSS) 不止于 CSS，CSS 奇技淫巧。
 - [public-apis](https://github.com/public-apis/public-apis) 公开免费 API 汇集列表。
 - [blog](https://github.com/dongyuanxin/blog) 专注Web与算法
+- [moonbit-docs](https://github.com/moonbitlang/moonbit-docs) MoonBit 月兔语言文档。
 
 ## 开源书籍
 
@@ -57,12 +58,13 @@
 - [awesome-vscode](https://github.com/viatsko/awesome-vscode)
 - [awesome-android-ui](https://github.com/wasabeef/awesome-android-ui)
 
-### 数据站点
+### 数据或咨询站点
 
 - [证券宝](https://www.baostock.com) 免费、开源的证券数据平台（无需注册）。
 - [tushare](https://www.tushare.pro) 大数据开放社区
 - [joinquant](https://www.joinquant.com)
 - [bigquant](https://www.bigquant.com)
+- [chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) 中国独立开发者项目列表
 
 ### 免费云服务器站点
 
@@ -189,7 +191,8 @@ qwen
 - [wenyan](https://github.com/wenyan-lang/wenyan) 文言文編程語言
 - [ChezScheme](https://github.com/cisco/ChezScheme) Lisp 方言。
 - [fanx](https://github.com/fanx-dev/fanx) 全栈编程语言。
-- [stone](https://github.com/chibash/stone) 《两周自制脚本语言》示例语言。
+- [stone](https://github.com/chibash/stone) 《两周自制脚本语言》示例脚本语言。
+- [nature](https://github.com/nature-lang/nature) 编程语言。
 - [OpenHSP](https://github.com/onitama/OpenHSP) Hot Soup 语言 Processor
 - [jsonnet](https://github.com/google/jsonnet) 谷歌开发的类 JSON 的数据语言，官方只支持 c 和 python 模块，其他语言有第三方实现但是热度很低，实现堪忧。
 - [hhvm](https://github.com/facebook/hhvm) Hack 语言，由 PHP 扩展而来的语言。
@@ -232,6 +235,8 @@ qwen
 - [FFmpeg-Builds](https://github.com/BtbN/FFmpeg-Builds) FFmpeg 下载。
 - [libav](https://github.com/libav/libav) FFmpeg 的分支，已经停止维护。
 - [PandaOCR](https://github.com/miaomiaosoft/PandaOCR) OCR 工具。
+- [darknet-ocr](https://github.com/chineseocr/darknet-ocr) OCR 工具站点。
+- [chineseocr](https://github.com/chineseocr/chineseocr) OCR 工具站点。
 - [harfbuzz](https://github.com/harfbuzz/harfbuzz) 文本形状，字体处理引擎。
 - [mkspiffs](https://github.com/igrr/mkspiffs) 解析 SPIFFS 工具。
 - [bifrost](https://github.com/ClessLi/bifrost) nginx 配置文件处理工具。
@@ -253,6 +258,7 @@ qwen
 - [carbon](https://github.com/carbon-app/carbon) 代码生成高亮且美观的图片的工具。
 - [gimp](https://github.com/GNOME/gimp) 绘图软件。
 - [tikzit](github.com/tikzit/tikzit) 简单的点线绘图软件。
+- [MODNET-Matting-tool](https://github.com/AIDajiangtang/MODNET-Matting-tool) 抠图工具。
 
 ### 监控工具
 

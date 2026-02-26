@@ -7,6 +7,7 @@
 
 ## 常用库
 
+- [opencvsharp](https://github.com/shimat/opencvsharp) OpenCV 的 .Net 包装库。
 - [EmguCV](https://github.com/emgucv/emgucv) OpenCV 的 .Net 包装库。
 - [obfuscar](https://github.com/obfuscar/obfuscar) 代码混淆。
 - [reactive](https://github.com/dotnet/reactive) rx
@@ -36,6 +37,7 @@
 - [SSH.NET](https://github.com/sshnet/SSH.NET)
 - [xLua](https://github.com/Tencent/xLua) 为 C#（Unity, .Net, Mono）提供的 Lua 运行时实现。
 - [dotenv.net](https://github.com/bolorundurowb/dotenv.net) .env 库。
+- [ViewFaceCore](https://github.com/ViewFaceCore/ViewFaceCore) 人脸识别库。
 
 ## WinForms
 

@@ -41,6 +41,7 @@
 - [shine](https://github.com/toots/shine) MP3 库，支持 前端 JS/WASM 和 安卓 的封装。
 - [minimp3](https://github.com/lieff/minimp3) 单头文件的 MP3 库。
 - [opus](https://github.com/xiph/opus) opus 音频库。
+- [cmdline](https://github.com/tanakh/cmdline) 命令行参数解析库。
 
 ### 网络
 
@@ -70,6 +71,7 @@
 - [libpng](https://github.com/pnggroup/libpng) PNG 图片库。
 - [libjpeg-turbo](https://github.com/libjpeg-turbo/libjpeg-turbo) JPEG 图片库。
 - [mozjpeg](https://github.com/mozilla/mozjpeg) JPEG 图片库。
+- [nanovg](https://github.com/memononen/nanovg) 2D 矢量图库。
 - [plutovg](https://github.com/sammycage/plutovg) 2D 矢量图库。
 - [plutosvg](https://github.com/sammycage/plutosvg) SVG 库。
 - [gtk](https://github.com/GNOME/gtk)
