@@ -1,5 +1,7 @@
 # [草稿]ESP
 
+- [esptool](https://github.com/espressif/esptool) 烧录、配置和交互的串行工具。
+- [esp-serial-flasher](https://github.com/espressif/esp-serial-flasher) 下载器开发，烧录库。
 - [ESP RS](https://github.com/esp-rs) 用 rust 开发 ESP 的技术栈组织。
 - [EsptouchForAndroid](https://github.com/EspressifApp/EsptouchForAndroid) EspTouch 安卓项目，给单片机配置 WIFI 密码。
 

@@ -338,6 +338,7 @@ fi
 - [datafusion](https://github.com/apache/datafusion) 用 SQL 处理 CSV、JSON、Parquet、Avro、Arrow 等文件的库，可自定义文件格式做扩展。
 - [calamine](https://github.com/tafia/calamine) 纯 Rust 实现 Excel/OpenDocument（xls、xlsx） 库。
 - [rust_xlsxwriter](https://github.com/jmcnamara/rust_xlsxwriter) Excel xlsx 文件创建库。
+- [umya-spreadsheet](https://github.com/MathNya/umya-spreadsheet) Excel xlsx 文件处理库。
 - [lopdf](https://github.com/J-F-Liu/lopdf) PDF 库。
 - [pdf-rs](https://github.com/pdf-rs/pdf) PDF 库。
 - [windows-service-rs](https://github.com/mullvad/windows-service-rs) Windows 服务开发库。
@@ -404,6 +405,7 @@ fi
 ### 数据库
 
 - [toasty](https://github.com/tokio-rs/toasty) tokio 开发组开发的异步 ORM。
+- [teo](https://github.com/teodevgroup/teo) 纯 rust 的 ORM，不完善。
 - [sqlx](https://github.com/launchbadge/sqlx) 纯 rust 的 SQL 生成和客户端库。
 - [sea-orm](https://github.com/SeaQL/sea-orm) 整合 sqlx 等库，适配 actix、axum 等多个框架，功能比较全，迁移、DbFirst、CodeFirst 不合理，生成代码和自定义代码没有分离。
 - [diesel](https://github.com/diesel-rs/diesel) 多种数据库 ORM，使用了 C 库安装会麻烦点，性能会好点，迁移、DbFirst、CodeFirst 配合比较合理。
@@ -421,10 +423,12 @@ fi
 - [leveldb-rs](https://github.com/dermesser/leveldb-rs) rust 实现的 leveldb 键值对存储。
 - [polars](https://github.com/pola-rs/polars) 基于数据帧的查询引擎，提供 rust、python 库。
 - [walrus](https://github.com/nubskr/walrus) 分布式流日志引擎库，日志指的WAL，可用来做队列服务，内置有分布式服务项目 distributed-walrus。
+- [xlite](https://github.com/x2bool/xlite) SQLite 扩展，让其能以 excel(xls、xlsx) 和 *.ods 文件作为数据表进行查询和操作。
 
 ### 底层扩展
 
 - [grmtools](https://github.com/softdevteam/grmtools) 支持 bison 与 flex 的 *.l 和 *.y 文法的构建工具。
+- [maturin](https://github.com/PyO3/maturin) 用于生成和发布 PyO3、cffi、uniffi 绑定用于扩展 python 的 rust cargo 项目的命令行工具。
 - [PyO3](https://github.com/PyO3/pyo3) 开发 Python 库。
 - [iced](https://github.com/icedland/iced) x86 的汇编器、反汇编器等功能的库，支持多种语言。
 - [embassy](https://github.com/embassy-rs/embassy) 支持异步的嵌入式框架。
@@ -446,6 +450,7 @@ fi
 - [wasm-pack](https://github.com/drager/wasm-pack) 打包 rust 成 wasm 给 nodejs 或浏览器使用的工具。
 - [android-activity](https://github.com/rust-mobile/android-activity) GLUE 绑定来开发安卓应用的库。
 - [cargo-apk](https://github.com/rust-mobile/cargo-apk) 打包 apk 工具。
+- [pgrx](https://github.com/pgcentralfoundation/pgrx) PostgreSQL 扩展开发工具。
 
 ## 兼容
 

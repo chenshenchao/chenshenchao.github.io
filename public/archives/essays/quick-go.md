@@ -17,6 +17,9 @@
 - [kong](https://github.com/alecthomas/kong) 命令行参数分析库。
 - [go-faker](https://github.com/go-faker/faker) 生成调试开发数据的库。
 - [tinygo](https://github.com/tinygo-org/tinygo) GO 的 MCU、WASM 编译器。
+- [xlsReader](https://github.com/shakinm/xlsReader)  xls (Excel) 文件读取。
+- [xls](https://github.com/extrame/xls) libxls 的 go 语言复刻，支持 xls 文件。
+- [grate](https://github.com/pbnjay/grate) Excel .xls, .xlsx, .csv, .tsv 文件提取数据。
 - [unioffice](https://github.com/unidoc/unioffice) Word、Excel、PPT 库。
 - [unipdf](https://github.com/unidoc/unipdf) PDF 库。
 - [gofpdf](https://github.com/jung-kurt/gofpdf) PDF 库。

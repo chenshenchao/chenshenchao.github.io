@@ -45,6 +45,7 @@ nvm use 16
 
 ### Web
 
+- [socket.io](https://github.com/socketio/socket.io) 服务器端。
 - [loopback](https://github.com/strongloop/loopback) web 框架，工具齐全。
 - [fastify](https://github.com/fastify/fastify) web 服务器。
 - [Gracejs](https://github.com/xiongwilee/Gracejs) 基于 koa2 的框架，设计不太好。
@@ -66,6 +67,7 @@ nvm use 16
 - [gulp-iconfont](https://github.com/nfroidure/gulp-iconfont) 图标字库生成 gulp 插件。
 - [falcor](https://github.com/Netflix/falcor) 用于高效提供数据的前后端工具库，支持 express web 框架。
 - [postcss-px-to-viewport](https://github.com/evrone/postcss-px-to-viewport) postcss 转设计稿 px 成 vw 插件。
+- [htmlparser2](https://github.com/fb55/htmlparser2) XML/HTML 解析器。
 
 ### UI
 
@@ -75,6 +77,7 @@ nvm use 16
 - [nw.js](https://github.com/nwjs/nw.js) 桌面应用开发框架。
 - [open-color](https://github.com/yeun/open-color) 颜色设计样式库，因为 tailwindcss 也有这个库也就没啥意义。
 - [webgradients](https://github.com/itmeo/webgradients) 好看的 web 端渐变色样式集合。
+- [mui](https://github.com/dcloudio/mui) DCloud 早期的项目，后转向 uniapp。
 
 ## 包管理器
 

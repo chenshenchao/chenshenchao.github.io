@@ -115,6 +115,7 @@
 - [blockly](https://github.com/RaspberryPiFoundation/blockly) web 可视化编程语言（SCRATCH 等大部分少儿编程都是基于这个库）。
 - [qrcodejs](https://github.com/davidshimjs/qrcodejs) 二维码生成库。
 - [glisp](https://github.com/baku89/glisp) 基于 lisp 语言做绘图编辑器。
+- [ws](https://github.com/websockets/ws) WebSocket 封装库，支持客户端和 NodeJS 服务端。
 
 ## jsx
 

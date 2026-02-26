@@ -6,10 +6,13 @@
 桌面用基于 swing 的 UI 框架；安卓用 compose ；IOS 用基于 ViewUI 的框架等。
 后来推出了 SharedUI 统一使用安卓的 compose 组件为基础去适配所有平台。
 
+- [compose-multiplatform-template](https://github.com/JetBrains/compose-multiplatform-template) 已经废弃，早期开发工具不完善，通过复制这个模板项目开发，现在采用开发工具 IDE 等生成初始项目。
+
 ### 常用库
 
 - [lazytable](https://github.com/oleksandrbalan/lazytable) 惰性加载表格组件。
-
+- [compose-webview-multiplatform](https://github.com/KevinnZou/compose-webview-multiplatform) 谷歌废弃安卓端的 WebView 封装，由第三方分叉，此库就是该作者发布了的跨平台版本。
+- [okio](https://github.com/square/okio) IO 库。
 
 ## Jetpack Compose
 
@@ -18,7 +21,7 @@
 ### 常用库
 
 - [accompanist](https://github.com/google/accompanist) 谷歌额外为 Jetpack Compose 提供的补充库。
-- [compose-webview](https://github.com/KevinnZou/compose-webview) 谷歌废弃的 WebView 封装，由第三方分叉。
+- [compose-webview](https://github.com/KevinnZou/compose-webview) 谷歌废弃安卓端的 WebView 封装，由第三方分叉。
 
 ### CompositionLocal 和 CompositionLocalProvider 
 

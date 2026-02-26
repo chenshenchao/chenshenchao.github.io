@@ -22,6 +22,7 @@
 - [ModelScope](https://www.modelscope.cn)
 - [阿里云百炼](https://bailian.console.aliyun.com/) 云平台，目前有送免费 100万 tokens 额度。
 - [nlp_chinese_corpus](https://github.com/brightmart/nlp_chinese_corpus) 大规模中文自然语言处理语料
+- [Chinese-Word-Vectors](https://github.com/Embedding/Chinese-Word-Vectors) 中文词向量
 
 ### Huggingface 相关
 
@@ -46,6 +47,8 @@ huggingface-cli download --resume-download intfloat/e5-large-v2 --local-dir ~/ca
 ```
 
 #### hf-transfer
+
+- [hf_transfer 源码](https://github.com/huggingface/hf_transfer)
 
 上面切换代理，但是速度还是太慢，因为模型都是用 G 表示大小的。
 
@@ -128,6 +131,7 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [sim](https://github.com/simstudioai/sim) workflow 项目。
 - [ComfyUI](https://github.com/Comfy-Org/ComfyUI) 基于 sd 的生图工具。
 - [openui](https://github.com/wandb/openui) 文本 生成 UI 界面的项目。
+- [open-text-embeddings](https://github.com/rag-wtf/open-text-embeddings) 兼容 openAI 的 API 的嵌入文本模型框架。
 
 ### RAG（Retrieval Augmented Generation）
 

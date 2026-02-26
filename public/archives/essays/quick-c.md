@@ -35,6 +35,7 @@
 - [lemon](https://github.com/lemon-lang/lemon) 可内嵌的小型编程语言 lemon。
 - [mupdf](https://github.com/ArtifexSoftware/mupdf) PDF 库。
 - [pdfio](https://github.com/michaelrsweet/pdfio) PDF 库。
+- [libxls](https://github.com/libxls/libxls) Excel xls 文件处理库。
 - [librg](https://github.com/zpl-c/librg) 多玩家游戏开发库。
 - [json-parser](https://github.com/json-parser/json-parser) json 序列化库。
 - [cJSON](https://github.com/DaveGamble/cJSON)  json 序列化库。

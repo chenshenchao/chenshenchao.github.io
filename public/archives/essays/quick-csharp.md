@@ -22,6 +22,7 @@
 - [gtk-sharp](https://github.com/mono/gtk-sharp) mono GTK 封装。
 - [xwt](https://github.com/mono/xwt) mono UI 库。
 - [MiniExcel](https://github.com/mini-software/MiniExcel) Excel 处理库。
+- [ClosedXML](https://github.com/ClosedXML/ClosedXML) Excel 处理库。(.xlsx, .xlsm)
 - [wix3](https://github.com/wixtoolset/wix3) wix3 打包工具集。
 - [moq](https://github.com/devlooped/moq) mock 库。
 - [IdGen](https://github.com/RobThree/IdGen) 类雪花 ID 生成库。

@@ -17,7 +17,7 @@ npx @dcloudio/uvm@latest
 ## 常用库
 
 - [UniUI](https://github.com/dcloudio/uni-ui) 官方 UI 库。
-- [uView](https://github.com/umicro/uView2.0) UI 库，没有 TS 类型声明。
+- [uView2.0](https://github.com/umicro/uView2.0) UI 库，没有 TS 类型声明。
 - [NutUI Uniapp](https://github.com/nutui-uniapp/nutui-uniapp) 京东风格组件库。
 
 ## 常见问题

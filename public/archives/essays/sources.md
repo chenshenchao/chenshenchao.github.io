@@ -35,6 +35,7 @@
 - [koa2-note《Koa2进阶学习笔记》](https://github.com/chenshenhai/koa2-note)
 - [chrome-plugin-demo《Chrome插件开发全攻略》](https://github.com/sxei/chrome-plugin-demo)
 - [php7-internal《PHP7内核剖析》](https://github.com/pangudashu/php7-internal)
+- [frida-all-in-one《FRIDA操作手册》](https://github.com/hookmaster/frida-all-in-one)
 
 ## 资源站点
 
@@ -231,6 +232,7 @@ qwen
 - [libav](https://github.com/libav/libav) FFmpeg 的分支，已经停止维护。
 - [PandaOCR](https://github.com/miaomiaosoft/PandaOCR) OCR 工具。
 - [harfbuzz](https://github.com/harfbuzz/harfbuzz) 文本形状，字体处理引擎。
+- [mkspiffs](https://github.com/igrr/mkspiffs) 解析 SPIFFS 工具。
 
 ### 办公软件与应用
 
@@ -282,6 +284,7 @@ qwen
 - [lancedb](https://github.com/lancedb/lancedb) 支持向量和全文索引数据库（rust 语言），主要支持 python 的封装。
 - [vectordb](https://github.com/epsilla-cloud/vectordb) 向量数据库（C++ 语言），主要支持 python 的封装。
 - [rethinkdb](https://github.com/rethinkdb/rethinkdb) 文档数据库。
+- [cursusdb](https://github.com/cursusdb/cursusdb) （Go 语言）以 SQL 作为查询语言的文档数据库。
 - [ElasticSearch](https://github.com/elastic/elasticsearch) 全文索引数据库（Java 语言）。
 - [zincsearch](https://github.com/zincsearch/zincsearch) 类 ElasticSearch 全文索引数据库（GO 语言）。
 - [gofound](https://github.com/sea-team/gofound) 全文索引数据库（GO 语言），HTTP 接口，有管理后台面板。
@@ -364,6 +367,8 @@ qwen
 ### 硬件项目
 
 - [ESPboy_GameBoy](https://github.com/ESPboy-edu/ESPboy_GameBoy) ESP 上的 GameBoy 模拟器。
+- [DAPLink](https://github.com/ARMmbed/DAPLink)
+- [DashDAP](https://github.com/linyuxuanlin/DashDAP) 基于 STM32 的 DAPLink
 - [CH552-DAPLink](https://github.com/wagiminator/CH552-DAPLink) 基于 CH552 开发的 DAPLink 固件源码。
 - [CH55x_HS_DAP-Link-v2](https://github.com/posystorage/CH55x_HS_DAP-Link-v2) 基于 CH552 开发的 DAPLink。
 - [LonelyWolf stm32](https://github.com/LonelyWolf/stm32) 一些 STM32 外设示例项目。
