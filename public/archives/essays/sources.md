@@ -408,7 +408,9 @@ qwen
 - [LibreMaple-Client](https://github.com/Libre-Maple/LibreMaple-Client) 冒险岛客户端复刻。
 - [MapleSolaxiaV2](https://github.com/Libre-Maple/MapleSolaxiaV2) 冒险岛服务端复刻。
 - [ms079](https://github.com/mrzhqiang/ms079) 冒险岛 v079
-- [BeiDou-Server](https://github.com/BeiDouMS/BeiDou-Server) 冒险岛 v083
+- [HeavenMS](https://github.com/ronancpl/HeavenMS) 冒险岛 v083 服务器。
+- [Cosmic](https://github.com/P0nk/Cosmic) fork HeavenMS，冒险岛 v083 服务器。
+- [BeiDou-Server](https://github.com/BeiDouMS/BeiDou-Server) 汉化 Cosmic，冒险岛 v083 服务器。
 - [BeiDou-ijl15](https://github.com/BeiDouMS/BeiDou-ijl15)
 - [HeavenMS](https://github.com/ronancpl/HeavenMS) 冒险岛 v083 服务器复刻。
 - [MapleStory-Server](https://github.com/ryantpayton/MapleStory-Server) fork HeavenMS
@@ -420,6 +422,7 @@ qwen
 - [MapleStory-GM-Client](https://github.com/Elem8100/MapleStory-GM-Client) 离线冒险岛客户端模拟器。（Delphi）
 - [MapleNecrocer](https://github.com/Elem8100/MapleNecrocer) 离线冒险岛客户端模拟器。（C#）
 - [WzComparerR2-Plus](https://github.com/Elem8100/WzComparerR2-Plus) 冒险岛 *.wz 资源提取器和清单。
+- [ExtractorSharp](https://github.com/d-mod/ExtractorSharp) *.img、*.npk 资源编辑器。
 - [MapleServer2](https://github.com/AlanMorel/MapleServer2) 冒险岛2 服务端复刻，仅用于教学。
 - [tiled](https://github.com/mapeditor/tiled) 2D 瓦片地图编辑器。
 - [piskel](https://github.com/piskelapp/piskel) 基于 web 的像素素材编辑器。

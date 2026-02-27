@@ -47,9 +47,7 @@
 
 ### web
 
-- [strapi](https://github.com/strapi/strapi) CMS 项目。
-- [egg](https://github.com/eggjs/egg) web 框架。
-- [eggjs static](https://github.com/eggjs/static)
+- [arco-design](https://github.com/arco-design) UI 框架。
 - [pixijs](https://github.com/pixijs/pixijs) 2D webGL 游戏引擎。
 - [mdui](https://github.com/zdhxiong/mdui) 安卓 Material 3 风格的 UI 组件库。
 - [stenciljs](https://github.com/stenciljs/core) 基于 web components 的组件开发工具，微前端。

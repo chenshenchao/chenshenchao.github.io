@@ -72,6 +72,9 @@ nvm use 16
 - [falcor](https://github.com/Netflix/falcor) 用于高效提供数据的前后端工具库，支持 express web 框架。
 - [postcss-px-to-viewport](https://github.com/evrone/postcss-px-to-viewport) postcss 转设计稿 px 成 vw 插件。
 - [htmlparser2](https://github.com/fb55/htmlparser2) XML/HTML 解析器。
+- [strapi](https://github.com/strapi/strapi) CMS 项目。
+- [egg](https://github.com/eggjs/egg) web 框架。
+- [eggjs static](https://github.com/eggjs/static)
 
 ### UI
 
