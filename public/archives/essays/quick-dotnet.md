@@ -8,6 +8,11 @@ dotnet tool install --global dotnet-ef
 dotnet tool update --global dotnet-ef
 ```
 
+
+## 工具
+
+- [dnSpy](https://github.com/dnSpy/dnSpy) .Net 调试器。
+
 ## 单文件打包
 
 ```bash

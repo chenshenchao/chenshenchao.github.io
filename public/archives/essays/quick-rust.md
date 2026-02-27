@@ -203,6 +203,8 @@ cargo run --example <示例名称>
 
 ### cargo generate
 
+- [cargo-generate 源码](https://github.com/cargo-generate/cargo-generate)
+
 模板生成工具。
 
 ```bash
@@ -317,6 +319,9 @@ fi
 - [reqwest](https://github.com/seanmonstar/reqwest) HTTP 客户端。
 - [ureq](https://github.com/algesten/ureq) HTTP 客户端。
 - [RustCrypto](https://github.com/RustCrypto) 加密库集合。
+- [RustCrypto traits](https://github.com/RustCrypto/traits)
+- [RustCrypto AEADs](https://github.com/RustCrypto/AEADs)
+- [RustCrypto block-ciphers](https://github.com/RustCrypto/block-ciphers)
 - [RustCrypto MACs](https://github.com/RustCrypto/MACs) MAC 算法库。
 - [curve25519-dalek](https://github.com/dalek-cryptography/curve25519-dalek) curve25519 加密库。
 - [hex](https://github.com/KokaKiwi/rust-hex) 十六进制转换库。
@@ -360,6 +365,7 @@ fi
 - [env_logger](https://github.com/rust-cli/env_logger) 日志库。
 - [async-trait](https://github.com/dtolnay/async-trait) 解决有异步方法的 trait 不能支持 dyn trait 的问题。 
 - [apalis](https://github.com/apalis-dev/apalis) 后台进程库。
+- [rodio](https://github.com/RustAudio/rodio) 音频库。
 
 ### UI 库
 
@@ -385,6 +391,7 @@ fi
 - [azul](https://github.com/fschutt/azul) 目前尚不可用。
 - [amethyst](https://github.com/amethyst/amethyst) 游戏引擎，已废弃。
 - [rfd](https://github.com/PolyMeilex/rfd) 跨平台原生系统文件弹窗API封装库。
+- [femtovg](https://github.com/femtovg/femtovg) 2D 矢量绘图库。
 
 ### 网络框架和库
 

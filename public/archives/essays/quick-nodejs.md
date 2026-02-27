@@ -75,6 +75,8 @@ nvm use 16
 
 ### UI
 
+- [svelte](https://github.com/sveltejs/svelte) UI 框架。
+- [qwik](https://github.com/QwikDev/qwik) web apps 的 UI 开发框架。
 - [storybook](https://github.com/storybookjs/storybook) web 与 app 的 UI 组件开发框架。
 - [storybookjs react-native](https://github.com/storybookjs/react-native)
 - [neutralinojs](https://github.com/neutralinojs/neutralinojs) 桌面应用开发框架。

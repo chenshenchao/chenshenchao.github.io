@@ -14,19 +14,14 @@
 - [bdwgc](https://github.com/bdwgc/bdwgc) 垃圾回收库，又叫 bdw-gc, boehm-gc, libgc。
 - [mjs](https://github.com/cesanta/mjs) 一个 JS 的运行库。
 - [QuickJS](https://github.com/quickjs-zh/QuickJS) 一个 JS 的解释器库。
-- [upscaledb](https://github.com/cruppstahl/upscaledb) 键值对型数据库实现。
-- [unqlite](https://github.com/symisc/unqlite) 键值对型数据库实现。
 - [libxml2](https://github.com/GNOME/libxml2) xml 库。
 - [libexpat](https://github.com/libexpat/libexpat) xml 库。
-- [sqlcipher](https://github.com/sqlcipher/sqlcipher) fork SQLite 加入了数据库文件 256bit AES 加密。
 - [lz4](https://github.com/lz4/lz4) 压缩算法库。
 - [zstd](https://github.com/facebook/zstd) 压缩算法库。
 - [zlib](https://github.com/madler/zlib) 压缩算法库。
 - [zlib-ng](https://github.com/zlib-ng/zlib-ng) 下一代 zlib 压缩算法库。
 - [minizip-ng](https://github.com/zlib-ng/minizip-ng) zip 处理库。
 - [libzip](https://github.com/nih-at/libzip) zip 文件处理库。
-- [groonga](https://github.com/groonga/groonga) 全文搜索引擎。
-- [hiredis](https://github.com/redis/hiredis) redis 客户端库。
 - [lemon](https://github.com/lemon-lang/lemon) 可内嵌的小型编程语言 lemon。
 - [mupdf](https://github.com/ArtifexSoftware/mupdf) PDF 库。
 - [pdfio](https://github.com/michaelrsweet/pdfio) PDF 库。
@@ -42,6 +37,14 @@
 - [minimp3](https://github.com/lieff/minimp3) 单头文件的 MP3 库。
 - [opus](https://github.com/xiph/opus) opus 音频库。
 - [cmdline](https://github.com/tanakh/cmdline) 命令行参数解析库。
+
+### 数据库
+
+- [hiredis](https://github.com/redis/hiredis) redis 客户端库。
+- [upscaledb](https://github.com/cruppstahl/upscaledb) 键值对型数据库实现。
+- [unqlite](https://github.com/symisc/unqlite) 键值对型数据库实现。
+- [sqlcipher](https://github.com/sqlcipher/sqlcipher) fork SQLite 加入了数据库文件 256bit AES 加密。
+- [groonga](https://github.com/groonga/groonga) 全文搜索引擎。
 
 ### 网络
 
@@ -69,6 +72,7 @@
 - [otfcc](https://github.com/caryll/otfcc) 字体工具库。
 - [libgd](https://github.com/libgd/libgd) GD 图形库。
 - [libpng](https://github.com/pnggroup/libpng) PNG 图片库。
+- [libwebp](https://github.com/webmproject/libwebp) webp 图片库。
 - [libjpeg-turbo](https://github.com/libjpeg-turbo/libjpeg-turbo) JPEG 图片库。
 - [mozjpeg](https://github.com/mozilla/mozjpeg) JPEG 图片库。
 - [nanovg](https://github.com/memononen/nanovg) 2D 矢量图库。

@@ -82,6 +82,7 @@ flutter logs --clear
 - [styled_widget](https://github.com/ReinBentdal/styled_widget) 链式的组件库。
 - [flutter_form_builder](https://github.com/flutter-form-builder-ecosystem/flutter_form_builder) Form 组件库。
 - [flutter_pdfview](https://github.com/endigo/flutter_pdfview) PDF 可视化组件。
+- [dart_pdf](https://github.com/DavBfr/dart_pdf) 生成 PDF 库，调用打印设备的库。
 - [flutter_hooks](https://github.com/rrousselGit/flutter_hooks) 仿 React Hooks 的 flutter 库，StatefulWidget 改用其 HookWidget 后 可以使用 use* 开头的各种 hook 开发，代码量可以少很多。
 - [bruno](https://github.com/LianjiaTech/bruno) 统一设计风格的 UI 组件库。
 - [flutter-webview-windows](https://github.com/jnschulze/flutter-webview-windows) Windows 下封装 WebView2 的库。

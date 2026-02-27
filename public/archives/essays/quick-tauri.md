@@ -6,3 +6,7 @@
 - [plugins-workspace](https://github.com/tauri-apps/plugins-workspace) 官方插件库源码
 
 ## 常用库
+
+## 示例、项目
+
+- [niva](https://github.com/bramblex/niva)

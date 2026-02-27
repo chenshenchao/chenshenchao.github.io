@@ -90,6 +90,7 @@
 
 ### AI 编程工具
 
+- [cursor](https://github.com/cursor/cursor)
 - [trae](https://www.trae.ai) 字节编程 AI IDE
 - [qcoder](https://qoder.com) 阿里编程 AI IDE
 - [qwen code](https://github.com/QwenLM/qwen-code) qwen code 源码
@@ -179,12 +180,14 @@ qwen
 - [cling](https://github.com/root-project/cling) C++ 解释器。
 - [tdm-gcc](https://github.com/jmeubank/tdm-gcc)
 - [llgo](https://github.com/go-llvm/llgo) 基于 LLVM 的 Go 编译器。
+- [assemblyscript](https://github.com/AssemblyScript/assemblyscript) 类 TS 的语言，用于生成 WASM。
 - [emscripten](https://github.com/emscripten-core/emscripten) 基于 LLVM 的 WASM 编译器。
 - [lisp](https://github.com/robpike/lisp) 一个 Lisp 1.5 解释器。(Go 语言)
 - [ninja](https://github.com/ninja-build/ninja) 谷歌用于取代 make 的跨平台构建脚本。
-- [meson](https://github.com/mesonbuild/meson) 基于 ninja 和 python 的构造系统。
+- [meson](https://github.com/mesonbuild/meson) 基于 ninja 和 python 的构建系统。
+- [buck2](https://github.com/facebook/buck2) facebook 构建系统。
 - [just](https://github.com/casey/just) 类 make 有 justfile 做为命令行配置，但是并不局限于构建，而是命令的执行。
-- [b2](https://github.com/bfgroup/b2) boost 使用的类 make 有 Jamfile 的 C++ 构造工具。
+- [b2](https://github.com/bfgroup/b2) boost 使用的类 make 有 Jamfile 的 C++ 构建工具。
 - [pyasm](https://github.com/grant-olson/pyasm) 动态内联 x86 汇编的 python 实现。
 - [yasm](https://github.com/yasm/yasm) x86 汇编器。
 - [panopticon](https://github.com/das-labor/panopticon) 反汇编器。
@@ -196,6 +199,7 @@ qwen
 - [stone](https://github.com/chibash/stone) 《两周自制脚本语言》示例脚本语言。
 - [nature](https://github.com/nature-lang/nature) 编程语言。
 - [OpenHSP](https://github.com/onitama/OpenHSP) Hot Soup 语言 Processor
+- [d2](https://github.com/terrastruct/d2) 类似 JSON 的绘图语言，用于绘制 2D 矢量图，思维导图等。
 - [jsonnet](https://github.com/google/jsonnet) 谷歌开发的类 JSON 的数据语言，官方只支持 c 和 python 模块，其他语言有第三方实现但是热度很低，实现堪忧。
 - [hhvm](https://github.com/facebook/hhvm) Hack 语言，由 PHP 扩展而来的语言。
 - [polarphp](https://github.com/polarphp/polarphp) 第三方的 PHP 编译器和运行时实现。
@@ -297,6 +301,7 @@ qwen
 - [vectordb](https://github.com/epsilla-cloud/vectordb) 向量数据库（C++ 语言），主要支持 python 的封装。
 - [rethinkdb](https://github.com/rethinkdb/rethinkdb) 文档数据库。
 - [cursusdb](https://github.com/cursusdb/cursusdb) （Go 语言）以 SQL 作为查询语言的文档数据库。
+- [sphinx](https://github.com/sphinxsearch/sphinx) 全文搜索引擎，已不维护。
 - [ElasticSearch](https://github.com/elastic/elasticsearch) 全文索引数据库（Java 语言）。
 - [zincsearch](https://github.com/zincsearch/zincsearch) 类 ElasticSearch 全文索引数据库（GO 语言）。
 - [gofound](https://github.com/sea-team/gofound) 全文索引数据库（GO 语言），HTTP 接口，有管理后台面板。
@@ -306,6 +311,7 @@ qwen
 - [Toshi](https://github.com/toshi-search/Toshi) 全文搜索引擎。
 - [quickwit](https://github.com/quickwit-oss/quickwit) 全文搜索引擎，开发了 tantivy 库。
 - [lnx](https://github.com/lnx-search/lnx) 基于 tantivy 的全文搜索引擎。
+- [FerretDB](https://github.com/FerretDB/FerretDB) MongoDB 的开源替代。
 - [yugabyte-db](https://github.com/yugabyte/yugabyte-db) 兼容 PostgreSQL 的分布式数据库。
 - [questdb](https://github.com/questdb/questdb) 时序数据库（rust 语言），支持多语言客户端。
 - [rustfs](https://github.com/rustfs/rustfs) rust 实现的高性能分布式对象存储。
@@ -374,7 +380,7 @@ qwen
 - [brlcad](https://github.com/BRL-CAD/brlcad) 安装后桌面多出3个图标，打开后没看懂是干嘛的。
 - [sunxi-tools](https://github.com/linux-sunxi/sunxi-tools) Sunxi 工具库。
 - [image2cpp](https://github.com/javl/image2cpp) 基于 web 端开发的一个把图片转成C++代码，用于 OLED 等显示设备。
-
+- [OpenSTA](https://github.com/parallaxsw/OpenSTA) 静态时序分析工具，支持通过 Verilog、SDC、SDF、TCL 分析。
 
 ### 硬件项目
 
@@ -393,6 +399,7 @@ qwen
 
 - [minecraft-again](https://github.com/jdah/minecraft-again) 我的世界复刻。
 - [Minecraft](https://github.com/fogleman/Minecraft) 基于 python pyglet 开发的简易 我的世界 。
+- [biomes-game](https://github.com/ill-inc/biomes-game) 基于 Next.js 开发的 Web 版类 我的世界 页游。
 - [Microverse](https://github.com/KsanaDock/Microverse) Godot 上帝视 2D 角沙盒游戏。
 - [jynew](https://github.com/jynew/jynew) 金庸群侠传3D重置。
 - [MapleStoryCopy](https://github.com/ZeromaXHe/MapleStoryCopy) 冒险岛 Godot 复刻。
@@ -401,7 +408,12 @@ qwen
 - [LibreMaple-Client](https://github.com/Libre-Maple/LibreMaple-Client) 冒险岛客户端复刻。
 - [MapleSolaxiaV2](https://github.com/Libre-Maple/MapleSolaxiaV2) 冒险岛服务端复刻。
 - [ms079](https://github.com/mrzhqiang/ms079) 冒险岛 v079
-- [MapleStory](https://github.com/ellermister/MapleStory) 冒险岛服务端复刻（对应客户端是二进制修改的官方客户端，没有源码）。
+- [BeiDou-Server](https://github.com/BeiDouMS/BeiDou-Server) 冒险岛 v083
+- [BeiDou-ijl15](https://github.com/BeiDouMS/BeiDou-ijl15)
+- [HeavenMS](https://github.com/ronancpl/HeavenMS) 冒险岛 v083 服务器复刻。
+- [MapleStory-Server](https://github.com/ryantpayton/MapleStory-Server) fork HeavenMS
+- [MapleStory-Client](https://github.com/ryantpayton/MapleStory-Client)
+- [MapleStory](https://github.com/ellermister/MapleStory) 冒险岛 v079 服务端复刻（对应客户端是二进制修改的官方客户端，没有源码）。
 - [WzComparerR2](https://github.com/Kagamia/WzComparerR2) 冒险岛资源提取器。
 - [Harepacker-resurrected](https://github.com/lastbattle/Harepacker-resurrected) 冒险岛 *.wz 资源提取器。
 - [NoLifeNx](https://github.com/NoLifeDev/NoLifeNx) Nx 文件提取库。

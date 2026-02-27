@@ -38,6 +38,7 @@ python -m http.server 8000
 - [segno](https://github.com/heuer/segno) 二维码生成库。
 - [pypdf](https://github.com/py-pdf/pypdf) PDF 库。
 - [pdfplumber](https://github.com/jsvine/pdfplumber) PDF 提取信息库。
+- [pdfium-lib](https://github.com/paulocoutinhox/pdfium-lib) pdfium 封装。
 - [RxPY](https://github.com/ReactiveX/RxPY) rx
 - [pytest](https://github.com/pytest-dev/pytest) 单元测试框架。
 - [pytest-order](https://github.com/pytest-dev/pytest-order) pytest 单元测试排序。
@@ -62,6 +63,7 @@ python -m http.server 8000
 - [deepface](https://github.com/serengil/deepface) 人脸识别库。
 - [insightface](https://github.com/deepinsight/insightface) 人脸识别库。
 - [faker](https://github.com/joke2k/faker) 调试数据生成库。
+- [celery](https://github.com/celery/celery) 任务队列，可以接入多种后端（redis、amqp、s3等）。
 
 ### UI 库
 
@@ -131,6 +133,12 @@ virtualenv .pyvenv -p /path/python
 ### 使用 uv 创建虚拟环境
 
 见下 uv 部分的项目管理。
+
+### pyenv
+
+- [pyenv 源码](https://github.com/pyenv/pyenv)
+
+管理、安装、切换 python 版本环境等。
 
 ### 使用 Visual Studio Code 快速使用和切换环境
 

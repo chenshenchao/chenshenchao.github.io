@@ -8,6 +8,7 @@
 - [folly](https://github.com/facebook/folly) facebook 开源工具库。
 - [0382 util](https://github.com/0382/util) 开源工具库。
 - [asmjit](https://github.com/asmjit/asmjit) JIT 库。
+- [asmtk](https://github.com/asmjit/asmtk)
 - [Poco](https://github.com/pocoproject/poco) 多功能库集合。
 - [tesseract](https://github.com/tesseract-ocr/tesseract) OCR 库。
 - [quill](https://github.com/odygrd/quill) 异步日志库。
@@ -25,6 +26,8 @@
 - [box2d-lite](https://github.com/erincatto/box2d-lite) 物理引擎 box2d 的 lite 版本。
 - [xlnt](https://github.com/tfussell/xlnt) xlsx 库。
 - [podofo](https://github.com/podofo/podofo) PDF 库。
+- [pdfium](https://github.com/chromium/pdfium) chromium 内置的 PDF 库。
+- [pdfium-binaries](https://github.com/bblanchon/pdfium-binaries) pdfium 的二进制编译。
 - [ncnn](https://github.com/Tencent/ncnn) 腾讯开源的移动端神经网络框架。
 - [actor-framework](https://github.com/actor-framework/actor-framework) actor 框架。
 - [rtorrent](https://github.com/rakshasa/rtorrent) Linux 下的 BitTorrent 命令行工具。
@@ -79,6 +82,8 @@
 - [soci](https://github.com/SOCI/soci) 数据库访问库。
 - [ormpp](https://github.com/qicosmos/ormpp) 支持 mysql, postgresql,sqlite 的 ORM 库。
 - [sqlite_orm](https://github.com/fnc12/sqlite_orm) 头文件 ORM 库，支付 50$ 可使用。
+- [duckdb](https://github.com/duckdb/duckdb) 把表格结构的文件当数据库使用，通过 SQL 操作。
+- [wcdb](https://github.com/Tencent/wcdb) 腾讯为微信开发的数据库框架，底层是 SQLite，支持 C++、Java、Kotlin、Swift、Objc 五种语言。
 
 ### 图形库
 
@@ -108,6 +113,7 @@
 - [lunasvg](https://github.com/sammycage/lunasvg) SVG 库。
 - [lodepng](https://github.com/lvandeve/lodepng) PNG 库。
 - [bmf](https://github.com/BabitMF/bmf) 多媒体库，提取视频帧等功能，支持 C++、python 等多语言。
+- [blend2d](https://github.com/blend2d/blend2d) 基于 asmjit 的 2D 图形库。
 
 ### boost
 

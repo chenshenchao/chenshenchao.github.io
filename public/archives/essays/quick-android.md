@@ -28,6 +28,8 @@
 - [android-gpuimage](https://github.com/cats-oss/android-gpuimage) 图片滤镜功能组件。
 - [android-gpuimage-plus](https://github.com/wysaid/android-gpuimage-plus) 图片滤镜功能组件。
 - [tinker](https://github.com/Tencent/tinker) 腾讯开源的热更新方案库。
+- [PdfiumAndroid](https://github.com/mshockwave/PdfiumAndroid) PDF 
+- [AndroidPdfViewer](https://github.com/DImuthuUpe/AndroidPdfViewer) PDF 组件。
 
 ## 开发工具
 

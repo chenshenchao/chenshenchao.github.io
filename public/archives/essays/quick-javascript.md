@@ -74,6 +74,7 @@
 - [d3](https://github.com/d3/d3) 图形图表库，细粒度的API。
 - [Chart.js](https://github.com/chartjs/Chart.js) 图形图表库。
 - [spritejs](https://github.com/spritejs/spritejs) 精灵组件。
+- [tippyjs](https://github.com/atomiks/tippyjs) tooltip、popuper、dropdown 等组件基础库。
 - [size-sensor](https://github.com/hustcc/size-sensor) DOM 元素大小缩放监听库。
 - [canvas-nest.js](https://github.com/hustcc/canvas-nest.js) 一个绘制 连线的 背景动画效果。
 - [multiscroll.js](https://github.com/alvarotrigo/multiscroll.js) 滚动分屏效果。

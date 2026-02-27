@@ -38,6 +38,8 @@
 - [xLua](https://github.com/Tencent/xLua) 为 C#（Unity, .Net, Mono）提供的 Lua 运行时实现。
 - [dotenv.net](https://github.com/bolorundurowb/dotenv.net) .env 库。
 - [ViewFaceCore](https://github.com/ViewFaceCore/ViewFaceCore) 人脸识别库。
+- [GeekServer](https://github.com/leeveel/GeekServer) 游戏服务器框架。
+- [Magick.NET](https://github.com/dlemstra/Magick.NET) 图片处理库。
 
 ### WinForms
 
@@ -58,6 +60,6 @@
 
 - [uno](https://github.com/unoplatform/uno)
 
-## 工具
+## 项目、示例
 
-- [dnSpy](https://github.com/dnSpy/dnSpy) .Net 调试器。
+- [EverythingToolbar](https://github.com/srwi/EverythingToolbar) Windows 下的工具栏应用，可以搜索文件等。
