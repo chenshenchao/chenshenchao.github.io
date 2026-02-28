@@ -46,6 +46,9 @@ nvm use 16
 - [cache-manager](https://github.com/nestjs/cache-manager) 缓存库。
 - [node-cache-manager-redis-store](https://github.com/dabroek/node-cache-manager-redis-store) cache-manager 使用 redis 客户端。
 - [git-js](https://github.com/steveukx/git-js) git 命令封装。
+- [node-glob](https://github.com/isaacs/node-glob) 提供多种 glob 函数库。
+- [globby](https://github.com/sindresorhus/globby) 提供 glob 功能函数库。
+- [esm](https://github.com/standard-things/esm) ECMAScript 模块加载器。
 
 ### Web
 
@@ -154,6 +157,17 @@ npm i -D electron --electron_mirror=https://..
 ### yarn
 
 最早解决 npm 的很多问题的工具，不过后来功能主键被 npm 吸纳，目前失去了优势。 
+
+```bash
+# 安装后 yarn 命令第一次就会执行初始化。
+npm install -g corepack
+
+# 切换版本，这个会切换成最新的 beta 版本。
+yarn init -2
+
+# 设置成 正式版本最新。
+yarn set version stable
+```
 
 ### [berry](https://github.com/yarnpkg/berry)
 

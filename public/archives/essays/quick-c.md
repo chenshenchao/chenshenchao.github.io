@@ -65,6 +65,7 @@
 
 - [sokol](https://github.com/floooh/sokol) 跨平台包括 3D 图形、多媒体等的单头文件库。
 - [SDL](https://github.com/libsdl-org/SDL) 
+- [SDL_image](https://github.com/libsdl-org/SDL_image) SDL 图片支持。
 - [libui](https://github.com/andlabs/libui) UI 图形库。
 - [libui-ng](https://github.com/libui-ng/libui-ng) fork libui 的 UI 图形库。
 - [raygui](https://github.com/raysan5/raygui) 设计风格比较独特的 UI 图形库。

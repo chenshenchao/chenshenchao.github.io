@@ -30,6 +30,7 @@
 - [tinker](https://github.com/Tencent/tinker) 腾讯开源的热更新方案库。
 - [PdfiumAndroid](https://github.com/mshockwave/PdfiumAndroid) PDF 
 - [AndroidPdfViewer](https://github.com/DImuthuUpe/AndroidPdfViewer) PDF 组件。
+- [hll-wp-therouter-android](https://github.com/HuolalaTech/hll-wp-therouter-android) 组件化方案。
 
 ## 开发工具
 

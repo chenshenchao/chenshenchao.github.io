@@ -117,6 +117,7 @@ qwen
 ### AI 工具
 
 - [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) 图片生成。
+- [upscayl](https://github.com/upscayl/upscayl) AI 分辨率放大清晰工具。
 - [muzic](https://github.com/microsoft/muzic) 音乐生成。
 
 ### 模拟器、虚拟机、仿真机、沙盒、浏览器、终端。
@@ -138,6 +139,8 @@ qwen
 - [v8](https://github.com/v8/v8)
 - [nushell](https://github.com/nushell/nushell)
 - [terminal](https://github.com/microsoft/terminal) Windows 新命令行终端。
+- [webvm](https://github.com/leaningtech/webvm) 浏览器端模拟 Linux 系统的虚拟机，网络通过封装转发，需要一个真实的服务器来转发。
+- [servo](https://github.com/servo/servo) 浏览器，可内嵌入应用。
 
 ### 项目与版本管理工具
 
@@ -173,8 +176,9 @@ qwen
 - [xray](https://github.com/atom-archive/xray) 基于 Electron 的一个文本编辑器。
 - [atom](https://github.com/atom/atom) 基于 Electron 的一个文本编辑器。
 - [liteide](https://github.com/visualfc/liteide) Go IDE
+- [pxt-microbit](https://github.com/microsoft/pxt-microbit)微软 microbit 的少儿编程 IDE。
 
-### 汇编器、编译器、解释器、调试器、构造工具、分析工具与代码生成器
+### 汇编器、链接器、编译器、解释器、调试器、构造工具、分析工具与代码生成器
 
 - [svg-filters](https://github.com/yoksel/svg-filters) SVG 滤镜代码生成器。
 - [dmc](https://github.com/DigitalMars/dmc) Digital Mars C/C++ 编译器。
@@ -222,6 +226,8 @@ qwen
 - [rufus](https://github.com/pbatard/rufus) USB 格式化工具。
 - [hey](https://github.com/rakyll/hey) Go 开发的压力测试命令行工具。
 - [winflexbison](https://github.com/lexxmark/winflexbison) windows 下的 flex 和 bison。
+- [mold](https://github.com/rui314/mold) 快速的 Unix 链接器，据说比 lld、ld 快。
+- [scala-js](https://github.com/scala-js/scala-js) scala 转 JS 编译器。
 
 ### 文件处理工具
 
@@ -253,6 +259,7 @@ qwen
 - [mkspiffs](https://github.com/igrr/mkspiffs) 解析 SPIFFS 工具。
 - [bifrost](https://github.com/ClessLi/bifrost) nginx 配置文件处理工具。
 - [dprint](https://github.com/dprint/dprint) rust 开发的跨平台的代码格式化命令行工具。
+- [fontforge](https://github.com/fontforge/fontforge) 字体文件编辑器。
 
 ### 办公软件与应用
 
@@ -268,7 +275,8 @@ qwen
 - [fonteditor](https://github.com/ecomfe/fonteditor) web 字体编辑器。
 - [calculator](https://github.com/microsoft/calculator) Windows 新计算器。
 - [carbon](https://github.com/carbon-app/carbon) 代码生成高亮且美观的图片的工具。
-- [gimp](https://github.com/GNOME/gimp) 绘图软件。
+- [gimp](https://github.com/GNOME/gimp) 基于 GTK 的像素图绘图软件。
+- [Pinta](https://github.com/PintaProject/Pinta) 基于 GTK 的像素图绘图软件，功能简单。
 - [tikzit](github.com/tikzit/tikzit) 简单的点线绘图软件。
 - [MODNET-Matting-tool](https://github.com/AIDajiangtang/MODNET-Matting-tool) 抠图工具。
 - [naps2](https://github.com/cyanfish/naps2) 扫描实体书成 PDF 的工具。

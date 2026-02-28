@@ -9,7 +9,9 @@
 ## 工具
 
 - [微软商店在线链接生成工具](https://store.rg-adguard.net/) 用来生成商店里的可用下载链接，而不仅只有图形界面显式的下载按钮。
-- [systeminformer](https://github.com/winsiderss/systeminformer) 类 ProcessExplorer 的工具。
+- [binskim](https://github.com/microsoft/binskim) 可以分析 PE 和 ELF 的命令行工具。
+- [systeminformer](https://github.com/winsiderss/systeminformer) 类 ProcessExplorer 的图形工具。
+- [process-governor](https://github.com/lowleveldesign/process-governor) 限制进程的内存、CPU使用数量等的命令行工具。
 
 ## 墙
 

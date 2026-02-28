@@ -101,6 +101,7 @@
 - [GuiLiteSamples](https://github.com/idea4good/GuiLiteSamples) GuiLite 示例。
 - [micro-gl](https://github.com/micro-gl/micro-gl) 单头文件，不依赖标准库，矢量图库。
 - [imgui](https://github.com/ocornut/imgui)
+- [implot](https://github.com/epezent/implot) 给 imgui 提供数据图表功能组件。
 - [GacUI](https://github.com/vczh-libraries/GacUI) 轮子哥的UI库。
 - [mygui](https://github.com/MyGUI/mygui) UI 库。
 - [nana](https://github.com/cnjinhao/nana)

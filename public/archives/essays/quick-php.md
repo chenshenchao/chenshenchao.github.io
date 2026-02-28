@@ -2,6 +2,7 @@
 
 - [php-sdk-binary-tools](https://github.com/microsoft/php-sdk-binary-tools) Windows 下 PHP 构建工具。
 - [zephir](https://github.com/zephir-lang/zephir) 编译型语言，用于 PHP C 扩展的开发。
+- [pie](https://github.com/php/pie) 取代 PECL 的下一代 C 扩展安装工具。
 
 ## 常用命令
 
@@ -23,6 +24,10 @@ php -S 0.0.0.0:80
 - [php-ext-xlswriter](https://github.com/viest/php-ext-xlswriter) XLSX 工具库。
 - [cphalcon](https://github.com/phalcon/cphalcon) 全栈框架。
 - [phpredis](https://github.com/phpredis/phpredis) redis 客户端。
+- [xhprof](https://github.com/phacility/xhprof) 已经不维护，函数级别的性能分析扩展。
+- [xhprof](https://github.com/longxinH/xhprof) fork phacility/xhprof 继续维护。
+- [php-xhprof-extension](https://github.com/tideways/php-xhprof-extension) for longxinH/xhprof。
+- [swow](https://github.com/swow/swow) 跨平台的协程 IO 引擎。
 
 ## Composer
 

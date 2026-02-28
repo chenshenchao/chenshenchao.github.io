@@ -376,6 +376,7 @@ fi
 - [Relm4](https://github.com/Relm4/Relm4)
 - [kas](https://github.com/kas-gui/kas)
 - [xilem](https://github.com/linebender/xilem) 实验性的桌面 UI 框架。
+- [masonry](https://github.com/linebender/masonry) 已经合并到 xilem 的 UI 设计工具。
 - [druid](https://github.com/linebender/druid) 桌面 UI 框架。
 - [orbtk](https://github.com/redox-os/orbtk)
 - [vizia](https://github.com/vizia/vizia) 声明式 UI 库。
@@ -392,6 +393,8 @@ fi
 - [amethyst](https://github.com/amethyst/amethyst) 游戏引擎，已废弃。
 - [rfd](https://github.com/PolyMeilex/rfd) 跨平台原生系统文件弹窗API封装库。
 - [femtovg](https://github.com/femtovg/femtovg) 2D 矢量绘图库。
+- [glazier](https://github.com/linebender/glazier) 跨平台窗口创建库。已经不维护。
+- [winit](https://github.com/rust-windowing/winit) 跨平台窗口创建库。
 
 ### 网络框架和库
 

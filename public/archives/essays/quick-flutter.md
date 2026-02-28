@@ -58,6 +58,7 @@ flutter logs --clear
 - [fluttercommunity 的 plus_plugins](https://github.com/fluttercommunity/plus_plugins) 提供一些获取设备信息、网络设置信息、传感器信息的库。
 - [fluttercommunity 的 font_awesome_flutter](https://github.com/fluttercommunity/font_awesome_flutter) [fontawesome](https://fontawesome.com/icons)图标库的flutter封装。
 - [fluttercommunity 的 flutter_launcher_icons](https://github.com/fluttercommunity/flutter_launcher_icons) 开发工具扩展，可以通过命令行和 pubspec.yaml 的配置生成图标。
+- [fluttercommunity 的 flutter_after_layout](https://github.com/fluttercommunity/flutter_after_layout) 组件首次布局事件。
 - [hugeicons-flutter](https://github.com/hugeicons/hugeicons-flutter) 图标库。
 - [flutter_slidable](https://github.com/letsar/flutter_slidable) 滑动单元格，类似 vant SwipeCell。
 - [flutter_swipe_action_cell](https://github.com/luckysmg/flutter_swipe_action_cell) 滑动单元格，类似 vant SwipeCell。

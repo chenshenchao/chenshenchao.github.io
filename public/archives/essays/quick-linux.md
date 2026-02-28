@@ -1,5 +1,9 @@
 # Linux 速查
 
+## 工具
+
+- [wine](https://github.com/wine-mirror/wine) 运行 Windows 应用的虚拟环境。
+
 ## 常用命令
 
 ```bash

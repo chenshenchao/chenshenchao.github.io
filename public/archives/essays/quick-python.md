@@ -74,6 +74,7 @@ python -m http.server 8000
 - [glooey](https://github.com/kxgames/glooey) pyglet UI 组件库。
 - [pyxel](https://github.com/kitao/pyxel) rust 开发的游戏引擎，脚本语言是 python 。
 - [pygame_gui](https://github.com/MyreMylar/pygame_gui)
+- [DearPyGui](https://github.com/hoffstadt/DearPyGui) ImGUI 的封装。
 
 ### Web 库
 
@@ -94,6 +95,9 @@ python -m http.server 8000
 
 - [PythonSSHServerTutorial](https://github.com/ramonmeza/PythonSSHServerTutorial) 使用 Paramiko 开发 SSH 服务器教程。
 - [rye](https://github.com/astral-sh/rye) 包管理工具，已经不维护，建议使用 uv 替代。
+- [pyright](https://github.com/microsoft/pyright) python 静态类型分析工具，有 VSCODE 插件。
+- [mypy](https://github.com/python/mypy)  python 静态类型检查器。
+- [codon](https://github.com/exaloop/codon) python 编译器，生成原生机器码，内置 NumPy。
 
 ## 虚拟环境
 

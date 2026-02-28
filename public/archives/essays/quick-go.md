@@ -89,8 +89,9 @@
 - [zmq4](https://github.com/pebbe/zmq4) ZeroMQ 实现。
 - [jet](https://github.com/CloudyKit/jet) HTML 模板引擎库。
 - [goview](https://github.com/foolin/goview) HTML 模板引擎库， html/template 的扩展。
-- [gorazor](https://github.com/sipin/gorazor) 类 C# 的 Razor 风格模板引擎库。
-- [pongo2](https://github.com/flosch/pongo2) 类 python 的 django 风格模板引擎库。
+- [gorazor](https://github.com/sipin/gorazor) 类 C# 的 Razor 风格 HTML 模板引擎库。
+- [pongo2](https://github.com/flosch/pongo2) 类 python 的 django 风格 HTML 模板引擎库。
+- [pushup](https://github.com/adhocteam/pushup) Go 风格的 HTML 模板引擎。
 - [jwt](https://github.com/golang-jwt/jwt) jwt 库。
 
 ### UI 库
