@@ -14,6 +14,7 @@
 - [ant-design-vue](https://github.com/vueComponent/ant-design-vue)
 - [tinymce-vue](https://github.com/tinymce/tinymce-vue) 富文本编辑器 TinyMCE 的 vue 封装。
 - [vue-office](https://github.com/501351981/vue-office) 支持word(.docx)、excel(.xlsx,.xls)、pdf、pptx等各类型office文件预览的vue组件集合。
+- [apollo](https://github.com/vuejs/apollo) 适配 Vue 的 apollo GraphQL 客户端。
 
 ### Vue3
 

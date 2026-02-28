@@ -41,6 +41,7 @@
 - [packr](https://github.com/gobuffalo/packr) go 低版本没有 embed 时，需要这个库来嵌入文件。
 - [jiebago](https://github.com/wangbin/jiebago) jieba 中文分词。
 - [mahonia](https://github.com/axgle/mahonia) 字符集转换库。
+- [protobuf-go](https://github.com/protocolbuffers/protobuf-go) protobuf
 
 ### 数据库
 
@@ -57,6 +58,7 @@
 - [bleve_index_api](https://github.com/blevesearch/bleve_index_api) bleve 索引API
 - [riot](https://github.com/go-ego/riot) 可内嵌的全文搜索数据库。
 - [gorm](https://github.com/go-gorm/gorm) 国人开发的 ORM ，动态类型，功能比较全。
+- [gorm gen](https://github.com/go-gorm/gen) gorm 的 DbFirst 代码生成工具。
 - [sqlite](https://github.com/glebarez/sqlite) 纯 Go 的 Sqlite GORM 驱动。
 - [sqlite](https://github.com/go-gorm/sqlite) Sqlite GORM 驱动，有 c 代码编译要求 c 编译环境（Windows 下装 tdm-gcc）。
 - [sqlx](https://github.com/jmoiron/sqlx) 扩展标准库 database/sql 的三方库。

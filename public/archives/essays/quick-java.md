@@ -32,6 +32,7 @@
 - [jSerialComm](https://github.com/Fazecast/jSerialComm) 串口库。
 - [mina](https://github.com/apache/mina) Apache 开源的一个 Web 框架。
 - [retrofit](https://github.com/square/retrofit) 类型安全的 HTTP 客户端。
+- [javassist](https://github.com/jboss-javassist/javassist) JVM 字节码工程库。
 
 ## 开发环境与包管理工具
 

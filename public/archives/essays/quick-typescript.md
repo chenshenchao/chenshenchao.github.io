@@ -1,5 +1,7 @@
 # TypeScript 速查
 
+- [TypeScript 源码](https://github.com/microsoft/TypeScript)
+
 ## 常用库
 
 - [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) @type/* 集合仓库，给 JS 库加上类型。

@@ -94,6 +94,7 @@
 - [highlight.js](https://github.com/highlightjs/highlight.js) 语法高亮库。
 - [marked](https://github.com/markedjs/marked) markedown 转 HTML 库。
 - [marked-highlight](https://github.com/markedjs/marked-highlight) marked 语法高亮扩展。
+- [chalk](https://github.com/chalk/chalk) 终端高亮，包括命令行和浏览器console。
 
 ### Web
 
@@ -119,7 +120,11 @@
 - [qrcodejs](https://github.com/davidshimjs/qrcodejs) 二维码生成库。
 - [glisp](https://github.com/baku89/glisp) 基于 lisp 语言做绘图编辑器。
 - [ws](https://github.com/websockets/ws) WebSocket 封装库，支持客户端和 NodeJS 服务端。
+- [axios](https://github.com/axios/axios) HTTP 客户端。
 - [js-cookie](https://github.com/js-cookie/js-cookie) cookie 库。
+- [js-bson](https://github.com/mongodb/js-bson) bson 库。
+- [grpc-web](https://github.com/improbable-eng/grpc-web) 已经停止维护，请使用官方 grpc-web
+- [grpc-web](https://github.com/grpc/grpc-web) grpc 浏览器端，需要像 Envoy 的代理做转发到 grpc 服务器。
 
 ## jsx
 

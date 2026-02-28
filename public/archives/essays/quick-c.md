@@ -102,3 +102,9 @@
 ## 示例、项目
 
 - [mpv](https://github.com/mpv-player/mpv) 跨平台视频播放器。
+
+## 工具
+
+- [c2go](https://github.com/elliotchance/c2go) C 源码转 GO 源码工具。
+- [c2go](https://github.com/goplus/c2go) C 源码转 GO 源码工具，已经停止维护。
+- [llgo](https://github.com/goplus/llgo) 基于 LLVM 的 GO 编译器，更好地和 C、Python 混编。

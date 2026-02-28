@@ -55,9 +55,10 @@ nvm use 16
 - [socket.io](https://github.com/socketio/socket.io) 服务器端以及浏览器端。
 - [loopback](https://github.com/strongloop/loopback) web 框架，工具齐全。
 - [fastify](https://github.com/fastify/fastify) web 服务器。
-- [Gracejs](https://github.com/xiongwilee/Gracejs) 基于 koa2 的框架，设计不太好。
 - [thinkjs](https://github.com/thinkjs/thinkjs) 仿 ThinkPHP 的后端框架。
 - [pug](https://github.com/pugjs/pug) HTML 模板引擎。
+- [midway](https://github.com/midwayjs/midway) 类 nestjs 的 web 框架。
+- [Gracejs](https://github.com/xiongwilee/Gracejs) 基于 koa2 的框架，设计不太好。
 - [koa](https://github.com/koajs/koa)
 - [koajs bodyparser](https://github.com/koajs/bodyparser)
 - [koajs router](https://github.com/koajs/router)
@@ -78,6 +79,8 @@ nvm use 16
 - [strapi](https://github.com/strapi/strapi) CMS 项目。
 - [egg](https://github.com/eggjs/egg) web 框架。
 - [eggjs static](https://github.com/eggjs/static)
+- [grpc-node](https://github.com/grpc/grpc-node)
+- [apollo-server](https://github.com/apollographql/apollo-server) GraphQL 服务器框架。
 
 ### UI
 
@@ -92,6 +95,7 @@ nvm use 16
 - [normalize.css](https://github.com/necolas/normalize.css) 统一不同浏览器的基础样式，主要是清除样式。
 - [mui](https://github.com/dcloudio/mui) DCloud 早期的项目，后转向 uniapp。
 - [GCanvas](https://github.com/alibaba/GCanvas) 阿里开源为 Weex 和 ReactNative 提供的 2D 渲染库。
+- [node-qrcode](https://github.com/soldair/node-qrcode) 二维码生成器。
 
 ## 包管理器
 

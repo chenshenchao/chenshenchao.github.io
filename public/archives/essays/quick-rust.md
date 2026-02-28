@@ -315,6 +315,7 @@ fi
 - [rust-protobuf](https://github.com/stepancheg/rust-protobuf) protobuf 第三方实现。
 - [tonic](https://github.com/hyperium/tonic) grpc 第三方实现。
 - [grpc-rs](https://github.com/tikv/grpc-rs) 封装官方 grpc 的第三方库。
+- [grpc-rust](https://github.com/stepancheg/grpc-rust) rust 实现 grpc 的第三方库，已不维护。
 - [hyper](https://github.com/hyperium/hyper)  HTTP 客户端。
 - [reqwest](https://github.com/seanmonstar/reqwest) HTTP 客户端。
 - [ureq](https://github.com/algesten/ureq) HTTP 客户端。

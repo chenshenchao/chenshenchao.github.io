@@ -1,6 +1,7 @@
 # [草稿]rollup 速查
 
 - [rollup 源码](https://github.com/rollup/rollup)
+- [官方插件集合](https://github.com/rollup/plugins)
 - [rolldown 源码](https://github.com/rolldown/rolldown)
 
 ```bash

@@ -38,6 +38,7 @@
 - [php7-internal《PHP7内核剖析》](https://github.com/pangudashu/php7-internal)
 - [frida-all-in-one《FRIDA操作手册》](https://github.com/hookmaster/frida-all-in-one)
 - [mydocker《自己动手写docker》](https://github.com/xianlubird/mydocker)
+- [bare-metal-programming-guide《裸机编程指南》](https://github.com/cpq/bare-metal-programming-guide) MCU 裸机编程。
 
 ## 资源站点
 
@@ -282,6 +283,9 @@ qwen
 - [naps2](https://github.com/cyanfish/naps2) 扫描实体书成 PDF 的工具。
 - [SweetHome3D 插件](https://github.com/valsr/SweetHome3D) SweetHome3D 是个免费装修家居设计软件，微软应用商店可搜索到，内置收费，而且很卡。
 - [calibre](https://github.com/kovidgoyal/calibre) 电子书管理系统。
+- [f3d](https://github.com/f3d-app/f3d) 快速查看 3D 模型文件的图形工具，提供了 libf3d 支持多语言内嵌。
+- [picx](https://github.com/XPoet/picx) 基于 github api 的 web 端图床工具。
+- [autocut](https://github.com/mli/autocut) 自动给视频生成字幕，并通过字幕来剪辑视频的命令行工具。
 
 ### 监控工具
 
@@ -303,11 +307,13 @@ qwen
 - [v2rayN](https://github.com/2dust/v2rayN) 桌面
 - [hysteria](https://github.com/apernet/hysteria)
 - [rustdesk](https://github.com/rustdesk/rustdesk) 远程桌面工具。
+- [trojan-go](https://github.com/p4gefau1t/trojan-go) Go 实现的 trojan 代理。
 
 ### 服务型工具
 
 - [nginx](https://github.com/nginx/nginx)
 - [caddy](https://github.com/caddyserver/caddy) go 语言实现的类 nginx 的服务器。
+- [envoy](https://github.com/envoyproxy/envoy) 代理，可以配合 grpc-web 把 HTTP/1.1 转成 HTTP/2.0 以支持 GRPC。
 - [uwsgi](https://github.com/unbit/uwsgi) uWSGI HTTP 服务器，官方主要支持 python 和 ruby 。
 - [marqo](https://github.com/marqo-ai/marqo) 基于 AI 的产品搜索服务，文本、图片等来搜索产品。
 - [oceanbase](https://github.com/oceanbase/oceanbase) 阿里蚂蚁开发的分布式关系数据库。
@@ -340,6 +346,7 @@ qwen
 - [redis](https://github.com/redis/redis) 键值对数据库。
 - [microsoftarchive redis](https://github.com/microsoftarchive/redis) redis 3.0 的 Windows 版本。
 - [KeyDB](https://github.com/Snapchat/KeyDB) 扩展 Redis 为多线程的项目。
+- [apollo](https://github.com/apolloconfig/apollo) Java 开发的配置管理服务器，有管理后台。
 - [etcd](https://github.com/etcd-io/etcd) Go 开发的配置管理服务器。
 - [Consul](https://github.com/hashicorp/consul) Go 开发的配置管理服务器。
 - [kubebrain](https://github.com/kubewharf/kubebrain) 为 k8s 用 Go 开发的配置管理服务器，兼容 etcd 的 API 协议。
@@ -399,6 +406,7 @@ qwen
 - [sunxi-tools](https://github.com/linux-sunxi/sunxi-tools) Sunxi 工具库。
 - [image2cpp](https://github.com/javl/image2cpp) 基于 web 端开发的一个把图片转成C++代码，用于 OLED 等显示设备。
 - [OpenSTA](https://github.com/parallaxsw/OpenSTA) 静态时序分析工具，支持通过 Verilog、SDC、SDF、TCL 分析。
+- [OpenSTA](https://github.com/The-OpenROAD-Project/OpenSTA) OpenROAD 的 静态时序分析工具，支持通过 Verilog、SDC、SDF、TCL 分析。
 
 ### 硬件项目
 

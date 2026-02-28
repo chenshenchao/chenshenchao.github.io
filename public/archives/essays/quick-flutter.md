@@ -52,6 +52,7 @@ flutter logs --clear
 - [riverpod](https://github.com/rrousselGit/riverpod) 状态管理库
 - [async_redux](https://github.com/marcglasberg/async_redux) 状态管理库
 - [flutter_screenutil](https://github.com/OpenFlutter/flutter_screenutil) 类似 web 前端 vw vh 按屏幕等比缩放，适合移动端应用。
+- [screen_autosize](https://github.com/CxmyDev/screen_autosize) 设计稿适配。
 - [ResponsiveFramework](https://github.com/Codelessly/ResponsiveFramework) 类似 web 前端的多媒体，响应适配不同尺寸的屏幕，适合桌面应用。
 - [responsive_sizer](https://github.com/CoderUni/responsive_sizer) 类似 web 前端 vw vh 按屏幕等比缩放，适合移动端应用。
 - [Sizer](https://github.com/TechnoPrashant/Sizer) 类似 web 前端 vw vh 按屏幕等比缩放，适合移动端应用。

@@ -126,6 +126,10 @@
 - [di](https://github.com/boost-ext/di) 依赖注入库。
 - [yap](https://github.com/boostorg/yap) 表达式库，通过占位符结合原生C++表达式可生成新函数。
 
+### 底层
+
+- [PHP-CPP](https://github.com/CopernicaMarketingSoftware/PHP-CPP) 开发 PHP 扩展。
+
 ## 包管理与构造工具
 
 ### [cmake](./quick-cmake.md)
