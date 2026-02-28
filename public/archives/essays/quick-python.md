@@ -93,6 +93,7 @@ python -m http.server 8000
 ### 示例、项目
 
 - [PythonSSHServerTutorial](https://github.com/ramonmeza/PythonSSHServerTutorial) 使用 Paramiko 开发 SSH 服务器教程。
+- [rye](https://github.com/astral-sh/rye) 包管理工具，已经不维护，建议使用 uv 替代。
 
 ## 虚拟环境
 
@@ -137,6 +138,7 @@ virtualenv .pyvenv -p /path/python
 ### pyenv
 
 - [pyenv 源码](https://github.com/pyenv/pyenv)
+- [pyenv-win 源码](https://github.com/pyenv-win/pyenv-win)
 
 管理、安装、切换 python 版本环境等。
 

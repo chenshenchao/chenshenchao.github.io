@@ -46,6 +46,7 @@
 - [faker-cxx](https://github.com/cieslarmichal/faker-cxx) 生成调试数据。
 - [gflags](https://github.com/gflags/gflags) 命令行参数处理库。
 - [CLI11](https://github.com/CLIUtils/CLI11) 命令行参数处理库。
+- [argparse](https://github.com/p-ranav/argparse) 命令行参数处理库。
 - [SeetaFace6Open](https://github.com/SeetaFace6Open/index) 人脸识别库。
 - [SeetaFace6](https://github.com/seetafaceengine/SeetaFace6) 人脸识别库。
 - [jsoncpp](https://github.com/open-source-parsers/jsoncpp) JSON 库。

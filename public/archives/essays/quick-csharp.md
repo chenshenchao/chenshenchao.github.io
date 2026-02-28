@@ -40,6 +40,7 @@
 - [ViewFaceCore](https://github.com/ViewFaceCore/ViewFaceCore) 人脸识别库。
 - [GeekServer](https://github.com/leeveel/GeekServer) 游戏服务器框架。
 - [Magick.NET](https://github.com/dlemstra/Magick.NET) 图片处理库。
+- [Rougamo](https://github.com/inversionhourglass/Rougamo) AOP 面向切面库。
 
 ### WinForms
 

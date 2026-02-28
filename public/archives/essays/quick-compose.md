@@ -6,6 +6,7 @@
 桌面用基于 swing 的 UI 框架；安卓用 compose ；IOS 用基于 ViewUI 的框架等。
 后来推出了 SharedUI 统一使用安卓的 compose 组件为基础去适配所有平台。
 
+- [compose-multiplatform 源码](https://github.com/JetBrains/compose-multiplatform)
 - [compose-multiplatform-template](https://github.com/JetBrains/compose-multiplatform-template) 已经废弃，早期开发工具不完善，通过复制这个模板项目开发，现在采用开发工具 IDE 等生成初始项目。
 
 ### 常用库
@@ -27,6 +28,10 @@
 - [accompanist](https://github.com/google/accompanist) 谷歌额外为 Jetpack Compose 提供的补充库。
 - [compose-webview](https://github.com/KevinnZou/compose-webview) 谷歌废弃安卓端的 WebView 封装，由第三方分叉。
 - [xblur-compose](https://github.com/x3rocode/xblur-compose) 仿 IOS 模糊弹窗组件。
+
+### 项目
+
+- [bilibilias](https://github.com/1250422131/bilibilias) 哔哩哔哩解析工具
 
 ### CompositionLocal 和 CompositionLocalProvider 
 

@@ -116,7 +116,8 @@ qwen
 
 ### AI 工具
 
-- [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+- [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) 图片生成。
+- [muzic](https://github.com/microsoft/muzic) 音乐生成。
 
 ### 模拟器、虚拟机、仿真机、沙盒、浏览器、终端。
 
@@ -182,6 +183,7 @@ qwen
 - [llgo](https://github.com/go-llvm/llgo) 基于 LLVM 的 Go 编译器。
 - [assemblyscript](https://github.com/AssemblyScript/assemblyscript) 类 TS 的语言，用于生成 WASM。
 - [emscripten](https://github.com/emscripten-core/emscripten) 基于 LLVM 的 WASM 编译器。
+- [wasmtime](https://github.com/bytecodealliance/wasmtime) wasm 运行时。
 - [lisp](https://github.com/robpike/lisp) 一个 Lisp 1.5 解释器。(Go 语言)
 - [ninja](https://github.com/ninja-build/ninja) 谷歌用于取代 make 的跨平台构建脚本。
 - [meson](https://github.com/mesonbuild/meson) 基于 ninja 和 python 的构建系统。
@@ -193,6 +195,7 @@ qwen
 - [panopticon](https://github.com/das-labor/panopticon) 反汇编器。
 - [yadcc](https://github.com/Tencent/yadcc) 分布式 C++ 编译器。
 - [vue-compiler](https://github.com/HerringtonDarkholme/vue-compiler) rust 开发的 vue 编译器。
+- [cairo](https://github.com/starkware-libs/cairo) 一个用 rust 开发，很像 rust 的语言。
 - [wenyan](https://github.com/wenyan-lang/wenyan) 文言文編程語言
 - [ChezScheme](https://github.com/cisco/ChezScheme) Lisp 方言。
 - [fanx](https://github.com/fanx-dev/fanx) 全栈编程语言。
@@ -206,7 +209,9 @@ qwen
 - [Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy) 可执行文件等多种文件查看探测器。
 - [DIE-engine](https://github.com/horsicq/DIE-engine) DIE 下载点。
 - [radare2](https://github.com/radareorg/radare2) 逆向分析框架。
+- [rizin](https://github.com/rizinorg/rizin) fork radare2 逆向分析框架。
 - [ghidra](https://github.com/NationalSecurityAgency/ghidra) 逆向分析工具。
+- [rz-ghidra](https://github.com/rizinorg/rz-ghidra) 基于 ghidra 逆向分析工具。
 - [cutter](https://github.com/rizinorg/cutter) 逆向分析工具。
 - [ILSpy](https://github.com/icsharpcode/ILSpy) .Net 字节码反编译器。
 - [frida](https://github.com/frida/frida) 逆向插桩工具。
@@ -216,6 +221,7 @@ qwen
 - [Dependencies](https://github.com/lucasg/Dependencies) C# 重写 depends.exe，用于查看 DLL 依赖的图形工具。
 - [rufus](https://github.com/pbatard/rufus) USB 格式化工具。
 - [hey](https://github.com/rakyll/hey) Go 开发的压力测试命令行工具。
+- [winflexbison](https://github.com/lexxmark/winflexbison) windows 下的 flex 和 bison。
 
 ### 文件处理工具
 
@@ -266,11 +272,14 @@ qwen
 - [tikzit](github.com/tikzit/tikzit) 简单的点线绘图软件。
 - [MODNET-Matting-tool](https://github.com/AIDajiangtang/MODNET-Matting-tool) 抠图工具。
 - [naps2](https://github.com/cyanfish/naps2) 扫描实体书成 PDF 的工具。
+- [SweetHome3D 插件](https://github.com/valsr/SweetHome3D) SweetHome3D 是个免费装修家居设计软件，微软应用商店可搜索到，内置收费，而且很卡。
+- [calibre](https://github.com/kovidgoyal/calibre) 电子书管理系统。
 
 ### 监控工具
 
-- [wireshark](https://github.com/wireshark/wireshark) 抓包工具。
-- [sniffnet](https://github.com/GyulyVGC/sniffnet) 网络监控工具。
+- [wireshark](https://github.com/wireshark/wireshark) 桌面抓包工具。
+- [sniffnet](https://github.com/GyulyVGC/sniffnet) 桌面网络监控抓包工具。
+- [proxypin](https://github.com/wanghongenpin/proxypin) 桌面、移动端抓包工具，Flutter 开发。
 - [grafana](https://github.com/grafana/grafana) Web 数据库监控面板。
 - [1Panel](https://github.com/1Panel-dev/1Panel) 服务器面板服务。
 - [syncd](https://github.com/dreamans/syncd) 服务器面板服务。
@@ -329,6 +338,7 @@ qwen
 - [zookeeper](https://github.com/apache/zookeeper) Java 开发的配置管理服务器。
 - [eureka](https://github.com/Netflix/eureka) Netflix 用 Java 开发的配置管理服务器。
 - [ONLYOFFICE](https://github.com/ONLYOFFICE) 囊括了 microsoft office 以及 adobe pdf 等办公文件处理和前端插件的一套技术解决方案，有免费版本。
+- [beanstalkd](https://github.com/beanstalkd/beanstalkd) 任务队列服务器。
 - [nats-server](https://github.com/nats-io/nats-server) 消息中间件服务，支持发布订阅（Pub/Sub）、请求响应（Request/Reply）、队列订阅（Queue） 三种核心通信模式。
 - [open-im-server](https://github.com/openimsdk/open-im-server) 即时通信服务器（Go 语言）
 - [mjpg-streamer](https://github.com/jacksonliam/mjpg-streamer) JPEG 帧推流命令行工具。

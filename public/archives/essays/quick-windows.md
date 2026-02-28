@@ -1,6 +1,17 @@
 # Windows 速查
 
-[微软商店在线链接生成工具](https://store.rg-adguard.net/) 用来生成商店里的可用下载链接，而不仅只有图形界面显式的下载按钮。
+- [WSL2-Linux-Kernel 源码](https://github.com/microsoft/WSL2-Linux-Kernel)
+
+## 常用库
+
+### [detours](https://github.com/microsoft/Detours)
+
+## 工具
+
+- [微软商店在线链接生成工具](https://store.rg-adguard.net/) 用来生成商店里的可用下载链接，而不仅只有图形界面显式的下载按钮。
+- [systeminformer](https://github.com/winsiderss/systeminformer) 类 ProcessExplorer 的工具。
+
+## 墙
 
 ```bat
 @rem CMD 命令行变量临时设置，配置 HTTP 代理
@@ -9,7 +20,6 @@ set HTTPS_PROXY=http://127.0.0.1:10808
 set HTTP_PROXY=socks5://127.0.0.1:10808
 set HTTPS_PROXY=socks5://127.0.0.1:10808
 ```
-
 
 ## Windows API
 
@@ -73,10 +83,6 @@ ipconfig
 # 获取网卡MAC信息，包括虚拟网卡。
 getmac /v
 ```
-
-## 常用库
-
-### [detours](https://github.com/microsoft/Detours)
 
 ## 转储文件
 
