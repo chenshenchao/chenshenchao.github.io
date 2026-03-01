@@ -382,7 +382,6 @@ fi
 - [druid](https://github.com/linebender/druid) 桌面 UI 框架。
 - [orbtk](https://github.com/redox-os/orbtk)
 - [vizia](https://github.com/vizia/vizia) 声明式 UI 库。
-- [dioxus](https://github.com/DioxusLabs/dioxus) 全栈框架，React 风格 rsx 界面开发。
 - [freya](https://github.com/marc2332/freya) 基于 skia 渲染，链式风格。
 - [gpui](https://www.gpui.rs/) Zed 编辑器团队开发的框架，源码在[zed 仓库](https://github.com/zed-industries/zed)里。
 - [gpui-component](https://github.com/longbridge/gpui-component) 基于 GPUI 的控件库。

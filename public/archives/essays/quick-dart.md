@@ -24,3 +24,4 @@ Dart 出来好几年却因为没有杀手应用而一直默默无闻，直到被
 - [pc-dart](https://github.com/bcgit/pc-dart) Pointy Castle 加密算法库。
 - [three_dart](https://github.com/wasabia/three_dart) three.js 的 dart 复刻版，3D绘图库。
 - [dart-orm](https://github.com/medz/dart-orm) 一个兼容 Prisma 的 ORM，已经停止维护。
+- [dart-mongo-lite](https://github.com/KaikyuLotus/dart-mongo-lite) 类似 mongodb 的可内嵌数据库。

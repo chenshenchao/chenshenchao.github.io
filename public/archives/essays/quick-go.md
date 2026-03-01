@@ -8,6 +8,7 @@
 
 - [testify](https://github.com/stretchr/testify) 测试库。
 - [golang-set](https://github.com/deckarep/golang-set) set 类型实现。
+- [concurrent-map](https://github.com/orcaman/concurrent-map) 线程安全的 map，go 1.9 之前没有 sync.Map。
 - [zap](https://github.com/uber-go/zap) 日志库。
 - [logrus](https://github.com/sirupsen/logrus) 结构化的日志库。
 - [zerolog](https://github.com/rs/zerolog) JSON 日志。
@@ -115,6 +116,11 @@
 - [wails](https://github.com/wailsapp/wails) 打包 Web 成 桌面应用 的框架。
 - [hover](https://github.com/go-flutter-desktop/hover) Go 封装 flutter 的桌面应用开发框架。
 - [spot](https://github.com/roblillack/spot) React 代码风格的 Go 桌面应用开发框架。
+
+## 项目
+
+- [gotify server](https://github.com/gotify/server) gotify 即时聊天服务器。
+- [gotify android](https://github.com/gotify/android) gotify 即时聊天安卓端。
 
 ## 常用命令
 

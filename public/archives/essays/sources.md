@@ -127,6 +127,7 @@ qwen
 - [Sandboxie](https://github.com/sandboxie/sandboxie) Windows 沙盒。
 - [Sandboxie plus](https://github.com/sandboxie-plus/Sandboxie) Windows 沙盒。
 - [usbipd-win](https://github.com/dorssel/usbipd-win) Windows 下共享 USB 设备给 Hyper-V 和 WSL2 的命令行工具。
+- [NoobBoy](https://github.com/Mika412/NoobBoy) C++ 开发的 GameBoy 模拟器。
 - [gameboy](https://github.com/mohanson/gameboy) rust 开发的 GameBoy 模拟器。
 - [PyBoy](https://github.com/Baekalfen/PyBoy) python 开发的 GameBoy 模拟器。
 - [gbdk-2020](https://github.com/gbdk-2020/gbdk-2020) GameBoy 开发套件。
@@ -316,6 +317,7 @@ qwen
 - [hysteria](https://github.com/apernet/hysteria)
 - [rustdesk](https://github.com/rustdesk/rustdesk) 远程桌面工具。
 - [trojan-go](https://github.com/p4gefau1t/trojan-go) Go 实现的 trojan 代理。
+- [nps](https://github.com/ehang-io/nps) 代理服务器，有后台。
 
 ### 服务型工具
 

@@ -81,6 +81,7 @@ flutter logs --clear
 - [print_bluetooth_thermal](https://github.com/andresperezmelo/print_bluetooth_thermal) 蓝牙打印库。
 - [flutter_esc_pos_utils](https://github.com/mjafartp/flutter_esc_pos_utils) ESC/POS 打印协议封装。
 - [tdesign](https://github.com/Tencent/tdesign-flutter) tdesign 的 flutter 版本，目前 alpha 阶段。
+- [flukit](https://github.com/flutterchina/flukit) 组件库。
 - [styled_widget](https://github.com/ReinBentdal/styled_widget) 链式的组件库。
 - [flutter_form_builder](https://github.com/flutter-form-builder-ecosystem/flutter_form_builder) Form 组件库。
 - [flutter_pdfview](https://github.com/endigo/flutter_pdfview) PDF 可视化组件。
@@ -89,6 +90,8 @@ flutter logs --clear
 - [bruno](https://github.com/LianjiaTech/bruno) 统一设计风格的 UI 组件库。
 - [flutter-webview-windows](https://github.com/jnschulze/flutter-webview-windows) Windows 下封装 WebView2 的库。
 - [qr_code_scanner](https://github.com/juliuscanute/qr_code_scanner) 二维码扫码。
+- [flutter_smooth](https://github.com/fzyzcjy/flutter_smooth) 强制屏幕刷新60帧每秒。
+- [flutter_boost](https://github.com/alibaba/flutter_boost) 阿里提供的把 Flutter 作为类似 WebView 那样嵌入到原生应用里。
 
 ## 常见问题
 

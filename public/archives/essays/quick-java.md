@@ -11,6 +11,7 @@
 - [undertow](https://github.com/undertow-io/undertow) Web 服务器。
 - [zxing](https://github.com/zxing/zxing) 条形码、二维码识别库。
 - [rhino](https://github.com/mozilla/rhino) 一个 JavaScript 实现。
+- [h2database](https://github.com/h2database/h2database) 可内嵌的关系数据库。
 - [jooq(Java Object Oriented Querying)](https://github.com/jOOQ/jOOQ) 只有查询功能的 ORM ，需要构建配置代码生成。
 - [mysql-binlog-connector-java](https://github.com/shyiko/mysql-binlog-connector-java)
 - [JasperReports](https://www.jaspersoft.com/products/jaspersoft-community) Java 开发的报表软件，[GitHub仓库](https://github.com/Jaspersoft/jasperreports)，功能上比市面上的 FastReport、ActiveReports 等要少一些，但是胜在有免费版。

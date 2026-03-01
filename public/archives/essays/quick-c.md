@@ -39,6 +39,8 @@
 - [cmdline](https://github.com/tanakh/cmdline) 命令行参数解析库。
 - [getopt](https://github.com/skeeto/getopt) 命令行参数解析库。
 - [coroutine](https://github.com/cloudwu/coroutine) 协程库。
+- [PurC](https://github.com/HVML/PurC) HVML 模板语言的解释器。
+- [flecs](https://github.com/SanderMertens/flecs) 类 U3D 的实体组件系统，把组件挂在实体上，使用组合，而非继承的方式。
 
 ### 数据库
 
@@ -51,6 +53,7 @@
 
 ### 网络
 
+- [h2o](https://github.com/h2o/h2o) HTTP 服务器。
 - [uSockets](https://github.com/uNetworking/uSockets) web 框架。
 - [msquic](https://github.com/microsoft/msquic) 微软的 QUIC 实现库。
 - [zpl](https://github.com/zpl-c/zpl) 工具集合库。

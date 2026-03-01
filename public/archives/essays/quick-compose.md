@@ -36,6 +36,7 @@
 
 - [bilibilias](https://github.com/1250422131/bilibilias) 哔哩哔哩解析工具
 - [PlayAndroid](https://github.com/linxiangcheer/PlayAndroid) 类 鸿洋的“玩安卓” 的 Jetpack Compose 版本
+- [connectbot](https://github.com/connectbot/connectbot) SSH 客户端。
 
 ### CompositionLocal 和 CompositionLocalProvider 
 

@@ -44,6 +44,8 @@
 - [android-crop](https://github.com/jdamcd/android-crop) 图片裁剪组件。
 - [SuperImageView](https://github.com/cesards/SuperImageView) 图片裁剪组件。
 - [butterknife](https://github.com/JakeWharton/butterknife) 用注解来绑定事件。
+- [glide](https://github.com/bumptech/glide) 图片 加载、缓存 库。
+- [Rubik](https://github.com/baidu/Rubik) 百度开源的组件化方案。
 
 ## 开发工具
 
