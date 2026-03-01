@@ -6,9 +6,15 @@
 - ddmlib 是 adb、ddms（后拆分成 Logcat、设备管理等多个工具，原 ddms 废弃，而 ddmlib 仍维护。） 的底层实现库，连接 adb server 或 adbd，包名：com.android.tools.ddms:ddmlib
 - adbd 端口号：5555；adb server 端口号：5037
 
-## 常用库
+## 官方库
 
 - [androidx](https://github.com/androidx/androidx) Android Jetpack
+- [media](https://github.com/androidx/media) 多媒体库，内置 ExoPlayer 视频播放器。
+- [ExoPlayer](https://github.com/google/ExoPlayer) 视频播放器，仓库已不更新，移动到 androidx media。
+
+## 常用库
+
+- [ijkplayer](https://github.com/bilibili/ijkplayer) 支持 安卓 和 IOS 的视频播放器。
 - [AndroidHiddenApiBypass](https://github.com/LSPosed/AndroidHiddenApiBypass) 安卓隐藏 API 调用库。
 - [LSPosed](https://github.com/LSPosed/LSPosed) Xposed 的延续。
 - [Xposed](https://github.com/rovo89/Xposed)
@@ -31,6 +37,9 @@
 - [PdfiumAndroid](https://github.com/mshockwave/PdfiumAndroid) PDF 
 - [AndroidPdfViewer](https://github.com/DImuthuUpe/AndroidPdfViewer) PDF 组件。
 - [hll-wp-therouter-android](https://github.com/HuolalaTech/hll-wp-therouter-android) 组件化方案。
+- [AnyChart-Android](https://github.com/AnyChart/AnyChart-Android) 图形图表库。
+- [RxAndroid](https://github.com/ReactiveX/RxAndroid) 绑定 RxJava3
+- [zxing-android-embedded](https://github.com/journeyapps/zxing-android-embedded) 条形码、二维码扫描，基于 zxing。
 
 ## 开发工具
 

@@ -73,6 +73,8 @@
 - [G6](https://github.com/antvis/G6) 图形图表库。
 - [d3](https://github.com/d3/d3) 图形图表库，细粒度的API。
 - [Chart.js](https://github.com/chartjs/Chart.js) 图形图表库。
+- [AnyChart](https://github.com/AnyChart/AnyChart) 图形图表库，有收费版本。
+- [GraphicsJS](https://github.com/AnyChart/GraphicsJS) 2D 绘图库，基于 SVG。
 - [spritejs](https://github.com/spritejs/spritejs) 精灵组件。
 - [tippyjs](https://github.com/atomiks/tippyjs) tooltip、popuper、dropdown 等组件基础库。
 - [size-sensor](https://github.com/hustcc/size-sensor) DOM 元素大小缩放监听库。
@@ -95,6 +97,7 @@
 - [marked](https://github.com/markedjs/marked) markedown 转 HTML 库。
 - [marked-highlight](https://github.com/markedjs/marked-highlight) marked 语法高亮扩展。
 - [chalk](https://github.com/chalk/chalk) 终端高亮，包括命令行和浏览器console。
+- [rp2040js](https://github.com/wokwi/rp2040js) JS 实现的 树莓派 Pico 的模拟器。
 
 ### Web
 

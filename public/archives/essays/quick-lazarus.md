@@ -55,6 +55,7 @@ Lazarus 是基于 Free Pascal 的一个 IDE。
 - [brookfreepascal](https://github.com/risoflora/brookfreepascal) Web 框架支持多种开发方式。
 - [fano](https://github.com/fanoframework/fano) web 框架。
 - [fano-cli](https://github.com/fanoframework/fano-cli) fano 的命令行工具。
+- [fpcupdeluxe](https://github.com/LongDirtyAnimAlf/fpcupdeluxe)
 
 ### 自定义软件包
 

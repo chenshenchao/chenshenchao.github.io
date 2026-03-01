@@ -16,6 +16,7 @@
 - [okio](https://github.com/square/okio) IO 库。
 - [compose-multiplatform-file-picker](https://github.com/Wavesonics/compose-multiplatform-file-picker) 文件选择器。
 - [PreCompose](https://github.com/Tlaster/PreCompose) 导航和状态管理库。
+- [coil](https://github.com/coil-kt/coil) 图片显示库。
 
 ## Jetpack Compose
 
@@ -23,16 +24,17 @@
 
 - [compose-samples](https://github.com/android/compose-samples) 官方示例。
 - [nowinandroid](https://github.com/android/nowinandroid) 官方开发的一个应用，也算示例吧。
+- [accompanist](https://github.com/google/accompanist) 谷歌额外为 Jetpack Compose 提供的补充库。
 
 ### 常用库
 
-- [accompanist](https://github.com/google/accompanist) 谷歌额外为 Jetpack Compose 提供的补充库。
 - [compose-webview](https://github.com/KevinnZou/compose-webview) 谷歌废弃安卓端的 WebView 封装，由第三方分叉。
 - [xblur-compose](https://github.com/x3rocode/xblur-compose) 仿 IOS 模糊弹窗组件。
 
 ### 项目
 
 - [bilibilias](https://github.com/1250422131/bilibilias) 哔哩哔哩解析工具
+- [PlayAndroid](https://github.com/linxiangcheer/PlayAndroid) 类 鸿洋的“玩安卓” 的 Jetpack Compose 版本
 
 ### CompositionLocal 和 CompositionLocalProvider 
 

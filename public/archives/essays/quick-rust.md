@@ -367,6 +367,7 @@ fi
 - [async-trait](https://github.com/dtolnay/async-trait) 解决有异步方法的 trait 不能支持 dyn trait 的问题。 
 - [apalis](https://github.com/apalis-dev/apalis) 后台进程库。
 - [rodio](https://github.com/RustAudio/rodio) 音频库。
+- [walkdir](https://github.com/BurntSushi/walkdir) 遍历文件夹库。
 
 ### UI 库
 

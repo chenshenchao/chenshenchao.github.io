@@ -44,6 +44,7 @@
 - [hiredis](https://github.com/redis/hiredis) redis 客户端库。
 - [upscaledb](https://github.com/cruppstahl/upscaledb) 键值对型数据库实现。
 - [unqlite](https://github.com/symisc/unqlite) 键值对型数据库实现。
+- [sqlite](https://github.com/sqlite/sqlite)
 - [sqlcipher](https://github.com/sqlcipher/sqlcipher) fork SQLite 加入了数据库文件 256bit AES 加密。
 - [groonga](https://github.com/groonga/groonga) 全文搜索引擎。
 
@@ -60,6 +61,7 @@
 - [cryptlib](https://github.com/cryptlib/cryptlib) TLS 等安全工具库。
 - [cyrus-sasl](https://github.com/cyrusimap/cyrus-sasl)
 - [gnutls](https://github.com/gnutls/gnutls) GNU TLS 库。
+- [openssl](https://github.com/openssl/openssl) TLS 等加密算法库。
 
 ### UI 图形库。
 

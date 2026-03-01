@@ -88,6 +88,7 @@ flutter logs --clear
 - [flutter_hooks](https://github.com/rrousselGit/flutter_hooks) 仿 React Hooks 的 flutter 库，StatefulWidget 改用其 HookWidget 后 可以使用 use* 开头的各种 hook 开发，代码量可以少很多。
 - [bruno](https://github.com/LianjiaTech/bruno) 统一设计风格的 UI 组件库。
 - [flutter-webview-windows](https://github.com/jnschulze/flutter-webview-windows) Windows 下封装 WebView2 的库。
+- [qr_code_scanner](https://github.com/juliuscanute/qr_code_scanner) 二维码扫码。
 
 ## 常见问题
 

@@ -11,6 +11,7 @@
 - [zap](https://github.com/uber-go/zap) 日志库。
 - [logrus](https://github.com/sirupsen/logrus) 结构化的日志库。
 - [zerolog](https://github.com/rs/zerolog) JSON 日志。
+- [lumberjack](https://github.com/natefinch/lumberjack) 文件滚动落盘日志库。
 - [pie](https://github.com/elliotchance/pie) 切片(slice) 和 字典(map) 功能扩展库。
 - [urfave/cli](https://github.com/urfave/cli) 命令行参数分析库。
 - [cobra](https://github.com/spf13/cobra) 命令行开发框架。
@@ -32,9 +33,12 @@
 - [captcha](https://github.com/dchest/captcha) 验证码。
 - [base64Captcha](https://github.com/mojocn/base64Captcha) base64 字符串格式的验证码。
 - [otto](https://github.com/robertkrimen/otto) 可内嵌的 JS 解释器。
+- [go-underscore](https://github.com/tobyhede/go-underscore) 工具库。
 - [mo](https://github.com/samber/mo) 函数式的算子库。
 - [lo](https://github.com/samber/lo) 链式库。
 - [do](https://github.com/samber/do) 依赖注入库。
+- [wire](https://github.com/google/wire) 编译时依赖注入库，已经不维护。
+- [dig](https://github.com/uber-go/dig) 反射依赖注入。
 - [mimetype](https://github.com/gabriel-vasile/mimetype) 通过文件头部来判断文件 MIME 类型。
 - [filetype](https://github.com/h2non/filetype) 通过文件头部来判断文件类型。
 - [gopsutil](https://github.com/shirou/gopsutil) 进程系统监控库。
@@ -42,6 +46,7 @@
 - [jiebago](https://github.com/wangbin/jiebago) jieba 中文分词。
 - [mahonia](https://github.com/axgle/mahonia) 字符集转换库。
 - [protobuf-go](https://github.com/protocolbuffers/protobuf-go) protobuf
+- [crypt2go](https://github.com/andreburgaud/crypt2go) 对标准的加密库的补充。
 
 ### 数据库
 
@@ -57,11 +62,13 @@
 - [blevex](https://github.com/blevesearch/blevex) bleve 扩展。
 - [bleve_index_api](https://github.com/blevesearch/bleve_index_api) bleve 索引API
 - [riot](https://github.com/go-ego/riot) 可内嵌的全文搜索数据库。
+- [gorp](https://github.com/go-gorp/gorp) 简易 ORM，需要手写 SQL 。
 - [gorm](https://github.com/go-gorm/gorm) 国人开发的 ORM ，动态类型，功能比较全。
 - [gorm gen](https://github.com/go-gorm/gen) gorm 的 DbFirst 代码生成工具。
 - [sqlite](https://github.com/glebarez/sqlite) 纯 Go 的 Sqlite GORM 驱动。
 - [sqlite](https://github.com/go-gorm/sqlite) Sqlite GORM 驱动，有 c 代码编译要求 c 编译环境（Windows 下装 tdm-gcc）。
 - [sqlx](https://github.com/jmoiron/sqlx) 扩展标准库 database/sql 的三方库。
+- [mysql](https://github.com/go-sql-driver/mysql) 给 database/sql 的 MySQL 驱动。
 - [go-mysql](https://github.com/go-mysql-org/go-mysql) 纯 Go 实现的 MySQL 客户端，支持binlog做数据迁移。
 - [go-linq](https://github.com/ahmetb/go-linq) 链式 SQL 拼接，远达不到 C# 的 LINQ 程度，没有改变 GO 语法。
 - [go-redis](https://github.com/redis/go-redis) redis 客户端。
@@ -72,10 +79,13 @@
 
 ### Web 框架
 
+- [go-zero](https://github.com/zeromicro/go-zero) 微服务 web 框架。
+- [fiber](https://github.com/gofiber/fiber) web 框架。
 - [echo](https://github.com/labstack/echo) web 框架。
 - [echo-swagger](github.com/swaggo/echo-swagger) 为 echo 提供的 OpenAPI 实现。
 - [kratos](https://github.com/go-kratos/kratos) 基于 Protobuf 的微服务框架。
 - [iris](https://github.com/kataras/iris) HTTP/2  Web 框架。
+- [chi](https://github.com/go-chi/chi) Web 框架。
 - [gf](https://github.com/gogf/gf)  Web 框架。
 - [go-micro](https://github.com/micro/go-micro) 简易的 Web 框架。
 - [go-micro plugins](https://github.com/go-micro/plugins)

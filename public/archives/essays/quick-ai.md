@@ -112,6 +112,7 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [Generative-Adversarial-Networks-Projects](https://github.com/PacktPublishing/Generative-Adversarial-Networks-Projects) 一些 GAN 模型。
 - [GFPGAN](https://github.com/TencentARC/GFPGAN) 照片人脸修复模型。
 - [tuneflow-py](https://github.com/tuneflow/tuneflow-py) 音频生成模型。
+- [DragGAN](https://github.com/XingangPan/DragGAN) 通过拖拽修改图片。
 
 
 ## AI 应用开发

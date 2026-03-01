@@ -1,6 +1,7 @@
 # PHP 速查
 
-- [php-sdk-binary-tools](https://github.com/microsoft/php-sdk-binary-tools) Windows 下 PHP 构建工具。
+- [php-sdk-binary-tools](https://github.com/php/php-sdk-binary-tools) Windows 下 PHP 构建工具。
+- [php-sdk-binary-tools](https://github.com/microsoft/php-sdk-binary-tools) 微软提供的，Windows 下 PHP 构建工具，已经交给 PHP 官方维护，此仓库不在维护。
 - [zephir](https://github.com/zephir-lang/zephir) 编译型语言，用于 PHP C 扩展的开发。
 - [pie](https://github.com/php/pie) 取代 PECL 的下一代 C 扩展安装工具。
 

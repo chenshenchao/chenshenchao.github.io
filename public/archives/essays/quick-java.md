@@ -24,6 +24,7 @@
 - [OpenPDF](https://github.com/LibrePDF/OpenPDF) PDF 库。
 - [pdfbox](https://github.com/apache/pdfbox) Apache 开源的 PDF 库。
 - [easyexcel](https://github.com/alibaba/easyexcel) 阿里开源的 Excel xls xlsx 处理库。
+- [poi](https://github.com/apache/poi) 微软 Office 相关的 Excel、Word 等的处理库。
 - [java-faker](https://github.com/DiUS/java-faker) 生成调试数据的库。
 - [datafaker](https://github.com/datafaker-net/datafaker) 生成调试数据的库。
 - [instancio](https://github.com/instancio/instancio) 生成数据的库，用于单元测试。

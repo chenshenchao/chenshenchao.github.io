@@ -135,6 +135,7 @@ qwen
 - [nes](https://github.com/fogleman/nes) Go 语言实现的 NES 红白机模拟器。
 - [jsnes](https://github.com/bfirsh/jsnes) JS 语言实现的 NES 红白机模拟器。
 - [dolphin](https://github.com/dolphin-emu/dolphin) GameCube 和 Wii 模拟器。
+- [Cemu](https://github.com/cemu-project/Cemu) Wii U 模拟器。
 - [rpcs3](https://github.com/RPCS3/rpcs3) PS3（PlayStation 3） 模拟器，调试器。
 - [chromium](https://github.com/chromium/chromium)
 - [v8](https://github.com/v8/v8)
@@ -201,12 +202,15 @@ qwen
 - [yadcc](https://github.com/Tencent/yadcc) 分布式 C++ 编译器。
 - [vue-compiler](https://github.com/HerringtonDarkholme/vue-compiler) rust 开发的 vue 编译器。
 - [cairo](https://github.com/starkware-libs/cairo) 一个用 rust 开发，很像 rust 的语言。
+- [red](https://github.com/red/red) 一个编程语言。
 - [wenyan](https://github.com/wenyan-lang/wenyan) 文言文編程語言
+- [lux](https://github.com/LuxLang/lux) 静态类型的 Lisp 语言。
 - [ChezScheme](https://github.com/cisco/ChezScheme) Lisp 方言。
 - [fanx](https://github.com/fanx-dev/fanx) 全栈编程语言。
 - [stone](https://github.com/chibash/stone) 《两周自制脚本语言》示例脚本语言。
 - [nature](https://github.com/nature-lang/nature) 编程语言。
 - [OpenHSP](https://github.com/onitama/OpenHSP) Hot Soup 语言 Processor
+- [carbon-lang](https://github.com/carbon-language/carbon-lang) 实验性的 C++ 后继语言。
 - [d2](https://github.com/terrastruct/d2) 类似 JSON 的绘图语言，用于绘制 2D 矢量图，思维导图等。
 - [jsonnet](https://github.com/google/jsonnet) 谷歌开发的类 JSON 的数据语言，官方只支持 c 和 python 模块，其他语言有第三方实现但是热度很低，实现堪忧。
 - [hhvm](https://github.com/facebook/hhvm) Hack 语言，由 PHP 扩展而来的语言。
@@ -286,6 +290,8 @@ qwen
 - [f3d](https://github.com/f3d-app/f3d) 快速查看 3D 模型文件的图形工具，提供了 libf3d 支持多语言内嵌。
 - [picx](https://github.com/XPoet/picx) 基于 github api 的 web 端图床工具。
 - [autocut](https://github.com/mli/autocut) 自动给视频生成字幕，并通过字幕来剪辑视频的命令行工具。
+- [Text-Grab](https://github.com/TheJoeFin/Text-Grab) 桌面 OCR 文字识别工具。
+- [xournalpp](https://github.com/xournalpp/xournalpp) *.xopp 的笔记编辑器。
 
 ### 监控工具
 
@@ -343,6 +349,7 @@ qwen
 - [minio](https://github.com/minio/minio) GO 实现的兼容 S3 的对象存储。
 - [tidb](https://github.com/pingcap/tidb) 分布式关系数据库。
 - [tikv](https://github.com/tikv/tikv) TiDB 的键值对数据库。
+- [IceFireDB](https://github.com/IceFireDB/IceFireDB) 兼容 redis 的分布式键值对数据库。
 - [redis](https://github.com/redis/redis) 键值对数据库。
 - [microsoftarchive redis](https://github.com/microsoftarchive/redis) redis 3.0 的 Windows 版本。
 - [KeyDB](https://github.com/Snapchat/KeyDB) 扩展 Redis 为多线程的项目。
