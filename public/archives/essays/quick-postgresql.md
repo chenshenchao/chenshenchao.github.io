@@ -8,6 +8,7 @@
 - [pg_jieba](https://github.com/jaiminpan/pg_jieba) jieba 中文分词插件。
 - [pgvector](https://github.com/pgvector/pgvector) 向量搜索插件。
 - [pgvecto.rs](https://github.com/tensorchord/pgvecto.rs) 向量搜索插件。
+- [zhparser](https://github.com/amutu/zhparser) 中文分词插件。
 
 ## 命令
 

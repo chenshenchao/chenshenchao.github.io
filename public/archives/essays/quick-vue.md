@@ -35,6 +35,7 @@
 #### 项目
 
 - [vue-manage-system](https://github.com/lin-xin/vue-manage-system) Vue3 + pinia + ElementPlus 管理后台项目。
+- [vue-element-plus-admin](https://github.com/kailong321200875/vue-element-plus-admin)
 
 ### Vue2
 

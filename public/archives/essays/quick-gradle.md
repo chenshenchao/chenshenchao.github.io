@@ -20,3 +20,4 @@
 ## 扩展
 
 - [gradle-bintray-plugin](https://github.com/bintray/gradle-bintray-plugin) 发布到 bintray 的插件。
+- [protobuf-gradle-plugin](https://github.com/google/protobuf-gradle-plugin) protobuf 生成代码扩展。

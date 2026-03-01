@@ -8,6 +8,15 @@ dotnet tool install --global dotnet-ef
 dotnet tool update --global dotnet-ef
 ```
 
+## 官方库
+
+- [yarp](https://github.com/dotnet/yarp) HTTP 代理。
+- [Microsoft.Maui.Graphics](https://github.com/dotnet/Microsoft.Maui.Graphics) 实验性的跨平台图形渲染库。
+
+## 常用库
+
+- [ExcelDna](https://github.com/Excel-DNA/ExcelDna) Excel 扩展 .xll 自定义计算函数开发工具。
+- [CommunityToolkit](https://github.com/CommunityToolkit/dotnet) 工具集合。
 
 ## 工具
 

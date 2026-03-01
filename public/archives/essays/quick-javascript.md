@@ -98,6 +98,7 @@
 - [marked-highlight](https://github.com/markedjs/marked-highlight) marked 语法高亮扩展。
 - [chalk](https://github.com/chalk/chalk) 终端高亮，包括命令行和浏览器console。
 - [rp2040js](https://github.com/wokwi/rp2040js) JS 实现的 树莓派 Pico 的模拟器。
+- [mind-map](https://github.com/wanglin2/mind-map) 思维导图组件。
 
 ### Web
 

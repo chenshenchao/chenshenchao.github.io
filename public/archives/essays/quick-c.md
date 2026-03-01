@@ -38,6 +38,7 @@
 - [opus](https://github.com/xiph/opus) opus 音频库。
 - [cmdline](https://github.com/tanakh/cmdline) 命令行参数解析库。
 - [getopt](https://github.com/skeeto/getopt) 命令行参数解析库。
+- [coroutine](https://github.com/cloudwu/coroutine) 协程库。
 
 ### 数据库
 

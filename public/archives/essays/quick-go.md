@@ -47,6 +47,9 @@
 - [mahonia](https://github.com/axgle/mahonia) 字符集转换库。
 - [protobuf-go](https://github.com/protocolbuffers/protobuf-go) protobuf
 - [crypt2go](https://github.com/andreburgaud/crypt2go) 对标准的加密库的补充。
+- [wagon](https://github.com/go-interpreter/wagon) Go 解释器，Go 语言编写生成 WASM，这样可以在浏览器里运行 Go，已停止维护。
+- [wazero](https://github.com/wazero/wazero) 零依赖 WASM 浏览器端 GO 语言解释器。
+- [ixgo](https://github.com/goplus/ixgo) go/xgo 解释器。
 
 ### 数据库
 

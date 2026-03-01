@@ -38,8 +38,12 @@
 - [AndroidPdfViewer](https://github.com/DImuthuUpe/AndroidPdfViewer) PDF 组件。
 - [hll-wp-therouter-android](https://github.com/HuolalaTech/hll-wp-therouter-android) 组件化方案。
 - [AnyChart-Android](https://github.com/AnyChart/AnyChart-Android) 图形图表库。
+- [williamchart](https://github.com/diogobernardino/williamchart) 图形图表库。
 - [RxAndroid](https://github.com/ReactiveX/RxAndroid) 绑定 RxJava3
 - [zxing-android-embedded](https://github.com/journeyapps/zxing-android-embedded) 条形码、二维码扫描，基于 zxing。
+- [android-crop](https://github.com/jdamcd/android-crop) 图片裁剪组件。
+- [SuperImageView](https://github.com/cesards/SuperImageView) 图片裁剪组件。
+- [butterknife](https://github.com/JakeWharton/butterknife) 用注解来绑定事件。
 
 ## 开发工具
 

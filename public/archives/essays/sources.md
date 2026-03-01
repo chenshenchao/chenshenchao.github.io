@@ -292,6 +292,7 @@ qwen
 - [autocut](https://github.com/mli/autocut) 自动给视频生成字幕，并通过字幕来剪辑视频的命令行工具。
 - [Text-Grab](https://github.com/TheJoeFin/Text-Grab) 桌面 OCR 文字识别工具。
 - [xournalpp](https://github.com/xournalpp/xournalpp) *.xopp 的笔记编辑器。
+- [vhs](https://github.com/charmbracelet/vhs) *.tape 脚本控制终端并录屏成 gif 演示图。
 
 ### 监控工具
 
@@ -303,6 +304,7 @@ qwen
 - [syncd](https://github.com/dreamans/syncd) 服务器面板服务。
 - [ansible](https://github.com/ansible/ansible) 脚本化的运维框架。
 - [netdata](https://github.com/netdata/netdata) 实时监控
+- [htop](https://github.com/hishamhm/htop) top 加强版。
 
 ### 代理、远程工具
 
@@ -388,6 +390,7 @@ qwen
 - [srs](https://github.com/ossrs/srs) 实时媒体服务器，可做直播服务器。
 - [packer](https://github.com/hashicorp/packer) docker 等容器镜像构建工具。
 - [distribution](https://github.com/distribution/distribution) docker 等容器镜像仓库服务。
+- [ttyd](https://github.com/tsl0922/ttyd) 把终端暴露成 web 页面的服务器。
 
 ### 硬件设计工具
 

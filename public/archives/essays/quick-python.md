@@ -98,6 +98,7 @@ python -m http.server 8000
 - [pyright](https://github.com/microsoft/pyright) python 静态类型分析工具，有 VSCODE 插件。
 - [mypy](https://github.com/python/mypy)  python 静态类型检查器。
 - [codon](https://github.com/exaloop/codon) python 编译器，生成原生机器码，内置 NumPy。
+- [ocr_TDR](https://github.com/jinxiwang/ocr_TDR) 一个 tensorflow 的 OCR 示例。
 
 ## 虚拟环境
 

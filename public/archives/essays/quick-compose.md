@@ -30,6 +30,7 @@
 
 - [compose-webview](https://github.com/KevinnZou/compose-webview) 谷歌废弃安卓端的 WebView 封装，由第三方分叉。
 - [xblur-compose](https://github.com/x3rocode/xblur-compose) 仿 IOS 模糊弹窗组件。
+- [charts](https://github.com/tehras/charts) 图形图表库。
 
 ### 项目
 

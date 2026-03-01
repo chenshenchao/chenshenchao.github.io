@@ -49,6 +49,7 @@ nvm use 16
 - [node-glob](https://github.com/isaacs/node-glob) 提供多种 glob 函数库。
 - [globby](https://github.com/sindresorhus/globby) 提供 glob 功能函数库。
 - [esm](https://github.com/standard-things/esm) ECMAScript 模块加载器。
+- [Detox](https://github.com/wix/Detox) 移动端 自动化测试脚本 开发框架。
 
 ### Web
 
@@ -84,6 +85,7 @@ nvm use 16
 
 ### UI
 
+- [aurelia](https://github.com/aurelia/framework) web 前端 UI 框架，没有虚拟DOM。
 - [svelte](https://github.com/sveltejs/svelte) UI 框架。
 - [qwik](https://github.com/QwikDev/qwik) web apps 的 UI 开发框架。
 - [storybook](https://github.com/storybookjs/storybook) web 与 app 的 UI 组件开发框架。
