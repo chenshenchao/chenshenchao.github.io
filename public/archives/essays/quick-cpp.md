@@ -12,7 +12,6 @@
 - [Poco](https://github.com/pocoproject/poco) 多功能库集合。
 - [tesseract](https://github.com/tesseract-ocr/tesseract) OCR 库。
 - [quill](https://github.com/odygrd/quill) 异步日志库。
-- [Detours](https://github.com/microsoft/Detours) Windows 下监听、拦截 API 调用的库。
 - [CSerialPort](https://github.com/itas109/CSerialPort) 跨平台串口库。
 - [serial](https://github.com/wjwwood/serial) 跨平台串口库。
 - [libserial](https://github.com/crayzeewulf/libserial) Linux 串口库。
@@ -22,6 +21,7 @@
 - [grpc](https://github.com/grpc/grpc) 官方实现。
 - [protobuf](https://github.com/protocolbuffers/protobuf)
 - [bond](https://github.com/microsoft/bond)
+- [filament](https://github.com/google/filament) 谷歌开源的多种平台物理引擎，有安卓封装的 aar 包等。
 - [box2d](https://github.com/erincatto/box2d) 2D 物理引擎。
 - [box2d-lite](https://github.com/erincatto/box2d-lite) 物理引擎 box2d 的 lite 版本。
 - [xlnt](https://github.com/tfussell/xlnt) xlsx 库。
@@ -90,7 +90,8 @@
 ### 图形库
 
 - [opencv](https://github.com/opencv/opencv)
-- [tgfx](https://github.com/Tencent/tgfx) 为了替代 skia 的 2D 图形绘制库。
+- [skia](https://github.com/google/skia)
+- [tgfx](https://github.com/Tencent/tgfx) 腾讯开源为了替代 skia 的 2D 图形绘制库。
 - [elements](https://github.com/cycfi/elements) 声明式的 UI 库，事件的设计上有缺失。
 - [wxWidgets](https://github.com/wxWidgets/wxWidgets) UI 开发框架。
 - [wxFormBuilder](https://github.com/wxFormBuilder/wxFormBuilder) wxWidgets Form 图形化绘制工具。
@@ -99,10 +100,13 @@
 - [cef](https://github.com/chromiumembedded/cef) Chromium Embedded Framework 源码。
 - [spire-engine](https://github.com/spire-engine/spire-engine) 3D 游戏引擎。
 - [GuiLite](https://github.com/idea4good/GuiLite)
+- [GuiLitePreviewer](https://github.com/idea4good/GuiLitePreviewer) GuiLite 语言工具。
 - [GuiLiteSamples](https://github.com/idea4good/GuiLiteSamples) GuiLite 示例。
 - [micro-gl](https://github.com/micro-gl/micro-gl) 单头文件，不依赖标准库，矢量图库。
 - [imgui](https://github.com/ocornut/imgui)
 - [implot](https://github.com/epezent/implot) 给 imgui 提供数据图表功能组件。
+- [ImGuiFileDialog](https://github.com/aiekick/ImGuiFileDialog)  imgui 文件选择弹窗。
+- [imnodes](https://github.com/Nelarius/imnodes) imgui 组件。
 - [GacUI](https://github.com/vczh-libraries/GacUI) 轮子哥的UI库。
 - [mygui](https://github.com/MyGUI/mygui) UI 库。
 - [nana](https://github.com/cnjinhao/nana)

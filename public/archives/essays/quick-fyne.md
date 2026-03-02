@@ -1,5 +1,10 @@
 # [草稿]Fyne 速查
 
+- [fyne 源码](https://github.com/fyne-io/fyne)
+- [fyne-cross](https://github.com/fyne-io/fyne-cross) 交叉编译工具
+
+跨平台 UI 开发框架，安卓端比较成熟。
+
 ```bash
 # 安装工具
 go install fyne.io/tools/cmd/fyne@latest
@@ -14,6 +19,10 @@ go mod tidy
 ```
 
 Icon.png 是必须的。
+
+## 项目
+
+- [fynedesk](https://github.com/FyshOS/fynedesk) 一个 Linux 桌面环境。
 
 ## 安卓
 

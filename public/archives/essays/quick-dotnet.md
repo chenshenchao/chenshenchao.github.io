@@ -8,19 +8,36 @@ dotnet tool install --global dotnet-ef
 dotnet tool update --global dotnet-ef
 ```
 
-## 官方库
+## 官方库和工具
 
 - [yarp](https://github.com/dotnet/yarp) HTTP 代理。
+- [TorchSharp](https://github.com/dotnet/TorchSharp) pytorch 封装。
+- [Open-XML-SDK](https://github.com/dotnet/Open-XML-SDK) Excel（xlsx）、Word（dosx）基于 XML 格式的处理库。 
 - [Microsoft.Maui.Graphics](https://github.com/dotnet/Microsoft.Maui.Graphics) 实验性的跨平台图形渲染库。
+- [ILMerge](https://github.com/dotnet/ILMerge) 把多个 .NET 程序集合并成一个的工具，已经不维护，依赖 .NET 4 运行时。
 
 ## 常用库
 
+- [ILPack](https://github.com/Lokad/ILPack) .NET Core IL 生成器。
+- [EPPlus](https://github.com/EPPlusSoftware/EPPlus) Excel 处理库。
 - [ExcelDna](https://github.com/Excel-DNA/ExcelDna) Excel 扩展 .xll 自定义计算函数开发工具。
+- [NetOffice](https://github.com/NetOfficeFw/NetOffice) 微软Office（Excel、Word等）插件开发工具。
 - [CommunityToolkit](https://github.com/CommunityToolkit/dotnet) 工具集合。
+- [NumSharp](https://github.com/SciSharp/NumSharp) 类 Numpy 的库。
+- [Numpy.NET](https://github.com/SciSharp/Numpy.NET) numpy 绑定。
+- [TensorFlow.NET](https://github.com/SciSharp/TensorFlow.NET) tensorflow 绑定。
+- [TensorFlowSharp](github.com/migueldeicaza/TensorFlowSharp)
+- [LiteDB](https://github.com/litedb-org/LiteDB) 可内嵌的单文件文档数据库。
+- [sharppcap](https://github.com/dotpcap/sharppcap) 跨平台，网络抓包库。
+- [Pcap.Net](https://github.com/PcapDotNet/Pcap.Net) WinPcap 封装，网络抓包库，多年没更新。
+- [NCache](https://github.com/Alachisoft/NCache) 分布式缓存库。
+- [graphql-dotnet](https://github.com/graphql-dotnet/graphql-dotnet) GraphQL 服务库。
 
 ## 工具
 
 - [dnSpy](https://github.com/dnSpy/dnSpy) .Net 调试器。
+- [il-repack](https://github.com/gluck/il-repack) 把多个 .NET 程序集合并成一个的工具，ILMerge 的开源替代。
+- [WebFirst](https://github.com/DotNetNext/WebFirst) Web 应用，通过 Excel 给数据库建表的工具。（为什么不用 DDL？）
 
 ## 单文件打包
 

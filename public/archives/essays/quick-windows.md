@@ -6,6 +6,8 @@
 
 ### [detours](https://github.com/microsoft/Detours)
 
+Windows 下监听、拦截 API 调用的库。
+
 ## 工具
 
 - [微软商店在线链接生成工具](https://store.rg-adguard.net/) 用来生成商店里的可用下载链接，而不仅只有图形界面显式的下载按钮。

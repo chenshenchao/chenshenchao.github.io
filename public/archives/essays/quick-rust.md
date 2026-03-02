@@ -321,6 +321,7 @@ fi
 - [ureq](https://github.com/algesten/ureq) HTTP 客户端。
 - [RustCrypto](https://github.com/RustCrypto) 加密库集合。
 - [RustCrypto traits](https://github.com/RustCrypto/traits)
+- [RustCrypto RSA](https://github.com/RustCrypto/RSA)
 - [RustCrypto AEADs](https://github.com/RustCrypto/AEADs)
 - [RustCrypto block-ciphers](https://github.com/RustCrypto/block-ciphers)
 - [RustCrypto MACs](https://github.com/RustCrypto/MACs) MAC 算法库。
@@ -423,6 +424,8 @@ fi
 
 - [toasty](https://github.com/tokio-rs/toasty) tokio 开发组开发的异步 ORM。
 - [teo](https://github.com/teodevgroup/teo) 纯 rust 的 ORM，不完善。
+- [rbatis](https://github.com/rbatis/rbatis) ORM
+- [tiberius](https://github.com/prisma/tiberius) prisma 开源的 微软 SQLServer(TDS) 客户端驱动。
 - [sqlx](https://github.com/launchbadge/sqlx) 纯 rust 的 SQL 生成和客户端库。
 - [sea-orm](https://github.com/SeaQL/sea-orm) 整合 sqlx 等库，适配 actix、axum 等多个框架，功能比较全，迁移、DbFirst、CodeFirst 不合理，生成代码和自定义代码没有分离。
 - [sea-query](https://github.com/SeaQL/sea-query) 查询 SQL 构建库。

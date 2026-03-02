@@ -51,6 +51,8 @@
 - [wagon](https://github.com/go-interpreter/wagon) Go 解释器，Go 语言编写生成 WASM，这样可以在浏览器里运行 Go，已停止维护。
 - [wazero](https://github.com/wazero/wazero) 零依赖 WASM 浏览器端 GO 语言解释器。
 - [ixgo](https://github.com/goplus/ixgo) go/xgo 解释器。
+- [compress](https://github.com/klauspost/compress) 压缩算法集合。
+- [brotli](https://github.com/andybalholm/brotli) 压缩算法 brotli 实现。
 
 ### 数据库
 
@@ -112,10 +114,11 @@
 
 ### UI 库
 
-- [fyne](https://github.com/fyne-io/fyne) 跨平台，安卓端比较成熟。
 - [wails](https://github.com/wailsapp/wails) 打包 Web 成 桌面应用 的框架。
 - [hover](https://github.com/go-flutter-desktop/hover) Go 封装 flutter 的桌面应用开发框架。
 - [spot](https://github.com/roblillack/spot) React 代码风格的 Go 桌面应用开发框架。
+- [imgui-go](https://github.com/inkyblackness/imgui-go) imgui 封装，已经不维护。
+- [cimgui-go](https://github.com/AllenDang/cimgui-go)  imgui 封装
 
 ## 项目
 

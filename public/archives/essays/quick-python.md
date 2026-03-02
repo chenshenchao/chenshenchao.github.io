@@ -65,6 +65,11 @@ python -m http.server 8000
 - [faker](https://github.com/joke2k/faker) 调试数据生成库。
 - [celery](https://github.com/celery/celery) 任务队列，可以接入多种后端（redis、amqp、s3等）。
 
+### 数据库
+
+- [mysqlclient](https://github.com/PyMySQL/mysqlclient) MySQL 连接库。
+- [PyMySQL](https://github.com/PyMySQL/PyMySQL) MySQL 客户端。
+
 ### UI 库
 
 - [kivy](https://github.com/kivy/kivy) UI框架，主移动端。

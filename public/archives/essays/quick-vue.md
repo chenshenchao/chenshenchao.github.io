@@ -50,6 +50,7 @@
 - [v-charts](https://github.com/ElemeFE/v-charts) vue2 + echarts 封装。
 - [rx-ts vue](https://github.com/rx-ts/vue) 基于 rx 开发的几个 Vue2 包集合（vue-{qrcode,qrious,resizor}）
 - [vue-rx](https://github.com/vuejs/vue-rx) vue2 整合 rx。
+- [vue-excel-editor](https://github.com/cscan/vue-excel-editor) Vue2 Excel 风格的表格编辑器。
 
 ## Options API 和 Composition API
 

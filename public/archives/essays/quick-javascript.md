@@ -64,8 +64,9 @@
 - [pickerjs](https://github.com/fengyuanchen/pickerjs) 日期选择器 UI 组件。
 - [viewerjs](https://github.com/fengyuanchen/viewerjs) 图片浏览器 UI 组件。
 - [cropperjs](https://github.com/fengyuanchen/cropperjs) 图片裁剪器 UI 组件。
-- [compressorjs](https://github.com/fengyuanchen/compressorjs) 图片压缩器 UI 组件。
+- [tui.image-editor](https://github.com/nhn/tui.image-editor) 图片裁剪器、编辑器 UI 组件。
 - [cropper](https://github.com/fengyuanchen/cropper) 基于 jQuery 的图片裁剪器 UI 组件。
+- [compressorjs](https://github.com/fengyuanchen/compressorjs) 图片压缩器。
 - [echarts](https://github.com/apache/echarts)
 - [echarts-wordcloud](https://github.com/ecomfe/echarts-wordcloud) echarts 组件。
 - [echarts-liquidfill](https://github.com/ecomfe/echarts-liquidfill) echarts 组件。

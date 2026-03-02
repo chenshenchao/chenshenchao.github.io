@@ -180,6 +180,7 @@ qwen
 - [atom](https://github.com/atom/atom) 基于 Electron 的一个文本编辑器。
 - [liteide](https://github.com/visualfc/liteide) Go IDE
 - [pxt-microbit](https://github.com/microsoft/pxt-microbit)微软 microbit 的少儿编程 IDE。
+- [lem](https://github.com/lem-project/lem) Common Lisp 开发的 IDE。
 
 ### 汇编器、链接器、编译器、解释器、调试器、构造工具、分析工具与代码生成器
 
@@ -294,6 +295,8 @@ qwen
 - [Text-Grab](https://github.com/TheJoeFin/Text-Grab) 桌面 OCR 文字识别工具。
 - [xournalpp](https://github.com/xournalpp/xournalpp) *.xopp 的笔记编辑器。
 - [vhs](https://github.com/charmbracelet/vhs) *.tape 脚本控制终端并录屏成 gif 演示图。
+- [openoffice](https://github.com/apache/openoffice) Apache 开源的兼容 微软Office 办公软件。
+- [MirrorX](https://github.com/MirrorX-Desktop/MirrorX) 远程桌面客户端，有配套的服务器。
 
 ### 监控工具
 
@@ -318,6 +321,7 @@ qwen
 - [rustdesk](https://github.com/rustdesk/rustdesk) 远程桌面工具。
 - [trojan-go](https://github.com/p4gefau1t/trojan-go) Go 实现的 trojan 代理。
 - [nps](https://github.com/ehang-io/nps) 代理服务器，有后台。
+- [frp](https://github.com/fatedier/frp)
 
 ### 服务型工具
 

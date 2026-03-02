@@ -18,7 +18,6 @@
 - [MySqlCdc](https://github.com/rusuly/MySqlCdc) MySQL binlog 客户端。
 - [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis) Redis 客户端。
 - [SQLiteCodeFirst](https://github.com/msallin/SQLiteCodeFirst)
-- [ILPack](https://github.com/Lokad/ILPack) .NET Core IL 生成器。
 - [GtkSharp](https://github.com/GtkSharp/GtkSharp) GTK 封装。
 - [gtk-sharp](https://github.com/mono/gtk-sharp) mono GTK 封装。
 - [xwt](https://github.com/mono/xwt) mono UI 库。
@@ -47,6 +46,10 @@
 - [bc-csharp](https://github.com/bcgit/bc-csharp) BouncyCastle.NET 加密算法库。
 - [cs-script](https://github.com/oleg-shilo/cs-script) C# 的解释器，可以内嵌程序里，也有命令行。
 
+### Blazor
+
+- [LocalStorage](https://github.com/Blazored/LocalStorage)
+
 ### WinForms
 
 - [WinForms 源码](https://github.com/dotnet/winforms)
@@ -69,3 +72,7 @@
 ## 项目、示例
 
 - [EverythingToolbar](https://github.com/srwi/EverythingToolbar) Windows 下的工具栏应用，可以搜索文件等。
+
+## 工具
+
+- [SvgToXaml](https://github.com/BerndK/SvgToXaml) SVG 转成 XAML 的图形工具。

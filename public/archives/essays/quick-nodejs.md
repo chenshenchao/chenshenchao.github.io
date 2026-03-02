@@ -50,6 +50,7 @@ nvm use 16
 - [globby](https://github.com/sindresorhus/globby) 提供 glob 功能函数库。
 - [esm](https://github.com/standard-things/esm) ECMAScript 模块加载器。
 - [Detox](https://github.com/wix/Detox) 移动端 自动化测试脚本 开发框架。
+- [brotli](https://github.com/google/brotli) 谷歌开源的压缩算法。
 
 ### Web
 
