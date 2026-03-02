@@ -349,6 +349,7 @@ fi
 - [datafusion](https://github.com/apache/datafusion) 用 SQL 处理 CSV、JSON、Parquet、Avro、Arrow 等文件的库，可自定义文件格式做扩展。
 - [calamine](https://github.com/tafia/calamine) 纯 Rust 实现 Excel/OpenDocument（xls、xlsx） 库。
 - [rust_xlsxwriter](https://github.com/jmcnamara/rust_xlsxwriter) Excel xlsx 文件创建库。
+- [xlsxwriter-rs](https://github.com/informationsea/xlsxwriter-rs) Excel xlsx 文件创建库。
 - [umya-spreadsheet](https://github.com/MathNya/umya-spreadsheet) Excel xlsx 文件处理库。
 - [lopdf](https://github.com/J-F-Liu/lopdf) PDF 库。
 - [pdf-rs](https://github.com/pdf-rs/pdf) PDF 库。
@@ -477,6 +478,10 @@ fi
 - [winapi-kmd-rs](https://github.com/pravic/winapi-kmd-rs) 开发 Windows 驱动工具。
 - [windows-drivers-rs](https://github.com/microsoft/windows-drivers-rs) 微软开源的开发 Windows 驱动工具。
 - [windows-service-rs](https://github.com/mullvad/windows-service-rs) Windows 服务开发库。
+
+## 工具、项目、示例
+
+- [KuiBaDB](https://github.com/KuiBaDB/KuiBaDB) 一个 OLAP 数据库实现。
 
 ## 兼容
 

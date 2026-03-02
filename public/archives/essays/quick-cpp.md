@@ -12,6 +12,7 @@
 - [Poco](https://github.com/pocoproject/poco) 多功能库集合。
 - [tesseract](https://github.com/tesseract-ocr/tesseract) OCR 库。
 - [quill](https://github.com/odygrd/quill) 异步日志库。
+- [spdlog](https://github.com/gabime/spdlog) 日志库。
 - [CSerialPort](https://github.com/itas109/CSerialPort) 跨平台串口库。
 - [serial](https://github.com/wjwwood/serial) 跨平台串口库。
 - [libserial](https://github.com/crayzeewulf/libserial) Linux 串口库。
@@ -52,6 +53,7 @@
 - [jsoncpp](https://github.com/open-source-parsers/jsoncpp) JSON 库。
 - [configor](https://github.com/l33oo/configor) 配置管理库，目前只支持 JSON 格式。
 - [yaml-cpp](https://github.com/jbeder/yaml-cpp) yaml 库。
+- [botan](https://github.com/randombit/botan) 加密工具库。
 
 ### 网络
 
@@ -99,6 +101,7 @@
 - [assimp](https://github.com/assimp/assimp) 支持 40+ 种 3D 资源文件加载库。
 - [SFML](https://github.com/SFML/SFML) 多媒体库。
 - [cef](https://github.com/chromiumembedded/cef) Chromium Embedded Framework 源码。
+- [miniblink49](https://github.com/weolar/miniblink49) 拆了 chrome49 的 blink 开发的可内嵌浏览器，可兼容老机器。
 - [spire-engine](https://github.com/spire-engine/spire-engine) 3D 游戏引擎。
 - [GuiLite](https://github.com/idea4good/GuiLite)
 - [GuiLitePreviewer](https://github.com/idea4good/GuiLitePreviewer) GuiLite 语言工具。

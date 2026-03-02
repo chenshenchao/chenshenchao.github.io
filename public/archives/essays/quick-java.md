@@ -39,6 +39,9 @@
 - [javassist](https://github.com/jboss-javassist/javassist) JVM 字节码工程库。
 - [mina-sshd](https://github.com/apache/mina-sshd) SSH 库。
 - [sshj](https://github.com/hierynomus/sshj) ssh、scp 功能库。
+- [miniscript](https://github.com/mini2Dx/miniscript) 支持 Lua、Ruby 等的多语言解释器。
+- [jnr-ffi](https://github.com/jnr/jnr-ffi) FFI 库。
+- [java-cef](https://github.com/chromiumembedded/java-cef) CEF 绑定封装。
 
 ## 开发环境与包管理工具
 

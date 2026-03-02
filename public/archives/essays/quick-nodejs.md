@@ -33,6 +33,7 @@ nvm use 16
 - [oxc](https://github.com/oxc-project/oxc) rust 开发的一个高性能库，有 JS/TS 解释器、压缩等。
 - [mysql](https://github.com/mysqljs/mysql) 纯 JS MySQL 客户端。
 - [node-mysql2](https://github.com/sidorares/node-mysql2) MySQL 客户端。
+- [zongji](https://github.com/nevill/zongji) MySQL binlog 库。
 - [keyv](https://github.com/jaredwray/keyv) 键值对库，适配 valkey、sqlite、MySQL 等。
 - [pkg](https://github.com/vercel/pkg) 打包项目成可执行文件。
 - [cross-env](https://github.com/kentcdodds/cross-env) package.json scripts 命令环境变量设置。

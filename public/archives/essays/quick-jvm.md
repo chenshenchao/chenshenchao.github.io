@@ -2,6 +2,7 @@
 
 - [graal](https://github.com/oracle/graal) GraalVM 源码
 - [graalvm-ce-builds](https://github.com/graalvm/graalvm-ce-builds) GraalVM 下载地址。
+- [jruby](https://github.com/jruby/jruby) JVM 里的 ruby 
 
 ## 类型描述
 

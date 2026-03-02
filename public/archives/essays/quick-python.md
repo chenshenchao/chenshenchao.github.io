@@ -58,6 +58,7 @@ python -m http.server 8000
 - [comtypes](https://github.com/enthought/comtypes) COM（Component Object Model）调用库。
 - [pymunk](https://github.com/viblo/pymunk) 2D 物理引擎。
 - [requests](https://github.com/psf/requests) HTTP 客户端库。
+- [httpx](https://github.com/encode/httpx) HTTP 客户端库。
 - [ffmpeg-python](https://github.com/kkroening/ffmpeg-python) ffmpeg 绑定封装库。
 - [sly](https://github.com/dabeaz/sly) 类 lex、yacc 的 python 库（面向对象设计）。 
 - [ply](https://github.com/dabeaz/ply) 类 lex、yacc 的 python 库（面向过程设计）。 
@@ -70,6 +71,7 @@ python -m http.server 8000
 - [playwright-python](https://github.com/microsoft/playwright-python) 微软开源的无头浏览器自动化库。
 - [SeleniumBase](https://github.com/seleniumbase/SeleniumBase) 无头浏览器自动化库。
 - [poium](https://github.com/SeldomQA/poium) 适配 playwright、selenium、appium 的自动化框架。
+- [Airtest](https://github.com/AirtestProject/Airtest) 自动化框架。
 
 ### 数据库
 

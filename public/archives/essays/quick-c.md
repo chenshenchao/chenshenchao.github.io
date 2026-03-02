@@ -44,6 +44,7 @@
 - [flecs](https://github.com/SanderMertens/flecs) 类 U3D 的实体组件系统，把组件挂在实体上，使用组合，而非继承的方式。
 - [libmatoya](https://github.com/snowcone-ltd/libmatoya) 工具库。
 - [libssh2](https://github.com/libssh2/libssh2) SSH2 库。
+- [libffi](https://github.com/libffi/libffi) ffi 库。
 
 ### 数据库
 

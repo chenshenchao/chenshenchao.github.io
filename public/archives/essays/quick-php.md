@@ -29,6 +29,8 @@ php -S 0.0.0.0:80
 - [xhprof](https://github.com/longxinH/xhprof) fork phacility/xhprof 继续维护。
 - [php-xhprof-extension](https://github.com/tideways/php-xhprof-extension) for longxinH/xhprof。
 - [swow](https://github.com/swow/swow) 跨平台的协程 IO 引擎。
+- [phptrace](https://github.com/Qihoo360/phptrace) 360 开源的跟踪探针调试插件。
+- [Molten](https://github.com/chuan-yun/Molten) 跟踪探针调试插件。
 
 ## Composer
 
@@ -51,6 +53,7 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [FastRoute](https://github.com/nikic/FastRoute) 路由库。
 - [WordPress](https://github.com/WordPress/WordPress)
 - [Requests](https://github.com/WordPress/Requests) HTTP 客户端库。
+- [guzzle](https://github.com/guzzle/guzzle) HTTP 客户端库。
 - [uuid](https://github.com/ramsey/uuid) uuid 库。
 - [laravel](https://github.com/laravel/laravel) PHP 界的 Spring ，功能齐全，就是有点重，服务器要求比其他 PHP 框架高，不然会卡。
 - [symfony](https://github.com/symfony/symfony) Web 框架，拆分出很多基础库，ThinkPHP 大量复用它的基础库。
@@ -83,6 +86,7 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [PHP-Parser](https://github.com/nikic/PHP-Parser) PHP 写的 PHP 语法分析器。
 - [pinyin](https://github.com/overtrue/pinyin) 中文转拼音。
 - [pest](https://github.com/pestphp/pest) 测试框架。
+- [puphpeteer](https://github.com/rialto-php/puphpeteer) puppeteer 的封装。
 
 ## 命令规范
 

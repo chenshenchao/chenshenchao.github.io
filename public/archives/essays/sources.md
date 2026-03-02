@@ -18,6 +18,7 @@
 - [public-apis](https://github.com/public-apis/public-apis) 公开免费 API 汇集列表。
 - [blog](https://github.com/dongyuanxin/blog) 专注Web与算法
 - [moonbit-docs](https://github.com/moonbitlang/moonbit-docs) MoonBit 月兔语言文档。
+- [puppeteer-deep](https://github.com/zhentaoo/puppeteer-deep) puppeteer 的一些示例。
 
 ## 开源书籍
 
@@ -308,7 +309,8 @@ qwen
 - [sniffnet](https://github.com/GyulyVGC/sniffnet) 桌面网络监控抓包工具。
 - [proxypin](https://github.com/wanghongenpin/proxypin) 桌面、移动端抓包工具，Flutter 开发。
 - [grafana](https://github.com/grafana/grafana) Web 数据库监控面板。
-- [1Panel](https://github.com/1Panel-dev/1Panel) 服务器面板服务。
+- [BaoTa](https://github.com/aaPanel/BaoTa) 服务器运维面板服务。
+- [1Panel](https://github.com/1Panel-dev/1Panel) 服务器运维面板服务。
 - [syncd](https://github.com/dreamans/syncd) 服务器面板服务。
 - [ansible](https://github.com/ansible/ansible) 脚本化的运维框架。
 - [netdata](https://github.com/netdata/netdata) 实时监控
