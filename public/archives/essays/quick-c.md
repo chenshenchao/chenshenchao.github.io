@@ -26,6 +26,7 @@
 - [mupdf](https://github.com/ArtifexSoftware/mupdf) PDF 库。
 - [pdfio](https://github.com/michaelrsweet/pdfio) PDF 库。
 - [libxls](https://github.com/libxls/libxls) Excel xls 文件处理库。
+- [libxlsxwriter](https://github.com/jmcnamara/libxlsxwriter) Excel xlsx 文件创建库。
 - [librg](https://github.com/zpl-c/librg) 多玩家游戏开发库。
 - [json-parser](https://github.com/json-parser/json-parser) json 序列化库。
 - [cJSON](https://github.com/DaveGamble/cJSON)  json 序列化库。
@@ -42,6 +43,7 @@
 - [PurC](https://github.com/HVML/PurC) HVML 模板语言的解释器。
 - [flecs](https://github.com/SanderMertens/flecs) 类 U3D 的实体组件系统，把组件挂在实体上，使用组合，而非继承的方式。
 - [libmatoya](https://github.com/snowcone-ltd/libmatoya) 工具库。
+- [libssh2](https://github.com/libssh2/libssh2) SSH2 库。
 
 ### 数据库
 

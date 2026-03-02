@@ -82,6 +82,7 @@
 - [go-duckdb](https://github.com/marcboeker/go-duckdb) database/sql 的 duckDB 引擎。
 - [btree](https://github.com/google/btree) 谷歌开发的一个b树实现。
 - [go-adaptive-radix-tree](https://github.com/plar/go-adaptive-radix-tree) ART树实现。
+- [mongo-go-driver](https://github.com/mongodb/mongo-go-driver)  mongo 客户端驱动。
 
 ### Web 框架
 
@@ -111,6 +112,7 @@
 - [pongo2](https://github.com/flosch/pongo2) 类 python 的 django 风格 HTML 模板引擎库。
 - [pushup](https://github.com/adhocteam/pushup) Go 风格的 HTML 模板引擎。
 - [jwt](https://github.com/golang-jwt/jwt) jwt 库。
+- [ssh](https://github.com/gliderlabs/ssh) ssh 服务器开发库。
 
 ### UI 库
 
@@ -119,6 +121,9 @@
 - [spot](https://github.com/roblillack/spot) React 代码风格的 Go 桌面应用开发框架。
 - [imgui-go](https://github.com/inkyblackness/imgui-go) imgui 封装，已经不维护。
 - [cimgui-go](https://github.com/AllenDang/cimgui-go)  imgui 封装
+- [qt](https://github.com/therecipe/qt) qt 封装。
+- [go-sciter](https://github.com/sciter-sdk/go-sciter) sciter 的 go 封装，HTML/CSS/JS 脚本引擎。
+- [ui](https://github.com/andlabs/ui) 基于 libui 的 UI 库。
 
 ## 项目
 

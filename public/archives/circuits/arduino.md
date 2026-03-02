@@ -1,5 +1,6 @@
 # [草稿]Arduino
 
+- [Arduino](https://github.com/arduino/Arduino) IDE
 - [arduino-examples](https://github.com/arduino/arduino-examples) 示例项目。
 - [arduino-esp32](https://github.com/espressif/arduino-esp32) ESP32 核心库。
 - [esp8266 Arduino](https://github.com/esp8266/Arduino) ESP8266 核心库。

@@ -32,6 +32,8 @@ dotnet tool update --global dotnet-ef
 - [Pcap.Net](https://github.com/PcapDotNet/Pcap.Net) WinPcap 封装，网络抓包库，多年没更新。
 - [NCache](https://github.com/Alachisoft/NCache) 分布式缓存库。
 - [graphql-dotnet](https://github.com/graphql-dotnet/graphql-dotnet) GraphQL 服务库。
+- [jieba.NET](https://github.com/anderscui/jieba.NET) 中文分词。
+- [playwright-dotnet](https://github.com/microsoft/playwright-dotnet) 微软开源的无头浏览器自动化库。
 
 ## 工具
 

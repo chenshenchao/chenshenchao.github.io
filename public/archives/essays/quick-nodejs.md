@@ -51,6 +51,9 @@ nvm use 16
 - [esm](https://github.com/standard-things/esm) ECMAScript 模块加载器。
 - [Detox](https://github.com/wix/Detox) 移动端 自动化测试脚本 开发框架。
 - [brotli](https://github.com/google/brotli) 谷歌开源的压缩算法。
+- [babel](https://github.com/babel/babel)
+- [puppeteer](https://github.com/puppeteer/puppeteer) 封装 Chrome、Firefox 的 API，无头浏览器自动化。
+- [playwright](https://github.com/microsoft/playwright) 微软开源的封装 Chrome、Firefox、WebKit 的 API，无头浏览器自动化。
 
 ### Web
 

@@ -397,6 +397,7 @@ fi
 - [femtovg](https://github.com/femtovg/femtovg) 2D 矢量绘图库。
 - [glazier](https://github.com/linebender/glazier) 跨平台窗口创建库。已经不维护。
 - [winit](https://github.com/rust-windowing/winit) 跨平台窗口创建库。
+- [rust-sciter](https://github.com/sciter-sdk/rust-sciter) sciter 的 rust 封装，HTML/CSS/JS 脚本引擎。
 
 ### 网络框架和库
 
@@ -473,7 +474,8 @@ fi
 - [cargo-apk](https://github.com/rust-mobile/cargo-apk) 打包 apk 工具。
 - [pgrx](https://github.com/pgcentralfoundation/pgrx) PostgreSQL 扩展开发工具。
 - [ngx-rust](https://github.com/nginx/ngx-rust) nginx 模块开发库。
-- [windows-drivers-rs](https://github.com/microsoft/windows-drivers-rs) 开发 Windows 驱动工具。
+- [winapi-kmd-rs](https://github.com/pravic/winapi-kmd-rs) 开发 Windows 驱动工具。
+- [windows-drivers-rs](https://github.com/microsoft/windows-drivers-rs) 微软开源的开发 Windows 驱动工具。
 - [windows-service-rs](https://github.com/mullvad/windows-service-rs) Windows 服务开发库。
 
 ## 兼容

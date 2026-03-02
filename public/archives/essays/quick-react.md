@@ -77,7 +77,8 @@ npx create-expo-app
 - [tanstack](https://tanstack.com) 包括原[react-query](https://github.com/tanstack/query)扩展到支持多框架多功能的开发库集合。
 - [styled-components](https://github.com/styled-components/styled-components) 样式定义组件的库。
 - [react-i18next](https://github.com/i18next/react-i18next) 为 React 开发的 i18n 扩展库。
-- [Ant Design](https://github.com/ant-design/ant-design) 阿里，桌面 UI 组件库，组件多，很多问题没解决，使用方法旧，不推荐。
+- [semi-design](https://github.com/DouyinFE/semi-design) 抖音开源的桌面 UI 组件库。
+- [Ant Design](https://github.com/ant-design/ant-design) 阿里开源的桌面 UI 组件库，组件多，很多问题没解决，使用方法旧，不推荐。
 - [Ant Design Pro](https://github.com/ant-design/ant-design-pro) 基于 Ant Design 后台项目，可用于二开，不推荐。
 - [excalidraw](https://github.com/excalidraw/excalidraw) 流程图、思维导图等图库和软件。
 - [tldraw](https://github.com/tldraw/tldraw) 手写板画布组件，功能少，只能用来做手写签名。

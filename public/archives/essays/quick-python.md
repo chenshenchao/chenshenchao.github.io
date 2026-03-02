@@ -44,7 +44,9 @@ python -m http.server 8000
 - [pytest-order](https://github.com/pytest-dev/pytest-order) pytest 单元测试排序。
 - [pinout](https://github.com/j0ono0/pinout) 用于生成硬件引脚SVG图的库。
 - [qiskit](https://github.com/Qiskit/qiskit) 量子计算库。
+- [parallel-ssh](https://github.com/ParallelSSH/parallel-ssh) ssh 库。
 - [paramiko](https://github.com/paramiko/paramiko) ssh v2 库。
+- [ssh2-python](https://github.com/ParallelSSH/ssh2-python) 封装了 libssh2
 - [redis-py](https://github.com/redis/redis-py) redis 客户端。
 - [walrus](https://github.com/coleifer/walrus) 简化 redis 客户端的使用，做了封装。
 - [uiautomator](https://github.com/xiaocong/uiautomator) 安卓 uiautomator 封装。
@@ -64,11 +66,16 @@ python -m http.server 8000
 - [insightface](https://github.com/deepinsight/insightface) 人脸识别库。
 - [faker](https://github.com/joke2k/faker) 调试数据生成库。
 - [celery](https://github.com/celery/celery) 任务队列，可以接入多种后端（redis、amqp、s3等）。
+- [pywasm](https://github.com/libraries/pywasm) wasm 解释器。
+- [playwright-python](https://github.com/microsoft/playwright-python) 微软开源的无头浏览器自动化库。
+- [SeleniumBase](https://github.com/seleniumbase/SeleniumBase) 无头浏览器自动化库。
+- [poium](https://github.com/SeldomQA/poium) 适配 playwright、selenium、appium 的自动化框架。
 
 ### 数据库
 
 - [mysqlclient](https://github.com/PyMySQL/mysqlclient) MySQL 连接库。
 - [PyMySQL](https://github.com/PyMySQL/PyMySQL) MySQL 客户端。
+- [binlog2sql](https://github.com/danfengcao/binlog2sql) MySQL binlog 分析库。
 
 ### UI 库
 
@@ -371,6 +378,8 @@ twine upload dist/*
 ### 基于 [nuitka](https://github.com/Nuitka/Nuitka) 的打包
 
 这个打包是把 Python 转成 C++ 再编译成二进制，所以使用不同的库会有编译的问题要解决。
+
+### 基于 [py2exe](https://github.com/py2exe/py2exe) 的打包
 
 ### 基于 [poetry](https://github.com/python-poetry/poetry) 的打包
 

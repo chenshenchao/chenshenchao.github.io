@@ -6,6 +6,8 @@
 
 ## 常用库
 
+- [gson](https://github.com/google/gson) 谷歌开源的 JSON 序列化库。
+- [logging-log4j2](https://github.com/apache/logging-log4j2) 日志库。
 - [guava](https://github.com/google/guava) 谷歌开源的工具库。
 - [spring-boot](https://github.com/spring-projects/spring-boot)
 - [undertow](https://github.com/undertow-io/undertow) Web 服务器。
@@ -35,6 +37,8 @@
 - [mina](https://github.com/apache/mina) Apache 开源的一个 Web 框架。
 - [retrofit](https://github.com/square/retrofit) 类型安全的 HTTP 客户端。
 - [javassist](https://github.com/jboss-javassist/javassist) JVM 字节码工程库。
+- [mina-sshd](https://github.com/apache/mina-sshd) SSH 库。
+- [sshj](https://github.com/hierynomus/sshj) ssh、scp 功能库。
 
 ## 开发环境与包管理工具
 

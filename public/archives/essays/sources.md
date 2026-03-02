@@ -124,6 +124,7 @@ qwen
 ### 模拟器、虚拟机、仿真机、沙盒、浏览器、终端。
 
 - [Bochs](https://github.com/bochs-emu/Bochs) 跨平台的 x86 模拟器。
+- [v86](https://github.com/copy/v86) 浏览器的 x86 模拟器。
 - [Sandboxie](https://github.com/sandboxie/sandboxie) Windows 沙盒。
 - [Sandboxie plus](https://github.com/sandboxie-plus/Sandboxie) Windows 沙盒。
 - [usbipd-win](https://github.com/dorssel/usbipd-win) Windows 下共享 USB 设备给 Hyper-V 和 WSL2 的命令行工具。
@@ -132,6 +133,7 @@ qwen
 - [PyBoy](https://github.com/Baekalfen/PyBoy) python 开发的 GameBoy 模拟器。
 - [gbdk-2020](https://github.com/gbdk-2020/gbdk-2020) GameBoy 开发套件。
 - [gbajs](https://github.com/endrift/gbajs) 浏览器端 GameBoyAdvance 模拟器。
+- [mgba](https://github.com/mgba-emu/mgba) C 语言实现的GameBoyAdvance 模拟器。
 - [SimpleNES](https://github.com/amhndu/SimpleNES) NES 红白机模拟器。
 - [nes](https://github.com/fogleman/nes) Go 语言实现的 NES 红白机模拟器。
 - [jsnes](https://github.com/bfirsh/jsnes) JS 语言实现的 NES 红白机模拟器。
@@ -208,11 +210,13 @@ qwen
 - [wenyan](https://github.com/wenyan-lang/wenyan) 文言文編程語言
 - [lux](https://github.com/LuxLang/lux) 静态类型的 Lisp 语言。
 - [ChezScheme](https://github.com/cisco/ChezScheme) Lisp 方言。
+- [ccl](https://github.com/Clozure/ccl) Clozure Common Lisp 方言。
 - [fanx](https://github.com/fanx-dev/fanx) 全栈编程语言。
 - [stone](https://github.com/chibash/stone) 《两周自制脚本语言》示例脚本语言。
 - [nature](https://github.com/nature-lang/nature) 编程语言。
 - [OpenHSP](https://github.com/onitama/OpenHSP) Hot Soup 语言 Processor
 - [carbon-lang](https://github.com/carbon-language/carbon-lang) 实验性的 C++ 后继语言。
+- [toit](https://github.com/toitlang/toit) 面向 MCU 开发的类 python 的静态类型语言。
 - [d2](https://github.com/terrastruct/d2) 类似 JSON 的绘图语言，用于绘制 2D 矢量图，思维导图等。
 - [jsonnet](https://github.com/google/jsonnet) 谷歌开发的类 JSON 的数据语言，官方只支持 c 和 python 模块，其他语言有第三方实现但是热度很低，实现堪忧。
 - [hhvm](https://github.com/facebook/hhvm) Hack 语言，由 PHP 扩展而来的语言。
@@ -298,7 +302,7 @@ qwen
 - [openoffice](https://github.com/apache/openoffice) Apache 开源的兼容 微软Office 办公软件。
 - [MirrorX](https://github.com/MirrorX-Desktop/MirrorX) 远程桌面客户端，有配套的服务器。
 
-### 监控工具
+### 监控、渗透、测试工具
 
 - [wireshark](https://github.com/wireshark/wireshark) 桌面抓包工具。
 - [sniffnet](https://github.com/GyulyVGC/sniffnet) 桌面网络监控抓包工具。
@@ -309,6 +313,9 @@ qwen
 - [ansible](https://github.com/ansible/ansible) 脚本化的运维框架。
 - [netdata](https://github.com/netdata/netdata) 实时监控
 - [htop](https://github.com/hishamhm/htop) top 加强版。
+- [cube](https://github.com/JKme/cube) Go 开发的渗透命令行工具。
+- [anyproxy](https://github.com/alibaba/anyproxy) 阿里开源的 HTTP 代理，一般用于 HTTP 抓包。
+- [mitmproxy](https://github.com/mitmproxy/mitmproxy) HTTP 代理，一般用于 HTTP 抓包。
 
 ### 代理、远程工具
 
@@ -322,6 +329,7 @@ qwen
 - [trojan-go](https://github.com/p4gefau1t/trojan-go) Go 实现的 trojan 代理。
 - [nps](https://github.com/ehang-io/nps) 代理服务器，有后台。
 - [frp](https://github.com/fatedier/frp)
+- [rathole](https://github.com/rathole-org/rathole) rust 开发的可替代 frp、ngrok
 
 ### 服务型工具
 
@@ -336,6 +344,7 @@ qwen
 - [qdrant](https://github.com/qdrant/qdrant) 向量数据库（rust 语言），开放给多种语言使用，主要支持 python 的封装。
 - [lancedb](https://github.com/lancedb/lancedb) 支持向量和全文索引数据库（rust 语言），主要支持 python 的封装。
 - [vectordb](https://github.com/epsilla-cloud/vectordb) 向量数据库（C++ 语言），主要支持 python 的封装。
+- [ravendb](https://github.com/ravendb/ravendb) C# 开发的文档数据库，有配套的后台。
 - [rethinkdb](https://github.com/rethinkdb/rethinkdb) 文档数据库。
 - [cursusdb](https://github.com/cursusdb/cursusdb) （Go 语言）以 SQL 作为查询语言的文档数据库。
 - [sphinx](https://github.com/sphinxsearch/sphinx) 全文搜索引擎，已不维护。

@@ -51,6 +51,7 @@
 - [SeetaFace6](https://github.com/seetafaceengine/SeetaFace6) 人脸识别库。
 - [jsoncpp](https://github.com/open-source-parsers/jsoncpp) JSON 库。
 - [configor](https://github.com/l33oo/configor) 配置管理库，目前只支持 JSON 格式。
+- [yaml-cpp](https://github.com/jbeder/yaml-cpp) yaml 库。
 
 ### 网络
 
@@ -121,6 +122,8 @@
 - [lodepng](https://github.com/lvandeve/lodepng) PNG 库。
 - [bmf](https://github.com/BabitMF/bmf) 多媒体库，提取视频帧等功能，支持 C++、python 等多语言。
 - [blend2d](https://github.com/blend2d/blend2d) 基于 asmjit 的 2D 图形库。
+- [sciter-sdk](https://github.com/c-smile/sciter-sdk) 可内嵌的 HTML/CSS/TIScript 的脚本引擎。已废弃。
+- [sciter-js-sdk](https://gitlab.com/sciter-engine/sciter-js-sdk) 可内嵌的 HTML/CSS/JS 的脚本引擎。内置 QuickJs。 [GitHub 旧仓库](https://github.com/c-smile/sciter-js-sdk)
 
 ### boost
 

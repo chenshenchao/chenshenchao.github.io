@@ -5,6 +5,7 @@
 这点和数学语言很像，只有 +、=、*、/ 时非常好用，之后的越来越多各种 ∫、∑ 奇怪的符号就会使得记忆困难。
 
 - [ghcup-hs](https://github.com/haskell/ghcup-hs)
+- [haskell-language-server](https://github.com/haskell/haskell-language-server)
 
 ## 常用库
 

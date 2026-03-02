@@ -4,6 +4,8 @@
 
 - [qskinny](https://github.com/uwerat/qskinny) Qt/Quick UI 库。
 - [FluentUI](https://github.com/zhuzichu520/FluentUI) Fluent 风格（Windows 11 界面的设计风格） UI 库。
+- [QSsh](https://github.com/lvklabs/QSsh) SSH 客户端库。
+- [QtXlsxWriter](https://github.com/dbzhang800/QtXlsxWriter) Qt5 xlsx 库。
 
 ### PySide6
 

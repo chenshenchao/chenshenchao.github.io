@@ -23,6 +23,7 @@
 - [xwt](https://github.com/mono/xwt) mono UI 库。
 - [MiniExcel](https://github.com/mini-software/MiniExcel) Excel 处理库。
 - [ClosedXML](https://github.com/ClosedXML/ClosedXML) Excel 处理库。(.xlsx, .xlsm)
+- [XLParser](https://github.com/spreadsheetlab/XLParser) Excel 公式解释器。
 - [wix3](https://github.com/wixtoolset/wix3) wix3 打包工具集。
 - [moq](https://github.com/devlooped/moq) mock 库。
 - [IdGen](https://github.com/RobThree/IdGen) 类雪花 ID 生成库。
@@ -49,6 +50,7 @@
 ### Blazor
 
 - [LocalStorage](https://github.com/Blazored/LocalStorage)
+- [BlazorSize](https://github.com/EdCharbeneau/BlazorSize) 类 web mideaMatch 功能，监听浏览器窗口大小。
 
 ### WinForms
 

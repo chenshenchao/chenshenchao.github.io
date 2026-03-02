@@ -14,6 +14,7 @@
 
 ## 常用库
 
+- [logger](https://github.com/orhanobut/logger) 日志库。
 - [ijkplayer](https://github.com/bilibili/ijkplayer) 支持 安卓 和 IOS 的视频播放器。
 - [AndroidHiddenApiBypass](https://github.com/LSPosed/AndroidHiddenApiBypass) 安卓隐藏 API 调用库。
 - [LSPosed](https://github.com/LSPosed/LSPosed) Xposed 的延续。
