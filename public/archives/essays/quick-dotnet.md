@@ -41,7 +41,6 @@ dotnet tool update --global dotnet-ef
 - [dnSpy](https://github.com/dnSpy/dnSpy) .Net 调试器。
 - [il-repack](https://github.com/gluck/il-repack) 把多个 .NET 程序集合并成一个的工具，ILMerge 的开源替代。
 - [WebFirst](https://github.com/DotNetNext/WebFirst) Web 应用，通过 Excel 给数据库建表的工具。（为什么不用 DDL？）
-- [monodevelop](https://github.com/mono/monodevelop) Mono 的 IDE，已经停止维护。
 
 ## 单文件打包
 

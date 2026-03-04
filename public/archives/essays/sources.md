@@ -464,7 +464,11 @@ qwen
 - [HeavenMS](https://github.com/ronancpl/HeavenMS) 冒险岛 v083 服务器。
 - [Cosmic](https://github.com/P0nk/Cosmic) fork HeavenMS，冒险岛 v083 服务器。
 - [BeiDou-Server](https://github.com/BeiDouMS/BeiDou-Server) 汉化 Cosmic，冒险岛 v083 服务器。
-- [BeiDou-ijl15](https://github.com/BeiDouMS/BeiDou-ijl15)
+- [BeiDou-ijl15](https://github.com/BeiDouMS/BeiDou-ijl15) 估计是 MapleEzorsia-v2 的分支。
+- [MapleEzorsia](https://github.com/izarooni/MapleEzorsia)
+- [MapleEzorsia-v2](https://github.com/444Ro666/MapleEzorsia-v2) 
+- [ezorsia-v2](https://github.com/SnivyX/ezorsia-v2)
+- [MapleClientEditTemplate](https://github.com/MapleStory-Archive/MapleClientEditTemplate) 冒险岛资源文件相关的 C 库。
 - [HeavenMS](https://github.com/ronancpl/HeavenMS) 冒险岛 v083 服务器复刻。
 - [MapleStory-Server](https://github.com/ryantpayton/MapleStory-Server) fork HeavenMS
 - [MapleStory-Client](https://github.com/ryantpayton/MapleStory-Client)
@@ -477,6 +481,10 @@ qwen
 - [WzComparerR2-Plus](https://github.com/Elem8100/WzComparerR2-Plus) 冒险岛 *.wz 资源提取器和清单。
 - [ExtractorSharp](https://github.com/d-mod/ExtractorSharp) *.img、*.npk 资源编辑器。
 - [MapleServer2](https://github.com/AlanMorel/MapleServer2) 冒险岛2 服务端复刻，仅用于教学。
+- [Edelstein](https://github.com/Kaioru/Edelstein) C# 开发的蘑菇 V95.1 服务器。
+- [Blackwings](https://github.com/Kaioru/Blackwings) 蘑菇 V95.1 客户端插桩。
+- [MapleStoryUnity](https://github.com/MapleStoryUnity/MapleStoryUnity) Unity 开发的冒险岛。
+- [awesome-maplestory](https://github.com/MapleStoryUnity/awesome-maplestory)
 - [tiled](https://github.com/mapeditor/tiled) 2D 瓦片地图编辑器。
 - [piskel](https://github.com/piskelapp/piskel) 基于 web 的像素素材编辑器。
 - [BrowserQuest](https://github.com/mozilla/BrowserQuest) mozilla 开源的 2D 即时页游。
