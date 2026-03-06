@@ -120,6 +120,7 @@
 - [vue-lit](https://github.com/yyx990803/vue-lit) 合并了 @vue/reactivity 和 lit-html 做出来的轻量框架。
 - [tabler](https://github.com/tabler/tabler) 基于 Bootstrap 的 UI 库。
 - [AdminLTE](https://github.com/ColorlibHQ/AdminLTE) 基于 Bootstrap 的 UI 库。
+- [videoconverter.js](https://github.com/bgrins/videoconverter.js) 封装 wasm ffmpeg 浏览器端视频转换。
 - [hls.js](https://github.com/video-dev/hls.js) 让只支持MSE(Media Source Extensions，W3C 制定)的浏览器支持 HLS(HTTP Live Streaming，苹果公司推出) 的视频播放。
 - [video.js](https://github.com/videojs/video.js) 视频播放器组件。
 - [blockly](https://github.com/RaspberryPiFoundation/blockly) web 可视化编程语言（SCRATCH 等大部分少儿编程都是基于这个库）。

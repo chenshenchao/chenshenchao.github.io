@@ -90,6 +90,7 @@ npx create-expo-app
 - [xyflow](https://github.com/xyflow/xyflow) 流程图组件库。
 - [echarts-for-react](https://github.com/hustcc/echarts-for-react) echarts 图表库的 react 封装。
 - [TanStack react-charts](https://github.com/TanStack/react-charts) TanStack 的图表库 react 封装，已经停止维护。
+- [remix](https://github.com/remix-run/remix) 框架。
 
 ### react native 相关库
 

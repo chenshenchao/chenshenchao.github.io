@@ -45,6 +45,7 @@
 - [libmatoya](https://github.com/snowcone-ltd/libmatoya) 工具库。
 - [libssh2](https://github.com/libssh2/libssh2) SSH2 库。
 - [libffi](https://github.com/libffi/libffi) ffi 库。
+- [MemoryModule](https://github.com/fancycode/MemoryModule) 内存中加载 DLL 的库。
 
 ### 数据库
 
@@ -57,6 +58,7 @@
 
 ### 网络
 
+- [kcp](https://github.com/skywind3000/kcp) KCP 协议实现。
 - [h2o](https://github.com/h2o/h2o) HTTP 服务器。
 - [uSockets](https://github.com/uNetworking/uSockets) web 框架。
 - [msquic](https://github.com/microsoft/msquic) 微软的 QUIC 实现库。

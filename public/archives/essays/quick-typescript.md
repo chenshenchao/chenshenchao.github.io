@@ -46,6 +46,7 @@
 - [ts-transformer-keys](https://github.com/kimamula/ts-transformer-keys) 获取类型键名的库。
 - [class-validator](https://github.com/typestack/class-validator) 基于类定义的验证器库。
 - [image-in-browser](https://github.com/yegor-pelykh/image-in-browser) 浏览器端可用的图片处理库。
+- [PptxGenJS](https://github.com/gitbrent/PptxGenJS) PPT 生成库。
 
 ### web
 
@@ -61,6 +62,7 @@
 - [lit](https://github.com/lit/lit) 基于 web components 开发组件的框架。
 - [omi](https://github.com/Tencent/omi) 腾讯开源的 web 前端组件框架。
 - [better-scroll](https://github.com/ustbhuangyi/better-scroll)
+- [lexical](https://github.com/facebook/lexical) facebook 开源的可扩展的文本编辑器框架。
 - [textbus](https://github.com/textbus/textbus) 支持 Viewfly、Vue、React 多框架的富文本编辑器。
 - [editor.js](https://github.com/codex-team/editor.js) 富文本编辑器。
 - [editable](https://github.com/editablejs/editable) 富文本编辑器。

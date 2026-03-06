@@ -319,6 +319,8 @@ fi
 - [hyper](https://github.com/hyperium/hyper)  HTTP 客户端。
 - [reqwest](https://github.com/seanmonstar/reqwest) HTTP 客户端。
 - [ureq](https://github.com/algesten/ureq) HTTP 客户端。
+- [mesalink](https://github.com/mesalock-linux/mesalink) 兼容 OpenSSL 的 rust SSL/TLS。
+- [rust-crypto](https://github.com/DaGenix/rust-crypto) 纯 rust 实现的加密库。
 - [RustCrypto](https://github.com/RustCrypto) 加密库集合。
 - [RustCrypto traits](https://github.com/RustCrypto/traits)
 - [RustCrypto RSA](https://github.com/RustCrypto/RSA)

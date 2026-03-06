@@ -110,6 +110,7 @@
 - [imgui](https://github.com/ocornut/imgui)
 - [implot](https://github.com/epezent/implot) 给 imgui 提供数据图表功能组件。
 - [ImGuiFileDialog](https://github.com/aiekick/ImGuiFileDialog)  imgui 文件选择弹窗。
+- [imgui-filebrowser](https://github.com/AirGuanZ/imgui-filebrowser) imgui 文件浏览窗口。
 - [imnodes](https://github.com/Nelarius/imnodes) imgui 组件。
 - [GacUI](https://github.com/vczh-libraries/GacUI) 轮子哥的UI库。
 - [mygui](https://github.com/MyGUI/mygui) UI 库。

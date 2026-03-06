@@ -35,6 +35,7 @@ dotnet tool update --global dotnet-ef
 - [jieba.NET](https://github.com/anderscui/jieba.NET) 中文分词。
 - [playwright-dotnet](https://github.com/microsoft/playwright-dotnet) 微软开源的无头浏览器自动化库。
 - [CefSharp](https://github.com/cefsharp/CefSharp) CEF 封装绑定。
+- [ReactiveUI](https://github.com/reactiveui/ReactiveUI) UI 库。
 
 ## 工具
 

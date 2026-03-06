@@ -9,6 +9,7 @@
 - [pgvector](https://github.com/pgvector/pgvector) 向量搜索插件。
 - [pgvecto.rs](https://github.com/tensorchord/pgvecto.rs) 向量搜索插件。
 - [zhparser](https://github.com/amutu/zhparser) 中文分词插件。
+- [wasmer-postgres](https://github.com/wasmerio/wasmer-postgres) SQL 里执行 wasm 的插件。
 
 ## 命令
 

@@ -3,6 +3,7 @@
 - [graal](https://github.com/oracle/graal) GraalVM 源码
 - [graalvm-ce-builds](https://github.com/graalvm/graalvm-ce-builds) GraalVM 下载地址。
 - [jruby](https://github.com/jruby/jruby) JVM 里的 ruby 
+- [teavm](https://github.com/konsoletyper/teavm) JVM 字节码转 JS、WASM、C
 
 ## 类型描述
 

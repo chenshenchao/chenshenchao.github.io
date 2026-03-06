@@ -40,6 +40,7 @@
 - [frida-all-in-one《FRIDA操作手册》](https://github.com/hookmaster/frida-all-in-one)
 - [mydocker《自己动手写docker》](https://github.com/xianlubird/mydocker)
 - [bare-metal-programming-guide《裸机编程指南》](https://github.com/cpq/bare-metal-programming-guide) MCU 裸机编程。
+- [flash-linux0.11-talk《品读 Linux 0.11 核心代码》](https://github.com/dibingfa/flash-linux0.11-talk)
 
 ## 资源站点
 
@@ -155,6 +156,7 @@ qwen
 - [gauge](https://github.com/getgauge/gauge) 测试套件
 - [DVC](https://github.com/iterative/dvc) 用于数据版本与机器学习试验。
 - [dolt](https://github.com/dolthub/dolt) 类 git 的数据库数据版本控制。
+- [lakeFS](https://github.com/treeverse/lakeFS) 类 git 的数据版本控制。
 
 ### 架构设计工具
 
@@ -187,6 +189,7 @@ qwen
 
 ### 汇编器、链接器、编译器、解释器、调试器、构造工具、分析工具与代码生成器
 
+- [fsharp](https://github.com/dotnet/fsharp) 微软开源的函数式语言 F#
 - [svg-filters](https://github.com/yoksel/svg-filters) SVG 滤镜代码生成器。
 - [dmc](https://github.com/DigitalMars/dmc) Digital Mars C/C++ 编译器。
 - [cling](https://github.com/root-project/cling) C++ 解释器。
@@ -240,6 +243,7 @@ qwen
 - [winflexbison](https://github.com/lexxmark/winflexbison) windows 下的 flex 和 bison。
 - [mold](https://github.com/rui314/mold) 快速的 Unix 链接器，据说比 lld、ld 快。
 - [scala-js](https://github.com/scala-js/scala-js) scala 转 JS 编译器。
+- [obfuscator](https://github.com/obfuscator-llvm/obfuscator) OLLVM 代码混淆。
 
 ### 文件处理工具
 
@@ -302,6 +306,7 @@ qwen
 - [vhs](https://github.com/charmbracelet/vhs) *.tape 脚本控制终端并录屏成 gif 演示图。
 - [openoffice](https://github.com/apache/openoffice) Apache 开源的兼容 微软Office 办公软件。
 - [MirrorX](https://github.com/MirrorX-Desktop/MirrorX) 远程桌面客户端，有配套的服务器。
+- [VisualStudioUninstaller](https://github.com/microsoft/VisualStudioUninstaller) VisualStudio 卸载工具。
 
 ### 监控、渗透、测试工具
 
@@ -502,6 +507,7 @@ qwen
 ### 系统
 
 - [linux](https://github.com/torvalds/linux)
+- [kerla](https://github.com/nuta/kerla) rust 开发的与 linux 二进制兼容的内核。
 - [openwrt](https://github.com/openwrt/openwrt) 嵌入式 linux，适合开发路由器。
 - [MOOS](https://github.com/nifanfa/MOOS) C# 开发的 x64 操作系统，基于 .NET AOT。
 - [MS-DOS](https://github.com/microsoft/MS-DOS)
