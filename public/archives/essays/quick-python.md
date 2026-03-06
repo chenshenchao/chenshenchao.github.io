@@ -72,6 +72,8 @@ python -m http.server 8000
 - [SeleniumBase](https://github.com/seleniumbase/SeleniumBase) 无头浏览器自动化库。
 - [poium](https://github.com/SeldomQA/poium) 适配 playwright、selenium、appium 的自动化框架。
 - [Airtest](https://github.com/AirtestProject/Airtest) 自动化框架。
+- [pyreportjasper](https://github.com/acesseonline/pyreportjasper) python 解析编译处理 JasperReports (.jrxml & .jasper 文件).
+- [huey](https://github.com/coleifer/huey) 队列项目。
 
 ### 数据库
 
@@ -90,7 +92,7 @@ python -m http.server 8000
 - [pygame_gui](https://github.com/MyreMylar/pygame_gui)
 - [DearPyGui](https://github.com/hoffstadt/DearPyGui) ImGUI 的封装。
 
-### Web 库
+### 网络
 
 - [reflex](github.com/reflex-dev/reflex) web 框架。
 - [gunicorn](https://github.com/benoitc/gunicorn) Unix 下的 WSGI HTTP 服务器。
@@ -104,6 +106,7 @@ python -m http.server 8000
 - [emsdk](https://github.com/emscripten-core/emsdk) Emscripten SDK
 - [wechatpy](https://github.com/wechatpy/wechatpy) 微信SDK
 - [rpyc](https://github.com/tomerfiliba-org/rpyc) RPC 库。
+- [pyftpdlib](https://github.com/giampaolo/pyftpdlib) FTP 服务器开发库。
 
 ### 示例、项目
 

@@ -51,6 +51,7 @@
 ### web
 
 - [ky](https://github.com/sindresorhus/ky) HTTP 客户端库。
+- [web-udp](https://github.com/3mcd/web-udp) 基于 webRTC 的类 UDP 的无序且不可靠协议库。
 
 ### 图形
 

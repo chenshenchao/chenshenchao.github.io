@@ -47,6 +47,7 @@
 - [bc-csharp](https://github.com/bcgit/bc-csharp) BouncyCastle.NET 加密算法库。
 - [cs-script](https://github.com/oleg-shilo/cs-script) C# 的解释器，可以内嵌程序里，也有命令行。
 - [WebP-wrapper](https://github.com/JosePineiro/WebP-wrapper) libwebp 封装。
+- [wixsharp](https://github.com/oleg-shilo/wixsharp) C# 语法来写 MSI/MIX 安装包脚本。
 
 ### Blazor
 
@@ -79,6 +80,10 @@
 ## 工具
 
 - [SvgToXaml](https://github.com/BerndK/SvgToXaml) SVG 转成 XAML 的图形工具。
+- [wix](https://github.com/wixtoolset/wix) 打包工具。
+- [wix3](https://github.com/wixtoolset/wix3) 打包工具。
+- [VisualStudioExtension](https://github.com/wixtoolset/VisualStudioExtension) wix 的 VS 扩展工具。
+- [Wax](https://github.com/tom-englert/Wax) wix 图形交互工具。
 
 ## mono
 

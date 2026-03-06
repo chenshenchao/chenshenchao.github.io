@@ -94,6 +94,7 @@
 - [plutosvg](https://github.com/sammycage/plutosvg) SVG 库。
 - [gtk](https://github.com/GNOME/gtk)
 - [tcl](https://github.com/tcltk/tcl)
+- [LCUI](https://github.com/lc-soft/LCUI) 图形开发框架，基于 web 方式。
 
 ### 嵌入式相关
 

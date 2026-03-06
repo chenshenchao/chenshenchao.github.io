@@ -10,3 +10,7 @@
 ### PySide6
 
 - [PySide6-FluentUI-QML](https://github.com/zhuzichu520/PySide6-FluentUI-QML) Fluent 风格（Windows 11 界面的设计风格） UI 库。
+
+## 项目、示例
+
+- [otter-browser](https://github.com/OtterBrowser/otter-browser) 浏览器

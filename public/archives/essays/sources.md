@@ -61,6 +61,7 @@
 - [awesome-gameserver-cn](https://github.com/hstcscolor/awesome-gameserver-cn)
 - [awesome-vscode](https://github.com/viatsko/awesome-vscode)
 - [awesome-android-ui](https://github.com/wasabeef/awesome-android-ui)
+- [awesome-ghidra](https://github.com/AllsafeCyberSecurity/awesome-ghidra)
 
 ### 数据或咨询站点
 
@@ -220,6 +221,8 @@ qwen
 - [nature](https://github.com/nature-lang/nature) 编程语言。
 - [OpenHSP](https://github.com/onitama/OpenHSP) Hot Soup 语言 Processor
 - [carbon-lang](https://github.com/carbon-language/carbon-lang) 实验性的 C++ 后继语言。
+- [Pyjion](https://github.com/microsoft/Pyjion) 微软开源基于 CoreCLR 的 python 解释器，不维护。
+- [Pyjion](https://github.com/tonybaloney/Pyjion) fork 微软的 Pyjion 继续维护。
 - [toit](https://github.com/toitlang/toit) 面向 MCU 开发的类 python 的静态类型语言。
 - [d2](https://github.com/terrastruct/d2) 类似 JSON 的绘图语言，用于绘制 2D 矢量图，思维导图等。
 - [jsonnet](https://github.com/google/jsonnet) 谷歌开发的类 JSON 的数据语言，官方只支持 c 和 python 模块，其他语言有第三方实现但是热度很低，实现堪忧。
@@ -283,6 +286,7 @@ qwen
 - [ScreenToGif](https://github.com/NickeManarin/ScreenToGif) C# 开发的 Windows 截屏工具。
 - [AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) Redis 图形客户端工具。
 - [RedisStudio](https://github.com/cinience/RedisStudio) Redis 图形客户端工具。
+- [iredis](https://github.com/laixintao/iredis) Redis 命令行客户端工具。
 - [PDFPatcher](https://github.com/wmjordan/PDFPatcher) PDF 编辑工具。
 - [marktext](https://github.com/marktext/marktext) markdown 编辑器。
 - [music](https://github.com/sunzongzheng/music) vue + electron 音乐播放器。
@@ -323,9 +327,12 @@ qwen
 - [cube](https://github.com/JKme/cube) Go 开发的渗透命令行工具。
 - [anyproxy](https://github.com/alibaba/anyproxy) 阿里开源的 HTTP 代理，一般用于 HTTP 抓包。
 - [mitmproxy](https://github.com/mitmproxy/mitmproxy) HTTP 代理，一般用于 HTTP 抓包。
+- [domainTools](https://github.com/SkewwG/domainTools) 内网渗透工具。
+- [K8CScan](https://github.com/k8gege/K8CScan) 渗透扫描工具。
 
-### 代理、远程工具
+### 代理、VPN、远程工具
 
+- [lantern](https://github.com/getlantern/lantern) 蓝灯
 - [tun2proxy](https://github.com/tun2proxy/tun2proxy) socks 代理
 - [clash-rs](https://github.com/Watfaq/clash-rs) clash 的 rust 复刻版。
 - [Clash-for-Windows_Chinese](https://github.com/Z-Siqi/Clash-for-Windows_Chinese) clash 中文汉化版
@@ -347,10 +354,13 @@ qwen
 - [marqo](https://github.com/marqo-ai/marqo) 基于 AI 的产品搜索服务，文本、图片等来搜索产品。
 - [oceanbase](https://github.com/oceanbase/oceanbase) 阿里蚂蚁开发的分布式关系数据库。
 - [milvus](https://milvus.io) 向量数据库(GO 语言)，官方给出了很多应用示例（RAG、图搜等）快速开发应用。
+- [bootcamp](https://github.com/milvus-io/bootcamp) milvus 的应用示例。
 - [weaviate](https://github.com/weaviate/weaviate) 向量数据库(GO 语言)
 - [qdrant](https://github.com/qdrant/qdrant) 向量数据库（rust 语言），开放给多种语言使用，主要支持 python 的封装。
 - [lancedb](https://github.com/lancedb/lancedb) 支持向量和全文索引数据库（rust 语言），主要支持 python 的封装。
 - [vectordb](https://github.com/epsilla-cloud/vectordb) 向量数据库（C++ 语言），主要支持 python 的封装。
+- [bloop](https://github.com/BloopAI/bloop) rust 开发的代码搜索引擎
+- [couchdb](https://github.com/apache/couchdb) Apache 维护的一个 HTTP/JSON API 的文档数据库。
 - [ravendb](https://github.com/ravendb/ravendb) C# 开发的文档数据库，有配套的后台。
 - [rethinkdb](https://github.com/rethinkdb/rethinkdb) 文档数据库。
 - [cursusdb](https://github.com/cursusdb/cursusdb) （Go 语言）以 SQL 作为查询语言的文档数据库。

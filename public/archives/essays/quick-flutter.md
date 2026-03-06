@@ -93,6 +93,7 @@ flutter logs --clear
 - [qr_code_scanner](https://github.com/juliuscanute/qr_code_scanner) 二维码扫码。
 - [flutter_smooth](https://github.com/fzyzcjy/flutter_smooth) 强制屏幕刷新60帧每秒。
 - [flutter_boost](https://github.com/alibaba/flutter_boost) 阿里提供的把 Flutter 作为类似 WebView 那样嵌入到原生应用里。
+- [flutter-webrtc](https://github.com/flutter-webrtc/flutter-webrtc)
 
 ## 项目、示例
 

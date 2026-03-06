@@ -36,12 +36,15 @@
 - [jSerialComm](https://github.com/Fazecast/jSerialComm) 串口库。
 - [mina](https://github.com/apache/mina) Apache 开源的一个 Web 框架。
 - [retrofit](https://github.com/square/retrofit) 类型安全的 HTTP 客户端。
+- [httpcomponents-client](https://github.com/apache/httpcomponents-client) HTTP 客户端。
 - [javassist](https://github.com/jboss-javassist/javassist) JVM 字节码工程库。
 - [mina-sshd](https://github.com/apache/mina-sshd) SSH 库。
 - [sshj](https://github.com/hierynomus/sshj) ssh、scp 功能库。
 - [miniscript](https://github.com/mini2Dx/miniscript) 支持 Lua、Ruby 等的多语言解释器。
 - [jnr-ffi](https://github.com/jnr/jnr-ffi) FFI 库。
 - [java-cef](https://github.com/chromiumembedded/java-cef) CEF 绑定封装。
+- [Chat2DB](https://github.com/CodePhiliaX/Chat2DB) 多种数据库客户端。
+- [com4j](https://github.com/kohsuke/com4j) COM 和 Java 绑定。
 
 ## 开发环境与包管理工具
 
