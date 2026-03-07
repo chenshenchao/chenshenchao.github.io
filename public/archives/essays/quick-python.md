@@ -77,6 +77,10 @@ python -m http.server 8000
 - [greenlet](https://github.com/python-greenlet/greenlet) 并发库。
 - [Jiagu](https://github.com/ownthink/Jiagu) 中文分词。
 - [imgkit](https://github.com/jarrekk/imgkit) html 生成图片，基于 Webkit。
+- [pyyaml](https://github.com/yaml/pyyaml) YAML 处理库。
+- [tablib](https://github.com/jazzband/tablib) EXCEL、JSON、SQL 等数据集生成库。
+- [python-dotenv](https://github.com/theskumar/python-dotenv) .env 库。
+- [tqdm](https://github.com/tqdm/tqdm) 命令行进度条显示。
 
 ### 数据库
 

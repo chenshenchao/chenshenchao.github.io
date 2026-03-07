@@ -7,11 +7,14 @@
 
 ## 常用库
 
+- [dotnet-env](https://github.com/tonerdo/dotnet-env) .env 文件加载库。
 - [opencvsharp](https://github.com/shimat/opencvsharp) OpenCV 的 .Net 包装库。
 - [EmguCV](https://github.com/emgucv/emgucv) OpenCV 的 .Net 包装库。
 - [obfuscar](https://github.com/obfuscar/obfuscar) 代码混淆。
 - [reactive](https://github.com/dotnet/reactive) rx
 - [shiny](https://github.com/shinyorg/shiny) 跨平台的后台进程库。
+- [NLog](https://github.com/NLog/NLog) 日志库。
+- [serilog](https://github.com/serilog/serilog) 日志库。
 - [serilog-extensions-logging-file](https://github.com/serilog/serilog-extensions-logging-file) 日志写入文件扩展。
 - [lucenenet](https://github.com/apache/lucenenet) Lucene 的 .Net 版本，倒排索引库。
 - [elfsharp](https://github.com/konrad-kruczynski/elfsharp) ELF 库。

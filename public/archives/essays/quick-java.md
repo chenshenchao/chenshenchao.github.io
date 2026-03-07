@@ -46,6 +46,7 @@
 - [Chat2DB](https://github.com/CodePhiliaX/Chat2DB) 多种数据库客户端。
 - [com4j](https://github.com/kohsuke/com4j) COM 和 Java 绑定。
 - [grpc-java](https://github.com/grpc/grpc-java)
+- [lucene](https://github.com/apache/lucene) 倒排索引库。
 
 ## 开发环境与包管理工具
 

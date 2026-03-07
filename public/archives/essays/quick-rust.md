@@ -299,6 +299,7 @@ fi
 
 ## 官方库
 
+- [rustup](https://github.com/rust-lang/rustup)
 - [futures](https://github.com/rust-lang/futures-rs) 异步支持库。
 - [failure](https://github.com/rust-lang-deprecated/failure) 已废弃，改用 thiserror
 - [rustc_codegen_cranelift](https://github.com/rust-lang/rustc_codegen_cranelift) rustc 替换 cranelift 编译器后端以缩短编译事件。
@@ -376,6 +377,7 @@ fi
 
 ### UI 库
 
+- [emu](https://github.com/calebwin/emu) GPGPU 库。
 - [wgpu](https://github.com/gfx-rs/wgpu) 跨平台纯 rust 的图形API。
 - [vello](https://github.com/linebender/vello) 2D 渲染库，基于 wgpu。
 - [iced](https://github.com/iced-rs/iced)

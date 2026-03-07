@@ -31,6 +31,7 @@
 - [vue-echarts](https://github.com/ecomfe/vue-echarts)
 - [vue-i18n](https://github.com/intlify/vue-i18n) Vue3 多语言库。
 - [vue-quilly](https://github.com/alekswebnet/vue-quilly) Vue3 + Quilly 富文本编辑器封装。
+- [naive-ui](https://github.com/tusen-ai/naive-ui) 简单 UI 组件。
 
 #### 项目
 

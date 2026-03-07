@@ -2,8 +2,13 @@
 
 - [pytorch 源码](https://github.com/pytorch/pytorch) 脸书的框架，目前主流。
 - [TensorRT](https://github.com/pytorch/TensorRT) 英伟达引入 TensorRT 的优化库。
+- [audio](https://github.com/pytorch/audio) 音频信号处理的数据操作与转换
+
+## 常用库
+
 - [audiocraft](https://github.com/facebookresearch/audiocraft) 为 pytorch 开发的音频库。
 - [captum](https://github.com/meta-pytorch/captum) pytorch 模型归因分析库。
+- [tnt](https://github.com/meta-pytorch/tnt) 工具库。
 
 ## 模型
 

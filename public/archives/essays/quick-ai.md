@@ -8,6 +8,7 @@
 - [modular](https://github.com/modular/modular) mojo 语言的框架。
 - [tvm](https://github.com/apache/tvm) Apache 的框架。
 - [tensorflow](https://github.com/tensorflow/tensorflow) 谷歌的框架，早期主流。
+- [tfjs](https://github.com/tensorflow/tfjs) tensorflow 的浏览器端 WebGL 模型框架。
 - [Paddle](https://github.com/PaddlePaddle/Paddle) 百度的框架，中文名“飞桨”。
 - [Paddle Lite](https://github.com/PaddlePaddle/Paddle-Lite.git) 百度飞桨（轻量版），只能用于推理，优化了推理。
 - [PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg) 百度飞桨图像分割开发套件。

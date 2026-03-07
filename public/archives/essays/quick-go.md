@@ -2,16 +2,19 @@
 
 - [go 源码](https://github.com/golang/go)
 - [glog](https://github.com/golang/glog)
-- [uuid](https://github.com/google/uuid) 谷歌开源的 UUID 库。
 
 ## 常用库
 
+- [uuid](https://github.com/google/uuid) 谷歌开源的 UUID 库。
+- [sonyflake](https://github.com/sony/sonyflake) 雪花 ID 库。
+- [decimal](https://github.com/shopspring/decimal) 十进制定点数库。
 - [testify](https://github.com/stretchr/testify) 测试库。
 - [golang-set](https://github.com/deckarep/golang-set) set 类型实现。
 - [concurrent-map](https://github.com/orcaman/concurrent-map) 线程安全的 map，go 1.9 之前没有 sync.Map。
 - [zap](https://github.com/uber-go/zap) 日志库。
 - [logrus](https://github.com/sirupsen/logrus) 结构化的日志库。
 - [zerolog](https://github.com/rs/zerolog) JSON 日志。
+- [file-rotatelogs](https://github.com/lestrrat-go/file-rotatelogs) 类 perl5 文件滚动落盘日志库。
 - [lumberjack](https://github.com/natefinch/lumberjack) 文件滚动落盘日志库。
 - [pie](https://github.com/elliotchance/pie) 切片(slice) 和 字典(map) 功能扩展库。
 - [urfave/cli](https://github.com/urfave/cli) 命令行参数分析库。
@@ -55,6 +58,8 @@
 - [brotli](https://github.com/andybalholm/brotli) 压缩算法 brotli 实现。
 - [sgn](https://github.com/EgeBalci/sgn) 二进制编码器，用于渗透的 shellcode 的库。
 - [pigo](https://github.com/esimov/pigo) 人脸识别库。
+- [go-ini](https://github.com/go-ini/ini) *.ini 文件处理库。
+- [go-yaml](https://github.com/go-yaml/yaml) YAML 文件处理库。
 
 ### 数据库
 
@@ -140,6 +145,7 @@
 - [gotify android](https://github.com/gotify/android) gotify 即时聊天安卓端。
 - [flutter-webrtc-server](https://github.com/flutter-webrtc/flutter-webrtc-server) flutter-webrtc 开发的服务器。
 - [lindb](https://github.com/lindb/lindb) 时序数据库。
+- [websocketd](https://github.com/joewalnes/websocketd) websocket 命令行工具，类似 inetd 。
 
 ## 常用命令
 

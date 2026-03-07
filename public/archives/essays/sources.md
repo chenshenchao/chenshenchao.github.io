@@ -131,6 +131,7 @@ qwen
 - [Sandboxie](https://github.com/sandboxie/sandboxie) Windows 沙盒。
 - [Sandboxie plus](https://github.com/sandboxie-plus/Sandboxie) Windows 沙盒。
 - [usbipd-win](https://github.com/dorssel/usbipd-win) Windows 下共享 USB 设备给 Hyper-V 和 WSL2 的命令行工具。
+- [SameBoy](https://github.com/LIJI32/SameBoy) C 开发的 GameBoy 模拟器。
 - [NoobBoy](https://github.com/Mika412/NoobBoy) C++ 开发的 GameBoy 模拟器。
 - [gameboy](https://github.com/mohanson/gameboy) rust 开发的 GameBoy 模拟器。
 - [PyBoy](https://github.com/Baekalfen/PyBoy) python 开发的 GameBoy 模拟器。
@@ -190,6 +191,8 @@ qwen
 
 ### 汇编器、链接器、编译器、解释器、调试器、构造工具、分析工具与代码生成器
 
+- [alda](https://github.com/alda-lang/alda) 音乐生成语言。
+- [purescript](https://github.com/purescript/purescript) 类 Haskell 的语言，可以编译成 JS 。
 - [fsharp](https://github.com/dotnet/fsharp) 微软开源的函数式语言 F#
 - [svg-filters](https://github.com/yoksel/svg-filters) SVG 滤镜代码生成器。
 - [dmc](https://github.com/DigitalMars/dmc) Digital Mars C/C++ 编译器。
@@ -287,6 +290,7 @@ qwen
 ### 办公软件与应用
 
 - [deskflow](https://github.com/deskflow/deskflow) 多电脑共享键盘鼠标。
+- [Lightscreen](https://github.com/ckaiser/Lightscreen) 截屏工具。
 - [ScreenToGif](https://github.com/NickeManarin/ScreenToGif) C# 开发的 Windows 截屏工具。
 - [AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) Redis 图形客户端工具。
 - [RedisStudio](https://github.com/cinience/RedisStudio) Redis 图形客户端工具。

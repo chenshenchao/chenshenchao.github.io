@@ -12,7 +12,9 @@ dotnet tool update --global dotnet-ef
 
 - [yarp](https://github.com/dotnet/yarp) HTTP 代理。
 - [TorchSharp](https://github.com/dotnet/TorchSharp) pytorch 封装。
+- [machinelearning](https://github.com/dotnet/machinelearning) 机器学习框架。
 - [Open-XML-SDK](https://github.com/dotnet/Open-XML-SDK) Excel（xlsx）、Word（dosx）基于 XML 格式的处理库。 
+- [maui](https://github.com/dotnet/maui)
 - [Microsoft.Maui.Graphics](https://github.com/dotnet/Microsoft.Maui.Graphics) 实验性的跨平台图形渲染库。
 - [ILMerge](https://github.com/dotnet/ILMerge) 把多个 .NET 程序集合并成一个的工具，已经不维护，依赖 .NET 4 运行时。
 
@@ -32,11 +34,17 @@ dotnet tool update --global dotnet-ef
 - [Pcap.Net](https://github.com/PcapDotNet/Pcap.Net) WinPcap 封装，网络抓包库，多年没更新。
 - [NCache](https://github.com/Alachisoft/NCache) 分布式缓存库。
 - [graphql-dotnet](https://github.com/graphql-dotnet/graphql-dotnet) GraphQL 服务库。
+- [IKAnalyzer.NET](https://github.com/stanzhai/IKAnalyzer.NET) 中文分词。
 - [jieba.NET](https://github.com/anderscui/jieba.NET) 中文分词。
+- [JIEba-netcore](https://github.com/SilentCC/JIEba-netcore)  中文分词,支持Lucene.net。
 - [playwright-dotnet](https://github.com/microsoft/playwright-dotnet) 微软开源的无头浏览器自动化库。
 - [CefSharp](https://github.com/cefsharp/CefSharp) CEF 封装绑定。
 - [ReactiveUI](https://github.com/reactiveui/ReactiveUI) UI 库。
 - [NSwag](https://github.com/RicoSuter/NSwag) OpenAPI 库。
+- [ReoGrid](https://github.com/unvell/ReoGrid) Excel 表格组件，支持 WPF、WinForms。
+- [npoi](https://github.com/nissl-lab/npoi) POI 的 C# 复刻，支持 Excel、Word 等 Office。
+- [FreeSql](https://github.com/dotnetcore/FreeSql) ORM
+- [SqlSugar](https://github.com/DotNetNext/SqlSugar) ORM
 
 ## 工具
 

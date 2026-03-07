@@ -54,6 +54,8 @@
 - [configor](https://github.com/l33oo/configor) 配置管理库，目前只支持 JSON 格式。
 - [yaml-cpp](https://github.com/jbeder/yaml-cpp) yaml 库。
 - [botan](https://github.com/randombit/botan) 加密工具库。
+- [taskflow](https://github.com/taskflow/taskflow) 任务并发库。
+- [xredis](https://github.com/0xsky/xredis) redis 客户端库。
 
 ### 网络
 
@@ -69,6 +71,7 @@
 - [libsourcey](https://github.com/sourcey/libsourcey) 基于 C++14 IO 事件的网络库。
 - [cpp-netlib](https://github.com/cpp-netlib/cpp-netlib) 网络库。
 - [NuRaft](https://github.com/eBay/NuRaft) 分布式协议 Raft 的实现库。
+- [websocketpp](https://github.com/zaphoyd/websocketpp) websocket 库。
 
 ### 数据库
 
