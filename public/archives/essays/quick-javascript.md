@@ -101,9 +101,11 @@
 - [rp2040js](https://github.com/wokwi/rp2040js) JS 实现的 树莓派 Pico 的模拟器。
 - [mind-map](https://github.com/wanglin2/mind-map) 思维导图组件。
 - [closure-library](https://github.com/google/closure-library) 谷歌的工具库，谷歌早期项目会使用到，已废弃。
+- [greenlet](https://github.com/developit/greenlet) Web Workers 封装。
 
 ### Web
 
+- [eruda](https://github.com/liriliri/eruda) 给移动端提供类似 F12 的开发面板。
 - [riot](https://github.com/riot/riot) web 前端框架。
 - [hyperapp](https://github.com/jorgebucaran/hyperapp) 1kb 大小的 web 前端框架。
 - [avalon](https://github.com/RubyLouvre/avalon) 前端 MVVM 框架，已经废弃。

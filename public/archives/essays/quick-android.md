@@ -47,6 +47,7 @@
 - [butterknife](https://github.com/JakeWharton/butterknife) 用注解来绑定事件。
 - [glide](https://github.com/bumptech/glide) 图片 加载、缓存 库。
 - [Rubik](https://github.com/baidu/Rubik) 百度开源的组件化方案。
+- [ShortcutBadger](https://github.com/leolin310148/ShortcutBadger) （Samsung, LG, Sony and HTC）桌面图标加角标。
 
 ## 开发工具
 

@@ -114,6 +114,8 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [GFPGAN](https://github.com/TencentARC/GFPGAN) 照片人脸修复模型。
 - [tuneflow-py](https://github.com/tuneflow/tuneflow-py) 音频生成模型。
 - [DragGAN](https://github.com/XingangPan/DragGAN) 通过拖拽修改图片。
+- [txtai](https://github.com/neuml/txtai) 集语义搜索、语言模型编排和语言模型工作流于一体的人工智能框架。
+- [text2text](https://github.com/artitw/text2text)
 
 
 ## AI 应用开发

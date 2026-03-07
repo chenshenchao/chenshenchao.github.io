@@ -307,6 +307,7 @@ fi
 ## 常用库
 
 - [serde](https://github.com/serde-rs/serde) 序列化库。
+- [rkyv](https://github.com/rkyv/rkyv) 序列化库。
 - [thiserror](https://github.com/dtolnay/thiserror)
 - [smol](https://github.com/smol-rs/smol) 异步运行时。
 - [async-compat](https://github.com/smol-rs/async-compat) tokio 兼容 futures 的库。

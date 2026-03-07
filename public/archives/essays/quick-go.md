@@ -53,6 +53,8 @@
 - [ixgo](https://github.com/goplus/ixgo) go/xgo 解释器。
 - [compress](https://github.com/klauspost/compress) 压缩算法集合。
 - [brotli](https://github.com/andybalholm/brotli) 压缩算法 brotli 实现。
+- [sgn](https://github.com/EgeBalci/sgn) 二进制编码器，用于渗透的 shellcode 的库。
+- [pigo](https://github.com/esimov/pigo) 人脸识别库。
 
 ### 数据库
 
@@ -84,8 +86,10 @@
 - [go-adaptive-radix-tree](https://github.com/plar/go-adaptive-radix-tree) ART树实现。
 - [mongo-go-driver](https://github.com/mongodb/mongo-go-driver)  mongo 客户端驱动。
 
-### Web 框架
+### 网络
 
+- [grpc-go](https://github.com/grpc/grpc-go)
+- [gnet](https://github.com/panjf2000/gnet) 网络框架。
 - [go-zero](https://github.com/zeromicro/go-zero) 微服务 web 框架。
 - [fiber](https://github.com/gofiber/fiber) web 框架。
 - [echo](https://github.com/labstack/echo) web 框架。
@@ -114,8 +118,11 @@
 - [jwt](https://github.com/golang-jwt/jwt) jwt 库。
 - [ssh](https://github.com/gliderlabs/ssh) ssh 服务器开发库。
 - [webrtc](https://github.com/pion/webrtc) 纯 go 开发的 webrtc 库。
+- [go-kit](https://github.com/go-kit/kit) 微服务框架。
+- [rpcx](https://github.com/smallnest/rpcx) 微服务框架。
+- [kubo](https://github.com/ipfs/kubo) IPFS 实现。
 
-### UI 库
+### 图形
 
 - [wails](https://github.com/wailsapp/wails) 打包 Web 成 桌面应用 的框架。
 - [hover](https://github.com/go-flutter-desktop/hover) Go 封装 flutter 的桌面应用开发框架。
@@ -132,6 +139,7 @@
 - [gotify server](https://github.com/gotify/server) gotify 即时聊天服务器。
 - [gotify android](https://github.com/gotify/android) gotify 即时聊天安卓端。
 - [flutter-webrtc-server](https://github.com/flutter-webrtc/flutter-webrtc-server) flutter-webrtc 开发的服务器。
+- [lindb](https://github.com/lindb/lindb) 时序数据库。
 
 ## 常用命令
 

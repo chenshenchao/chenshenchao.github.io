@@ -128,6 +128,7 @@
 - [blend2d](https://github.com/blend2d/blend2d) 基于 asmjit 的 2D 图形库。
 - [sciter-sdk](https://github.com/c-smile/sciter-sdk) 可内嵌的 HTML/CSS/TIScript 的脚本引擎。已废弃。
 - [sciter-js-sdk](https://gitlab.com/sciter-engine/sciter-js-sdk) 可内嵌的 HTML/CSS/JS 的脚本引擎。内置 QuickJs。 [GitHub 旧仓库](https://github.com/c-smile/sciter-js-sdk)
+- [mos](https://github.com/morganbengtsson/mos) 游戏引擎。
 
 ### boost
 

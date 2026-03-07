@@ -74,6 +74,9 @@ python -m http.server 8000
 - [Airtest](https://github.com/AirtestProject/Airtest) 自动化框架。
 - [pyreportjasper](https://github.com/acesseonline/pyreportjasper) python 解析编译处理 JasperReports (.jrxml & .jasper 文件).
 - [huey](https://github.com/coleifer/huey) 队列项目。
+- [greenlet](https://github.com/python-greenlet/greenlet) 并发库。
+- [Jiagu](https://github.com/ownthink/Jiagu) 中文分词。
+- [imgkit](https://github.com/jarrekk/imgkit) html 生成图片，基于 Webkit。
 
 ### 数据库
 

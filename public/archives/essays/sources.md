@@ -221,6 +221,7 @@ qwen
 - [nature](https://github.com/nature-lang/nature) 编程语言。
 - [OpenHSP](https://github.com/onitama/OpenHSP) Hot Soup 语言 Processor
 - [carbon-lang](https://github.com/carbon-language/carbon-lang) 实验性的 C++ 后继语言。
+- [lpython](https://github.com/lcompilers/lpython) python 编译器。
 - [Pyjion](https://github.com/microsoft/Pyjion) 微软开源基于 CoreCLR 的 python 解释器，不维护。
 - [Pyjion](https://github.com/tonybaloney/Pyjion) fork 微软的 Pyjion 继续维护。
 - [toit](https://github.com/toitlang/toit) 面向 MCU 开发的类 python 的静态类型语言。
@@ -247,6 +248,9 @@ qwen
 - [mold](https://github.com/rui314/mold) 快速的 Unix 链接器，据说比 lld、ld 快。
 - [scala-js](https://github.com/scala-js/scala-js) scala 转 JS 编译器。
 - [obfuscator](https://github.com/obfuscator-llvm/obfuscator) OLLVM 代码混淆。
+- [tree-sitter](https://github.com/tree-sitter/tree-sitter) 支持多语言绑定的多语言解析库。
+- [openapi-generator](https://github.com/OpenAPITools/openapi-generator) OpenAPI 客户端、服务端代码生成器。
+- [llvm-mingw](https://github.com/mstorsjo/llvm-mingw)
 
 ### 文件处理工具
 
@@ -311,6 +315,7 @@ qwen
 - [openoffice](https://github.com/apache/openoffice) Apache 开源的兼容 微软Office 办公软件。
 - [MirrorX](https://github.com/MirrorX-Desktop/MirrorX) 远程桌面客户端，有配套的服务器。
 - [VisualStudioUninstaller](https://github.com/microsoft/VisualStudioUninstaller) VisualStudio 卸载工具。
+- [texstudio](https://github.com/texstudio-org/texstudio) LaTeX 编辑器。
 
 ### 监控、渗透、测试工具
 
@@ -357,9 +362,11 @@ qwen
 - [bootcamp](https://github.com/milvus-io/bootcamp) milvus 的应用示例。
 - [weaviate](https://github.com/weaviate/weaviate) 向量数据库(GO 语言)
 - [qdrant](https://github.com/qdrant/qdrant) 向量数据库（rust 语言），开放给多种语言使用，主要支持 python 的封装。
-- [lancedb](https://github.com/lancedb/lancedb) 支持向量和全文索引数据库（rust 语言），主要支持 python 的封装。
 - [vectordb](https://github.com/epsilla-cloud/vectordb) 向量数据库（C++ 语言），主要支持 python 的封装。
+- [gel](https://github.com/geldata/gel) 魔改 PostgreSQL 的图数据库。
 - [bloop](https://github.com/BloopAI/bloop) rust 开发的代码搜索引擎
+- [lancedb](https://github.com/lancedb/lancedb) 支持向量和全文索引数据库（rust 语言），主要支持 python 的封装。
+- [fist](https://github.com/f-prime/fist) 全文搜索服务。
 - [couchdb](https://github.com/apache/couchdb) Apache 维护的一个 HTTP/JSON API 的文档数据库。
 - [ravendb](https://github.com/ravendb/ravendb) C# 开发的文档数据库，有配套的后台。
 - [rethinkdb](https://github.com/rethinkdb/rethinkdb) 文档数据库。
@@ -423,6 +430,7 @@ qwen
 - [packer](https://github.com/hashicorp/packer) docker 等容器镜像构建工具。
 - [distribution](https://github.com/distribution/distribution) docker 等容器镜像仓库服务。
 - [ttyd](https://github.com/tsl0922/ttyd) 把终端暴露成 web 页面的服务器。
+- [maxwell](https://github.com/zendesk/maxwell) 通过 mysql binlog 转成 JSON 发送 kafka 的生产者服务。
 
 ### 硬件设计工具
 
@@ -521,6 +529,7 @@ qwen
 - [openwrt](https://github.com/openwrt/openwrt) 嵌入式 linux，适合开发路由器。
 - [MOOS](https://github.com/nifanfa/MOOS) C# 开发的 x64 操作系统，基于 .NET AOT。
 - [MS-DOS](https://github.com/microsoft/MS-DOS)
+- [pi64](https://github.com/bamarni/pi64) Go 开发的 树莓派3 操作系统，基于 Linux 4.11 Debian Stretch。
 
 ### 浏览器插件
 

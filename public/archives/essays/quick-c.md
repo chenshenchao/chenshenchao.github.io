@@ -66,6 +66,7 @@
 - [enet](https://github.com/zpl-c/enet) UDP 框架。
 - [libpcap](https://github.com/the-tcpdump-group/libpcap) linux 下网络抓包库。
 - [npcap](https://github.com/nmap/npcap) Windows 下网络抓包库。
+- [Win10Pcap](https://github.com/SoftEtherVPN/Win10Pcap) Windows 10 (NDIS 6.x driver model) 网络抓包库。
 - [nodejs http-parser](https://github.com/nodejs/http-parser) 的 HTTP 报文解析器。
 - [libuv](https://github.com/libuv/libuv) 跨平台异步IO库。
 - [cryptlib](https://github.com/cryptlib/cryptlib) TLS 等安全工具库。
