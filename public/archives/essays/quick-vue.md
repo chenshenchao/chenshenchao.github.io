@@ -1,6 +1,7 @@
 # [草稿]Vue 速查
 
 - [vue core](https://github.com/vuejs/core)
+- [router](https://github.com/vuejs/router)
 - [composition-api](https://github.com/vuejs/composition-api) Vue2 的 composition api 支持库。
 - [vue-class-component](https://github.com/vuejs/vue-class-component) 已经废弃的设计。
 - [devtools-v6](https://github.com/vuejs/devtools-v6) Vue2 浏览器开发工具插件。
@@ -10,7 +11,6 @@
 
 - [vxe-table](https://github.com/x-extends/vxe-table) 虚表格库，功能很多，有免费和付费版本。
 - [vxe-pc-ui](https://github.com/x-extends/vxe-pc-ui) 桌面端 UI 组件库。
-- [vueuse](https://vueuse.org/) vue 扩展库，主要扩展了一些钩子。
 - [ant-design-vue](https://github.com/vueComponent/ant-design-vue)
 - [tinymce-vue](https://github.com/tinymce/tinymce-vue) 富文本编辑器 TinyMCE 的 vue 封装。
 - [vue-office](https://github.com/501351981/vue-office) 支持word(.docx)、excel(.xlsx,.xls)、pdf、pptx等各类型office文件预览的vue组件集合。
@@ -18,6 +18,7 @@
 
 ### Vue3
 
+- [vueuse](https://vueuse.org/) vue 扩展库，主要扩展了一些钩子，[GitHub 仓库](https://github.com/vueuse/vueuse)。
 - [nativescript-vue](https://github.com/nativescript-vue/nativescript-vue) Vue + NativeScript 生成原生APP。
 - [pinia](https://pinia.vuejs.org/) 存储管理库
 - [pinia-plugin-persistedstate](https://github.com/prazdevs/pinia-plugin-persistedstate) pinia 持久化扩展。仓库转移到 https://codeberg.org/praz/pinia-plugin-persistedstate。

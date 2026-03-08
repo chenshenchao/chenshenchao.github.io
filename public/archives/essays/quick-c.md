@@ -50,6 +50,7 @@
 
 ### 数据库
 
+- [dqlite](https://github.com/canonical/dqlite) 可内嵌的分布式 SQLite 库。
 - [hiredis](https://github.com/redis/hiredis) redis 客户端库。
 - [upscaledb](https://github.com/cruppstahl/upscaledb) 键值对型数据库实现。
 - [unqlite](https://github.com/symisc/unqlite) 键值对型数据库实现。

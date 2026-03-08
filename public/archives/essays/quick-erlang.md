@@ -24,6 +24,8 @@ erl -noshell -s hello start -s init stop
 
 ### [Rebar3](https://github.com/erlang/rebar3)
 
+- [relx](https://github.com/erlware/relx) rebar3 使用的库。
+
 [官网](https://www.rebar3.org) 下载文件 rebar3 放到 erlang 的 bin 目录。
 新建 rebar3.cmd 文件，内容如下（代码来自 rebar3 官网）。
 

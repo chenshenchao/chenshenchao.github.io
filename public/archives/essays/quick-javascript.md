@@ -105,6 +105,8 @@
 - [mind-map](https://github.com/wanglin2/mind-map) 思维导图组件。
 - [closure-library](https://github.com/google/closure-library) 谷歌的工具库，谷歌早期项目会使用到，已废弃。
 - [greenlet](https://github.com/developit/greenlet) Web Workers 封装。
+- [rxjs](https://github.com/ReactiveX/rxjs) rx
+- [driver.js](https://github.com/kamranahmedse/driver.js) 教程引导组件。
 
 ### Web
 

@@ -487,6 +487,8 @@ fi
 ## 工具、项目、示例
 
 - [KuiBaDB](https://github.com/KuiBaDB/KuiBaDB) 一个 OLAP 数据库实现。
+- [RustScan](https://github.com/bee-san/RustScan) 端口扫描工具。
+- [czkawka](https://github.com/qarmin/czkawka) 类 文件管理器。
 
 ## 兼容
 

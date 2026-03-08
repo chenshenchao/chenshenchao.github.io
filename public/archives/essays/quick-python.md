@@ -82,14 +82,17 @@ python -m http.server 8000
 - [tablib](https://github.com/jazzband/tablib) EXCEL、JSON、SQL 等数据集生成库。
 - [python-dotenv](https://github.com/theskumar/python-dotenv) .env 库。
 - [tqdm](https://github.com/tqdm/tqdm) 命令行进度条显示。
+- [httptools](https://github.com/MagicStack/httptools) HTTP 解析库。
+- [pinject](https://github.com/google/pinject) 谷歌开源的依赖注入库。
 
 ### 数据库
 
+- [asyncpg](https://github.com/MagicStack/asyncpg) PostgreSQL 客户端。
 - [mysqlclient](https://github.com/PyMySQL/mysqlclient) MySQL 连接库。
 - [PyMySQL](https://github.com/PyMySQL/PyMySQL) MySQL 客户端。
 - [binlog2sql](https://github.com/danfengcao/binlog2sql) MySQL binlog 分析库。
 
-### UI 库
+### 图形
 
 - [kivy](https://github.com/kivy/kivy) UI框架，主移动端。
 - [toga](https://github.com/beeware/toga) UI 框架，主桌面端。
@@ -99,6 +102,7 @@ python -m http.server 8000
 - [pyxel](https://github.com/kitao/pyxel) rust 开发的游戏引擎，脚本语言是 python 。
 - [pygame_gui](https://github.com/MyreMylar/pygame_gui)
 - [DearPyGui](https://github.com/hoffstadt/DearPyGui) ImGUI 的封装。
+- [pycairo](https://github.com/pygobject/pycairo) 封装 cairo 绘图库。
 
 ### 网络
 
@@ -115,9 +119,13 @@ python -m http.server 8000
 - [wechatpy](https://github.com/wechatpy/wechatpy) 微信SDK
 - [rpyc](https://github.com/tomerfiliba-org/rpyc) RPC 库。
 - [pyftpdlib](https://github.com/giampaolo/pyftpdlib) FTP 服务器开发库。
+- [asgiref](https://github.com/django/asgiref) ASGI、WSGI 库。
+- [helium](https://github.com/mherrmann/helium) 无头浏览器爬虫自动化库。
 
 ### 示例、项目
 
+- [uwsgi](https://github.com/unbit/uwsgi) uWSGI HTTP 服务器（WSGI 为主，兼容 ASGI），官方主要支持 python 和 ruby 。
+- [uvicorn](https://github.com/Kludex/uvicorn) python 的 ASGI web 服务器（ASGI 为主，兼容 WSGI）。
 - [PythonSSHServerTutorial](https://github.com/ramonmeza/PythonSSHServerTutorial) 使用 Paramiko 开发 SSH 服务器教程。
 - [rye](https://github.com/astral-sh/rye) 包管理工具，已经不维护，建议使用 uv 替代。
 - [pyright](https://github.com/microsoft/pyright) python 静态类型分析工具，有 VSCODE 插件。
@@ -125,6 +133,7 @@ python -m http.server 8000
 - [codon](https://github.com/exaloop/codon) python 编译器，生成原生机器码，内置 NumPy。
 - [ocr_TDR](https://github.com/jinxiwang/ocr_TDR) 一个 tensorflow 的 OCR 示例。
 - [yq](https://github.com/kislyuk/yq) 命令行  YAML, XML, TOML 处理工具。
+- [zulip](https://github.com/zulip/zulip) web 的即时聊天工具。
 
 ## 虚拟环境
 

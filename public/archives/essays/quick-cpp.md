@@ -56,6 +56,7 @@
 - [botan](https://github.com/randombit/botan) 加密工具库。
 - [taskflow](https://github.com/taskflow/taskflow) 任务并发库。
 - [xredis](https://github.com/0xsky/xredis) redis 客户端库。
+- [ScriptX](https://github.com/Tencent/ScriptX) 腾讯开源的脚本引擎抽象层，支持接入 JS、Lua 的脚本引擎。
 
 ### 网络
 
@@ -146,6 +147,10 @@
 
 - [PHP-CPP](https://github.com/CopernicaMarketingSoftware/PHP-CPP) 开发 PHP 扩展。
 - [pybind11](https://github.com/pybind/pybind11) C++11 开发 python 扩展。
+
+## 项目
+
+- [ClickHouse](https://github.com/ClickHouse/ClickHouse) 实时生成分析的列数据库。
 
 ## 包管理与构造工具
 

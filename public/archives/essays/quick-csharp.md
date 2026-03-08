@@ -51,6 +51,7 @@
 - [cs-script](https://github.com/oleg-shilo/cs-script) C# 的解释器，可以内嵌程序里，也有命令行。
 - [WebP-wrapper](https://github.com/JosePineiro/WebP-wrapper) libwebp 封装。
 - [wixsharp](https://github.com/oleg-shilo/wixsharp) C# 语法来写 MSI/MIX 安装包脚本。
+- [websocket-sharp](https://github.com/sta/websocket-sharp) websocket 库。
 
 ### Blazor
 

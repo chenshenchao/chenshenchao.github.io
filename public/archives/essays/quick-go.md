@@ -60,6 +60,7 @@
 - [pigo](https://github.com/esimov/pigo) 人脸识别库。
 - [go-ini](https://github.com/go-ini/ini) *.ini 文件处理库。
 - [go-yaml](https://github.com/go-yaml/yaml) YAML 文件处理库。
+- [mix](https://github.com/mix-go/mix) 快速开发的工具库。
 
 ### 数据库
 

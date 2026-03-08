@@ -221,6 +221,7 @@ qwen
 - [lux](https://github.com/LuxLang/lux) 静态类型的 Lisp 语言。
 - [ChezScheme](https://github.com/cisco/ChezScheme) Lisp 方言。
 - [ccl](https://github.com/Clozure/ccl) Clozure Common Lisp 方言。
+- [wax](https://github.com/LingDong-/wax)Lisp 方言。 可编译成 WASM、JS、Java、C# 等。
 - [fanx](https://github.com/fanx-dev/fanx) 全栈编程语言。
 - [stone](https://github.com/chibash/stone) 《两周自制脚本语言》示例脚本语言。
 - [nature](https://github.com/nature-lang/nature) 编程语言。
@@ -256,6 +257,7 @@ qwen
 - [tree-sitter](https://github.com/tree-sitter/tree-sitter) 支持多语言绑定的多语言解析库。
 - [openapi-generator](https://github.com/OpenAPITools/openapi-generator) OpenAPI 客户端、服务端代码生成器。
 - [llvm-mingw](https://github.com/mstorsjo/llvm-mingw)
+- [thrift](https://github.com/apache/thrift) 类 grpc，可生成 多语言的客户端/服务端（C++、Java、Python、Ruby、JS）。区别是没有 protobuf 这种数据结构格式 而是使用 JSON 作为数据传输的格式。
 
 ### 文件处理工具
 
@@ -362,7 +364,6 @@ qwen
 - [nginx](https://github.com/nginx/nginx)
 - [caddy](https://github.com/caddyserver/caddy) go 语言实现的类 nginx 的服务器。
 - [envoy](https://github.com/envoyproxy/envoy) 代理，可以配合 grpc-web 把 HTTP/1.1 转成 HTTP/2.0 以支持 GRPC。
-- [uwsgi](https://github.com/unbit/uwsgi) uWSGI HTTP 服务器，官方主要支持 python 和 ruby 。
 - [marqo](https://github.com/marqo-ai/marqo) 基于 AI 的产品搜索服务，文本、图片等来搜索产品。
 - [oceanbase](https://github.com/oceanbase/oceanbase) 阿里蚂蚁开发的分布式关系数据库。
 - [milvus](https://milvus.io) 向量数据库(GO 语言)，官方给出了很多应用示例（RAG、图搜等）快速开发应用。
@@ -379,7 +380,6 @@ qwen
 - [rethinkdb](https://github.com/rethinkdb/rethinkdb) 文档数据库。
 - [cursusdb](https://github.com/cursusdb/cursusdb) （Go 语言）以 SQL 作为查询语言的文档数据库。
 - [sphinx](https://github.com/sphinxsearch/sphinx) 全文搜索引擎，已不维护。
-- [ElasticSearch](https://github.com/elastic/elasticsearch) 全文索引数据库（Java 语言）。
 - [zincsearch](https://github.com/zincsearch/zincsearch) 类 ElasticSearch 全文索引数据库（GO 语言）。
 - [gofound](https://github.com/sea-team/gofound) 全文索引数据库（GO 语言），HTTP 接口，有管理后台面板。
 - [sonic](https://github.com/valeriansaliou/sonic) 全文搜索数据库。
@@ -534,6 +534,7 @@ qwen
 - [linux](https://github.com/torvalds/linux)
 - [kerla](https://github.com/nuta/kerla) rust 开发的与 linux 二进制兼容的内核。
 - [openwrt](https://github.com/openwrt/openwrt) 嵌入式 linux，适合开发路由器。
+- [rocky](https://github.com/rocky-linux/rocky) 应对 CentOS 停止维护而开发的操作系统。
 - [MOOS](https://github.com/nifanfa/MOOS) C# 开发的 x64 操作系统，基于 .NET AOT。
 - [MS-DOS](https://github.com/microsoft/MS-DOS)
 - [pi64](https://github.com/bamarni/pi64) Go 开发的 树莓派3 操作系统，基于 Linux 4.11 Debian Stretch。

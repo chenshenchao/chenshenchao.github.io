@@ -6,6 +6,9 @@
 
 ## 常用库
 
+- [Blackbone](https://github.com/DarthTon/Blackbone) 内存注入
+- [Xenos](https://github.com/DarthTon/Xenos) DLL 注入
+
 ### [detours](https://github.com/microsoft/Detours)
 
 Windows 下监听、拦截 API 调用的库。

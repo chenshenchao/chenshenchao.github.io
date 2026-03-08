@@ -36,6 +36,7 @@ php -S 0.0.0.0:80
 
 - [composer 源码](https://github.com/composer/composer)
 - [satis](https://github.com/composer/satis) composer 仓库服务器，可部署私有仓库服务。
+- [semver](https://github.com/composer/semver) 版本号字符串 比较等函数扩展库。
 
 ```bash
 # 安装依赖，忽略 ext-* 的 C 扩展
@@ -51,7 +52,6 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [zendframework](https://github.com/zendframework/zendframework) 维护 PHP 的 Zend 公司开发的框架，已多年不维护。
 - [PHP-DI](https://github.com/PHP-DI/PHP-DI) 依赖注入库。
 - [FastRoute](https://github.com/nikic/FastRoute) 路由库。
-- [WordPress](https://github.com/WordPress/WordPress)
 - [Requests](https://github.com/WordPress/Requests) HTTP 客户端库。
 - [guzzle](https://github.com/guzzle/guzzle) HTTP 客户端库。
 - [uuid](https://github.com/ramsey/uuid) uuid 库。
@@ -59,6 +59,7 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [laravel](https://github.com/laravel/laravel) PHP 界的 Spring ，功能齐全，就是有点重，服务器要求比其他 PHP 框架高，不然会卡。
 - [symfony](https://github.com/symfony/symfony) Web 框架，拆分出很多基础库，ThinkPHP 大量复用它的基础库。
 - [symfony/dotenv](https://github.com/symfony/dotenv) symfony 环境变量库。
+- [dom-crawler](https://github.com/symfony/dom-crawler) HTML、XML 遍历工具库。
 - [CodeIgniter](https://github.com/bcit-ci/CodeIgniter) Web 框架
 - [CodeIgniter4](https://github.com/codeigniter4/CodeIgniter4) Web 框架
 - [tntsearch](https://github.com/teamtnt/tntsearch) 倒排索引库。
@@ -83,11 +84,15 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [simplexls](https://github.com/shuchkin/simplexls) excel xls 文件处理库。
 - [PhpSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet) excel 处理库。
 - [psalm](https://github.com/vimeo/psalm) 静态分析工具，可以分析出函数参数类型错误等问题。
-- [Sylius](https://github.com/Sylius/Sylius) 电商项目。
 - [PHP-Parser](https://github.com/nikic/PHP-Parser) PHP 写的 PHP 语法分析器。
 - [pinyin](https://github.com/overtrue/pinyin) 中文转拼音。
 - [pest](https://github.com/pestphp/pest) 测试框架。
 - [puphpeteer](https://github.com/rialto-php/puphpeteer) puppeteer 的封装。
+
+## 项目、示例
+
+- [WordPress](https://github.com/WordPress/WordPress)
+- [Sylius](https://github.com/Sylius/Sylius) 电商项目。
 
 ## 命令规范
 
