@@ -13,6 +13,7 @@
 ## 常用 C 扩展
 
 - [RediSearch](https://github.com/RediSearch/RediSearch) 全文搜索插件，对中文分词有问题。
+- [RedisGraph](https://github.com/RedisGraph/RedisGraph) 图数据库插件。
 
 ## 自定义 C 扩展开发
 

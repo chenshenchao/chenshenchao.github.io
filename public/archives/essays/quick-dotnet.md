@@ -45,12 +45,17 @@ dotnet tool update --global dotnet-ef
 - [npoi](https://github.com/nissl-lab/npoi) POI 的 C# 复刻，支持 Excel、Word 等 Office。
 - [FreeSql](https://github.com/dotnetcore/FreeSql) ORM
 - [SqlSugar](https://github.com/DotNetNext/SqlSugar) ORM
+- [Chloe](https://github.com/shuxinqin/Chloe) ORM
+- [Box2D.NET](https://github.com/ikpil/Box2D.NET) 物理引擎。
 
 ## 工具
 
 - [dnSpy](https://github.com/dnSpy/dnSpy) .Net 调试器。
 - [il-repack](https://github.com/gluck/il-repack) 把多个 .NET 程序集合并成一个的工具，ILMerge 的开源替代。
 - [WebFirst](https://github.com/DotNetNext/WebFirst) Web 应用，通过 Excel 给数据库建表的工具。（为什么不用 DDL？）
+- [BaGet](https://github.com/loic-sharma/BaGet) 轻量级的 Nuget 服务器。
+- [Fody](https://github.com/Fody/Fody) .NET 程序集修改工具。
+- [Costura](https://github.com/Fody/Costura) Fody 插件，用于把资源内嵌到程序集里。
 
 ## 单文件打包
 

@@ -2,6 +2,7 @@
 
 - [WSL2-Linux-Kernel 源码](https://github.com/microsoft/WSL2-Linux-Kernel)
 - [microsoft-ui-xaml](https://github.com/microsoft/microsoft-ui-xaml) WinUI3
+- [windows-rs](https://github.com/microsoft/windows-rs) rust 调用 Windows API、COM 等的绑定封装。
 
 ## 常用库
 

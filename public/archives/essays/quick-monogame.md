@@ -7,7 +7,7 @@
 
 ## 项目结构
 
-- .config 目录里面有 dotnet-tool.json 没有这个文件 VS 无法打开 *.mgcb 文件编辑器。
+- .config 目录里面有 dotnet-tool.json 没有这个文件 VS 无法打开 *.mgcb 文件编辑器，而且构造会失败报错。
 - Content 目录里面有 Content.mgcb 资源文件靠这个管理，MonoGame.Content.Builder.Task 就是用于通过这个文件生成资源的。
 
 ## 常用库
@@ -16,6 +16,7 @@
 - [FontStashSharp](https://github.com/FontStashSharp/FontStashSharp) 字体加载库。
 - [Gum](https://github.com/vchelaru/Gum) 游戏 UI 设计工具和库，支持 MonoGame、WPF等。
 - [GeonBit.UI](https://github.com/RonenNess/GeonBit.UI) UI 库。
+- [VelcroPhysics](https://github.com/Genbox/VelcroPhysics) 物理引擎库。
 
 ### GUM
 

@@ -46,6 +46,7 @@
 - [libssh2](https://github.com/libssh2/libssh2) SSH2 库。
 - [libffi](https://github.com/libffi/libffi) ffi 库。
 - [MemoryModule](https://github.com/fancycode/MemoryModule) 内存中加载 DLL 的库。
+- [vlc](https://github.com/videolan/vlc) vlc 视频播放库，支持 Windows、安卓 等平台。
 
 ### 数据库
 

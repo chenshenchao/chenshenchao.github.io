@@ -145,6 +145,7 @@
 ### 底层
 
 - [PHP-CPP](https://github.com/CopernicaMarketingSoftware/PHP-CPP) 开发 PHP 扩展。
+- [pybind11](https://github.com/pybind/pybind11) C++11 开发 python 扩展。
 
 ## 包管理与构造工具
 

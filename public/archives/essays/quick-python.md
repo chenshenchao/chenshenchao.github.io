@@ -27,7 +27,7 @@ python -m http.server 8000
 - [pyautogui](https://github.com/asweigart/pyautogui) 跨平台桌面系统自动化操作库，模拟鼠标键盘操作。
 - [pyttsx3](https://github.com/nateshmbhat/pyttsx3) TTS 库。
 - [mcp sdk](https://github.com/modelcontextprotocol/python-sdk) MCP 官方发布的客户端 SDK 库。
-- [numba](https://github.com/numba/numba) NumPy 动态编译。
+- [numba](https://github.com/numba/numba) NumPy 动态编译 JIT 。
 - [llvmlite](https://github.com/numba/llvmlite) LLVM 封装，提供 JIT 编译。
 - [snowflake](https://github.com/vd2org/snowflake) 雪花ID生成库。
 - [pyexcel](https://github.com/pyexcel/pyexcel) Excel 处理库，支持 csv, ods, xls, xlsx, xlsm 文件。
@@ -75,6 +75,7 @@ python -m http.server 8000
 - [pyreportjasper](https://github.com/acesseonline/pyreportjasper) python 解析编译处理 JasperReports (.jrxml & .jasper 文件).
 - [huey](https://github.com/coleifer/huey) 队列项目。
 - [greenlet](https://github.com/python-greenlet/greenlet) 并发库。
+- [trio](https://github.com/python-trio/trio) 异步协程 IO 扩展库。
 - [Jiagu](https://github.com/ownthink/Jiagu) 中文分词。
 - [imgkit](https://github.com/jarrekk/imgkit) html 生成图片，基于 Webkit。
 - [pyyaml](https://github.com/yaml/pyyaml) YAML 处理库。
@@ -123,6 +124,7 @@ python -m http.server 8000
 - [mypy](https://github.com/python/mypy)  python 静态类型检查器。
 - [codon](https://github.com/exaloop/codon) python 编译器，生成原生机器码，内置 NumPy。
 - [ocr_TDR](https://github.com/jinxiwang/ocr_TDR) 一个 tensorflow 的 OCR 示例。
+- [yq](https://github.com/kislyuk/yq) 命令行  YAML, XML, TOML 处理工具。
 
 ## 虚拟环境
 

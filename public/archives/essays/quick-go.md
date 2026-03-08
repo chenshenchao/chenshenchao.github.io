@@ -74,6 +74,7 @@
 - [bleve](https://github.com/blevesearch/bleve) 可内嵌的全文搜索、向量搜索数据库。
 - [blevex](https://github.com/blevesearch/blevex) bleve 扩展。
 - [bleve_index_api](https://github.com/blevesearch/bleve_index_api) bleve 索引API
+- [golucene](https://github.com/ironsweet/golucene) 类 lucene 倒排索引库。
 - [riot](https://github.com/go-ego/riot) 可内嵌的全文搜索数据库。
 - [gorp](https://github.com/go-gorp/gorp) 简易 ORM，需要手写 SQL 。
 - [gorm](https://github.com/go-gorm/gorm) 国人开发的 ORM ，动态类型，功能比较全。

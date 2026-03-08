@@ -56,6 +56,9 @@ nvm use 16
 - [puppeteer](https://github.com/puppeteer/puppeteer) 封装 Chrome、Firefox 的 API，无头浏览器自动化。
 - [playwright](https://github.com/microsoft/playwright) 微软开源的封装 Chrome、Firefox、WebKit 的 API，无头浏览器自动化。
 - [nodegit](https://github.com/nodegit/nodegit) nodejs 下对 git 命令行封装。
+- [winston](https://github.com/winstonjs/winston) 日志库。
+- [nanocolors](https://github.com/ai/nanocolors) 命令行颜色样式库。
+- [node-archiver](https://github.com/archiverjs/node-archiver) zip 等文档创建的流式库。
 
 ### Web
 
@@ -104,6 +107,7 @@ nvm use 16
 - [mui](https://github.com/dcloudio/mui) DCloud 早期的项目，后转向 uniapp。
 - [GCanvas](https://github.com/alibaba/GCanvas) 阿里开源为 Weex 和 ReactNative 提供的 2D 渲染库。
 - [node-qrcode](https://github.com/soldair/node-qrcode) 二维码生成器。
+- [node-canvas](https://github.com/Automattic/node-canvas) 基于 Cairo 的画布。
 
 ## 包管理器
 

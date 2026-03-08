@@ -131,6 +131,7 @@ qwen
 - [Sandboxie](https://github.com/sandboxie/sandboxie) Windows 沙盒。
 - [Sandboxie plus](https://github.com/sandboxie-plus/Sandboxie) Windows 沙盒。
 - [usbipd-win](https://github.com/dorssel/usbipd-win) Windows 下共享 USB 设备给 Hyper-V 和 WSL2 的命令行工具。
+- [gameboy.live](https://github.com/HFO4/gameboy.live) Go 开发的 GameBoy 模拟器。
 - [SameBoy](https://github.com/LIJI32/SameBoy) C 开发的 GameBoy 模拟器。
 - [NoobBoy](https://github.com/Mika412/NoobBoy) C++ 开发的 GameBoy 模拟器。
 - [gameboy](https://github.com/mohanson/gameboy) rust 开发的 GameBoy 模拟器。
@@ -216,6 +217,7 @@ qwen
 - [cairo](https://github.com/starkware-libs/cairo) 一个用 rust 开发，很像 rust 的语言。
 - [red](https://github.com/red/red) 一个编程语言。
 - [wenyan](https://github.com/wenyan-lang/wenyan) 文言文編程語言
+- [joker](https://github.com/candid82/joker) Go 开发的 Lisp 方言：Small Clojure 解释器。
 - [lux](https://github.com/LuxLang/lux) 静态类型的 Lisp 语言。
 - [ChezScheme](https://github.com/cisco/ChezScheme) Lisp 方言。
 - [ccl](https://github.com/Clozure/ccl) Clozure Common Lisp 方言。
@@ -294,6 +296,7 @@ qwen
 - [ScreenToGif](https://github.com/NickeManarin/ScreenToGif) C# 开发的 Windows 截屏工具。
 - [AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) Redis 图形客户端工具。
 - [RedisStudio](https://github.com/cinience/RedisStudio) Redis 图形客户端工具。
+- [medis](https://github.com/luin/medis) 苹果 MAC 上的 Redis 客户端图形工具。
 - [iredis](https://github.com/laixintao/iredis) Redis 命令行客户端工具。
 - [PDFPatcher](https://github.com/wmjordan/PDFPatcher) PDF 编辑工具。
 - [marktext](https://github.com/marktext/marktext) markdown 编辑器。

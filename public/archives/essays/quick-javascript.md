@@ -10,6 +10,9 @@
 - [timeago.js](https://github.com/hustcc/timeago.js) 2kb 日期库。
 - [lodash](https://github.com/lodash/lodash) 基础类型扩展工具库。
 - [ramda](https://github.com/ramda/ramda) 类 lodash 工具库。
+- [json-editor](https://github.com/jdorn/json-editor) JSON 树形编辑器组件。
+- [jsoneditor](https://github.com/josdejong/jsoneditor) JSON 树形编辑器组件。
+- [ckeditor4](https://github.com/ckeditor/ckeditor4) 富文本编辑器。
 - [x-spreadsheet](https://github.com/myliang/x-spreadsheet) 类似 Office Excel 的 canvas 编辑器，换 TS 开发了 wolf-table。
 - [handsontable](https://github.com/handsontable/handsontable) Excel 编辑器
 - [sheetjs](https://github.com/SheetJS/sheetjs) excel 操作库，免费版本功能有限，Pro 版本收费。
@@ -125,6 +128,7 @@
 - [videoconverter.js](https://github.com/bgrins/videoconverter.js) 封装 wasm ffmpeg 浏览器端视频转换。
 - [hls.js](https://github.com/video-dev/hls.js) 让只支持MSE(Media Source Extensions，W3C 制定)的浏览器支持 HLS(HTTP Live Streaming，苹果公司推出) 的视频播放。
 - [video.js](https://github.com/videojs/video.js) 视频播放器组件。
+- [moovie.js](https://github.com/BMSVieira/moovie.js) 视频播放器组件。
 - [blockly](https://github.com/RaspberryPiFoundation/blockly) web 可视化编程语言（SCRATCH 等大部分少儿编程都是基于这个库）。
 - [qrcodejs](https://github.com/davidshimjs/qrcodejs) 二维码生成库。
 - [glisp](https://github.com/baku89/glisp) 基于 lisp 语言做绘图编辑器。

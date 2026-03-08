@@ -48,6 +48,10 @@
 - [grpc-java](https://github.com/grpc/grpc-java)
 - [lucene](https://github.com/apache/lucene) 倒排索引库。
 
+## 项目、示例
+
+- [pulsar](https://github.com/apache/pulsar) 分布式订阅发布的消息服务。
+
 ## 开发环境与包管理工具
 
 常见问题：
