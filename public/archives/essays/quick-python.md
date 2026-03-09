@@ -84,6 +84,7 @@ python -m http.server 8000
 - [tqdm](https://github.com/tqdm/tqdm) 命令行进度条显示。
 - [httptools](https://github.com/MagicStack/httptools) HTTP 解析库。
 - [pinject](https://github.com/google/pinject) 谷歌开源的依赖注入库。
+- [uvloop](https://github.com/MagicStack/uvloop) 异步运行环境 asyncio 的高性能替代实现。
 
 ### 数据库
 
@@ -91,6 +92,7 @@ python -m http.server 8000
 - [mysqlclient](https://github.com/PyMySQL/mysqlclient) MySQL 连接库。
 - [PyMySQL](https://github.com/PyMySQL/PyMySQL) MySQL 客户端。
 - [binlog2sql](https://github.com/danfengcao/binlog2sql) MySQL binlog 分析库。
+- [mongoengine](https://github.com/MongoEngine/mongoengine) mongodb 客户端。
 
 ### 图形
 
@@ -122,7 +124,7 @@ python -m http.server 8000
 - [asgiref](https://github.com/django/asgiref) ASGI、WSGI 库。
 - [helium](https://github.com/mherrmann/helium) 无头浏览器爬虫自动化库。
 
-### 示例、项目
+## 示例、项目
 
 - [uwsgi](https://github.com/unbit/uwsgi) uWSGI HTTP 服务器（WSGI 为主，兼容 ASGI），官方主要支持 python 和 ruby 。
 - [uvicorn](https://github.com/Kludex/uvicorn) python 的 ASGI web 服务器（ASGI 为主，兼容 WSGI）。
@@ -134,6 +136,7 @@ python -m http.server 8000
 - [ocr_TDR](https://github.com/jinxiwang/ocr_TDR) 一个 tensorflow 的 OCR 示例。
 - [yq](https://github.com/kislyuk/yq) 命令行  YAML, XML, TOML 处理工具。
 - [zulip](https://github.com/zulip/zulip) web 的即时聊天工具。
+- [onlinetools](https://github.com/iceyhexman/onlinetools) 端口扫描等渗透工具。
 
 ## 虚拟环境
 

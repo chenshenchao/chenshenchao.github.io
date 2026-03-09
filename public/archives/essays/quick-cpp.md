@@ -151,6 +151,9 @@
 ## 项目
 
 - [ClickHouse](https://github.com/ClickHouse/ClickHouse) 实时生成分析的列数据库。
+- [AheadLib-x86-x64](https://github.com/strivexjun/AheadLib-x86-x64) 劫持 DLL 的代码生成工具。
+- [AheadLib](https://github.com/Yonsm/AheadLib) 劫持 DLL 的代码生成工具。劫持 DLL 的代码生成工具。
+- [ExStudPE_Visual_Tools](https://github.com/tankaishuai/ExStudPE_Visual_Tools) 扩展了 StudPE 的工具。
 
 ## 包管理与构造工具
 

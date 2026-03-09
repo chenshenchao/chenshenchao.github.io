@@ -57,6 +57,7 @@
 - [asm-js validator](https://github.com/asm-js/validator) asm.js 的参考验证器。
 - [MIDI.js](https://github.com/mudcube/MIDI.js)
 - [licia](https://github.com/liriliri/licia) 无依赖，自成一体的工具集库（UUID 生成等）。
+- [nanoid](https://github.com/ai/nanoid) nanoid（118 bytes） 生成库。
 - [chameleon](https://github.com/didi/chameleon) 跨 web 和多家小程序的 开发框架。
 - [astring](https://github.com/davidbonnet/astring) JS 解析成 AST 库。
 - [draggable](https://github.com/Shopify/draggable) DOM 元素拖拽库。
@@ -107,6 +108,7 @@
 - [greenlet](https://github.com/developit/greenlet) Web Workers 封装。
 - [rxjs](https://github.com/ReactiveX/rxjs) rx
 - [driver.js](https://github.com/kamranahmedse/driver.js) 教程引导组件。
+- [js-ipfs](https://github.com/ipfs/js-ipfs) IPFS 实现。
 
 ### Web
 

@@ -47,6 +47,7 @@
 - [libffi](https://github.com/libffi/libffi) ffi 库。
 - [MemoryModule](https://github.com/fancycode/MemoryModule) 内存中加载 DLL 的库。
 - [vlc](https://github.com/videolan/vlc) vlc 视频播放库，支持 Windows、安卓 等平台。
+- [v7](https://github.com/cesanta/v7) 可内嵌的 JS 脚本引擎。
 
 ### 数据库
 
@@ -103,6 +104,7 @@
 
 - [CMSIS-Driver](https://github.com/ARM-software/CMSIS-Driver) CMSIS 驱动源码。
 - [lvgl](https://github.com/lvgl/lvgl) 
+- [awtk](https://github.com/zlgopen/awtk) 图形框架。
 - [u8g2](https://github.com/olikraus/u8g2) 显示屏库。
 - [ssd1306](https://github.com/lexus2k/ssd1306) 显示屏库。
 - [stm32-ssd1306](https://github.com/afiskon/stm32-ssd1306) STM32 SSD1306 显示屏库。

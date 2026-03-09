@@ -52,6 +52,7 @@
 - [WebP-wrapper](https://github.com/JosePineiro/WebP-wrapper) libwebp 封装。
 - [wixsharp](https://github.com/oleg-shilo/wixsharp) C# 语法来写 MSI/MIX 安装包脚本。
 - [websocket-sharp](https://github.com/sta/websocket-sharp) websocket 库。
+- [Power-Fx](https://github.com/microsoft/Power-Fx) 低代码编程语言。
 
 ### Blazor
 

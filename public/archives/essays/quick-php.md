@@ -73,6 +73,7 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [dompdf](https://github.com/dompdf/dompdf) DOM 转 PDF 的库。
 - [jieba-php](https://github.com/fukuball/jieba-php)
 - [pcre](https://github.com/composer/pcre) 封装 pcre（preg_*函数）做类型安全。
+- [amphp](https://github.com/amphp/amp)
 - [amphp http-client](https://github.com/amphp/http-client)
 - [amphp parallel](https://github.com/amphp/parallel)
 - [amphp mysql](https://github.com/amphp/mysql)
@@ -88,6 +89,8 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [pinyin](https://github.com/overtrue/pinyin) 中文转拼音。
 - [pest](https://github.com/pestphp/pest) 测试框架。
 - [puphpeteer](https://github.com/rialto-php/puphpeteer) puppeteer 的封装。
+- [PHP-SQL-Parser](https://github.com/greenlion/PHP-SQL-Parser) SQL 解析库。
+- [canal-php](https://github.com/xingwenge/canal-php) 阿里的 canal 的 PHP 客户端。
 
 ## 项目、示例
 

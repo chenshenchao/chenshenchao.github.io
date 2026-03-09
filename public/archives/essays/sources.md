@@ -192,6 +192,7 @@ qwen
 
 ### 汇编器、链接器、编译器、解释器、调试器、构造工具、分析工具与代码生成器
 
+- [mint](https://github.com/mint-lang/mint) 类 React jsx 的语言。用于生成 web 。
 - [alda](https://github.com/alda-lang/alda) 音乐生成语言。
 - [purescript](https://github.com/purescript/purescript) 类 Haskell 的语言，可以编译成 JS 。
 - [fsharp](https://github.com/dotnet/fsharp) 微软开源的函数式语言 F#
@@ -390,7 +391,6 @@ qwen
 - [lnx](https://github.com/lnx-search/lnx) 基于 tantivy 的全文搜索引擎。
 - [FerretDB](https://github.com/FerretDB/FerretDB) MongoDB 的开源替代。
 - [yugabyte-db](https://github.com/yugabyte/yugabyte-db) 兼容 PostgreSQL 的分布式数据库。
-- [questdb](https://github.com/questdb/questdb) 时序数据库（rust 语言），支持多语言客户端。
 - [rustfs](https://github.com/rustfs/rustfs) rust 实现的高性能分布式对象存储。
 - [seaweedfs](https://github.com/seaweedfs/seaweedfs) GO 实现的高性能分布式对象存储。
 - [storj](https://github.com/storj/storj) GO 实现的高性能分布式对象存储。
@@ -480,6 +480,7 @@ qwen
 
 ### 游戏
 
+- [MinecraftConsoles](https://github.com/smartcmd/MinecraftConsoles) 我的世界，C++ 源码。
 - [minecraft-again](https://github.com/jdah/minecraft-again) 我的世界复刻。
 - [Minecraft](https://github.com/fogleman/Minecraft) 基于 python pyglet 开发的简易 我的世界 。
 - [biomes-game](https://github.com/ill-inc/biomes-game) 基于 Next.js 开发的 Web 版类 我的世界 页游。

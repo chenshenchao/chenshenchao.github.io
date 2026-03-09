@@ -8,6 +8,7 @@
 
 - [Blackbone](https://github.com/DarthTon/Blackbone) 内存注入
 - [Xenos](https://github.com/DarthTon/Xenos) DLL 注入
+- [winapi-rs](https://github.com/retep998/winapi-rs) rust 绑定 windows api
 
 ### [detours](https://github.com/microsoft/Detours)
 

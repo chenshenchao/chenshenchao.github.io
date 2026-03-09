@@ -46,3 +46,5 @@
 - [Allure](https://github.com/AllureOfTheStars/Allure) 命令行 roguelike 游戏。
 - [hledger](https://github.com/simonmichael/hledger) 会计工具。
 - [unison](https://github.com/unisonweb/unison) Haskell 开发的一个类 Haskell 函数式语言。
+- [elm compiler](https://github.com/elm/compiler) Haskell 开发的一个语言 elm 的编译器。
+- [elm core](https://github.com/elm/core) elm 核心库。

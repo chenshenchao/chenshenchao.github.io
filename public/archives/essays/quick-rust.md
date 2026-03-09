@@ -324,6 +324,7 @@ fi
 - [mesalink](https://github.com/mesalock-linux/mesalink) 兼容 OpenSSL 的 rust SSL/TLS。
 - [rust-crypto](https://github.com/DaGenix/rust-crypto) 纯 rust 实现的加密库。
 - [RustCrypto](https://github.com/RustCrypto) 加密库集合。
+- [RustCrypto hashes](https://github.com/RustCrypto/hashes)
 - [RustCrypto traits](https://github.com/RustCrypto/traits)
 - [RustCrypto RSA](https://github.com/RustCrypto/RSA)
 - [RustCrypto AEADs](https://github.com/RustCrypto/AEADs)
@@ -377,11 +378,16 @@ fi
 
 ### UI 库
 
+- [gtk4-rs](https://github.com/gtk-rs/gtk4-rs)
+- [gtk-rs](https://github.com/gtk-rs/gtk)
+- [glutin](https://github.com/rust-windowing/glutin) OpenGL 底层封装。
+- [glium](https://github.com/glium/glium) OpenGL 封装。
 - [emu](https://github.com/calebwin/emu) GPGPU 库。
 - [wgpu](https://github.com/gfx-rs/wgpu) 跨平台纯 rust 的图形API。
 - [vello](https://github.com/linebender/vello) 2D 渲染库，基于 wgpu。
 - [iced](https://github.com/iced-rs/iced)
 - [egui](https://github.com/emilk/egui)
+- [relm](https://github.com/antoyo/relm) 基于 GTK 的 UI 库。
 - [Relm4](https://github.com/Relm4/Relm4)
 - [kas](https://github.com/kas-gui/kas)
 - [xilem](https://github.com/linebender/xilem) 实验性的桌面 UI 框架。
@@ -404,6 +410,7 @@ fi
 - [glazier](https://github.com/linebender/glazier) 跨平台窗口创建库。已经不维护。
 - [winit](https://github.com/rust-windowing/winit) 跨平台窗口创建库。
 - [rust-sciter](https://github.com/sciter-sdk/rust-sciter) sciter 的 rust 封装，HTML/CSS/JS 脚本引擎。
+- [imgui-rs](https://github.com/imgui-rs/imgui-rs)
 
 ### 网络框架和库
 
@@ -488,6 +495,7 @@ fi
 
 - [KuiBaDB](https://github.com/KuiBaDB/KuiBaDB) 一个 OLAP 数据库实现。
 - [RustScan](https://github.com/bee-san/RustScan) 端口扫描工具。
+- [sniffglue](https://github.com/kpcyrd/sniffglue) 嗅探、扫描命令行工具。
 - [czkawka](https://github.com/qarmin/czkawka) 类 文件管理器。
 
 ## 兼容
