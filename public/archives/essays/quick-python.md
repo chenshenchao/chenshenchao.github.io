@@ -76,6 +76,7 @@ python -m http.server 8000
 - [huey](https://github.com/coleifer/huey) 队列项目。
 - [greenlet](https://github.com/python-greenlet/greenlet) 并发库。
 - [trio](https://github.com/python-trio/trio) 异步协程 IO 扩展库。
+- [gevent](https://github.com/gevent/gevent) 异步协程扩展库。
 - [jieba](https://github.com/fxsjy/jieba) 中文分词。
 - [Jiagu](https://github.com/ownthink/Jiagu) 中文分词。
 - [imgkit](https://github.com/jarrekk/imgkit) html 生成图片，基于 Webkit。
@@ -88,12 +89,14 @@ python -m http.server 8000
 - [uvloop](https://github.com/MagicStack/uvloop) 异步运行环境 asyncio 的高性能替代实现。
 - [elasticsearch-py](https://github.com/elastic/elasticsearch-py) elasticsearch 客户端。
 - [aiofiles](https://github.com/Tinche/aiofiles) 文件异步库。
+- [kafka-python](https://github.com/dpkp/kafka-python) kafka 客户端。
 
 ### 数据库
 
 - [asyncpg](https://github.com/MagicStack/asyncpg) PostgreSQL 客户端。
 - [mysqlclient](https://github.com/PyMySQL/mysqlclient) MySQL 连接库。
 - [PyMySQL](https://github.com/PyMySQL/PyMySQL) MySQL 客户端。
+- [aiomysql](https://github.com/aio-libs/aiomysql) 异步 Mysql 连接库。
 - [binlog2sql](https://github.com/danfengcao/binlog2sql) MySQL binlog 分析库。
 - [mongoengine](https://github.com/MongoEngine/mongoengine) mongodb 客户端。
 
@@ -113,6 +116,7 @@ python -m http.server 8000
 
 - [reflex](github.com/reflex-dev/reflex) web 框架。
 - [gunicorn](https://github.com/benoitc/gunicorn) Unix 下的 WSGI HTTP 服务器。
+- [aiohttp](https://github.com/aio-libs/aiohttp) 异步的 HTTP 客户端/服务端框架。
 - [flask](https://github.com/pallets/flask) web 框架。
 - [sanic](https://github.com/sanic-org/sanic) web 框架。
 - [fastapi](https://github.com/fastapi/fastapi) web 框架。
@@ -126,6 +130,7 @@ python -m http.server 8000
 - [pyftpdlib](https://github.com/giampaolo/pyftpdlib) FTP 服务器开发库。
 - [asgiref](https://github.com/django/asgiref) ASGI、WSGI 库。
 - [helium](https://github.com/mherrmann/helium) 无头浏览器爬虫自动化库。
+- [scapy](https://github.com/secdev/scapy) 支持 arp、imcp 等协议包，网络嗅探发包等的命令行工具和库。
 
 ## 示例、项目
 

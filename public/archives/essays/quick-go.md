@@ -142,6 +142,7 @@
 - [go-sciter](https://github.com/sciter-sdk/go-sciter) sciter 的 go 封装，HTML/CSS/JS 脚本引擎。
 - [ui](https://github.com/andlabs/ui) 基于 libui 的 UI 库。
 - [cef2go](https://github.com/cztomczak/cef2go) CEF 绑定。
+- [pixel](https://github.com/faiface/pixel) go 开发的 2d 游戏库。
 
 ## 项目
 
@@ -151,6 +152,9 @@
 - [lindb](https://github.com/lindb/lindb) 时序数据库。
 - [websocketd](https://github.com/joewalnes/websocketd) websocket 命令行工具，类似 inetd 。
 - [gocron](https://github.com/ouqiang/gocron) 类 crontab 的定时任务服务，web 后台管理任务。
+- [ngrok](https://github.com/inconshreveable/ngrok) 内网穿透代理。
+- [livego](https://github.com/gwuhaolin/livego) 流媒体服务器，支持 FLV、RTMP、HLS 的直播。
+- [gitea](https://github.com/go-gitea/gitea) git 仓库托管 web 服务器。
 
 ## 常用命令
 

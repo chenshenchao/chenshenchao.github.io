@@ -196,6 +196,7 @@ adb pair <ip>:<port>
 - [libadb-android](https://github.com/MuntashirAkon/libadb-android) Java 实现的直连 adbd 做类似 adb server 功能的库。
 - [adbutils](https://github.com/openatx/adbutils) 一个纯 python 实现的 adb 客户端库，用于连接 adb server。
 - [python-adb](https://github.com/google/python-adb) 一个纯 python 实现的 adb 客户端库，用于连接 adb server，已经停止维护。
+- [adb_shell](https://github.com/JeffLIrion/adb_shell) 具有 shell 和 FileSync 功能的 ADB 的 Python 实现。
 
 ```bash
 # 备份所有应用（含 APK）、共享存储、系统应用

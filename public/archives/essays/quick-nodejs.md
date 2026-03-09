@@ -59,6 +59,7 @@ nvm use 16
 - [winston](https://github.com/winstonjs/winston) 日志库。
 - [nanocolors](https://github.com/ai/nanocolors) 命令行颜色样式库。
 - [node-archiver](https://github.com/archiverjs/node-archiver) zip 等文档创建的流式库。
+- [request](https://github.com/request/request) HTTP 客户端。
 
 ### 数据库
 

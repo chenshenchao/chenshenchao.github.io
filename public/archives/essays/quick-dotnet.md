@@ -47,6 +47,7 @@ dotnet tool update --global dotnet-ef
 - [SqlSugar](https://github.com/DotNetNext/SqlSugar) ORM
 - [Chloe](https://github.com/shuxinqin/Chloe) ORM
 - [Box2D.NET](https://github.com/ikpil/Box2D.NET) 物理引擎。
+- [rabbitmq-dotnet-client](https://github.com/rabbitmq/rabbitmq-dotnet-client) rabbitmq 客户端。
 
 ## 工具
 

@@ -1,8 +1,9 @@
 # Java 速查
 
-[Maven 中央仓库](https://search.maven.org/) 由 Apache 授权 Sonatype 维护。
-[Sonatype 仓库](https://central.sonatype.com/) Sonatype 对 Maven 中央仓库的增强，发布包在这里完成。
-[JitPack](https://jitpack.io/) 通过 git 仓库构建成为 jvm 仓库的站点。
+- [jdk](https://github.com/openjdk/jdk) OpenJDK
+- [Maven 中央仓库](https://search.maven.org/) 由 Apache 授权 Sonatype 维护。
+- [Sonatype 仓库](https://central.sonatype.com/) Sonatype 对 Maven 中央仓库的增强，发布包在这里完成。
+- [JitPack](https://jitpack.io/) 通过 git 仓库构建成为 jvm 仓库的站点。
 
 ## 常用库
 
@@ -48,6 +49,7 @@
 - [motan](https://github.com/weibocom/motan) RPC 框架。
 - [grpc-java](https://github.com/grpc/grpc-java)
 - [lucene](https://github.com/apache/lucene) 倒排索引库。
+- [litiengine](https://github.com/gurkenlabs/litiengine) 纯 JAVA 2D 游戏引擎。
 
 ## 项目、示例
 

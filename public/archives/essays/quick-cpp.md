@@ -57,6 +57,7 @@
 - [taskflow](https://github.com/taskflow/taskflow) 任务并发库。
 - [xredis](https://github.com/0xsky/xredis) redis 客户端库。
 - [ScriptX](https://github.com/Tencent/ScriptX) 腾讯开源的脚本引擎抽象层，支持接入 JS、Lua 的脚本引擎。
+- [objeck-lang](https://github.com/objeck/objeck-lang) 一个类 JS/GO 的编程语言。
 
 ### 网络
 

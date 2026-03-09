@@ -140,6 +140,7 @@
 - [glisp](https://github.com/baku89/glisp) 基于 lisp 语言做绘图编辑器。
 - [ws](https://github.com/websockets/ws) WebSocket 封装库，支持客户端和 NodeJS 服务端。
 - [axios](https://github.com/axios/axios) HTTP 客户端。
+- [superagent](https://github.com/forwardemail/superagent) HTTP 客户端。
 - [js-cookie](https://github.com/js-cookie/js-cookie) cookie 库。
 - [js-bson](https://github.com/mongodb/js-bson) bson 库。
 - [grpc-web](https://github.com/improbable-eng/grpc-web) 已经停止维护，请使用官方 grpc-web
