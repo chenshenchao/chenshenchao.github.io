@@ -54,12 +54,14 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [FastRoute](https://github.com/nikic/FastRoute) 路由库。
 - [Requests](https://github.com/WordPress/Requests) HTTP 客户端库。
 - [guzzle](https://github.com/guzzle/guzzle) HTTP 客户端库。
+- [saber](https://github.com/swlib/saber) 异步客户端。
 - [uuid](https://github.com/ramsey/uuid) uuid 库。
 - [hashids](https://github.com/vinkla/hashids) 散列 ID 生成库。
 - [laravel](https://github.com/laravel/laravel) PHP 界的 Spring ，功能齐全，就是有点重，服务器要求比其他 PHP 框架高，不然会卡。
 - [symfony](https://github.com/symfony/symfony) Web 框架，拆分出很多基础库，ThinkPHP 大量复用它的基础库。
 - [symfony/dotenv](https://github.com/symfony/dotenv) symfony 环境变量库。
 - [dom-crawler](https://github.com/symfony/dom-crawler) HTML、XML 遍历工具库。
+- [one](https://github.com/lizhichao/one)  Web 框架
 - [CodeIgniter](https://github.com/bcit-ci/CodeIgniter) Web 框架
 - [CodeIgniter4](https://github.com/codeigniter4/CodeIgniter4) Web 框架
 - [tntsearch](https://github.com/teamtnt/tntsearch) 倒排索引库。
@@ -77,11 +79,13 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [amphp http-client](https://github.com/amphp/http-client)
 - [amphp parallel](https://github.com/amphp/parallel)
 - [amphp mysql](https://github.com/amphp/mysql)
+- [php-amqplib](https://github.com/php-amqplib/php-amqplib) RabbitMQ 客户端。
 - [Captcha](https://github.com/Gregwar/Captcha) 验证码生成库。
 - [phpdotenv](https://github.com/vlucas/phpdotenv) .env 文件处理库。
 - [lexer](https://github.com/doctrine/lexer) doctrine 的词法器库。
 - [cache](https://github.com/doctrine/cache) doctrine 的缓存库。
 - [monolog](https://github.com/Seldaek/monolog) 日志库。
+- [PHP_XLSXWriter](https://github.com/mk-j/PHP_XLSXWriter) excel xlsx 文件生成库。
 - [simplexls](https://github.com/shuchkin/simplexls) excel xls 文件处理库。
 - [PhpSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet) excel 处理库。
 - [psalm](https://github.com/vimeo/psalm) 静态分析工具，可以分析出函数参数类型错误等问题。
@@ -91,11 +95,14 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [puphpeteer](https://github.com/rialto-php/puphpeteer) puppeteer 的封装。
 - [PHP-SQL-Parser](https://github.com/greenlion/PHP-SQL-Parser) SQL 解析库。
 - [canal-php](https://github.com/xingwenge/canal-php) 阿里的 canal 的 PHP 客户端。
+- [mqtt](https://github.com/simps/mqtt) MQTT 客户端。
+- [php-ast](https://github.com/nikic/php-ast) PHP7 代码转 AST 树。
 
 ## 项目、示例
 
 - [WordPress](https://github.com/WordPress/WordPress)
 - [Sylius](https://github.com/Sylius/Sylius) 电商项目。
+- [pikachu](https://github.com/zhuifengshaonianhanlu/pikachu) 漏洞靶场项目。
 
 ## 命令规范
 

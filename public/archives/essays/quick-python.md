@@ -13,7 +13,7 @@ python -m http.server 8000
 - [chromadb](https://github.com/chroma-core/chroma) 向量数据库，需要 python 3.9, 用了 dict list 等类型参数，即不支持 Windows 7(python 3.8)
 - [tinydb](https://github.com/msiemens/tinydb) 文档数据库，存储是 JSON 文件，性能不行。
 - [whoosh](https://github.com/mchaput/whoosh) 纯 Python 实现全文搜索库。
-- [pywin32](https://github.com/mhammond/pywin32) 封装 Windows API 的 C 扩展。
+- [pywin32](https://github.com/mhammond/pywin32) 封装 Windows API 的 C++ 扩展。
 - [loguru](https://github.com/Delgan/loguru) 日志库
 - [GeoPy](https://github.com/geopy/geopy) 地理经纬库。
 - [cartopy](https://github.com/SciTools/cartopy) 绘制地图库。
@@ -76,6 +76,7 @@ python -m http.server 8000
 - [huey](https://github.com/coleifer/huey) 队列项目。
 - [greenlet](https://github.com/python-greenlet/greenlet) 并发库。
 - [trio](https://github.com/python-trio/trio) 异步协程 IO 扩展库。
+- [jieba](https://github.com/fxsjy/jieba) 中文分词。
 - [Jiagu](https://github.com/ownthink/Jiagu) 中文分词。
 - [imgkit](https://github.com/jarrekk/imgkit) html 生成图片，基于 Webkit。
 - [pyyaml](https://github.com/yaml/pyyaml) YAML 处理库。
@@ -85,6 +86,8 @@ python -m http.server 8000
 - [httptools](https://github.com/MagicStack/httptools) HTTP 解析库。
 - [pinject](https://github.com/google/pinject) 谷歌开源的依赖注入库。
 - [uvloop](https://github.com/MagicStack/uvloop) 异步运行环境 asyncio 的高性能替代实现。
+- [elasticsearch-py](https://github.com/elastic/elasticsearch-py) elasticsearch 客户端。
+- [aiofiles](https://github.com/Tinche/aiofiles) 文件异步库。
 
 ### 数据库
 
@@ -159,7 +162,7 @@ python -m venv .pyvenv
 即通过 pip 安装的包都安装到虚拟环境中，而非本地安装的 Python 里。
 所以用 python 命令解释脚本时也需要通过该终端才能使用安装在虚拟环境里的包。
 
-### 功能更强大的 virtualenv
+### 功能更强大的 [virtualenv](https://github.com/pypa/virtualenv)
 
 标准包 venv 只是提供生成本地 python 版本的虚拟环境。
 当由于一些包需要的 Python 版本与本地不同时就需要用到 virtualenv 了。

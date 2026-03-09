@@ -7,6 +7,7 @@
 
 - [modular](https://github.com/modular/modular) mojo 语言的框架。
 - [tvm](https://github.com/apache/tvm) Apache 的框架。
+- [mxnet](https://github.com/apache/mxnet)
 - [tensorflow](https://github.com/tensorflow/tensorflow) 谷歌的框架，早期主流。
 - [tfjs](https://github.com/tensorflow/tfjs) tensorflow 的浏览器端 WebGL 模型框架。
 - [Paddle](https://github.com/PaddlePaddle/Paddle) 百度的框架，中文名“飞桨”。
@@ -83,6 +84,7 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 ## 常用库
 
 - [OpenVINO](https://github.com/openvinotoolkit/openvino) 优化模型库，主要优化 Intel 的CPU和GPU。
+- [transformers](https://github.com/huggingface/transformers) huggingface 的 transformers 定义框架，方便模型通用一套代码。
 
 ## 模型
 
@@ -131,6 +133,9 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 
 ### 开源 AI Agant 项目
 
+- [openclaw](https://github.com/openclaw/openclaw)
+- [nanoclaw](https://github.com/qwibitai/nanoclaw)
+- [goclaw](https://github.com/nextlevelbuilder/goclaw)
 - [AutoGen](https://github.com/microsoft/autogen) 微软给 python 的 multi-agent 框架。
 - [jina](https://github.com/jina-ai/serve) 多模态 AI 框架。
 - [Agent Lightning](https://github.com/microsoft/agent-lightning) 微软发布的 AI 代理训练与优化的框架，可以和 autogen 结合使用。

@@ -109,10 +109,12 @@
 - [rxjs](https://github.com/ReactiveX/rxjs) rx
 - [driver.js](https://github.com/kamranahmedse/driver.js) 教程引导组件。
 - [js-ipfs](https://github.com/ipfs/js-ipfs) IPFS 实现。
+- [flv.js](https://github.com/bilibili/flv.js) flv 播放器，一般用于直播。
 
 ### Web
 
-- [eruda](https://github.com/liriliri/eruda) 给移动端提供类似 F12 的开发面板。
+- [vConsole](https://github.com/Tencent/vConsole) 腾讯开源的移动端提供类似 F12 的开发面板。
+- [eruda](https://github.com/liriliri/eruda) 移动端提供类似 F12 的开发面板。
 - [riot](https://github.com/riot/riot) web 前端框架。
 - [hyperapp](https://github.com/jorgebucaran/hyperapp) 1kb 大小的 web 前端框架。
 - [avalon](https://github.com/RubyLouvre/avalon) 前端 MVVM 框架，已经废弃。

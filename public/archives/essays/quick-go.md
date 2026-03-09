@@ -81,6 +81,7 @@
 - [gorm](https://github.com/go-gorm/gorm) 国人开发的 ORM ，动态类型，功能比较全。
 - [gorm gen](https://github.com/go-gorm/gen) gorm 的 DbFirst 代码生成工具。
 - [sqlite](https://github.com/glebarez/sqlite) 纯 Go 的 Sqlite GORM 驱动。
+- [go-sqlite3](https://github.com/mattn/go-sqlite3) database/sql 的 cgo 的 sqlite 驱动。
 - [sqlite](https://github.com/go-gorm/sqlite) Sqlite GORM 驱动，有 c 代码编译要求 c 编译环境（Windows 下装 tdm-gcc）。
 - [sqlx](https://github.com/jmoiron/sqlx) 扩展标准库 database/sql 的三方库。
 - [mysql](https://github.com/go-sql-driver/mysql) 给 database/sql 的 MySQL 驱动。
@@ -101,6 +102,7 @@
 - [fiber](https://github.com/gofiber/fiber) web 框架。
 - [echo](https://github.com/labstack/echo) web 框架。
 - [echo-swagger](github.com/swaggo/echo-swagger) 为 echo 提供的 OpenAPI 实现。
+- [oapi-codegen](https://github.com/oapi-codegen/oapi-codegen) OpenAPI 的 go 客户端/服务端 代码生成工具。
 - [kratos](https://github.com/go-kratos/kratos) 基于 Protobuf 的微服务框架。
 - [iris](https://github.com/kataras/iris) HTTP/2  Web 框架。
 - [chi](https://github.com/go-chi/chi) Web 框架。
@@ -148,6 +150,7 @@
 - [flutter-webrtc-server](https://github.com/flutter-webrtc/flutter-webrtc-server) flutter-webrtc 开发的服务器。
 - [lindb](https://github.com/lindb/lindb) 时序数据库。
 - [websocketd](https://github.com/joewalnes/websocketd) websocket 命令行工具，类似 inetd 。
+- [gocron](https://github.com/ouqiang/gocron) 类 crontab 的定时任务服务，web 后台管理任务。
 
 ## 常用命令
 

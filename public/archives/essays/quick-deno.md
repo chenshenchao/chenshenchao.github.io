@@ -2,6 +2,7 @@
 
 - [deno 源码](https://github.com/denoland/deno)
 - [vscode_deno](https://github.com/denoland/vscode_deno)
+- [rusty_v8](https://github.com/denoland/rusty_v8) v8 的 rust 绑定。
 
 ## 常用命令
 

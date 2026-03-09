@@ -311,6 +311,7 @@ fi
 - [rkyv](https://github.com/rkyv/rkyv) 序列化库。
 - [thiserror](https://github.com/dtolnay/thiserror)
 - [smol](https://github.com/smol-rs/smol) 异步运行时。
+- [async-std](https://github.com/async-rs/async-std) 异步运行时。
 - [async-compat](https://github.com/smol-rs/async-compat) tokio 兼容 futures 的库。
 - [tokio](https://github.com/tokio-rs/tokio) 异步运行时。
 - [prost](https://github.com/tokio-rs/prost) tokio 团队的 protobuf 实现,actix 的 protobuf 扩展此库(0.13)。
@@ -375,6 +376,8 @@ fi
 - [apalis](https://github.com/apalis-dev/apalis) 后台进程库。
 - [rodio](https://github.com/RustAudio/rodio) 音频库。
 - [walkdir](https://github.com/BurntSushi/walkdir) 遍历文件夹库。
+- [redis-rs](https://github.com/redis-rs/redis-rs) redis 客户端。
+- [tokenizers](https://github.com/huggingface/tokenizers) 分词器，支持 rust、python 等端。
 
 ### UI 库
 
@@ -414,6 +417,7 @@ fi
 
 ### 网络框架和库
 
+- [iron](https://github.com/iron/iron) web 框架。
 - [actix-net](https://github.com/actix/actix-net) actix 网络库
 - [actix-web](https://github.com/actix/actix-web) 基于 actix 的 web 框架。
 - [actix-extras](https://github.com/actix/actix-extras) actix 扩展库。
