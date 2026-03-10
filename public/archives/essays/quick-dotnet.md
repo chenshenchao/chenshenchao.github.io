@@ -53,6 +53,11 @@ dotnet tool update --global dotnet-ef
 - [Box2D.NET](https://github.com/ikpil/Box2D.NET) 物理引擎。
 - [rabbitmq-dotnet-client](https://github.com/rabbitmq/rabbitmq-dotnet-client) rabbitmq 客户端。
 
+### 网络
+
+- [LiteNetLib](https://github.com/RevenantX/LiteNetLib) 轻量级 UDP 库。
+- [NetCoreServer](https://github.com/chronoxor/NetCoreServer) 网络库。
+
 ## 工具
 
 - [ILSpy](https://github.com/icsharpcode/ILSpy) .Net 字节码反编译器。

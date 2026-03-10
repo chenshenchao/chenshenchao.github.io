@@ -160,6 +160,7 @@ qwen
 - [terminal](https://github.com/microsoft/terminal) Windows 新命令行终端。
 - [webvm](https://github.com/leaningtech/webvm) 浏览器端模拟 Linux 系统的虚拟机，网络通过封装转发，需要一个真实的服务器来转发。
 - [servo](https://github.com/servo/servo) 浏览器，可内嵌入应用。
+- [msys2](https://www.msys2.org/)
 
 ### 项目与版本管理工具
 
@@ -240,6 +241,7 @@ qwen
 - [julia](https://github.com/JuliaLang/julia) 编程语言。
 - [OpenHSP](https://github.com/onitama/OpenHSP) Hot Soup 语言 Processor
 - [carbon-lang](https://github.com/carbon-language/carbon-lang) 实验性的 C++ 后继语言。
+- [crystal](https://github.com/crystal-lang/crystal) 类 ruby 的编程语言。
 - [lpython](https://github.com/lcompilers/lpython) python 编译器。
 - [Pyjion](https://github.com/microsoft/Pyjion) 微软开源基于 CoreCLR 的 python 解释器，不维护。
 - [Pyjion](https://github.com/tonybaloney/Pyjion) fork 微软的 Pyjion 继续维护。

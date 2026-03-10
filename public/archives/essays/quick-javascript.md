@@ -15,6 +15,7 @@
 - [ckeditor4](https://github.com/ckeditor/ckeditor4) 富文本编辑器。
 - [x-spreadsheet](https://github.com/myliang/x-spreadsheet) 类似 Office Excel 的 canvas 编辑器，换 TS 开发了 wolf-table。
 - [handsontable](https://github.com/handsontable/handsontable) Excel 编辑器
+- [Luckysheet](https://github.com/dream-num/Luckysheet) Excel 编辑器，基于 jQuery 已经废弃，作者转 univer 开发。
 - [sheetjs](https://github.com/SheetJS/sheetjs) excel 操作库，免费版本功能有限，Pro 版本收费。
 - [exceljs](https://github.com/exceljs/exceljs) excel 操作库。
 - [ace](https://github.com/ajaxorg/ace) 代码编辑器。
@@ -120,6 +121,7 @@
 - [validate.js](https://github.com/ansman/validate.js) 验证器。
 - [validate.js](https://github.com/rickharrison/validate.js) 验证器。
 - [requirejs](https://github.com/requirejs/requirejs) require 函数支持模块化加载。
+- [html2canvas](https://github.com/niklasvh/html2canvas) DOM 节点渲染，可以用于 HTML 生成海报。
 
 ### Web
 

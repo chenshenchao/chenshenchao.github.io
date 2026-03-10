@@ -19,12 +19,13 @@ python -m http.server 8000
 - [cartopy](https://github.com/SciTools/cartopy) 绘制地图库。
 - [pydantic](https://github.com/pydantic/pydantic) 数据验证库。
 - [ruff](https://github.com/astral-sh/ruff) rust 开发用于格式化和 lint python 的库。
-- [pytesseract](https://github.com/madmaze/pytesseract) 封装 C++ 的  OCR 库 tesseract 命令行使用的，需要安装 tesseract 在 PATH 里，配置要求低，但是精度差。
+- [pytesseract](https://github.com/madmaze/pytesseract) 封装 C++ 的  OCR 库 tesseract 命令行使用，需要安装 tesseract 在 PATH 里，配置要求低，但是精度差。
 - [EasyOCR](https://github.com/JaidedAI/EasyOCR) OCR 库，配置要求低于 PaddleOCR 但是精度要差一些。
 - [keras-ocr](https://github.com/faustomorales/keras-ocr) 基于 Keras 的 OCR。
 - [ddddocr](https://github.com/sml2h3/ddddocr) 针对验证码的 OCR 库。
 - [opencv-python](https://github.com/opencv/opencv-python) opencv 的 python 封装库。
 - [pyautogui](https://github.com/asweigart/pyautogui) 跨平台桌面系统自动化操作库，模拟鼠标键盘操作。
+- [pyscreeze](https://github.com/asweigart/pyscreeze) 跨平台截屏工具库。
 - [pyttsx3](https://github.com/nateshmbhat/pyttsx3) TTS 库。
 - [mcp sdk](https://github.com/modelcontextprotocol/python-sdk) MCP 官方发布的客户端 SDK 库。
 - [numba](https://github.com/numba/numba) NumPy 动态编译 JIT 。
@@ -103,6 +104,8 @@ python -m http.server 8000
 - [mongoengine](https://github.com/MongoEngine/mongoengine) mongodb 客户端。
 - [tortoise-orm](https://github.com/tortoise/tortoise-orm) ORM
 - [peewee](https://github.com/coleifer/peewee) ORM
+- [sqlalchemy](https://github.com/sqlalchemy/sqlalchemy)  ORM
+- [gino](https://github.com/python-gino/gino) SQLAlchemy 核心。
 
 ### 图形
 

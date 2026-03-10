@@ -59,6 +59,7 @@
 - [ffmpeg-android-maker](https://github.com/Javernaut/ffmpeg-android-maker) 编译安卓可用 ffmpeg *.so 文件的脚本项目。
 - [scrcpy](https://github.com/Genymobile/scrcpy) 命令行工具，远程控制安卓设备。
 - [QtScrcpy](https://github.com/barry-ran/QtScrcpy) 远程控制安卓设备。
+- [ADBKeyBoard](https://github.com/senzhk/ADBKeyBoard) 一个输入法，解决 adb shell input text 不支持 Unicode。
 
 ## 资料、示例
 

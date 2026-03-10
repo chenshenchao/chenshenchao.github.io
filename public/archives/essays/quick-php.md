@@ -78,6 +78,7 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [think-validate](https://github.com/top-think/think-validate)
 - [think-worker](https://github.com/top-think/think-worker) ThinkPHP Workerman 扩展
 - [think-orm](https://github.com/top-think/think-orm)
+- [think-migration](https://github.com/top-think/think-migration)
 - [think-wechat](https://github.com/qiqizjl/think-wechat) easywechat 封装到 thinkphp
 - [likeadmin](https://www.likeadmin.cn/) 多语言的框架，PHP 版主打线上开发（就是需要服务器，本地开发部分功能不能使用。）很符合 PHP 开发者的习惯，直接在正式服务器上修改代码。基于 ThinkPHP
 - [dompdf](https://github.com/dompdf/dompdf) DOM 转 PDF 的库。
@@ -117,7 +118,9 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [hyperf](https://github.com/hyperf/hyperf) swoole 框架。
 - [hyperf nano](https://github.com/hyperf/nano) swoole 轻量框架。
 - [hyperf-watch](https://github.com/ha-ni-cc/hyperf-watch) hyperf 自动重启。
-
+- [PHP-FFMpeg](https://github.com/PHP-FFMpeg/PHP-FFMpeg) 封装 ffmpeg 命令行使用，需要安装 ffmpeg 。
+- [phpunit](https://github.com/sebastianbergmann/phpunit) 单元测试框架。
+- [Medoo](https://github.com/catfan/Medoo) ORM
 
 ## 项目、示例
 
@@ -127,6 +130,8 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [pikachu](https://github.com/zhuifengshaonianhanlu/pikachu) 漏洞靶场项目。
 - [PHPPHP](https://github.com/ircmaxell/PHPPHP) PHP 里的 PHP VM。
 - [think-swoole-demo](https://github.com/xavieryang007/think-swoole-demo) think-swoole 示例。
+- [clean-code-php](https://github.com/piotrplenik/clean-code-php) 整洁代码 PHP 示例。
+- [game-ddz](https://github.com/sy-records/game-ddz) 使用Hyperf框架开发斗地主游戏
 
 ## 命令规范
 

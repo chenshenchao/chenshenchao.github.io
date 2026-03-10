@@ -46,6 +46,7 @@
 
 ### Vue2
 
+- [vue-okr-tree](https://github.com/husky-dot/vue-okr-tree) 线框图树的编辑器组件。
 - [form-generator](https://github.com/JakHuang/form-generator) Element 组件代码可视化生成组件。
 - [vue-better-scroll](https://github.com/huangjincq/vue-better-scroll) vue2 封装 better-scroll 的组件。
 - [element](https://github.com/ElemeFE/element) vue2 桌面 UI 库。

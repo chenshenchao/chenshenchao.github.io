@@ -161,6 +161,7 @@
 - [sqlitebrowser](https://github.com/sqlitebrowser/sqlitebrowser) SQLite 管理工具。
 - [FastCgi](https://github.com/Request2609/FastCgi) FastCgi 实现。
 - [tesseract](https://github.com/tesseract-ocr/tesseract) OCR 命令行工具。
+- [baremetal](https://github.com/cortexm/baremetal) ARM cortex-M 裸机示例。
 
 ## 包管理与构造工具
 

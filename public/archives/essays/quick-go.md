@@ -3,6 +3,8 @@
 - [go 源码](https://github.com/golang/go)
 - [glog](https://github.com/golang/glog)
 - [vscode-go](https://github.com/golang/vscode-go) vscode 扩展。
+- [goproxy](https://github.com/goproxy/goproxy) go 代理开发库。
+- [goproxy.cn 站点源码](https://github.com/goproxy/goproxy.cn) 七牛云提供的GO模块代理。
 
 ## 常用库
 
