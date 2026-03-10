@@ -3,6 +3,7 @@
 ## 字体
 
 - [思源宋体](https://github.com/adobe-fonts/source-han-serif)
+- [source-han-serif-ttf](https://github.com/junmer/source-han-serif-ttf) 思源宋体 TTF 文件。
 - [思源黑体](https://github.com/adobe-fonts/source-han-sans)
 - [OSFCC](https://github.com/DrXie/OSFCC) 开源中文字体枚举。
 
@@ -68,6 +69,8 @@
 - [awesome-design](https://github.com/gztchan/awesome-design)
 - [awesome-go](https://github.com/avelino/awesome-go)
 - [awesome-go-cn](https://github.com/jobbole/awesome-go-cn)
+- [awesome-pentest](https://github.com/enaqx/awesome-pentest) 渗透、测试相关。
+- [awesome-test-automation](https://github.com/atinfo/awesome-test-automation) 测试、自动化相关。
 
 ### 数据或咨询站点
 
@@ -172,6 +175,7 @@ qwen
 - [Pencil](https://github.com/evolus/pencil) 开源 原型设计 软件。
 - [penpot](https://github.com/penpot/penpot) 开源 UI 设计 软件。
 - [DrawIO](https://github.com/jgraph/drawio-desktop) 流程图、架构图、导图软件。
+- [drawio-diagrams](https://github.com/jgraph/drawio-diagrams)
 - [drawio-libs](https://github.com/jgraph/drawio-libs) drawio 的库。
 - [DrawDB](https://github.com/drawdb-io/drawdb) 数据库设计图形工具。
 
@@ -209,6 +213,7 @@ qwen
 - [llgo](https://github.com/go-llvm/llgo) 基于 LLVM 的 Go 编译器。
 - [assemblyscript](https://github.com/AssemblyScript/assemblyscript) 类 TS 的语言，用于生成 WASM。
 - [emscripten](https://github.com/emscripten-core/emscripten) 基于 LLVM 的 WASM 编译器。
+- [binaryen](https://github.com/WebAssembly/binaryen) WASM 优化、编译工具链。
 - [wasmtime](https://github.com/bytecodealliance/wasmtime) wasm 运行时。
 - [lisp](https://github.com/robpike/lisp) 一个 Lisp 1.5 解释器。(Go 语言)
 - [ninja](https://github.com/ninja-build/ninja) 谷歌用于取代 make 的跨平台构建脚本。
@@ -301,7 +306,6 @@ qwen
 
 - [deskflow](https://github.com/deskflow/deskflow) 多电脑共享键盘鼠标。
 - [Lightscreen](https://github.com/ckaiser/Lightscreen) 截屏工具。
-- [ScreenToGif](https://github.com/NickeManarin/ScreenToGif) C# 开发的 Windows 截屏工具。
 - [AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) Redis 图形客户端工具。
 - [RedisStudio](https://github.com/cinience/RedisStudio) Redis 图形客户端工具。
 - [medis](https://github.com/luin/medis) 苹果 MAC 上的 Redis 客户端图形工具。
@@ -386,7 +390,6 @@ qwen
 - [gofound](https://github.com/sea-team/gofound) 全文索引数据库（GO 语言），HTTP 接口，有管理后台面板。
 - [sonic](https://github.com/valeriansaliou/sonic) 全文搜索数据库。
 - [manticoresearch](https://github.com/manticoresoftware/manticoresearch) 类 ElasticSearch 全文索引数据库（C 语言）。
-- [Toshi](https://github.com/toshi-search/Toshi) 全文搜索引擎。
 - [quickwit](https://github.com/quickwit-oss/quickwit) 全文搜索引擎，开发了 tantivy 库。
 - [lnx](https://github.com/lnx-search/lnx) 基于 tantivy 的全文搜索引擎。
 - [FerretDB](https://github.com/FerretDB/FerretDB) MongoDB 的开源替代。

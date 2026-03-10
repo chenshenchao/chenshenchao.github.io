@@ -494,12 +494,15 @@ fi
 - [winapi-kmd-rs](https://github.com/pravic/winapi-kmd-rs) 开发 Windows 驱动工具。
 - [windows-drivers-rs](https://github.com/microsoft/windows-drivers-rs) 微软开源的开发 Windows 驱动工具。
 - [windows-service-rs](https://github.com/mullvad/windows-service-rs) Windows 服务开发库。
+- [neon](https://github.com/neon-bindings/neon) rust 开发 nodejs 扩展开发工具。
 
 ## 工具、项目、示例
 
 - [KuiBaDB](https://github.com/KuiBaDB/KuiBaDB) 一个 OLAP 数据库实现。
 - [influxdb](https://github.com/influxdata/influxdb) 时序数据库。
 - [meilisearch](https://github.com/meilisearch/meilisearch) 全文搜索数据库。
+- [Toshi](https://github.com/toshi-search/Toshi) 全文搜索引擎服务。
+- [bayard](https://github.com/mosuka/bayard) 全文搜索引擎服务。
 - [RustScan](https://github.com/bee-san/RustScan) 端口扫描工具。
 - [sniffglue](https://github.com/kpcyrd/sniffglue) 嗅探、扫描命令行工具。
 - [czkawka](https://github.com/qarmin/czkawka) 类 文件管理器。

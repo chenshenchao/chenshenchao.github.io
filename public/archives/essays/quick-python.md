@@ -102,6 +102,7 @@ python -m http.server 8000
 - [python-mysql-replication](https://github.com/julien-duponchelle/python-mysql-replication) MySQL binlog 迁移库。
 - [mongoengine](https://github.com/MongoEngine/mongoengine) mongodb 客户端。
 - [tortoise-orm](https://github.com/tortoise/tortoise-orm) ORM
+- [peewee](https://github.com/coleifer/peewee) ORM
 
 ### 图形
 
@@ -148,6 +149,7 @@ python -m http.server 8000
 - [yq](https://github.com/kislyuk/yq) 命令行  YAML, XML, TOML 处理工具。
 - [zulip](https://github.com/zulip/zulip) web 的即时聊天工具。
 - [onlinetools](https://github.com/iceyhexman/onlinetools) 端口扫描等渗透工具。
+- [snake](https://github.com/chynl/snake) 贪吃蛇演示 AI 训练与应用。
 
 ## 虚拟环境
 

@@ -81,7 +81,9 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [think-wechat](https://github.com/qiqizjl/think-wechat) easywechat 封装到 thinkphp
 - [likeadmin](https://www.likeadmin.cn/) 多语言的框架，PHP 版主打线上开发（就是需要服务器，本地开发部分功能不能使用。）很符合 PHP 开发者的习惯，直接在正式服务器上修改代码。基于 ThinkPHP
 - [dompdf](https://github.com/dompdf/dompdf) DOM 转 PDF 的库。
-- [jieba-php](https://github.com/fukuball/jieba-php)
+- [jieba-php](https://github.com/fukuball/jieba-php) jieba 中文分词。
+- [scws](https://github.com/hightman/scws) 中文分词。
+- [VicWord](https://github.com/lizhichao/VicWord) 分词。
 - [pcre](https://github.com/composer/pcre) 封装 pcre（preg_*函数）做类型安全。
 - [amphp](https://github.com/amphp/amp)
 - [amphp http-client](https://github.com/amphp/http-client)
@@ -111,9 +113,15 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [easyswoole](https://github.com/easy-swoole/easyswoole) 一个基于 swoole 的框架。
 - [swoolefy](https://github.com/bingcool/swoolefy) 一个基于 swoole 的框架。
 - [mix](https://github.com/mix-php/mix) 命令行开发框架。
+- [parsedown](https://github.com/erusev/parsedown) markdown 处理库。
+- [hyperf](https://github.com/hyperf/hyperf) swoole 框架。
+- [hyperf nano](https://github.com/hyperf/nano) swoole 轻量框架。
+- [hyperf-watch](https://github.com/ha-ni-cc/hyperf-watch) hyperf 自动重启。
+
 
 ## 项目、示例
 
+- [xunsearch](https://github.com/hightman/xunsearch) 专门给 PHP 提供全文搜索的 C 项目。
 - [WordPress](https://github.com/WordPress/WordPress)
 - [Sylius](https://github.com/Sylius/Sylius) 电商项目。
 - [pikachu](https://github.com/zhuifengshaonianhanlu/pikachu) 漏洞靶场项目。

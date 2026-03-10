@@ -2,6 +2,7 @@
 
 - [vue core](https://github.com/vuejs/core)
 - [router](https://github.com/vuejs/router)
+- [vuepress](https://github.com/vuejs/vuepress) 静态站框架。
 - [composition-api](https://github.com/vuejs/composition-api) Vue2 的 composition api 支持库。
 - [vue-class-component](https://github.com/vuejs/vue-class-component) 已经废弃的设计。
 - [devtools-v6](https://github.com/vuejs/devtools-v6) Vue2 浏览器开发工具插件。
@@ -15,6 +16,7 @@
 - [tinymce-vue](https://github.com/tinymce/tinymce-vue) 富文本编辑器 TinyMCE 的 vue 封装。
 - [vue-office](https://github.com/501351981/vue-office) 支持word(.docx)、excel(.xlsx,.xls)、pdf、pptx等各类型office文件预览的vue组件集合。
 - [apollo](https://github.com/vuejs/apollo) 适配 Vue 的 apollo GraphQL 客户端。
+- [vee-validate](https://github.com/logaretm/vee-validate) 验证器。
 
 ### Vue3
 
@@ -36,6 +38,7 @@
 
 #### 项目
 
+- [vue3-News](https://github.com/vue3/vue3-News) vue3 新闻。
 - [vue-manage-system](https://github.com/lin-xin/vue-manage-system) Vue3 + pinia + ElementPlus 管理后台项目。
 - [vue-element-plus-admin](https://github.com/kailong321200875/vue-element-plus-admin)
 - [mini-vue](https://github.com/cuixiaorui/mini-vue) 实现 Vue3 的部分功能的项目，用于研究 Vue3 的设计与实现。
@@ -43,6 +46,8 @@
 
 ### Vue2
 
+- [form-generator](https://github.com/JakHuang/form-generator) Element 组件代码可视化生成组件。
+- [vue-better-scroll](https://github.com/huangjincq/vue-better-scroll) vue2 封装 better-scroll 的组件。
 - [element](https://github.com/ElemeFE/element) vue2 桌面 UI 库。
 - [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) vue2 基于 element 开发的后台项目。
 - [cube-ui](https://github.com/didi/cube-ui) vue2 移动端 UI 库。

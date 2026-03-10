@@ -13,6 +13,8 @@
 ## 常用扩展
 
 - [RediSearch](https://github.com/RediSearch/RediSearch) 全文搜索插件，对中文分词有问题。
+- [redisearch-go](https://github.com/RediSearch/redisearch-go) RediSearch go 客户端。
+- [redisearch-php](https://github.com/ethanhann/redisearch-php) RediSearch PHP 客户端。
 - [RedisGraph](https://github.com/RedisGraph/RedisGraph) 图数据库插件。
 - [RedisJSON](https://github.com/RedisJSON/RedisJSON) 提供 JSON 类型，Redis 8 后默认支持 JSON 类型，这个扩展不再更新。
 

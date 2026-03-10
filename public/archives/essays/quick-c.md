@@ -116,6 +116,7 @@
 - [FwLib_STC8](https://github.com/IOsetting/FwLib_STC8) STC8 固件库。
 - [u-boot](https://github.com/u-boot/u-boot) 引导加载程序。
 - [pico-sdk](https://github.com/raspberrypi/pico-sdk) 树莓派 pico SDK
+- [mjs](https://github.com/cesanta/mjs) 嵌入式 JS 引擎。
 
 ## 示例、项目
 
@@ -124,6 +125,7 @@
 - [8cc](https://github.com/rui314/8cc) C 编译器。
 - [mpv](https://github.com/mpv-player/mpv) 跨平台视频播放器。
 - [FlashDB](https://github.com/armink/FlashDB) 一款支持 KV 数据和时序数据的超轻量级数据库
+- [fastcgi-demo](https://github.com/zhyee/fastcgi-demo) FastCGI 示例。
 
 ## 工具
 

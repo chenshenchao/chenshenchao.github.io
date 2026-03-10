@@ -16,6 +16,7 @@
 - [x-spreadsheet](https://github.com/myliang/x-spreadsheet) 类似 Office Excel 的 canvas 编辑器，换 TS 开发了 wolf-table。
 - [handsontable](https://github.com/handsontable/handsontable) Excel 编辑器
 - [sheetjs](https://github.com/SheetJS/sheetjs) excel 操作库，免费版本功能有限，Pro 版本收费。
+- [exceljs](https://github.com/exceljs/exceljs) excel 操作库。
 - [ace](https://github.com/ajaxorg/ace) 代码编辑器。
 - [GSAP](https://github.com/greensock/GSAP) 动画库
 - [crypto-js](https://github.com/brix/crypto-js) 散列和对称加密库，但是由于标准已经提供了异步的（Crypto Web API）所以只有在兼容旧环境和非异步情况下才使用。
@@ -114,6 +115,11 @@
 - [luxon](https://github.com/moment/luxon) 日期库。
 - [iconv-lite](https://github.com/pillarjs/iconv-lite) 字符集转换库。
 - [JSSoup](https://github.com/chishui/JSSoup) 仿 python 的 BeautifulSoup 的库， HTML 解析。
+- [whs.js](https://github.com/WhitestormJS/whs.js) 3D 渲染框架。
+- [lightgl.js](https://github.com/evanw/lightgl.js) 轻量 WebGL 封装。
+- [validate.js](https://github.com/ansman/validate.js) 验证器。
+- [validate.js](https://github.com/rickharrison/validate.js) 验证器。
+- [requirejs](https://github.com/requirejs/requirejs) require 函数支持模块化加载。
 
 ### Web
 

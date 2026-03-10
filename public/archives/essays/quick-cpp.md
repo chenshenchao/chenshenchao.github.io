@@ -10,7 +10,6 @@
 - [asmjit](https://github.com/asmjit/asmjit) JIT 库。
 - [asmtk](https://github.com/asmjit/asmtk)
 - [Poco](https://github.com/pocoproject/poco) 多功能库集合。
-- [tesseract](https://github.com/tesseract-ocr/tesseract) OCR 库。
 - [quill](https://github.com/odygrd/quill) 异步日志库。
 - [spdlog](https://github.com/gabime/spdlog) 日志库。
 - [CSerialPort](https://github.com/itas109/CSerialPort) 跨平台串口库。
@@ -151,7 +150,7 @@
 - [PHP-CPP](https://github.com/CopernicaMarketingSoftware/PHP-CPP) 开发 PHP 扩展。
 - [pybind11](https://github.com/pybind/pybind11) C++11 开发 python 扩展。
 
-## 项目
+## 项目、示例
 
 - [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor) 实时网速监控浮窗。
 - [ClickHouse](https://github.com/ClickHouse/ClickHouse) 实时生成分析的列数据库。
@@ -160,6 +159,8 @@
 - [ExStudPE_Visual_Tools](https://github.com/tankaishuai/ExStudPE_Visual_Tools) 扩展了 StudPE 的工具。
 - [Overload](https://github.com/Overload-Technologies/Overload) 类 Unit3D 的游戏引擎，有场景编辑器等，脚本语言是 Lua 。
 - [sqlitebrowser](https://github.com/sqlitebrowser/sqlitebrowser) SQLite 管理工具。
+- [FastCgi](https://github.com/Request2609/FastCgi) FastCgi 实现。
+- [tesseract](https://github.com/tesseract-ocr/tesseract) OCR 命令行工具。
 
 ## 包管理与构造工具
 

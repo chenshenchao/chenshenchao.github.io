@@ -2,6 +2,7 @@
 
 - [go 源码](https://github.com/golang/go)
 - [glog](https://github.com/golang/glog)
+- [vscode-go](https://github.com/golang/vscode-go) vscode 扩展。
 
 ## 常用库
 
@@ -50,6 +51,7 @@
 - [gopsutil](https://github.com/shirou/gopsutil) 进程系统监控库。
 - [packr](https://github.com/gobuffalo/packr) go 低版本没有 embed 时，需要这个库来嵌入文件。
 - [jiebago](https://github.com/wangbin/jiebago) jieba 中文分词。
+- [gojieba](https://github.com/yanyiwu/gojieba) jieba 中文分词。
 - [mahonia](https://github.com/axgle/mahonia) 字符集转换库。
 - [protobuf-go](https://github.com/protocolbuffers/protobuf-go) protobuf
 - [crypt2go](https://github.com/andreburgaud/crypt2go) 对标准的加密库的补充。
@@ -71,6 +73,7 @@
 - [entimport](https://github.com/ariga/entimport) 第三方提供 ent 的工具，已经多年不维护。
 - [pgx](https://github.com/jackc/pgx) PostgreSQL 客户端库。
 - [golang-migrate](https://github.com/golang-migrate/migrate) 数据库迁移命令行工具与库。
+- [nutsdb](https://github.com/nutsdb/nutsdb) 可内嵌的键值对数据库。
 - [goleveldb](https://github.com/syndtr/goleveldb) 可内嵌的键值对数据库。
 - [bbolt](https://github.com/etcd-io/bbolt) 可内嵌的键值对数据库。
 - [rosedb](https://github.com/rosedblabs/rosedb) 可内嵌的键值对数据库。
@@ -102,6 +105,8 @@
 
 - [grpc-go](https://github.com/grpc/grpc-go)
 - [gnet](https://github.com/panjf2000/gnet) 网络框架。
+- [jupiter](https://github.com/douyu/jupiter) 斗鱼开源的微服务 web 框架。
+- [kratos](https://github.com/go-kratos/kratos) 微服务 web 框架。
 - [go-zero](https://github.com/zeromicro/go-zero) 微服务 web 框架。
 - [fiber](https://github.com/gofiber/fiber) web 框架。
 - [echo](https://github.com/labstack/echo) web 框架。
