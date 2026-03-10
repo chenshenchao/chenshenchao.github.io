@@ -99,6 +99,7 @@ python -m http.server 8000
 - [aiomysql](https://github.com/aio-libs/aiomysql) 异步 Mysql 连接库。
 - [binlog2sql](https://github.com/danfengcao/binlog2sql) MySQL binlog 分析库。
 - [mongoengine](https://github.com/MongoEngine/mongoengine) mongodb 客户端。
+- [tortoise-orm](https://github.com/tortoise/tortoise-orm) ORM
 
 ### 图形
 
@@ -119,7 +120,6 @@ python -m http.server 8000
 - [aiohttp](https://github.com/aio-libs/aiohttp) 异步的 HTTP 客户端/服务端框架。
 - [flask](https://github.com/pallets/flask) web 框架。
 - [sanic](https://github.com/sanic-org/sanic) web 框架。
-- [fastapi](https://github.com/fastapi/fastapi) web 框架。
 - [FastUI](https://github.com/pydantic/FastUI) web UI 库。非 HTML 模板，是 Python 代码生成 HTML。
 - [vibora](https://github.com/vibora-io/vibora) web 框架。
 - [jinja](https://github.com/pallets/jinja) 模板引擎。

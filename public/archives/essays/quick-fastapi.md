@@ -1,6 +1,6 @@
 # [草稿]FastAPI 速查
 
-[GitHub 仓库](https://github.com/fastapi/fastapi)
+[fastapi 源码](https://github.com/fastapi/fastapi)
 
 ```bash
 # fastapi 没有模板项目，通过以下流程创建引入。

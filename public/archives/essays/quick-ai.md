@@ -13,6 +13,8 @@
 - [Paddle](https://github.com/PaddlePaddle/Paddle) 百度的框架，中文名“飞桨”。
 - [Paddle Lite](https://github.com/PaddlePaddle/Paddle-Lite.git) 百度飞桨（轻量版），只能用于推理，优化了推理。
 - [PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg) 百度飞桨图像分割开发套件。
+- [PaddlePaddle models](https://github.com/PaddlePaddle/models) 百度飞浆官方维护的主要模型集合。
+- [PaddleSpeech](https://github.com/PaddlePaddle/PaddleSpeech) 百度飞浆官方维护的 TTS 集合。
 - [MNN](https://github.com/alibaba/MNN) 阿里的框架。
 - [mnn-llm](https://github.com/wangzhaode/mnn-llm) 基于 MNN 的 LLM，已经合并到 MNN。
 - [auto-sklearn](https://github.com/automl/auto-sklearn) ML 工具包。

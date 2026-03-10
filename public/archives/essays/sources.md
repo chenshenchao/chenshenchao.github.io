@@ -62,6 +62,7 @@
 - [awesome-vscode](https://github.com/viatsko/awesome-vscode)
 - [awesome-android-ui](https://github.com/wasabeef/awesome-android-ui)
 - [awesome-ghidra](https://github.com/AllsafeCyberSecurity/awesome-ghidra)
+- [awesome-koa](https://github.com/ellerbrock/awesome-koa)
 
 ### 数据或咨询站点
 
@@ -288,7 +289,6 @@ qwen
 - [chineseocr](https://github.com/chineseocr/chineseocr) OCR 工具站点。
 - [harfbuzz](https://github.com/harfbuzz/harfbuzz) 文本形状，字体处理引擎。
 - [mkspiffs](https://github.com/igrr/mkspiffs) 解析 SPIFFS 工具。
-- [bifrost](https://github.com/ClessLi/bifrost) nginx 配置文件处理工具。
 - [dprint](https://github.com/dprint/dprint) rust 开发的跨平台的代码格式化命令行工具。
 - [fontforge](https://github.com/fontforge/fontforge) 字体文件编辑器。
 
@@ -362,13 +362,9 @@ qwen
 
 ### 服务型工具
 
-- [nginx](https://github.com/nginx/nginx)
-- [caddy](https://github.com/caddyserver/caddy) go 语言实现的类 nginx 的服务器。
 - [envoy](https://github.com/envoyproxy/envoy) 代理，可以配合 grpc-web 把 HTTP/1.1 转成 HTTP/2.0 以支持 GRPC。
 - [marqo](https://github.com/marqo-ai/marqo) 基于 AI 的产品搜索服务，文本、图片等来搜索产品。
 - [oceanbase](https://github.com/oceanbase/oceanbase) 阿里蚂蚁开发的分布式关系数据库。
-- [milvus](https://milvus.io) 向量数据库(GO 语言)，官方给出了很多应用示例（RAG、图搜等）快速开发应用。
-- [bootcamp](https://github.com/milvus-io/bootcamp) milvus 的应用示例。
 - [weaviate](https://github.com/weaviate/weaviate) 向量数据库(GO 语言)
 - [qdrant](https://github.com/qdrant/qdrant) 向量数据库（rust 语言），开放给多种语言使用，主要支持 python 的封装。
 - [vectordb](https://github.com/epsilla-cloud/vectordb) 向量数据库（C++ 语言），主要支持 python 的封装。
@@ -384,7 +380,6 @@ qwen
 - [zincsearch](https://github.com/zincsearch/zincsearch) 类 ElasticSearch 全文索引数据库（GO 语言）。
 - [gofound](https://github.com/sea-team/gofound) 全文索引数据库（GO 语言），HTTP 接口，有管理后台面板。
 - [sonic](https://github.com/valeriansaliou/sonic) 全文搜索数据库。
-- [meilisearch](https://github.com/meilisearch/meilisearch) 全文搜索数据库。
 - [manticoresearch](https://github.com/manticoresoftware/manticoresearch) 类 ElasticSearch 全文索引数据库（C 语言）。
 - [Toshi](https://github.com/toshi-search/Toshi) 全文搜索引擎。
 - [quickwit](https://github.com/quickwit-oss/quickwit) 全文搜索引擎，开发了 tantivy 库。

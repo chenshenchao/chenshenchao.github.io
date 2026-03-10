@@ -50,6 +50,7 @@
 - [grpc-java](https://github.com/grpc/grpc-java)
 - [lucene](https://github.com/apache/lucene) 倒排索引库。
 - [litiengine](https://github.com/gurkenlabs/litiengine) 纯 JAVA 2D 游戏引擎。
+- [tribuo](https://github.com/oracle/tribuo) 机器学习库。
 
 ## 项目、示例
 

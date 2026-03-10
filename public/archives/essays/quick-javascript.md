@@ -110,6 +110,10 @@
 - [driver.js](https://github.com/kamranahmedse/driver.js) 教程引导组件。
 - [js-ipfs](https://github.com/ipfs/js-ipfs) IPFS 实现。
 - [flv.js](https://github.com/bilibili/flv.js) flv 播放器，一般用于直播。
+- [moment](https://github.com/moment/moment) 日期库。
+- [luxon](https://github.com/moment/luxon) 日期库。
+- [iconv-lite](https://github.com/pillarjs/iconv-lite) 字符集转换库。
+- [JSSoup](https://github.com/chishui/JSSoup) 仿 python 的 BeautifulSoup 的库， HTML 解析。
 
 ### Web
 

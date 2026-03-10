@@ -98,6 +98,7 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [mqtt](https://github.com/simps/mqtt) MQTT 客户端。
 - [php-ast](https://github.com/nikic/php-ast) PHP7 代码转 AST 树。
 - [kafka-php](https://github.com/weiboad/kafka-php) kafka 客户端。
+- [websocket-php](https://github.com/Textalk/websocket-php) websocket 客户端。
 
 ## 项目、示例
 

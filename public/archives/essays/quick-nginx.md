@@ -1,6 +1,15 @@
 # Nginx 速查
 
+- [nginx 源码](https://github.com/nginx/nginx)
 - [unit](https://github.com/nginx/unit) 支持多语言的 web 服务器插件。
+- [njs](https://github.com/nginx/njs) nginx 中使用的 JavaScript 语言子集。
+- [ngx-rust](https://github.com/nginx/ngx-rust) nginx 模块开发库。
+
+- [bifrost](https://github.com/ClessLi/bifrost) nginx 配置文件处理工具。
+
+- [nginx-hello-world-module](https://github.com/perusio/nginx-hello-world-module)  nginx 模块简单 hello world 示例。
+- [nginx-http-echo-module](https://github.com/wujunze/nginx-http-echo-module) nginx 模块简单 echo 示例。
+- [echo-nginx-module](https://github.com/openresty/echo-nginx-module) nginx 模块 echo 示例。
 
 ## 常用命令
 

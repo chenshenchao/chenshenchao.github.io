@@ -47,6 +47,7 @@
 - [class-validator](https://github.com/typestack/class-validator) 基于类定义的验证器库。
 - [image-in-browser](https://github.com/yegor-pelykh/image-in-browser) 浏览器端可用的图片处理库。
 - [PptxGenJS](https://github.com/gitbrent/PptxGenJS) PPT 生成库。
+- [cheerio](https://github.com/cheeriojs/cheerio) HTML/XML 解析库。
 
 ### web
 

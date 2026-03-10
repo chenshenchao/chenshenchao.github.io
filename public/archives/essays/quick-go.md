@@ -28,6 +28,7 @@
 - [xls](https://github.com/extrame/xls) libxls 的 go 语言复刻，支持 xls 文件。
 - [grate](https://github.com/pbnjay/grate) Excel .xls, .xlsx, .csv, .tsv 文件提取数据。
 - [unioffice](https://github.com/unidoc/unioffice) Word、Excel、PPT 库。
+- [excelize](https://github.com/qax-os/excelize) Excel 处理库。
 - [unipdf](https://github.com/unidoc/unipdf) PDF 库。
 - [gofpdf](https://github.com/jung-kurt/gofpdf) PDF 库。
 - [maroto](https://github.com/johnfercher/maroto) 基于 gofpdf 的 PDF 库。
@@ -155,6 +156,7 @@
 - [ngrok](https://github.com/inconshreveable/ngrok) 内网穿透代理。
 - [livego](https://github.com/gwuhaolin/livego) 流媒体服务器，支持 FLV、RTMP、HLS 的直播。
 - [gitea](https://github.com/go-gitea/gitea) git 仓库托管 web 服务器。
+- [caddy](https://github.com/caddyserver/caddy) go 语言实现的类 nginx 的服务器。
 
 ## 常用命令
 

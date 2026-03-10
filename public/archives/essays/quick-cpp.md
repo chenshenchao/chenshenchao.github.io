@@ -50,6 +50,7 @@
 - [argparse](https://github.com/p-ranav/argparse) 命令行参数处理库。
 - [SeetaFace6Open](https://github.com/SeetaFace6Open/index) 人脸识别库。
 - [SeetaFace6](https://github.com/seetafaceengine/SeetaFace6) 人脸识别库。
+- [json](https://github.com/nlohmann/json) JSON 库。
 - [jsoncpp](https://github.com/open-source-parsers/jsoncpp) JSON 库。
 - [configor](https://github.com/l33oo/configor) 配置管理库，目前只支持 JSON 格式。
 - [yaml-cpp](https://github.com/jbeder/yaml-cpp) yaml 库。
@@ -157,6 +158,7 @@
 - [AheadLib](https://github.com/Yonsm/AheadLib) 劫持 DLL 的代码生成工具。劫持 DLL 的代码生成工具。
 - [ExStudPE_Visual_Tools](https://github.com/tankaishuai/ExStudPE_Visual_Tools) 扩展了 StudPE 的工具。
 - [Overload](https://github.com/Overload-Technologies/Overload) 类 Unit3D 的游戏引擎，有场景编辑器等，脚本语言是 Lua 。
+- [sqlitebrowser](https://github.com/sqlitebrowser/sqlitebrowser) SQLite 管理工具。
 
 ## 包管理与构造工具
 
