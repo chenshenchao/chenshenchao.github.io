@@ -1,9 +1,6 @@
 # C# 速查
 
-- [roslyn](https://github.com/dotnet/roslyn) .NET 编译器平台。
-- [runtime](https://github.com/dotnet/runtime) .NET 虚拟机源码。
 - [csharplang](https://github.com/dotnet/csharplang) C# 设计文档。
-- [efcore](https://github.com/dotnet/efcore)
 
 ## 常用库
 

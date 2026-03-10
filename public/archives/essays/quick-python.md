@@ -21,7 +21,6 @@ python -m http.server 8000
 - [ruff](https://github.com/astral-sh/ruff) rust 开发用于格式化和 lint python 的库。
 - [pytesseract](https://github.com/madmaze/pytesseract) 封装 C++ 的  OCR 库 tesseract 命令行使用的，需要安装 tesseract 在 PATH 里，配置要求低，但是精度差。
 - [EasyOCR](https://github.com/JaidedAI/EasyOCR) OCR 库，配置要求低于 PaddleOCR 但是精度要差一些。
-- [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) OCR 库，精度好，多种场景，配置要求高。
 - [ddddocr](https://github.com/sml2h3/ddddocr) 针对验证码的 OCR 库。
 - [opencv-python](https://github.com/opencv/opencv-python) opencv 的 python 封装库。
 - [pyautogui](https://github.com/asweigart/pyautogui) 跨平台桌面系统自动化操作库，模拟鼠标键盘操作。
@@ -29,6 +28,7 @@ python -m http.server 8000
 - [mcp sdk](https://github.com/modelcontextprotocol/python-sdk) MCP 官方发布的客户端 SDK 库。
 - [numba](https://github.com/numba/numba) NumPy 动态编译 JIT 。
 - [llvmlite](https://github.com/numba/llvmlite) LLVM 封装，提供 JIT 编译。
+- [cython](https://github.com/cython/cython) python 代码转 C 编译。
 - [snowflake](https://github.com/vd2org/snowflake) 雪花ID生成库。
 - [pyexcel](https://github.com/pyexcel/pyexcel) Excel 处理库，支持 csv, ods, xls, xlsx, xlsm 文件。
 - [openpyxl](https://pypi.org/project/openpyxl/) Excel 2010 xlsx 文件处理库。
@@ -98,6 +98,7 @@ python -m http.server 8000
 - [PyMySQL](https://github.com/PyMySQL/PyMySQL) MySQL 客户端。
 - [aiomysql](https://github.com/aio-libs/aiomysql) 异步 Mysql 连接库。
 - [binlog2sql](https://github.com/danfengcao/binlog2sql) MySQL binlog 分析库。
+- [python-mysql-replication](https://github.com/julien-duponchelle/python-mysql-replication) MySQL binlog 迁移库。
 - [mongoengine](https://github.com/MongoEngine/mongoengine) mongodb 客户端。
 - [tortoise-orm](https://github.com/tortoise/tortoise-orm) ORM
 

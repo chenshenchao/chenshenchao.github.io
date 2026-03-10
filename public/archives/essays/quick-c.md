@@ -120,6 +120,8 @@
 ## 示例、项目
 
 - [SmallerC](https://github.com/alexfru/SmallerC) 简单的 C 编译器。
+- [lcc](https://github.com/drh/lcc) C 编译器。
+- [8cc](https://github.com/rui314/8cc) C 编译器。
 - [mpv](https://github.com/mpv-player/mpv) 跨平台视频播放器。
 - [FlashDB](https://github.com/armink/FlashDB) 一款支持 KV 数据和时序数据的超轻量级数据库
 

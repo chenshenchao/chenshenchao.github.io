@@ -14,6 +14,7 @@
 - [zap](https://github.com/uber-go/zap) 日志库。
 - [logrus](https://github.com/sirupsen/logrus) 结构化的日志库。
 - [zerolog](https://github.com/rs/zerolog) JSON 日志。
+- [seelog](https://github.com/cihub/seelog) 日志库。
 - [file-rotatelogs](https://github.com/lestrrat-go/file-rotatelogs) 类 perl5 文件滚动落盘日志库。
 - [lumberjack](https://github.com/natefinch/lumberjack) 文件滚动落盘日志库。
 - [pie](https://github.com/elliotchance/pie) 切片(slice) 和 字典(map) 功能扩展库。
@@ -62,6 +63,7 @@
 - [go-ini](https://github.com/go-ini/ini) *.ini 文件处理库。
 - [go-yaml](https://github.com/go-yaml/yaml) YAML 文件处理库。
 - [mix](https://github.com/mix-go/mix) 快速开发的工具库。
+- [go-lua](https://github.com/Shopify/go-lua) lua 解释器。
 
 ### 数据库
 
@@ -87,6 +89,7 @@
 - [sqlx](https://github.com/jmoiron/sqlx) 扩展标准库 database/sql 的三方库。
 - [mysql](https://github.com/go-sql-driver/mysql) 给 database/sql 的 MySQL 驱动。
 - [go-mysql](https://github.com/go-mysql-org/go-mysql) 纯 Go 实现的 MySQL 客户端，支持binlog做数据迁移。
+- [go-mysql-elasticsearch](https://github.com/go-mysql-org/go-mysql-elasticsearch) MySQL 同步到 elasticsearch。
 - [go-linq](https://github.com/ahmetb/go-linq) 链式 SQL 拼接，远达不到 C# 的 LINQ 程度，没有改变 GO 语法。
 - [go-redis](https://github.com/redis/go-redis) redis 客户端。
 - [redigo](https://github.com/gomodule/redigo) redis 客户端。
@@ -134,6 +137,7 @@
 
 ### 图形
 
+- [govcl](https://github.com/ying32/govcl) 类 VCL，绑定 Lazarus 的 libLCL 图形库。 
 - [wails](https://github.com/wailsapp/wails) 打包 Web 成 桌面应用 的框架。
 - [hover](https://github.com/go-flutter-desktop/hover) Go 封装 flutter 的桌面应用开发框架。
 - [spot](https://github.com/roblillack/spot) React 代码风格的 Go 桌面应用开发框架。
@@ -149,6 +153,7 @@
 
 - [gotify server](https://github.com/gotify/server) gotify 即时聊天服务器。
 - [gotify android](https://github.com/gotify/android) gotify 即时聊天安卓端。
+- [nsq](https://github.com/nsqio/nsq) 实时分布式消息分发服务器。
 - [flutter-webrtc-server](https://github.com/flutter-webrtc/flutter-webrtc-server) flutter-webrtc 开发的服务器。
 - [lindb](https://github.com/lindb/lindb) 时序数据库。
 - [websocketd](https://github.com/joewalnes/websocketd) websocket 命令行工具，类似 inetd 。
@@ -157,6 +162,7 @@
 - [livego](https://github.com/gwuhaolin/livego) 流媒体服务器，支持 FLV、RTMP、HLS 的直播。
 - [gitea](https://github.com/go-gitea/gitea) git 仓库托管 web 服务器。
 - [caddy](https://github.com/caddyserver/caddy) go 语言实现的类 nginx 的服务器。
+- [lua](https://github.com/milochristiansen/lua) go 实现 lua5.3 VM 和编译器。
 
 ## 常用命令
 

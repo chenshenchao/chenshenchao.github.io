@@ -64,9 +64,11 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [one](https://github.com/lizhichao/one)  Web 框架
 - [CodeIgniter](https://github.com/bcit-ci/CodeIgniter) Web 框架
 - [CodeIgniter4](https://github.com/codeigniter4/CodeIgniter4) Web 框架
+- [queryphp](https://github.com/hunzhiwange/queryphp) Web 框架
 - [tntsearch](https://github.com/teamtnt/tntsearch) 倒排索引库。
 - [workerman](https://github.com/walkor/workerman)
 - [thinkphp](https://github.com/top-think/framework) Web 框架，很多基础库复用 symfony 的，国内大量专用框架由其扩展而来。
+- [think-swoole](https://github.com/top-think/think-swoole) thinkphp 的 swoole 适配。
 - [think-validate](https://github.com/top-think/think-validate)
 - [think-worker](https://github.com/top-think/think-worker) ThinkPHP Workerman 扩展
 - [think-orm](https://github.com/top-think/think-orm)
@@ -99,12 +101,15 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [php-ast](https://github.com/nikic/php-ast) PHP7 代码转 AST 树。
 - [kafka-php](https://github.com/weiboad/kafka-php) kafka 客户端。
 - [websocket-php](https://github.com/Textalk/websocket-php) websocket 客户端。
+- [php-mysql-replication](https://github.com/krowinski/php-mysql-replication) mysql binlog 数据复制库。
 
 ## 项目、示例
 
 - [WordPress](https://github.com/WordPress/WordPress)
 - [Sylius](https://github.com/Sylius/Sylius) 电商项目。
 - [pikachu](https://github.com/zhuifengshaonianhanlu/pikachu) 漏洞靶场项目。
+- [PHPPHP](https://github.com/ircmaxell/PHPPHP) PHP 里的 PHP VM。
+- [think-swoole-demo](https://github.com/xavieryang007/think-swoole-demo) think-swoole 示例。
 
 ## 命令规范
 

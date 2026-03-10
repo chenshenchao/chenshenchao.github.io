@@ -18,7 +18,7 @@
 - [libserial](https://github.com/crayzeewulf/libserial) Linux 串口库。
 - [recastnavigation](https://github.com/recastnavigation/recastnavigation) 导航网格实现库，Unit3D、Godot 等都使用了这个库。
 - [SuperDllHijack](https://github.com/anhkgg/SuperDllHijack) DLL 劫持库。
-- [coost](https://github.com/idealvin/coost) 工具库。
+- [coost](https://github.com/idealvin/coost) 工具库，目标是 boost。
 - [grpc](https://github.com/grpc/grpc) 官方实现。
 - [protobuf](https://github.com/protocolbuffers/protobuf)
 - [bond](https://github.com/microsoft/bond)
@@ -59,6 +59,7 @@
 - [xredis](https://github.com/0xsky/xredis) redis 客户端库。
 - [ScriptX](https://github.com/Tencent/ScriptX) 腾讯开源的脚本引擎抽象层，支持接入 JS、Lua 的脚本引擎。
 - [objeck-lang](https://github.com/objeck/objeck-lang) 一个类 JS/GO 的编程语言。
+- [libco](https://github.com/Tencent/libco) 腾讯开源的协程库。
 
 ### 网络
 

@@ -10,6 +10,9 @@ dotnet tool update --global dotnet-ef
 
 ## 官方库和工具
 
+- [roslyn](https://github.com/dotnet/roslyn) .NET 编译器平台。
+- [runtime](https://github.com/dotnet/runtime) .NET 虚拟机源码。
+- [efcore](https://github.com/dotnet/efcore)
 - [yarp](https://github.com/dotnet/yarp) HTTP 代理。
 - [TorchSharp](https://github.com/dotnet/TorchSharp) pytorch 封装。
 - [machinelearning](https://github.com/dotnet/machinelearning) 机器学习框架。
@@ -52,6 +55,7 @@ dotnet tool update --global dotnet-ef
 
 ## 工具
 
+- [ILSpy](https://github.com/icsharpcode/ILSpy) .Net 字节码反编译器。
 - [dnSpy](https://github.com/dnSpy/dnSpy) .Net 调试器。
 - [il-repack](https://github.com/gluck/il-repack) 把多个 .NET 程序集合并成一个的工具，ILMerge 的开源替代。
 - [WebFirst](https://github.com/DotNetNext/WebFirst) Web 应用，通过 Excel 给数据库建表的工具。（为什么不用 DDL？）

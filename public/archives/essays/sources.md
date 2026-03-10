@@ -227,6 +227,7 @@ qwen
 - [fanx](https://github.com/fanx-dev/fanx) 全栈编程语言。
 - [stone](https://github.com/chibash/stone) 《两周自制脚本语言》示例脚本语言。
 - [nature](https://github.com/nature-lang/nature) 编程语言。
+- [julia](https://github.com/JuliaLang/julia) 编程语言。
 - [OpenHSP](https://github.com/onitama/OpenHSP) Hot Soup 语言 Processor
 - [carbon-lang](https://github.com/carbon-language/carbon-lang) 实验性的 C++ 后继语言。
 - [lpython](https://github.com/lcompilers/lpython) python 编译器。
@@ -244,7 +245,6 @@ qwen
 - [ghidra](https://github.com/NationalSecurityAgency/ghidra) 逆向分析工具。
 - [rz-ghidra](https://github.com/rizinorg/rz-ghidra) 基于 ghidra 逆向分析工具。
 - [cutter](https://github.com/rizinorg/cutter) 逆向分析工具。
-- [ILSpy](https://github.com/icsharpcode/ILSpy) .Net 字节码反编译器。
 - [frida](https://github.com/frida/frida) 逆向插桩工具。
 - [x64dbg](https://github.com/x64dbg/x64dbg) x64 调试器，动态逆向分析。
 - [arthas](https://github.com/alibaba/arthas) 阿里开源的 Java 项目诊断工具。

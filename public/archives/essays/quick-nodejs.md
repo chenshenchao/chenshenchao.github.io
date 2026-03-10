@@ -55,6 +55,7 @@ nvm use 16
 - [babel](https://github.com/babel/babel)
 - [puppeteer](https://github.com/puppeteer/puppeteer) 封装 Chrome、Firefox 的 API，无头浏览器自动化。
 - [playwright](https://github.com/microsoft/playwright) 微软开源的封装 Chrome、Firefox、WebKit 的 API，无头浏览器自动化。
+- [selenium](https://github.com/SeleniumHQ/selenium) 无头浏览器自动化。
 - [nodegit](https://github.com/nodegit/nodegit) nodejs 下对 git 命令行封装。
 - [winston](https://github.com/winstonjs/winston) 日志库。
 - [nanocolors](https://github.com/ai/nanocolors) 命令行颜色样式库。
