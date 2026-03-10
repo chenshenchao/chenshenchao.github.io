@@ -5,6 +5,11 @@
 - [zephir](https://github.com/zephir-lang/zephir) 编译型语言，用于 PHP C 扩展的开发。
 - [pie](https://github.com/php/pie) 取代 PECL 的下一代 C 扩展安装工具。
 
+- [Framework Interop Group](https://www.php-fig.org/) PSR 等规范的定制组织。
+- [cache](https://github.com/php-fig/cache) PSR6 缓存规范接口。
+- [simple-cache](https://github.com/php-fig/simple-cache) 缓存接口简单实现。
+- [http-message](https://github.com/php-fig/http-message) PSR7
+
 ## 常用命令
 
 ```bash
@@ -59,7 +64,8 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [hashids](https://github.com/vinkla/hashids) 散列 ID 生成库。
 - [laravel](https://github.com/laravel/laravel) PHP 界的 Spring ，功能齐全，就是有点重，服务器要求比其他 PHP 框架高，不然会卡。
 - [symfony](https://github.com/symfony/symfony) Web 框架，拆分出很多基础库，ThinkPHP 大量复用它的基础库。
-- [symfony/dotenv](https://github.com/symfony/dotenv) symfony 环境变量库。
+- [symfony dotenv](https://github.com/symfony/dotenv) symfony 环境变量库。
+- [symfony cache](https://github.com/symfony/cache) symfony 缓存。
 - [dom-crawler](https://github.com/symfony/dom-crawler) HTML、XML 遍历工具库。
 - [one](https://github.com/lizhichao/one)  Web 框架
 - [CodeIgniter](https://github.com/bcit-ci/CodeIgniter) Web 框架
@@ -102,6 +108,9 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [kafka-php](https://github.com/weiboad/kafka-php) kafka 客户端。
 - [websocket-php](https://github.com/Textalk/websocket-php) websocket 客户端。
 - [php-mysql-replication](https://github.com/krowinski/php-mysql-replication) mysql binlog 数据复制库。
+- [easyswoole](https://github.com/easy-swoole/easyswoole) 一个基于 swoole 的框架。
+- [swoolefy](https://github.com/bingcool/swoolefy) 一个基于 swoole 的框架。
+- [mix](https://github.com/mix-php/mix) 命令行开发框架。
 
 ## 项目、示例
 

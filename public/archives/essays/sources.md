@@ -41,6 +41,8 @@
 - [mydocker《自己动手写docker》](https://github.com/xianlubird/mydocker)
 - [bare-metal-programming-guide《裸机编程指南》](https://github.com/cpq/bare-metal-programming-guide) MCU 裸机编程。
 - [flash-linux0.11-talk《品读 Linux 0.11 核心代码》](https://github.com/dibingfa/flash-linux0.11-talk)
+- [InterpretableMLBook《可解释机器学习--黑盒模型可解释性理解指南》](https://github.com/MingchaoZhu/InterpretableMLBook)
+- [《神经网络与深度学习》](https://github.com/nndl/nndl.github.io)
 
 ## 资源站点
 
@@ -63,6 +65,9 @@
 - [awesome-android-ui](https://github.com/wasabeef/awesome-android-ui)
 - [awesome-ghidra](https://github.com/AllsafeCyberSecurity/awesome-ghidra)
 - [awesome-koa](https://github.com/ellerbrock/awesome-koa)
+- [awesome-design](https://github.com/gztchan/awesome-design)
+- [awesome-go](https://github.com/avelino/awesome-go)
+- [awesome-go-cn](https://github.com/jobbole/awesome-go-cn)
 
 ### 数据或咨询站点
 

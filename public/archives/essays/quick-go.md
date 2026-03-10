@@ -151,9 +151,11 @@
 
 ## 项目
 
+- [esbuild](https://github.com/evanw/esbuild) go 开发的一个前端打包工具。
 - [gotify server](https://github.com/gotify/server) gotify 即时聊天服务器。
 - [gotify android](https://github.com/gotify/android) gotify 即时聊天安卓端。
 - [nsq](https://github.com/nsqio/nsq) 实时分布式消息分发服务器。
+- [go-nsq](https://github.com/nsqio/go-nsq) nsq 客户端。
 - [flutter-webrtc-server](https://github.com/flutter-webrtc/flutter-webrtc-server) flutter-webrtc 开发的服务器。
 - [lindb](https://github.com/lindb/lindb) 时序数据库。
 - [websocketd](https://github.com/joewalnes/websocketd) websocket 命令行工具，类似 inetd 。

@@ -1,7 +1,7 @@
 # [草稿]Nuxt 速查
 
 - [官网](https://nuxt.com/)
-- [GitHub 源码仓库](https://github.com/nuxt/nuxt)
+- [nuxt 源码](https://github.com/nuxt/nuxt)
 
 ```bash
 # 创建项目

@@ -435,6 +435,7 @@ fi
 - [salvo](https://github.com/salvo-rs/salvo) 简易 web 框架。
 - [wasmer](https://github.com/wasmerio/wasmer) wasm 运行时。
 - [Rocket](https://github.com/rwf2/Rocket) web 框架。
+- [rustful](https://github.com/Ogeon/rustful) web 框架。
 - [zmq.rs](https://github.com/zeromq/zmq.rs) ZeroMQ 的实现。
 - [pingora](https://github.com/cloudflare/pingora) 网络库，反向代理等功能。
 

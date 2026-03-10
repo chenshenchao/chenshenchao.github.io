@@ -21,6 +21,7 @@ python -m http.server 8000
 - [ruff](https://github.com/astral-sh/ruff) rust 开发用于格式化和 lint python 的库。
 - [pytesseract](https://github.com/madmaze/pytesseract) 封装 C++ 的  OCR 库 tesseract 命令行使用的，需要安装 tesseract 在 PATH 里，配置要求低，但是精度差。
 - [EasyOCR](https://github.com/JaidedAI/EasyOCR) OCR 库，配置要求低于 PaddleOCR 但是精度要差一些。
+- [keras-ocr](https://github.com/faustomorales/keras-ocr) 基于 Keras 的 OCR。
 - [ddddocr](https://github.com/sml2h3/ddddocr) 针对验证码的 OCR 库。
 - [opencv-python](https://github.com/opencv/opencv-python) opencv 的 python 封装库。
 - [pyautogui](https://github.com/asweigart/pyautogui) 跨平台桌面系统自动化操作库，模拟鼠标键盘操作。
@@ -131,7 +132,8 @@ python -m http.server 8000
 - [pyftpdlib](https://github.com/giampaolo/pyftpdlib) FTP 服务器开发库。
 - [asgiref](https://github.com/django/asgiref) ASGI、WSGI 库。
 - [helium](https://github.com/mherrmann/helium) 无头浏览器爬虫自动化库。
-- [scapy](https://github.com/secdev/scapy) 支持 arp、imcp 等协议包，网络嗅探发包等的命令行工具和库。
+- [scapy](https://github.com/secdev/scapy) 支持 arp、icmp 等协议包，网络嗅探发包等的命令行工具和库。
+- [icmplib](https://github.com/ValentinBELYN/icmplib) icmp 库。
 
 ## 示例、项目
 
