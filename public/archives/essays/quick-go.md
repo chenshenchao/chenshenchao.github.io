@@ -68,6 +68,7 @@
 - [go-yaml](https://github.com/go-yaml/yaml) YAML 文件处理库。
 - [mix](https://github.com/mix-go/mix) 快速开发的工具库。
 - [go-lua](https://github.com/Shopify/go-lua) lua 解释器。
+- [yaegi](https://github.com/traefik/yaegi) go 解释器。
 
 ### 数据库
 
@@ -105,6 +106,7 @@
 
 ### 网络
 
+- [gin](https://github.com/gin-gonic/gin) web 框架。
 - [grpc-go](https://github.com/grpc/grpc-go)
 - [gnet](https://github.com/panjf2000/gnet) 网络框架。
 - [jupiter](https://github.com/douyu/jupiter) 斗鱼开源的微服务 web 框架。
@@ -141,6 +143,7 @@
 - [go-kit](https://github.com/go-kit/kit) 微服务框架。
 - [rpcx](https://github.com/smallnest/rpcx) 微服务框架。
 - [kubo](https://github.com/ipfs/kubo) IPFS 实现。
+- [websocket](https://github.com/gorilla/websocket) websocket 库。
 
 ### 图形
 
@@ -151,10 +154,12 @@
 - [imgui-go](https://github.com/inkyblackness/imgui-go) imgui 封装，已经不维护。
 - [cimgui-go](https://github.com/AllenDang/cimgui-go)  imgui 封装
 - [qt](https://github.com/therecipe/qt) qt 封装。
+- [gotk3](https://github.com/gotk3/gotk3) GTK3 封装。
 - [go-sciter](https://github.com/sciter-sdk/go-sciter) sciter 的 go 封装，HTML/CSS/JS 脚本引擎。
 - [ui](https://github.com/andlabs/ui) 基于 libui 的 UI 库。
 - [cef2go](https://github.com/cztomczak/cef2go) CEF 绑定。
 - [pixel](https://github.com/faiface/pixel) go 开发的 2d 游戏库。
+- [vugu](https://github.com/vugu/vugu) 生成 WASM 的 UI 框架。
 
 ## 项目
 

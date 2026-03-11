@@ -25,6 +25,7 @@
 - [box2d](https://github.com/erincatto/box2d) 2D 物理引擎。
 - [box2d-lite](https://github.com/erincatto/box2d-lite) 物理引擎 box2d 的 lite 版本。
 - [xlnt](https://github.com/tfussell/xlnt) xlsx 库。
+- [OpenXLSX](https://github.com/troldal/OpenXLSX) xlsx 库。
 - [podofo](https://github.com/podofo/podofo) PDF 库。
 - [pdfium](https://github.com/chromium/pdfium) chromium 内置的 PDF 库。
 - [pdfium-binaries](https://github.com/bblanchon/pdfium-binaries) pdfium 的二进制编译。
@@ -59,6 +60,7 @@
 - [ScriptX](https://github.com/Tencent/ScriptX) 腾讯开源的脚本引擎抽象层，支持接入 JS、Lua 的脚本引擎。
 - [objeck-lang](https://github.com/objeck/objeck-lang) 一个类 JS/GO 的编程语言。
 - [libco](https://github.com/Tencent/libco) 腾讯开源的协程库。
+- [robotstxt](https://github.com/google/robotstxt) robots.txt 文件解析库。
 
 ### 网络
 
@@ -95,6 +97,7 @@
 - [sqlite_orm](https://github.com/fnc12/sqlite_orm) 头文件 ORM 库，支付 50$ 可使用。
 - [duckdb](https://github.com/duckdb/duckdb) 把表格结构的文件当数据库使用，通过 SQL 操作。
 - [wcdb](https://github.com/Tencent/wcdb) 腾讯为微信开发的数据库框架，底层是 SQLite，支持 C++、Java、Kotlin、Swift、Objc 五种语言。
+- [LucenePlusPlus](https://github.com/luceneplusplus/LucenePlusPlus) Lucene 的 C++ 复刻。
 
 ### 图形库
 
@@ -162,6 +165,8 @@
 - [FastCgi](https://github.com/Request2609/FastCgi) FastCgi 实现。
 - [tesseract](https://github.com/tesseract-ocr/tesseract) OCR 命令行工具。
 - [baremetal](https://github.com/cortexm/baremetal) ARM cortex-M 裸机示例。
+- [apollo](https://github.com/ApolloAuto/apollo) 自动驾驶项目。
+- [Effekseer](https://github.com/effekseer/Effekseer) 粒子效果编辑器。
 
 ## 包管理与构造工具
 

@@ -124,10 +124,10 @@ python -m http.server 8000
 - [reflex](github.com/reflex-dev/reflex) web 框架。
 - [gunicorn](https://github.com/benoitc/gunicorn) Unix 下的 WSGI HTTP 服务器。
 - [aiohttp](https://github.com/aio-libs/aiohttp) 异步的 HTTP 客户端/服务端框架。
-- [flask](https://github.com/pallets/flask) web 框架。
 - [sanic](https://github.com/sanic-org/sanic) web 框架。
 - [FastUI](https://github.com/pydantic/FastUI) web UI 库。非 HTML 模板，是 Python 代码生成 HTML。
 - [vibora](https://github.com/vibora-io/vibora) web 框架。
+- [flask](https://github.com/pallets/flask) web 框架。
 - [jinja](https://github.com/pallets/jinja) 模板引擎。
 - [circuits](https://github.com/circuits/circuits) web 框架。
 - [emsdk](https://github.com/emscripten-core/emsdk) Emscripten SDK

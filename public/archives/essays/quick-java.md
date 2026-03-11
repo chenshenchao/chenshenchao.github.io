@@ -8,6 +8,8 @@
 ## 常用库
 
 - [gson](https://github.com/google/gson) 谷歌开源的 JSON 序列化库。
+- [fastjson](https://github.com/alibaba/fastjson) 阿里开源的  JSON 序列化库。
+- [fastjson2](https://github.com/alibaba/fastjson2) 阿里开源的  JSON 序列化库。
 - [logging-log4j2](https://github.com/apache/logging-log4j2) 日志库。
 - [guava](https://github.com/google/guava) 谷歌开源的工具库。
 - [spring-boot](https://github.com/spring-projects/spring-boot)
@@ -49,13 +51,16 @@
 - [motan](https://github.com/weibocom/motan) RPC 框架。
 - [grpc-java](https://github.com/grpc/grpc-java)
 - [lucene](https://github.com/apache/lucene) 倒排索引库。
+- [solr](https://github.com/apache/solr) 基于 lucene 的搜索引擎。
 - [litiengine](https://github.com/gurkenlabs/litiengine) 纯 JAVA 2D 游戏引擎。
 - [tribuo](https://github.com/oracle/tribuo) 机器学习库。
+- [druid](https://github.com/alibaba/druid) 阿里开源的数据库线程池库。
 
 ## 项目、示例
 
 - [pulsar](https://github.com/apache/pulsar) 分布式订阅发布的消息服务。
 - [questdb](https://github.com/questdb/questdb) 时序数据库，支持多语言客户端。
+- [druid](https://github.com/apache/druid) Apache 开源的实时分析数据库。
 
 ## 开发环境与包管理工具
 

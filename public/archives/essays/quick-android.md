@@ -22,7 +22,7 @@
 - [SerialPortHelper](https://github.com/freyskill/SerialPortHelper) 串口开发库。
 - [GSYRecordWave](https://github.com/CarGuo/GSYRecordWave) MP3音频录制库。
 - [anko](https://github.com/Kotlin/anko) 多工具库。
-- [QMUI_Android](https://github.com/Tencent/QMUI_Android)
+- [QMUI_Android](https://github.com/Tencent/QMUI_Android) 腾讯开源的 UI 组件库。
 - [leakcanary](https://github.com/square/leakcanary) 内存泄露分析库
 - [FFmpeg-Android](https://github.com/bravobit/FFmpeg-Android) ffmpeg 安卓的编译打包库。
 - [ffmpeg-android](https://github.com/cropsly/ffmpeg-android) ffmpeg 安卓的编译二进制文件。

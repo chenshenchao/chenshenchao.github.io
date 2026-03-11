@@ -52,6 +52,7 @@
 - [simple-virtual-dom](https://github.com/livoras/simple-virtual-dom) 一个虚拟 DOM 实现库。
 - [dyo](https://github.com/dyo/dyo) DOM 元素生成库。
 - [eva.js](https://github.com/eva-engine/eva.js) 前端简易游戏引擎。
+- [three.js](https://github.com/mrdoob/three.js) 3D 渲染库。
 - [matter-js](https://github.com/liabru/matter-js) 2D 刚体物理引擎。
 - [Oimo.js](https://github.com/lo-th/Oimo.js) 3D 物理引擎。
 - [box2d.js](https://github.com/kripken/box2d.js) box2d 通过 wasm 打包。
@@ -122,6 +123,7 @@
 - [validate.js](https://github.com/rickharrison/validate.js) 验证器。
 - [requirejs](https://github.com/requirejs/requirejs) require 函数支持模块化加载。
 - [html2canvas](https://github.com/niklasvh/html2canvas) DOM 节点渲染，可以用于 HTML 生成海报。
+- [sql.js](https://github.com/sql-js/sql.js) 浏览器里使用 SQLite。
 
 ### Web
 

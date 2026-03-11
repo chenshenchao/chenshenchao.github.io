@@ -44,6 +44,8 @@
 - [flash-linux0.11-talk《品读 Linux 0.11 核心代码》](https://github.com/dibingfa/flash-linux0.11-talk)
 - [InterpretableMLBook《可解释机器学习--黑盒模型可解释性理解指南》](https://github.com/MingchaoZhu/InterpretableMLBook)
 - [《神经网络与深度学习》](https://github.com/nndl/nndl.github.io)
+- [elasticsearch-definitive-guide《elasticsearch：权威指南》](https://github.com/elastic/elasticsearch-definitive-guide) 英文版
+- [elasticsearch-definitive-guide《elasticsearch：权威指南》](https://github.com/elasticsearch-cn/elasticsearch-definitive-guide) 中文版
 
 ## 资源站点
 
@@ -59,7 +61,8 @@
 ## awesome
 
 - [awesome](https://github.com/sindresorhus/awesome)
-- [awesome-electronics](https://github.com/kitspace/awesome-electronics) 电子相关。
+- [awesome-electronics](https://github.com/kitspace/awesome-electronics) 电子硬件相关。
+- [awesome-electron](https://github.com/sindresorhus/awesome-electron)
 - [awesome-rust](https://github.com/rust-unofficial/awesome-rust)
 - [awesome-gameserver-cn](https://github.com/hstcscolor/awesome-gameserver-cn)
 - [awesome-vscode](https://github.com/viatsko/awesome-vscode)
@@ -71,6 +74,7 @@
 - [awesome-go-cn](https://github.com/jobbole/awesome-go-cn)
 - [awesome-pentest](https://github.com/enaqx/awesome-pentest) 渗透、测试相关。
 - [awesome-test-automation](https://github.com/atinfo/awesome-test-automation) 测试、自动化相关。
+- [awesome-wechat-weapp](https://github.com/justjavac/awesome-wechat-weapp)
 
 ### 数据或咨询站点
 
@@ -242,6 +246,7 @@ qwen
 - [OpenHSP](https://github.com/onitama/OpenHSP) Hot Soup 语言 Processor
 - [carbon-lang](https://github.com/carbon-language/carbon-lang) 实验性的 C++ 后继语言。
 - [crystal](https://github.com/crystal-lang/crystal) 类 ruby 的编程语言。
+- [tinymoe](https://github.com/vczh/tinymoe) 轮子哥开源的类 ruby 编程语言。
 - [lpython](https://github.com/lcompilers/lpython) python 编译器。
 - [Pyjion](https://github.com/microsoft/Pyjion) 微软开源基于 CoreCLR 的 python 解释器，不维护。
 - [Pyjion](https://github.com/tonybaloney/Pyjion) fork 微软的 Pyjion 继续维护。
@@ -517,6 +522,7 @@ qwen
 - [WzComparerR2-Plus](https://github.com/Elem8100/WzComparerR2-Plus) 冒险岛 *.wz 资源提取器和清单。
 - [ExtractorSharp](https://github.com/d-mod/ExtractorSharp) *.img、*.npk 资源编辑器。
 - [MapleServer2](https://github.com/AlanMorel/MapleServer2) 冒险岛2 服务端复刻，仅用于教学。
+- [MapleClientEditTemplate](https://github.com/oung/MapleClientEditTemplate)
 - [Edelstein](https://github.com/Kaioru/Edelstein) C# 开发的蘑菇 V95.1 服务器。
 - [Blackwings](https://github.com/Kaioru/Blackwings) 蘑菇 V95.1 客户端插桩。
 - [MapleStoryUnity](https://github.com/MapleStoryUnity/MapleStoryUnity) Unity 开发的冒险岛。

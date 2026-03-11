@@ -36,7 +36,7 @@
 - [vue-quilly](https://github.com/alekswebnet/vue-quilly) Vue3 + Quilly 富文本编辑器封装。
 - [naive-ui](https://github.com/tusen-ai/naive-ui) 简单 UI 组件。
 
-#### 项目
+#### Vue3 项目、示例
 
 - [vue3-News](https://github.com/vue3/vue3-News) vue3 新闻。
 - [vue-manage-system](https://github.com/lin-xin/vue-manage-system) Vue3 + pinia + ElementPlus 管理后台项目。
@@ -61,6 +61,11 @@
 - [rx-ts vue](https://github.com/rx-ts/vue) 基于 rx 开发的几个 Vue2 包集合（vue-{qrcode,qrious,resizor}）
 - [vue-rx](https://github.com/vuejs/vue-rx) vue2 整合 rx。
 - [vue-excel-editor](https://github.com/cscan/vue-excel-editor) Vue2 Excel 风格的表格编辑器。
+- [vue-navigation](https://github.com/zack24q/vue-navigation)
+
+#### Vue2 项目、示例
+
+- [Vue-archive](https://github.com/Rkatsiteli/Vue-archive)
 
 ## Options API 和 Composition API
 

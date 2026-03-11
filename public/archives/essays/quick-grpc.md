@@ -4,7 +4,7 @@ GRPC 是谷歌开源的一套跨语言远程调用技术栈。
 
 ## protobuf
 
-[GitHub 仓库下载](https://github.com/protocolbuffers/protobuf/releases)
+[protobuf 源码](https://github.com/protocolbuffers/protobuf/releases)
 
 专门为 GRPC 定制的二进制序列化工具，本质上和 JSON 做着一样的事，区别在于其是二进制的难以手工处理和编写代码，所以有着配套的工具来生成序列化代码，所以其与 JSON 的区别就是上手这些工具有一定的成本。
 主要工具是 protoc 和各种语言生成工具的插件，同时还要掌握定义结构的语言。

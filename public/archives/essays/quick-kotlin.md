@@ -17,6 +17,7 @@
 - [kbson](https://github.com/mongodb/kbson) BSON 库。
 - [kotlin-faker](https://github.com/serpro69/kotlin-faker)
 - [RxKotlin](https://github.com/ReactiveX/RxKotlin) RxJava 封装
+- [okhttp](https://github.com/square/okhttp) HTTP 客户端。
 - [ktorm](https://github.com/kotlin-orm/ktorm) ORM。
 - [ktor](https://github.com/ktorio/ktor) web 框架。
 

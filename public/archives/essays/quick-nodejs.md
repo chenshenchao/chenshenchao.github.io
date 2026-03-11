@@ -66,6 +66,7 @@ nvm use 16
 
 - [node-mongodb-native](https://github.com/mongodb/node-mongodb-native) mongodb 原生客户端驱动。
 - [node-sqlite3](https://github.com/TryGhost/node-sqlite3) sqlite3 封装。
+- [objection.js](https://github.com/Vincit/objection.js) ORM
 
 ### 网络
 
