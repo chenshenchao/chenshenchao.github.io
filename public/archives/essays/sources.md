@@ -46,6 +46,7 @@
 - [《神经网络与深度学习》](https://github.com/nndl/nndl.github.io)
 - [elasticsearch-definitive-guide《elasticsearch：权威指南》](https://github.com/elastic/elasticsearch-definitive-guide) 英文版
 - [elasticsearch-definitive-guide《elasticsearch：权威指南》](https://github.com/elasticsearch-cn/elasticsearch-definitive-guide) 中文版
+- [ailearning](https://github.com/apachecn/ailearning) 《AiLearning：数据分析+机器学习实战+线性代数+PyTorch+NLTK+TF2》
 
 ## 资源站点
 
@@ -161,7 +162,6 @@ qwen
 - [chromium](https://github.com/chromium/chromium)
 - [v8](https://github.com/v8/v8)
 - [nushell](https://github.com/nushell/nushell)
-- [terminal](https://github.com/microsoft/terminal) Windows 新命令行终端。
 - [webvm](https://github.com/leaningtech/webvm) 浏览器端模拟 Linux 系统的虚拟机，网络通过封装转发，需要一个真实的服务器来转发。
 - [servo](https://github.com/servo/servo) 浏览器，可内嵌入应用。
 - [msys2](https://www.msys2.org/)

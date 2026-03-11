@@ -81,7 +81,10 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [think-cache](https://github.com/top-think/think-cache)
 - [think-migration](https://github.com/top-think/think-migration)
 - [think-annotation](https://github.com/top-think/think-annotation)
+- [think-testing](https://github.com/top-think/think-testing)
+- [think-validate](https://github.com/top-think/think-validate)
 - [think-wechat](https://github.com/qiqizjl/think-wechat) easywechat 封装到 thinkphp
+- [tadmin](https://github.com/leeqvip/tadmin) 非侵入的 TP 后台开发框架。
 - [likeadmin](https://www.likeadmin.cn/) 多语言的框架，PHP 版主打线上开发（就是需要服务器，本地开发部分功能不能使用。）很符合 PHP 开发者的习惯，直接在正式服务器上修改代码。基于 ThinkPHP
 - [dompdf](https://github.com/dompdf/dompdf) DOM 转 PDF 的库。
 - [jieba-php](https://github.com/fukuball/jieba-php) jieba 中文分词。

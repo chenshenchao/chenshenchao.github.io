@@ -124,6 +124,10 @@
 - [requirejs](https://github.com/requirejs/requirejs) require 函数支持模块化加载。
 - [html2canvas](https://github.com/niklasvh/html2canvas) DOM 节点渲染，可以用于 HTML 生成海报。
 - [sql.js](https://github.com/sql-js/sql.js) 浏览器里使用 SQLite。
+- [yox](https://github.com/yoxjs/yox) 前端开发框架。
+- [xe-clipboard](https://github.com/x-extends/xe-clipboard) 剪切板库。
+- [clipboard.js](https://github.com/zenorocha/clipboard.js) 剪切板库。
+- [smartcrop.js](https://github.com/jwagner/smartcrop.js) 图片裁剪。
 
 ### Web
 
@@ -132,6 +136,7 @@
 - [riot](https://github.com/riot/riot) web 前端框架。
 - [hyperapp](https://github.com/jorgebucaran/hyperapp) 1kb 大小的 web 前端框架。
 - [avalon](https://github.com/RubyLouvre/avalon) 前端 MVVM 框架，已经废弃。
+- [anu](https://github.com/RubyLouvre/anu) react 兼容的 Hooks。
 - [layui](https://github.com/layui/layui) 类 jQuery 风格的 UI 组件库。
 - [lulu](https://github.com/yued-fe/lulu) 原生JS风格的 UI 组件库。
 - [move.js](https://github.com/visionmedia/move.js) JS 生成 CSS 动画库。

@@ -76,6 +76,7 @@
 - [entimport](https://github.com/ariga/entimport) 第三方提供 ent 的工具，已经多年不维护。
 - [pgx](https://github.com/jackc/pgx) PostgreSQL 客户端库。
 - [golang-migrate](https://github.com/golang-migrate/migrate) 数据库迁移命令行工具与库。
+- [badger](https://github.com/dgraph-io/badger) 可内嵌的键值对数据库。
 - [nutsdb](https://github.com/nutsdb/nutsdb) 可内嵌的键值对数据库。
 - [goleveldb](https://github.com/syndtr/goleveldb) 可内嵌的键值对数据库。
 - [bbolt](https://github.com/etcd-io/bbolt) 可内嵌的键值对数据库。
@@ -106,6 +107,7 @@
 
 ### 网络
 
+- [fasthttp](https://github.com/valyala/fasthttp) HTTP 库，比标准库 net/http 要快。
 - [gin](https://github.com/gin-gonic/gin) web 框架。
 - [grpc-go](https://github.com/grpc/grpc-go)
 - [gnet](https://github.com/panjf2000/gnet) 网络框架。
@@ -177,6 +179,7 @@
 - [gitea](https://github.com/go-gitea/gitea) git 仓库托管 web 服务器。
 - [caddy](https://github.com/caddyserver/caddy) go 语言实现的类 nginx 的服务器。
 - [lua](https://github.com/milochristiansen/lua) go 实现 lua5.3 VM 和编译器。
+- [rclone](https://github.com/rclone/rclone) 命令行工具用于同步文件到 谷歌 Drive、亚马逊S3、Dropbox 等云存储上。
 
 ## 常用命令
 

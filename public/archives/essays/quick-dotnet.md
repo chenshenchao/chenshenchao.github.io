@@ -24,6 +24,7 @@ dotnet tool update --global dotnet-ef
 ## 常用库
 
 - [ILPack](https://github.com/Lokad/ILPack) .NET Core IL 生成器。
+- [EPPlus](https://github.com/JanKallman/EPPlus) Excel 处理库，已迁移。
 - [EPPlus](https://github.com/EPPlusSoftware/EPPlus) Excel 处理库。
 - [ExcelDna](https://github.com/Excel-DNA/ExcelDna) Excel 扩展 .xll 自定义计算函数开发工具。
 - [NetOffice](https://github.com/NetOfficeFw/NetOffice) 微软Office（Excel、Word等）插件开发工具。

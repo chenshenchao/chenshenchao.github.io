@@ -5,6 +5,8 @@
 ## 常用库
 
 - [UniRx](https://github.com/neuecc/UniRx) Rx
+- [Unity-Excel-Importer-Maker](https://github.com/tsubaki/Unity-Excel-Importer-Maker) 生成导入 xls 组件代码。
+- [Unity-QuickSheet](https://github.com/kimsama/Unity-QuickSheet) 在 Unity 里编辑 Excel 文件。
 
 ## 示例项目
 

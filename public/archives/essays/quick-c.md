@@ -26,6 +26,7 @@
 - [mupdf](https://github.com/ArtifexSoftware/mupdf) PDF 库。
 - [pdfio](https://github.com/michaelrsweet/pdfio) PDF 库。
 - [libxls](https://github.com/libxls/libxls) Excel xls 文件处理库。
+- [xlsxio](https://github.com/brechtsanders/xlsxio)  Excel xlsx 文件处理库。
 - [libxlsxwriter](https://github.com/jmcnamara/libxlsxwriter) Excel xlsx 文件创建库。
 - [librg](https://github.com/zpl-c/librg) 多玩家游戏开发库。
 - [json-parser](https://github.com/json-parser/json-parser) json 序列化库。
@@ -48,6 +49,7 @@
 - [MemoryModule](https://github.com/fancycode/MemoryModule) 内存中加载 DLL 的库。
 - [vlc](https://github.com/videolan/vlc) vlc 视频播放库，支持 Windows、安卓 等平台。
 - [v7](https://github.com/cesanta/v7) 可内嵌的 JS 脚本引擎。
+- [tbox](https://github.com/tboox/tbox) glib 代码风格的 C 工具库。
 
 ### 数据库
 
@@ -123,10 +125,12 @@
 - [SmallerC](https://github.com/alexfru/SmallerC) 简单的 C 编译器。
 - [lcc](https://github.com/drh/lcc) C 编译器。
 - [8cc](https://github.com/rui314/8cc) C 编译器。
+- [vm86](https://github.com/tboox/vm86) x86 虚拟机，壳。
 - [mpv](https://github.com/mpv-player/mpv) 跨平台视频播放器。
 - [FlashDB](https://github.com/armink/FlashDB) 一款支持 KV 数据和时序数据的超轻量级数据库
 - [fastcgi-demo](https://github.com/zhyee/fastcgi-demo) FastCGI 示例。
 - [tcpdump](https://github.com/the-tcpdump-group/tcpdump) TCP 抓包命令行工具。
+- [curl](https://github.com/curl/curl)
 
 ## 工具
 

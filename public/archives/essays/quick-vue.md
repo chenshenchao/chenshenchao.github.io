@@ -17,6 +17,8 @@
 - [vue-office](https://github.com/501351981/vue-office) 支持word(.docx)、excel(.xlsx,.xls)、pdf、pptx等各类型office文件预览的vue组件集合。
 - [apollo](https://github.com/vuejs/apollo) 适配 Vue 的 apollo GraphQL 客户端。
 - [vee-validate](https://github.com/logaretm/vee-validate) 验证器。
+- [floating-vue](https://github.com/Akryum/floating-vue) tooltip、popuper 等浮动的组件库。
+- [vue-slideout](https://github.com/hyjiacan/vue-slideout) 抽屉组件。
 
 ### Vue3
 
@@ -36,14 +38,6 @@
 - [vue-quilly](https://github.com/alekswebnet/vue-quilly) Vue3 + Quilly 富文本编辑器封装。
 - [naive-ui](https://github.com/tusen-ai/naive-ui) 简单 UI 组件。
 
-#### Vue3 项目、示例
-
-- [vue3-News](https://github.com/vue3/vue3-News) vue3 新闻。
-- [vue-manage-system](https://github.com/lin-xin/vue-manage-system) Vue3 + pinia + ElementPlus 管理后台项目。
-- [vue-element-plus-admin](https://github.com/kailong321200875/vue-element-plus-admin)
-- [mini-vue](https://github.com/cuixiaorui/mini-vue) 实现 Vue3 的部分功能的项目，用于研究 Vue3 的设计与实现。
-- [vue-analysis](https://github.com/ustbhuangyi/vue-analysis)  《Vue.js 源码揭秘》 辅助教材。
-
 ### Vue2
 
 - [vue-okr-tree](https://github.com/husky-dot/vue-okr-tree) 线框图树的编辑器组件。
@@ -52,7 +46,7 @@
 - [element](https://github.com/ElemeFE/element) vue2 桌面 UI 库。
 - [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) vue2 基于 element 开发的后台项目。
 - [cube-ui](https://github.com/didi/cube-ui) vue2 移动端 UI 库。
-- [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable) Vue2 拖拽库。
+- [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable) Vue2 拖拽库，基于 Sortable.js 。
 - [vue-i18n](https://github.com/kazupon/vue-i18n) Vue2 多语言库。
 - [mint-ui](https://github.com/ElemeFE/mint-ui) 饿了么移动端 UI ，已经多年不维护。
 - [vue-property-decorator](https://github.com/kaorun343/vue-property-decorator) 早期给组建了类的装饰器，现在这种设计几乎不用了。
@@ -62,10 +56,27 @@
 - [vue-rx](https://github.com/vuejs/vue-rx) vue2 整合 rx。
 - [vue-excel-editor](https://github.com/cscan/vue-excel-editor) Vue2 Excel 风格的表格编辑器。
 - [vue-navigation](https://github.com/zack24q/vue-navigation)
+- [vue-json-excel](https://github.com/jecovier/vue-json-excel) JSON 转 excel。
 
-#### Vue2 项目、示例
+### Vue1
+
+- [vue-websocket](https://github.com/icebob/vue-websocket) socket.io 封装。
+
+## 项目、文档、示例、开源书籍
+
+### Vue3
+
+- [vue3-News](https://github.com/vue3/vue3-News) vue3 新闻。
+- [vue-manage-system](https://github.com/lin-xin/vue-manage-system) Vue3 + pinia + ElementPlus 管理后台项目。
+- [vue-element-plus-admin](https://github.com/kailong321200875/vue-element-plus-admin)
+- [mini-vue](https://github.com/cuixiaorui/mini-vue) 实现 Vue3 的部分功能的项目，用于研究 Vue3 的设计与实现。
+- [vue-analysis](https://github.com/ustbhuangyi/vue-analysis)  《Vue.js 源码揭秘》 辅助教材。
+
+### Vue2
 
 - [Vue-archive](https://github.com/Rkatsiteli/Vue-archive)
+- [learnVue《Vue.js源码分析》](https://github.com/answershuto/learnVue)
+- [iview-admin](https://github.com/iview/iview-admin) vue2 的后台前端模板项目。
 
 ## Options API 和 Composition API
 

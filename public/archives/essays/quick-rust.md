@@ -119,6 +119,7 @@ cargo build --release --target=x86_64-unknown-linux-musl
 包管理工具。
 
 - [官方仓库](https://crates.io)
+- [crates.io](https://github.com/rust-lang/crates.io) 源码
 - [cargo binstall](https://github.com/cargo-bins/cargo-binstall) 对于使用了 C/C++ 的非纯 rust 工具，cargo install 需要配置环境很麻烦，用 binstall 可以直接下载编译好的来安装。
 - [cargo-xwin](https://github.com/rust-cross/cargo-xwin) Linux、MacOs 下交叉编译 Windows 的编译工具。
 - [cargo-wix](https://github.com/volks73/cargo-wix) wix 打包应用工具的 cargo 子命令。

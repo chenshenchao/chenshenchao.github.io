@@ -4,6 +4,8 @@
 - [microsoft-ui-xaml](https://github.com/microsoft/microsoft-ui-xaml) WinUI3
 - [windows-rs](https://github.com/microsoft/windows-rs) rust 调用 Windows API、COM 等的绑定封装。
 - [DirectML](https://github.com/microsoft/DirectML) 基于 DirectX 的机器学习硬件加速库。
+- [terminal](https://github.com/microsoft/terminal) Windows 新命令行终端。
+- [PowerToys](https://github.com/microsoft/PowerToys) 微软开源的软件工具箱。
 
 ## 常用库
 
