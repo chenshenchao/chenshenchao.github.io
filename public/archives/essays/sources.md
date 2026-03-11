@@ -158,7 +158,8 @@ qwen
 - [jsnes](https://github.com/bfirsh/jsnes) JS 语言实现的 NES 红白机模拟器。
 - [dolphin](https://github.com/dolphin-emu/dolphin) GameCube 和 Wii 模拟器。
 - [Cemu](https://github.com/cemu-project/Cemu) Wii U 模拟器。
-- [rpcs3](https://github.com/RPCS3/rpcs3) PS3（PlayStation 3） 模拟器，调试器。
+- [rpcs3](https://github.com/RPCS3/rpcs3) C++ 实现的 PS3（PlayStation 3） 模拟器，调试器。
+- [reicast-emulator](https://github.com/skmp/reicast-emulator)  C++ 实现的 Sega Dreamcast 模拟器。
 - [chromium](https://github.com/chromium/chromium)
 - [v8](https://github.com/v8/v8)
 - [nushell](https://github.com/nushell/nushell)
@@ -277,6 +278,7 @@ qwen
 - [openapi-generator](https://github.com/OpenAPITools/openapi-generator) OpenAPI 客户端、服务端代码生成器。
 - [llvm-mingw](https://github.com/mstorsjo/llvm-mingw)
 - [thrift](https://github.com/apache/thrift) 类 grpc，可生成 多语言的客户端/服务端（C++、Java、Python、Ruby、JS）。区别是没有 protobuf 这种数据结构格式 而是使用 JSON 作为数据传输的格式。
+- [re2c](https://github.com/skvadrik/re2c) 多语言（C, C++, D, Go, Haskell, Java, JS, OCaml, Python, Rust, Swift, V, Zig） 词法器 代码生成。
 
 ### 文件处理工具
 

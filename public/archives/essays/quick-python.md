@@ -48,6 +48,7 @@ python -m http.server 8000
 - [qiskit](https://github.com/Qiskit/qiskit) 量子计算库。
 - [parallel-ssh](https://github.com/ParallelSSH/parallel-ssh) ssh 库。
 - [paramiko](https://github.com/paramiko/paramiko) ssh v2 库。
+- [fabric](https://github.com/fabric/fabric) 通过 SSH 远程执行脚本，基于 Paramiko。
 - [ssh2-python](https://github.com/ParallelSSH/ssh2-python) 封装了 libssh2
 - [redis-py](https://github.com/redis/redis-py) redis 客户端。
 - [walrus](https://github.com/coleifer/walrus) 简化 redis 客户端的使用，做了封装。

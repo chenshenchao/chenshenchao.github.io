@@ -6,6 +6,7 @@
 ## 项目
 
 - [bitey](https://github.com/dabeaz/bitey) 将 LLVM 位代码直接导入 Python 并将其用作扩展模块
+- [llvmpy](https://github.com/llvmpy/llvmpy) LLVM 绑定 python。
 
 ## lldb
 

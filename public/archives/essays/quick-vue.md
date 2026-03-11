@@ -37,6 +37,7 @@
 - [vue-i18n](https://github.com/intlify/vue-i18n) Vue3 多语言库。
 - [vue-quilly](https://github.com/alekswebnet/vue-quilly) Vue3 + Quilly 富文本编辑器封装。
 - [naive-ui](https://github.com/tusen-ai/naive-ui) 简单 UI 组件。
+- [vue-virtual-scroller](https://github.com/Akryum/vue-virtual-scroller) 虚拟滚动。
 
 ### Vue2
 
@@ -76,7 +77,8 @@
 
 - [Vue-archive](https://github.com/Rkatsiteli/Vue-archive)
 - [learnVue《Vue.js源码分析》](https://github.com/answershuto/learnVue)
-- [iview-admin](https://github.com/iview/iview-admin) vue2 的后台前端模板项目。
+- [iview-admin](https://github.com/iview/iview-admin) vue2  iview 的后台前端模板项目。
+- [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) vue2 element 的后台前端模板项目。
 
 ## Options API 和 Composition API
 

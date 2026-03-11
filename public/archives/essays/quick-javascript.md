@@ -77,6 +77,7 @@
 - [echarts](https://github.com/apache/echarts)
 - [echarts-wordcloud](https://github.com/ecomfe/echarts-wordcloud) echarts 组件。
 - [echarts-liquidfill](https://github.com/ecomfe/echarts-liquidfill) echarts 组件。
+- [echarts-gl](https://github.com/ecomfe/echarts-gl) 3D 组件。
 - [joint](https://github.com/clientIO/joint) 图表库。
 - [G6](https://github.com/antvis/G6) 图形图表库。
 - [d3](https://github.com/d3/d3) 图形图表库，细粒度的API。
@@ -114,6 +115,7 @@
 - [js-ipfs](https://github.com/ipfs/js-ipfs) IPFS 实现。
 - [flv.js](https://github.com/bilibili/flv.js) flv 播放器，一般用于直播。
 - [moment](https://github.com/moment/moment) 日期库。
+- [moment-timezone](https://github.com/moment/moment-timezone) moment 时区支持。
 - [luxon](https://github.com/moment/luxon) 日期库。
 - [iconv-lite](https://github.com/pillarjs/iconv-lite) 字符集转换库。
 - [JSSoup](https://github.com/chishui/JSSoup) 仿 python 的 BeautifulSoup 的库， HTML 解析。
@@ -121,13 +123,21 @@
 - [lightgl.js](https://github.com/evanw/lightgl.js) 轻量 WebGL 封装。
 - [validate.js](https://github.com/ansman/validate.js) 验证器。
 - [validate.js](https://github.com/rickharrison/validate.js) 验证器。
+- [joi](https://github.com/hapijs/joi)  验证器。
 - [requirejs](https://github.com/requirejs/requirejs) require 函数支持模块化加载。
 - [html2canvas](https://github.com/niklasvh/html2canvas) DOM 节点渲染，可以用于 HTML 生成海报。
 - [sql.js](https://github.com/sql-js/sql.js) 浏览器里使用 SQLite。
 - [yox](https://github.com/yoxjs/yox) 前端开发框架。
+- [san](https://github.com/baidu/san) 百度开源的前端开发框架。
 - [xe-clipboard](https://github.com/x-extends/xe-clipboard) 剪切板库。
 - [clipboard.js](https://github.com/zenorocha/clipboard.js) 剪切板库。
 - [smartcrop.js](https://github.com/jwagner/smartcrop.js) 图片裁剪。
+- [cheetah-grid](https://github.com/future-architect/cheetah-grid) 表格组件，虚拟滚动，canvas 绘制。
+- [isobject](https://github.com/jonschlinkert/isobject) isobject 判断是否对象的函数。
+- [download](https://github.com/rndme/download) 前端下载。
+- [qs](https://github.com/ljharb/qs) URL query string 分析库。
+- [Wonder.js](https://github.com/Wonder-Technology/Wonder.js) 网页端 3D 游戏引擎。
+- [Wonder-Editor](https://github.com/Wonder-Technology/Wonder-Editor) 浏览器端类似 U3D 的 3D 场景编辑器。
 
 ### Web
 

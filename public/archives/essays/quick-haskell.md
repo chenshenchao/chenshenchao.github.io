@@ -38,6 +38,7 @@
 - [beam-mysql](https://github.com/tathougies/beam-mysql)
 - [mysql](https://github.com/paul-rouse/mysql) 绑定 mysqlclient。
 - [mysql-simple](https://github.com/paul-rouse/mysql-simple) 绑定 mysqlclient。
+- [mssql-simple](https://github.com/mitsuji/mssql-simple) 微软 SQL Server 客户端。
 - [sqlite-simple](https://github.com/nurpax/sqlite-simple) 绑定 sqlite。
 - [hdbc](https://github.com/hdbc/hdbc) 类 JDBC 的 haskell 实现。
 

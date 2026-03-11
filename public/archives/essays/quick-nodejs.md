@@ -73,7 +73,7 @@ nvm use 16
 - [express](https://github.com/expressjs/express) web 服务器。
 - [socket.io](https://github.com/socketio/socket.io) 服务器端以及浏览器端。
 - [loopback](https://github.com/strongloop/loopback) web 框架，工具齐全。
-- [fastify](https://github.com/fastify/fastify) web 服务器。
+- [fastify](https://github.com/fastify/fastify) web 服务器框架。
 - [thinkjs](https://github.com/thinkjs/thinkjs) 仿 ThinkPHP 的后端框架。
 - [pug](https://github.com/pugjs/pug) HTML 模板引擎。
 - [midway](https://github.com/midwayjs/midway) 类 nestjs 的 web 框架。
