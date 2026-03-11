@@ -14,6 +14,7 @@
 - [logging-effect](https://github.com/ocharles/logging-effect) 日志库。
 - [LambdaHack](https://github.com/LambdaHack/LambdaHack) roguelike 游戏引擎。
 - [lens](https://github.com/ekmett/lens) 算子库。
+- [lex-pass](https://github.com/facebookarchive/lex-pass) PHP 代码生成 AST。
 
 ### Web
 

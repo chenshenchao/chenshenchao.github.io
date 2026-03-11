@@ -109,6 +109,7 @@
 
 ### 网络
 
+- [revel](https://github.com/revel/revel) web 框架。
 - [fasthttp](https://github.com/valyala/fasthttp) HTTP 库，比标准库 net/http 要快。
 - [gin](https://github.com/gin-gonic/gin) web 框架。
 - [grpc-go](https://github.com/grpc/grpc-go)

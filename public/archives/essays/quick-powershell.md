@@ -1,6 +1,6 @@
 # PowerShell 速查
 
-- [GitHub 源码仓库](https://github.com/PowerShell/PowerShell)
+- [PowerShell 源码](https://github.com/PowerShell/PowerShell)
 
 ```ps1
 # 修改策略，让 PowerShell 脚本可执行。

@@ -507,6 +507,7 @@ fi
 - [RustScan](https://github.com/bee-san/RustScan) 端口扫描工具。
 - [sniffglue](https://github.com/kpcyrd/sniffglue) 嗅探、扫描命令行工具。
 - [czkawka](https://github.com/qarmin/czkawka) 类 文件管理器。
+- [xi-editor](https://github.com/xi-editor/xi-editor) 文档编辑器。
 
 ## 兼容
 

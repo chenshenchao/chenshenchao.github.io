@@ -4,6 +4,7 @@
 - [nvm-windows](https://github.com/coreybutler/nvm-windows) Go 语言开发的 nvm 的 Windows 版本。
 - [farm](https://github.com/farm-fe/farm) rust 开发的兼容 vite 的构建工具。
 - [unbuild](https://github.com/unjs/unbuild) 构建工具
+- [webpack](https://github.com/webpack/webpack) 构建工具
 - [fis3](https://github.com/fex-team/fis3) 类 gulp 构建工具。
 - [snowpack](https://github.com/FredKSchott/snowpack) ESM 前端构建工具。
 - [rsbuild](https://github.com/web-infra-dev/rsbuild) 基于 Rspack 的构造工具。
@@ -94,7 +95,6 @@ nvm use 16
 - [dart-sass](https://github.com/sass/dart-sass)
 - [EvaEngine.js](https://github.com/EvaEngine/EvaEngine.js) 微服务框架。
 - [jss](https://github.com/cssinjs/jss) css in js
-- [gulp-iconfont](https://github.com/nfroidure/gulp-iconfont) 图标字库生成 gulp 插件。
 - [falcor](https://github.com/Netflix/falcor) 用于高效提供数据的前后端工具库，支持 express web 框架。
 - [postcss-px-to-viewport](https://github.com/evrone/postcss-px-to-viewport) postcss 转设计稿 px 成 vw 插件。
 - [htmlparser2](https://github.com/fb55/htmlparser2) XML/HTML 解析器。
@@ -120,6 +120,10 @@ nvm use 16
 - [GCanvas](https://github.com/alibaba/GCanvas) 阿里开源为 Weex 和 ReactNative 提供的 2D 渲染库。
 - [node-qrcode](https://github.com/soldair/node-qrcode) 二维码生成器。
 - [node-canvas](https://github.com/Automattic/node-canvas) 基于 Cairo 的画布。
+
+## 工具、项目、示例
+
+- [node-supervisor](https://github.com/petruisfan/node-supervisor) node 版的 supervisor 守护进程管理。
 
 ## 包管理器
 

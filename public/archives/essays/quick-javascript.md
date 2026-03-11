@@ -13,6 +13,7 @@
 - [json-editor](https://github.com/jdorn/json-editor) JSON 树形编辑器组件。
 - [jsoneditor](https://github.com/josdejong/jsoneditor) JSON 树形编辑器组件。
 - [ckeditor4](https://github.com/ckeditor/ckeditor4) 富文本编辑器。
+- [ckeditor5](https://github.com/ckeditor/ckeditor5) 富文本编辑器。
 - [x-spreadsheet](https://github.com/myliang/x-spreadsheet) 类似 Office Excel 的 canvas 编辑器，换 TS 开发了 wolf-table。
 - [handsontable](https://github.com/handsontable/handsontable) Excel 编辑器
 - [Luckysheet](https://github.com/dream-num/Luckysheet) Excel 编辑器，基于 jQuery 已经废弃，作者转 univer 开发。
@@ -47,6 +48,10 @@
 - [gifify](https://github.com/vvo/gifify) 视频转 gif 图片库。
 - [freezeframe.js](https://github.com/ctrl-freaks/freezeframe.js) 控制 gif 动画播放。
 - [vector-drawable-svg](https://github.com/seanghay/vector-drawable-svg) 安卓图标资源（VectorDrawable）转 SVG 库。
+- [Font-Awesome](https://github.com/FortAwesome/Font-Awesome) svg font 字体图标库。
+- [ionicons](https://github.com/ionic-team/ionicons) svg font 字体图标库。
+- [open-iconic](https://github.com/iconic/open-iconic) svg font 字体图标库。
+- [CaoMei](https://github.com/xiangsudian/CaoMei) svg font 字体图标库。
 - [jsPDF](https://github.com/parallax/jsPDF) PDF 生成库。
 - [pdf.js](https://github.com/mozilla/pdf.js) mozilla 开源的 PDF 展示库。
 - [simple-virtual-dom](https://github.com/livoras/simple-virtual-dom) 一个虚拟 DOM 实现库。
@@ -140,6 +145,7 @@
 - [Wonder.js](https://github.com/Wonder-Technology/Wonder.js) 网页端 3D 游戏引擎。
 - [Wonder-Editor](https://github.com/Wonder-Technology/Wonder-Editor) 浏览器端类似 U3D 的 3D 场景编辑器。
 - [Layx](https://github.com/monksoul/Layx) 弹窗组件。
+- [bootstrap](https://github.com/twbs/bootstrap) 老牌前端组件样式库。
 
 ### Web
 

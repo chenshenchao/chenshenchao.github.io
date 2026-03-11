@@ -36,6 +36,8 @@ php -S 0.0.0.0:80
 - [swow](https://github.com/swow/swow) 跨平台的协程 IO 引擎。
 - [phptrace](https://github.com/Qihoo360/phptrace) 360 开源的跟踪探针调试插件。
 - [Molten](https://github.com/chuan-yun/Molten) 跟踪探针调试插件。
+- [swoole](https://github.com/swoole/swoole-src) 异步扩展，标准库已经支持异步。
+- [yaf](https://github.com/laruence/yaf) 鸟哥的 web 框架。
 
 ## Composer
 
@@ -130,6 +132,8 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [doctrine](https://github.com/doctrine/orm) ORM
 - [doctrine lexer](https://github.com/doctrine/lexer) doctrine 的词法器。
 - [doctrine cache](https://github.com/doctrine/cache) doctrine 的缓存。
+- [easywechat](https://github.com/w7corp/easywechat) 微信公众号 API 第三方 SDK。
+- [zanphp](https://github.com/youzan/zanphp) 有赞开源的 PHP web 框架。
 
 ## 项目、示例
 

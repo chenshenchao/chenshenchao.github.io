@@ -12,6 +12,7 @@ dotnet tool update --global dotnet-ef
 
 - [dotnet 源码](https://github.com/microsoft/dotnet)
 - [aspnetcore](https://github.com/dotnet/aspnetcore)
+- [blazor](https://github.com/dotnet/blazor) 已经合并到 aspnetcore 里。
 - [roslyn](https://github.com/dotnet/roslyn) .NET 编译器平台。
 - [runtime](https://github.com/dotnet/runtime) .NET 虚拟机源码。
 - [efcore](https://github.com/dotnet/efcore)

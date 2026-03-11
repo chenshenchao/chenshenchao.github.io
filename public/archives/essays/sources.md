@@ -267,6 +267,7 @@ qwen
 - [cutter](https://github.com/rizinorg/cutter) 逆向分析工具。
 - [frida](https://github.com/frida/frida) 逆向插桩工具。
 - [x64dbg](https://github.com/x64dbg/x64dbg) x64 调试器，动态逆向分析。
+- [cheat-engine](https://github.com/cheat-engine/cheat-engine) 内存修改工具。
 - [arthas](https://github.com/alibaba/arthas) 阿里开源的 Java 项目诊断工具。
 - [pmd](https://github.com/pmd/pmd) Java 等多种语言的静态分析工具。
 - [Dependencies](https://github.com/lucasg/Dependencies) C# 重写 depends.exe，用于查看 DLL 依赖的图形工具。
@@ -452,6 +453,7 @@ qwen
 - [distribution](https://github.com/distribution/distribution) docker 等容器镜像仓库服务。
 - [ttyd](https://github.com/tsl0922/ttyd) 把终端暴露成 web 页面的服务器。
 - [maxwell](https://github.com/zendesk/maxwell) 通过 mysql binlog 转成 JSON 发送 kafka 的生产者服务。
+- [supervisor](https://github.com/Supervisor/supervisor) linux 守护进程常驻服务。
 
 ### 硬件设计工具
 
@@ -538,6 +540,8 @@ qwen
 - [habitica](https://github.com/HabitRPG/habitica) web 端行为计划的游戏化角色扮演游戏。
 - [DevilutionX](https://github.com/diasurgical/DevilutionX) 暗黑破坏神。
 - [devilutionx-assets](https://github.com/diasurgical/devilutionx-assets) 暗黑破坏神，游戏资源。
+- [wuxiaLove2d](https://github.com/ttwings/wuxiaLove2d) lua 开发的武侠游戏。
+- [WuXiaAndJiangHu_Godot](https://github.com/ttwings/WuXiaAndJiangHu_Godot) godot 开发的武侠游戏。
 
 ### 游戏素材
 
@@ -549,6 +553,8 @@ qwen
 
 - [linux](https://github.com/torvalds/linux)
 - [kerla](https://github.com/nuta/kerla) rust 开发的与 linux 二进制兼容的内核。
+- [redox](https://github.com/redox-os/redox) rust 开发的操作系统。
+- [redox-os kernel](https://github.com/redox-os/kernel) 系统内核。
 - [openwrt](https://github.com/openwrt/openwrt) 嵌入式 linux，适合开发路由器。
 - [rocky](https://github.com/rocky-linux/rocky) 应对 CentOS 停止维护而开发的操作系统。
 - [MOOS](https://github.com/nifanfa/MOOS) C# 开发的 x64 操作系统，基于 .NET AOT。

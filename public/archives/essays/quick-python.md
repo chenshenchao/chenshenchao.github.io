@@ -112,6 +112,7 @@ python -m http.server 8000
 
 ### 图形
 
+- [Pillow](https://github.com/python-pillow/Pillow) PIL 绘图库。
 - [kivy](https://github.com/kivy/kivy) UI框架，主移动端。
 - [toga](https://github.com/beeware/toga) UI 框架，主桌面端。
 - [cefpython](https://github.com/cztomczak/cefpython) CEF 绑定库。
@@ -121,6 +122,7 @@ python -m http.server 8000
 - [pygame_gui](https://github.com/MyreMylar/pygame_gui)
 - [DearPyGui](https://github.com/hoffstadt/DearPyGui) ImGUI 的封装。
 - [pycairo](https://github.com/pygobject/pycairo) 封装 cairo 绘图库。
+- [pyecharts](https://github.com/pyecharts/pyecharts) 类百度 echarts 图表、图形绘图库。
 
 ### 网络
 

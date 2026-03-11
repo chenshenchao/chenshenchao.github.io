@@ -12,8 +12,6 @@
 - [fastjson2](https://github.com/alibaba/fastjson2) 阿里开源的  JSON 序列化库。
 - [logging-log4j2](https://github.com/apache/logging-log4j2) 日志库。
 - [guava](https://github.com/google/guava) 谷歌开源的工具库。
-- [spring-boot](https://github.com/spring-projects/spring-boot)
-- [undertow](https://github.com/undertow-io/undertow) Web 服务器。
 - [zxing](https://github.com/zxing/zxing) 条形码、二维码识别库。
 - [rhino](https://github.com/mozilla/rhino) 一个 JavaScript 实现。
 - [h2database](https://github.com/h2database/h2database) 可内嵌的关系数据库。
@@ -57,12 +55,21 @@
 - [tribuo](https://github.com/oracle/tribuo) 机器学习库。
 - [druid](https://github.com/alibaba/druid) 阿里开源的数据库线程池库。
 - [light-4j](https://github.com/networknt/light-4j) 微服务框架。
+- [Summer](https://github.com/SwingFrog/Summer) 游戏服务器框架。
+- [FXGL](https://github.com/AlmasB/FXGL) 基于 JavaFX 的游戏框架。
+
+## 网络
+
+- [spring-boot](https://github.com/spring-projects/spring-boot)
+- [undertow](https://github.com/undertow-io/undertow) Web 服务器。
+- [jfinal](https://github.com/jfinal/jfinal) web 框架。
 
 ## 项目、示例
 
 - [pulsar](https://github.com/apache/pulsar) 分布式订阅发布的消息服务。
 - [questdb](https://github.com/questdb/questdb) 时序数据库，支持多语言客户端。
 - [druid](https://github.com/apache/druid) Apache 开源的实时分析数据库。
+- [kafka](https://github.com/apache/kafka) 消息队列。
 
 ## 开发环境与包管理工具
 
