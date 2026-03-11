@@ -69,6 +69,8 @@
 - [mix](https://github.com/mix-go/mix) 快速开发的工具库。
 - [go-lua](https://github.com/Shopify/go-lua) lua 解释器。
 - [yaegi](https://github.com/traefik/yaegi) go 解释器。
+- [gobrain](https://github.com/goml/gobrain) 神经网络库。
+- [goml](https://github.com/cdipaolo/goml) 机器学习库。
 
 ### 数据库
 
@@ -170,6 +172,7 @@
 - [gotify android](https://github.com/gotify/android) gotify 即时聊天安卓端。
 - [nsq](https://github.com/nsqio/nsq) 实时分布式消息分发服务器。
 - [go-nsq](https://github.com/nsqio/go-nsq) nsq 客户端。
+- [httpmq](https://github.com/sysulq/httpmq) 基于 HTTP 的消息队列。
 - [flutter-webrtc-server](https://github.com/flutter-webrtc/flutter-webrtc-server) flutter-webrtc 开发的服务器。
 - [lindb](https://github.com/lindb/lindb) 时序数据库。
 - [websocketd](https://github.com/joewalnes/websocketd) websocket 命令行工具，类似 inetd 。
@@ -180,6 +183,7 @@
 - [caddy](https://github.com/caddyserver/caddy) go 语言实现的类 nginx 的服务器。
 - [lua](https://github.com/milochristiansen/lua) go 实现 lua5.3 VM 和编译器。
 - [rclone](https://github.com/rclone/rclone) 命令行工具用于同步文件到 谷歌 Drive、亚马逊S3、Dropbox 等云存储上。
+- [Yearning](https://github.com/cookieY/Yearning) MySQL SQL 审计平台。
 
 ## 常用命令
 

@@ -2,7 +2,6 @@
 
 [微信公众平台](https://mp.weixin.qq.com/)
 
-- [taro](https://github.com/nervjs/taro) 京东开源，跨平台开发框架，React 技术栈。
 - [uniapp](https://uniapp.dcloud.net.cn/) 闭源，跨平台开发框架，Vue 技术栈。
 
 ## 公众号

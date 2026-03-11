@@ -1,8 +1,9 @@
 # etcd 速查
 
 [官网](https://etcd.io)
-[GitHub 仓库](https://github.com/etcd-io/etcd)
+[etcd 源码](https://github.com/etcd-io/etcd)
 
+Go 开发的配置管理服务器。
 默认端口：2379
 一些开源项目如：milvus2.0 依赖 etcd 做配置管理。
 

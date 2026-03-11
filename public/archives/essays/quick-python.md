@@ -39,6 +39,7 @@ python -m http.server 8000
 - [excel2img](https://github.com/glexey/excel2img) excel 生成图片。
 - [segno](https://github.com/heuer/segno) 二维码生成库。
 - [pypdf](https://github.com/py-pdf/pypdf) PDF 库。
+- [PyMuPDF](https://github.com/pymupdf/PyMuPDF) PDF 库。
 - [pdfplumber](https://github.com/jsvine/pdfplumber) PDF 提取信息库。
 - [pdfium-lib](https://github.com/paulocoutinhox/pdfium-lib) pdfium 封装。
 - [RxPY](https://github.com/ReactiveX/RxPY) rx
@@ -93,6 +94,7 @@ python -m http.server 8000
 - [elasticsearch-py](https://github.com/elastic/elasticsearch-py) elasticsearch 客户端。
 - [aiofiles](https://github.com/Tinche/aiofiles) 文件异步库。
 - [kafka-python](https://github.com/dpkp/kafka-python) kafka 客户端。
+- [numpy](https://github.com/numpy/numpy) 科学计算的基础包。
 
 ### 数据库
 
@@ -135,6 +137,7 @@ python -m http.server 8000
 - [wechatpy](https://github.com/wechatpy/wechatpy) 微信SDK
 - [rpyc](https://github.com/tomerfiliba-org/rpyc) RPC 库。
 - [pyftpdlib](https://github.com/giampaolo/pyftpdlib) FTP 服务器开发库。
+- [django](https://github.com/django/django) web 框架。
 - [asgiref](https://github.com/django/asgiref) ASGI、WSGI 库。
 - [helium](https://github.com/mherrmann/helium) 无头浏览器爬虫自动化库。
 - [scapy](https://github.com/secdev/scapy) 支持 arp、icmp 等协议包，网络嗅探发包等的命令行工具和库。

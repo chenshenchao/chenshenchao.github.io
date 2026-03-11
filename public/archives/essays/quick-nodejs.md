@@ -61,12 +61,15 @@ nvm use 16
 - [nanocolors](https://github.com/ai/nanocolors) 命令行颜色样式库。
 - [node-archiver](https://github.com/archiverjs/node-archiver) zip 等文档创建的流式库。
 - [request](https://github.com/request/request) HTTP 客户端。
+- [nodemon](https://github.com/remy/nodemon) watch 自动重启项目。
 
 ### 数据库
 
 - [node-mongodb-native](https://github.com/mongodb/node-mongodb-native) mongodb 原生客户端驱动。
 - [node-sqlite3](https://github.com/TryGhost/node-sqlite3) sqlite3 封装。
 - [objection.js](https://github.com/Vincit/objection.js) ORM
+- [node-orm2](https://github.com/dresende/node-orm2) ORM
+- [bookshelf](https://github.com/bookshelf/bookshelf) ORM
 
 ### 网络
 

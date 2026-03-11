@@ -1,6 +1,9 @@
 # Taro 速查
 
-[官方文档](https://docs.taro.zone/docs/)
+- [官方文档](https://docs.taro.zone/docs/)
+- [taro 源码](https://github.com/nervjs/taro)
+
+京东开源，跨平台开发框架，React 技术栈。
 通过翻译成 React-Native 和 Flutter 实现的 APP 开发。
 
 ## 常用库

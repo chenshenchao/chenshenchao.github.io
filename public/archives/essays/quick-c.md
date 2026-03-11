@@ -131,6 +131,7 @@
 - [fastcgi-demo](https://github.com/zhyee/fastcgi-demo) FastCGI 示例。
 - [tcpdump](https://github.com/the-tcpdump-group/tcpdump) TCP 抓包命令行工具。
 - [curl](https://github.com/curl/curl)
+- [httpsqs](https://github.com/deniskin82/httpsqs) 消息队列。
 
 ## 工具
 

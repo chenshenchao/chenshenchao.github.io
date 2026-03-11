@@ -1,6 +1,8 @@
 # [草稿]Vue 速查
 
-- [vue core](https://github.com/vuejs/core)
+- [core](https://github.com/vuejs/core) vue3 源码
+- [vue](https://github.com/vuejs/vue) vue2 源码
+- [vue-rx](https://github.com/vuejs/vue-rx) vue2 整合 rx。
 - [router](https://github.com/vuejs/router)
 - [vuepress](https://github.com/vuejs/vuepress) 静态站框架。
 - [composition-api](https://github.com/vuejs/composition-api) Vue2 的 composition api 支持库。
@@ -45,7 +47,7 @@
 - [form-generator](https://github.com/JakHuang/form-generator) Element 组件代码可视化生成组件。
 - [vue-better-scroll](https://github.com/huangjincq/vue-better-scroll) vue2 封装 better-scroll 的组件。
 - [element](https://github.com/ElemeFE/element) vue2 桌面 UI 库。
-- [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) vue2 基于 element 开发的后台项目。
+- [iview](https://github.com/iview/iview) vue2 桌面 UI 库。
 - [cube-ui](https://github.com/didi/cube-ui) vue2 移动端 UI 库。
 - [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable) Vue2 拖拽库，基于 Sortable.js 。
 - [vue-i18n](https://github.com/kazupon/vue-i18n) Vue2 多语言库。
@@ -54,10 +56,10 @@
 - [smeditor](https://github.com/GeekPark/smeditor) 基于 Vue.js 2.0+ 石墨文档样式的富文本编辑器组件。
 - [v-charts](https://github.com/ElemeFE/v-charts) vue2 + echarts 封装。
 - [rx-ts vue](https://github.com/rx-ts/vue) 基于 rx 开发的几个 Vue2 包集合（vue-{qrcode,qrious,resizor}）
-- [vue-rx](https://github.com/vuejs/vue-rx) vue2 整合 rx。
 - [vue-excel-editor](https://github.com/cscan/vue-excel-editor) Vue2 Excel 风格的表格编辑器。
 - [vue-navigation](https://github.com/zack24q/vue-navigation)
 - [vue-json-excel](https://github.com/jecovier/vue-json-excel) JSON 转 excel。
+- [mand-mobile](https://github.com/didi/mand-mobile) vue2 UI 组件库。
 
 ### Vue1
 
@@ -77,6 +79,7 @@
 
 - [Vue-archive](https://github.com/Rkatsiteli/Vue-archive)
 - [learnVue《Vue.js源码分析》](https://github.com/answershuto/learnVue)
+- [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) vue2 基于 element 开发的后台项目。
 - [iview-admin](https://github.com/iview/iview-admin) vue2  iview 的后台前端模板项目。
 - [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) vue2 element 的后台前端模板项目。
 

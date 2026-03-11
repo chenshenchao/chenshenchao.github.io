@@ -76,6 +76,7 @@
 - [awesome-pentest](https://github.com/enaqx/awesome-pentest) 渗透、测试相关。
 - [awesome-test-automation](https://github.com/atinfo/awesome-test-automation) 测试、自动化相关。
 - [awesome-wechat-weapp](https://github.com/justjavac/awesome-wechat-weapp)
+- [awesome-love2d](https://github.com/love2d-community/awesome-love2d)
 
 ### 数据或咨询站点
 
@@ -256,6 +257,7 @@ qwen
 - [jsonnet](https://github.com/google/jsonnet) 谷歌开发的类 JSON 的数据语言，官方只支持 c 和 python 模块，其他语言有第三方实现但是热度很低，实现堪忧。
 - [hhvm](https://github.com/facebook/hhvm) Hack 语言，由 PHP 扩展而来的语言。
 - [polarphp](https://github.com/polarphp/polarphp) 第三方的 PHP 编译器和运行时实现。
+- [petools](https://github.com/petoolse/petools) PE 工具集。
 - [Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy) 可执行文件等多种文件查看探测器。
 - [DIE-engine](https://github.com/horsicq/DIE-engine) DIE 下载点。
 - [radare2](https://github.com/radareorg/radare2) 逆向分析框架。
@@ -328,6 +330,7 @@ qwen
 - [calculator](https://github.com/microsoft/calculator) Windows 新计算器。
 - [carbon](https://github.com/carbon-app/carbon) 代码生成高亮且美观的图片的工具。
 - [gimp](https://github.com/GNOME/gimp) 基于 GTK 的像素图绘图软件。
+- [inkscape](https://inkscape.org) 矢量图绘图软件。[源码](https://gitlab.com/inkscape/inkscape)
 - [Pinta](https://github.com/PintaProject/Pinta) 基于 GTK 的像素图绘图软件，功能简单。
 - [tikzit](github.com/tikzit/tikzit) 简单的点线绘图软件。
 - [MODNET-Matting-tool](https://github.com/AIDajiangtang/MODNET-Matting-tool) 抠图工具。
@@ -414,7 +417,6 @@ qwen
 - [microsoftarchive redis](https://github.com/microsoftarchive/redis) redis 3.0 的 Windows 版本。
 - [KeyDB](https://github.com/Snapchat/KeyDB) 扩展 Redis 为多线程的项目。
 - [apollo](https://github.com/apolloconfig/apollo) Java 开发的配置管理服务器，有管理后台。
-- [etcd](https://github.com/etcd-io/etcd) Go 开发的配置管理服务器。
 - [Consul](https://github.com/hashicorp/consul) Go 开发的配置管理服务器。
 - [kubebrain](https://github.com/kubewharf/kubebrain) 为 k8s 用 Go 开发的配置管理服务器，兼容 etcd 的 API 协议。
 - [zookeeper](https://github.com/apache/zookeeper) Java 开发的配置管理服务器。

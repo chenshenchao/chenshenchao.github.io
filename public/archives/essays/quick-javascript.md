@@ -53,6 +53,7 @@
 - [dyo](https://github.com/dyo/dyo) DOM 元素生成库。
 - [eva.js](https://github.com/eva-engine/eva.js) 前端简易游戏引擎。
 - [three.js](https://github.com/mrdoob/three.js) 3D 渲染库。
+- [giojs](https://github.com/syt123450/giojs) 基于 three.js 的地球。
 - [matter-js](https://github.com/liabru/matter-js) 2D 刚体物理引擎。
 - [Oimo.js](https://github.com/lo-th/Oimo.js) 3D 物理引擎。
 - [box2d.js](https://github.com/kripken/box2d.js) box2d 通过 wasm 打包。
@@ -138,6 +139,7 @@
 - [qs](https://github.com/ljharb/qs) URL query string 分析库。
 - [Wonder.js](https://github.com/Wonder-Technology/Wonder.js) 网页端 3D 游戏引擎。
 - [Wonder-Editor](https://github.com/Wonder-Technology/Wonder-Editor) 浏览器端类似 U3D 的 3D 场景编辑器。
+- [Layx](https://github.com/monksoul/Layx) 弹窗组件。
 
 ### Web
 
