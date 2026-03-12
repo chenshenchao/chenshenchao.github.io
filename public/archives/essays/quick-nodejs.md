@@ -1,7 +1,5 @@
 # nodejs 速查
 
-- [nvm](https://github.com/nvm-sh/nvm)
-- [nvm-windows](https://github.com/coreybutler/nvm-windows) Go 语言开发的 nvm 的 Windows 版本。
 - [farm](https://github.com/farm-fe/farm) rust 开发的兼容 vite 的构建工具。
 - [unbuild](https://github.com/unjs/unbuild) 构建工具
 - [webpack](https://github.com/webpack/webpack) 构建工具
@@ -12,7 +10,8 @@
 
 ## nvm
 
-[GitHub 仓库](https://github.com/nvm-sh/nvm) 按照 README 安装。
+- [nvm 源码](https://github.com/nvm-sh/nvm) 按照 README 安装。
+- [nvm-windows](https://github.com/coreybutler/nvm-windows) Go 语言开发的 nvm 的 Windows 版本。
 
 ```bat
 @rem 列举已经安装的 node 版本
@@ -26,6 +25,14 @@ nvm install 22.15.0
 
 @rem 切换版本匹配最近的 16 版本
 nvm use 16
+
+@rem 国内阿里镜像
+nvm npm_mirror https://npmmirror.com/mirrors/npm
+nvm node_mirror https://npmmirror.com/mirrors/node
+
+@rem 腾讯云镜像
+nvm npm_mirror https://mirrors.cloud.tencent.com/npm
+nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 ```
 
 ## 常用库
@@ -63,6 +70,7 @@ nvm use 16
 - [node-archiver](https://github.com/archiverjs/node-archiver) zip 等文档创建的流式库。
 - [request](https://github.com/request/request) HTTP 客户端。
 - [nodemon](https://github.com/remy/nodemon) watch 自动重启项目。
+- [napajs](https://github.com/microsoft/napajs) 微软开源的多线程库。
 
 ### 数据库
 
@@ -124,6 +132,7 @@ nvm use 16
 ## 工具、项目、示例
 
 - [node-supervisor](https://github.com/petruisfan/node-supervisor) node 版的 supervisor 守护进程管理。
+- [hyper](https://github.com/vercel/hyper) 浏览器终端。
 
 ## 包管理器
 
@@ -143,6 +152,13 @@ npm ci
 
 # 直接通过命令指定阿里的镜像源
 npm --registry https://registry.npmmirror.com i gsap
+npm --registry https://mirrors.tencent.com/npm i 
+
+# 设置全局镜像
+npm config set registry https://mirrors.tencent.com/npm
+
+# 取消全局镜像
+npm config delete registry 
 
 # 登录
 npm login

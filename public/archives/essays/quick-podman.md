@@ -1,5 +1,7 @@
 # Podman 速查
 
+- [podman 源码](https://github.com/containers/podman)
+
 Podman 大部分命令和 docker 兼容。
 
 ```bash
@@ -58,7 +60,7 @@ podman run --rm -v volume-name:/data_dir -v .:/backup busybox tar -xzvf /backup/
 
 ### 单独安装 podman （不推荐）
 
-[GitHub Release](https://github.com/containers/podman/releases) 下载后安装，选 WSL2 模式，执行下列初始化：
+- [GitHub Release](https://github.com/containers/podman/releases) 下载后安装，选 WSL2 模式，执行下列初始化：
 
 ```bat
 @rem 查看初始化的机器

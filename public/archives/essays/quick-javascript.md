@@ -156,6 +156,8 @@
 - [avalon](https://github.com/RubyLouvre/avalon) 前端 MVVM 框架，已经废弃。
 - [anu](https://github.com/RubyLouvre/anu) react 兼容的 Hooks。
 - [layui](https://github.com/layui/layui) 类 jQuery 风格的 UI 组件库。
+- [layui layer](https://github.com/layui/layer) layui 弹出层组件
+- [layui laydate](https://github.com/layui/laydate) layui 日历组件
 - [lulu](https://github.com/yued-fe/lulu) 原生JS风格的 UI 组件库。
 - [move.js](https://github.com/visionmedia/move.js) JS 生成 CSS 动画库。
 - [Proton](https://github.com/drawcall/Proton) 粒子动画库。

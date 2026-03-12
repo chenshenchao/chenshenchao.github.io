@@ -47,6 +47,7 @@
 - [form-generator](https://github.com/JakHuang/form-generator) Element 组件代码可视化生成组件。
 - [vue-better-scroll](https://github.com/huangjincq/vue-better-scroll) vue2 封装 better-scroll 的组件。
 - [element](https://github.com/ElemeFE/element) vue2 桌面 UI 库。
+- [vue-element-extends](https://github.com/xuliangzhan/vue-element-extends) element 组件扩展。
 - [iview](https://github.com/iview/iview) vue2 桌面 UI 库。
 - [cube-ui](https://github.com/didi/cube-ui) vue2 移动端 UI 库。
 - [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable) Vue2 拖拽库，基于 Sortable.js 。
@@ -60,6 +61,7 @@
 - [vue-navigation](https://github.com/zack24q/vue-navigation)
 - [vue-json-excel](https://github.com/jecovier/vue-json-excel) JSON 转 excel。
 - [mand-mobile](https://github.com/didi/mand-mobile) vue2 UI 组件库。
+- [vue2-editor](https://github.com/davidroyer/vue2-editor) vue2 的 Quill 封装。
 
 ### Vue1
 

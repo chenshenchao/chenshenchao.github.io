@@ -57,12 +57,23 @@
 - [light-4j](https://github.com/networknt/light-4j) 微服务框架。
 - [Summer](https://github.com/SwingFrog/Summer) 游戏服务器框架。
 - [FXGL](https://github.com/AlmasB/FXGL) 基于 JavaFX 的游戏框架。
+- [RxJava](https://github.com/ReactiveX/RxJava) RX
+- [jBCrypt](https://github.com/jeremyh/jBCrypt) BCrypt 密码加密。
+- [bcrypt](https://github.com/patrickfav/bcrypt) bcrypt 密码加密。
+- [password4j](https://github.com/Password4j/password4j) 密码加密。
 
 ## 网络
 
 - [spring-boot](https://github.com/spring-projects/spring-boot)
 - [undertow](https://github.com/undertow-io/undertow) Web 服务器。
 - [jfinal](https://github.com/jfinal/jfinal) web 框架。
+
+## 数据库
+
+- [hibernate-orm](https://github.com/hibernate/hibernate-orm)
+- [hibernate-tools](https://github.com/hibernate/hibernate-tools)
+- [flyway](https://github.com/flyway/flyway) 数据库迁移（migration）库。
+- [liquibase](https://github.com/liquibase/liquibase) 数据库迁移（migration）库。
 
 ## 项目、示例
 
@@ -73,39 +84,14 @@
 
 ## 开发环境与包管理工具
 
+JAVA_HOME
+PATH=%PATH%;%JAVA_HOME%\bin
+
 常见问题：
 
 1. 如果拉包后出现类找不到的问题，大概率是由于墙的原因，导致拉包失败但是又没有清理干净，导致 gradle 误以为包已经拉取了，但是实际是个空的，此时就会报找不到类。
 
 ### maven
-
-### gradle
-
-gradle 包缓存目录 ~/.gradle/caches
-~/.gradle/caches/modules-2/files-2.1
-
-```bash
-# 创建项目（交互模式）
-gradle init --interactive
-# 创建项目
-gradle init --project-name your_project
-# 创建项目，指定是 Java 项目，测试框架用 junit-jupiter ,构建脚本语言为 groovy
-gradle init --project-name your_project --type java-application --test-framework junit-jupiter --dsl groovy
-```
-
-```bash
-# 查看任务
-gradlew tasks
-
-# 项目创建后一般使用 gradlew 而不是 gradle ，因为 gradlew 带了 jdk、gradle 等的版本，确保项目的部署版本不会错。
-# 构建，重新拉包。
-gradlew build --refresh-dependencies
-# 跳过 test 任务
-gradlew build -x test
-
-# 打印依赖
-gradlew dependencies --configuration runtimeClasspath
-```
 
 ### [SDKMAN](https://sdkman.io/)
 

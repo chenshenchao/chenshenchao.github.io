@@ -132,6 +132,7 @@
 - [tcpdump](https://github.com/the-tcpdump-group/tcpdump) TCP 抓包命令行工具。
 - [curl](https://github.com/curl/curl)
 - [httpsqs](https://github.com/deniskin82/httpsqs) 消息队列。
+- [lighttpd1.4](https://github.com/lighttpd/lighttpd1.4) 类 nginx 的轻量级代理服务器。
 
 ## 工具
 
