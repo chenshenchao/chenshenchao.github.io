@@ -39,6 +39,7 @@ php -S 0.0.0.0:80
 - [Molten](https://github.com/chuan-yun/Molten) 跟踪探针调试插件。
 - [swoole](https://github.com/swoole/swoole-src) 异步扩展，标准库已经支持异步。
 - [yaf](https://github.com/laruence/yaf) 鸟哥的 web 框架。
+- [cphalcon7](https://github.com/dreamsxin/cphalcon7)  web 框架。
 
 ## Composer
 
@@ -66,6 +67,10 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [uuid](https://github.com/ramsey/uuid) uuid 库。
 - [hashids](https://github.com/vinkla/hashids) 散列 ID 生成库。
 - [laravel](https://github.com/laravel/laravel) PHP 界的 Spring ，功能齐全，就是有点重，服务器要求比其他 PHP 框架高，不然会卡。
+- [laravel ui](https://github.com/laravel/ui) laravel ui 库。
+- [lumen](https://github.com/laravel/lumen) 基于 laravel 的框架。
+- [laravel-admin](https://github.com/z-song/laravel-admin) 基于 laravel 的管理后台模板项目。
+- [voyager](https://github.com/thedevdojo/voyager) 基于 laravel 的管理后台模板项目。
 - [symfony](https://github.com/symfony/symfony) Web 框架，拆分出很多基础库，ThinkPHP 大量复用它的基础库。
 - [symfony dotenv](https://github.com/symfony/dotenv) symfony 环境变量库。
 - [symfony cache](https://github.com/symfony/cache) symfony 缓存。
@@ -131,11 +136,13 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [PHP-FFMpeg](https://github.com/PHP-FFMpeg/PHP-FFMpeg) 封装 ffmpeg 命令行使用，需要安装 ffmpeg 。
 - [phpunit](https://github.com/sebastianbergmann/phpunit) 单元测试框架。
 - [Medoo](https://github.com/catfan/Medoo) ORM
+- [redbean](https://github.com/gabordemooij/redbean) ORM
 - [doctrine](https://github.com/doctrine/orm) ORM
 - [doctrine lexer](https://github.com/doctrine/lexer) doctrine 的词法器。
 - [doctrine cache](https://github.com/doctrine/cache) doctrine 的缓存。
 - [easywechat](https://github.com/w7corp/easywechat) 微信公众号 API 第三方 SDK。
 - [zanphp](https://github.com/youzan/zanphp) 有赞开源的 PHP web 框架。
+- [phpseclib](https://github.com/phpseclib/phpseclib) 安全加密算法库。
 
 ## 项目、示例
 
@@ -148,6 +155,9 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [clean-code-php](https://github.com/piotrplenik/clean-code-php) 整洁代码 PHP 示例。
 - [game-ddz](https://github.com/sy-records/game-ddz) 使用Hyperf框架开发斗地主游戏
 - [workerman-chat](https://github.com/walkor/workerman-chat) 基于 workerman 的聊天室项目。
+- [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) 代码嗅探工具，检查语法等，已转移。
+- [PHP_CodeSniffer](https://github.com/PHPCSStandards/PHP_CodeSniffer) 代码嗅探工具，检查语法等。
+- [phinx](https://github.com/cakephp/phinx) 数据库迁移框架（提供命令行工具和库）。
 
 ## 命令规范
 

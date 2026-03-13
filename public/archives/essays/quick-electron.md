@@ -10,3 +10,4 @@
 ## 项目
 
 - [lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) 桌面音乐软件。
+- [redis-desktop-client](https://github.com/david1025/redis-desktop-client) electron + vue 开发的 redis 管理工具。

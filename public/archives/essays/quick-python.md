@@ -145,6 +145,7 @@ python -m http.server 8000
 - [helium](https://github.com/mherrmann/helium) 无头浏览器爬虫自动化库。
 - [scapy](https://github.com/secdev/scapy) 支持 arp、icmp 等协议包，网络嗅探发包等的命令行工具和库。
 - [icmplib](https://github.com/ValentinBELYN/icmplib) icmp 库。
+- [HanLP](https://github.com/hankcs/HanLP) NLP 分词开发库 和 轻量 RESTful 服务。
 
 ## 示例、项目
 

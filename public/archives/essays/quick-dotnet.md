@@ -31,6 +31,7 @@ dotnet tool update --global dotnet-ef
 - [EPPlus](https://github.com/EPPlusSoftware/EPPlus) Excel 处理库。
 - [ExcelDna](https://github.com/Excel-DNA/ExcelDna) Excel 扩展 .xll 自定义计算函数开发工具。
 - [NetOffice](https://github.com/NetOfficeFw/NetOffice) 微软Office（Excel、Word等）插件开发工具。
+- [FastReport](https://github.com/FastReports/FastReport) 支持 Excel、Word 等的报表库，有收费版。
 - [CommunityToolkit](https://github.com/CommunityToolkit/dotnet) 工具集合。
 - [NumSharp](https://github.com/SciSharp/NumSharp) 类 Numpy 的库。
 - [Numpy.NET](https://github.com/SciSharp/Numpy.NET) numpy 绑定。
@@ -61,6 +62,7 @@ dotnet tool update --global dotnet-ef
 
 - [LiteNetLib](https://github.com/RevenantX/LiteNetLib) 轻量级 UDP 库。
 - [NetCoreServer](https://github.com/chronoxor/NetCoreServer) 网络库。
+- [SmtpServer](https://github.com/cosullivan/SmtpServer) SMTP 邮件发送服务器开发库。
 
 ## 工具
 
@@ -72,6 +74,7 @@ dotnet tool update --global dotnet-ef
 - [Fody](https://github.com/Fody/Fody) .NET 程序集修改工具。
 - [Costura](https://github.com/Fody/Costura) Fody 插件，用于把资源内嵌到程序集里。
 - [YiShaAdmin](https://github.com/liukuo362573/YiShaAdmin) 管理后台模板项目。
+- [jellyfin](https://github.com/jellyfin/jellyfin) 媒体系统服务器后端。
 
 ## 单文件打包
 

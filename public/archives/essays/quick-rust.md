@@ -515,6 +515,7 @@ fi
 - [openvas-scanner](https://github.com/greenbone/openvas-scanner) 漏洞扫描工具。
 - [czkawka](https://github.com/qarmin/czkawka) 类 文件管理器。
 - [xi-editor](https://github.com/xi-editor/xi-editor) 文档编辑器。
+- [pingap](https://github.com/vicanso/pingap) 基于 pingora 的类 nginx 的反向代理服务器。
 
 ## 兼容
 

@@ -137,6 +137,7 @@
 - [sql.js](https://github.com/sql-js/sql.js) 浏览器里使用 SQLite。
 - [yox](https://github.com/yoxjs/yox) 前端开发框架。
 - [san](https://github.com/baidu/san) 百度开源的前端开发框架。
+- [angular.js](https://github.com/angular/angular.js) 前端开发框架。
 - [xe-clipboard](https://github.com/x-extends/xe-clipboard) 剪切板库。
 - [clipboard.js](https://github.com/zenorocha/clipboard.js) 剪切板库。
 - [smartcrop.js](https://github.com/jwagner/smartcrop.js) 图片裁剪。

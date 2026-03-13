@@ -62,6 +62,7 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [jiebago](https://github.com/wangbin/jiebago) jieba 中文分词。
 - [gojieba](https://github.com/yanyiwu/gojieba) jieba 中文分词。
 - [gse](https://github.com/go-ego/gse) NLP 和 分词工具库，默认支持 中、日、英等语言。
+- [go-ego re](https://github.com/go-ego/re) go-ego 的命令工具。
 - [mahonia](https://github.com/axgle/mahonia) 字符集转换库。
 - [protobuf-go](https://github.com/protocolbuffers/protobuf-go) protobuf
 - [crypt2go](https://github.com/andreburgaud/crypt2go) 对标准的加密库的补充。
@@ -195,6 +196,7 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [Yearning](https://github.com/cookieY/Yearning) MySQL SQL 审计平台。
 - [bettercap](https://github.com/bettercap/bettercap) GO 开发的网络抓包工具。
 - [grumpy](https://github.com/google/grumpy) python 翻译成 go 的工具。
+- [pike](https://github.com/vicanso/pike) HTTP 缓存服务器，提供管理 web 界面。已不维护。
 
 ## 常用命令
 

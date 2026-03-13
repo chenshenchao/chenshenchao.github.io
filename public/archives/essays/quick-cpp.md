@@ -171,6 +171,7 @@
 - [apollo](https://github.com/ApolloAuto/apollo) 自动驾驶项目。
 - [Effekseer](https://github.com/effekseer/Effekseer) 粒子效果编辑器。
 - [kys-cpp](https://github.com/scarsty/kys-cpp) 《金庸群侠传》c++复刻版
+- [AutoHotkey](https://github.com/AutoHotkey/AutoHotkey) Windows 下鼠标键盘自动化脚本框架。
 
 ## 包管理与构造工具
 

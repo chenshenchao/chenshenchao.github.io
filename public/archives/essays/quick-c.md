@@ -3,8 +3,10 @@
 ## 编译构造工具与包管理
 
 - CMake
-- [vcpkg](https://github.com/microsoft/vcpkg)
-- [clib](https://github.com/clibs/clib) 
+- [vcpkg](https://github.com/microsoft/vcpkg) 基于 CMAKE 的包管理工具。
+- [clib](https://github.com/clibs/clib) 包管理工具
+- [conan](https://github.com/conan-io/conan) python 写的 C/C++ 包管理工具。
+- [biicode](https://github.com/biicode/biicode) C/C++ 包管理工具。
 - [cosmopolitan](https://github.com/jart/cosmopolitan) 打着 “一次编译，到处运行。” 的编译工具库。
 
 ## 常用库
@@ -23,6 +25,7 @@
 - [minizip-ng](https://github.com/zlib-ng/minizip-ng) zip 处理库。
 - [libzip](https://github.com/nih-at/libzip) zip 文件处理库。
 - [lemon](https://github.com/lemon-lang/lemon) 可内嵌的小型编程语言 lemon。
+- [berry](https://github.com/berry-lang/berry) 可内嵌的小型编程语言。
 - [mupdf](https://github.com/ArtifexSoftware/mupdf) PDF 库。
 - [pdfio](https://github.com/michaelrsweet/pdfio) PDF 库。
 - [libxls](https://github.com/libxls/libxls) Excel xls 文件处理库。
@@ -51,6 +54,7 @@
 - [v7](https://github.com/cesanta/v7) 可内嵌的 JS 脚本引擎。
 - [tbox](https://github.com/tboox/tbox) glib 代码风格的 C 工具库。
 - [friso](https://github.com/lionsoul2014/friso) 中文分词库，提供了 PHP 、Lua、OCaml 等的插件。
+- [jemalloc](https://github.com/jemalloc/jemalloc) 通用的 malloc 内存分配库。
 
 ### 数据库
 
@@ -131,11 +135,14 @@
 - [FlashDB](https://github.com/armink/FlashDB) 一款支持 KV 数据和时序数据的超轻量级数据库
 - [fastcgi-demo](https://github.com/zhyee/fastcgi-demo) FastCGI 示例。
 - [tcpdump](https://github.com/the-tcpdump-group/tcpdump) TCP 抓包命令行工具。
+- [tcprstat](https://github.com/y123456yz/tcprstat) TCP 时延统计工具
 - [curl](https://github.com/curl/curl)
 - [httpsqs](https://github.com/deniskin82/httpsqs) 消息队列。
 - [lighttpd1.4](https://github.com/lighttpd/lighttpd1.4) 类 nginx 的轻量级代理服务器。
 - [lighttpd2](https://github.com/lighttpd/lighttpd2) 类 nginx 的轻量级代理服务器。
 - [tengine](https://github.com/alibaba/tengine) 阿里开源的基于 nginx 的代理服务器。
+- [nghttp2](https://github.com/nghttp2/nghttp2) http 命令行 客户端和服务器工具。
+- [nuster](https://github.com/jiangwenyuan/nuster) HTTP 代理缓存服务器。
 - [twemproxy](https://github.com/twitter/twemproxy) 分布式 redis 代理服务器。
 
 ## 工具

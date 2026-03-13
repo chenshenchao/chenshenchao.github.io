@@ -35,6 +35,9 @@ Lazarus 是基于 Free Pascal 的一个 IDE。
 添加自定义预编译宏：“Custom” 加入 -dYOUR_MACRO 就加入了 YOUR_MACRO 宏。
 添加后每个构建模式都有个单选框，勾选就是在此构建模式下启用这个宏。
 
+## 项目
+
+- [CudaText](https://github.com/Alexey-T/CudaText) 文本编辑器。
 
 ## 软件包
 

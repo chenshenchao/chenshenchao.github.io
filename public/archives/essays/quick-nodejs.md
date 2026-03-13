@@ -83,9 +83,11 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [objection.js](https://github.com/Vincit/objection.js) ORM
 - [node-orm2](https://github.com/dresende/node-orm2) ORM
 - [bookshelf](https://github.com/bookshelf/bookshelf) ORM
+- [knex](https://github.com/knex/knex) ORM
 
 ### 网络
 
+- [totaljs framework](https://github.com/totaljs/framework) web 框架。
 - [express](https://github.com/expressjs/express) web 服务器。
 - [socket.io](https://github.com/socketio/socket.io) 服务器端以及浏览器端。
 - [loopback](https://github.com/strongloop/loopback) web 框架，工具齐全。
