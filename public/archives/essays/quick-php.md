@@ -147,6 +147,7 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [think-swoole-demo](https://github.com/xavieryang007/think-swoole-demo) think-swoole 示例。
 - [clean-code-php](https://github.com/piotrplenik/clean-code-php) 整洁代码 PHP 示例。
 - [game-ddz](https://github.com/sy-records/game-ddz) 使用Hyperf框架开发斗地主游戏
+- [workerman-chat](https://github.com/walkor/workerman-chat) 基于 workerman 的聊天室项目。
 
 ## 命令规范
 

@@ -10,6 +10,8 @@
 - [mxnet](https://github.com/apache/mxnet)
 - [tensorflow](https://github.com/tensorflow/tensorflow) 谷歌的框架，早期主流。
 - [tfjs](https://github.com/tensorflow/tfjs) tensorflow 的浏览器端 WebGL 模型框架。
+- [nmt](https://github.com/tensorflow/nmt) tensorflow 机器翻译（seq2seq）教程
+- [OpenNMT-tf](https://github.com/OpenNMT/OpenNMT-tf) 基于 tensorflow 机器翻译
 - [MNN](https://github.com/alibaba/MNN) 阿里的框架。
 - [mnn-llm](https://github.com/wangzhaode/mnn-llm) 基于 MNN 的 LLM，已经合并到 MNN。
 - [auto-sklearn](https://github.com/automl/auto-sklearn) ML 工具包。

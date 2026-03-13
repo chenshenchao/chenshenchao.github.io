@@ -7,6 +7,7 @@
 
 - [bifrost](https://github.com/ClessLi/bifrost) nginx 配置文件处理工具。
 
+- [nginx-rtmp-module](https://github.com/arut/nginx-rtmp-module) RTMP 流媒体直播模块。
 - [nginx-hello-world-module](https://github.com/perusio/nginx-hello-world-module)  nginx 模块简单 hello world 示例。
 - [nginx-http-echo-module](https://github.com/wujunze/nginx-http-echo-module) nginx 模块简单 echo 示例。
 - [echo-nginx-module](https://github.com/openresty/echo-nginx-module) nginx 模块 echo 示例。

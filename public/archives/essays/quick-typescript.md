@@ -49,6 +49,7 @@
 - [image-in-browser](https://github.com/yegor-pelykh/image-in-browser) 浏览器端可用的图片处理库。
 - [PptxGenJS](https://github.com/gitbrent/PptxGenJS) PPT 生成库。
 - [cheerio](https://github.com/cheeriojs/cheerio) HTML/XML 解析库。
+- [amis](https://github.com/baidu/amis) 百度开源的低代码框架。
 
 ### web
 

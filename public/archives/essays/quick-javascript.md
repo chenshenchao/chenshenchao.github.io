@@ -58,6 +58,7 @@
 - [simple-virtual-dom](https://github.com/livoras/simple-virtual-dom) 一个虚拟 DOM 实现库。
 - [dyo](https://github.com/dyo/dyo) DOM 元素生成库。
 - [eva.js](https://github.com/eva-engine/eva.js) 前端简易游戏引擎。
+- [theatre](https://github.com/theatre-js/theatre) three.js 的 3D 动画设计编辑库。
 - [three.js](https://github.com/mrdoob/three.js) 3D 渲染库。
 - [giojs](https://github.com/syt123450/giojs) 基于 three.js 的地球。
 - [matter-js](https://github.com/liabru/matter-js) 2D 刚体物理引擎。

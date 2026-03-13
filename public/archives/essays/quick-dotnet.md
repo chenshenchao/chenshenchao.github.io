@@ -71,6 +71,7 @@ dotnet tool update --global dotnet-ef
 - [BaGet](https://github.com/loic-sharma/BaGet) 轻量级的 Nuget 服务器。
 - [Fody](https://github.com/Fody/Fody) .NET 程序集修改工具。
 - [Costura](https://github.com/Fody/Costura) Fody 插件，用于把资源内嵌到程序集里。
+- [YiShaAdmin](https://github.com/liukuo362573/YiShaAdmin) 管理后台模板项目。
 
 ## 单文件打包
 

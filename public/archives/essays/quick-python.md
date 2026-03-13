@@ -95,6 +95,7 @@ python -m http.server 8000
 - [aiofiles](https://github.com/Tinche/aiofiles) 文件异步库。
 - [kafka-python](https://github.com/dpkp/kafka-python) kafka 客户端。
 - [numpy](https://github.com/numpy/numpy) 科学计算的基础包。
+- [pefile](https://github.com/erocarrera/pefile) PE 文件处理库。
 
 ### 数据库
 
@@ -107,6 +108,7 @@ python -m http.server 8000
 - [mongoengine](https://github.com/MongoEngine/mongoengine) mongodb 客户端。
 - [tortoise-orm](https://github.com/tortoise/tortoise-orm) ORM
 - [peewee](https://github.com/coleifer/peewee) ORM
+- [pony](https://github.com/ponyorm/pony) ORM
 - [sqlalchemy](https://github.com/sqlalchemy/sqlalchemy)  ORM
 - [gino](https://github.com/python-gino/gino) SQLAlchemy 核心。
 
@@ -157,7 +159,11 @@ python -m http.server 8000
 - [yq](https://github.com/kislyuk/yq) 命令行  YAML, XML, TOML 处理工具。
 - [zulip](https://github.com/zulip/zulip) web 的即时聊天工具。
 - [onlinetools](https://github.com/iceyhexman/onlinetools) 端口扫描等渗透工具。
+- [sqlmap](https://github.com/sqlmapproject/sqlmap) 安全渗透测试，SQL 注入脚本框架。
+- [AngelSword](https://github.com/Lucifer1993/AngelSword) CMS 漏洞扫描框架。
 - [snake](https://github.com/chynl/snake) 贪吃蛇演示 AI 训练与应用。
+- [pe_tree](https://github.com/blackberry/pe_tree) PE 文件可视化树状分析工具。
+- [pypyjs](https://github.com/pypyjs/pypyjs) pypy 转 JS 工具。
 
 ## 虚拟环境
 

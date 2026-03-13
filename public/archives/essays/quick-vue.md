@@ -63,6 +63,7 @@
 - [vue-json-excel](https://github.com/jecovier/vue-json-excel) JSON 转 excel。
 - [mand-mobile](https://github.com/didi/mand-mobile) vue2 UI 组件库。
 - [vue2-editor](https://github.com/davidroyer/vue2-editor) vue2 的 Quill 封装。
+- [gods-pen](https://github.com/ymm-tech/gods-pen) vue2 的可拖拽界面设计组件。
 
 ### Vue1
 

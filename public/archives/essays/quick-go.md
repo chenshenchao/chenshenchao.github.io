@@ -6,6 +6,13 @@
 - [goproxy](https://github.com/goproxy/goproxy) go 代理开发库。
 - [goproxy.cn 站点源码](https://github.com/goproxy/goproxy.cn) 七牛云提供的GO模块代理。
 
+```bash
+# 打开 go111 的模块化（一般新版默认开着）
+go env -w GO111MODULE=on
+# 配置代理
+go env -w GOPROXY=https://goproxy.cn,direct
+```
+
 ## 常用库
 
 - [uuid](https://github.com/google/uuid) 谷歌开源的 UUID 库。
@@ -54,6 +61,7 @@
 - [packr](https://github.com/gobuffalo/packr) go 低版本没有 embed 时，需要这个库来嵌入文件。
 - [jiebago](https://github.com/wangbin/jiebago) jieba 中文分词。
 - [gojieba](https://github.com/yanyiwu/gojieba) jieba 中文分词。
+- [gse](https://github.com/go-ego/gse) NLP 和 分词工具库，默认支持 中、日、英等语言。
 - [mahonia](https://github.com/axgle/mahonia) 字符集转换库。
 - [protobuf-go](https://github.com/protocolbuffers/protobuf-go) protobuf
 - [crypt2go](https://github.com/andreburgaud/crypt2go) 对标准的加密库的补充。
@@ -185,6 +193,8 @@
 - [lua](https://github.com/milochristiansen/lua) go 实现 lua5.3 VM 和编译器。
 - [rclone](https://github.com/rclone/rclone) 命令行工具用于同步文件到 谷歌 Drive、亚马逊S3、Dropbox 等云存储上。
 - [Yearning](https://github.com/cookieY/Yearning) MySQL SQL 审计平台。
+- [bettercap](https://github.com/bettercap/bettercap) GO 开发的网络抓包工具。
+- [grumpy](https://github.com/google/grumpy) python 翻译成 go 的工具。
 
 ## 常用命令
 

@@ -50,6 +50,7 @@
 - [vlc](https://github.com/videolan/vlc) vlc 视频播放库，支持 Windows、安卓 等平台。
 - [v7](https://github.com/cesanta/v7) 可内嵌的 JS 脚本引擎。
 - [tbox](https://github.com/tboox/tbox) glib 代码风格的 C 工具库。
+- [friso](https://github.com/lionsoul2014/friso) 中文分词库，提供了 PHP 、Lua、OCaml 等的插件。
 
 ### 数据库
 
@@ -135,6 +136,7 @@
 - [lighttpd1.4](https://github.com/lighttpd/lighttpd1.4) 类 nginx 的轻量级代理服务器。
 - [lighttpd2](https://github.com/lighttpd/lighttpd2) 类 nginx 的轻量级代理服务器。
 - [tengine](https://github.com/alibaba/tengine) 阿里开源的基于 nginx 的代理服务器。
+- [twemproxy](https://github.com/twitter/twemproxy) 分布式 redis 代理服务器。
 
 ## 工具
 

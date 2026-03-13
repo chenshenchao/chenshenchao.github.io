@@ -16,3 +16,4 @@
 - [ijepa](https://github.com/facebookresearch/ijepa)
 - [AnimatedDrawings](https://github.com/facebookresearch/AnimatedDrawings)
 - [pytorch-image-models](https://github.com/huggingface/pytorch-image-models) hf 图片相关模型。
+- [OpenNMT-py](https://github.com/OpenNMT/OpenNMT-py) 基于 pytorch 的机器翻译模型。
