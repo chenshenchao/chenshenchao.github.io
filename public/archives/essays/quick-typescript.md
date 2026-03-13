@@ -31,6 +31,7 @@
 - [tw-animate-css](https://github.com/Wombosvideo/tw-animate-css) 对 tailwindcss 的动画扩展库。
 - [tailwind-merge](https://github.com/dcastil/tailwind-merge) 运行时合并类库，可能助长代码变脏，若能编译阶段检查出来会更好。
 - [lucide](https://github.com/lucide-icons/lucide) 支持多种框架（React、Vue 等）的图标集合。
+- [ionic-framework](https://github.com/ionic-team/ionic-framework) 支持多种框架（React、Vue 等）的图标集合。
 - [embla-carousel](https://github.com/davidjerleke/embla-carousel) 支持多种框架（React、Vue 等）的轮播图。
 - [jose](https://github.com/panva/jose) jwt 库。
 - [faker-js](https://github.com/faker-js/faker) 开始时调试数据生成库。
@@ -41,7 +42,7 @@
 - [pixi-tiledmap](https://github.com/riebel/pixi-tiledmap) pixi tilemap 库。
 - [Tone.js](https://github.com/Tonejs/Tone.js) 浏览器端 电子音乐 生成库。
 - [jest](https://github.com/jestjs/jest) 单元测试框架。
-- [fabric.js](https://github.com/fabricjs/fabric.js) SVG 绘制到 canvas 里。
+- [fabric.js](https://github.com/fabricjs/fabric.js) SVG 绘制到 canvas 里，canvas 转 SVG 库。
 - [tsx](https://github.com/privatenumber/tsx) package.json scripts 里执行 ts 脚本的命令工具。
 - [ts-transformer-keys](https://github.com/kimamula/ts-transformer-keys) 获取类型键名的库。
 - [class-validator](https://github.com/typestack/class-validator) 基于类定义的验证器库。
@@ -50,6 +51,7 @@
 - [PptxGenJS](https://github.com/gitbrent/PptxGenJS) PPT 生成库。
 - [cheerio](https://github.com/cheeriojs/cheerio) HTML/XML 解析库。
 - [amis](https://github.com/baidu/amis) 百度开源的低代码框架。
+- [flatpickr](https://github.com/flatpickr/flatpickr) 零依赖的日期选择器组件。
 
 ### web
 

@@ -12,6 +12,7 @@
 - [ramda](https://github.com/ramda/ramda) 类 lodash 工具库。
 - [json-editor](https://github.com/jdorn/json-editor) JSON 树形编辑器组件。
 - [jsoneditor](https://github.com/josdejong/jsoneditor) JSON 树形编辑器组件。
+- [pell](https://github.com/jaredreich/pell) 文本编辑器。
 - [ckeditor4](https://github.com/ckeditor/ckeditor4) 富文本编辑器。
 - [ckeditor5](https://github.com/ckeditor/ckeditor5) 富文本编辑器。
 - [quill](https://github.com/slab/quill) 富文本编辑器。
@@ -20,6 +21,7 @@
 - [Luckysheet](https://github.com/dream-num/Luckysheet) Excel 编辑器，基于 jQuery 已经废弃，作者转 univer 开发。
 - [sheetjs](https://github.com/SheetJS/sheetjs) excel 操作库，免费版本功能有限，Pro 版本收费。
 - [exceljs](https://github.com/exceljs/exceljs) excel 操作库。
+- [codemirror5](https://github.com/codemirror/codemirror5) 前端的简易代码编辑器组件。
 - [ace](https://github.com/ajaxorg/ace) 代码编辑器。
 - [GSAP](https://github.com/greensock/GSAP) 动画库
 - [crypto-js](https://github.com/brix/crypto-js) 散列和对称加密库，但是由于标准已经提供了异步的（Crypto Web API）所以只有在兼容旧环境和非异步情况下才使用。
@@ -57,6 +59,8 @@
 - [pdf.js](https://github.com/mozilla/pdf.js) mozilla 开源的 PDF 展示库。
 - [simple-virtual-dom](https://github.com/livoras/simple-virtual-dom) 一个虚拟 DOM 实现库。
 - [dyo](https://github.com/dyo/dyo) DOM 元素生成库。
+- [Crafty](https://github.com/craftyjs/Crafty) 前端简易游戏引擎。
+- [Hilo](https://github.com/hiloteam/Hilo) 阿里开源前端简易游戏引擎。
 - [eva.js](https://github.com/eva-engine/eva.js) 前端简易游戏引擎。
 - [theatre](https://github.com/theatre-js/theatre) three.js 的 3D 动画设计编辑库。
 - [three.js](https://github.com/mrdoob/three.js) 3D 渲染库。
@@ -129,6 +133,7 @@
 - [JSSoup](https://github.com/chishui/JSSoup) 仿 python 的 BeautifulSoup 的库， HTML 解析。
 - [whs.js](https://github.com/WhitestormJS/whs.js) 3D 渲染框架。
 - [lightgl.js](https://github.com/evanw/lightgl.js) 轻量 WebGL 封装。
+- [validator.js](https://github.com/validatorjs/validator.js) 验证器。
 - [validate.js](https://github.com/ansman/validate.js) 验证器。
 - [validate.js](https://github.com/rickharrison/validate.js) 验证器。
 - [joi](https://github.com/hapijs/joi)  验证器。

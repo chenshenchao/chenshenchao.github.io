@@ -171,7 +171,11 @@
 - [apollo](https://github.com/ApolloAuto/apollo) 自动驾驶项目。
 - [Effekseer](https://github.com/effekseer/Effekseer) 粒子效果编辑器。
 - [kys-cpp](https://github.com/scarsty/kys-cpp) 《金庸群侠传》c++复刻版
+- [wesnoth](https://github.com/wesnoth/wesnoth) 幻想题材的回合制策略游戏，steam 上有。
 - [AutoHotkey](https://github.com/AutoHotkey/AutoHotkey) Windows 下鼠标键盘自动化脚本框架。
+- [scummvm](https://github.com/scummvm/scummvm) 多种游戏机模拟器（100+种，包括任天堂 Switch 、索尼 PS 等）。
+- [doxygen](https://github.com/doxygen/doxygen) 主 C++ 注释自动生成文档工具，也支持其他多种语言。
+- [cherrytree](https://github.com/giuspen/cherrytree) 富文本笔记软件，可以保存 XML 等。
 
 ## 包管理与构造工具
 

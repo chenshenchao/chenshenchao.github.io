@@ -3,6 +3,7 @@
 ## 编译构造工具与包管理
 
 - CMake
+- [xmake](https://github.com/xmake-io/xmake) 以 lua 为脚本的构建工具。
 - [vcpkg](https://github.com/microsoft/vcpkg) 基于 CMAKE 的包管理工具。
 - [clib](https://github.com/clibs/clib) 包管理工具
 - [conan](https://github.com/conan-io/conan) python 写的 C/C++ 包管理工具。
@@ -55,6 +56,7 @@
 - [tbox](https://github.com/tboox/tbox) glib 代码风格的 C 工具库。
 - [friso](https://github.com/lionsoul2014/friso) 中文分词库，提供了 PHP 、Lua、OCaml 等的插件。
 - [jemalloc](https://github.com/jemalloc/jemalloc) 通用的 malloc 内存分配库。
+- [libusb](https://github.com/libusb/libusb) USB 库。
 
 ### 数据库
 

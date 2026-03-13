@@ -77,6 +77,7 @@
 - [awesome-test-automation](https://github.com/atinfo/awesome-test-automation) 测试、自动化相关。
 - [awesome-wechat-weapp](https://github.com/justjavac/awesome-wechat-weapp)
 - [awesome-love2d](https://github.com/love2d-community/awesome-love2d)
+- [games](https://github.com/leereilly/games) 游戏相关项目清单。
 
 ### 数据或咨询站点
 

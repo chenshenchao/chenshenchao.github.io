@@ -143,6 +143,10 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [easywechat](https://github.com/w7corp/easywechat) 微信公众号 API 第三方 SDK。
 - [zanphp](https://github.com/youzan/zanphp) 有赞开源的 PHP web 框架。
 - [phpseclib](https://github.com/phpseclib/phpseclib) 安全加密算法库。
+- [PaySDK](https://github.com/Yurunsoft/PaySDK) 国内 微信、支付宝 第三方支付 SDK。
+- [smarty](https://github.com/smarty-php/smarty) HTML 模板引擎。
+- [Twig](https://github.com/twigphp/Twig) HTML 模板引擎。
+- [plates](https://github.com/thephpleague/plates) HTML 模板引擎。
 
 ## 项目、示例
 

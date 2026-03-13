@@ -61,6 +61,7 @@
 - [jBCrypt](https://github.com/jeremyh/jBCrypt) BCrypt 密码加密。
 - [bcrypt](https://github.com/patrickfav/bcrypt) bcrypt 密码加密。
 - [password4j](https://github.com/Password4j/password4j) 密码加密。
+- [opennlp](https://github.com/apache/opennlp) NLP 库。
 
 ## 网络
 
@@ -84,6 +85,7 @@
 - [druid](https://github.com/apache/druid) Apache 开源的实时分析数据库。
 - [kafka](https://github.com/apache/kafka) 消息队列。
 - [tyrant](https://github.com/mikera/tyrant) Roguelike 游戏。
+- [pixel-dungeon](https://github.com/watabou/pixel-dungeon) 像素地下城 Roguelike 游戏。
 
 ## 开发环境与包管理工具
 

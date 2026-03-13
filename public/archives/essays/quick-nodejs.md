@@ -113,7 +113,7 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [postcss-px-to-viewport](https://github.com/evrone/postcss-px-to-viewport) postcss 转设计稿 px 成 vw 插件。
 - [htmlparser2](https://github.com/fb55/htmlparser2) XML/HTML 解析器。
 - [strapi](https://github.com/strapi/strapi) CMS 项目。
-- [egg](https://github.com/eggjs/egg) web 框架。
+- [egg](https://github.com/eggjs/egg) 阿里开源的 web 框架。
 - [eggjs static](https://github.com/eggjs/static)
 - [grpc-node](https://github.com/grpc/grpc-node)
 - [apollo-server](https://github.com/apollographql/apollo-server) GraphQL 服务器框架。
@@ -140,6 +140,7 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [node-supervisor](https://github.com/petruisfan/node-supervisor) node 版的 supervisor 守护进程管理。
 - [hyper](https://github.com/vercel/hyper) 浏览器终端。
 - [insomnia](https://github.com/Kong/insomnia) 类 postman 的 GraphQL, REST, WebSockets, SSE, gRPC 客户端软件。 
+- [RSSHub](https://github.com/DIYgod/RSSHub) RSS 服务器，提供 nodejs 客户端库。
 
 ## 包管理器
 

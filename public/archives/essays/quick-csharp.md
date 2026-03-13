@@ -87,6 +87,7 @@
 - [wix3](https://github.com/wixtoolset/wix3) 打包工具。
 - [VisualStudioExtension](https://github.com/wixtoolset/VisualStudioExtension) wix 的 VS 扩展工具。
 - [Wax](https://github.com/tom-englert/Wax) wix 图形交互工具。
+- [ambie](https://github.com/jenius-apps/ambie) C# 开发的播放白噪声、自然声音帮助随眠的软件。
 
 ## mono
 
