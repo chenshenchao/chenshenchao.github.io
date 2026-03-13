@@ -113,7 +113,6 @@ python -m http.server 8000
 ### 图形
 
 - [Pillow](https://github.com/python-pillow/Pillow) PIL 绘图库。
-- [kivy](https://github.com/kivy/kivy) UI框架，主移动端。
 - [toga](https://github.com/beeware/toga) UI 框架，主桌面端。
 - [cefpython](https://github.com/cztomczak/cefpython) CEF 绑定库。
 - [pyglet](https://github.com/pyglet/pyglet) UI 多媒体库。
@@ -235,8 +234,11 @@ uv init <project_name>
 # 直接在当前目录创建项目
 uv init
 
-# 添加库 ruff
+# 添加库 ruff 到项目
 uv add ruff
+
+# 添加命令行工具 nuitka 到全局。
+uv tool install "Nuitka[all]"
 
 # 使用 ruff 做 lint 检查
 uv run ruff check
@@ -428,6 +430,33 @@ twine upload dist/*
 ### 基于 [nuitka](https://github.com/Nuitka/Nuitka) 的打包
 
 这个打包是把 Python 转成 C++ 再编译成二进制，所以使用不同的库会有编译的问题要解决。
+
+```bash
+# pip - 最小依赖
+python -m pip install -U Nuitka
+# pip - onefile/app 依赖
+python -m pip install -U "Nuitka[app]"
+# pip - 全部依赖
+python -m pip install -U "Nuitka[all]"
+
+# 通过 python 模块打包
+python -m nuitka --mode=onefile hello.py
+```
+
+```bash
+# 用 uv 安装到项目。
+uv add Nuitka
+uv add "Nuitka[app]"
+uv add "Nuitka[all]"
+
+# 用 uv 安装到全局
+uv tool install "Nuitka[all]"
+
+# 通过 uv 打包
+# --mode=onefile 单文件，全部静态链接成单个文件。
+# --mode=standalone 完整项目，报依赖的动态库都放到同个文件夹。
+uv tool run --from nuitka nuitka.cmd --mode=onefile hello.py
+```
 
 ### 基于 [py2exe](https://github.com/py2exe/py2exe) 的打包
 

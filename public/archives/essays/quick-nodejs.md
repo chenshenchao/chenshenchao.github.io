@@ -64,6 +64,7 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [puppeteer](https://github.com/puppeteer/puppeteer) 封装 Chrome、Firefox 的 API，无头浏览器自动化。
 - [playwright](https://github.com/microsoft/playwright) 微软开源的封装 Chrome、Firefox、WebKit 的 API，无头浏览器自动化。
 - [selenium](https://github.com/SeleniumHQ/selenium) 无头浏览器自动化。
+- [phantomjs](https://github.com/ariya/phantomjs) 无头浏览器。
 - [nodegit](https://github.com/nodegit/nodegit) nodejs 下对 git 命令行封装。
 - [winston](https://github.com/winstonjs/winston) 日志库。
 - [nanocolors](https://github.com/ai/nanocolors) 命令行颜色样式库。
@@ -133,6 +134,7 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 
 - [node-supervisor](https://github.com/petruisfan/node-supervisor) node 版的 supervisor 守护进程管理。
 - [hyper](https://github.com/vercel/hyper) 浏览器终端。
+- [insomnia](https://github.com/Kong/insomnia) 类 postman 的 GraphQL, REST, WebSockets, SSE, gRPC 客户端软件。 
 
 ## 包管理器
 
@@ -155,6 +157,7 @@ npm --registry https://registry.npmmirror.com i gsap
 npm --registry https://mirrors.tencent.com/npm i 
 
 # 设置全局镜像
+npm config set registry https://registry.npmmirror.com
 npm config set registry https://mirrors.tencent.com/npm
 
 # 取消全局镜像

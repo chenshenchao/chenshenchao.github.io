@@ -483,6 +483,7 @@ qwen
 
 ### 硬件项目
 
+- [libdriver](https://github.com/libdriver?tab=repositories) 单片机外设驱动集合。
 - [ESPboy_GameBoy](https://github.com/ESPboy-edu/ESPboy_GameBoy) ESP 上的 GameBoy 模拟器。
 - [DAPLink](https://github.com/ARMmbed/DAPLink)
 - [DashDAP](https://github.com/linyuxuanlin/DashDAP) 基于 STM32 的 DAPLink

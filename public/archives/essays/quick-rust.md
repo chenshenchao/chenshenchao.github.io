@@ -380,7 +380,7 @@ fi
 - [redis-rs](https://github.com/redis-rs/redis-rs) redis 客户端。
 - [tokenizers](https://github.com/huggingface/tokenizers) 分词器，支持 rust、python 等端。
 
-### UI 库
+### 图形库
 
 - [gtk4-rs](https://github.com/gtk-rs/gtk4-rs)
 - [gtk-rs](https://github.com/gtk-rs/gtk)
@@ -394,6 +394,7 @@ fi
 - [relm](https://github.com/antoyo/relm) 基于 GTK 的 UI 库。
 - [Relm4](https://github.com/Relm4/Relm4)
 - [kas](https://github.com/kas-gui/kas)
+- [conrod](https://github.com/PistonDevelopers/conrod)  UI 库。
 - [xilem](https://github.com/linebender/xilem) 实验性的桌面 UI 框架。
 - [masonry](https://github.com/linebender/masonry) 已经合并到 xilem 的 UI 设计工具。
 - [druid](https://github.com/linebender/druid) 桌面 UI 框架。
@@ -471,6 +472,7 @@ fi
 - [grmtools](https://github.com/softdevteam/grmtools) 支持 bison 与 flex 的 *.l 和 *.y 文法的构建工具。
 - [maturin](https://github.com/PyO3/maturin) 用于生成和发布 PyO3、cffi、uniffi 绑定用于扩展 python 的 rust cargo 项目的命令行工具。
 - [PyO3](https://github.com/PyO3/pyo3) 开发 Python 库。
+- [rustler](https://github.com/rusterlium/rustler) rust 开发 erlang 虚拟机 NIF 库。
 - [iced](https://github.com/icedland/iced) x86 的汇编器、反汇编器等功能的库，支持多种语言。
 - [embassy](https://github.com/embassy-rs/embassy) 支持异步的嵌入式框架。
 - [probe-rs](https://github.com/probe-rs/probe-rs) ARM、RISC-V 调试工具开发库。

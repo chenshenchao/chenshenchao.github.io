@@ -81,6 +81,7 @@
 - [questdb](https://github.com/questdb/questdb) 时序数据库，支持多语言客户端。
 - [druid](https://github.com/apache/druid) Apache 开源的实时分析数据库。
 - [kafka](https://github.com/apache/kafka) 消息队列。
+- [tyrant](https://github.com/mikera/tyrant) Roguelike 游戏。
 
 ## 开发环境与包管理工具
 

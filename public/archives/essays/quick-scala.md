@@ -1,5 +1,7 @@
 # [草稿] Scala 速查
 
+- [scala 源码](https://github.com/scala/scala)
+
 ## 常用库
 
 - [indigo](https://github.com/PurpleKingdomGames/indigo) 游戏引擎。

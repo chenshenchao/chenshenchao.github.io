@@ -1,6 +1,7 @@
 # lua 速查
 
-- [GitHub 源码仓库](https://github.com/lua/lua)
+- [lua 源码](https://github.com/lua/lua)
+- [LuaJIT 源码](https://github.com/LuaJIT/LuaJIT)
 
 ## 库与工具集
 
