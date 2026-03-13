@@ -1,5 +1,7 @@
 # nodejs 速查
 
+- [node 源码](https://github.com/nodejs/node)
+
 - [farm](https://github.com/farm-fe/farm) rust 开发的兼容 vite 的构建工具。
 - [unbuild](https://github.com/unjs/unbuild) 构建工具
 - [webpack](https://github.com/webpack/webpack) 构建工具
@@ -75,6 +77,7 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 
 ### 数据库
 
+- [mongoose](https://github.com/Automattic/mongoose) mongodb 客户端。
 - [node-mongodb-native](https://github.com/mongodb/node-mongodb-native) mongodb 原生客户端驱动。
 - [node-sqlite3](https://github.com/TryGhost/node-sqlite3) sqlite3 封装。
 - [objection.js](https://github.com/Vincit/objection.js) ORM
@@ -99,7 +102,7 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [koajs compress](https://github.com/koajs/compress)
 - [koajs static-cache](https://github.com/koajs/static-cache)
 - [koa-websocket](https://github.com/kudos/koa-websocket)
-- [pomelo](https://github.com/NetEase/pomelo) 游戏服务器框架。
+- [pomelo](https://github.com/NetEase/pomelo) 网易开源的游戏服务器框架。
 - [pinus](https://github.com/node-pinus/pinus) 基于 pomelo 的游戏服务器框架。
 - [dart-sass](https://github.com/sass/dart-sass)
 - [EvaEngine.js](https://github.com/EvaEngine/EvaEngine.js) 微服务框架。

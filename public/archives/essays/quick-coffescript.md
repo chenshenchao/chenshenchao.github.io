@@ -1,5 +1,7 @@
 # [草稿] CoffeeScript 速查
 
+- [coffeescript 源码](https://github.com/jashkenas/coffeescript)
+
 CoffeeScript 我是八九年前的时候在搞的，现在 CoffeeScript 可以说没落了，这里仅保留当年留存的一些东西。
 
 ## Webpack 配置

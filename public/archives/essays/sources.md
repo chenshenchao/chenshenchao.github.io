@@ -297,7 +297,6 @@ qwen
 - [audacity](https://github.com/audacity/audacity) 音频编辑工具。
 - [lmms](https://github.com/LMMS/lmms) 音乐编辑工具。
 - [sonic-pi](https://github.com/sonic-pi-net/sonic-pi) 音乐制作软件，支持使用 ruby 等脚本语言生成音乐。
-- [openshot-qt](https://github.com/OpenShot/openshot-qt) 视频剪辑工具。
 - [subtitleedit](https://github.com/SubtitleEdit/subtitleedit) 字幕编辑器。
 - [CyberChef](https://github.com/gchq/CyberChef) 纯静态网页的加密算法、日期格式化等方便工具。
 - [vector-drawable-nextjs](https://github.com/seanghay/vector-drawable-nextjs) 安卓图标资源（VectorDrawable）转 SVG 工具。
@@ -442,7 +441,6 @@ qwen
 - [vue-chat](https://github.com/microzz/vue-chat) Vue全家桶+Socket.io+Express/Koa2打造一个智能聊天室。
 - [entropic](https://github.com/entropic-dev/entropic) 去中性化的类 npm 包管理系统。
 - [nextcloud server](https://github.com/nextcloud/server) 文件存储托管同步服务。
-- [james-project](https://github.com/apache/james-project) Java 开发的邮箱服务器。
 - [docute](https://github.com/egoist/docute) markdown 展示成网页的站点项目。
 - [mkcert](https://github.com/FiloSottile/mkcert) 自动注册 HTTPS 证书并配置站点的服务。
 - [uacme](https://github.com/ndilieto/uacme) ACMEv2 客户端，自动注册 HTTPS 证书并配置站点的服务。

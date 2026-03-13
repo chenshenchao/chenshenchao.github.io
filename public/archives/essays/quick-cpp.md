@@ -139,6 +139,7 @@
 - [sciter-js-sdk](https://gitlab.com/sciter-engine/sciter-js-sdk) 可内嵌的 HTML/CSS/JS 的脚本引擎。内置 QuickJs。 [GitHub 旧仓库](https://github.com/c-smile/sciter-js-sdk)
 - [mos](https://github.com/morganbengtsson/mos) 游戏引擎。
 - [LumixEngine](https://github.com/nem0/LumixEngine) 3D 游戏引擎，自带场景编辑器。
+- [cocos2d-x](https://github.com/cocos2d/cocos2d-x) 游戏引擎。
 
 ### boost
 

@@ -1,5 +1,7 @@
 # rust 速查
 
+- [rust 源码](https://github.com/rust-lang/rust)
+
 Rust 和 C++ 一样有很强的类型推到能力，但是这就导致很多隐式转换，不过因为是通过 trait From Into 和泛型约束，不是使用构造函数所以不会有 C++ 构造函数命中奇怪类型的问题。
 
 'static 是一个名字带有误解的生命周期：
@@ -416,6 +418,8 @@ fi
 - [winit](https://github.com/rust-windowing/winit) 跨平台窗口创建库。
 - [rust-sciter](https://github.com/sciter-sdk/rust-sciter) sciter 的 rust 封装，HTML/CSS/JS 脚本引擎。
 - [imgui-rs](https://github.com/imgui-rs/imgui-rs)
+- [piston](https://github.com/PistonDevelopers/piston) 游戏引擎。
+- [piston-examples](https://github.com/pistondevelopers/piston-examples) piston 示例
 
 ### 网络框架和库
 

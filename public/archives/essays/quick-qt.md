@@ -13,5 +13,6 @@
 
 ## 项目、示例
 
+- [openshot-qt](https://github.com/OpenShot/openshot-qt) 视频剪辑工具。
 - [otter-browser](https://github.com/OtterBrowser/otter-browser) 浏览器
 - [vnote](https://github.com/vnotex/vnote) markdown 笔记编辑器。

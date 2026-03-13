@@ -14,6 +14,7 @@
 - [jsoneditor](https://github.com/josdejong/jsoneditor) JSON 树形编辑器组件。
 - [ckeditor4](https://github.com/ckeditor/ckeditor4) 富文本编辑器。
 - [ckeditor5](https://github.com/ckeditor/ckeditor5) 富文本编辑器。
+- [quill](https://github.com/slab/quill) 富文本编辑器。
 - [x-spreadsheet](https://github.com/myliang/x-spreadsheet) 类似 Office Excel 的 canvas 编辑器，换 TS 开发了 wolf-table。
 - [handsontable](https://github.com/handsontable/handsontable) Excel 编辑器
 - [Luckysheet](https://github.com/dream-num/Luckysheet) Excel 编辑器，基于 jQuery 已经废弃，作者转 univer 开发。

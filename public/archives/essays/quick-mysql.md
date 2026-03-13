@@ -1,5 +1,7 @@
 # MySQL 速查
 
+- [mysql-server 源码](https://github.com/mysql/mysql-server)
+
 MySQL 目前由甲骨文维护，同时有一个开源分支 MariaDB 基本上兼容。
 
 ## 模块与引擎

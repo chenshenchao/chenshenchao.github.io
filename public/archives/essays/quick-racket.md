@@ -1,6 +1,6 @@
 # [草稿] Racket 速查
 
-- [GitHub 源码仓库](https://github.com/racket/racket)
+- [racket 源码](https://github.com/racket/racket)
 
 ## 常用库
 

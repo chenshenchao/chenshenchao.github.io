@@ -261,6 +261,8 @@ uv publish
 
 ## pip
 
+- [pip 源码](https://github.com/pypa/pip)
+
 Python 自带的包管理器。
 
 因为墙的原因，需要指定国内镜像。

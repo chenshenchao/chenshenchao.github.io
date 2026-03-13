@@ -1,5 +1,6 @@
 # PHP 速查
 
+- [php-src](https://github.com/php/php-src) PHP 源码
 - [php-sdk-binary-tools](https://github.com/php/php-sdk-binary-tools) Windows 下 PHP 构建工具。
 - [php-sdk-binary-tools](https://github.com/microsoft/php-sdk-binary-tools) 微软提供的，Windows 下 PHP 构建工具，已经交给 PHP 官方维护，此仓库不在维护。
 - [zephir](https://github.com/zephir-lang/zephir) 编译型语言，用于 PHP C 扩展的开发。
@@ -76,6 +77,7 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [tntsearch](https://github.com/teamtnt/tntsearch) 倒排索引库。
 - [workerman](https://github.com/walkor/workerman)
 - [thinkphp](https://github.com/top-think/framework) Web 框架，很多基础库复用 symfony 的，国内大量专用框架由其扩展而来。
+- [think](https://github.com/top-think/think) Web 框架，很多基础库复用 symfony 的，国内大量专用框架由其扩展而来。
 - [think-swoole](https://github.com/top-think/think-swoole) thinkphp 的 swoole 适配。
 - [think-queue](https://github.com/top-think/think-queue)
 - [think-validate](https://github.com/top-think/think-validate)

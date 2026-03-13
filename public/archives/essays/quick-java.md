@@ -67,6 +67,7 @@
 - [spring-boot](https://github.com/spring-projects/spring-boot)
 - [undertow](https://github.com/undertow-io/undertow) Web 服务器。
 - [jfinal](https://github.com/jfinal/jfinal) web 框架。
+- [jpress](https://github.com/JPressProjects/jpress) JAVA 开发的类 PHP 的 WordPress 框架。
 
 ## 数据库
 
@@ -77,6 +78,7 @@
 
 ## 项目、示例
 
+- [james-project](https://github.com/apache/james-project) Java 开发的邮箱服务器。
 - [pulsar](https://github.com/apache/pulsar) 分布式订阅发布的消息服务。
 - [questdb](https://github.com/questdb/questdb) 时序数据库，支持多语言客户端。
 - [druid](https://github.com/apache/druid) Apache 开源的实时分析数据库。

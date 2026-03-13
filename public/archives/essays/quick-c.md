@@ -133,6 +133,7 @@
 - [curl](https://github.com/curl/curl)
 - [httpsqs](https://github.com/deniskin82/httpsqs) 消息队列。
 - [lighttpd1.4](https://github.com/lighttpd/lighttpd1.4) 类 nginx 的轻量级代理服务器。
+- [lighttpd2](https://github.com/lighttpd/lighttpd2) 类 nginx 的轻量级代理服务器。
 - [tengine](https://github.com/alibaba/tengine) 阿里开源的基于 nginx 的代理服务器。
 
 ## 工具
