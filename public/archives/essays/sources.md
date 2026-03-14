@@ -113,13 +113,16 @@
 - [cursor](https://github.com/cursor/cursor)
 - [trae](https://www.trae.ai) 字节编程 AI IDE
 - [qcoder](https://qoder.com) 阿里编程 AI IDE
+- [claude-code](https://github.com/anthropics/claude-code)
 - [qwen code](https://github.com/QwenLM/qwen-code) qwen code 源码
 - [LM Studio](https://lmstudio.ai/) 本地模型 AI IDE
 - [lms](https://github.com/lmstudio-ai/lms) LM Studio 命令行工具。
 
 ```bash
-# claude code 命令行工具
+# claude code 命令行工具（已弃用）新方式看官方文档。
 npm install -g @anthropic-ai/claude-code
+# powershell 方式，梯子确保区域。
+irm https://claude.ai/install.ps1 | iex
 # 运行
 claude
 
@@ -182,7 +185,8 @@ qwen
 
 - [Pencil](https://github.com/evolus/pencil) 开源 原型设计 软件。
 - [penpot](https://github.com/penpot/penpot) 开源 UI 设计 软件。
-- [DrawIO](https://github.com/jgraph/drawio-desktop) 流程图、架构图、导图软件。
+- [pddon-win](https://github.com/pddon/pddon-win) 基于网页的流程图、架构图、导图绘图软件。
+- [DrawIO](https://github.com/jgraph/drawio-desktop) 流程图、架构图、导图绘图软件。
 - [drawio-diagrams](https://github.com/jgraph/drawio-diagrams)
 - [drawio-libs](https://github.com/jgraph/drawio-libs) drawio 的库。
 - [DrawDB](https://github.com/drawdb-io/drawdb) 数据库设计图形工具。
@@ -420,8 +424,6 @@ qwen
 - [apollo](https://github.com/apolloconfig/apollo) Java 开发的配置管理服务器，有管理后台。
 - [Consul](https://github.com/hashicorp/consul) Go 开发的配置管理服务器。
 - [kubebrain](https://github.com/kubewharf/kubebrain) 为 k8s 用 Go 开发的配置管理服务器，兼容 etcd 的 API 协议。
-- [zookeeper](https://github.com/apache/zookeeper) Java 开发的配置管理服务器。
-- [eureka](https://github.com/Netflix/eureka) Netflix 用 Java 开发的配置管理服务器。
 - [ONLYOFFICE](https://github.com/ONLYOFFICE) 囊括了 microsoft office 以及 adobe pdf 等办公文件处理和前端插件的一套技术解决方案，有免费版本。
 - [beanstalkd](https://github.com/beanstalkd/beanstalkd) 任务队列服务器。
 - [nats-server](https://github.com/nats-io/nats-server) 消息中间件服务，支持发布订阅（Pub/Sub）、请求响应（Request/Reply）、队列订阅（Queue） 三种核心通信模式。
@@ -575,3 +577,9 @@ qwen
 
 - [organicmaps](https://github.com/organicmaps/organicmaps) 离线地图 APP 。
 - [firefox-ios](https://github.com/mozilla-mobile/firefox-ios) 火狐 IOS 源码。
+
+
+## 灰产
+
+- [sms-man.com](https://sms-man.com/cn/rent) 手机短信租赁服务。
+- [app.cyberyozh.com](https://app.cyberyozh.com/zh-cn/reception-sms/) 手机短信租赁服务。（口碑差）

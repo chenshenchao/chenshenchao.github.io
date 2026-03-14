@@ -26,6 +26,7 @@ dotnet tool update --global dotnet-ef
 
 ## 常用库
 
+- [cecil](https://github.com/jbevain/cecil) IL 注入、.NET 程序集修改生成库。
 - [ILPack](https://github.com/Lokad/ILPack) .NET Core IL 生成器。
 - [EPPlus](https://github.com/JanKallman/EPPlus) Excel 处理库，已迁移。
 - [EPPlus](https://github.com/EPPlusSoftware/EPPlus) Excel 处理库。
@@ -57,6 +58,7 @@ dotnet tool update --global dotnet-ef
 - [AntData.ORM](https://github.com/yuzd/AntData.ORM) ORM
 - [Box2D.NET](https://github.com/ikpil/Box2D.NET) 物理引擎。
 - [rabbitmq-dotnet-client](https://github.com/rabbitmq/rabbitmq-dotnet-client) rabbitmq 客户端。
+- [dotnet](https://github.com/MiniProfiler/dotnet) StackOverflow 开源的分析库，性能分析、SQL 分析等。
 
 ### 网络
 

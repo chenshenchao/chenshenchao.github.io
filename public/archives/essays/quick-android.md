@@ -19,6 +19,7 @@
 - [AndroidHiddenApiBypass](https://github.com/LSPosed/AndroidHiddenApiBypass) 安卓隐藏 API 调用库。
 - [LSPosed](https://github.com/LSPosed/LSPosed) Xposed 的延续。
 - [Xposed](https://github.com/rovo89/Xposed)
+- [EdXposed](https://github.com/ElderDrivers/EdXposed) 基于 Xposed 的框架。
 - [SerialPortHelper](https://github.com/freyskill/SerialPortHelper) 串口开发库。
 - [GSYRecordWave](https://github.com/CarGuo/GSYRecordWave) MP3音频录制库。
 - [anko](https://github.com/Kotlin/anko) 多工具库。
@@ -49,6 +50,7 @@
 - [Rubik](https://github.com/baidu/Rubik) 百度开源的组件化方案。
 - [ShortcutBadger](https://github.com/leolin310148/ShortcutBadger) （Samsung, LG, Sony and HTC）桌面图标加角标。
 - [otto](https://github.com/square/otto) 事件总线库。
+- [crosswalk](https://github.com/crosswalk-project/crosswalk) 类腾讯 X5 解决安卓 WebView 碎片化问题。
 
 ## 开发工具
 

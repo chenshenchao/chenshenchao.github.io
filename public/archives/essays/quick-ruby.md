@@ -12,6 +12,8 @@ Ruby 的名字来源于效仿 Perl 用 “珍珠（Pearl）”起名，所以就
 ## 项目、示例
 
 - [puma](https://github.com/puma/puma) web 服务器。
+- [chef](https://github.com/chef/chef) 自动化配置服务（云服务商创建各种虚拟容器，指定什么系统，多少CPU，多少内存此类）
+- [puppet](https://github.com/puppetlabs/puppet) 自动化配置服务
 
 ## 包管理
 

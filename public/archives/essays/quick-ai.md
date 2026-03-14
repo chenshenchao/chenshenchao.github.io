@@ -18,6 +18,7 @@
 - [darknet](https://github.com/pjreddie/darknet)
 - [botpress](https://github.com/botpress/botpress)
 - [BitNet](https://github.com/microsoft/BitNet)  1-bit LLMs 框架。
+- [ray](https://github.com/ray-project/ray) 分布式计算引擎，用于加机器以加快 AI 训练。
 
 ## 资料源
 
@@ -118,7 +119,7 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [DragGAN](https://github.com/XingangPan/DragGAN) 通过拖拽修改图片。
 - [txtai](https://github.com/neuml/txtai) 集语义搜索、语言模型编排和语言模型工作流于一体的人工智能框架。
 - [text2text](https://github.com/artitw/text2text)
-
+- [ChatRWKV](https://github.com/BlinkDL/ChatRWKV) 类 ChatGPT 的 RWKV（100% RNN）对话模型。
 
 ## AI 应用开发
 
@@ -133,6 +134,7 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 ### 开源 AI Agant 项目
 
 - [openclaw](https://github.com/openclaw/openclaw)
+- [ironclaw](https://github.com/nearai/ironclaw)
 - [nanoclaw](https://github.com/qwibitai/nanoclaw)
 - [goclaw](https://github.com/nextlevelbuilder/goclaw)
 - [AutoGen](https://github.com/microsoft/autogen) 微软给 python 的 multi-agent 框架。
@@ -143,10 +145,16 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [AutoAgent](https://github.com/HKUDS/AutoAgent) 命令行界面的 Agent 项目。
 - [AgentGPT](https://github.com/reworkd/AgentGPT) 网页界面的 Agent 项目。
 - [BabyAGI](https://github.com/yoheinakajima/babyagi) python 的 AGI 开发库。
+- [open-text-embeddings](https://github.com/rag-wtf/open-text-embeddings) 兼容 openAI 的 API 的嵌入文本模型框架。
+- [anylabeling](https://github.com/vietanhdev/anylabeling) 数据标注工具。
+
+### AI 应用
+
 - [sim](https://github.com/simstudioai/sim) workflow 项目。
 - [ComfyUI](https://github.com/Comfy-Org/ComfyUI) 基于 sd 的生图工具。
 - [openui](https://github.com/wandb/openui) 文本 生成 UI 界面的项目。
-- [open-text-embeddings](https://github.com/rag-wtf/open-text-embeddings) 兼容 openAI 的 API 的嵌入文本模型框架。
+- [TaskMatrix](https://github.com/chenfei-wu/TaskMatrix) 阔图工具，调用 OpenAI 接口。
+- [gpt-engineer](https://github.com/AntonOsika/gpt-engineer) 代码生成命令行工具，调用 OpenAI 接口。
 
 ### RAG（Retrieval Augmented Generation）
 

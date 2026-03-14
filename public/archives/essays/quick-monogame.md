@@ -37,3 +37,42 @@ Gum 的做法类似 WinForms、Delphi 这类，通过拖拽得到一个界面文
 
 - [Bitmap Font Generator](https://www.angelcode.com/products/bmfont/) 生成 Bitmap 字体工具。
 
+## 字体/字符
+
+精灵字符 *.spritefont 文件是一种 xml 文件。
+配置这种文件后，编译时会自动根据这个配置去生成字符贴图，所以可不用 BMFont 生成贴图去导入。
+在设置 CharacterRegions 时，如果设置的字符比较多，编译耗时越久。
+还要考虑字体是否有版权，所以建议使用 思源黑体。
+由于此功能必须使用系统注册的字体，所以需要注册 思源黑体 到系统字体里。
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics">
+  <Asset Type="Graphics:FontDescription">
+    <FontName>Microsoft YaHei</FontName>
+    <Size>18</Size>
+    <Spacing>0</Spacing>
+    <UseKerning>true</UseKerning>
+    <Style>Regular</Style>
+    <CharacterRegions>
+      <CharacterRegion>
+        <Start>32</Start>
+        <End>127</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>12288</Start>
+        <End>12351</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>19968</Start>
+        <End>40959</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>65280</Start>
+        <End>65519</End>
+      </CharacterRegion>
+    </CharacterRegions>
+  </Asset>
+</XnaContent>
+
+```

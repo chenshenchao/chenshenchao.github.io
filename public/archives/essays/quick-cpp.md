@@ -170,6 +170,7 @@
 - [baremetal](https://github.com/cortexm/baremetal) ARM cortex-M 裸机示例。
 - [apollo](https://github.com/ApolloAuto/apollo) 自动驾驶项目。
 - [Effekseer](https://github.com/effekseer/Effekseer) 粒子效果编辑器。
+- [supertux](https://github.com/SuperTux/supertux) 类 马里奥 的游戏，主角是企鹅。
 - [kys-cpp](https://github.com/scarsty/kys-cpp) 《金庸群侠传》c++复刻版
 - [wesnoth](https://github.com/wesnoth/wesnoth) 幻想题材的回合制策略游戏，steam 上有。
 - [AutoHotkey](https://github.com/AutoHotkey/AutoHotkey) Windows 下鼠标键盘自动化脚本框架。

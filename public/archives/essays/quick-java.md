@@ -86,6 +86,7 @@
 - [kafka](https://github.com/apache/kafka) 消息队列。
 - [tyrant](https://github.com/mikera/tyrant) Roguelike 游戏。
 - [pixel-dungeon](https://github.com/watabou/pixel-dungeon) 像素地下城 Roguelike 游戏。
+- [eureka](https://github.com/Netflix/eureka) Netflix 用 Java 开发的服务发现基础设施，作用类 zookeeper。
 
 ## 开发环境与包管理工具
 

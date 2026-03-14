@@ -174,6 +174,8 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [cef2go](https://github.com/cztomczak/cef2go) CEF 绑定。
 - [pixel](https://github.com/faiface/pixel) go 开发的 2d 游戏库。
 - [vugu](https://github.com/vugu/vugu) 生成 WASM 的 UI 框架。
+- [gioui](https://github.com/gioui) 跨平台 UI 框架。
+- [gio-example](https://github.com/gioui/gio-example) gioui 示例。
 
 ## 项目
 
@@ -199,6 +201,7 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [pike](https://github.com/vicanso/pike) HTTP 缓存服务器，提供管理 web 界面。已不维护。
 - [kubebrain](https://github.com/kubewharf/kubebrain) k8s 分布式调控 API 服务器。
 - [dgraph](https://github.com/dgraph-io/dgraph) GO 开发的 分布式图数据库（DQL），兼容 GraphQL 模式。
+- [consul](https://github.com/hashicorp/consul) 类 etcd 的分布式基础设施，比 etcd 设计更详细的功能。
 
 ## 常用命令
 

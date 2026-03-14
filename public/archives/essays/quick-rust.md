@@ -1,6 +1,7 @@
 # rust 速查
 
 - [rust 源码](https://github.com/rust-lang/rust)
+- [https://rsproxy.cn/](https://rsproxy.cn/) 字节的镜像，应该是最好的。
 
 Rust 和 C++ 一样有很强的类型推到能力，但是这就导致很多隐式转换，不过因为是通过 trait From Into 和泛型约束，不是使用构造函数所以不会有 C++ 构造函数命中奇怪类型的问题。
 
@@ -27,6 +28,10 @@ rustup 用于安装和更新 rust 编译构造工具。
 由于“墙”，需要配置国内镜像源。
 
 ```bash
+# Linux 配置 字节源
+export RUSTUP_DIST_SERVER="https://rsproxy.cn"
+export RUSTUP_UPDATE_ROOT="https://rsproxy.cn/rustup"
+
 # Linux 配置 清华源
 export RUSTUP_DIST_SERVER=https://mirrors.tuna.tsinghua.edu.cn/rustup
 
@@ -36,6 +41,10 @@ export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
 ```
 
 ```bat
+@rem Linux 配置 字节源
+set RUSTUP_DIST_SERVER="https://rsproxy.cn"
+set RUSTUP_UPDATE_ROOT="https://rsproxy.cn/rustup"
+
 @rem Windows cmd 配置 清华源
 set RUSTUP_DIST_SERVER=https://mirrors.tuna.tsinghua.edu.cn/rustup
 
@@ -163,6 +172,19 @@ registry = "https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git"
 # 指定 msvc 静态链接 crt
 [target.x86_64-pc-windows-msvc]
 rustflags = ["-C", "target-feature=+crt-static"]
+```
+
+```ini
+[source.crates-io]
+replace-with = 'rsproxy-sparse'
+[source.rsproxy]
+registry = "https://rsproxy.cn/crates.io-index"
+[source.rsproxy-sparse]
+registry = "sparse+https://rsproxy.cn/index/"
+[registries.rsproxy]
+index = "https://rsproxy.cn/crates.io-index"
+[net]
+git-fetch-with-cli = true
 ```
 
 ### 常用命令
@@ -516,6 +538,7 @@ fi
 - [czkawka](https://github.com/qarmin/czkawka) 类 文件管理器。
 - [xi-editor](https://github.com/xi-editor/xi-editor) 文档编辑器。
 - [pingap](https://github.com/vicanso/pingap) 基于 pingora 的类 nginx 的反向代理服务器。
+- [doukutsu-rs](https://github.com/doukutsu-rs/doukutsu-rs)《洞窟物语》引擎重置版（不提供原版数据资源）。
 
 ## 兼容
 

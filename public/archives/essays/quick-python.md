@@ -165,6 +165,7 @@ python -m http.server 8000
 - [snake](https://github.com/chynl/snake) 贪吃蛇演示 AI 训练与应用。
 - [pe_tree](https://github.com/blackberry/pe_tree) PE 文件可视化树状分析工具。
 - [pypyjs](https://github.com/pypyjs/pypyjs) pypy 转 JS 工具。
+- [Kiwi](https://github.com/kiwitcms/Kiwi) 测试管理服务，有测试用例管理、自动化测试管理、API等功能。
 
 ## 虚拟环境
 

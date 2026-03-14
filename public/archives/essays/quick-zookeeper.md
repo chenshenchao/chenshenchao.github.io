@@ -1,5 +1,9 @@
 # Zookeeper 速查
 
+- [zookeeper 源码](https://github.com/apache/zookeeper)
+
+Java 开发的配置管理服务器。
+
 ```bash
 # 单条执行 help
 zkCli -server 127.0.0.1:2181 help
