@@ -85,7 +85,8 @@
 - [druid](https://github.com/apache/druid) Apache 开源的实时分析数据库。
 - [kafka](https://github.com/apache/kafka) 消息队列。
 - [tyrant](https://github.com/mikera/tyrant) Roguelike 游戏。
-- [pixel-dungeon](https://github.com/watabou/pixel-dungeon) 像素地下城 Roguelike 游戏。
+- [pixel-dungeon](https://github.com/watabou/pixel-dungeon) 像素地牢 Roguelike 游戏，已废弃。
+- [shattered-pixel-dungeon](https://github.com/00-Evan/shattered-pixel-dungeon) 像素地牢 Roguelike 游戏。
 - [eureka](https://github.com/Netflix/eureka) Netflix 用 Java 开发的服务发现基础设施，作用类 zookeeper。
 
 ## 开发环境与包管理工具
@@ -98,6 +99,16 @@ PATH=%PATH%;%JAVA_HOME%\bin
 1. 如果拉包后出现类找不到的问题，大概率是由于墙的原因，导致拉包失败但是又没有清理干净，导致 gradle 误以为包已经拉取了，但是实际是个空的，此时就会报找不到类。
 
 ### maven
+
+```xml
+<!-- 腾讯云镜像 -->
+<mirror>
+    <id>nexus-tencentyun</id>
+    <mirrorOf>*</mirrorOf>
+    <name>Nexus tencentyun</name>
+    <url>http://mirrors.cloud.tencent.com/nexus/repository/maven-public/</url>
+</mirror> 
+```
 
 ### [SDKMAN](https://sdkman.io/)
 

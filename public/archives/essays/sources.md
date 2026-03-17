@@ -121,7 +121,7 @@
 ```bash
 # claude code 命令行工具（已弃用）新方式看官方文档。
 npm install -g @anthropic-ai/claude-code
-# powershell 方式，梯子确保区域。
+# powershell 方式，需要管理员权限，梯子确保区域。
 irm https://claude.ai/install.ps1 | iex
 # 运行
 claude
@@ -417,10 +417,6 @@ qwen
 - [minio](https://github.com/minio/minio) GO 实现的兼容 S3 的对象存储。
 - [tidb](https://github.com/pingcap/tidb) 分布式关系数据库。
 - [tikv](https://github.com/tikv/tikv) TiDB 的键值对数据库。
-- [IceFireDB](https://github.com/IceFireDB/IceFireDB) 兼容 redis 的分布式键值对数据库。
-- [redis](https://github.com/redis/redis) 键值对数据库。
-- [microsoftarchive redis](https://github.com/microsoftarchive/redis) redis 3.0 的 Windows 版本。
-- [KeyDB](https://github.com/Snapchat/KeyDB) 扩展 Redis 为多线程的项目。
 - [apollo](https://github.com/apolloconfig/apollo) Java 开发的配置管理服务器，有管理后台。
 - [Consul](https://github.com/hashicorp/consul) Go 开发的配置管理服务器。
 - [kubebrain](https://github.com/kubewharf/kubebrain) 为 k8s 用 Go 开发的配置管理服务器，兼容 etcd 的 API 协议。
@@ -527,8 +523,8 @@ qwen
 - [NoLifeNx](https://github.com/NoLifeDev/NoLifeNx) Nx 文件提取库。
 - [MapleStory-GM-Client](https://github.com/Elem8100/MapleStory-GM-Client) 离线冒险岛客户端模拟器。（Delphi）
 - [MapleNecrocer](https://github.com/Elem8100/MapleNecrocer) 离线冒险岛客户端模拟器。（C#）
-- [WzComparerR2-Plus](https://github.com/Elem8100/WzComparerR2-Plus) 冒险岛 *.wz 资源提取器和清单。
-- [ExtractorSharp](https://github.com/d-mod/ExtractorSharp) *.img、*.npk 资源编辑器。
+- [WzComparerR2-Plus](https://github.com/Elem8100/WzComparerR2-Plus) 冒险岛 \*.wz 资源提取器和清单。
+- [ExtractorSharp](https://github.com/d-mod/ExtractorSharp) \*.img、\*.npk 资源编辑器。
 - [MapleServer2](https://github.com/AlanMorel/MapleServer2) 冒险岛2 服务端复刻，仅用于教学。
 - [MapleClientEditTemplate](https://github.com/oung/MapleClientEditTemplate)
 - [Edelstein](https://github.com/Kaioru/Edelstein) C# 开发的蘑菇 V95.1 服务器。
@@ -550,6 +546,7 @@ qwen
 - [Universal-LPC-Spritesheet-Character-Generator](https://github.com/LiberatedPixelCup/Universal-LPC-Spritesheet-Character-Generator) 纸娃娃素材生成器。
 - [Universal-LPC-Spritesheet-Character-Generator](https://github.com/sanderfrenken/Universal-LPC-Spritesheet-Character-Generator) 纸娃娃素材生成器。
 - [Universal-LPC-spritesheet](https://github.com/makrohn/Universal-LPC-spritesheet) 纸娃娃素材。
+- [https://opengameart.org](https://opengameart.org)
 
 ### 系统
 

@@ -21,6 +21,7 @@ dotnet tool update --global dotnet-ef
 - [machinelearning](https://github.com/dotnet/machinelearning) 机器学习框架。
 - [Open-XML-SDK](https://github.com/dotnet/Open-XML-SDK) Excel（xlsx）、Word（dosx）基于 XML 格式的处理库。 
 - [maui](https://github.com/dotnet/maui)
+- [spark](https://github.com/dotnet/spark) dotnet 接入 spark 的库。
 - [Microsoft.Maui.Graphics](https://github.com/dotnet/Microsoft.Maui.Graphics) 实验性的跨平台图形渲染库。
 - [ILMerge](https://github.com/dotnet/ILMerge) 把多个 .NET 程序集合并成一个的工具，已经不维护，依赖 .NET 4 运行时。
 
@@ -28,6 +29,7 @@ dotnet tool update --global dotnet-ef
 
 - [cecil](https://github.com/jbevain/cecil) IL 注入、.NET 程序集修改生成库。
 - [ILPack](https://github.com/Lokad/ILPack) .NET Core IL 生成器。
+- [Natasha](https://github.com/dotnetcore/Natasha) 基于 roslyn 动态编译加载 C# 代码的库。
 - [EPPlus](https://github.com/JanKallman/EPPlus) Excel 处理库，已迁移。
 - [EPPlus](https://github.com/EPPlusSoftware/EPPlus) Excel 处理库。
 - [ExcelDna](https://github.com/Excel-DNA/ExcelDna) Excel 扩展 .xll 自定义计算函数开发工具。
@@ -65,6 +67,9 @@ dotnet tool update --global dotnet-ef
 - [LiteNetLib](https://github.com/RevenantX/LiteNetLib) 轻量级 UDP 库。
 - [NetCoreServer](https://github.com/chronoxor/NetCoreServer) 网络库。
 - [SmtpServer](https://github.com/cosullivan/SmtpServer) SMTP 邮件发送服务器开发库。
+- [Furion](https://github.com/monksoul/Furion) 非 .NET ASP 的 web 框架。
+- [OrchardCore](https://github.com/OrchardCMS/OrchardCore) 基于 .NET ASP 的 CMS 框架。
+- [Vue.NetCore](https://github.com/cq-panda/Vue.NetCore) Vue + .NET ASP 开发的模板项目。
 
 ## 工具
 
@@ -77,6 +82,10 @@ dotnet tool update --global dotnet-ef
 - [Costura](https://github.com/Fody/Costura) Fody 插件，用于把资源内嵌到程序集里。
 - [YiShaAdmin](https://github.com/liukuo362573/YiShaAdmin) 管理后台模板项目。
 - [jellyfin](https://github.com/jellyfin/jellyfin) 媒体系统服务器后端。
+- [AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool) 免杀生成工具。
+- [Ladon](https://github.com/k8gege/Ladon) 渗透漏洞扫描工具。
+- [openhardwaremonitor](https://github.com/openhardwaremonitor/openhardwaremonitor) 基于 .NET Framework 硬件监控工具。
+- [ReportGenerator](https://github.com/danielpalme/ReportGenerator) 项目分析工具，分析测试用例覆盖的代码比例，可以生成 HTML 的报告。
 
 ## 单文件打包
 

@@ -2,32 +2,52 @@
 
 ## JDK 版本对照表
 
-|       Gradle      |       JDK     |
-|       2.0         |       8       |
-|       4.3         |       9       |
-|       4.7         |       10      |
-|       5.0         |       11      |
-|       5.4         |       12      |
-|       6.0         |       13      |
-|       6.3         |       14      |
-|       6.7         |       15      |
-|       7.0         |       16      |
-|       7.3         |       17      |
-|       7.5         |       18      |
-|       7.6         |       19      |
-|       8.1         |       20      |
+| Gradle | JDK |
+| 2.0 | 8 |
+| 4.3 | 9 |
+| 4.7 | 10 |
+| 5.0 | 11 |
+| 5.4 | 12 |
+| 6.0 | 13 |
+| 6.3 | 14 |
+| 6.7 | 15 |
+| 7.0 | 16 |
+| 7.3 | 17 |
+| 7.5 | 18 |
+| 7.6 | 19 |
+| 8.1 | 20 |
 
 ## 扩展
 
 - [gradle-bintray-plugin](https://github.com/bintray/gradle-bintray-plugin) 发布到 bintray 的插件。
 - [protobuf-gradle-plugin](https://github.com/google/protobuf-gradle-plugin) protobuf 生成代码扩展。
 
-
 GRADLE_HOME
 PATH=%PATH%;%GRADLE_HOME%\bin
 
 gradle 包缓存目录 ~/.gradle/caches
 ~/.gradle/caches/modules-2/files-2.1
+
+## 配置
+
+```groovy
+allprojects {
+  repositories {
+    maven {
+        // 阿里云镜像
+        url 'https://maven.aliyun.com/repository/public/'
+    }
+    maven {
+        // 华为云镜像
+        url 'https://mirrors.huaweicloud.com/repository/maven/'
+    }
+    maven {
+        // 腾讯云镜像
+        url 'https://mirrors.cloud.tencent.com/nexus/repository/maven-public/'
+    }
+  }
+}
+```
 
 ## 常用命令
 

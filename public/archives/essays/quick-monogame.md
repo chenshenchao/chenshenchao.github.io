@@ -16,11 +16,15 @@
 - [FontStashSharp](https://github.com/FontStashSharp/FontStashSharp) 字体加载库。
 - [Gum](https://github.com/vchelaru/Gum) 游戏 UI 设计工具和库，支持 MonoGame、WPF等。
 - [GeonBit.UI](https://github.com/RonenNess/GeonBit.UI) UI 库。
+- [Apos.Gui](https://github.com/Apostolique/Apos.Gui) 极度简洁（纯文本）的 UI 库。
 - [VelcroPhysics](https://github.com/Genbox/VelcroPhysics) 物理引擎库。
 
 ### GUM
 
 Gum 的做法类似 WinForms、Delphi 这类，通过拖拽得到一个界面文件，然后通过这个界面文件生成对应语言的代码，只是 WinForms、Delphi 这些生成的代码被放在比较隐蔽的临时文件里面（这也是这类框架的问题很多 BUG 的原因，临时文件被某个进程锁住，导致代码文件更新不了，界面是旧的。）
+
+代码形式开发支持 *.spritefont 的方式使用字体。
+可拖拽工具目前只支持 *.fnt 的方式使用字体。
 
 #### 代码生成
 
@@ -28,6 +32,15 @@ Gum 的做法类似 WinForms、Delphi 这类，通过拖拽得到一个界面文
 
 - Code Project Root：这个一般写 ../../ 后会自动变成绝对路径。（示例都是放在 Content 里，所以几乎都可以写 ../../）
 - Output Library：这个新的项目都是选 MonoGame + Forms，因为其他项带有“废弃”字样。
+
+#### states 状态
+
+这个类似 CSS伪类 或者 动画系统的帧状态，可以自定义，用于事件或动画的状态切换。
+Default 状态对应组件的默认值，选中其他状态后可以修改组件及其子组件的值，这些值会随着状态改变而改变。
+
+#### Behaviors 行为
+
+行为必须是 组件（Components）才能编辑，幕（Screens）里的组件不能修改其行为。
 
 ### GeonBit.UI
 
@@ -40,10 +53,15 @@ Gum 的做法类似 WinForms、Delphi 这类，通过拖拽得到一个界面文
 ## 字体/字符
 
 精灵字符 *.spritefont 文件是一种 xml 文件。
-配置这种文件后，编译时会自动根据这个配置去生成字符贴图，所以可不用 BMFont 生成贴图去导入。
+配置这种文件后，编译时会自动根据这个配置去生成字符贴图，手写 UI 代码可以用 *.spritefont 开发。
+如果用 GUM 的可视化工具开发则仍需 BMFont 生成贴图并配合导入 *.fnt 使用。
 在设置 CharacterRegions 时，如果设置的字符比较多，编译耗时越久。
 还要考虑字体是否有版权，所以建议使用 思源黑体。
 由于此功能必须使用系统注册的字体，所以需要注册 思源黑体 到系统字体里。
+
+- 微软雅黑：Microsoft YaHei
+- 思源黑体：Source Han Sans
+- 思源宋体：Source Han Serif
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -74,5 +92,4 @@ Gum 的做法类似 WinForms、Delphi 这类，通过拖拽得到一个界面文
     </CharacterRegions>
   </Asset>
 </XnaContent>
-
 ```

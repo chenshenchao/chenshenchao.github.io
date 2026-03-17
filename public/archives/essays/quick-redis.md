@@ -5,6 +5,9 @@
 - [garnet](https://github.com/microsoft/garnet) 微软用 .NET 开发的兼容 Redis 的键值对数据库。
 - [dragonfly](https://github.com/dragonflydb/dragonfly) 兼容 Redis 的键值对数据库。
 - [Windows 下的 redis](https://github.com/tporadowski/redis) 第三方提供的 redis ，版本相对滞后。
+- [IceFireDB](https://github.com/IceFireDB/IceFireDB) 兼容 redis 的分布式键值对数据库。
+- [microsoftarchive redis](https://github.com/microsoftarchive/redis) redis 3.0 的 Windows 版本。
+- [KeyDB](https://github.com/Snapchat/KeyDB) 扩展 Redis 为多线程的项目。
 
 ## 配置
 
