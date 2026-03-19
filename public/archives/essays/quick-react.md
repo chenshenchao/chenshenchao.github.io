@@ -78,6 +78,7 @@ npx create-expo-app
 - [styled-components](https://github.com/styled-components/styled-components) 样式定义组件的库。
 - [react-i18next](https://github.com/i18next/react-i18next) 为 React 开发的 i18n 扩展库。
 - [semi-design](https://github.com/DouyinFE/semi-design) 抖音开源的桌面 UI 组件库。
+- [alibaba-fusion](https://github.com/alibaba-fusion/next) 阿里开源的桌面 UI 组件库。
 - [Ant Design](https://github.com/ant-design/ant-design) 阿里开源的桌面 UI 组件库，组件多，很多问题没解决，使用方法旧，不推荐。
 - [ant-motion](https://github.com/ant-design/ant-motion) ant 配套的动画组件。
 - [Ant Design Pro](https://github.com/ant-design/ant-design-pro) 基于 Ant Design 后台项目，可用于二开，不推荐。

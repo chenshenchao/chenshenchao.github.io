@@ -23,8 +23,8 @@
 ## 资料源
 
 - [HuggingFace](https://huggingface.co/)  提供模型(Models)、数据集（Datasets）仓库和展示（Spaces）的站点。
-- [OpenRouter](https://openrouter.ai/)
-- [ModelScope](https://www.modelscope.cn)
+- [OpenRouter](https://openrouter.ai/) AI 大模型 API 聚合平台
+- [ModelScope](https://www.modelscope.cn) 魔塔，阿里的 AI 开发进程的一站式 AI 生态平台
 - [阿里云百炼](https://bailian.console.aliyun.com/) 云平台，目前有送免费 100万 tokens 额度。
 - [nlp_chinese_corpus](https://github.com/brightmart/nlp_chinese_corpus) 大规模中文自然语言处理语料
 - [Chinese-Word-Vectors](https://github.com/Embedding/Chinese-Word-Vectors) 中文词向量
@@ -137,6 +137,40 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [ironclaw](https://github.com/nearai/ironclaw)
 - [nanoclaw](https://github.com/qwibitai/nanoclaw)
 - [goclaw](https://github.com/nextlevelbuilder/goclaw)
+
+### AI 编程工具
+
+- [cursor](https://github.com/cursor/cursor)
+- [trae](https://www.trae.ai) 字节编程 AI IDE
+- [qcoder](https://qoder.com) 阿里编程 AI IDE
+- [claude-code](https://github.com/anthropics/claude-code)
+- [opencode](https://github.com/anomalyco/opencode) anomalyco
+- [opencode](https://github.com/opencode-ai/opencode) opencode-ai
+- [qwen code](https://github.com/QwenLM/qwen-code) qwen code 源码
+- [LM Studio](https://lmstudio.ai/) 本地模型 AI IDE
+- [lms](https://github.com/lmstudio-ai/lms) LM Studio 命令行工具。
+
+```bash
+# claude code 命令行工具（已弃用）新方式看官方文档。
+npm install -g @anthropic-ai/claude-code
+# powershell 方式，需要管理员权限，梯子确保区域。
+irm https://claude.ai/install.ps1 | iex
+# 运行
+claude
+
+# openai codex 命令行工具
+npm install -g @openai/codex
+# 运行
+codex
+
+# 千问命令行工具
+npm install -g @qwen-code/qwen-code
+# 运行
+qwen
+```
+
+### AI 框架、库、工具。
+
 - [AutoGen](https://github.com/microsoft/autogen) 微软给 python 的 multi-agent 框架。
 - [jina](https://github.com/jina-ai/serve) 多模态 AI 框架。
 - [Agent Lightning](https://github.com/microsoft/agent-lightning) 微软发布的 AI 代理训练与优化的框架，可以和 autogen 结合使用。
@@ -152,9 +186,12 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 
 - [sim](https://github.com/simstudioai/sim) workflow 项目。
 - [ComfyUI](https://github.com/Comfy-Org/ComfyUI) 基于 sd 的生图工具。
+- [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) 图片生成。
 - [openui](https://github.com/wandb/openui) 文本 生成 UI 界面的项目。
 - [TaskMatrix](https://github.com/chenfei-wu/TaskMatrix) 阔图工具，调用 OpenAI 接口。
 - [gpt-engineer](https://github.com/AntonOsika/gpt-engineer) 代码生成命令行工具，调用 OpenAI 接口。
+- [upscayl](https://github.com/upscayl/upscayl) AI 分辨率放大清晰工具。
+- [muzic](https://github.com/microsoft/muzic) 音乐生成。
 
 ### RAG（Retrieval Augmented Generation）
 

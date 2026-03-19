@@ -108,41 +108,6 @@
 
 ## 常用工具
 
-### AI 编程工具
-
-- [cursor](https://github.com/cursor/cursor)
-- [trae](https://www.trae.ai) 字节编程 AI IDE
-- [qcoder](https://qoder.com) 阿里编程 AI IDE
-- [claude-code](https://github.com/anthropics/claude-code)
-- [qwen code](https://github.com/QwenLM/qwen-code) qwen code 源码
-- [LM Studio](https://lmstudio.ai/) 本地模型 AI IDE
-- [lms](https://github.com/lmstudio-ai/lms) LM Studio 命令行工具。
-
-```bash
-# claude code 命令行工具（已弃用）新方式看官方文档。
-npm install -g @anthropic-ai/claude-code
-# powershell 方式，需要管理员权限，梯子确保区域。
-irm https://claude.ai/install.ps1 | iex
-# 运行
-claude
-
-# openai codex 命令行工具
-npm install -g @openai/codex
-# 运行
-codex
-
-# 千问命令行工具
-npm install -g @qwen-code/qwen-code
-# 运行
-qwen
-```
-
-### AI 工具
-
-- [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) 图片生成。
-- [upscayl](https://github.com/upscayl/upscayl) AI 分辨率放大清晰工具。
-- [muzic](https://github.com/microsoft/muzic) 音乐生成。
-
 ### 模拟器、虚拟机、仿真机、沙盒、浏览器、终端。
 
 - [Bochs](https://github.com/bochs-emu/Bochs) 跨平台的 x86 模拟器。
