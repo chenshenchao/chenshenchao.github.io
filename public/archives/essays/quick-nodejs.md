@@ -190,6 +190,20 @@ npm ci --legacy-peer-deps
 npm audit --registry=https://registry.npmjs.org/ -scope next
 ```
 
+```bash
+# -w 使用 npm workspaces 初始化子项目。
+npm init -w packages/utils -y
+
+# -w 指定 子项目执行命令
+npm run build -w utils
+
+# -ws 执行整个工作空间的所有项目
+npm run build -ws
+
+# 查看所有 workspace 列表与依赖关系
+npm ls -ws
+```
+
 项目目录下 .npmrc 可配置包管理。
 
 ```ini

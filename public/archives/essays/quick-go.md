@@ -86,7 +86,7 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [ent](https://github.com/ent/ent) 类 C# 的 EF 的框架。
 - [entimport](https://github.com/ariga/entimport) 第三方提供 ent 的工具，已经多年不维护。
 - [pgx](https://github.com/jackc/pgx) PostgreSQL 客户端库。
-- [golang-migrate](https://github.com/golang-migrate/migrate) 数据库迁移命令行工具与库。
+- [golang-migrate](https://github.com/golang-migrate/migrate) 数据库迁移命令行工具与库，基于 SQL 文件。
 - [badger](https://github.com/dgraph-io/badger) 可内嵌的键值对数据库。
 - [nutsdb](https://github.com/nutsdb/nutsdb) 可内嵌的键值对数据库。
 - [goleveldb](https://github.com/syndtr/goleveldb) 可内嵌的键值对数据库。
@@ -99,7 +99,8 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [golucene](https://github.com/ironsweet/golucene) 类 lucene 倒排索引库。
 - [riot](https://github.com/go-ego/riot) 可内嵌的全文搜索数据库。
 - [gorp](https://github.com/go-gorp/gorp) 简易 ORM，需要手写 SQL 。
-- [gorm](https://github.com/go-gorm/gorm) 国人开发的 ORM ，动态类型，功能比较全。
+- [sqlc](https://github.com/sqlc-dev/sqlc) ORM ，有代码生成工具，使用 SQL 模板作为查询。
+- [gorm](https://github.com/go-gorm/gorm) 国人开发的 ORM ，链式，动态类型，功能比较全，支持代码生成。
 - [gorm gen](https://github.com/go-gorm/gen) gorm 的 DbFirst 代码生成工具。
 - [sqlite](https://github.com/glebarez/sqlite) 纯 Go 的 Sqlite GORM 驱动。
 - [go-sqlite3](https://github.com/mattn/go-sqlite3) database/sql 的 cgo 的 sqlite 驱动。
@@ -202,6 +203,7 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [kubebrain](https://github.com/kubewharf/kubebrain) k8s 分布式调控 API 服务器。
 - [dgraph](https://github.com/dgraph-io/dgraph) GO 开发的 分布式图数据库（DQL），兼容 GraphQL 模式。
 - [consul](https://github.com/hashicorp/consul) 类 etcd 的分布式基础设施，比 etcd 设计更详细的功能。
+- [atlas](https://github.com/ariga/atlas) GO 语言开发的数据库迁移管理的命令行工具与库，主支持 GO 和其他语言（C#、JAVA、python 等）。
 
 ## 常用命令
 

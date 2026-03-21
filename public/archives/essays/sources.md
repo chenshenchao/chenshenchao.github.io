@@ -260,7 +260,6 @@
 - [vtracer](https://github.com/visioncortex/vtracer) 像素图(gif、jpg、png等)转SVG命令行工具。
 - [potrace](https://potrace.sourceforge.net/) 像素图（pnm、bmp等）转SVG命令行工具。
 - [EasyDb](https://github.com/shencangsheng/easydb_app) 用 SQL 像数据库一样处理 CSV、JSON、Excel 等文件的查询。
-- [rembg](https://github.com/danielgatis/rembg) 抠图工具，Python 命令行。
 - [espeak-ng](https://github.com/espeak-ng/espeak-ng) 跨平台 TTS 工具。
 - [Whisper](https://github.com/Const-me/Whisper) 打包了 openai 语言模型，提供命令行和一个简易的界面软件。
 - [olive](https://github.com/olive-editor/olive) 音频编辑工具。
@@ -497,6 +496,8 @@
 - [MapleStoryUnity](https://github.com/MapleStoryUnity/MapleStoryUnity) Unity 开发的冒险岛。
 - [awesome-maplestory](https://github.com/MapleStoryUnity/awesome-maplestory)
 - [tiled](https://github.com/mapeditor/tiled) 2D 瓦片地图编辑器。
+- [ldtk](https://github.com/deepnight/ldtk) 2D 瓦片地图编辑器。
+- [Ogmo-Editor-3](https://github.com/Ogmo-Editor-3) 2D 瓦片地图编辑器。
 - [piskel](https://github.com/piskelapp/piskel) 基于 web 的像素素材编辑器。
 - [BrowserQuest](https://github.com/mozilla/BrowserQuest) mozilla 开源的 2D 即时页游。
 - [BrowserQuest-PHP](https://github.com/walkor/BrowserQuest-PHP) 基于 Workerman 的 PHP 版 BrowserQuest。

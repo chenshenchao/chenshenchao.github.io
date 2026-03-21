@@ -124,6 +124,7 @@ python -m http.server 8000
 - [DearPyGui](https://github.com/hoffstadt/DearPyGui) ImGUI 的封装。
 - [pycairo](https://github.com/pygobject/pycairo) 封装 cairo 绘图库。
 - [pyecharts](https://github.com/pyecharts/pyecharts) 类百度 echarts 图表、图形绘图库。
+- [rembg](https://github.com/danielgatis/rembg) 抠图工具，Python 命令行，与库。
 
 ### 网络
 
