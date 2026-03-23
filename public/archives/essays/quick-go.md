@@ -177,6 +177,11 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [vugu](https://github.com/vugu/vugu) 生成 WASM 的 UI 框架。
 - [gioui](https://github.com/gioui) 跨平台 UI 框架。
 - [gio-example](https://github.com/gioui/gio-example) gioui 示例。
+- [gg](https://github.com/fogleman/gg) 2D 绘图库。
+- [gift](https://github.com/disintegration/gift) 图片编辑滤镜库。
+- [govatar](https://github.com/o1egl/govatar) 随机生成像素风格头像。
+- [identicon](https://github.com/issue9/identicon) 类 GitHub 的 ID 生成头像。
+- [geopattern](https://github.com/pravj/geopattern) 随机生成背景图。
 
 ## 项目
 
@@ -211,6 +216,32 @@ go env -w GOPROXY=https://goproxy.cn,direct
 # 构建
 # -gcflags="-m" 打印内联信息
 go build -gcflags="-m" main.go
+```
+
+### go work
+
+```bash
+# 初始化 workspace
+go work init
+
+# 初始化 workspace 里的 子项目。
+go work init project_dir
+
+#  如果 子项目是用的 go mod 创建的，可以使用这个命令加入 workspace。
+go work use project_dir
+
+# workspace 所有子项目拉依赖，不同于 go mod tidy，没有清理功能。
+go work sync
+```
+
+### go mod
+
+```bash
+# 初始化项目，把当前目录初始化为 go mod 项目。
+go mod init yourdemain.com/yourproject
+
+# 清理并拉项目依赖。
+go mod tidy
 ```
 
 ## 单元测试

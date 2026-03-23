@@ -427,13 +427,11 @@ fi
 - [freya](https://github.com/marc2332/freya) 基于 skia 渲染，链式风格。
 - [gpui](https://www.gpui.rs/) Zed 编辑器团队开发的框架，源码在[zed 仓库](https://github.com/zed-industries/zed)里。
 - [gpui-component](https://github.com/longbridge/gpui-component) 基于 GPUI 的控件库。
-- [bevy](https://github.com/bevyengine/bevy) 数据驱动的游戏引擎。
 - [web-view](https://github.com/Boscop/web-view) 绑定 webview 用于开发桌面应用的库。
 - [gosub-engine](https://github.com/gosub-io/gosub-engine) 浏览器引擎，可嵌入应用。
 - [tiny-skia](https://github.com/linebender/tiny-skia) skia 子集，只使用 CPU ，性能差，兼容好。
 - [rust-skia](https://github.com/rust-skia/rust-skia) skia 绑定封装库。
 - [azul](https://github.com/fschutt/azul) 目前尚不可用。
-- [amethyst](https://github.com/amethyst/amethyst) 游戏引擎，已废弃。
 - [rfd](https://github.com/PolyMeilex/rfd) 跨平台原生系统文件弹窗API封装库。
 - [femtovg](https://github.com/femtovg/femtovg) 2D 矢量绘图库。
 - [glazier](https://github.com/linebender/glazier) 跨平台窗口创建库。已经不维护。
@@ -442,6 +440,8 @@ fi
 - [imgui-rs](https://github.com/imgui-rs/imgui-rs)
 - [piston](https://github.com/PistonDevelopers/piston) 游戏引擎。
 - [piston-examples](https://github.com/pistondevelopers/piston-examples) piston 示例
+- [bevy](https://github.com/bevyengine/bevy) 数据驱动的游戏引擎。
+- [amethyst](https://github.com/amethyst/amethyst) 游戏引擎，已废弃。
 
 ### 网络框架和库
 
@@ -453,12 +453,12 @@ fi
 - [tracing-actix-web](https://github.com/LukeMathWalker/tracing-actix-web) actix-web 结构化日志。
 - [actix-taskqueue](https://github.com/huytd/actix-taskqueue) actix 任务队列库。
 - [warp](https://github.com/seanmonstar/warp) web 框架。
-- [tuono](https://github.com/tuono-labs/tuono) 用 rust 实现了 NextJs 的框架，只能使用 pages 模式，目录在 routes 目录下，好处是后端代码由 TS 换成了 rust 这样比较容易分辨前后端代码，NextJs 前后端代码都是 TS。
 - [axum](https://github.com/tokio-rs/axum) tokio 团队的 web 框架。
-- [perseus](https://github.com/framesurge/perseus) rust 写前端页面。
-- [yew](https://github.com/yewstack/yew) rust 写前端页面，亮点是生成 WASM ，缺点是设计比较早，虽然在仿 react ，但没 react 简洁。
-- [leptos](https://github.com/leptos-rs/leptos) rust 写前端页面，代码是类 react 的 jsx-like 风格。
-- [sycamore](https://github.com/sycamore-rs/sycamore) rust 写前端页面，亮点是生成 WASM，类 react 风格。
+- [tuono](https://github.com/tuono-labs/tuono) 用 rust 实现了 NextJs 的框架，只能使用 pages 模式，目录在 routes 目录下，好处是后端代码由 TS 换成了 rust 这样比较容易分辨前后端代码，NextJs 前后端代码都是 TS。
+- [yew](https://github.com/yewstack/yew) 老牌前端框架，rust 写前端页面，亮点是生成 WASM 仿 react 风格。
+- [leptos](https://github.com/leptos-rs/leptos) 全栈框架，rust 写前端页面，支持类 react 的 jsx-like 风格 和 链式 builder 风格，无 VDOM 开销，支持水合。
+- [sycamore](https://github.com/sycamore-rs/sycamore) rust 写前端页面，亮点是生成 WASM，类 react 风格，前端框架，无 VDOM 开销。
+- [perseus](https://github.com/framesurge/perseus) rust 写前端页面，前端基于 sycamore 扩展，支持后端开发的全栈框架。
 - [tower](https://github.com/tower-rs) web 开发库集合。
 - [salvo](https://github.com/salvo-rs/salvo) 简易 web 框架。
 - [wasmer](https://github.com/wasmerio/wasmer) wasm 运行时。

@@ -41,17 +41,11 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 
 - [node-ffi](https://github.com/node-ffi/node-ffi)
 - [oxc](https://github.com/oxc-project/oxc) rust 开发的一个高性能库，有 JS/TS 解释器、压缩等。
-- [mysql](https://github.com/mysqljs/mysql) 纯 JS MySQL 客户端。
-- [node-mysql2](https://github.com/sidorares/node-mysql2) MySQL 客户端。
-- [zongji](https://github.com/nevill/zongji) MySQL binlog 库。
-- [keyv](https://github.com/jaredwray/keyv) 键值对库，适配 valkey、sqlite、MySQL 等。
 - [pkg](https://github.com/vercel/pkg) 打包项目成可执行文件。
 - [cross-env](https://github.com/kentcdodds/cross-env) package.json scripts 命令环境变量设置。
 - [windows-build-tools](https://github.com/felixrieseberg/windows-build-tools)
 - [dotenv](https://github.com/motdotla/dotenv) .env 文件加载库。
 - [svg-captcha](https://github.com/produck/svg-captcha) SVG 验证码生成库。
-- [lowdb](https://github.com/typicode/lowdb) 可内嵌的 JSON 数据库。
-- [nedb](https://github.com/louischatriot/nedb) 可内嵌的文档数据库。
 - [quicktype](https://github.com/glideapps/quicktype) 从 JSON, Schema, 和 GraphQL 生成指定语言的数据结构代码。 
 - [ssh2](https://github.com/mscdex/ssh2) SSH2 客户端库。
 - [cache-manager](https://github.com/nestjs/cache-manager) 缓存库。
@@ -77,6 +71,10 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 
 ### 数据库
 
+- [mysql](https://github.com/mysqljs/mysql) 纯 JS MySQL 客户端。
+- [node-mysql2](https://github.com/sidorares/node-mysql2) MySQL 客户端。
+- [zongji](https://github.com/nevill/zongji) MySQL binlog 库。
+- [keyv](https://github.com/jaredwray/keyv) 键值对库，适配 valkey、sqlite、MySQL 等。
 - [mongoose](https://github.com/Automattic/mongoose) mongodb 客户端。
 - [node-mongodb-native](https://github.com/mongodb/node-mongodb-native) mongodb 原生客户端驱动。
 - [node-sqlite3](https://github.com/TryGhost/node-sqlite3) sqlite3 封装。
@@ -84,6 +82,16 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [node-orm2](https://github.com/dresende/node-orm2) ORM
 - [bookshelf](https://github.com/bookshelf/bookshelf) ORM
 - [knex](https://github.com/knex/knex) ORM
+- [Prisma](https://github.com/prisma/prisma) 数据库 ORM 功能齐全。
+- [Drizzle ORM](https://github.com/drizzle-team/drizzle-orm) 数据库 ORM 轻量级。
+- [sequelize](https://github.com/sequelize/sequelize) 数据库 ORM 比较早就有，版本比较多，一些老项目可能会遇到。
+- [typeorm](https://github.com/typeorm/typeorm) 数据库 ORM 代码设计比较好，性能性能不足，工具不齐全，只能算轻量级。
+- [pg-logical-replication](https://github.com/kibae/pg-logical-replication) PostgreSQL WAL 数据复制库。
+- [libsql-client-ts](https://github.com/tursodatabase/libsql-client-ts) libsql 客户端。
+- [ioredis](https://github.com/redis/ioredis) redis 官方的客户端库。
+- [node-redis](https://github.com/redis/node-redis) redis 官方的客户端库。
+- [lowdb](https://github.com/typicode/lowdb) 可内嵌的 JSON 数据库。
+- [nedb](https://github.com/louischatriot/nedb) 可内嵌的文档数据库。
 
 ### 网络
 
@@ -118,8 +126,9 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [grpc-node](https://github.com/grpc/grpc-node)
 - [apollo-server](https://github.com/apollographql/apollo-server) GraphQL 服务器框架。
 
-### UI
+### 图形、图像
 
+- [sharp](https://github.com/lovell/sharp) 封装 libvips 的 NodeJS 的 C 扩展 图像处理库。
 - [aurelia](https://github.com/aurelia/framework) web 前端 UI 框架，没有虚拟DOM。
 - [svelte](https://github.com/sveltejs/svelte) UI 框架。
 - [qwik](https://github.com/QwikDev/qwik) web apps 的 UI 开发框架。

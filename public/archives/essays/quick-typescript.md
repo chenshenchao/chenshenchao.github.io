@@ -13,14 +13,6 @@
 - [noble-hashes](https://github.com/paulmillr/noble-hashes) 纯 TS 实现的 HASH 算法库。
 - [hash-wasm](https://github.com/Daninet/hash-wasm) 基于 WASM 的 HASH 算法库。
 - [faker](https://github.com/faker-js/faker) 生成伪造数据的库，可以用来生成测试数据。
-- [Prisma](https://github.com/prisma/prisma) 数据库 ORM 功能齐全。
-- [Drizzle ORM](https://github.com/drizzle-team/drizzle-orm) 数据库 ORM 轻量级。
-- [sequelize](https://github.com/sequelize/sequelize) 数据库 ORM 比较早就有，版本比较多，一些老项目可能会遇到。
-- [typeorm](https://github.com/typeorm/typeorm) 数据库 ORM 代码设计比较好，性能性能不足，工具不齐全，只能算轻量级。
-- [pg-logical-replication](https://github.com/kibae/pg-logical-replication) PostgreSQL WAL 数据复制库。
-- [libsql-client-ts](https://github.com/tursodatabase/libsql-client-ts) libsql 客户端。
-- [ioredis](https://github.com/redis/ioredis) redis 官方的客户端库。
-- [node-redis](https://github.com/redis/node-redis) redis 官方的客户端库。
 - [fingerprintjs](https://github.com/fingerprintjs/fingerprintjs) 生成浏览器指纹。
 - [uuid](https://github.com/uuidjs/uuid) UUID 生成库
 - [dinero.js](https://github.com/dinerojs/dinero.js) 十进制数，内置货币处理。
@@ -60,6 +52,7 @@
 
 ### 图形
 
+- [solid](https://github.com/solidjs/solid) 类 react 的轻量 UI 框架，不使用虚拟 DOM，而是将模板编译为真实的 DOM 节点，并通过细粒度响应式机制对其进行更新。
 - [arco-design](https://github.com/arco-design) UI 框架。
 - [pixijs](https://github.com/pixijs/pixijs) 2D webGL 游戏引擎。
 - [leafer-ui](https://github.com/leaferjs/leafer-ui) canvas 引擎。

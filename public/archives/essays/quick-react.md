@@ -95,6 +95,7 @@ npx create-expo-app
 - [remix](https://github.com/remix-run/remix) 框架。
 - [fluentui](https://github.com/microsoft/fluentui) 微软开源 Fluent 风格组件库。
 - [sonner](https://github.com/emilkowalski/sonner) toast 组件库。
+- [yet-another-react-lightbox](https://github.com/igordanchenko/yet-another-react-lightbox) 图片查看组件。
 
 ### react native 相关库
 
