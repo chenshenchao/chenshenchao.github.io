@@ -125,15 +125,16 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [grpc-go](https://github.com/grpc/grpc-go)
 - [gnet](https://github.com/panjf2000/gnet) 网络框架。
 - [jupiter](https://github.com/douyu/jupiter) 斗鱼开源的微服务 web 框架。
-- [kratos](https://github.com/go-kratos/kratos) 微服务 web 框架。
 - [go-zero](https://github.com/zeromicro/go-zero) 微服务 web 框架。
-- [fiber](https://github.com/gofiber/fiber) web 框架。
+- [kratos](https://github.com/go-kratos/kratos) 基于 Protobuf 的微服务框架。
+- [fiber](https://github.com/gofiber/fiber) web 框架，基于 fasthttp。
+- [fuego](https://github.com/go-fuego/fuego) 类 fiber 的 web 框架，基于 net/http。
+- [huma](https://github.com/danielgtaylor/huma) 类 fiber 的 web 框架，基于 net/http。
 - [echo](https://github.com/labstack/echo) web 框架。
 - [echo-swagger](github.com/swaggo/echo-swagger) 为 echo 提供的 OpenAPI 实现。
 - [oapi-codegen](https://github.com/oapi-codegen/oapi-codegen) OpenAPI 的 go 客户端/服务端 代码生成工具。
-- [kratos](https://github.com/go-kratos/kratos) 基于 Protobuf 的微服务框架。
 - [iris](https://github.com/kataras/iris) HTTP/2  Web 框架。
-- [chi](https://github.com/go-chi/chi) Web 框架。
+- [chi](https://github.com/go-chi/chi) Web 框架，轻量（功能更少，像 koa）。
 - [gf](https://github.com/gogf/gf)  Web 框架。
 - [go-micro](https://github.com/micro/go-micro) 简易的 Web 框架。
 - [go-micro plugins](https://github.com/go-micro/plugins)

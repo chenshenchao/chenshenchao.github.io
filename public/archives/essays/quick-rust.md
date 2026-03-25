@@ -135,6 +135,7 @@ cargo build --release --target=x86_64-unknown-linux-musl
 - [cargo-xwin](https://github.com/rust-cross/cargo-xwin) Linux、MacOs 下交叉编译 Windows 的编译工具。
 - [cargo-wix](https://github.com/volks73/cargo-wix) wix 打包应用工具的 cargo 子命令。
 - [cargo-edit](https://github.com/killercup/cargo-edit) 通过命令行来修改 Cargo.toml 文件。（挺搞笑的扩展）
+- [wasm-bindgen](https://github.com/wasm-bindgen/wasm-bindgen) wasn 生成命令行工具。
 
 ### cargo.toml 配置
 
@@ -190,6 +191,9 @@ git-fetch-with-cli = true
 ### 常用命令
 
 ```bash
+# 查看已经安装的子命令。
+cargo install --list
+
 # 可执行文件
 cargo new --bin yourapp
 # 库
@@ -200,10 +204,11 @@ cargo init --bin yourapp
 
 # workspace 指定构建项目
 # -p 更通用，可以指定 lib 库类型
-cargo build -p yourapp
-cargo build --bin yourapp
+cargo build -p yourlib
+cargo build --lib yourlib
 
 # workspace 指定构建项目
+# --features 可以指定特性。
 # -p 更通用
 cargo build -p yourapp
 cargo build --bin yourapp
@@ -220,6 +225,7 @@ cargo update -p aws_lc_rs
 cargo update -p cargo_metadata --precise 0.19.0
 
 # 执行
+# --features 可以指定特性。
 cargo run -p <名称>
 
 # 执行示例
@@ -456,7 +462,6 @@ fi
 - [axum](https://github.com/tokio-rs/axum) tokio 团队的 web 框架。
 - [tuono](https://github.com/tuono-labs/tuono) 用 rust 实现了 NextJs 的框架，只能使用 pages 模式，目录在 routes 目录下，好处是后端代码由 TS 换成了 rust 这样比较容易分辨前后端代码，NextJs 前后端代码都是 TS。
 - [yew](https://github.com/yewstack/yew) 老牌前端框架，rust 写前端页面，亮点是生成 WASM 仿 react 风格。
-- [leptos](https://github.com/leptos-rs/leptos) 全栈框架，rust 写前端页面，支持类 react 的 jsx-like 风格 和 链式 builder 风格，无 VDOM 开销，支持水合。
 - [sycamore](https://github.com/sycamore-rs/sycamore) rust 写前端页面，亮点是生成 WASM，类 react 风格，前端框架，无 VDOM 开销。
 - [perseus](https://github.com/framesurge/perseus) rust 写前端页面，前端基于 sycamore 扩展，支持后端开发的全栈框架。
 - [tower](https://github.com/tower-rs) web 开发库集合。

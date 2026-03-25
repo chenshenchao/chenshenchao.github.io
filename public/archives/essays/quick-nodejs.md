@@ -203,6 +203,10 @@ npm audit --registry=https://registry.npmjs.org/ -scope next
 # -w 使用 npm workspaces 初始化子项目。
 npm init -w packages/utils -y
 
+# -w 使用 npm i
+# 依赖库不冲突只有根目录有 node_modules，如果发生冲突，子目录会有 node_modules 目录。
+npm i -w subproj
+
 # -w 指定 子项目执行命令
 npm run build -w utils
 
@@ -210,7 +214,7 @@ npm run build -w utils
 npm run build -ws
 
 # 查看所有 workspace 列表与依赖关系
-npm ls -ws
+npm ls
 ```
 
 项目目录下 .npmrc 可配置包管理。
