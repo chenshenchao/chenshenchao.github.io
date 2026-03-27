@@ -1,0 +1,16 @@
+# STM32
+
+ST 的 M 系列单片机可以说是市面上使用最多的单片机了。
+
+## STM32F103
+
+Cortex-M3，无 FPU。
+
+- STM32F103C8T6：LQFP48, 72MHz, 64 KB Flash，10 KB SRAM
+- STM32F103C6T6: LQFP48, 32 KB Flash，20 KB SRAM
+
+## STM32F401
+
+Cortex-M4，有 FPU、DSP。
+
+- STM32F401RCT6: LQFP64,  84MHz，256 KB Flash，64 KB SRAM，市面上有很多拆机便宜货，卖的比 STM32F103C8T6 便宜。

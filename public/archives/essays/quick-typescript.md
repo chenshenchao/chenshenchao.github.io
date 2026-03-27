@@ -71,6 +71,7 @@
 - [canvas-editor](https://github.com/Hufe921/canvas-editor) 类似 Office Word 的一个 canvas/svg 编辑器，可以通过插件导出 svg 或 pdf 文件。
 - [wolf-table](https://github.com/wolf-table/table) 类似 Office Excel 的 canvas 编辑器。
 - [univer](https://github.com/dream-num/univer) 类 Excel、Word 电子表格组件库。
+- [asciiflow](https://github.com/lewish/asciiflow) 简易流程图、线框图编辑器库。
 - [diagram-maker](https://github.com/awslabs/diagram-maker) 流程图、导图等图编辑器库。
 - [ag-grid](https://github.com/ag-grid/ag-grid) 支持 React、Vue 等多框架的表格库。
 - [lucky-canvas](https://github.com/buuing/lucky-canvas) 【大转盘 / 九宫格 / 老虎机】抽奖插件

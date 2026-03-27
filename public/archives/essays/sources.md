@@ -298,9 +298,7 @@
 - [fonteditor](https://github.com/ecomfe/fonteditor) web 字体编辑器。
 - [calculator](https://github.com/microsoft/calculator) Windows 新计算器。
 - [carbon](https://github.com/carbon-app/carbon) 代码生成高亮且美观的图片的工具。
-- [gimp](https://github.com/GNOME/gimp) 基于 GTK 的像素图绘图软件。
 - [inkscape](https://inkscape.org) 矢量图绘图软件。[源码](https://gitlab.com/inkscape/inkscape)
-- [Pinta](https://github.com/PintaProject/Pinta) 基于 GTK 的像素图绘图软件，功能简单。
 - [tikzit](github.com/tikzit/tikzit) 简单的点线绘图软件。
 - [MODNET-Matting-tool](https://github.com/AIDajiangtang/MODNET-Matting-tool) 抠图工具。
 - [naps2](https://github.com/cyanfish/naps2) 扫描实体书成 PDF 的工具。

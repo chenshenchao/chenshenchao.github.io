@@ -18,8 +18,6 @@
 - [MySqlCdc](https://github.com/rusuly/MySqlCdc) MySQL binlog 客户端。
 - [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis) Redis 客户端。
 - [SQLiteCodeFirst](https://github.com/msallin/SQLiteCodeFirst)
-- [GtkSharp](https://github.com/GtkSharp/GtkSharp) GTK 封装。
-- [gtk-sharp](https://github.com/mono/gtk-sharp) mono GTK 封装。
 - [xwt](https://github.com/mono/xwt) mono UI 库。
 - [MiniExcel](https://github.com/mini-software/MiniExcel) Excel 处理库。
 - [ClosedXML](https://github.com/ClosedXML/ClosedXML) Excel 处理库。(.xlsx, .xlsm)

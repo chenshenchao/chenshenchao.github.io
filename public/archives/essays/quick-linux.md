@@ -4,6 +4,7 @@
 
 - [wine](https://github.com/wine-mirror/wine) 运行 Windows 应用的虚拟环境。
 - [linux-command](https://github.com/jaywcjlove/linux-command) 命令查询工具。
+- [SysmonForLinux](https://github.com/microsoft/SysmonForLinux) 微软开源的 Linux 监控工具。
 
 ## 常用命令
 

@@ -111,6 +111,7 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [roop](https://github.com/s0md3v/roop) 换脸。
 - [CLIP](https://github.com/openai/CLIP) 输出文本描述输入图片的模型。
 - [whisper-web](https://github.com/xenova/whisper-web) TTS 模型，预训练模型中文支持很差。
+- [TTS](https://github.com/coqui-ai/TTS) TTS 模型集合项目。
 - [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
 - [LAVIS](https://github.com/salesforce/LAVIS) 多个图片、视频与文本的视觉模型整合库。
 - [Generative-Adversarial-Networks-Projects](https://github.com/PacktPublishing/Generative-Adversarial-Networks-Projects) 一些 GAN 模型。
@@ -192,6 +193,9 @@ qwen
 - [gpt-engineer](https://github.com/AntonOsika/gpt-engineer) 代码生成命令行工具，调用 OpenAI 接口。
 - [upscayl](https://github.com/upscayl/upscayl) AI 分辨率放大清晰工具。
 - [muzic](https://github.com/microsoft/muzic) 音乐生成。
+- [yolov5](https://github.com/ultralytics/yolov5) 机器视觉库。
+- [ultralytics](https://github.com/ultralytics/ultralytics) YOLO 机器视觉。
+- [Generative-Adversarial-Networks-Projects](https://github.com/PacktPublishing/ Generative-Adversarial-Networks-Projects) PacktPublishing 的 GAN 项目。
 
 ### RAG（Retrieval Augmented Generation）
 

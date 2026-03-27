@@ -29,7 +29,6 @@ dub add gtk-d
 
 ## 常用库
 
-- [GtkD](https://gtkd.org/) GTK D 语言封装，需要安装 GTK 运行时。[GitHub 仓库](https://github.com/gtkd-developers/GtkD)
 - [hunt-framework](https://github.com/huntlabs/hunt-framework) Web 框架。
 - [botan](https://github.com/etcimon/botan) 加密工具库。
 - [inilike](https://github.com/FreeSlave/inilike) 类 ini 文件加载库。

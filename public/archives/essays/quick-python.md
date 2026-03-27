@@ -51,6 +51,7 @@ python -m http.server 8000
 - [paramiko](https://github.com/paramiko/paramiko) ssh v2 库。
 - [fabric](https://github.com/fabric/fabric) 通过 SSH 远程执行脚本，基于 Paramiko。
 - [ssh2-python](https://github.com/ParallelSSH/ssh2-python) 封装了 libssh2
+- [aioredis-py](https://github.com/aio-libs-abandoned/aioredis-py) 支持异步的 redis 客户端。
 - [redis-py](https://github.com/redis/redis-py) redis 客户端。
 - [walrus](https://github.com/coleifer/walrus) 简化 redis 客户端的使用，做了封装。
 - [uiautomator](https://github.com/xiaocong/uiautomator) 安卓 uiautomator 封装。
@@ -83,6 +84,7 @@ python -m http.server 8000
 - [gevent](https://github.com/gevent/gevent) 异步协程扩展库。
 - [jieba](https://github.com/fxsjy/jieba) 中文分词。
 - [Jiagu](https://github.com/ownthink/Jiagu) 中文分词。
+- [lac](https://github.com/baidu/lac) 百度开源的 C++ 开发的 python分词库。
 - [imgkit](https://github.com/jarrekk/imgkit) html 生成图片，基于 Webkit。
 - [pyyaml](https://github.com/yaml/pyyaml) YAML 处理库。
 - [tablib](https://github.com/jazzband/tablib) EXCEL、JSON、SQL 等数据集生成库。
@@ -96,6 +98,7 @@ python -m http.server 8000
 - [kafka-python](https://github.com/dpkp/kafka-python) kafka 客户端。
 - [numpy](https://github.com/numpy/numpy) 科学计算的基础包。
 - [pefile](https://github.com/erocarrera/pefile) PE 文件处理库。
+- [pyodide](https://github.com/pyodide/pyodide) 浏览器里基于 WASM 的  python 运行环境。
 
 ### 数据库
 

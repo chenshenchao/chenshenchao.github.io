@@ -68,6 +68,7 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [request](https://github.com/request/request) HTTP 客户端。
 - [nodemon](https://github.com/remy/nodemon) watch 自动重启项目。
 - [napajs](https://github.com/microsoft/napajs) 微软开源的多线程库。
+- [plop](https://github.com/plopjs/plop) 代码生成框架，自定义代码生成流程。
 
 ### 数据库
 
@@ -150,6 +151,7 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [hyper](https://github.com/vercel/hyper) 浏览器终端。
 - [insomnia](https://github.com/Kong/insomnia) 类 postman 的 GraphQL, REST, WebSockets, SSE, gRPC 客户端软件。 
 - [RSSHub](https://github.com/DIYgod/RSSHub) RSS 服务器，提供 nodejs 客户端库。
+- [Logan](https://github.com/Meituan-Dianping/Logan) 美团点评开源的 前端日志 架构。
 
 ## 包管理器
 

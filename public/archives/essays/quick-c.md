@@ -105,7 +105,6 @@
 - [nanovg](https://github.com/memononen/nanovg) 2D 矢量图库。
 - [plutovg](https://github.com/sammycage/plutovg) 2D 矢量图库。
 - [plutosvg](https://github.com/sammycage/plutosvg) SVG 库。
-- [gtk](https://github.com/GNOME/gtk)
 - [tcl](https://github.com/tcltk/tcl)
 - [LCUI](https://github.com/lc-soft/LCUI) 图形开发框架，基于 web 方式。
 
@@ -152,3 +151,4 @@
 - [c2go](https://github.com/elliotchance/c2go) C 源码转 GO 源码工具。
 - [c2go](https://github.com/goplus/c2go) C 源码转 GO 源码工具，已经停止维护。
 - [llgo](https://github.com/goplus/llgo) 基于 LLVM 的 GO 编译器，更好地和 C、Python 混编。
+- [hashcat](https://github.com/hashcat/hashcat) 密码破解工具。

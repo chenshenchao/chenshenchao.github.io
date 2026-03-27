@@ -61,6 +61,7 @@
 - [objeck-lang](https://github.com/objeck/objeck-lang) 一个类 JS/GO 的编程语言。
 - [libco](https://github.com/Tencent/libco) 腾讯开源的协程库。
 - [robotstxt](https://github.com/google/robotstxt) robots.txt 文件解析库。
+- [GameAISDK](https://github.com/Tencent/GameAISDK) 基于图像的 自动化 框架，基于 tensorflow AI 。
 
 ### 网络
 
@@ -105,6 +106,7 @@
 - [skia](https://github.com/google/skia)
 - [tgfx](https://github.com/Tencent/tgfx) 腾讯开源为了替代 skia 的 2D 图形绘制库。
 - [elements](https://github.com/cycfi/elements) 声明式的 UI 库，事件的设计上有缺失。
+- [ultimatepp](https://github.com/ultimatepp/ultimatepp) 图形应用开发框架，配套开发环境 TheIDE。
 - [wxWidgets](https://github.com/wxWidgets/wxWidgets) UI 开发框架。
 - [wxFormBuilder](https://github.com/wxFormBuilder/wxFormBuilder) wxWidgets Form 图形化绘制工具。
 - [assimp](https://github.com/assimp/assimp) 支持 40+ 种 3D 资源文件加载库。

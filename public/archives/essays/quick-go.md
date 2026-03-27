@@ -86,7 +86,10 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [ent](https://github.com/ent/ent) 类 C# 的 EF 的框架。
 - [entimport](https://github.com/ariga/entimport) 第三方提供 ent 的工具，已经多年不维护。
 - [pgx](https://github.com/jackc/pgx) PostgreSQL 客户端库。
-- [golang-migrate](https://github.com/golang-migrate/migrate) 数据库迁移命令行工具与库，基于 SQL 文件。
+- [golang-migrate](https://github.com/golang-migrate/migrate) 数据库迁移命令行工具与库，基于 SQL 文件，只记最后记录。
+- [goose](https://github.com/pressly/goose) 数据库迁移命令行工具与库，基于 SQL 文件。
+- [dbmate](https://github.com/amacneil/dbmate) 数据库迁移命令行工具与库，功能比较多。
+- [sql-migrate](https://github.com/rubenv/sql-migrate) 数据库迁移命令行工具与库。
 - [badger](https://github.com/dgraph-io/badger) 可内嵌的键值对数据库。
 - [nutsdb](https://github.com/nutsdb/nutsdb) 可内嵌的键值对数据库。
 - [goleveldb](https://github.com/syndtr/goleveldb) 可内嵌的键值对数据库。
@@ -102,6 +105,7 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [sqlc](https://github.com/sqlc-dev/sqlc) ORM ，有代码生成工具，使用 SQL 模板作为查询。
 - [gorm](https://github.com/go-gorm/gorm) 国人开发的 ORM ，链式，动态类型，功能比较全，支持代码生成。
 - [gorm gen](https://github.com/go-gorm/gen) gorm 的 DbFirst 代码生成工具。
+- [gormigrate](https://github.com/go-gormigrate/gormigrate) 为 GORM 提供数据库迁移的库。
 - [sqlite](https://github.com/glebarez/sqlite) 纯 Go 的 Sqlite GORM 驱动。
 - [go-sqlite3](https://github.com/mattn/go-sqlite3) database/sql 的 cgo 的 sqlite 驱动。
 - [sqlite](https://github.com/go-gorm/sqlite) Sqlite GORM 驱动，有 c 代码编译要求 c 编译环境（Windows 下装 tdm-gcc）。
@@ -210,6 +214,8 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [dgraph](https://github.com/dgraph-io/dgraph) GO 开发的 分布式图数据库（DQL），兼容 GraphQL 模式。
 - [consul](https://github.com/hashicorp/consul) 类 etcd 的分布式基础设施，比 etcd 设计更详细的功能。
 - [atlas](https://github.com/ariga/atlas) GO 语言开发的数据库迁移管理的命令行工具与库，主支持 GO 和其他语言（C#、JAVA、python 等）。
+- [gorse](https://github.com/gorse-io/gorse) LLM 驱动的推荐系统。
+- [bytebase](https://github.com/bytebase/bytebase) GO 开发的数据库 CI/CD 管理面板服务。
 
 ## 常用命令
 

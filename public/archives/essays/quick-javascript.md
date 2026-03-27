@@ -40,6 +40,7 @@
 - [globals](https://github.com/sindresorhus/globals) 统一全局总变量的名字（浏览器 window, NodeJS global），一般 ESlint 配置文件用到。
 - [tesseract.js](https://github.com/naptha/tesseract.js) 纯 JS 实现 OCR 库。
 - [openlayers](https://github.com/openlayers/openlayers) 瓦片层库，可以用于地图瓦片拼接绘制。（天地图有支持的API）
+- [Leaflet](https://github.com/Leaflet/Leaflet) 轻量瓦片层库，可以用于地图瓦片拼接绘制。
 - [turn.js](https://github.com/blasten/turn.js) 基于 jQuery 的书刊翻页库。
 - [jszip](https://github.com/Stuk/jszip) zip 库。
 - [zip.js](https://github.com/gildas-lormeau/zip.js) zip 库。

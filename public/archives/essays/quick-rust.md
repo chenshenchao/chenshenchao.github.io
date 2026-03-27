@@ -412,8 +412,6 @@ fi
 
 ### 图形库
 
-- [gtk4-rs](https://github.com/gtk-rs/gtk4-rs)
-- [gtk-rs](https://github.com/gtk-rs/gtk)
 - [glutin](https://github.com/rust-windowing/glutin) OpenGL 底层封装。
 - [glium](https://github.com/glium/glium) OpenGL 封装。
 - [emu](https://github.com/calebwin/emu) GPGPU 库。
@@ -421,7 +419,6 @@ fi
 - [vello](https://github.com/linebender/vello) 2D 渲染库，基于 wgpu。
 - [iced](https://github.com/iced-rs/iced)
 - [egui](https://github.com/emilk/egui)
-- [relm](https://github.com/antoyo/relm) 基于 GTK 的 UI 库。
 - [Relm4](https://github.com/Relm4/Relm4)
 - [kas](https://github.com/kas-gui/kas)
 - [conrod](https://github.com/PistonDevelopers/conrod)  UI 库。
@@ -444,6 +441,7 @@ fi
 - [winit](https://github.com/rust-windowing/winit) 跨平台窗口创建库。
 - [rust-sciter](https://github.com/sciter-sdk/rust-sciter) sciter 的 rust 封装，HTML/CSS/JS 脚本引擎。
 - [imgui-rs](https://github.com/imgui-rs/imgui-rs)
+- [fornjot](https://github.com/hannobraun/fornjot) CAD 核心库。
 - [piston](https://github.com/PistonDevelopers/piston) 游戏引擎。
 - [piston-examples](https://github.com/pistondevelopers/piston-examples) piston 示例
 - [bevy](https://github.com/bevyengine/bevy) 数据驱动的游戏引擎。
