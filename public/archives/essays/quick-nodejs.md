@@ -62,6 +62,7 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [uirecorder](https://github.com/alibaba/uirecorder) 阿里开源的类 selenium IDE 的无头浏览器自动化。
 - [selenium](https://github.com/SeleniumHQ/selenium) 无头浏览器自动化。
 - [phantomjs](https://github.com/ariya/phantomjs) 无头浏览器。
+- [Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) 移动端自动化测试、渗透测试框架。
 - [nodegit](https://github.com/nodegit/nodegit) nodejs 下对 git 命令行封装。
 - [winston](https://github.com/winstonjs/winston) 日志库。
 - [nanocolors](https://github.com/ai/nanocolors) 命令行颜色样式库。
@@ -71,7 +72,8 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [napajs](https://github.com/microsoft/napajs) 微软开源的多线程库。
 - [plop](https://github.com/plopjs/plop) 代码生成框架，自定义代码生成流程。
 - [nginx-conf](https://github.com/tmont/nginx-conf) nginx 配置处理库。
-- [Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) 移动端自动化测试、渗透测试框架。
+- [google-translate-api](https://github.com/matheuss/google-translate-api) 谷歌翻译API 的第三方调用库。
+- [google-translate-open-api](https://github.com/hua1995116/google-translate-open-api) 谷歌翻译API 的第三方调用库。
 
 ### 数据库
 
@@ -129,6 +131,7 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [eggjs static](https://github.com/eggjs/static)
 - [grpc-node](https://github.com/grpc/grpc-node)
 - [apollo-server](https://github.com/apollographql/apollo-server) GraphQL 服务器框架。
+- [ssr](https://github.com/zhangyuang/ssr) 支持 React17/React18/Vue2/Vue3 的 SSR 服务器。
 
 ### 图形、图像
 

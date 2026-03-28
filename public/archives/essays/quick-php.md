@@ -147,6 +147,8 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [smarty](https://github.com/smarty-php/smarty) HTML 模板引擎。
 - [Twig](https://github.com/twigphp/Twig) HTML 模板引擎。
 - [plates](https://github.com/thephpleague/plates) HTML 模板引擎。
+- [openapi-sdk-php](https://github.com/aliyun/openapi-sdk-php) 阿里云的 PHP SDK 2.0。
+- [openapi-sdk-php-client](https://github.com/aliyun/openapi-sdk-php-client) 阿里云的 PHP SDK 1.0。
 
 ## 项目、示例
 

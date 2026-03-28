@@ -21,6 +21,7 @@
 
 - [tdesign](https://github.com/Tencent/tdesign-miniprogram) 腾讯 UI 库。
 - [kbone](https://github.com/Tencent/kbone) 腾讯开发的 Web 与微信小程序同构解决方案。
+- [kbone-ui](https://github.com/wechat-miniprogram/kbone-ui) kbone 的 UI 库。
 - [weui](https://github.com/Tencent/weui) 腾讯 UI 库。
 - [weui-wxss](https://github.com/Tencent/weui-wxss) 腾讯 WeUI 样式库。
 - [coloruicss](https://github.com/weilanwl/coloruicss) 样式库。

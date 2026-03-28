@@ -142,6 +142,7 @@
 - [mos](https://github.com/morganbengtsson/mos) 游戏引擎。
 - [LumixEngine](https://github.com/nem0/LumixEngine) 3D 游戏引擎，自带场景编辑器。
 - [cocos2d-x](https://github.com/cocos2d/cocos2d-x) 游戏引擎。
+- [boden](https://github.com/AshampooSystems/boden) C++ 移动端跨平台开发框架。
 
 ### boost
 
@@ -179,7 +180,8 @@
 - [scummvm](https://github.com/scummvm/scummvm) 多种游戏机模拟器（100+种，包括任天堂 Switch 、索尼 PS 等）。
 - [doxygen](https://github.com/doxygen/doxygen) 主 C++ 注释自动生成文档工具，也支持其他多种语言。
 - [cherrytree](https://github.com/giuspen/cherrytree) 富文本笔记软件，可以保存 XML 等。
-- [ssdb](https://github.com/ideawu/ssdb) 键值对数据库，可替代 Redis 。
+- [ssdb](https://github.com/ideawu/ssdb) 键值对数据库服务，可替代 Redis 。
+- [tair](https://github.com/alibaba/tair) 阿里开源的键值对数据库服务。
 - [Stockfish](https://github.com/official-stockfish/Stockfish) 国际象棋项目。
 - [Stockfish](https://github.com/mcostalba/Stockfish) 国际象棋项目。
 

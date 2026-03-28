@@ -9,6 +9,7 @@
 - [vue-class-component](https://github.com/vuejs/vue-class-component) 已经废弃的设计。
 - [devtools-v6](https://github.com/vuejs/devtools-v6) Vue2 浏览器开发工具插件。
 - [devtools](https://github.com/vuejs/devtools) Vue3 浏览器开发工具插件。
+- [vue-docs-zh-cn](https://github.com/vuejs/vue-docs-zh-cn) vue2 中文文档。
 
 ## 常用库
 
@@ -45,6 +46,7 @@
 
 - [vue-drag-tree-table](https://github.com/mafengwo/vue-drag-tree-table) 树形表格组件。
 - [vue-okr-tree](https://github.com/husky-dot/vue-okr-tree) 线框图树的编辑器组件。
+- [vue-json-tree-view](https://github.com/fitzhavey/vue-json-tree-view) vue2 的 JSON 显示成树状组件。
 - [form-generator](https://github.com/JakHuang/form-generator) Element 组件代码可视化生成组件。
 - [vue-better-scroll](https://github.com/huangjincq/vue-better-scroll) vue2 封装 better-scroll 的组件。
 - [element](https://github.com/ElemeFE/element) vue2 桌面 UI 库。
@@ -67,6 +69,10 @@
 - [vue-router-tab](https://github.com/bhuh12/vue-router-tab) vue2 的 tab 标签组件。
 - [gridea](https://github.com/getgridea/gridea) vue2 的静态博客写作工具。
 - [Vue-Socket.io](https://github.com/MetinSeylan/Vue-Socket.io) Vue2  Socket.IO 适配库。
+- [eeui](https://github.com/kuaifan/eeui) Vue2 开发移动端应用。
+- [vuex-persistedstate](https://github.com/robinvdvleuten/vuex-persistedstate) vuex 持久化库。
+- [vue-willtable](https://github.com/KevinMint55/vue-willtable) Vue2 的可编辑表格。
+- [vue2-datepicker](https://github.com/mengxiong10/vue2-datepicker) vue2 日期选择器。
 
 ### Vue1
 
@@ -89,6 +95,7 @@
 - [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) vue2 基于 element 开发的后台项目。
 - [iview-admin](https://github.com/iview/iview-admin) vue2  iview 的后台前端模板项目。
 - [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) vue2 element 的后台前端模板项目。
+- [guijs](https://github.com/Akryum/guijs) 图形化管理JS项目的工具。
 
 ## Options API 和 Composition API
 

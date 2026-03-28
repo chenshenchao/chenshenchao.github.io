@@ -122,6 +122,7 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [txtai](https://github.com/neuml/txtai) 集语义搜索、语言模型编排和语言模型工作流于一体的人工智能框架。
 - [text2text](https://github.com/artitw/text2text)
 - [ChatRWKV](https://github.com/BlinkDL/ChatRWKV) 类 ChatGPT 的 RWKV（100% RNN）对话模型。
+- [keras-transformer](https://github.com/CyberZHG/keras-transformer) 一个 keras 实现的 transformer 模型。
 
 ## AI 应用开发
 

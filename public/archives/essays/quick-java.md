@@ -84,11 +84,14 @@
 - [pulsar](https://github.com/apache/pulsar) 分布式订阅发布的消息服务。
 - [questdb](https://github.com/questdb/questdb) 时序数据库，支持多语言客户端。
 - [druid](https://github.com/apache/druid) Apache 开源的实时分析数据库。
+- [crate](https://github.com/crate/crate) crateDB 基于 Lucene 开发的 兼容 PostgreSQL 的 SQL 数据库。
 - [kafka](https://github.com/apache/kafka) 消息队列。
 - [tyrant](https://github.com/mikera/tyrant) Roguelike 游戏。
 - [pixel-dungeon](https://github.com/watabou/pixel-dungeon) 像素地牢 Roguelike 游戏，已废弃。
 - [shattered-pixel-dungeon](https://github.com/00-Evan/shattered-pixel-dungeon) 像素地牢 Roguelike 游戏。
 - [eureka](https://github.com/Netflix/eureka) Netflix 用 Java 开发的服务发现基础设施，作用类 zookeeper。
+- [novel-plus](https://github.com/201206030/novel-plus) 小说站点。
+- [dbeaver](https://github.com/dbeaver/dbeaver) 数据库客户端工具。
 
 ## 开发环境与包管理工具
 

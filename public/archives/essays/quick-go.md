@@ -80,6 +80,8 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [yaegi](https://github.com/traefik/yaegi) go 解释器。
 - [gobrain](https://github.com/goml/gobrain) 神经网络库。
 - [goml](https://github.com/cdipaolo/goml) 机器学习库。
+- [gtranslate](https://github.com/bregydoc/gtranslate) 谷歌翻译API，第三方调用封装。
+- [service](https://github.com/kardianos/service) go 开发跨平台（Windows、Linux、OS X）服务开发库。
 
 ### 数据库
 
@@ -220,6 +222,7 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [dalfox](https://github.com/hahwul/dalfox) 自动化测试 XXS 跨站脚本 扫描器。
 - [httprunner](https://github.com/httprunner/httprunner) HTTP / UI 测试工具。
 - [osmedeus](https://github.com/j3ssie/osmedeus) 自动化测试渗透工具，有 workflow 工作流界面。
+- [algorithm-pattern](https://github.com/greyireland/algorithm-pattern) 算法模板，一堆算法的示例。
 
 ## 常用命令
 

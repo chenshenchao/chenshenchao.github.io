@@ -10,6 +10,7 @@
 - [timeago.js](https://github.com/hustcc/timeago.js) 2kb 日期库。
 - [lodash](https://github.com/lodash/lodash) 基础类型扩展工具库。
 - [ramda](https://github.com/ramda/ramda) 类 lodash 工具库。
+- [bbo](https://github.com/tnfe/bbo) 零依赖的类 lodash 工具库。
 - [json-editor](https://github.com/jdorn/json-editor) JSON 树形编辑器组件。
 - [jsoneditor](https://github.com/josdejong/jsoneditor) JSON 树形编辑器组件。
 - [pell](https://github.com/jaredreich/pell) 文本编辑器。
@@ -108,7 +109,8 @@
 - [StreamSaver.js](https://github.com/jimmywarting/StreamSaver.js) 浏览器文件保存库，流式（ReadableStream、WritableStream），解决内存限制问题。
 - [nsfwjs](https://github.com/infinitered/nsfwjs) 基于 TensorFlow.js 开发的 NSFW（Not Safe For Work）色情暴力图片检测库。
 - [favico.js](https://github.com/ejci/favico.js) 用图片或视频制作 带 badge 的 favico 图标。 
-- [jison](https://github.com/zaach/jison) 类 bison 的 JS 库。
+- [jison](https://github.com/zaach/jison) 类 bison 的 语法分析器 JS 库。
+- [jison-lex](https://github.com/zaach/jison-lex) 配套 jison 的 词法分析器 JS 库。
 - [pinyin](https://github.com/hotoo/pinyin) 中文转拼音。
 - [coordtransform](https://github.com/wandergis/coordtransform) 提供了百度坐标（BD09）、国测局坐标（火星坐标，GCJ02）、和WGS84坐标系之间的转换。
 - [picojs](https://github.com/nenadmarkus/picojs) 人脸识别库。

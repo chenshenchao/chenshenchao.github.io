@@ -79,6 +79,7 @@ python -m http.server 8000
 - [poium](https://github.com/SeldomQA/poium) 适配 playwright、selenium、appium 的自动化框架。
 - [Airtest](https://github.com/AirtestProject/Airtest) 自动化框架。
 - [Poco](https://github.com/AirtestProject/Poco) Airtest 的引擎，支持多种端（Unity3D、cocos2d、安卓原生、IOS原生等）测试。
+- [ATX-Test](https://github.com/pengchenglin/ATX-Test) 安卓自动化测试框架。
 - [pyreportjasper](https://github.com/acesseonline/pyreportjasper) python 解析编译处理 JasperReports (.jrxml & .jasper 文件).
 - [huey](https://github.com/coleifer/huey) 队列项目。
 - [greenlet](https://github.com/python-greenlet/greenlet) 并发库。
@@ -120,6 +121,7 @@ python -m http.server 8000
 ### 图形
 
 - [Pillow](https://github.com/python-pillow/Pillow) PIL 绘图库。
+- [pypng](https://github.com/drj11/pypng) png 图片处理库。
 - [toga](https://github.com/beeware/toga) UI 框架，主桌面端。
 - [cefpython](https://github.com/cztomczak/cefpython) CEF 绑定库。
 - [pyglet](https://github.com/pyglet/pyglet) UI 多媒体库。
@@ -177,6 +179,7 @@ python -m http.server 8000
 - [sosotest](https://github.com/LianjiaTech/sosotest) 自动化测试平台。
 - [seldom](https://github.com/SeldomQA/seldom) 自动化测试框架，支持 appium 。
 - [captcha22](https://github.com/ReversecLabs/captcha22) 自动化测试，验证码破解库。
+- [dirmap](https://github.com/H4ckForJob/dirmap) 安全测试，web 目录扫描工具。
 - [image-match](https://github.com/rhsimplex/image-match) 用图片 HASH 做图片匹配搜索的项目。
 - [ZTool](https://github.com/lzx8589561/ZTool) 基于 PyQt5 的工具项目，功能随作者喜好做的。
 
