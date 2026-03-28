@@ -345,6 +345,7 @@ fi
 - [async-std](https://github.com/async-rs/async-std) 异步运行时。
 - [async-compat](https://github.com/smol-rs/async-compat) tokio 兼容 futures 的库。
 - [tokio](https://github.com/tokio-rs/tokio) 异步运行时。
+- [dial9-tokio-telemetry](https://github.com/dial9-rs/dial9-tokio-telemetry) tokio 遥测工具库。
 - [prost](https://github.com/tokio-rs/prost) tokio 团队的 protobuf 实现,actix 的 protobuf 扩展此库(0.13)。
 - [rust-protobuf](https://github.com/stepancheg/rust-protobuf) protobuf 第三方实现。
 - [tonic](https://github.com/hyperium/tonic) grpc 第三方实现。

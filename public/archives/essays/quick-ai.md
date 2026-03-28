@@ -111,7 +111,8 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [roop](https://github.com/s0md3v/roop) 换脸。
 - [CLIP](https://github.com/openai/CLIP) 输出文本描述输入图片的模型。
 - [whisper-web](https://github.com/xenova/whisper-web) TTS 模型，预训练模型中文支持很差。
-- [TTS](https://github.com/coqui-ai/TTS) TTS 模型集合项目。
+- [TTS](https://github.com/coqui-ai/TTS) coqui-a 的 TTS 模型集合项目。
+- [TTS](https://github.com/mozilla/TTS) mozilla 的 TTS 模型集合项目。
 - [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
 - [LAVIS](https://github.com/salesforce/LAVIS) 多个图片、视频与文本的视觉模型整合库。
 - [Generative-Adversarial-Networks-Projects](https://github.com/PacktPublishing/Generative-Adversarial-Networks-Projects) 一些 GAN 模型。

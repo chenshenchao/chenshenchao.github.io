@@ -1,8 +1,11 @@
 # Prolog 速查
 
+- [visual-prolog](https://www.visual-prolog.com/)
+- [VipLaunch](https://wiki.visual-prolog.com/index.php?title=VipLaunch)
+
 ## [SWI-Prolog](https://www.swi-prolog.org/)
 
-[GitHub](https://github.com/SWI-Prolog/swipl-devel)
+[SWI-Prolog 源码](https://github.com/SWI-Prolog/swipl-devel)
 
 一个 Prolog 语言的实现，支持多平台。
 

@@ -152,3 +152,4 @@
 - [c2go](https://github.com/goplus/c2go) C 源码转 GO 源码工具，已经停止维护。
 - [llgo](https://github.com/goplus/llgo) 基于 LLVM 的 GO 编译器，更好地和 C、Python 混编。
 - [hashcat](https://github.com/hashcat/hashcat) 密码破解工具。
+- [eclipse-embed-cdt](https://github.com/eclipse-embed-cdt/eclipse-plugins) eclipse 支持  Arm、RISC-V 嵌入式的插件。

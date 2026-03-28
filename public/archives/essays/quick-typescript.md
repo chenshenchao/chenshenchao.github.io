@@ -55,6 +55,7 @@
 - [solid](https://github.com/solidjs/solid) 类 react 的轻量 UI 框架，不使用虚拟 DOM，而是将模板编译为真实的 DOM 节点，并通过细粒度响应式机制对其进行更新。
 - [arco-design](https://github.com/arco-design) UI 框架。
 - [pixijs](https://github.com/pixijs/pixijs) 2D webGL 游戏引擎。
+- [deck.gl](https://github.com/visgl/deck.gl) WebGL 开发库。
 - [leafer-ui](https://github.com/leaferjs/leafer-ui) canvas 引擎。
 - [mdui](https://github.com/zdhxiong/mdui) 安卓 Material 3 风格的 UI 组件库。
 - [stenciljs](https://github.com/stenciljs/core) 基于 web components 的组件开发工具，微前端。

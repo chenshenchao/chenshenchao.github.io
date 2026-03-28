@@ -66,6 +66,7 @@
 - [gods-pen](https://github.com/ymm-tech/gods-pen) vue2 的可拖拽界面设计组件。
 - [vue-router-tab](https://github.com/bhuh12/vue-router-tab) vue2 的 tab 标签组件。
 - [gridea](https://github.com/getgridea/gridea) vue2 的静态博客写作工具。
+- [Vue-Socket.io](https://github.com/MetinSeylan/Vue-Socket.io) Vue2  Socket.IO 适配库。
 
 ### Vue1
 

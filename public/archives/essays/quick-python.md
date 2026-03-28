@@ -56,7 +56,6 @@ python -m http.server 8000
 - [walrus](https://github.com/coleifer/walrus) 简化 redis 客户端的使用，做了封装。
 - [uiautomator](https://github.com/xiaocong/uiautomator) 安卓 uiautomator 封装。
 - [uiautomator2](https://github.com/openatx/uiautomator2) 安卓 uiautomator2 封装。
-- [scapy](https://github.com/secdev/scapy) IP ICMP 等网络报文工具库。
 - [aiosqlite](https://github.com/omnilib/aiosqlite) 异步 SQLite
 - [pycapt](https://github.com/aboutmydreams/pycapt) 验证码生成库。
 - [pywinauto](https://github.com/pywinauto/pywinauto) Windows 自动化测试工具库。
@@ -74,9 +73,12 @@ python -m http.server 8000
 - [celery](https://github.com/celery/celery) 任务队列，可以接入多种后端（redis、amqp、s3等）。
 - [pywasm](https://github.com/libraries/pywasm) wasm 解释器。
 - [playwright-python](https://github.com/microsoft/playwright-python) 微软开源的无头浏览器自动化库。
+- [splinter](https://github.com/cobrateam/splinter) 无头浏览器自动化测试框架。
 - [SeleniumBase](https://github.com/seleniumbase/SeleniumBase) 无头浏览器自动化库。
+- [selenium-wire](https://github.com/wkeeling/selenium-wire) selenium 扩展，使其支持 web 请求。
 - [poium](https://github.com/SeldomQA/poium) 适配 playwright、selenium、appium 的自动化框架。
 - [Airtest](https://github.com/AirtestProject/Airtest) 自动化框架。
+- [Poco](https://github.com/AirtestProject/Poco) Airtest 的引擎，支持多种端（Unity3D、cocos2d、安卓原生、IOS原生等）测试。
 - [pyreportjasper](https://github.com/acesseonline/pyreportjasper) python 解析编译处理 JasperReports (.jrxml & .jasper 文件).
 - [huey](https://github.com/coleifer/huey) 队列项目。
 - [greenlet](https://github.com/python-greenlet/greenlet) 并发库。
@@ -127,6 +129,8 @@ python -m http.server 8000
 - [DearPyGui](https://github.com/hoffstadt/DearPyGui) ImGUI 的封装。
 - [pycairo](https://github.com/pygobject/pycairo) 封装 cairo 绘图库。
 - [pyecharts](https://github.com/pyecharts/pyecharts) 类百度 echarts 图表、图形绘图库。
+- [visdom](https://github.com/fossasia/visdom) 可视化图表、报表库。
+- [mahotas](https://github.com/luispedro/mahotas) 计算机视觉图像处理库。
 - [rembg](https://github.com/danielgatis/rembg) 抠图工具，Python 命令行，与库。
 
 ### 网络
@@ -170,6 +174,11 @@ python -m http.server 8000
 - [pe_tree](https://github.com/blackberry/pe_tree) PE 文件可视化树状分析工具。
 - [pypyjs](https://github.com/pypyjs/pypyjs) pypy 转 JS 工具。
 - [Kiwi](https://github.com/kiwitcms/Kiwi) 测试管理服务，有测试用例管理、自动化测试管理、API等功能。
+- [sosotest](https://github.com/LianjiaTech/sosotest) 自动化测试平台。
+- [seldom](https://github.com/SeldomQA/seldom) 自动化测试框架，支持 appium 。
+- [captcha22](https://github.com/ReversecLabs/captcha22) 自动化测试，验证码破解库。
+- [image-match](https://github.com/rhsimplex/image-match) 用图片 HASH 做图片匹配搜索的项目。
+- [ZTool](https://github.com/lzx8589561/ZTool) 基于 PyQt5 的工具项目，功能随作者喜好做的。
 
 ## 虚拟环境
 

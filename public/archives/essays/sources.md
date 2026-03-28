@@ -20,6 +20,7 @@
 - [blog](https://github.com/dongyuanxin/blog) 专注Web与算法
 - [moonbit-docs](https://github.com/moonbitlang/moonbit-docs) MoonBit 月兔语言文档。
 - [puppeteer-deep](https://github.com/zhentaoo/puppeteer-deep) puppeteer 的一些示例。
+- [BypassAntiVirus](https://github.com/TideSec/BypassAntiVirus) 远控、免杀 相关文章。
 
 ## 开源书籍
 

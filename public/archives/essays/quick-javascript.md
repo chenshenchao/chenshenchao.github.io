@@ -21,6 +21,7 @@
 - [Luckysheet](https://github.com/dream-num/Luckysheet) Excel 编辑器，基于 jQuery 已经废弃，作者转 univer 开发。
 - [sheetjs](https://github.com/SheetJS/sheetjs) excel 操作库，免费版本功能有限，Pro 版本收费。
 - [exceljs](https://github.com/exceljs/exceljs) excel 操作库。
+- [mammoth.js](https://github.com/mwilliamson/mammoth.js) word 文档转 HTML 。
 - [codemirror5](https://github.com/codemirror/codemirror5) 前端的简易代码编辑器组件。
 - [ace](https://github.com/ajaxorg/ace) 代码编辑器。
 - [GSAP](https://github.com/greensock/GSAP) 动画库
@@ -132,6 +133,8 @@
 - [iconv-lite](https://github.com/pillarjs/iconv-lite) 字符集转换库。
 - [JSSoup](https://github.com/chishui/JSSoup) 仿 python 的 BeautifulSoup 的库， HTML 解析。
 - [whs.js](https://github.com/WhitestormJS/whs.js) 3D 渲染框架。
+- [xeogl](9https://github.com/xeolabs/xeogl) 基于 WebGL 的 3D 引擎。
+- [claygl](https://github.com/pissang/claygl) webGL 库。
 - [lightgl.js](https://github.com/evanw/lightgl.js) 轻量 WebGL 封装。
 - [validator.js](https://github.com/validatorjs/validator.js) 验证器。
 - [validate.js](https://github.com/ansman/validate.js) 验证器。

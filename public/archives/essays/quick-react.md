@@ -84,7 +84,7 @@ npx create-expo-app
 - [Ant Design Pro](https://github.com/ant-design/ant-design-pro) 基于 Ant Design 后台项目，可用于二开，不推荐。
 - [excalidraw](https://github.com/excalidraw/excalidraw) 流程图、思维导图等图库和软件。
 - [tldraw](https://github.com/tldraw/tldraw) 手写板画布组件，功能少，只能用来做手写签名。
-- [GGEditor](https://github.com/alibaba/GGEditor) 可视化图编辑器
+- [GGEditor](https://github.com/alibaba/GGEditor) G6 + React 的可视化图编辑器
 - [keepalive-for-react](https://github.com/finedaybreak/keepalive-for-react) 实现类 vue 的 keepalive 缓存组件状态
 - [react-activation](https://github.com/CJY0208/react-activation) 实现类 vue 的 keepalive
 - [react-keep-alive](https://github.com/StructureBuilder/react-keep-alive) 实现类 vue 的 keepalive，多年没维护。
@@ -96,6 +96,7 @@ npx create-expo-app
 - [fluentui](https://github.com/microsoft/fluentui) 微软开源 Fluent 风格组件库。
 - [sonner](https://github.com/emilkowalski/sonner) toast 组件库。
 - [yet-another-react-lightbox](https://github.com/igordanchenko/yet-another-react-lightbox) 图片查看组件。
+- [react-color](https://github.com/casesandberg/react-color) 颜色选取器。
 
 ### react native 相关库
 

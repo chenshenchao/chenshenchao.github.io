@@ -59,6 +59,7 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [babel](https://github.com/babel/babel)
 - [puppeteer](https://github.com/puppeteer/puppeteer) 封装 Chrome、Firefox 的 API，无头浏览器自动化。
 - [playwright](https://github.com/microsoft/playwright) 微软开源的封装 Chrome、Firefox、WebKit 的 API，无头浏览器自动化。
+- [uirecorder](https://github.com/alibaba/uirecorder) 阿里开源的类 selenium IDE 的无头浏览器自动化。
 - [selenium](https://github.com/SeleniumHQ/selenium) 无头浏览器自动化。
 - [phantomjs](https://github.com/ariya/phantomjs) 无头浏览器。
 - [nodegit](https://github.com/nodegit/nodegit) nodejs 下对 git 命令行封装。
@@ -69,6 +70,8 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [nodemon](https://github.com/remy/nodemon) watch 自动重启项目。
 - [napajs](https://github.com/microsoft/napajs) 微软开源的多线程库。
 - [plop](https://github.com/plopjs/plop) 代码生成框架，自定义代码生成流程。
+- [nginx-conf](https://github.com/tmont/nginx-conf) nginx 配置处理库。
+- [Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) 移动端自动化测试、渗透测试框架。
 
 ### 数据库
 

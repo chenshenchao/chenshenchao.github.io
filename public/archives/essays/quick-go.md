@@ -150,6 +150,7 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [buffalo](https://github.com/gobuffalo/buffalo) Web 框架。
 - [go-admin](https://github.com/go-admin-team/go-admin) Gin + Vue + Element UI & Arco Design & Ant Design 的管理系统脚手架，后端项目。
 - [go-admin-ui](https://github.com/go-admin-team/go-admin-ui) go-admin 的前端。
+- [gopub](https://github.com/linclin/gopub) beego + vue 的运维面板，类似宝塔。
 - [goa](https://github.com/goadesign/goa) 通过 design.go（类 protobuf 的 *.proto 文件） 文件生成架构代码的 web 框架。
 - [zmq4](https://github.com/pebbe/zmq4) ZeroMQ 实现。
 - [jet](https://github.com/CloudyKit/jet) HTML 模板引擎库。
@@ -168,7 +169,7 @@ go env -w GOPROXY=https://goproxy.cn,direct
 ### 图形
 
 - [govcl](https://github.com/ying32/govcl) 类 VCL，绑定 Lazarus 的 libLCL 图形库。 
-- [wails](https://github.com/wailsapp/wails) 打包 Web 成 桌面应用 的框架。
+- [wails](https://github.com/wailsapp/wails) 基于 webview 打包 Web 成 桌面应用 的框架。
 - [hover](https://github.com/go-flutter-desktop/hover) Go 封装 flutter 的桌面应用开发框架。
 - [spot](https://github.com/roblillack/spot) React 代码风格的 Go 桌面应用开发框架。
 - [imgui-go](https://github.com/inkyblackness/imgui-go) imgui 封装，已经不维护。
@@ -216,6 +217,9 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [atlas](https://github.com/ariga/atlas) GO 语言开发的数据库迁移管理的命令行工具与库，主支持 GO 和其他语言（C#、JAVA、python 等）。
 - [gorse](https://github.com/gorse-io/gorse) LLM 驱动的推荐系统。
 - [bytebase](https://github.com/bytebase/bytebase) GO 开发的数据库 CI/CD 管理面板服务。
+- [dalfox](https://github.com/hahwul/dalfox) 自动化测试 XXS 跨站脚本 扫描器。
+- [httprunner](https://github.com/httprunner/httprunner) HTTP / UI 测试工具。
+- [osmedeus](https://github.com/j3ssie/osmedeus) 自动化测试渗透工具，有 workflow 工作流界面。
 
 ## 常用命令
 

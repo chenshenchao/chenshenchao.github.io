@@ -1,6 +1,7 @@
 # [草稿] Racket 速查
 
 - [racket 源码](https://github.com/racket/racket)
+- [racket7 源码](https://github.com/racket/racket7)
 
 ## 常用库
 

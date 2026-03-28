@@ -179,6 +179,9 @@
 - [scummvm](https://github.com/scummvm/scummvm) 多种游戏机模拟器（100+种，包括任天堂 Switch 、索尼 PS 等）。
 - [doxygen](https://github.com/doxygen/doxygen) 主 C++ 注释自动生成文档工具，也支持其他多种语言。
 - [cherrytree](https://github.com/giuspen/cherrytree) 富文本笔记软件，可以保存 XML 等。
+- [ssdb](https://github.com/ideawu/ssdb) 键值对数据库，可替代 Redis 。
+- [Stockfish](https://github.com/official-stockfish/Stockfish) 国际象棋项目。
+- [Stockfish](https://github.com/mcostalba/Stockfish) 国际象棋项目。
 
 ## 包管理与构造工具
 

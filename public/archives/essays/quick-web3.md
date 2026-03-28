@@ -16,3 +16,8 @@
 - [bytom](https://github.com/BytomDAO/bytom) 比原链 协议实现。
 - [zq1](https://github.com/Zilliqa/zq1) 一个智能合约平台。
 - [vnpy](https://github.com/vnpy/vnpy) 基于Python的开源量化交易平台开发框架
+
+## 项目
+
+- [hyperledger](https://github.com/hyperledger/hyperledger)
+- [fabric](https://github.com/hyperledger/fabric)  Linux 基金会旗下 Hyperledger 项目下的企业级许可式分布式账本技术（DLT）/ 区块链平台。

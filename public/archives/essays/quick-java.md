@@ -65,7 +65,8 @@
 
 ## 网络
 
-- [spring-boot](https://github.com/spring-projects/spring-boot)
+- [elide](https://github.com/yahoo/elide) GraphQL、HTTP JSON API 开发框架。
+- [dubbo](https://github.com/apache/dubbo) RPC 微服务 web 框架。
 - [undertow](https://github.com/undertow-io/undertow) Web 服务器。
 - [jfinal](https://github.com/jfinal/jfinal) web 框架。
 - [jpress](https://github.com/JPressProjects/jpress) JAVA 开发的类 PHP 的 WordPress 框架。
