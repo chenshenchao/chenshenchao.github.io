@@ -15,9 +15,9 @@
 - [MNN](https://github.com/alibaba/MNN) 阿里的框架。
 - [mnn-llm](https://github.com/wangzhaode/mnn-llm) 基于 MNN 的 LLM，已经合并到 MNN。
 - [auto-sklearn](https://github.com/automl/auto-sklearn) ML 工具包。
-- [darknet](https://github.com/pjreddie/darknet)
+- [darknet](https://github.com/pjreddie/darknet) 卷积神经网络框架。
 - [botpress](https://github.com/botpress/botpress)
-- [BitNet](https://github.com/microsoft/BitNet)  1-bit LLMs 框架。
+- [BitNet](https://github.com/microsoft/BitNet) 微软的 1-bit LLMs 框架。
 - [ray](https://github.com/ray-project/ray) 分布式计算引擎，用于加机器以加快 AI 训练。
 
 ## 资料源

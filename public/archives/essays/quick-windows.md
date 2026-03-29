@@ -12,6 +12,7 @@
 - [Blackbone](https://github.com/DarthTon/Blackbone) 内存注入
 - [Xenos](https://github.com/DarthTon/Xenos) DLL 注入
 - [winapi-rs](https://github.com/retep998/winapi-rs) rust 绑定 windows api
+- [Scylla](https://github.com/NtQuery/Scylla) 导入表重建工具库。
 
 ### [detours](https://github.com/microsoft/Detours)
 

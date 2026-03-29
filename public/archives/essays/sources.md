@@ -21,6 +21,10 @@
 - [moonbit-docs](https://github.com/moonbitlang/moonbit-docs) MoonBit 月兔语言文档。
 - [puppeteer-deep](https://github.com/zhentaoo/puppeteer-deep) puppeteer 的一些示例。
 - [BypassAntiVirus](https://github.com/TideSec/BypassAntiVirus) 远控、免杀 相关文章。
+- [404StarLink](https://github.com/knownsec/404StarLink) 安全测试相关项目列表。
+- [linux-kernel-exploits](https://github.com/SecWiki/linux-kernel-exploits) Linux 内核漏洞集合。
+- [windows-kernel-exploits](https://github.com/SecWiki/windows-kernel-exploits) Windows 漏洞集合。
+- [dirtycow](https://github.com/firefart/dirtycow) CVE-2016-5195 dirtycow 漏洞
 
 ## 开源书籍
 
@@ -454,6 +458,7 @@
 - [nanoDLA](https://github.com/wuxx/nanoDLA) 支持 pulseview 的数字逻辑分析仪。
 - [avr-progisp-programmer](https://github.com/ioelectro/avr-progisp-programmer)
 - [pico-examples](https://github.com/raspberrypi/pico-examples) 树莓派 pico 示例。
+- [WyliodrinSTUDIO](https://github.com/Wyliodrin/WyliodrinSTUDIO) 基于 chrome 的嵌入式 IDE。
 
 ### 游戏
 
@@ -533,7 +538,7 @@
 
 ### VS code 插件
 
-
+- [vscode-rainbow-fart](https://github.com/SaekiRaku/vscode-rainbow-fart) 自动播放彩虹屁的插件。
 
 ### 移动APP
 

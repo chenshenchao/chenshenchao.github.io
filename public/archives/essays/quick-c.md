@@ -125,6 +125,8 @@
 - [u-boot](https://github.com/u-boot/u-boot) 引导加载程序。
 - [pico-sdk](https://github.com/raspberrypi/pico-sdk) 树莓派 pico SDK
 - [mjs](https://github.com/cesanta/mjs) 嵌入式 JS 引擎。
+- [EasyFlash](https://github.com/armink/EasyFlash) 嵌入式利用 Flash 做键值对数据库。（目前支持 stm32f10x与 stm32f4xx）
+- [FlashDB](https://github.com/armink/FlashDB) 嵌入式利用 Flash 做键值对数据库。
 
 ## 示例、项目
 
@@ -153,3 +155,4 @@
 - [llgo](https://github.com/goplus/llgo) 基于 LLVM 的 GO 编译器，更好地和 C、Python 混编。
 - [hashcat](https://github.com/hashcat/hashcat) 密码破解工具。
 - [eclipse-embed-cdt](https://github.com/eclipse-embed-cdt/eclipse-plugins) eclipse 支持  Arm、RISC-V 嵌入式的插件。
+- [ios-webkit-debug-proxy](https://github.com/google/ios-webkit-debug-proxy) 谷歌开源的 chrome DevTools 的 IOS 调试代理。

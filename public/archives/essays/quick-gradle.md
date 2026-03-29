@@ -17,10 +17,12 @@
 | 7.6 | 19 |
 | 8.1 | 20 |
 
-## 扩展
+## 插件
 
 - [gradle-bintray-plugin](https://github.com/bintray/gradle-bintray-plugin) 发布到 bintray 的插件。
-- [protobuf-gradle-plugin](https://github.com/google/protobuf-gradle-plugin) protobuf 生成代码扩展。
+- [protobuf-gradle-plugin](https://github.com/google/protobuf-gradle-plugin) protobuf 生成代码插件。
+- [gradle-graal](https://github.com/palantir/gradle-graal) 下载 graal 相关工具的插件。
+- [gradle-download-task](https://github.com/michel-kraemer/gradle-download-task) 下载文件插件，可以显示下载进度。
 
 GRADLE_HOME
 PATH=%PATH%;%GRADLE_HOME%\bin

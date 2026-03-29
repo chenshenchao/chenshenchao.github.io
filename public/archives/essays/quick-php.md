@@ -154,7 +154,9 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 
 - [xunsearch](https://github.com/hightman/xunsearch) 专门给 PHP 提供全文搜索的 C 项目。
 - [WordPress](https://github.com/WordPress/WordPress)
+- [craftcms](https://github.com/craftcms/cms) 一个 CMS 项目。
 - [Sylius](https://github.com/Sylius/Sylius) 电商项目。
+- [shopxo](https://github.com/gongfuxiang/shopxo) 基于 TP8 的商城项目。
 - [pikachu](https://github.com/zhuifengshaonianhanlu/pikachu) 漏洞靶场项目。
 - [PHPPHP](https://github.com/ircmaxell/PHPPHP) PHP 里的 PHP VM。
 - [think-swoole-demo](https://github.com/xavieryang007/think-swoole-demo) think-swoole 示例。
@@ -164,6 +166,7 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) 代码嗅探工具，检查语法等，已转移。
 - [PHP_CodeSniffer](https://github.com/PHPCSStandards/PHP_CodeSniffer) 代码嗅探工具，检查语法等。
 - [phinx](https://github.com/cakephp/phinx) 数据库迁移框架（提供命令行工具和库）。
+- [DVWA](https://github.com/digininja/DVWA) 安全测试，PHP 开发的漏洞靶场。
 
 ## 命令规范
 

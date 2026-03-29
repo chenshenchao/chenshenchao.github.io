@@ -143,6 +143,7 @@
 - [LumixEngine](https://github.com/nem0/LumixEngine) 3D 游戏引擎，自带场景编辑器。
 - [cocos2d-x](https://github.com/cocos2d/cocos2d-x) 游戏引擎。
 - [boden](https://github.com/AshampooSystems/boden) C++ 移动端跨平台开发框架。
+- [swiftshader](https://github.com/google/swiftshader) 谷歌开源的 Vulkan 3D 图形库。
 
 ### boost
 
@@ -164,7 +165,8 @@
 - [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor) 实时网速监控浮窗。
 - [ClickHouse](https://github.com/ClickHouse/ClickHouse) 实时生成分析的列数据库。
 - [AheadLib-x86-x64](https://github.com/strivexjun/AheadLib-x86-x64) 劫持 DLL 的代码生成工具。
-- [AheadLib](https://github.com/Yonsm/AheadLib) 劫持 DLL 的代码生成工具。劫持 DLL 的代码生成工具。
+- [AheadLib](https://github.com/Yonsm/AheadLib) 劫持 DLL 的代码生成工具。
+- [CS-Loader](https://github.com/Gality369/CS-Loader) 基于 LLVM 的代码混淆，免杀工具。
 - [ExStudPE_Visual_Tools](https://github.com/tankaishuai/ExStudPE_Visual_Tools) 扩展了 StudPE 的工具。
 - [Overload](https://github.com/Overload-Technologies/Overload) 类 Unit3D 的游戏引擎，有场景编辑器等，脚本语言是 Lua 。
 - [sqlitebrowser](https://github.com/sqlitebrowser/sqlitebrowser) SQLite 管理工具。
@@ -184,6 +186,7 @@
 - [tair](https://github.com/alibaba/tair) 阿里开源的键值对数据库服务。
 - [Stockfish](https://github.com/official-stockfish/Stockfish) 国际象棋项目。
 - [Stockfish](https://github.com/mcostalba/Stockfish) 国际象棋项目。
+- [stellarium](https://github.com/Stellarium/stellarium) 天文模拟软件。
 
 ## 包管理与构造工具
 
