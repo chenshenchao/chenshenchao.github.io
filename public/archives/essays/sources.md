@@ -176,6 +176,7 @@
 - [helix](https://github.com/helix-editor/helix) 类 vim 的命令行文本编辑器。
 - [neovim](https://github.com/neovim/neovim) 一个 Vim 实现。
 - [SpaceVim](https://github.com/wsdjeg/SpaceVim) 一个 Vim 实现。
+- [vim.wasm](https://github.com/rhysd/vim.wasm) WASM 编译 Vim 在浏览器中运行。
 - [xray](https://github.com/atom-archive/xray) 基于 Electron 的一个文本编辑器。
 - [atom](https://github.com/atom/atom) 基于 Electron 的一个文本编辑器。
 - [liteide](https://github.com/visualfc/liteide) Go IDE
@@ -322,8 +323,9 @@
 
 ### 监控、渗透、测试工具
 
-- [wireshark](https://github.com/wireshark/wireshark) 桌面抓包工具。
+- [wireshark](https://github.com/wireshark/wireshark) 桌面流量监控抓包工具。
 - [sniffnet](https://github.com/GyulyVGC/sniffnet) 桌面网络监控抓包工具。
+- [ntopng](https://github.com/ntop/ntopng) 流量监控工具。（名字 ntop ng 是 "n=网络" 的 top "ng=新一代"）
 - [proxypin](https://github.com/wanghongenpin/proxypin) 桌面、移动端抓包工具，Flutter 开发。
 - [grafana](https://github.com/grafana/grafana) Web 数据库监控面板。
 - [BaoTa](https://github.com/aaPanel/BaoTa) 服务器运维面板服务。

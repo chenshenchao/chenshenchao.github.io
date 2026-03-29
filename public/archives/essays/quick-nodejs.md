@@ -3,8 +3,9 @@
 - [node 源码](https://github.com/nodejs/node)
 
 - [farm](https://github.com/farm-fe/farm) rust 开发的兼容 vite 的构建工具。
-- [unbuild](https://github.com/unjs/unbuild) 构建工具
-- [webpack](https://github.com/webpack/webpack) 构建工具
+- [unbuild](https://github.com/unjs/unbuild) 构建工具。
+- [webpack](https://github.com/webpack/webpack) 构建工具。
+- [parcel](https://github.com/parcel-bundler/parcel) 构建工具。
 - [fis3](https://github.com/fex-team/fis3) 类 gulp 构建工具。
 - [snowpack](https://github.com/FredKSchott/snowpack) ESM 前端构建工具。
 - [rsbuild](https://github.com/web-infra-dev/rsbuild) 基于 Rspack 的构造工具。

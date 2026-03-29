@@ -65,7 +65,7 @@
 - [QtScrcpy](https://github.com/barry-ran/QtScrcpy) 远程控制安卓设备。
 - [ADBKeyBoard](https://github.com/senzhk/ADBKeyBoard) 一个输入法，解决 adb shell input text 不支持 Unicode。
 
-## 资料、示例
+## 项目、资料、示例
 
 - [FFmpegAndroid](https://github.com/xufuji456/FFmpegAndroid) 安卓 FFmpeg 相关资料。
 - [ffmpeg4android](https://github.com/byhook/ffmpeg4android) 安卓 FFmpeg 相关资料。
@@ -73,6 +73,7 @@
 - [VideoCompressor](https://github.com/fishwjy/VideoCompressor) MediaCodec 视频压缩示例。
 - [small-video-record](https://github.com/mabeijianxi/small-video-record) 基于 ffmpeg 的视频录制示例。
 - [mpv-android](https://github.com/mpv-android/mpv-android) 基于 libmpv 的视频播放器。
+- [simplenote-android](https://github.com/Automattic/simplenote-android) 简单笔记APP。
 
 ### keytool 证书生成命令行（Java SDK 工具）
 

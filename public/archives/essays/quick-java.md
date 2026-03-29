@@ -61,7 +61,8 @@
 - [jBCrypt](https://github.com/jeremyh/jBCrypt) BCrypt 密码加密。
 - [bcrypt](https://github.com/patrickfav/bcrypt) bcrypt 密码加密。
 - [password4j](https://github.com/Password4j/password4j) 密码加密。
-- [opennlp](https://github.com/apache/opennlp) NLP 库。
+- [opennlp](https://github.com/apache/opennlp) NLP 分词库。
+- [CoreNLP](https://github.com/stanfordnlp/CoreNLP)  NLP 分词库。
 
 ## 图形
 

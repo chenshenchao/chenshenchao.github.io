@@ -155,6 +155,7 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [xunsearch](https://github.com/hightman/xunsearch) 专门给 PHP 提供全文搜索的 C 项目。
 - [WordPress](https://github.com/WordPress/WordPress)
 - [craftcms](https://github.com/craftcms/cms) 一个 CMS 项目。
+- [joomla-cms](https://github.com/joomla/joomla-cms) 一个 CMS 项目。
 - [Sylius](https://github.com/Sylius/Sylius) 电商项目。
 - [shopxo](https://github.com/gongfuxiang/shopxo) 基于 TP8 的商城项目。
 - [pikachu](https://github.com/zhuifengshaonianhanlu/pikachu) 漏洞靶场项目。
