@@ -74,6 +74,7 @@
 - [small-video-record](https://github.com/mabeijianxi/small-video-record) 基于 ffmpeg 的视频录制示例。
 - [mpv-android](https://github.com/mpv-android/mpv-android) 基于 libmpv 的视频播放器。
 - [simplenote-android](https://github.com/Automattic/simplenote-android) 简单笔记APP。
+- [PocketHub](https://github.com/pockethub/PocketHub)  GitHub 客户端（Android 平台）
 
 ### keytool 证书生成命令行（Java SDK 工具）
 

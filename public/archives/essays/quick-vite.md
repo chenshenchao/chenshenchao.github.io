@@ -13,3 +13,7 @@
 - [vite-plugin-style-inject](https://github.com/lovelliu/vite-plugin-style-inject) 内联 CSS 样式 到 JS 插件。
 - [postcss-px-to-viewport-8-plugin](https://github.com/lkxian888/postcss-px-to-viewport-8-plugin) 设计稿 px 转 vw 插件。
 - [vite-plugin-mock](https://github.com/vbenjs/vite-plugin-mock) 集成 mockjs 插件。
+
+## 项目
+
+- [vitedge](https://github.com/frandiox/vitedge) 边缘渲染 ESR 框架。

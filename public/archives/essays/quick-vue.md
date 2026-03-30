@@ -41,6 +41,7 @@
 - [vue-quilly](https://github.com/alekswebnet/vue-quilly) Vue3 + Quilly 富文本编辑器封装。
 - [naive-ui](https://github.com/tusen-ai/naive-ui) 简单 UI 组件。
 - [vue-virtual-scroller](https://github.com/Akryum/vue-virtual-scroller) 虚拟滚动。
+- [fes.js](https://github.com/WeBankFinTech/fes.js) 在 Vue3 上进一步做技术选型和扩展的框架。
 
 ### Vue2
 

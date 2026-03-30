@@ -127,6 +127,7 @@
 - [mjs](https://github.com/cesanta/mjs) 嵌入式 JS 引擎。
 - [EasyFlash](https://github.com/armink/EasyFlash) 嵌入式利用 Flash 做键值对数据库。（目前支持 stm32f10x与 stm32f4xx）
 - [FlashDB](https://github.com/armink/FlashDB) 嵌入式利用 Flash 做键值对数据库。
+- [ijjs](https://github.com/MarilynDafa/ijjs) 嵌入式 JS 运行库。
 
 ## 示例、项目
 

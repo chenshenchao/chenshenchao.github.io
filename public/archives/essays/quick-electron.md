@@ -4,6 +4,7 @@
 - [forge](https://github.com/electron/forge)
 - [electron-builder](https://github.com/electron-userland/electron-builder)
 - [electron-builder 的下载资源](https://github.com/electron-userland/electron-builder-binaries)
+- [electron-compile](https://github.com/electron-userland/electron-compile) 编译 JS、CSS 插件，已经不维护。
 - [vue-cli-plugin-electron-builder](https://github.com/nklayman/vue-cli-plugin-electron-builder)
 - [apps](https://github.com/electron/apps) 基于 electron 开发的应用的列表。
 

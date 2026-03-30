@@ -21,3 +21,4 @@
 
 - [hyperledger](https://github.com/hyperledger/hyperledger)
 - [fabric](https://github.com/hyperledger/fabric)  Linux 基金会旗下 Hyperledger 项目下的企业级许可式分布式账本技术（DLT）/ 区块链平台。
+- [freqtrade](https://github.com/freqtrade/freqtrade) 加密货币量化交易机器人，算法交易全流程解决方案。

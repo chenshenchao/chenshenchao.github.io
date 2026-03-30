@@ -7,7 +7,7 @@
 - [思源黑体](https://github.com/adobe-fonts/source-han-sans)
 - [OSFCC](https://github.com/DrXie/OSFCC) 开源中文字体枚举。
 
-## 文档与教程
+## 文档与教程、示例
 
 - [fileformat](https://docs.fileformat.com/) 文件格式文档
 - [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) 教程与习题站点项目。
@@ -25,6 +25,7 @@
 - [linux-kernel-exploits](https://github.com/SecWiki/linux-kernel-exploits) Linux 内核漏洞集合。
 - [windows-kernel-exploits](https://github.com/SecWiki/windows-kernel-exploits) Windows 漏洞集合。
 - [dirtycow](https://github.com/firefart/dirtycow) CVE-2016-5195 dirtycow 漏洞
+- [FastTrack](https://github.com/microsoft/FastTrack) 微软开源的脚本集合。
 
 ## 开源书籍
 
@@ -375,6 +376,7 @@
 - [zincsearch](https://github.com/zincsearch/zincsearch) 类 ElasticSearch 全文索引数据库（GO 语言）。
 - [gofound](https://github.com/sea-team/gofound) 全文索引数据库（GO 语言），HTTP 接口，有管理后台面板。
 - [sonic](https://github.com/valeriansaliou/sonic) 全文搜索数据库。
+- [psonic](https://github.com/ppshobi/psonic) sonic PHP 客户端。
 - [manticoresearch](https://github.com/manticoresoftware/manticoresearch) 类 ElasticSearch 全文索引数据库（C 语言）。
 - [quickwit](https://github.com/quickwit-oss/quickwit) 全文搜索引擎，开发了 tantivy 库。
 - [lnx](https://github.com/lnx-search/lnx) 基于 tantivy 的全文搜索引擎。
@@ -420,6 +422,7 @@
 - [ttyd](https://github.com/tsl0922/ttyd) 把终端暴露成 web 页面的服务器。
 - [maxwell](https://github.com/zendesk/maxwell) 通过 mysql binlog 转成 JSON 发送 kafka 的生产者服务。
 - [supervisor](https://github.com/Supervisor/supervisor) linux 守护进程常驻服务。
+- [bugzilla](https://github.com/bugzilla/bugzilla) BUG 跟踪系统，用来测试人员提交 BUG ，管理 BUG 的 web 服务。
 
 ### 硬件设计工具
 

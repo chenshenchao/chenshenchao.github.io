@@ -63,6 +63,7 @@
 - [password4j](https://github.com/Password4j/password4j) 密码加密。
 - [opennlp](https://github.com/apache/opennlp) NLP 分词库。
 - [CoreNLP](https://github.com/stanfordnlp/CoreNLP)  NLP 分词库。
+- [compileflow](https://github.com/alibaba/compileflow) 阿里开源的流程编排库。
 
 ## 图形
 
@@ -99,10 +100,14 @@
 - [dbeaver](https://github.com/dbeaver/dbeaver) 数据库客户端工具。
 - [pmd](https://github.com/pmd/pmd) 多语言的静态代码分析器。
 - [red5-server](https://github.com/Red5/red5-server) Flash 媒体服务器（FMS）替代方案，支持 RTMP/RTMPS/RTMPT/RTMPE 等协议。
+- [cat](https://github.com/dianping/cat) 美团点评 开源 实时应用监控平台。
 - [doris](https://github.com/apache/doris) apache 的实时数仓的 MPP 数据库。
 - [Mycat2](https://github.com/MyCATApache/Mycat2) 分库分表方案。
 - [Mycat-Server](https://github.com/MyCATApache/Mycat-Server) Mycat1 分库分表方案。
 - [otter](https://github.com/alibaba/otter) 阿里开源 数据库同步方案。
+- [nacos](https://github.com/alibaba/nacos) 阿里开源 类 zookeeper、etcd 的动态服务发现、配置管理和服务管理平台。
+- [newbee-mall](https://github.com/newbee-ltd/newbee-mall) 开源 商城 项目
+- [newbee-mall-api](https://github.com/newbee-ltd/newbee-mall-api) newbee-mall 前后分离的后端。
 
 ## 开发环境与包管理工具
 

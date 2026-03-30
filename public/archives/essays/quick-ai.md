@@ -19,6 +19,7 @@
 - [botpress](https://github.com/botpress/botpress)
 - [BitNet](https://github.com/microsoft/BitNet) 微软的 1-bit LLMs 框架。
 - [ray](https://github.com/ray-project/ray) 分布式计算引擎，用于加机器以加快 AI 训练。
+- [adeptRL](https://github.com/heronsystems/adeptRL) 强化学习框架。
 
 ## 资料源
 
@@ -85,6 +86,7 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 
 - [OpenVINO](https://github.com/openvinotoolkit/openvino) 优化模型库，主要优化 Intel 的CPU和GPU。
 - [transformers](https://github.com/huggingface/transformers) huggingface 的 transformers 定义框架，方便模型通用一套代码。
+- [longformer](https://github.com/allenai/longformer) 长文档编码解码器。
 
 ## 模型
 
@@ -198,6 +200,8 @@ qwen
 - [yolov5](https://github.com/ultralytics/yolov5) 机器视觉库。
 - [ultralytics](https://github.com/ultralytics/ultralytics) YOLO 机器视觉。
 - [Generative-Adversarial-Networks-Projects](https://github.com/PacktPublishing/ Generative-Adversarial-Networks-Projects) PacktPublishing 的 GAN 项目。
+- [Opus-MT](https://github.com/Helsinki-NLP/Opus-MT) 机器翻译服务。
+- [OPUS-MT-trai](https://github.com/Helsinki-NLP/OPUS-MT-train) Opus-MT 训练脚本。
 
 ### RAG（Retrieval Augmented Generation）
 

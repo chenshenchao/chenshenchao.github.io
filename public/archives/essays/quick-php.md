@@ -149,6 +149,8 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [plates](https://github.com/thephpleague/plates) HTML 模板引擎。
 - [openapi-sdk-php](https://github.com/aliyun/openapi-sdk-php) 阿里云的 PHP SDK 2.0。
 - [openapi-sdk-php-client](https://github.com/aliyun/openapi-sdk-php-client) 阿里云的 PHP SDK 1.0。
+- [GroupCo](https://github.com/fucongcong/GroupCo) 微服务框架。
+- [flysystem](https://github.com/thephpleague/flysystem) 跨平台文件操作库，支持 本地、FTP、SFTP、内存、S3等。
 
 ## 项目、示例
 
@@ -168,6 +170,10 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [PHP_CodeSniffer](https://github.com/PHPCSStandards/PHP_CodeSniffer) 代码嗅探工具，检查语法等。
 - [phinx](https://github.com/cakephp/phinx) 数据库迁移框架（提供命令行工具和库）。
 - [DVWA](https://github.com/digininja/DVWA) 安全测试，PHP 开发的漏洞靶场。
+- [php-telegram-bot](https://github.com/php-telegram-bot/core) telegram 接口，便于开发 telegram 的聊天机器人。
+- [translate5](https://github.com/translate5/translate5) 翻译系统。
+- [opentm2-source](https://github.com/OpenTM2/opentm2-source) 翻译记忆库。
+- [t5memory](https://github.com/translate5/t5memory) 翻译记忆库。
 
 ## 命令规范
 

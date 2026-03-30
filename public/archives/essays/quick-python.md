@@ -104,6 +104,8 @@ python -m http.server 8000
 - [pefile](https://github.com/erocarrera/pefile) PE 文件处理库。
 - [pyodide](https://github.com/pyodide/pyodide) 浏览器里基于 WASM 的  python 运行环境。
 - [PrettyErrors](https://github.com/onelivesleft/PrettyErrors) 异常输出美化库。
+- [cryptography](https://github.com/pyca/cryptography) rust 开发的 python 加密库。
+- [pycryptodome](https://github.com/Legrandin/pycryptodome) C 开发的 python 加密库。
 
 ### 数据库
 
@@ -233,6 +235,10 @@ virtualenv .pyvenv -p /path/python
 - [pyenv-win 源码](https://github.com/pyenv-win/pyenv-win)
 
 管理、安装、切换 python 版本环境等。
+
+### conda
+
+- [conda](https://github.com/conda/conda)
 
 ### 使用 Visual Studio Code 快速使用和切换环境
 

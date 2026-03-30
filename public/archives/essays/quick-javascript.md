@@ -26,6 +26,7 @@
 - [codemirror5](https://github.com/codemirror/codemirror5) 前端的简易代码编辑器组件。
 - [ace](https://github.com/ajaxorg/ace) 代码编辑器。
 - [GSAP](https://github.com/greensock/GSAP) 动画库
+- [aes-js](https://github.com/ricmoo/aes-js) AES 加密库。
 - [crypto-js](https://github.com/brix/crypto-js) 散列和对称加密库，但是由于标准已经提供了异步的（Crypto Web API）所以只有在兼容旧环境和非异步情况下才使用。
 - [jsencrypt](https://github.com/travist/jsencrypt) 纯 JS 的非对称算法 RSA 实现，但是标准已经有异步的（Crypto Web API）所以只有在兼容旧环境和非异步情况下才使用。
 - [bcrypt](https://github.com/kelektiv/node.bcrypt.js) Node 的 Bcrypt HASH 实现。
@@ -159,6 +160,7 @@
 - [Wonder-Editor](https://github.com/Wonder-Technology/Wonder-Editor) 浏览器端类似 U3D 的 3D 场景编辑器。
 - [Layx](https://github.com/monksoul/Layx) 弹窗组件。
 - [bootstrap](https://github.com/twbs/bootstrap) 老牌前端组件样式库。
+- [bpmn-js](https://github.com/bpmn-io/bpmn-js) 流程图编辑器。
 
 ### Web
 
