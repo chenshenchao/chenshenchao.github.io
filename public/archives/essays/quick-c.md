@@ -57,6 +57,7 @@
 - [friso](https://github.com/lionsoul2014/friso) 中文分词库，提供了 PHP 、Lua、OCaml 等的插件。
 - [jemalloc](https://github.com/jemalloc/jemalloc) 通用的 malloc 内存分配库。
 - [libusb](https://github.com/libusb/libusb) USB 库。
+- [pipewire](https://github.com/PipeWire/pipewire) Linux 多媒体库，录制播放音频，截取视频帧等。
 
 ### 数据库
 
@@ -86,7 +87,7 @@
 - [gnutls](https://github.com/gnutls/gnutls) GNU TLS 库。
 - [openssl](https://github.com/openssl/openssl) TLS 等加密算法库。
 
-### UI 图形库。
+### 图形
 
 - [sokol](https://github.com/floooh/sokol) 跨平台包括 3D 图形、多媒体等的单头文件库。
 - [SDL](https://github.com/libsdl-org/SDL) 
@@ -148,6 +149,7 @@
 - [nghttp2](https://github.com/nghttp2/nghttp2) http 命令行 客户端和服务器工具。
 - [nuster](https://github.com/jiangwenyuan/nuster) HTTP 代理缓存服务器。
 - [twemproxy](https://github.com/twitter/twemproxy) 分布式 redis 代理服务器。
+- [syslog-ng](https://github.com/syslog-ng/syslog-ng) 日志方案服务，可以接收 系统、网络、SQL、NoSQL 等的日志。
 
 ## 工具
 

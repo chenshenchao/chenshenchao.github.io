@@ -321,6 +321,7 @@
 - [MirrorX](https://github.com/MirrorX-Desktop/MirrorX) 远程桌面客户端，有配套的服务器。
 - [VisualStudioUninstaller](https://github.com/microsoft/VisualStudioUninstaller) VisualStudio 卸载工具。
 - [texstudio](https://github.com/texstudio-org/texstudio) LaTeX 编辑器。
+- [WechatMomentScreenshot](https://github.com/TransparentLC/WechatMomentScreenshot) 当老板要求你转发朋友圈并截图时，可以用这个网站生成一张假的截图去糊弄老板。
 
 ### 监控、渗透、测试工具
 
@@ -464,6 +465,7 @@
 - [avr-progisp-programmer](https://github.com/ioelectro/avr-progisp-programmer)
 - [pico-examples](https://github.com/raspberrypi/pico-examples) 树莓派 pico 示例。
 - [WyliodrinSTUDIO](https://github.com/Wyliodrin/WyliodrinSTUDIO) 基于 chrome 的嵌入式 IDE。
+- [xls](https://github.com/google/xls) 谷歌的硬件设计工具，DSLX 语言、XLS IR 类 LLVM IR 中间表示、支持 verilog 生成 XLS IR。已用于 TPU 设计。
 
 ### 游戏
 

@@ -62,6 +62,7 @@
 - [libco](https://github.com/Tencent/libco) 腾讯开源的协程库。
 - [robotstxt](https://github.com/google/robotstxt) robots.txt 文件解析库。
 - [GameAISDK](https://github.com/Tencent/GameAISDK) 基于图像的 自动化 框架，基于 tensorflow AI 。
+- [astc-encoder](https://github.com/ARM-software/astc-encoder) ARM 开源的 ASTC 纹理压缩解压库和命令行工具。
 
 ### 网络
 
@@ -136,7 +137,8 @@
 - [lunasvg](https://github.com/sammycage/lunasvg) SVG 库。
 - [lodepng](https://github.com/lvandeve/lodepng) PNG 库。
 - [bmf](https://github.com/BabitMF/bmf) 多媒体库，提取视频帧等功能，支持 C++、python 等多语言。
-- [blend2d](https://github.com/blend2d/blend2d) 基于 asmjit 的 2D 图形库。
+- [blend2d](https://github.com/blend2d/blend2d) 基于 asmjit 的 2D 图形绘图库。
+- [picasso](https://github.com/onecoolx/picasso) 2D 图形绘图库。
 - [sciter-sdk](https://github.com/c-smile/sciter-sdk) 可内嵌的 HTML/CSS/TIScript 的脚本引擎。已废弃。
 - [sciter-js-sdk](https://gitlab.com/sciter-engine/sciter-js-sdk) 可内嵌的 HTML/CSS/JS 的脚本引擎。内置 QuickJs。 [GitHub 旧仓库](https://github.com/c-smile/sciter-js-sdk)
 - [mos](https://github.com/morganbengtsson/mos) 游戏引擎。

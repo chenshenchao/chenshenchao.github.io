@@ -62,6 +62,7 @@
 - [lit](https://github.com/lit/lit) 基于 web components 开发组件的框架。
 - [omi](https://github.com/Tencent/omi) 腾讯开源的 web 前端组件框架。
 - [better-scroll](https://github.com/ustbhuangyi/better-scroll)
+- [blocksuite](https://github.com/toeverything/blocksuite) 编辑器开发库，可以定制富文本编辑器、流程图编辑器。
 - [lexical](https://github.com/facebook/lexical) facebook 开源的可扩展的文本编辑器框架。
 - [textbus](https://github.com/textbus/textbus) 支持 Viewfly、Vue、React 多框架的富文本编辑器。
 - [editor.js](https://github.com/codex-team/editor.js) 富文本编辑器。
@@ -77,6 +78,7 @@
 - [ag-grid](https://github.com/ag-grid/ag-grid) 支持 React、Vue 等多框架的表格库。
 - [lucky-canvas](https://github.com/buuing/lucky-canvas) 【大转盘 / 九宫格 / 老虎机】抽奖插件
 - [pretext](https://github.com/chenglou/pretext) 文字排版库。
+- [L7](https://github.com/antvis/L7) 蚂蚁集团 开源的 WebGL 的 3D 地理绘图。
 
 ## 类型系统
 

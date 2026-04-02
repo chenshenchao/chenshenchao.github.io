@@ -74,6 +74,8 @@
 - [vuex-persistedstate](https://github.com/robinvdvleuten/vuex-persistedstate) vuex 持久化库。
 - [vue-willtable](https://github.com/KevinMint55/vue-willtable) Vue2 的可编辑表格。
 - [vue2-datepicker](https://github.com/mengxiong10/vue2-datepicker) vue2 日期选择器。
+- [pl-table](https://github.com/parlay96/pl-table) vue2 的虚拟滚动表格，已经迁移到 umy-ui 内部。
+- [umy-ui](https://github.com/popo-fishes/umy-ui) vue2 的 组件库。
 
 ### Vue1
 

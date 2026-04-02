@@ -84,6 +84,7 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [thinkphp](https://github.com/top-think/framework) Web 框架，很多基础库复用 symfony 的，国内大量专用框架由其扩展而来。
 - [think](https://github.com/top-think/think) Web 框架，很多基础库复用 symfony 的，国内大量专用框架由其扩展而来。
 - [think-swoole](https://github.com/top-think/think-swoole) thinkphp 的 swoole 适配。
+- [think-api](https://github.com/top-think/think-api)
 - [think-queue](https://github.com/top-think/think-queue)
 - [think-validate](https://github.com/top-think/think-validate)
 - [think-worker](https://github.com/top-think/think-worker) ThinkPHP Workerman 扩展

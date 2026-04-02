@@ -64,6 +64,7 @@
 - [opennlp](https://github.com/apache/opennlp) NLP 分词库。
 - [CoreNLP](https://github.com/stanfordnlp/CoreNLP)  NLP 分词库。
 - [compileflow](https://github.com/alibaba/compileflow) 阿里开源的流程编排库。
+- [esProc](http://github.com/SPLWare/esProc) 一款 SPL（Structured Process Language）语言，类似 Excel 的运算表达式。
 
 ## 图形
 
@@ -108,6 +109,7 @@
 - [nacos](https://github.com/alibaba/nacos) 阿里开源 类 zookeeper、etcd 的动态服务发现、配置管理和服务管理平台。
 - [newbee-mall](https://github.com/newbee-ltd/newbee-mall) 开源 商城 项目
 - [newbee-mall-api](https://github.com/newbee-ltd/newbee-mall-api) newbee-mall 前后分离的后端。
+- [pentaho-kettle](https://github.com/pentaho/pentaho-kettle) 数据清洗服务、ETL（Extract 提取, Transform 转换, Load 加载）数据的工具。
 
 ## 开发环境与包管理工具
 

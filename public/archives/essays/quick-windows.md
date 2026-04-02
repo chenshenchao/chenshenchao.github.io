@@ -6,6 +6,7 @@
 - [DirectML](https://github.com/microsoft/DirectML) 基于 DirectX 的机器学习硬件加速库。
 - [terminal](https://github.com/microsoft/terminal) Windows 新命令行终端。
 - [PowerToys](https://github.com/microsoft/PowerToys) 微软开源的软件工具箱。
+- [GW-BASIC](https://github.com/microsoft/GW-BASIC) 微软开源的 GW-BASIC 源码，1983年，全是汇编。
 
 ## 常用库
 
@@ -25,6 +26,7 @@ Windows 下监听、拦截 API 调用的库。
 - [binskim](https://github.com/microsoft/binskim) 可以分析 PE 和 ELF 的命令行工具。
 - [systeminformer](https://github.com/winsiderss/systeminformer) 类 ProcessExplorer 的图形工具。
 - [process-governor](https://github.com/lowleveldesign/process-governor) 限制进程的内存、CPU使用数量等的命令行工具。
+- [svg-explorer-extension](https://github.com/tibold/svg-explorer-extension) 文件管理器 explorer 扩展，可以直接看到 SVG 图（Win11 已经可以直接查看 SVG 了）
 
 ## 墙
 

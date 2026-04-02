@@ -125,6 +125,9 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [text2text](https://github.com/artitw/text2text)
 - [ChatRWKV](https://github.com/BlinkDL/ChatRWKV) 类 ChatGPT 的 RWKV（100% RNN）对话模型。
 - [keras-transformer](https://github.com/CyberZHG/keras-transformer) 一个 keras 实现的 transformer 模型。
+- [dolly](https://github.com/databrickslabs/dolly) 一个支持指令微调的 LLM 。
+- [fairseq](https://github.com/facebookresearch/fairseq) facebookresearch 开源的基于 pytorch 的 seq2seq 向量化模型。
+- [lightseq](https://github.com/bytedance/lightseq) 字节跳动 开源的基于 pytorch 的 seq2seq 向量化模型。
 
 ## AI 应用开发
 
@@ -167,10 +170,17 @@ claude
 npm install -g @openai/codex
 # 运行
 codex
+```
 
-# 千问命令行工具
+```bash
+# 千问命令行工具（已废弃）
 npm install -g @qwen-code/qwen-code
-# 运行
+```
+
+```bat
+@rem Windows 下 管理员 运行 bat 安装（不兼容 NVM）
+curl -fsSL -o %TEMP%\install-qwen.bat https://qwen-code-assets.oss-cn-hangzhou.aliyuncs.com/installation/install-qwen.bat && %TEMP%\install-qwen.bat
+@rem 运行
 qwen
 ```
 
@@ -185,7 +195,7 @@ qwen
 - [AgentGPT](https://github.com/reworkd/AgentGPT) 网页界面的 Agent 项目。
 - [BabyAGI](https://github.com/yoheinakajima/babyagi) python 的 AGI 开发库。
 - [open-text-embeddings](https://github.com/rag-wtf/open-text-embeddings) 兼容 openAI 的 API 的嵌入文本模型框架。
-- [anylabeling](https://github.com/vietanhdev/anylabeling) 数据标注工具。
+- [anylabeling](https://github.com/vietanhdev/anylabeling) 数据标注工具，用视觉模型做辅助。
 
 ### AI 应用
 
@@ -202,6 +212,7 @@ qwen
 - [Generative-Adversarial-Networks-Projects](https://github.com/PacktPublishing/ Generative-Adversarial-Networks-Projects) PacktPublishing 的 GAN 项目。
 - [Opus-MT](https://github.com/Helsinki-NLP/Opus-MT) 机器翻译服务。
 - [OPUS-MT-trai](https://github.com/Helsinki-NLP/OPUS-MT-train) Opus-MT 训练脚本。
+- [FastChat](https://github.com/lm-sys/FastChat) LLM 的集成项目，不用写样板代码直接通过命令启动模型。
 
 ### RAG（Retrieval Augmented Generation）
 

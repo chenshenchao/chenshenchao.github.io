@@ -8,10 +8,7 @@
 - [IceFireDB](https://github.com/IceFireDB/IceFireDB) 兼容 redis 的分布式键值对数据库。
 - [microsoftarchive redis](https://github.com/microsoftarchive/redis) redis 3.0 的 Windows 版本。
 - [KeyDB](https://github.com/Snapchat/KeyDB) 扩展 Redis 为多线程的项目。
-
-## 配置
-
-
+- [predixy](https://github.com/joyieldInc/predixy) redis 代理服务器。
 
 ## 常用扩展
 
@@ -20,6 +17,8 @@
 - [redisearch-php](https://github.com/ethanhann/redisearch-php) RediSearch PHP 客户端。
 - [RedisGraph](https://github.com/RedisGraph/RedisGraph) 图数据库插件。
 - [RedisJSON](https://github.com/RedisJSON/RedisJSON) 提供 JSON 类型，Redis 8 后默认支持 JSON 类型，这个扩展不再更新。
+
+## 配置
 
 ## 自定义 C 扩展开发
 
