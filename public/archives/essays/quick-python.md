@@ -116,7 +116,6 @@ python -m http.server 8000
 - [aiomysql](https://github.com/aio-libs/aiomysql) 异步 Mysql 连接库。
 - [binlog2sql](https://github.com/danfengcao/binlog2sql) MySQL binlog 分析库。
 - [python-mysql-replication](https://github.com/julien-duponchelle/python-mysql-replication) MySQL binlog 迁移库。
-- [mongoengine](https://github.com/MongoEngine/mongoengine) mongodb 客户端。
 - [tortoise-orm](https://github.com/tortoise/tortoise-orm) ORM
 - [peewee](https://github.com/coleifer/peewee) ORM
 - [pony](https://github.com/ponyorm/pony) ORM
@@ -173,6 +172,7 @@ python -m http.server 8000
 - [mypy](https://github.com/python/mypy)  python 静态类型检查器。
 - [codon](https://github.com/exaloop/codon) python 编译器，生成原生机器码，内置 NumPy。
 - [ocr_TDR](https://github.com/jinxiwang/ocr_TDR) 一个 tensorflow 的 OCR 示例。
+- [Logics-Parsing](https://github.com/alibaba/Logics-Parsing) 阿里开源的 OCR 项目。
 - [yq](https://github.com/kislyuk/yq) 命令行  YAML, XML, TOML 处理工具。
 - [zulip](https://github.com/zulip/zulip) web 的即时聊天工具。
 - [onlinetools](https://github.com/iceyhexman/onlinetools) 端口扫描等渗透工具。

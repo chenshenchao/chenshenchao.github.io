@@ -81,9 +81,8 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [mysql](https://github.com/mysqljs/mysql) 纯 JS MySQL 客户端。
 - [node-mysql2](https://github.com/sidorares/node-mysql2) MySQL 客户端。
 - [zongji](https://github.com/nevill/zongji) MySQL binlog 库。
+- [mysql-events](https://github.com/rodrigogs/mysql-events) 基于 zongji 的项目。
 - [keyv](https://github.com/jaredwray/keyv) 键值对库，适配 valkey、sqlite、MySQL 等。
-- [mongoose](https://github.com/Automattic/mongoose) mongodb 客户端。
-- [node-mongodb-native](https://github.com/mongodb/node-mongodb-native) mongodb 原生客户端驱动。
 - [node-sqlite3](https://github.com/TryGhost/node-sqlite3) sqlite3 封装。
 - [objection.js](https://github.com/Vincit/objection.js) ORM
 - [node-orm2](https://github.com/dresende/node-orm2) ORM
@@ -159,6 +158,7 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [insomnia](https://github.com/Kong/insomnia) 类 postman 的 GraphQL, REST, WebSockets, SSE, gRPC 客户端软件。 
 - [RSSHub](https://github.com/DIYgod/RSSHub) RSS 服务器，提供 nodejs 客户端库。
 - [Logan](https://github.com/Meituan-Dianping/Logan) 美团点评开源的 前端日志 架构。
+- [umami](https://github.com/umami-software/umami) 轻量级的类 Google Analytics 的网站分析站点项目，分析网站流量，网站数据统计等。
 
 ## 包管理器
 

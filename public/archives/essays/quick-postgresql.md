@@ -12,6 +12,10 @@
 - [imgsmlr](https://github.com/postgrespro/imgsmlr) 图搜插件。
 - [wasmer-postgres](https://github.com/wasmerio/wasmer-postgres) SQL 里执行 wasm 的插件。
 
+## 项目
+
+- [pigsty](https://github.com/pgsty/pigsty) PostgreSQL 运维平台， Ansible 实现。
+
 ## 命令
 
 ```bash

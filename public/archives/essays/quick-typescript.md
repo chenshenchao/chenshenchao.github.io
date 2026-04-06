@@ -75,6 +75,7 @@
 - [univer](https://github.com/dream-num/univer) 类 Excel、Word 电子表格组件库。
 - [asciiflow](https://github.com/lewish/asciiflow) 简易流程图、线框图编辑器库。
 - [diagram-maker](https://github.com/awslabs/diagram-maker) 流程图、导图等图编辑器库。
+- [mind-elixir-core](https://github.com/SSShooter/mind-elixir-core) 思维导图组件。
 - [ag-grid](https://github.com/ag-grid/ag-grid) 支持 React、Vue 等多框架的表格库。
 - [lucky-canvas](https://github.com/buuing/lucky-canvas) 【大转盘 / 九宫格 / 老虎机】抽奖插件
 - [pretext](https://github.com/chenglou/pretext) 文字排版库。

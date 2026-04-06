@@ -14,7 +14,6 @@
 
 - [klaxon](https://github.com/cbeust/klaxon) JSON 库。
 - [moshi](https://github.com/square/moshi) JSON 库。
-- [kbson](https://github.com/mongodb/kbson) BSON 库。
 - [kotlin-faker](https://github.com/serpro69/kotlin-faker)
 - [RxKotlin](https://github.com/ReactiveX/RxKotlin) RxJava 封装
 - [okhttp](https://github.com/square/okhttp) HTTP 客户端。

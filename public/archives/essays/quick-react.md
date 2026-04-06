@@ -97,6 +97,7 @@ npx create-expo-app
 - [sonner](https://github.com/emilkowalski/sonner) toast 组件库。
 - [yet-another-react-lightbox](https://github.com/igordanchenko/yet-another-react-lightbox) 图片查看组件。
 - [react-color](https://github.com/casesandberg/react-color) 颜色选取器。
+- [remotion](https://github.com/remotion-dev/remotion) 用代码制作视频。
 
 ### react native 相关库
 

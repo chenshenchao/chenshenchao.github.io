@@ -121,7 +121,6 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [go-duckdb](https://github.com/marcboeker/go-duckdb) database/sql 的 duckDB 引擎。
 - [btree](https://github.com/google/btree) 谷歌开发的一个b树实现。
 - [go-adaptive-radix-tree](https://github.com/plar/go-adaptive-radix-tree) ART树实现。
-- [mongo-go-driver](https://github.com/mongodb/mongo-go-driver)  mongo 客户端驱动。
 
 ### 网络
 
@@ -223,6 +222,7 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [httprunner](https://github.com/httprunner/httprunner) HTTP / UI 测试工具。
 - [osmedeus](https://github.com/j3ssie/osmedeus) 自动化测试渗透工具，有 workflow 工作流界面。
 - [algorithm-pattern](https://github.com/greyireland/algorithm-pattern) 算法模板，一堆算法的示例。
+- [velociraptor](https://github.com/Velocidex/velociraptor) 监控项目，提供图形界面，支持事件响应、监控、数据采集。
 
 ## 常用命令
 

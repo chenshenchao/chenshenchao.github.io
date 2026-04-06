@@ -100,6 +100,7 @@
 - [duckdb](https://github.com/duckdb/duckdb) 把表格结构的文件当数据库使用，通过 SQL 操作。
 - [wcdb](https://github.com/Tencent/wcdb) 腾讯为微信开发的数据库框架，底层是 SQLite，支持 C++、Java、Kotlin、Swift、Objc 五种语言。
 - [LucenePlusPlus](https://github.com/luceneplusplus/LucenePlusPlus) Lucene 的 C++ 复刻。
+- [paxosstore](https://github.com/Tencent/paxosstore) 腾讯开源的分布式键值对存储数据库。
 
 ### 图形库
 
