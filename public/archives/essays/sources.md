@@ -183,6 +183,7 @@
 - [liteide](https://github.com/visualfc/liteide) Go IDE
 - [pxt-microbit](https://github.com/microsoft/pxt-microbit)微软 microbit 的少儿编程 IDE。
 - [lem](https://github.com/lem-project/lem) Common Lisp 开发的 IDE。
+- [polynote](https://github.com/polynote/polynote) 类 Jupyter 的多语言笔记本工具，常用于数据科学。
 
 ### 汇编器、链接器、编译器、解释器、调试器、构造工具、分析工具与代码生成器
 
@@ -299,6 +300,7 @@
 - [iredis](https://github.com/laixintao/iredis) Redis 命令行客户端工具。
 - [PDFPatcher](https://github.com/wmjordan/PDFPatcher) PDF 编辑工具。
 - [marktext](https://github.com/marktext/marktext) markdown 编辑器。
+- [Zettlr](https://github.com/Zettlr/Zettlr) markdown 编辑器。
 - [music](https://github.com/sunzongzheng/music) vue + electron 音乐播放器。
 - [ieaseMusic](https://github.com/trazyn/ieaseMusic) 网易云音乐第三方。
 - [Motrix](https://github.com/agalwood/Motrix) 下载器。

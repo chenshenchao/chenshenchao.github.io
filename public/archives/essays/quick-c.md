@@ -159,3 +159,4 @@
 - [hashcat](https://github.com/hashcat/hashcat) 密码破解工具。
 - [eclipse-embed-cdt](https://github.com/eclipse-embed-cdt/eclipse-plugins) eclipse 支持  Arm、RISC-V 嵌入式的插件。
 - [ios-webkit-debug-proxy](https://github.com/google/ios-webkit-debug-proxy) 谷歌开源的 chrome DevTools 的 IOS 调试代理。
+- [darktable](https://github.com/darktable-org/darktable) RAW 格式图片查看器。

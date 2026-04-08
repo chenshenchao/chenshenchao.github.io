@@ -121,6 +121,7 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [go-duckdb](https://github.com/marcboeker/go-duckdb) database/sql 的 duckDB 引擎。
 - [btree](https://github.com/google/btree) 谷歌开发的一个b树实现。
 - [go-adaptive-radix-tree](https://github.com/plar/go-adaptive-radix-tree) ART树实现。
+- [vitess](https://github.com/vitessio/vitess) MySQL 分布式扩展框架。
 
 ### 网络
 

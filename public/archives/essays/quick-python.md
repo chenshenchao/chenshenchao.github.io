@@ -107,6 +107,7 @@ python -m http.server 8000
 - [cryptography](https://github.com/pyca/cryptography) rust 开发的 python 加密库。
 - [pycryptodome](https://github.com/Legrandin/pycryptodome) C 开发的 python 加密库。
 - [unicurses](https://github.com/unicurses/unicurses) 命令行绘制库，类 curses 且跨平台。
+- [PySnooper](https://github.com/cool-RR/PySnooper) 调试用的跟踪日志库。
 
 ### 数据库
 

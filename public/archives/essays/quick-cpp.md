@@ -79,6 +79,7 @@
 - [cpp-netlib](https://github.com/cpp-netlib/cpp-netlib) 网络库。
 - [NuRaft](https://github.com/eBay/NuRaft) 分布式协议 Raft 的实现库。
 - [websocketpp](https://github.com/zaphoyd/websocketpp) websocket 库。
+- [mars](https://github.com/Tencent/mars) 腾讯开源的为微信开发的跨平台网络库。
 
 ### 数据库
 
@@ -101,6 +102,7 @@
 - [wcdb](https://github.com/Tencent/wcdb) 腾讯为微信开发的数据库框架，底层是 SQLite，支持 C++、Java、Kotlin、Swift、Objc 五种语言。
 - [LucenePlusPlus](https://github.com/luceneplusplus/LucenePlusPlus) Lucene 的 C++ 复刻。
 - [paxosstore](https://github.com/Tencent/paxosstore) 腾讯开源的分布式键值对存储数据库。
+- [typesense](https://github.com/typesense/typesense) C++ 开发的类 ElasticSearch 的全文搜索文档数据库。
 
 ### 图形库
 
@@ -147,6 +149,7 @@
 - [cocos2d-x](https://github.com/cocos2d/cocos2d-x) 游戏引擎。
 - [boden](https://github.com/AshampooSystems/boden) C++ 移动端跨平台开发框架。
 - [swiftshader](https://github.com/google/swiftshader) 谷歌开源的 Vulkan 3D 图形库。
+- [Pangolin](https://github.com/stevenlovegrove/Pangolin) OpenGL 扩展库，可处理视频输入。
 
 ### boost
 
@@ -190,6 +193,7 @@
 - [Stockfish](https://github.com/official-stockfish/Stockfish) 国际象棋项目。
 - [Stockfish](https://github.com/mcostalba/Stockfish) 国际象棋项目。
 - [stellarium](https://github.com/Stellarium/stellarium) 天文模拟软件。
+- [obs-studio](https://github.com/obsproject/obs-studio) 录屏、直播软件和工具库。
 
 ## 包管理与构造工具
 
