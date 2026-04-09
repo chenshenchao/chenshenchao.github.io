@@ -112,9 +112,12 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [bark](https://github.com/suno-ai/bark) 文本生成音频。
 - [roop](https://github.com/s0md3v/roop) 换脸。
 - [CLIP](https://github.com/openai/CLIP) 输出文本描述输入图片的模型。
+- [tacotron](https://github.com/keithito/tacotron) 基于 tensorflow 的 TTS 模型。
+- [tacotron2](https://github.com/NVIDIA/tacotron2) 英伟达开源的基于 pytorch 的 TTS 模型。
 - [whisper-web](https://github.com/xenova/whisper-web) TTS 模型，预训练模型中文支持很差。
 - [TTS](https://github.com/coqui-ai/TTS) coqui-a 的 TTS 模型集合项目。
 - [TTS](https://github.com/mozilla/TTS) mozilla 的 TTS 模型集合项目。
+- [DeepSpeech](https://github.com/mozilla/DeepSpeech) mozilla 开源的可嵌入离线的 STT 项目。
 - [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
 - [LAVIS](https://github.com/salesforce/LAVIS) 多个图片、视频与文本的视觉模型整合库。
 - [Generative-Adversarial-Networks-Projects](https://github.com/PacktPublishing/Generative-Adversarial-Networks-Projects) 一些 GAN 模型。
@@ -128,6 +131,7 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [dolly](https://github.com/databrickslabs/dolly) 一个支持指令微调的 LLM 。
 - [fairseq](https://github.com/facebookresearch/fairseq) facebookresearch 开源的基于 pytorch 的 seq2seq 向量化模型。
 - [lightseq](https://github.com/bytedance/lightseq) 字节跳动 开源的基于 pytorch 的 seq2seq 向量化模型。
+- [faceswap](https://github.com/deepfakes/faceswap) 视频换脸。
 
 ## AI 应用开发
 
@@ -209,10 +213,13 @@ qwen
 - [muzic](https://github.com/microsoft/muzic) 音乐生成。
 - [yolov5](https://github.com/ultralytics/yolov5) 机器视觉库。
 - [ultralytics](https://github.com/ultralytics/ultralytics) YOLO 机器视觉。
+- [Msnhnet](https://github.com/msnh2012/Msnhnet) 把 YOLO 的 darknet 改成 pytorch 的机器视觉。
 - [Generative-Adversarial-Networks-Projects](https://github.com/PacktPublishing/ Generative-Adversarial-Networks-Projects) PacktPublishing 的 GAN 项目。
 - [Opus-MT](https://github.com/Helsinki-NLP/Opus-MT) 机器翻译服务。
 - [OPUS-MT-trai](https://github.com/Helsinki-NLP/OPUS-MT-train) Opus-MT 训练脚本。
+- [mosesdecoder](https://github.com/moses-smt/mosesdecoder) 机器翻译服务。
 - [FastChat](https://github.com/lm-sys/FastChat) LLM 的集成项目，不用写样板代码直接通过命令启动模型。
+- [CrimeKgAssitant](https://github.com/liuhuanyong/CrimeKgAssitant) 罪名法务智能项目。
 
 ### RAG（Retrieval Augmented Generation）
 

@@ -1,4 +1,4 @@
-# [草稿]ESP
+# [草稿]Espressif 乐鑫
 
 - [esptool](https://github.com/espressif/esptool) 烧录、配置和交互的串行工具。
 - [esp-serial-flasher](https://github.com/espressif/esp-serial-flasher) 下载器开发，烧录库。

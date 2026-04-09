@@ -120,7 +120,8 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [koa-websocket](https://github.com/kudos/koa-websocket)
 - [pomelo](https://github.com/NetEase/pomelo) 网易开源的游戏服务器框架。
 - [pinus](https://github.com/node-pinus/pinus) 基于 pomelo 的游戏服务器框架。
-- [dart-sass](https://github.com/sass/dart-sass)
+- [dart-sass](https://github.com/sass/dart-sass) 
+- [loopback-next](https://github.com/loopbackio/loopback-next) API 微服务框架。
 - [EvaEngine.js](https://github.com/EvaEngine/EvaEngine.js) 微服务框架。
 - [jss](https://github.com/cssinjs/jss) css in js
 - [falcor](https://github.com/Netflix/falcor) 用于高效提供数据的前后端工具库，支持 express web 框架。
@@ -150,6 +151,7 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [GCanvas](https://github.com/alibaba/GCanvas) 阿里开源为 Weex 和 ReactNative 提供的 2D 渲染库。
 - [node-qrcode](https://github.com/soldair/node-qrcode) 二维码生成器。
 - [node-canvas](https://github.com/Automattic/node-canvas) 基于 Cairo 的画布。
+- [FFCreator](https://github.com/tnfe/FFCreator) JS 制作视频库。
 
 ## 工具、项目、示例
 
@@ -159,6 +161,9 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [RSSHub](https://github.com/DIYgod/RSSHub) RSS 服务器，提供 nodejs 客户端库。
 - [Logan](https://github.com/Meituan-Dianping/Logan) 美团点评开源的 前端日志 架构。
 - [umami](https://github.com/umami-software/umami) 轻量级的类 Google Analytics 的网站分析站点项目，分析网站流量，网站数据统计等。
+- [webfunny_monitor](https://github.com/a597873885/webfunny_monitor) web站点的监控、埋点、数据分析的项目。
+- [doc](https://github.com/BetterJS/doc) 前端错误日志上报服务。
+- [threema-web](https://github.com/threema-ch/threema-web) 即时通讯软件 threema 网页版。
 
 ## 包管理器
 

@@ -161,6 +161,7 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [joomla-cms](https://github.com/joomla/joomla-cms) 一个 CMS 项目。
 - [Sylius](https://github.com/Sylius/Sylius) 电商项目。
 - [shopxo](https://github.com/gongfuxiang/shopxo) 基于 TP8 的商城项目。
+- [opencart](https://github.com/opencart/opencart) 开源电子商城项目。
 - [pikachu](https://github.com/zhuifengshaonianhanlu/pikachu) 漏洞靶场项目。
 - [PHPPHP](https://github.com/ircmaxell/PHPPHP) PHP 里的 PHP VM。
 - [think-swoole-demo](https://github.com/xavieryang007/think-swoole-demo) think-swoole 示例。

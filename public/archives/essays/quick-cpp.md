@@ -80,6 +80,7 @@
 - [NuRaft](https://github.com/eBay/NuRaft) 分布式协议 Raft 的实现库。
 - [websocketpp](https://github.com/zaphoyd/websocketpp) websocket 库。
 - [mars](https://github.com/Tencent/mars) 腾讯开源的为微信开发的跨平台网络库。
+- [workflow](https://github.com/sogou/workflow) 搜狗开源的并行计算和异步网络库。
 
 ### 数据库
 
@@ -103,6 +104,7 @@
 - [LucenePlusPlus](https://github.com/luceneplusplus/LucenePlusPlus) Lucene 的 C++ 复刻。
 - [paxosstore](https://github.com/Tencent/paxosstore) 腾讯开源的分布式键值对存储数据库。
 - [typesense](https://github.com/typesense/typesense) C++ 开发的类 ElasticSearch 的全文搜索文档数据库。
+- [beringei](https://github.com/facebookarchive/beringei) facebook 开源的内存中时序数据库。
 
 ### 图形库
 

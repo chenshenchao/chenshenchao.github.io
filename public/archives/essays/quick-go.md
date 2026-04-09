@@ -205,6 +205,7 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [gocron](https://github.com/ouqiang/gocron) 类 crontab 的定时任务服务，web 后台管理任务。
 - [ngrok](https://github.com/inconshreveable/ngrok) 内网穿透代理。
 - [livego](https://github.com/gwuhaolin/livego) 流媒体服务器，支持 FLV、RTMP、HLS 的直播。
+- [EasyDarwin](https://github.com/EasyDarwin/EasyDarwin) 流媒体服务器，支持 RTMP/RTSP 推拉。
 - [gitea](https://github.com/go-gitea/gitea) git 仓库托管 web 服务器。
 - [caddy](https://github.com/caddyserver/caddy) go 语言实现的类 nginx 的服务器。
 - [lua](https://github.com/milochristiansen/lua) go 实现 lua5.3 VM 和编译器。

@@ -17,6 +17,7 @@ Ruby 的名字来源于效仿 Perl 用 “珍珠（Pearl）”起名，所以就
 - [puppet](https://github.com/puppetlabs/puppet) 自动化配置服务
 - [ocra](https://github.com/larsch/ocra) ruby 打包 exe。
 - [rb2exe](https://github.com/thecodecrate/rb2exe) ruby 打包 exe。
+- [idb](https://github.com/dmayer/idb) ios 渗透测试项目。
 
 ## 包管理
 

@@ -72,6 +72,7 @@ python -m http.server 8000
 - [faker](https://github.com/joke2k/faker) 调试数据生成库。
 - [celery](https://github.com/celery/celery) 任务队列，可以接入多种后端（redis、amqp、s3等）。
 - [pywasm](https://github.com/libraries/pywasm) wasm 解释器。
+- [DrissionPage](https://github.com/g1879/DrissionPage) 网页自动化工具。
 - [playwright-python](https://github.com/microsoft/playwright-python) 微软开源的无头浏览器自动化库。
 - [splinter](https://github.com/cobrateam/splinter) 无头浏览器自动化测试框架。
 - [SeleniumBase](https://github.com/seleniumbase/SeleniumBase) 无头浏览器自动化库。
@@ -89,6 +90,7 @@ python -m http.server 8000
 - [jieba](https://github.com/fxsjy/jieba) 中文分词。
 - [Jiagu](https://github.com/ownthink/Jiagu) 中文分词。
 - [lac](https://github.com/baidu/lac) 百度开源的 C++ 开发的 python分词库。
+- [hanzi_chaizi](https://github.com/howl-anderson/hanzi_chaizi) 汉字拆字库，拆出偏旁部首。
 - [imgkit](https://github.com/jarrekk/imgkit) html 生成图片，基于 Webkit。
 - [pyyaml](https://github.com/yaml/pyyaml) YAML 处理库。
 - [tablib](https://github.com/jazzband/tablib) EXCEL、JSON、SQL 等数据集生成库。
@@ -162,6 +164,7 @@ python -m http.server 8000
 - [icmplib](https://github.com/ValentinBELYN/icmplib) icmp 库。
 - [HanLP](https://github.com/hankcs/HanLP) NLP 分词开发库 和 轻量 RESTful 服务。
 - [nlp-architect](https://github.com/IntelLabs/nlp-architect)  IntelLabs 发布的 NLP 库。
+- [tornado](https://github.com/tornadoweb/tornado) web 框架。
 
 ## 示例、项目
 
@@ -191,6 +194,7 @@ python -m http.server 8000
 - [sparta](https://github.com/SECFORCE/sparta) 安全测试，渗透工具。
 - [image-match](https://github.com/rhsimplex/image-match) 用图片 HASH 做图片匹配搜索的项目。
 - [ZTool](https://github.com/lzx8589561/ZTool) 基于 PyQt5 的工具项目，功能随作者喜好做的。
+- [augur](https://github.com/augurlabs/augur) 开源社区（GitHub等）健康度等的数据科学分析工具。
 
 ## 虚拟环境
 

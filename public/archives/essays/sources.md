@@ -379,6 +379,7 @@
 - [zincsearch](https://github.com/zincsearch/zincsearch) 类 ElasticSearch 全文索引数据库（GO 语言）。
 - [gofound](https://github.com/sea-team/gofound) 全文索引数据库（GO 语言），HTTP 接口，有管理后台面板。
 - [sonic](https://github.com/valeriansaliou/sonic) 全文搜索数据库。
+- [node-sonic-channel](https://github.com/valeriansaliou/node-sonic-channel) sonic node 客户端。
 - [psonic](https://github.com/ppshobi/psonic) sonic PHP 客户端。
 - [manticoresearch](https://github.com/manticoresoftware/manticoresearch) 类 ElasticSearch 全文索引数据库（C 语言）。
 - [quickwit](https://github.com/quickwit-oss/quickwit) 全文搜索引擎，开发了 tantivy 库。

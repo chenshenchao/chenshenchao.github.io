@@ -12,3 +12,4 @@
 - [mill](https://github.com/com-lihaoyi/mill) 类 Maven、Gradle 的构建工具。
 - [sbt](https://github.com/sbt/sbt) 交互式构建工具。
 - [byzer-lang](https://github.com/byzer-org/byzer-lang) 类 SQL 的语言。
+- [CMAK](https://github.com/yahoo/CMAK) 雅虎开源的用于管理 kafka 的 web 后台面板项目。

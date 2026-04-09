@@ -43,6 +43,7 @@
 - [PptxGenJS](https://github.com/gitbrent/PptxGenJS) PPT 生成库。
 - [cheerio](https://github.com/cheeriojs/cheerio) HTML/XML 解析库。
 - [amis](https://github.com/baidu/amis) 百度开源的低代码框架。
+- [amis-admin](https://github.com/aisuda/amis-admin) 基于 amis 的后台。
 - [flatpickr](https://github.com/flatpickr/flatpickr) 零依赖的日期选择器组件。
 
 ### web
