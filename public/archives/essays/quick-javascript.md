@@ -161,6 +161,7 @@
 - [Layx](https://github.com/monksoul/Layx) 弹窗组件。
 - [bootstrap](https://github.com/twbs/bootstrap) 老牌前端组件样式库。
 - [bpmn-js](https://github.com/bpmn-io/bpmn-js) 流程图编辑器。
+- [translater.js](https://github.com/jaywcjlove/translater.js) 小体积可离线的翻译库。直接使用离线词库。
 
 ### Web
 
@@ -190,6 +191,8 @@
 - [video.js](https://github.com/videojs/video.js) 视频播放器组件。
 - [moovie.js](https://github.com/BMSVieira/moovie.js) 视频播放器组件。
 - [blockly](https://github.com/RaspberryPiFoundation/blockly) web 可视化编程语言（SCRATCH 等大部分少儿编程都是基于这个库）。
+- [scratch-vm](https://github.com/scratchfoundation/scratch-vm) scratch 的核心库，已经迁移整合进 scratch-editor 里。
+- [scratch-editor](https://github.com/scratchfoundation/scratch-editor) scratch 编辑器开发工具库。
 - [qrcodejs](https://github.com/davidshimjs/qrcodejs) 二维码生成库。
 - [glisp](https://github.com/baku89/glisp) 基于 lisp 语言做绘图编辑器。
 - [ws](https://github.com/websockets/ws) WebSocket 封装库，支持客户端和 NodeJS 服务端。
@@ -198,6 +201,9 @@
 - [js-cookie](https://github.com/js-cookie/js-cookie) cookie 库。
 - [grpc-web](https://github.com/improbable-eng/grpc-web) 已经停止维护，请使用官方 grpc-web
 - [grpc-web](https://github.com/grpc/grpc-web) grpc 浏览器端，需要像 Envoy 的代理做转发到 grpc 服务器。
+- [lunr.js](https://github.com/olivernn/lunr.js) 浏览器端的可内嵌的文档数据库。
+- [lunr-language](https://github.com/MihaiValentin/lunr-languages) 基于 lunr.js，提供了多语言支持。 
+- [elasticlunr.js](https://github.com/weixsong/elasticlunr.js) 基于 lunr.js 可内嵌的文档数据库。
 
 ## jsx
 

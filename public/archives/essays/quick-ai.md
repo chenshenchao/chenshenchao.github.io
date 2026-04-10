@@ -218,8 +218,14 @@ qwen
 - [Opus-MT](https://github.com/Helsinki-NLP/Opus-MT) 机器翻译服务。
 - [OPUS-MT-trai](https://github.com/Helsinki-NLP/OPUS-MT-train) Opus-MT 训练脚本。
 - [mosesdecoder](https://github.com/moses-smt/mosesdecoder) 机器翻译服务。
+- [apertium](https://github.com/apertium/apertium) 低资源机器翻译小模型。
 - [FastChat](https://github.com/lm-sys/FastChat) LLM 的集成项目，不用写样板代码直接通过命令启动模型。
 - [CrimeKgAssitant](https://github.com/liuhuanyong/CrimeKgAssitant) 罪名法务智能项目。
+- [sketch-code](https://github.com/ashnkumar/sketch-code) 手绘图转 HTML 的模型。
+- [cartoonize](https://github.com/experience-ml/cartoonize) 图像转卡通风格模型。
+- [kaldi](https://github.com/kaldi-asr/kaldi) 语音识别。
+- [avatarify-python](https://github.com/alievk/avatarify-python) 头像生成视频等。
+- [DAIN](https://github.com/baowenbo/DAIN) 视频插帧模型。
 
 ### RAG（Retrieval Augmented Generation）
 

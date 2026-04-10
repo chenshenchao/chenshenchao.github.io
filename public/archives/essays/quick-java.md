@@ -110,6 +110,7 @@
 - [newbee-mall](https://github.com/newbee-ltd/newbee-mall) 开源 商城 项目
 - [newbee-mall-api](https://github.com/newbee-ltd/newbee-mall-api) newbee-mall 前后分离的后端。
 - [pentaho-kettle](https://github.com/pentaho/pentaho-kettle) 数据清洗服务、ETL（Extract 提取, Transform 转换, Load 加载）数据的工具。
+- [gocd](https://github.com/gocd/gocd) 持续集成项目，CI/CD 工具。
 
 ## 开发环境与包管理工具
 

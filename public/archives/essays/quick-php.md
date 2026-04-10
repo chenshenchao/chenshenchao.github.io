@@ -141,6 +141,7 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [doctrine](https://github.com/doctrine/orm) ORM
 - [doctrine lexer](https://github.com/doctrine/lexer) doctrine 的词法器。
 - [doctrine cache](https://github.com/doctrine/cache) doctrine 的缓存。
+- [doctrine annotations](https://github.com/doctrine/annotations) doctrine 的注解库，已经废弃，PHP8 后使用 属性 替代。
 - [easywechat](https://github.com/w7corp/easywechat) 微信公众号 API 第三方 SDK。
 - [zanphp](https://github.com/youzan/zanphp) 有赞开源的 PHP web 框架。
 - [phpseclib](https://github.com/phpseclib/phpseclib) 安全加密算法库。

@@ -42,6 +42,7 @@
 - [naive-ui](https://github.com/tusen-ai/naive-ui) 简单 UI 组件。
 - [vue-virtual-scroller](https://github.com/Akryum/vue-virtual-scroller) 虚拟滚动。
 - [fes.js](https://github.com/WeBankFinTech/fes.js) 在 Vue3 上进一步做技术选型和扩展的框架。
+- [quasar](https://github.com/quasarframework/quasar) 基于 Vue 的前端框架，支持网页与打包移动APP、桌面应用等。
 
 ### Vue2
 

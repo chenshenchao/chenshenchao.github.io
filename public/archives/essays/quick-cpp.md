@@ -167,6 +167,7 @@
 - [PHP-CPP](https://github.com/CopernicaMarketingSoftware/PHP-CPP) 开发 PHP 扩展。
 - [phpx](https://github.com/swoole/phpx) C++ 封装 Zend API 用于开发 PHP 扩展。
 - [pybind11](https://github.com/pybind/pybind11) C++11 开发 python 扩展。
+- [WasmEdge](https://github.com/WasmEdge/WasmEdge) Wasm 边缘计算 运行库，支持 IoT 设备。
 
 ## 项目、示例
 
@@ -196,6 +197,8 @@
 - [Stockfish](https://github.com/mcostalba/Stockfish) 国际象棋项目。
 - [stellarium](https://github.com/Stellarium/stellarium) 天文模拟软件。
 - [obs-studio](https://github.com/obsproject/obs-studio) 录屏、直播软件和工具库。
+- [verona](https://github.com/microsoft/verona) 微软开源的协程向实验性编程语言。
+- [luanti](https://github.com/luanti-org/luanti) C++ 开发的基于 lua 脚本的类 我的世界 的体素游戏。开发体验更像为其默认游戏开发 mod。
 
 ## 包管理与构造工具
 

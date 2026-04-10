@@ -10,3 +10,4 @@
 ## 常用扩展
 
 - [CPM.cmake](https://github.com/cpm-cmake/CPM.cmake) 包管理扩展脚本。
+- [hunter](https://github.com/cpp-pm/hunter) 基于 CMake 的包管理。

@@ -214,6 +214,7 @@
 - [cairo](https://github.com/starkware-libs/cairo) 一个用 rust 开发，很像 rust 的语言。
 - [red](https://github.com/red/red) 一个编程语言。
 - [wenyan](https://github.com/wenyan-lang/wenyan) 文言文編程語言
+- [hamler](https://github.com/hamler-lang/hamler) 运行在 ErLang 虚拟机上的类 Haskell 语言。
 - [joker](https://github.com/candid82/joker) Go 开发的 Lisp 方言：Small Clojure 解释器。
 - [lux](https://github.com/LuxLang/lux) 静态类型的 Lisp 语言。
 - [ChezScheme](https://github.com/cisco/ChezScheme) Lisp 方言。
@@ -323,6 +324,7 @@
 - [MirrorX](https://github.com/MirrorX-Desktop/MirrorX) 远程桌面客户端，有配套的服务器。
 - [VisualStudioUninstaller](https://github.com/microsoft/VisualStudioUninstaller) VisualStudio 卸载工具。
 - [texstudio](https://github.com/texstudio-org/texstudio) LaTeX 编辑器。
+- [Setzer](https://github.com/cvfosammmm/Setzer) 基于 python 和 GTK 开发的 LaTeX 编辑器。
 - [WechatMomentScreenshot](https://github.com/TransparentLC/WechatMomentScreenshot) 当老板要求你转发朋友圈并截图时，可以用这个网站生成一张假的截图去糊弄老板。
 
 ### 监控、渗透、测试工具
@@ -545,6 +547,7 @@
 - [CSS-Diff](https://github.com/kdzwinel/CSS-Diff) 比较 HTML 元素的样式差异 chrome 插件。
 - [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) 代理 chrome 插件。
 - [octotree](https://github.com/ovity/octotree) 增强 GitHub 兼容多种浏览器的插件。
+- [refined-github](https://github.com/refined-github/refined-github) 扩展 GitHub 功能的浏览器插件。
 
 ### VS code 插件
 
