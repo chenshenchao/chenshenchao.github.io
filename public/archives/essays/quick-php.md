@@ -157,6 +157,7 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 ## 项目、示例
 
 - [xunsearch](https://github.com/hightman/xunsearch) 专门给 PHP 提供全文搜索的 C 项目。
+- [xs-sdk-php](https://github.com/hightman/xs-sdk-php) xunsearch 的 PHP SDK。
 - [WordPress](https://github.com/WordPress/WordPress)
 - [craftcms](https://github.com/craftcms/cms) 一个 CMS 项目。
 - [joomla-cms](https://github.com/joomla/joomla-cms) 一个 CMS 项目。

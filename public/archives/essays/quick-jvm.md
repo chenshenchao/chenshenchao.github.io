@@ -11,6 +11,7 @@
 - [teavm](https://github.com/konsoletyper/teavm) JVM 字节码转 JS、WASM、C
 - [gctoolkit](https://github.com/microsoft/gctoolkit) 解析 GC 日志文件。
 - [openjdk 官网](https://openjdk.java.net/)
+- [aviatorscript](https://github.com/killme2008/aviatorscript) JVM 上的脚本语言。
 
 ## 类型描述
 

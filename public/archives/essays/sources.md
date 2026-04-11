@@ -26,6 +26,7 @@
 - [windows-kernel-exploits](https://github.com/SecWiki/windows-kernel-exploits) Windows 漏洞集合。
 - [dirtycow](https://github.com/firefart/dirtycow) CVE-2016-5195 dirtycow 漏洞
 - [FastTrack](https://github.com/microsoft/FastTrack) 微软开源的脚本集合。
+- [CodeBlog](https://github.com/QDMarkMan/CodeBlog) 前端相关的博文。
 
 ## 开源书籍
 
@@ -92,6 +93,7 @@
 - [joinquant](https://www.joinquant.com)
 - [bigquant](https://www.bigquant.com)
 - [chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) 中国独立开发者项目列表
+- [chaizi](https://github.com/kfcd/chaizi) 汉字拆字字典。
 
 ### 免费云服务器站点
 

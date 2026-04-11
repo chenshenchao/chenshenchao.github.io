@@ -162,6 +162,7 @@
 - [bootstrap](https://github.com/twbs/bootstrap) 老牌前端组件样式库。
 - [bpmn-js](https://github.com/bpmn-io/bpmn-js) 流程图编辑器。
 - [translater.js](https://github.com/jaywcjlove/translater.js) 小体积可离线的翻译库。直接使用离线词库。
+- [regenerator](https://github.com/facebook/regenerator) Facebook 开源的实现 ES6 的兼容旧版本支持 生成器 功能。
 
 ### Web
 
@@ -204,6 +205,7 @@
 - [lunr.js](https://github.com/olivernn/lunr.js) 浏览器端的可内嵌的文档数据库。
 - [lunr-language](https://github.com/MihaiValentin/lunr-languages) 基于 lunr.js，提供了多语言支持。 
 - [elasticlunr.js](https://github.com/weixsong/elasticlunr.js) 基于 lunr.js 可内嵌的文档数据库。
+- [flippant.js](https://github.com/mintchaos/flippant.js) 轻依赖的前端UI组件库。
 
 ## jsx
 

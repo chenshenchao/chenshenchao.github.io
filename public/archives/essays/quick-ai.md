@@ -20,6 +20,9 @@
 - [BitNet](https://github.com/microsoft/BitNet) 微软的 1-bit LLMs 框架。
 - [ray](https://github.com/ray-project/ray) 分布式计算引擎，用于加机器以加快 AI 训练。
 - [adeptRL](https://github.com/heronsystems/adeptRL) 强化学习框架。
+- [jittor](https://github.com/Jittor/jittor) 基于 JIT 的机器学习框架。
+- [dlstreamer](https://github.com/open-edge-platform/dlstreamer) 英特尔开源的流媒体 AI 分析框架
+- [oneAPI-spec](https://github.com/uxlfoundation/oneAPI-spec)
 
 ## 资料源
 
@@ -132,6 +135,7 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [fairseq](https://github.com/facebookresearch/fairseq) facebookresearch 开源的基于 pytorch 的 seq2seq 向量化模型。
 - [lightseq](https://github.com/bytedance/lightseq) 字节跳动 开源的基于 pytorch 的 seq2seq 向量化模型。
 - [faceswap](https://github.com/deepfakes/faceswap) 视频换脸。
+- [text-to-text-transfer-transformer](https://github.com/google-research/text-to-text-transfer-transformer) 谷歌 T5 模型。
 
 ## AI 应用开发
 

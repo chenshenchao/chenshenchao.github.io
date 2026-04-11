@@ -81,11 +81,14 @@
 - [websocketpp](https://github.com/zaphoyd/websocketpp) websocket 库。
 - [mars](https://github.com/Tencent/mars) 腾讯开源的为微信开发的跨平台网络库。
 - [workflow](https://github.com/sogou/workflow) 搜狗开源的并行计算和异步网络库。
+- [snort3](https://github.com/snort3/snort3) 入侵防御系统。
 
 ### 数据库
 
 - [faiss](https://github.com/facebookresearch/faiss) 扁平索引实现库。
 - [hnswlib](https://github.com/nmslib/hnswlib) HNSW 实现库，支持 C++ 和 Python 语言。
+- [annoy](https://github.com/spotify/annoy) 近似最近邻（ANN） 搜索库，支持 C++ 和 Python 语言。
+- [SPTAG](https://github.com/microsoft/SPTAG) 微软开源的近似最近邻（ANN） 搜索库，支持 C++ 和 Python 语言。
 - [nmslib](https://github.com/nmslib/nmslib) 向量数据库，有标量功能。支持 C++ 、Java 和 Python。
 - [leveldb](https://github.com/google/leveldb) 键值对存储库。
 - [rocksdb](https://github.com/facebook/rocksdb) 键值对存储库。

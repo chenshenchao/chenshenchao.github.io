@@ -9,6 +9,7 @@
 - [conan](https://github.com/conan-io/conan) python 写的 C/C++ 包管理工具。
 - [biicode](https://github.com/biicode/biicode) C/C++ 包管理工具。
 - [cosmopolitan](https://github.com/jart/cosmopolitan) 打着 “一次编译，到处运行。” 的编译工具库。
+- [buckaroo](https://github.com/LoopPerfect/buckaroo) F# 开发的 C/C++ 包管理。
 
 ## 常用库
 
@@ -108,6 +109,7 @@
 - [plutosvg](https://github.com/sammycage/plutosvg) SVG 库。
 - [tcl](https://github.com/tcltk/tcl)
 - [LCUI](https://github.com/lc-soft/LCUI) 图形开发框架，基于 web 方式。
+- [RetroArch](https://github.com/libretro/RetroArch) 基于 Libretro 的前端图形框架，支持安卓、PS、Xbox、任天堂等。
 
 ### 嵌入式相关
 

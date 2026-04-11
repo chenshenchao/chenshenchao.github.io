@@ -5,10 +5,12 @@
 - [wine](https://github.com/wine-mirror/wine) 运行 Windows 应用的虚拟环境。
 - [linux-command](https://github.com/jaywcjlove/linux-command) 命令查询工具。
 - [SysmonForLinux](https://github.com/microsoft/SysmonForLinux) 微软开源的 Linux 监控工具。
+- [bashtop](https://github.com/aristocratos/bashtop) Linux/OSX/FreeBSD 下的类 top 资源监控。
 
 ## 库
 
 - [muduo](https://github.com/chenshuo/muduo) 事件驱动网络库，多线程 Linux 服务器。
+- [linux-inject](https://github.com/gaffe23/linux-inject) 类 Windows CreateRemoteThread 的 DLL 注入的库。
 
 ## 常用命令
 
