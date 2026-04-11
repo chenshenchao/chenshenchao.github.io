@@ -65,6 +65,7 @@
 - [CoreNLP](https://github.com/stanfordnlp/CoreNLP)  NLP 分词库。
 - [compileflow](https://github.com/alibaba/compileflow) 阿里开源的流程编排库。
 - [esProc](http://github.com/SPLWare/esProc) 一款 SPL（Structured Process Language）语言，类似 Excel 的运算表达式。
+- [ehcache3](https://github.com/ehcache/ehcache3) 缓存库。
 
 ### 图形
 
@@ -77,6 +78,7 @@
 - [undertow](https://github.com/undertow-io/undertow) Web 服务器。
 - [jfinal](https://github.com/jfinal/jfinal) web 框架。
 - [jpress](https://github.com/JPressProjects/jpress) JAVA 开发的类 PHP 的 WordPress 框架。
+- [firefly](https://github.com/hypercube1024/firefly) 异步的网络开发框架。
 
 ### 数据库
 
@@ -112,6 +114,7 @@
 - [pentaho-kettle](https://github.com/pentaho/pentaho-kettle) 数据清洗服务、ETL（Extract 提取, Transform 转换, Load 加载）数据的工具。
 - [gocd](https://github.com/gocd/gocd) 持续集成项目，CI/CD 工具。
 - [geogebra](https://github.com/geogebra/geogebra) 数学教学工具网站。
+- [orientdb](https://github.com/orientechnologies/orientdb) 网页版的数据库管理工具。
 
 ## 文档、书籍、资料
 

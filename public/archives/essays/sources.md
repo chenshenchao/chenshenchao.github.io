@@ -212,6 +212,7 @@
 - [cairo](https://github.com/starkware-libs/cairo) 一个用 rust 开发，很像 rust 的语言。
 - [red](https://github.com/red/red) 一个编程语言。
 - [haxe](https://github.com/HaxeFoundation/haxe) 一个 C 类的很像 TS 的语言，可以翻译成  JavaScript、C++、C#、Java、Python、Lua、PHP 等多种目标语言。
+- [fancy](https://github.com/bakkdoor/fancy) 一个看着像 C、python、rust 的杂交语言。
 - [wenyan](https://github.com/wenyan-lang/wenyan) 文言文編程語言
 - [hamler](https://github.com/hamler-lang/hamler) 运行在 ErLang 虚拟机上的类 Haskell 语言。
 - [joker](https://github.com/candid82/joker) Go 开发的 Lisp 方言：Small Clojure 解释器。

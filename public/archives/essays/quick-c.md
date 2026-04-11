@@ -110,6 +110,7 @@
 - [tcl](https://github.com/tcltk/tcl)
 - [LCUI](https://github.com/lc-soft/LCUI) 图形开发框架，基于 web 方式。
 - [RetroArch](https://github.com/libretro/RetroArch) 基于 Libretro 的前端图形框架，支持安卓、PS、Xbox、任天堂等。
+- [lab](https://github.com/google-deepmind/lab) 一个 3D 引擎，用于 AI 研究。
 
 ### 嵌入式相关
 

@@ -23,6 +23,8 @@
 - [jittor](https://github.com/Jittor/jittor) 基于 JIT 的机器学习框架。
 - [dlstreamer](https://github.com/open-edge-platform/dlstreamer) 英特尔开源的流媒体 AI 分析框架
 - [oneAPI-spec](https://github.com/uxlfoundation/oneAPI-spec)
+- [caffe](https://github.com/BVLC/caffe) 深度学习框架。
+- [angel](https://github.com/Angel-ML/angel) Java 技术栈的深度学习框架。
 
 ## 资料源
 
@@ -231,6 +233,7 @@ qwen
 - [kaldi](https://github.com/kaldi-asr/kaldi) 语音识别。
 - [avatarify-python](https://github.com/alievk/avatarify-python) 头像生成视频等。
 - [DAIN](https://github.com/baowenbo/DAIN) 视频插帧模型。
+- [openpilot](https://github.com/commaai/openpilot) 自动驾驶项目。
 
 ### RAG（Retrieval Augmented Generation）
 

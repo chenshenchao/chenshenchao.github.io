@@ -1,5 +1,12 @@
 # Git 速查
 
+## 插件
+
+- [git-ftp](https://github.com/git-ftp/git-ftp) 把文件传到 FTP 插件。
+- [git-history](https://github.com/pomber/git-history) 浏览器里查看文件 git 历史。
+
+## 常用命令
+
 ```bash
 # 初始化，会生成 .get 目录
 git init

@@ -112,6 +112,7 @@ python -m http.server 8000
 - [PySnooper](https://github.com/cool-RR/PySnooper) 调试用的跟踪日志库。
 - [wadze](https://github.com/dabeaz/wadze) WASM 解码器，无外部依赖。
 - [gitfiti](https://github.com/gelstudios/gitfiti) 滥用 GitHub 提交图做图片。
+- [isort](https://github.com/PyCQA/isort) 排序库。
 
 ### 数据库
 
@@ -143,6 +144,7 @@ python -m http.server 8000
 - [visdom](https://github.com/fossasia/visdom) 可视化图表、报表库。
 - [mahotas](https://github.com/luispedro/mahotas) 计算机视觉图像处理库。
 - [rembg](https://github.com/danielgatis/rembg) 抠图工具，Python 命令行，与库。
+- [moviepy](https://github.com/Zulko/moviepy) 视频编辑工具库。
 
 ### 网络
 
@@ -197,6 +199,7 @@ python -m http.server 8000
 - [image-match](https://github.com/rhsimplex/image-match) 用图片 HASH 做图片匹配搜索的项目。
 - [ZTool](https://github.com/lzx8589561/ZTool) 基于 PyQt5 的工具项目，功能随作者喜好做的。
 - [augur](https://github.com/augurlabs/augur) 开源社区（GitHub等）健康度等的数据科学分析工具。
+- [trellis](https://github.com/roots/trellis) 基于 Ansible 的 WordPress LEMP 服务器自动化部署与管理工具。
 
 ## 虚拟环境
 

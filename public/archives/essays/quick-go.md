@@ -226,6 +226,8 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [osmedeus](https://github.com/j3ssie/osmedeus) 自动化测试渗透工具，有 workflow 工作流界面。
 - [algorithm-pattern](https://github.com/greyireland/algorithm-pattern) 算法模板，一堆算法的示例。
 - [velociraptor](https://github.com/Velocidex/velociraptor) 监控项目，提供图形界面，支持事件响应、监控、数据采集。
+- [mm-wiki](https://github.com/phachon/mm-wiki) Wiki 站点。
+- [bbvm](https://github.com/wenerme/bbvm) Basic 虚拟机。
 
 ## 常用命令
 

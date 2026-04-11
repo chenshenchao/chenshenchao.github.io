@@ -12,6 +12,7 @@
 - [gctoolkit](https://github.com/microsoft/gctoolkit) 解析 GC 日志文件。
 - [openjdk 官网](https://openjdk.java.net/)
 - [aviatorscript](https://github.com/killme2008/aviatorscript) JVM 上的脚本语言。
+- [byteman](https://github.com/bytemanproject/byteman) 字节码操作库。
 
 ## 类型描述
 

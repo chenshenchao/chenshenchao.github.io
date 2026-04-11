@@ -25,3 +25,4 @@
 - [music](https://github.com/sunzongzheng/music) vue2 + electron 音乐播放器。
 - [xray](https://github.com/atom-archive/xray) 基于 Electron 的一个文本编辑器。
 - [atom](https://github.com/atom/atom) 基于 Electron 的一个文本编辑器。
+- [PicGo](https://github.com/Molunerfinn/PicGo) 图片上传工具。

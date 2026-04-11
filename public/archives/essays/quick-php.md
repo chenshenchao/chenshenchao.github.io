@@ -153,6 +153,9 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [openapi-sdk-php-client](https://github.com/aliyun/openapi-sdk-php-client) 阿里云的 PHP SDK 1.0。
 - [GroupCo](https://github.com/fucongcong/GroupCo) 微服务框架。
 - [flysystem](https://github.com/thephpleague/flysystem) 跨平台文件操作库，支持 本地、FTP、SFTP、内存、S3等。
+- [sql-formatter](https://github.com/jdorn/sql-formatter) PHP 的 SQL 语法高亮生成 HTML 库。
+- [boris](https://github.com/borisrepl/boris) REPL 的 PHP 命令行交互工具。
+- [wechat-php-sdk](https://github.com/zoujingli/wechat-php-sdk) 微信 PHP SDK。
 
 ## 项目、示例
 
@@ -178,6 +181,8 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [translate5](https://github.com/translate5/translate5) 翻译系统。
 - [opentm2-source](https://github.com/OpenTM2/opentm2-source) 翻译记忆库。
 - [t5memory](https://github.com/translate5/t5memory) 翻译记忆库。
+- [koel](https://github.com/koel/koel) 流媒体解决方案，音频、视频分享站点。
+- [adminer](https://github.com/vrana/adminer) 网页版数据库管理工具。
 
 ## 命令规范
 

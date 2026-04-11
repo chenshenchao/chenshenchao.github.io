@@ -173,6 +173,7 @@
 - [phpx](https://github.com/swoole/phpx) C++ 封装 Zend API 用于开发 PHP 扩展。
 - [pybind11](https://github.com/pybind/pybind11) C++11 开发 python 扩展。
 - [WasmEdge](https://github.com/WasmEdge/WasmEdge) Wasm 边缘计算 运行库，支持 IoT 设备。
+- [ChakraCore](https://github.com/chakra-core/ChakraCore) 可内嵌的JS引擎。
 
 ## 项目、示例
 
@@ -205,6 +206,7 @@
 - [verona](https://github.com/microsoft/verona) 微软开源的协程向实验性编程语言。
 - [luanti](https://github.com/luanti-org/luanti) C++ 开发的基于 lua 脚本的类 我的世界 的体素游戏。开发体验更像为其默认游戏开发 mod。
 - [MuseScore](https://github.com/musescore/MuseScore) 音乐制谱软件。
+- [smartdec](https://github.com/smartdec/smartdec) 反编译器。
 
 ## 包管理与构造工具
 

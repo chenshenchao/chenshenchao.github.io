@@ -68,6 +68,8 @@
 - [theatre](https://github.com/theatre-js/theatre) three.js 的 3D 动画设计编辑库。
 - [three.js](https://github.com/mrdoob/three.js) 3D 渲染库。
 - [giojs](https://github.com/syt123450/giojs) 基于 three.js 的地球。
+- [PhysicsJS](https://github.com/wellcaffeinated/PhysicsJS) 物理引擎。
+- [verlet-js](https://github.com/subprotocol/verlet-js) 2D 物理引擎。
 - [matter-js](https://github.com/liabru/matter-js) 2D 刚体物理引擎。
 - [Oimo.js](https://github.com/lo-th/Oimo.js) 3D 物理引擎。
 - [box2d.js](https://github.com/kripken/box2d.js) box2d 通过 wasm 打包。
@@ -109,6 +111,7 @@
 - [FileSaver.js](https://github.com/eligrey/FileSaver.js) 浏览器文件保存库，有内存限制问题。
 - [StreamSaver.js](https://github.com/jimmywarting/StreamSaver.js) 浏览器文件保存库，流式（ReadableStream、WritableStream），解决内存限制问题。
 - [nsfwjs](https://github.com/infinitered/nsfwjs) 基于 TensorFlow.js 开发的 NSFW（Not Safe For Work）色情暴力图片检测库。
+- [neurojs](https://github.com/janhuenermann/neurojs) 浏览器端的深度学习框架。
 - [favico.js](https://github.com/ejci/favico.js) 用图片或视频制作 带 badge 的 favico 图标。 
 - [jison](https://github.com/zaach/jison) 类 bison 的 语法分析器 JS 库。
 - [jison-lex](https://github.com/zaach/jison-lex) 配套 jison 的 词法分析器 JS 库。
@@ -165,6 +168,10 @@
 - [translater.js](https://github.com/jaywcjlove/translater.js) 小体积可离线的翻译库。直接使用离线词库。
 - [regenerator](https://github.com/facebook/regenerator) Facebook 开源的实现 ES6 的兼容旧版本支持 生成器 功能。
 - [ali-oss](https://github.com/ali-sdk/ali-oss) 阿里 OSS 的 JS SDK。
+- [tether](https://github.com/shipshapecode/tether) 前端弹出层、popup等用于定位的库。
+- [KaTeX](https://github.com/KaTeX/KaTeX) Tex 前端渲染库。
+- [swiper](https://github.com/nolimits4web/swiper) 轮播组件库。
+- [Mergely](https://github.com/wickedest/Mergely) 文本差异比较库。
 
 ### Web
 
@@ -209,6 +216,7 @@
 - [elasticlunr.js](https://github.com/weixsong/elasticlunr.js) 基于 lunr.js 可内嵌的文档数据库。
 - [flippant.js](https://github.com/mintchaos/flippant.js) 轻依赖的前端UI组件库。
 - [loadjs](https://github.com/amorey/loadjs) 一个过时的浏览器端异步加载器。
+- [Semantic-UI](https://github.com/Semantic-Org/Semantic-UI) 基于 jQuery 的 UI 组件库。
 
 ## jsx
 

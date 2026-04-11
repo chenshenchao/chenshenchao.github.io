@@ -136,6 +136,7 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [grpc-node](https://github.com/grpc/grpc-node)
 - [apollo-server](https://github.com/apollographql/apollo-server) GraphQL 服务器框架。
 - [ssr](https://github.com/zhangyuang/ssr) 支持 React17/React18/Vue2/Vue3 的 SSR 服务器。
+- [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) HTTP 代理中间件。
 
 ### 图形、图像
 
@@ -155,6 +156,7 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [node-qrcode](https://github.com/soldair/node-qrcode) 二维码生成器。
 - [node-canvas](https://github.com/Automattic/node-canvas) 基于 Cairo 的画布。
 - [FFCreator](https://github.com/tnfe/FFCreator) JS 制作视频库。
+- [phaser](https://github.com/phaserjs/phaser) HTML5 游戏开发框架。
 
 ## 工具、项目、示例
 
@@ -168,6 +170,9 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [doc](https://github.com/BetterJS/doc) 前端错误日志上报服务。
 - [threema-web](https://github.com/threema-ch/threema-web) 即时通讯软件 threema 网页版。
 - [intelligo](https://github.com/intelligo-mn/intelligo) 可扩展的聊天机器人项目。
+- [my-mind](https://github.com/ondras/my-mind) 网页版的思维导图工具。
+- [kityminder](https://github.com/fex-team/kityminder) 百度脑图，网页版的思维导图工具。
+- [Ghost](https://github.com/TryGhost/Ghost) 个人站点快速构建框架。
 
 ## 包管理器
 
