@@ -108,6 +108,7 @@
 - [paxosstore](https://github.com/Tencent/paxosstore) 腾讯开源的分布式键值对存储数据库。
 - [typesense](https://github.com/typesense/typesense) C++ 开发的类 ElasticSearch 的全文搜索文档数据库。
 - [beringei](https://github.com/facebookarchive/beringei) facebook 开源的内存中时序数据库。
+- [xapian](https://github.com/xapian/xapian) C++ 开发的检索库，支持倒排索引等，支持多语言（python、PHP、C++、Java）绑定封装。
 
 ### 图形库
 
@@ -133,6 +134,7 @@
 - [imgui-filebrowser](https://github.com/AirGuanZ/imgui-filebrowser) imgui 文件浏览窗口。
 - [imnodes](https://github.com/Nelarius/imnodes) imgui 组件。
 - [GacUI](https://github.com/vczh-libraries/GacUI) 轮子哥的UI库。
+- [Vlpp](https://github.com/vczh-libraries/Vlpp) 轮子哥的工具库。
 - [mygui](https://github.com/MyGUI/mygui) UI 库。
 - [nana](https://github.com/cnjinhao/nana)
 - [bgfx](https://github.com/bkaradzic/bgfx) 支持多种平台，多种语言绑定的渲染库。
@@ -202,6 +204,7 @@
 - [obs-studio](https://github.com/obsproject/obs-studio) 录屏、直播软件和工具库。
 - [verona](https://github.com/microsoft/verona) 微软开源的协程向实验性编程语言。
 - [luanti](https://github.com/luanti-org/luanti) C++ 开发的基于 lua 脚本的类 我的世界 的体素游戏。开发体验更像为其默认游戏开发 mod。
+- [MuseScore](https://github.com/musescore/MuseScore) 音乐制谱软件。
 
 ## 包管理与构造工具
 

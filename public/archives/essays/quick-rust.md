@@ -544,6 +544,7 @@ fi
 - [pingap](https://github.com/vicanso/pingap) 基于 pingora 的类 nginx 的反向代理服务器。
 - [doukutsu-rs](https://github.com/doukutsu-rs/doukutsu-rs)《洞窟物语》引擎重置版（不提供原版数据资源）。
 - [ring](https://github.com/briansmith/ring) 密码学加密算法实验性项目，用于研究。
+- [cube](https://github.com/cube-js/cube) 开源语义层，汇总多端数据，做数据分析。
 
 ## 兼容
 

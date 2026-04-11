@@ -4,6 +4,7 @@
 
 - [collada-exporter-2.8](https://github.com/artellblender/collada-exporter-2.8) 导出模型给 Godot
 - [collada-exporter](https://github.com/godotengine/collada-exporter) 导出模型给 Godot
+- [verge3d-blender-addon](https://github.com/Soft8Soft/verge3d-blender-addon) webGL 导出插件。
 
 ## 常用快捷键
 

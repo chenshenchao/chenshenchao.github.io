@@ -153,6 +153,7 @@
 - [clipboard.js](https://github.com/zenorocha/clipboard.js) 剪切板库。
 - [smartcrop.js](https://github.com/jwagner/smartcrop.js) 图片裁剪。
 - [cheetah-grid](https://github.com/future-architect/cheetah-grid) 表格组件，虚拟滚动，canvas 绘制。
+- [Clusterize.js](https://github.com/NeXTs/Clusterize.js) 虚拟滚动组件。
 - [isobject](https://github.com/jonschlinkert/isobject) isobject 判断是否对象的函数。
 - [download](https://github.com/rndme/download) 前端下载。
 - [qs](https://github.com/ljharb/qs) URL query string 分析库。
@@ -163,6 +164,7 @@
 - [bpmn-js](https://github.com/bpmn-io/bpmn-js) 流程图编辑器。
 - [translater.js](https://github.com/jaywcjlove/translater.js) 小体积可离线的翻译库。直接使用离线词库。
 - [regenerator](https://github.com/facebook/regenerator) Facebook 开源的实现 ES6 的兼容旧版本支持 生成器 功能。
+- [ali-oss](https://github.com/ali-sdk/ali-oss) 阿里 OSS 的 JS SDK。
 
 ### Web
 
@@ -206,6 +208,7 @@
 - [lunr-language](https://github.com/MihaiValentin/lunr-languages) 基于 lunr.js，提供了多语言支持。 
 - [elasticlunr.js](https://github.com/weixsong/elasticlunr.js) 基于 lunr.js 可内嵌的文档数据库。
 - [flippant.js](https://github.com/mintchaos/flippant.js) 轻依赖的前端UI组件库。
+- [loadjs](https://github.com/amorey/loadjs) 一个过时的浏览器端异步加载器。
 
 ## jsx
 

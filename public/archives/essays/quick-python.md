@@ -110,6 +110,8 @@ python -m http.server 8000
 - [pycryptodome](https://github.com/Legrandin/pycryptodome) C 开发的 python 加密库。
 - [unicurses](https://github.com/unicurses/unicurses) 命令行绘制库，类 curses 且跨平台。
 - [PySnooper](https://github.com/cool-RR/PySnooper) 调试用的跟踪日志库。
+- [wadze](https://github.com/dabeaz/wadze) WASM 解码器，无外部依赖。
+- [gitfiti](https://github.com/gelstudios/gitfiti) 滥用 GitHub 提交图做图片。
 
 ### 数据库
 

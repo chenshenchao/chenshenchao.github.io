@@ -75,6 +75,8 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [nginx-conf](https://github.com/tmont/nginx-conf) nginx 配置处理库。
 - [google-translate-api](https://github.com/matheuss/google-translate-api) 谷歌翻译API 的第三方调用库。
 - [google-translate-open-api](https://github.com/hua1995116/google-translate-open-api) 谷歌翻译API 的第三方调用库。
+- [pont](https://github.com/alibaba/pont) 阿里开源的 mock 框架，可以根据 swagger 自动生成开发测试的 mock 数据接口。
+- [apidoc](https://github.com/apidoc/apidoc) API 文档生成工具。
 
 ### 数据库
 
@@ -98,6 +100,7 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [node-redis](https://github.com/redis/node-redis) redis 官方的客户端库。
 - [lowdb](https://github.com/typicode/lowdb) 可内嵌的 JSON 数据库。
 - [nedb](https://github.com/louischatriot/nedb) 可内嵌的文档数据库。
+- [pouchdb](https://github.com/apache/pouchdb) 可内嵌的文档数据库。
 
 ### 网络
 
@@ -164,6 +167,7 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [webfunny_monitor](https://github.com/a597873885/webfunny_monitor) web站点的监控、埋点、数据分析的项目。
 - [doc](https://github.com/BetterJS/doc) 前端错误日志上报服务。
 - [threema-web](https://github.com/threema-ch/threema-web) 即时通讯软件 threema 网页版。
+- [intelligo](https://github.com/intelligo-mn/intelligo) 可扩展的聊天机器人项目。
 
 ## 包管理器
 

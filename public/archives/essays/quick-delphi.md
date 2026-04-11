@@ -8,3 +8,4 @@ Delphi 是 Embarcadero 开发的一个 Object Pascal 语言的 IDE 。很多 Pas
 - [skia4delphi](https://github.com/skia4delphi/skia4delphi)
 - [libssh2_delphi](https://github.com/pult/libssh2_delphi) libssh2 封装。
 - [dcef3](https://github.com/hgourvest/dcef3) CEF 绑定封装。
+- [issrc](https://github.com/jrsoftware/issrc) inno setup 安装包打包工具。

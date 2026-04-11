@@ -66,11 +66,11 @@
 - [compileflow](https://github.com/alibaba/compileflow) 阿里开源的流程编排库。
 - [esProc](http://github.com/SPLWare/esProc) 一款 SPL（Structured Process Language）语言，类似 Excel 的运算表达式。
 
-## 图形
+### 图形
 
 - [FlatLaf](https://github.com/JFormDesigner/FlatLaf) Swing 的组件库。
 
-## 网络
+### 网络
 
 - [elide](https://github.com/yahoo/elide) GraphQL、HTTP JSON API 开发框架。
 - [dubbo](https://github.com/apache/dubbo) RPC 微服务 web 框架。
@@ -78,7 +78,7 @@
 - [jfinal](https://github.com/jfinal/jfinal) web 框架。
 - [jpress](https://github.com/JPressProjects/jpress) JAVA 开发的类 PHP 的 WordPress 框架。
 
-## 数据库
+### 数据库
 
 - [hibernate-orm](https://github.com/hibernate/hibernate-orm)
 - [hibernate-tools](https://github.com/hibernate/hibernate-tools)
@@ -112,6 +112,10 @@
 - [pentaho-kettle](https://github.com/pentaho/pentaho-kettle) 数据清洗服务、ETL（Extract 提取, Transform 转换, Load 加载）数据的工具。
 - [gocd](https://github.com/gocd/gocd) 持续集成项目，CI/CD 工具。
 - [geogebra](https://github.com/geogebra/geogebra) 数学教学工具网站。
+
+## 文档、书籍、资料
+
+- [advanced-java](https://github.com/doocs/advanced-java) 互联网 Java 工程师进阶知识完全扫盲
 
 ## 开发环境与包管理工具
 

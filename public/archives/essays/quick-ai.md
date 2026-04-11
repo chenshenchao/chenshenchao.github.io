@@ -204,6 +204,7 @@ qwen
 - [BabyAGI](https://github.com/yoheinakajima/babyagi) python 的 AGI 开发库。
 - [open-text-embeddings](https://github.com/rag-wtf/open-text-embeddings) 兼容 openAI 的 API 的嵌入文本模型框架。
 - [anylabeling](https://github.com/vietanhdev/anylabeling) 数据标注工具，用视觉模型做辅助。
+- [ImageAI](https://github.com/OlafenwaMoses/ImageAI) 机器视觉开发框架。
 
 ### AI 应用
 

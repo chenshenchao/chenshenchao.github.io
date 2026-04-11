@@ -27,6 +27,8 @@
 - [dirtycow](https://github.com/firefart/dirtycow) CVE-2016-5195 dirtycow 漏洞
 - [FastTrack](https://github.com/microsoft/FastTrack) 微软开源的脚本集合。
 - [CodeBlog](https://github.com/QDMarkMan/CodeBlog) 前端相关的博文。
+- [tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) 面试手册。
+- [gold-miner](https://github.com/xitu/gold-miner) 掘金翻译计划
 
 ## 开源书籍
 
@@ -70,7 +72,6 @@
 
 - [awesome](https://github.com/sindresorhus/awesome)
 - [awesome-electronics](https://github.com/kitspace/awesome-electronics) 电子硬件相关。
-- [awesome-electron](https://github.com/sindresorhus/awesome-electron)
 - [awesome-rust](https://github.com/rust-unofficial/awesome-rust)
 - [awesome-gameserver-cn](https://github.com/hstcscolor/awesome-gameserver-cn)
 - [awesome-vscode](https://github.com/viatsko/awesome-vscode)
@@ -159,9 +160,6 @@
 - [Pencil](https://github.com/evolus/pencil) 开源 原型设计 软件。
 - [penpot](https://github.com/penpot/penpot) 开源 UI 设计 软件。
 - [pddon-win](https://github.com/pddon/pddon-win) 基于网页的流程图、架构图、导图绘图软件。
-- [DrawIO](https://github.com/jgraph/drawio-desktop) 流程图、架构图、导图绘图软件。
-- [drawio-diagrams](https://github.com/jgraph/drawio-diagrams)
-- [drawio-libs](https://github.com/jgraph/drawio-libs) drawio 的库。
 - [DrawDB](https://github.com/drawdb-io/drawdb) 数据库设计图形工具。
 
 ### 编辑器与IDE
@@ -180,8 +178,6 @@
 - [neovim](https://github.com/neovim/neovim) 一个 Vim 实现。
 - [SpaceVim](https://github.com/wsdjeg/SpaceVim) 一个 Vim 实现。
 - [vim.wasm](https://github.com/rhysd/vim.wasm) WASM 编译 Vim 在浏览器中运行。
-- [xray](https://github.com/atom-archive/xray) 基于 Electron 的一个文本编辑器。
-- [atom](https://github.com/atom/atom) 基于 Electron 的一个文本编辑器。
 - [liteide](https://github.com/visualfc/liteide) Go IDE
 - [pxt-microbit](https://github.com/microsoft/pxt-microbit)微软 microbit 的少儿编程 IDE。
 - [lem](https://github.com/lem-project/lem) Common Lisp 开发的 IDE。
@@ -215,6 +211,7 @@
 - [vue-compiler](https://github.com/HerringtonDarkholme/vue-compiler) rust 开发的 vue 编译器。
 - [cairo](https://github.com/starkware-libs/cairo) 一个用 rust 开发，很像 rust 的语言。
 - [red](https://github.com/red/red) 一个编程语言。
+- [haxe](https://github.com/HaxeFoundation/haxe) 一个 C 类的很像 TS 的语言，可以翻译成  JavaScript、C++、C#、Java、Python、Lua、PHP 等多种目标语言。
 - [wenyan](https://github.com/wenyan-lang/wenyan) 文言文編程語言
 - [hamler](https://github.com/hamler-lang/hamler) 运行在 ErLang 虚拟机上的类 Haskell 语言。
 - [joker](https://github.com/candid82/joker) Go 开发的 Lisp 方言：Small Clojure 解释器。
@@ -304,7 +301,6 @@
 - [PDFPatcher](https://github.com/wmjordan/PDFPatcher) PDF 编辑工具。
 - [marktext](https://github.com/marktext/marktext) markdown 编辑器。
 - [Zettlr](https://github.com/Zettlr/Zettlr) markdown 编辑器。
-- [music](https://github.com/sunzongzheng/music) vue + electron 音乐播放器。
 - [ieaseMusic](https://github.com/trazyn/ieaseMusic) 网易云音乐第三方。
 - [Motrix](https://github.com/agalwood/Motrix) 下载器。
 - [fonteditor](https://github.com/ecomfe/fonteditor) web 字体编辑器。
@@ -550,6 +546,9 @@
 - [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) 代理 chrome 插件。
 - [octotree](https://github.com/ovity/octotree) 增强 GitHub 兼容多种浏览器的插件。
 - [refined-github](https://github.com/refined-github/refined-github) 扩展 GitHub 功能的浏览器插件。
+- [enhanced-github](https://github.com/softvar/enhanced-github) 扩展 GitHub 功能的浏览器插件。
+- [isometric-contributions](https://github.com/jasonlong/isometric-contributions) 扩展 GitHub 功能的浏览器插件,3D 贡献图。
+- [OctoLinker](https://github.com/OctoLinker/OctoLinker) 扩展 GitHub 功能的浏览器插件，依赖链接跳转。
 
 ### VS code 插件
 

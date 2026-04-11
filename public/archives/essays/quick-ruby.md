@@ -13,6 +13,7 @@ Ruby 的名字来源于效仿 Perl 用 “珍珠（Pearl）”起名，所以就
 ## 项目、示例
 
 - [puma](https://github.com/puma/puma) web 服务器。
+- [mastodon](https://github.com/mastodon/mastodon) 基于 Ruby on Rails 开发的分布式微博客服务。
 - [chef](https://github.com/chef/chef) 自动化配置服务（云服务商创建各种虚拟容器，指定什么系统，多少CPU，多少内存此类）
 - [puppet](https://github.com/puppetlabs/puppet) 自动化配置服务
 - [ocra](https://github.com/larsch/ocra) ruby 打包 exe。
