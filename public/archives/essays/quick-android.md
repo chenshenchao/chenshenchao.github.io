@@ -8,9 +8,10 @@
 
 ## 官方库
 
+- [architecture-samples](https://github.com/android/architecture-samples) 结构示例。
 - [androidx](https://github.com/androidx/androidx) Android Jetpack
 - [media](https://github.com/androidx/media) 多媒体库，内置 ExoPlayer 视频播放器。
-- [ExoPlayer](https://github.com/google/ExoPlayer) 视频播放器，仓库已不更新，移动到 androidx media。
+- [ExoPlayer](https://github.com/google/ExoPlayer) 视频播放器，仓库已不更新，移动到 androidx media
 
 ## 常用库
 
@@ -75,6 +76,8 @@
 - [mpv-android](https://github.com/mpv-android/mpv-android) 基于 libmpv 的视频播放器。
 - [simplenote-android](https://github.com/Automattic/simplenote-android) 简单笔记APP。
 - [PocketHub](https://github.com/pockethub/PocketHub)  GitHub 客户端（Android 平台）
+- [iosched](https://github.com/google/iosched) 谷歌的 I/O APP。
+- [Android-CleanArchitecture](https://github.com/android10/Android-CleanArchitecture) 简单结构的示例。
 
 ### keytool 证书生成命令行（Java SDK 工具）
 

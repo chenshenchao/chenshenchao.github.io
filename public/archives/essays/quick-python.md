@@ -196,10 +196,13 @@ python -m http.server 8000
 - [dirmap](https://github.com/H4ckForJob/dirmap) 安全测试，web 目录扫描工具。
 - [cansina](https://github.com/deibit/cansina) 安全测试，web 目录扫描工具。
 - [sparta](https://github.com/SECFORCE/sparta) 安全测试，渗透工具。
+- [sentry](https://github.com/getsentry/sentry) 测试、跟踪服务，支持多语言前端。
 - [image-match](https://github.com/rhsimplex/image-match) 用图片 HASH 做图片匹配搜索的项目。
 - [ZTool](https://github.com/lzx8589561/ZTool) 基于 PyQt5 的工具项目，功能随作者喜好做的。
 - [augur](https://github.com/augurlabs/augur) 开源社区（GitHub等）健康度等的数据科学分析工具。
 - [trellis](https://github.com/roots/trellis) 基于 Ansible 的 WordPress LEMP 服务器自动化部署与管理工具。
+- [byterun](https://github.com/nedbat/byterun) python 字节码运行库。
+- [wagtail](https://github.com/wagtail/wagtail) 基于 Django 的 CMS 项目。
 
 ## 虚拟环境
 

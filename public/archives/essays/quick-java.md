@@ -70,6 +70,7 @@
 ### 图形
 
 - [FlatLaf](https://github.com/JFormDesigner/FlatLaf) Swing 的组件库。
+- [libgdx](https://github.com/libgdx/libgdx) 跨平台的 Java 游戏引擎。
 
 ### 网络
 
@@ -79,6 +80,7 @@
 - [jfinal](https://github.com/jfinal/jfinal) web 框架。
 - [jpress](https://github.com/JPressProjects/jpress) JAVA 开发的类 PHP 的 WordPress 框架。
 - [firefly](https://github.com/hypercube1024/firefly) 异步的网络开发框架。
+- [vert.x](https://github.com/eclipse-vertx/vert.x) HTTP, TCP 等网络库。
 
 ### 数据库
 

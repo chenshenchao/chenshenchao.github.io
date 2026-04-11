@@ -172,6 +172,13 @@
 - [KaTeX](https://github.com/KaTeX/KaTeX) Tex 前端渲染库。
 - [swiper](https://github.com/nolimits4web/swiper) 轮播组件库。
 - [Mergely](https://github.com/wickedest/Mergely) 文本差异比较库。
+- [sizzle](https://github.com/jquery/sizzle) jQuery 的选择器引擎。
+- [formBuilder](https://github.com/kevinchappell/formBuilder) 基于 jQuery 的通过拖拽创建表单的编辑器组件。
+- [strophejs](https://github.com/strophe/strophejs) JS 的 XMPP 库。
+- [lozad.js](https://github.com/ApoorvSaxena/lozad.js) 惰性加载库。
+- [list.js](https://github.com/javve/list.js) 前端 table ul ol 操作库。
+- [scrollreveal](https://github.com/jlmakes/scrollreveal) 根据滚动条播放动画。
+- [WebSlides](https://github.com/webslides/WebSlides) 用前端做演讲稿。
 
 ### Web
 

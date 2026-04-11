@@ -25,6 +25,7 @@
 - [oneAPI-spec](https://github.com/uxlfoundation/oneAPI-spec)
 - [caffe](https://github.com/BVLC/caffe) 深度学习框架。
 - [angel](https://github.com/Angel-ML/angel) Java 技术栈的深度学习框架。
+- [smile](https://github.com/haifengl/smile) Java 技术栈的深度学习框架。
 
 ## 资料源
 
@@ -207,6 +208,7 @@ qwen
 - [open-text-embeddings](https://github.com/rag-wtf/open-text-embeddings) 兼容 openAI 的 API 的嵌入文本模型框架。
 - [anylabeling](https://github.com/vietanhdev/anylabeling) 数据标注工具，用视觉模型做辅助。
 - [ImageAI](https://github.com/OlafenwaMoses/ImageAI) 机器视觉开发框架。
+- [SerpentAI](https://github.com/SerpentAI/SerpentAI) 游戏 Agent 开发框架。
 
 ### AI 应用
 

@@ -124,6 +124,7 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [pomelo](https://github.com/NetEase/pomelo) 网易开源的游戏服务器框架。
 - [pinus](https://github.com/node-pinus/pinus) 基于 pomelo 的游戏服务器框架。
 - [dart-sass](https://github.com/sass/dart-sass) 
+- [susy](https://github.com/oddbird/susy) 一个 SASS 的工具包，已经弃用。
 - [loopback-next](https://github.com/loopbackio/loopback-next) API 微服务框架。
 - [EvaEngine.js](https://github.com/EvaEngine/EvaEngine.js) 微服务框架。
 - [jss](https://github.com/cssinjs/jss) css in js
@@ -137,6 +138,7 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [apollo-server](https://github.com/apollographql/apollo-server) GraphQL 服务器框架。
 - [ssr](https://github.com/zhangyuang/ssr) 支持 React17/React18/Vue2/Vue3 的 SSR 服务器。
 - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) HTTP 代理中间件。
+- [nodemailer](https://github.com/nodemailer/nodemailer) 发送邮件库。
 
 ### 图形、图像
 
