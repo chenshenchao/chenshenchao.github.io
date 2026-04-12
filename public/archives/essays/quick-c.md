@@ -43,6 +43,7 @@
 - [shine](https://github.com/toots/shine) MP3 库，支持 前端 JS/WASM 和 安卓 的封装。
 - [minimp3](https://github.com/lieff/minimp3) 单头文件的 MP3 库。
 - [opus](https://github.com/xiph/opus) opus 音频库。
+- [portaudio](https://github.com/PortAudio/portaudio) 音频处理库。
 - [cmdline](https://github.com/tanakh/cmdline) 命令行参数解析库。
 - [getopt](https://github.com/skeeto/getopt) 命令行参数解析库。
 - [coroutine](https://github.com/cloudwu/coroutine) 协程库。

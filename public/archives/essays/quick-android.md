@@ -26,9 +26,6 @@
 - [anko](https://github.com/Kotlin/anko) 多工具库。
 - [QMUI_Android](https://github.com/Tencent/QMUI_Android) 腾讯开源的 UI 组件库。
 - [leakcanary](https://github.com/square/leakcanary) 内存泄露分析库
-- [FFmpeg-Android](https://github.com/bravobit/FFmpeg-Android) ffmpeg 安卓的编译打包库。
-- [ffmpeg-android](https://github.com/cropsly/ffmpeg-android) ffmpeg 安卓的编译二进制文件。
-- [ffmpeg-android-java](https://github.com/cropsly/ffmpeg-android-java) ffmpeg 安卓封装库。
 - [TRTC_Android](https://github.com/Tencent-RTC/TRTC_Android)
 - [AndroidAudioConverter](https://github.com/adrielcafe/AndroidAudioConverter) 音频转换库。
 - [VideoProcessor](https://github.com/yellowcath/VideoProcessor) 基于 MediaCodec 的视频处理库。
@@ -61,18 +58,14 @@
 - [AndroidAssetStudio](https://github.com/romannurik/AndroidAssetStudio) 不维护，图标生成网页工具，有一些机型有问题。
 - [icon kitchen](https://icon.kitchen/)  图标生成网页工具，AndroidAssetStudio 不维护，又推荐了这个，还支持 ios 的图标。
 - [android-backup-extractor](https://github.com/nelenkov/android-backup-extractor) 提取 adb backup 命令打包的文件。
-- [ffmpeg-android-maker](https://github.com/Javernaut/ffmpeg-android-maker) 编译安卓可用 ffmpeg *.so 文件的脚本项目。
 - [scrcpy](https://github.com/Genymobile/scrcpy) 命令行工具，远程控制安卓设备。
 - [QtScrcpy](https://github.com/barry-ran/QtScrcpy) 远程控制安卓设备。
 - [ADBKeyBoard](https://github.com/senzhk/ADBKeyBoard) 一个输入法，解决 adb shell input text 不支持 Unicode。
 
 ## 项目、资料、示例
 
-- [FFmpegAndroid](https://github.com/xufuji456/FFmpegAndroid) 安卓 FFmpeg 相关资料。
-- [ffmpeg4android](https://github.com/byhook/ffmpeg4android) 安卓 FFmpeg 相关资料。
 - [VideoCompressor](https://github.com/tangpeng/VideoCompressor) MediaCodec 视频压缩示例。
 - [VideoCompressor](https://github.com/fishwjy/VideoCompressor) MediaCodec 视频压缩示例。
-- [small-video-record](https://github.com/mabeijianxi/small-video-record) 基于 ffmpeg 的视频录制示例。
 - [mpv-android](https://github.com/mpv-android/mpv-android) 基于 libmpv 的视频播放器。
 - [simplenote-android](https://github.com/Automattic/simplenote-android) 简单笔记APP。
 - [PocketHub](https://github.com/pockethub/PocketHub)  GitHub 客户端（Android 平台）

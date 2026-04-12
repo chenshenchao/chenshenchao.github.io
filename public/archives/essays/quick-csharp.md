@@ -57,6 +57,7 @@
 ### WinForms
 
 - [WinForms 源码](https://github.com/dotnet/winforms)
+- [STNodeEditor](https://github.com/DebugST/STNodeEditor) WinForms 蓝图类组件库。
 
 ### Xamarin 和 MAUI
 

@@ -66,6 +66,7 @@
 - [compileflow](https://github.com/alibaba/compileflow) 阿里开源的流程编排库。
 - [esProc](http://github.com/SPLWare/esProc) 一款 SPL（Structured Process Language）语言，类似 Excel 的运算表达式。
 - [ehcache3](https://github.com/ehcache/ehcache3) 缓存库。
+- [libsvm](https://github.com/cjlin1/libsvm) SVM 库。
 
 ### 图形
 

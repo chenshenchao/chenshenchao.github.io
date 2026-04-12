@@ -63,7 +63,6 @@ python -m http.server 8000
 - [pymunk](https://github.com/viblo/pymunk) 2D 物理引擎。
 - [requests](https://github.com/psf/requests) HTTP 客户端库。
 - [httpx](https://github.com/encode/httpx) HTTP 客户端库。
-- [ffmpeg-python](https://github.com/kkroening/ffmpeg-python) ffmpeg 绑定封装库。
 - [sly](https://github.com/dabeaz/sly) 类 lex、yacc 的 python 库（面向对象设计）。 
 - [ply](https://github.com/dabeaz/ply) 类 lex、yacc 的 python 库（面向过程设计）。 
 - [jax](https://github.com/jax-ml/jax) 组件化 numpy 使代码更精简，生成 GPU/TPU 的 JIT 。

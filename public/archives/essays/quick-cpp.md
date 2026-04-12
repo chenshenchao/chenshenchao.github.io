@@ -9,7 +9,7 @@
 - [0382 util](https://github.com/0382/util) 开源工具库。
 - [asmjit](https://github.com/asmjit/asmjit) JIT 库。
 - [asmtk](https://github.com/asmjit/asmtk)
-- [Poco](https://github.com/pocoproject/poco) 多功能库集合。
+- [Poco](https://github.com/pocoproject/poco) 多功能库集合，囊括数据库客户端、网络库、内存管理等，适合开发后端。
 - [quill](https://github.com/odygrd/quill) 异步日志库。
 - [spdlog](https://github.com/gabime/spdlog) 日志库。
 - [CSerialPort](https://github.com/itas109/CSerialPort) 跨平台串口库。
@@ -63,12 +63,19 @@
 - [robotstxt](https://github.com/google/robotstxt) robots.txt 文件解析库。
 - [GameAISDK](https://github.com/Tencent/GameAISDK) 基于图像的 自动化 框架，基于 tensorflow AI 。
 - [astc-encoder](https://github.com/ARM-software/astc-encoder) ARM 开源的 ASTC 纹理压缩解压库和命令行工具。
+- [lame](https://lame.sourceforge.io/) mp3 库。
+- [libsvm](https://github.com/arnaudsj/libsvm) SVM 库。
+- [jwt-cpp](https://github.com/Thalhammer/jwt-cpp) jwt 库
+- [cpp-jwt](https://github.com/arun11299/cpp-jwt)  jwt 库
+- [asyncpp](https://github.com/asyncpp/asyncpp) 扩展 co_await、co_return 的异步库。
+- [asyncplusplus](https://github.com/Amanieu/asyncplusplus) 异步库。
 
 ### 网络
 
 - [userver](https://github.com/userver-framework/userver) web 框架。
 - [uWebSockets](https://github.com/uNetworking/uWebSockets) web 库，支持 websocket。
 - [libhv](https://github.com/ithewei/libhv) 多种网络协议库。
+- [seastar](https://github.com/scylladb/seastar) 多种网络协议库。
 - [drogon](https://github.com/drogonframework/drogon) web 框架。
 - [paozhu](https://github.com/hggq/paozhu) 内置 ORM、HTTP 客户端、websocket 的 Web 框架。
 - [Crow](https://github.com/CrowCpp/Crow) web 框架。
@@ -82,6 +89,7 @@
 - [mars](https://github.com/Tencent/mars) 腾讯开源的为微信开发的跨平台网络库。
 - [workflow](https://github.com/sogou/workflow) 搜狗开源的并行计算和异步网络库。
 - [snort3](https://github.com/snort3/snort3) 入侵防御系统。
+- [nng](https://github.com/nanomsg/nng) nanomsg-ng 轻量级网络消息库。
 
 ### 数据库
 
@@ -100,6 +108,7 @@
 - [mysql-connector-cpp](https://github.com/mysql/mysql-connector-cpp) MySQL 客户端库。
 - [sqlpp11](https://github.com/rbock/sqlpp11) SQL 类型安全生成库。
 - [soci](https://github.com/SOCI/soci) 数据库访问库。
+- [libpqxx](https://github.com/jtv/libpqxx) PostgreSQL 客户端库。
 - [ormpp](https://github.com/qicosmos/ormpp) 支持 mysql, postgresql,sqlite 的 ORM 库。
 - [sqlite_orm](https://github.com/fnc12/sqlite_orm) 头文件 ORM 库，支付 50$ 可使用。
 - [duckdb](https://github.com/duckdb/duckdb) 把表格结构的文件当数据库使用，通过 SQL 操作。
@@ -146,7 +155,10 @@
 - [nanogui](https://github.com/wjakob/nanogui) OpenGL 的 UI 库。
 - [lunasvg](https://github.com/sammycage/lunasvg) SVG 库。
 - [lodepng](https://github.com/lvandeve/lodepng) PNG 库。
+- [fpng](https://github.com/richgel999/fpng) PNG 库。
 - [bmf](https://github.com/BabitMF/bmf) 多媒体库，提取视频帧等功能，支持 C++、python 等多语言。
+- [libde265](https://github.com/strukturag/libde265) 视频编码 h.265 库。
+- [openh264](https://github.com/cisco/openh264) 视频编码 h.264 库。
 - [blend2d](https://github.com/blend2d/blend2d) 基于 asmjit 的 2D 图形绘图库。
 - [picasso](https://github.com/onecoolx/picasso) 2D 图形绘图库。
 - [sciter-sdk](https://github.com/c-smile/sciter-sdk) 可内嵌的 HTML/CSS/TIScript 的脚本引擎。已废弃。
@@ -157,6 +169,7 @@
 - [boden](https://github.com/AshampooSystems/boden) C++ 移动端跨平台开发框架。
 - [swiftshader](https://github.com/google/swiftshader) 谷歌开源的 Vulkan 3D 图形库。
 - [Pangolin](https://github.com/stevenlovegrove/Pangolin) OpenGL 扩展库，可处理视频输入。
+- [spine-runtimes](https://github.com/EsotericSoftware/spine-runtimes) 2D 骨骼动画 spine 的运行库。
 
 ### boost
 
@@ -207,6 +220,8 @@
 - [luanti](https://github.com/luanti-org/luanti) C++ 开发的基于 lua 脚本的类 我的世界 的体素游戏。开发体验更像为其默认游戏开发 mod。
 - [MuseScore](https://github.com/musescore/MuseScore) 音乐制谱软件。
 - [smartdec](https://github.com/smartdec/smartdec) 反编译器。
+- [DebugViewPP](https://github.com/CobaltFusion/DebugViewPP) DebugView 增强版。
+- [suyu](https://github.com/vstyler96/suyu) 任天堂 Switch 模拟器。
 
 ## 包管理与构造工具
 

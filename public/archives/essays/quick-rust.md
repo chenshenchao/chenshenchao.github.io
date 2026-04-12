@@ -372,6 +372,7 @@ fi
 - [tch](https://github.com/LaurentMazare/tch-rs) 封装 pytorch 的 c++ 版本绑定 rust
 - [linfa](https://github.com/rust-ml/linfa) 深度学习框架。
 - [burn](https://github.com/tracel-ai/burn) 纯 rust 的深度学习框架。
+- [tract](https://github.com/sonos/tract) Tensorflow、ONNX 推理运行库。
 - [candle](https://github.com/huggingface/candle) huggingface 开发的机器学习框架。
 - [ndarray](https://github.com/rust-ndarray/ndarray) 类似 python 的 numpy
 - [ort](https://github.com/pykeio/ort) ONNX 格式 rust 库。
@@ -410,6 +411,8 @@ fi
 - [walkdir](https://github.com/BurntSushi/walkdir) 遍历文件夹库。
 - [redis-rs](https://github.com/redis-rs/redis-rs) redis 客户端。
 - [tokenizers](https://github.com/huggingface/tokenizers) 分词器，支持 rust、python 等端。
+- [bon](https://github.com/elastio/bon) 链式方式初始化对象的库。
+- [cursive](https://github.com/gyscos/cursive) TUI 命令行图形库。
 
 ### 图形库
 

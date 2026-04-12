@@ -280,9 +280,6 @@
 - [vector-drawable-nextjs](https://github.com/seanghay/vector-drawable-nextjs) 安卓图标资源（VectorDrawable）转 SVG 工具。
 - [fd](https://github.com/sharkdp/fd) rust 开发的类 find 命令行工具。
 - [autojump](https://github.com/wting/autojump) python 开发的类 cd 命令。
-- [FFmpeg](https://github.com/FFmpeg/FFmpeg)
-- [FFmpeg-Builds](https://github.com/BtbN/FFmpeg-Builds) FFmpeg 下载。
-- [libav](https://github.com/libav/libav) FFmpeg 的分支，已经停止维护。
 - [PandaOCR](https://github.com/miaomiaosoft/PandaOCR) OCR 工具。
 - [darknet-ocr](https://github.com/chineseocr/darknet-ocr) OCR 工具站点。
 - [chineseocr](https://github.com/chineseocr/chineseocr) OCR 工具站点。
@@ -308,7 +305,7 @@
 - [calculator](https://github.com/microsoft/calculator) Windows 新计算器。
 - [carbon](https://github.com/carbon-app/carbon) 代码生成高亮且美观的图片的工具。
 - [inkscape](https://inkscape.org) 矢量图绘图软件。[源码](https://gitlab.com/inkscape/inkscape)
-- [tikzit](github.com/tikzit/tikzit) 简单的点线绘图软件。
+- [tikzit](github.com/tikzit/tikzit) 简单的点线绘图软件，使用自研的 TikZ 语言存储。
 - [MODNET-Matting-tool](https://github.com/AIDajiangtang/MODNET-Matting-tool) 抠图工具。
 - [naps2](https://github.com/cyanfish/naps2) 扫描实体书成 PDF 的工具。
 - [SweetHome3D 插件](https://github.com/valsr/SweetHome3D) SweetHome3D 是个免费装修家居设计软件，微软应用商店可搜索到，内置收费，而且很卡。
