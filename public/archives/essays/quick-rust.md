@@ -548,6 +548,7 @@ fi
 - [doukutsu-rs](https://github.com/doukutsu-rs/doukutsu-rs)《洞窟物语》引擎重置版（不提供原版数据资源）。
 - [ring](https://github.com/briansmith/ring) 密码学加密算法实验性项目，用于研究。
 - [cube](https://github.com/cube-js/cube) 开源语义层，汇总多端数据，做数据分析。
+- [rtk](https://github.com/rtk-ai/rtk) 命令行代理，在 AI 和 bash 这些命令行工具之间加入一个中间层，AI 通过 rtk 调用 bash 可以更高效。
 
 ## 兼容
 

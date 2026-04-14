@@ -175,6 +175,7 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [my-mind](https://github.com/ondras/my-mind) 网页版的思维导图工具。
 - [kityminder](https://github.com/fex-team/kityminder) 百度脑图，网页版的思维导图工具。
 - [Ghost](https://github.com/TryGhost/Ghost) 个人站点快速构建框架。
+- [openscreen](https://github.com/siddharthvaddem/openscreen) 录屏工具。
 
 ## 包管理器
 

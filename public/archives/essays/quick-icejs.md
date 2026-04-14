@@ -1,12 +1,14 @@
 # [草稿]ice.js 速查
 
 ```bash
-# 创建
-npm create ice ice-app
+# 当前目录初始化。
+npm init ice 
+# 创建 ice-app 目录并初始化。
+npm init ice ice-app
 # 创建 ice-app 目录，指定生成最小的框架，只 web 。
-npm create ice ice-app --template @ice/lite-scaffold
+npm init ice ice-app --template @ice/lite-scaffold
 # 创建 ice-app 目录，指定生成有小程序相关的框架。
-npm create ice ice-app --template @ice/miniapp-scaffold
+npm init ice ice-app --template @ice/miniapp-scaffold
 ```
 
 ## 插件

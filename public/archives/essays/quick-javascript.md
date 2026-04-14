@@ -50,6 +50,7 @@
 - [zlib.js](https://github.com/imaya/zlib.js) zlib 库。
 - [protobuf.js](https://github.com/protobufjs/protobuf.js) protobuf 实现。
 - [transformers.js](https://github.com/huggingface/transformers.js) huggingface 开发用于浏览器端运行 transformers 模型的框架。
+- [speak.js](https://github.com/kripken/speak.js) eSpeak 封装的 TTS 的 JS 版。
 - [gif.js](https://github.com/jnordberg/gif.js) gif 图片处理库。
 - [gifify](https://github.com/vvo/gifify) 视频转 gif 图片库。
 - [freezeframe.js](https://github.com/ctrl-freaks/freezeframe.js) 控制 gif 动画播放。

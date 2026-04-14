@@ -156,6 +156,7 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [ironclaw](https://github.com/nearai/ironclaw)
 - [nanoclaw](https://github.com/qwibitai/nanoclaw)
 - [goclaw](https://github.com/nextlevelbuilder/goclaw)
+- [hermes-agent](https://github.com/NousResearch/hermes-agent) 会自我成长的 agent 。
 
 ### AI 编程工具
 
@@ -163,6 +164,7 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [trae](https://www.trae.ai) 字节编程 AI IDE
 - [qcoder](https://qoder.com) 阿里编程 AI IDE
 - [claude-code](https://github.com/anthropics/claude-code)
+- [claw-code](https://github.com/ultraworkers/claw-code) rust 重写并破解源码泄露的 claude-code 而成的项目。
 - [opencode](https://github.com/anomalyco/opencode) anomalyco
 - [opencode](https://github.com/opencode-ai/opencode) opencode-ai
 - [qwen code](https://github.com/QwenLM/qwen-code) qwen code 源码
