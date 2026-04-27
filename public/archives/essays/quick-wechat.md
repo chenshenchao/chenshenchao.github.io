@@ -26,6 +26,7 @@
 - [weui-wxss](https://github.com/Tencent/weui-wxss) 腾讯 WeUI 样式库。
 - [coloruicss](https://github.com/weilanwl/coloruicss) 样式库。
 - [vant-weapp](https://github.com/youzan/vant-weapp) 有赞 UI库。
+- [weapp-tailwindcss](https://github.com/sonofmagic/weapp-tailwindcss) 适配 tailwindcss 的插件，兼容各种打包工具。
 
 ### 开发与测试
 

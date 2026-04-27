@@ -60,6 +60,7 @@
 - [jemalloc](https://github.com/jemalloc/jemalloc) 通用的 malloc 内存分配库。
 - [libusb](https://github.com/libusb/libusb) USB 库。
 - [pipewire](https://github.com/PipeWire/pipewire) Linux 多媒体库，录制播放音频，截取视频帧等。
+- [libunwind](https://github.com/libunwind/libunwind) ELF 文件调试，实现 setjmp/longjmp 功能。
 
 ### 数据库
 
@@ -88,6 +89,7 @@
 - [cyrus-sasl](https://github.com/cyrusimap/cyrus-sasl)
 - [gnutls](https://github.com/gnutls/gnutls) GNU TLS 库。
 - [openssl](https://github.com/openssl/openssl) TLS 等加密算法库。
+- [wolfssl](https://github.com/wolfSSL/wolfssl) TLS 等加密算法库。
 
 ### 图形
 
@@ -112,6 +114,8 @@
 - [LCUI](https://github.com/lc-soft/LCUI) 图形开发框架，基于 web 方式。
 - [RetroArch](https://github.com/libretro/RetroArch) 基于 Libretro 的前端图形框架，支持安卓、PS、Xbox、任天堂等。
 - [lab](https://github.com/google-deepmind/lab) 一个 3D 引擎，用于 AI 研究。
+- [soil](https://github.com/littlstar/soil) OpenGL 图片处理库。
+- [libvpx](https://github.com/ShiftMediaProject/libvpx) vp8 vp9 视频解码库。
 
 ### 嵌入式相关
 

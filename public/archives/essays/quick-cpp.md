@@ -12,6 +12,7 @@
 - [Poco](https://github.com/pocoproject/poco) 多功能库集合，囊括数据库客户端、网络库、内存管理等，适合开发后端。
 - [quill](https://github.com/odygrd/quill) 异步日志库。
 - [spdlog](https://github.com/gabime/spdlog) 日志库。
+- [fmtlog](https://github.com/MengRao/fmtlog) 日志库。
 - [CSerialPort](https://github.com/itas109/CSerialPort) 跨平台串口库。
 - [serial](https://github.com/wjwwood/serial) 跨平台串口库。
 - [libserial](https://github.com/crayzeewulf/libserial) Linux 串口库。
@@ -53,6 +54,7 @@
 - [json](https://github.com/nlohmann/json) JSON 库。
 - [jsoncpp](https://github.com/open-source-parsers/jsoncpp) JSON 库。
 - [configor](https://github.com/l33oo/configor) 配置管理库，目前只支持 JSON 格式。
+- [pugixml](https://github.com/zeux/pugixml) xml 库。
 - [yaml-cpp](https://github.com/jbeder/yaml-cpp) yaml 库。
 - [botan](https://github.com/randombit/botan) 加密工具库。
 - [taskflow](https://github.com/taskflow/taskflow) 任务并发库。
@@ -69,6 +71,9 @@
 - [cpp-jwt](https://github.com/arun11299/cpp-jwt)  jwt 库
 - [asyncpp](https://github.com/asyncpp/asyncpp) 扩展 co_await、co_return 的异步库。
 - [asyncplusplus](https://github.com/Amanieu/asyncplusplus) 异步库。
+- [Maximilian](https://github.com/micknoise/Maximilian) 音频音乐 DSP 库。
+- [easyexif](https://github.com/mayanklahiri/easyexif) 提取 JPG 里 EXIF 信息的库。
+- [recycle](https://github.com/steinwurf/recycle) 内存管理库。
 
 ### 网络
 
@@ -170,6 +175,7 @@
 - [swiftshader](https://github.com/google/swiftshader) 谷歌开源的 Vulkan 3D 图形库。
 - [Pangolin](https://github.com/stevenlovegrove/Pangolin) OpenGL 扩展库，可处理视频输入。
 - [spine-runtimes](https://github.com/EsotericSoftware/spine-runtimes) 2D 骨骼动画 spine 的运行库。
+- [libigl](https://github.com/libigl/libigl) 3D 绘图库。
 
 ### boost
 

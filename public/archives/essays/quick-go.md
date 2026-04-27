@@ -168,6 +168,7 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [rpcx](https://github.com/smallnest/rpcx) 微服务框架。
 - [kubo](https://github.com/ipfs/kubo) IPFS 实现。
 - [websocket](https://github.com/gorilla/websocket) websocket 库。
+- [ip2region](https://github.com/lionsoul2014/ip2region) 支持多语言的 IP 查地区库，作者会定期更新 xdb 的 IP 地区数据库。
 
 ### 图形
 

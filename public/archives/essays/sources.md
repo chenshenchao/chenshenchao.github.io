@@ -425,6 +425,7 @@
 - [maxwell](https://github.com/zendesk/maxwell) 通过 mysql binlog 转成 JSON 发送 kafka 的生产者服务。
 - [supervisor](https://github.com/Supervisor/supervisor) linux 守护进程常驻服务。
 - [bugzilla](https://github.com/bugzilla/bugzilla) BUG 跟踪系统，用来测试人员提交 BUG ，管理 BUG 的 web 服务。
+- [stirling-pdf](https://github.com/Stirling-Tools/stirling-pdf) 基于 web 服务的 PDF 编辑器。
 
 ### 硬件设计工具
 
@@ -537,6 +538,8 @@
 - [MOOS](https://github.com/nifanfa/MOOS) C# 开发的 x64 操作系统，基于 .NET AOT。
 - [MS-DOS](https://github.com/microsoft/MS-DOS)
 - [pi64](https://github.com/bamarni/pi64) Go 开发的 树莓派3 操作系统，基于 Linux 4.11 Debian Stretch。
+- [menuetos](https://menuetos.net/) 纯汇编开发的操作系统。
+- [menuetos](https://github.com/marcosptf/menuetos) menuetos 早年的源码。
 
 ### 浏览器插件
 

@@ -61,6 +61,7 @@ dotnet tool update --global dotnet-ef
 - [Box2D.NET](https://github.com/ikpil/Box2D.NET) 物理引擎。
 - [rabbitmq-dotnet-client](https://github.com/rabbitmq/rabbitmq-dotnet-client) rabbitmq 客户端。
 - [dotnet](https://github.com/MiniProfiler/dotnet) StackOverflow 开源的分析库，性能分析、SQL 分析等。
+- [Plotly.NET](https://github.com/plotly/Plotly.NET) 图表绘制库。
 
 ### 网络
 

@@ -1,5 +1,7 @@
 # [草稿] VSCode 速查 
 
+- [monaco-editor](https://github.com/microsoft/monaco-editor)
+
 ## 开发插件
 
 ```bash

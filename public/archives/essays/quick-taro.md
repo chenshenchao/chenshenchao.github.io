@@ -3,7 +3,8 @@
 - [官方文档](https://docs.taro.zone/docs/)
 - [taro 源码](https://github.com/nervjs/taro)
 
-京东开源，跨平台开发框架，React 技术栈。
+京东开源，跨平台开发框架，早期 React 技术栈，后扩展支持 Vue、Nerv 。
+小程序兼容还是有问题，全新的项目创建后就会报错。
 通过翻译成 React-Native 和 Flutter 实现的 APP 开发。
 
 ## 常用库

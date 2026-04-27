@@ -139,6 +139,9 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [lightseq](https://github.com/bytedance/lightseq) 字节跳动 开源的基于 pytorch 的 seq2seq 向量化模型。
 - [faceswap](https://github.com/deepfakes/faceswap) 视频换脸。
 - [text-to-text-transfer-transformer](https://github.com/google-research/text-to-text-transfer-transformer) 谷歌 T5 模型。
+- [InternSVG](https://github.com/hmwang2002/InternSVG) svg 生成模型。
+- [OmniSVG](https://github.com/OmniSVG/OmniSVG) svg 生成模型。
+- [star-vector](https://github.com/joanrod/star-vector) svg 生成模型。
 
 ## AI 应用开发
 
@@ -170,6 +173,15 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [qwen code](https://github.com/QwenLM/qwen-code) qwen code 源码
 - [LM Studio](https://lmstudio.ai/) 本地模型 AI IDE
 - [lms](https://github.com/lmstudio-ai/lms) LM Studio 命令行工具。
+- [mtga](https://github.com/BiFangKNT/mtga) 中间代理服务，设配多种 AI API 转成 OpenAI API 给 IDE 用。
+
+```bash
+# 安装 anomalyco open code
+npm i -g opencode-ai@latest
+
+# 选择连接 AI Agent API
+/connect
+```
 
 ```bash
 # claude code 命令行工具（已弃用）新方式看官方文档。
@@ -186,8 +198,9 @@ codex
 ```
 
 ```bash
-# 千问命令行工具（已废弃）
+# 千问命令行工具
 npm install -g @qwen-code/qwen-code
+npm install -g @qwen-code/qwen-code@latest --registry https://registry.npmmirror.com
 ```
 
 ```bat

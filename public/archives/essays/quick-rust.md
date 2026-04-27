@@ -392,6 +392,7 @@ fi
 - [umya-spreadsheet](https://github.com/MathNya/umya-spreadsheet) Excel xlsx 文件处理库。
 - [lopdf](https://github.com/J-F-Liu/lopdf) PDF 库。
 - [pdf-rs](https://github.com/pdf-rs/pdf) PDF 库。
+- [ironpress](https://github.com/gastongouron/ironpress) HTML 转 PDF 库。
 - [fast-socks5](https://github.com/dizda/fast-socks5) socks 协议实现库。
 - [rlt](https://github.com/wfxr/rlt) 多种协议的压力测试工具开发库。
 - [clap](https://github.com/clap-rs/clap) 命令行命令开发库。
@@ -450,6 +451,7 @@ fi
 - [piston-examples](https://github.com/pistondevelopers/piston-examples) piston 示例
 - [bevy](https://github.com/bevyengine/bevy) 数据驱动的游戏引擎。
 - [amethyst](https://github.com/amethyst/amethyst) 游戏引擎，已废弃。
+- [Symphonia](https://github.com/pdeljanov/Symphonia) 音视频多媒体库集合。
 
 ### 网络框架和库
 

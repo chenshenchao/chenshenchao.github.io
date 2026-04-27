@@ -22,6 +22,7 @@
 - [tailwindcss](https://github.com/tailwindlabs/tailwindcss) 通过类名管理 CSS 的库，结合 clsx 库开发很方便。
 - [tw-animate-css](https://github.com/Wombosvideo/tw-animate-css) 对 tailwindcss 的动画扩展库。
 - [tailwind-merge](https://github.com/dcastil/tailwind-merge) 运行时合并类库，可能助长代码变脏，若能编译阶段检查出来会更好。
+- [unocss](https://github.com/unocss/unocss) 原子 CSS，类 tailwindcss，但是性能做了优化，不过新版本的 tailwindcss 也有类似的优化。
 - [lucide](https://github.com/lucide-icons/lucide) 支持多种框架（React、Vue 等）的图标集合。
 - [ionic-framework](https://github.com/ionic-team/ionic-framework) 支持多种框架（React、Vue 等）的图标集合。
 - [embla-carousel](https://github.com/davidjerleke/embla-carousel) 支持多种框架（React、Vue 等）的轮播图。
@@ -83,6 +84,7 @@
 - [lucky-canvas](https://github.com/buuing/lucky-canvas) 【大转盘 / 九宫格 / 老虎机】抽奖插件
 - [pretext](https://github.com/chenglou/pretext) 文字排版库。
 - [L7](https://github.com/antvis/L7) 蚂蚁集团 开源的 WebGL 的 3D 地理绘图。
+- [replicad](https://github.com/sgenoud/replicad) 网页端 CAD 3D 基础库。
 
 ## 类型系统
 
