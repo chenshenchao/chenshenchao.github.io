@@ -1,5 +1,34 @@
 # Git 速查
 
+## [Conventional Commits](https://www.conventionalcommits.org/) 提交规范
+
+```
+<类型>[可选 作用域]: <描述>
+[可选 正文]
+[可选 脚注]
+```
+
+```
+feat(login): 登录页面。
+1. 支持账号密码登录。
+Fixes： #456 #789
+```
+
+- feat: 新增功能。
+- fix: 修复 bug。
+- docs: 仅文档变更。
+- style: 代码格式调整，仅修改（空格、分号、格式化）。
+- refactor: 重构，无新增功能、无 bug 修复。
+- perf: 性能优化。
+- test: 新增或修改测试用例。
+- build: 构建系统、依赖、打包配置变更。
+- ci: CI 配置、流水线脚本变更。
+- chore: 杂务（版本号修改、工具配置）
+
+破坏性变更：feat!: webpack 改 vite 构造。
+作用域: feat(login)、fix(api)等。
+脚注：一般写一些 issue 状态，如修复某个 bug 之类。
+
 ## 插件
 
 - [git-ftp](https://github.com/git-ftp/git-ftp) 把文件传到 FTP 插件。

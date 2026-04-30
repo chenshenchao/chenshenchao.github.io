@@ -86,6 +86,9 @@ NextJS 由于服务端渲染，所以有一个常驻的服务端运行时（Node
 - 13 以前：Node.js Runtime ，中间件是在 NodeJs 环境执行。
 - 13 以后：Edge Runtime，中间件是在 服务器端 V8 环境（接近浏览器，限制颇多，不能使用TCP，但是现在很多云服务提供 HTTP、web Socket 的方式连接数据库）执行，由 NextJs 维护的公司 Vercel 的 CDN 服务扩展开来的技术，Edge Runtime 可以在 Vercel 的 CDN 服务上运行。
 
+## PWA(Progressive Web App) 渐进式网页应用
+
+生成前端文件供给打包了 浏览器 的 APK 和 IPA 应用壳使用。
 
 ## 组件
 

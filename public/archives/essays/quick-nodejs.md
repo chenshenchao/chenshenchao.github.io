@@ -77,6 +77,7 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [google-translate-open-api](https://github.com/hua1995116/google-translate-open-api) 谷歌翻译API 的第三方调用库。
 - [pont](https://github.com/alibaba/pont) 阿里开源的 mock 框架，可以根据 swagger 自动生成开发测试的 mock 数据接口。
 - [apidoc](https://github.com/apidoc/apidoc) API 文档生成工具。
+- [husky](https://github.com/typicode/husky) 加入 git hooks 规范化提交信息。
 
 ### 数据库
 

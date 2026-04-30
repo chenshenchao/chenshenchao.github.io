@@ -63,6 +63,52 @@ npm run build:rn --platform android
 
 ### 企业微信小程序
 
+taro 会生成到微信小程序项目的文件：
+
+1. project.config.json 生成 微信小程序 dist/project.config.json
+2. src/app.config.ts 生成 微信小程序 dist/app.json
+3. config/index.ts 的可以配置复制文件，需要拷贝资源文件需要配置此处。
+4. config/index.ts 里默认小程序不支持 cssModules 需要自己手动开启。（vite 打包的项目无效，此 BUG 截止 2026年4月29日未修复）
+5. .env.development 和 .env.production 可以配置不同环境下的小程序ID。
+
+```ts
+{
+  copy: {
+    patterns: [
+      {
+        from: 'src/images/tab',
+        to: 'images/tab', // vite 这个自动适配 dist, webpack5 需要 dist 前缀，不然复制到 dist 外面。
+        ignore: []
+      }
+    ],
+    options: {
+    }
+  }
+}
+```
+
+```ts
+{
+  mini: {
+    postcss: {
+      pxtransform: {
+        enable: true,
+        config: {
+
+        }
+      },
+      cssModules: {
+        enable: true, // 默认为 false，如需使用 css modules 功能，则设为 true
+        config: {
+          namingPattern: 'module', // 转换模式，取值为 global/module
+          generateScopedName: '[name]__[local]___[hash:base64:5]'
+        }
+      }
+    },
+  },
+ }
+```
+
 ```bash
 # 企业微信小程序需要多一个插件
 npm i @tarojs/plugin-platform-weapp-qy

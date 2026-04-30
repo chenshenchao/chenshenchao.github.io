@@ -27,6 +27,7 @@
 - [coloruicss](https://github.com/weilanwl/coloruicss) 样式库。
 - [vant-weapp](https://github.com/youzan/vant-weapp) 有赞 UI库。
 - [weapp-tailwindcss](https://github.com/sonofmagic/weapp-tailwindcss) 适配 tailwindcss 的插件，兼容各种打包工具。
+- [weapp-vite](https://github.com/weapp-vite/weapp-vite) vue + vite 技术栈的框架，目录类似 nextjs 结构。
 
 ### 开发与测试
 
