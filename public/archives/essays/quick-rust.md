@@ -135,6 +135,7 @@ cargo build --release --target=x86_64-unknown-linux-musl
 - [cargo-xwin](https://github.com/rust-cross/cargo-xwin) Linux、MacOs 下交叉编译 Windows 的编译工具。
 - [cargo-wix](https://github.com/volks73/cargo-wix) wix 打包应用工具的 cargo 子命令。
 - [cargo-edit](https://github.com/killercup/cargo-edit) 通过命令行来修改 Cargo.toml 文件。（挺搞笑的扩展）
+- [cargo-workspaces](https://github.com/pksunkara/cargo-workspaces) 扩展 workspace 命令（原生无工作区命令，需要手动写工作区的 Cargo.toml 文件。）
 - [wasm-bindgen](https://github.com/wasm-bindgen/wasm-bindgen) wasn 生成命令行工具。
 
 ### cargo.toml 配置
@@ -431,14 +432,13 @@ fi
 - [masonry](https://github.com/linebender/masonry) 已经合并到 xilem 的 UI 设计工具。
 - [druid](https://github.com/linebender/druid) 桌面 UI 框架。
 - [orbtk](https://github.com/redox-os/orbtk)
-- [vizia](https://github.com/vizia/vizia) 声明式 UI 库。
-- [freya](https://github.com/marc2332/freya) 基于 skia 渲染，链式风格。
 - [gpui](https://www.gpui.rs/) Zed 编辑器团队开发的框架，源码在[zed 仓库](https://github.com/zed-industries/zed)里。
 - [gpui-component](https://github.com/longbridge/gpui-component) 基于 GPUI 的控件库。
 - [web-view](https://github.com/Boscop/web-view) 绑定 webview 用于开发桌面应用的库。
 - [gosub-engine](https://github.com/gosub-io/gosub-engine) 浏览器引擎，可嵌入应用。
 - [tiny-skia](https://github.com/linebender/tiny-skia) skia 子集，只使用 CPU ，性能差，兼容好。
 - [rust-skia](https://github.com/rust-skia/rust-skia) skia 绑定封装库。
+- [skia-binaries](https://github.com/rust-skia/skia-binaries/releases) rust-skia 打包好的二进制绑定文件仓库。
 - [azul](https://github.com/fschutt/azul) 目前尚不可用。
 - [rfd](https://github.com/PolyMeilex/rfd) 跨平台原生系统文件弹窗API封装库。
 - [femtovg](https://github.com/femtovg/femtovg) 2D 矢量绘图库。

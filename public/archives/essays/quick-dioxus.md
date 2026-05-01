@@ -1,6 +1,7 @@
 # [草稿]dioxus 速查
 
 - [dioxus 源码](https://github.com/DioxusLabs/dioxus)
+- [freya](https://github.com/marc2332/freya) 基于 dioxus 和 skia 渲染的框架。（文档都没更新，首页是链式风格，文档是 dioxus 的声明式风格）
 
 全栈框架，React 风格 rsx 界面开发。
 
@@ -21,3 +22,4 @@ cargo install cargo-binstall
 # 安装命令行工具
 cargo binstall dioxus-cli --force
 ```
+
