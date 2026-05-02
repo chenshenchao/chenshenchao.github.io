@@ -24,7 +24,90 @@ etcd
 @rem 查看 命令行客户端 版本
 @rem 可以通过环境变量切换版本 ETCDCTL_API=2 ETCDCTL_API=3
 etcdctl version
+```
 
+```bash
+# root 用户默认不存在。默认存在的是 root 角色。
+etcdctl user add root
+
+# 强制要求角色授权，会导致 etcdctl 命令不能直接用了，
+# 只能用过带有 ACL 的用户链接 etcd
+etcdctl auth enable
+
+etcdctl --user=root:987654321 user get root
+etcdctl --user=root:987654321 user get myusername
+```
+
+```bash
+# 查看用户列表
+etcdctl user list
+
+# 添加用户，会提示输入密码。
+etcdctl user add myusername
+
+# 删除用户
+etcdctl user del myusername
+
+# 修改密码
+etcdctl user passwd myusername
+
+# 查看用户信息
+etcdctl user get myusername
+
+# 这是2条 v2.* 的命令 v3.* 没有（废弃），用下面的 grant-role、revoke-role 命令
+etcdctl user grant myusername -roles foo,bar,baz
+etcdctl user revoke myusername -roles bar,baz
+
+# 授权 有2个默认就有的 角色  root
+etcdctl user grant-role <user name> <role name> [flags]
+etcdctl user grant-role myusername root
+
+# 取消角色
+etcdctl user revoke-role myusername root
+
+# 需要新建角色先
+etcdctl user grant-role myusername foo
+```
+
+```bash
+# 查看角色
+# 默认就有的 角色  root 不会显示出来。
+etcdctl role list
+
+# 添加角色
+etcdctl role add myrolename
+etcdctl role add foo
+
+# 删除角色
+etcdctl role del foo
+
+# 查看角色信息
+etcdctl role get myrolename
+
+# 以下是 2.* 命令 3.* 没有（废弃），使用下面 grant-permission、revoke-permission
+etcdctl role grant myrolename -path '/foo/*' -read
+etcdctl role grant myrolename -path '/foo/bar' -write
+etcdctl role grant myrolename -path '/pub/*' -readwrite
+etcdctl role revoke myrolename -path '/foo/bar' -write
+
+# 角色赋权
+etcdctl role grant-permission [options] <role name> <permission type> <key> [endkey] [flags]
+
+# 角色赋权（读）
+etcdctl role grant-permission myrolename read '/foo/*'
+
+# 角色赋权（写）
+etcdctl role grant-permission myrolename write '/foo/*'
+
+# 角色赋权（读写）
+etcdctl role grant-permission myrolename readwrite '/foo2/*'
+
+# 角色解除权限
+etcdctl role revoke-permission <role name> <key> [endkey] [flags]
+etcdctl role revoke-permission myrolename '/foo2/*'
+```
+
+```bat
 @rem 通过命令行客户端写入键值（需要另外启动 服务端）
 etcdctl put /test/foo "hello etcd"
 

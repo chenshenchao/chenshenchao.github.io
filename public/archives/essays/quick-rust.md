@@ -345,14 +345,10 @@ fi
 - [smol](https://github.com/smol-rs/smol) 异步运行时。
 - [async-std](https://github.com/async-rs/async-std) 异步运行时。
 - [async-compat](https://github.com/smol-rs/async-compat) tokio 兼容 futures 的库。
-- [tokio](https://github.com/tokio-rs/tokio) 异步运行时。
 - [dial9-tokio-telemetry](https://github.com/dial9-rs/dial9-tokio-telemetry) tokio 遥测工具库。
-- [prost](https://github.com/tokio-rs/prost) tokio 团队的 protobuf 实现,actix 的 protobuf 扩展此库(0.13)。
 - [rust-protobuf](https://github.com/stepancheg/rust-protobuf) protobuf 第三方实现。
-- [tonic](https://github.com/hyperium/tonic) grpc 第三方实现。
 - [grpc-rs](https://github.com/tikv/grpc-rs) 封装官方 grpc 的第三方库。
 - [grpc-rust](https://github.com/stepancheg/grpc-rust) rust 实现 grpc 的第三方库，已不维护。
-- [hyper](https://github.com/hyperium/hyper)  HTTP 客户端。
 - [reqwest](https://github.com/seanmonstar/reqwest) HTTP 客户端。
 - [ureq](https://github.com/algesten/ureq) HTTP 客户端。
 - [mesalink](https://github.com/mesalock-linux/mesalink) 兼容 OpenSSL 的 rust SSL/TLS。
@@ -424,7 +420,6 @@ fi
 - [wgpu](https://github.com/gfx-rs/wgpu) 跨平台纯 rust 的图形API。
 - [vello](https://github.com/linebender/vello) 2D 渲染库，基于 wgpu。
 - [iced](https://github.com/iced-rs/iced)
-- [egui](https://github.com/emilk/egui)
 - [Relm4](https://github.com/Relm4/Relm4)
 - [kas](https://github.com/kas-gui/kas)
 - [conrod](https://github.com/PistonDevelopers/conrod)  UI 库。
@@ -456,19 +451,11 @@ fi
 ### 网络框架和库
 
 - [iron](https://github.com/iron/iron) web 框架。
-- [actix-net](https://github.com/actix/actix-net) actix 网络库
-- [actix-web](https://github.com/actix/actix-web) 基于 actix 的 web 框架。
-- [actix-extras](https://github.com/actix/actix-extras) actix 扩展库。
-- [actix examples](https://github.com/actix/examples) actix 示例。
-- [tracing-actix-web](https://github.com/LukeMathWalker/tracing-actix-web) actix-web 结构化日志。
-- [actix-taskqueue](https://github.com/huytd/actix-taskqueue) actix 任务队列库。
 - [warp](https://github.com/seanmonstar/warp) web 框架。
-- [axum](https://github.com/tokio-rs/axum) tokio 团队的 web 框架。
 - [tuono](https://github.com/tuono-labs/tuono) 用 rust 实现了 NextJs 的框架，只能使用 pages 模式，目录在 routes 目录下，好处是后端代码由 TS 换成了 rust 这样比较容易分辨前后端代码，NextJs 前后端代码都是 TS。
 - [yew](https://github.com/yewstack/yew) 老牌前端框架，rust 写前端页面，亮点是生成 WASM 仿 react 风格。
 - [sycamore](https://github.com/sycamore-rs/sycamore) rust 写前端页面，亮点是生成 WASM，类 react 风格，前端框架，无 VDOM 开销。
 - [perseus](https://github.com/framesurge/perseus) rust 写前端页面，前端基于 sycamore 扩展，支持后端开发的全栈框架。
-- [tower](https://github.com/tower-rs) web 开发库集合。
 - [salvo](https://github.com/salvo-rs/salvo) 简易 web 框架。
 - [wasmer](https://github.com/wasmerio/wasmer) wasm 运行时。
 - [Rocket](https://github.com/rwf2/Rocket) web 框架。
@@ -478,7 +465,6 @@ fi
 
 ### 数据库
 
-- [toasty](https://github.com/tokio-rs/toasty) tokio 开发组开发的异步 ORM。
 - [teo](https://github.com/teodevgroup/teo) 纯 rust 的 ORM，不完善。
 - [rbatis](https://github.com/rbatis/rbatis) ORM
 - [tiberius](https://github.com/prisma/tiberius) prisma 开源的 微软 SQLServer(TDS) 客户端驱动。
