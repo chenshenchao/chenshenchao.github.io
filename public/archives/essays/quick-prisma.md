@@ -1,5 +1,9 @@
 # prisma 速查
 
+- [prisma](https://github.com/prisma/prisma)
+
+数据库 ORM 功能齐全。
+
 ```bash
 # 安装工具，在项目中安装命令行工具用于生成代码。
 npm i -D prisma

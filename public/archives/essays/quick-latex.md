@@ -1,5 +1,9 @@
 # [草稿] latex 速查
 
+- [texstudio](https://github.com/texstudio-org/texstudio) LaTeX 编辑器。
+- [Setzer](https://github.com/cvfosammmm/Setzer) 基于 python 和 GTK 开发的 LaTeX 编辑器。
+- [RaTeX](https://github.com/erweixin/RaTeX) rust 开发的 LaTex 渲染库，支持多平台，多种格式。
+
 ## 示例
 
 ### 内联示例

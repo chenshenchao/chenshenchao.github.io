@@ -91,7 +91,6 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [node-orm2](https://github.com/dresende/node-orm2) ORM
 - [bookshelf](https://github.com/bookshelf/bookshelf) ORM
 - [knex](https://github.com/knex/knex) ORM
-- [Prisma](https://github.com/prisma/prisma) 数据库 ORM 功能齐全。
 - [Drizzle ORM](https://github.com/drizzle-team/drizzle-orm) 数据库 ORM 轻量级。
 - [sequelize](https://github.com/sequelize/sequelize) 数据库 ORM 比较早就有，版本比较多，一些老项目可能会遇到。
 - [typeorm](https://github.com/typeorm/typeorm) 数据库 ORM 代码设计比较好，性能性能不足，工具不齐全，只能算轻量级。

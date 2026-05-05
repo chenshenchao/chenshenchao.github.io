@@ -3,24 +3,6 @@
 - [rust 源码](https://github.com/rust-lang/rust)
 - [https://rsproxy.cn/](https://rsproxy.cn/) 字节的镜像，应该是最好的。
 
-Rust 和 C++ 一样有很强的类型推到能力，但是这就导致很多隐式转换，不过因为是通过 trait From Into 和泛型约束，不是使用构造函数所以不会有 C++ 构造函数命中奇怪类型的问题。
-
-'static 是一个名字带有误解的生命周期：
-1. 当作用引用时 &'static str 要求被引用实例的生命周期如静态变量要整个程序运行周期
-2. 而作用在实例时 T 'static 则是实例要完整的生命周期可控。
-所以用 static 作为这个生命周期的名字就很容易造成误解，感觉用 'all 都比 'static 好。
-
-## Option 和 Result
-
-```rust
-// as_ref: Option<String> => Option<&String>
-// as_deref: Option<String> => Option<&'a str>
-// as_deref: Result<String,Error> => Result<&'a str, &Error>
-let a: Option<String> = Some("a".to_string());
-let b: Option<&str> = a.as_deref(); // 等价下面
-let c: Option<&str> = a.as_ref().map(|s| s.deref());
-```
-
 ## rustup
 
 rustup 用于安装和更新 rust 编译构造工具。
@@ -84,6 +66,11 @@ rustup default 1.75.0-x86_64-pc-windows-msvc
 
 # 切回目前最新的版本
 rustup default stable-x86_64-pc-windows-msvc
+```
+
+```bash
+# 查看编译参数，只看 rustc 参数。
+rustc --print cfg
 ```
 
 ## C 混编的问题
@@ -159,6 +146,14 @@ path = "your_examples/your_example.rs"#路径
 
 ~/.cargo 目录下，可以创建 config.toml（旧版叫 config 没有.toml 后缀） 文件配置镜像。
 这个 config（旧版叫 config 没有.toml 后缀） 文件不一定有，没有自己创建。
+项目下可以创建 .cargo/config.toml 配置单一项目的配置。
+
+```bash
+# 查看编译参数，不真编译。
+cargo check -v > check.log 2>&1
+# 编译并把编译参数打出。
+cargo build -v --release > build.log 2>&1
+```
 
 ```ini
 [source.crates-io]
@@ -216,6 +211,8 @@ cargo build --bin yourapp
 
 # 指定编译目标
 cargo build --release --target=x86_64-unknown-linux-musl
+# 构建，打印编译参数，直接在命令行，不好查看。
+cargo build --verbose
 ```
 
 ```bash
@@ -446,7 +443,10 @@ fi
 - [piston-examples](https://github.com/pistondevelopers/piston-examples) piston 示例
 - [bevy](https://github.com/bevyengine/bevy) 数据驱动的游戏引擎。
 - [amethyst](https://github.com/amethyst/amethyst) 游戏引擎，已废弃。
-- [Symphonia](https://github.com/pdeljanov/Symphonia) 音视频多媒体库集合。
+- [Symphonia](https://github.com/pdeljanov/Symphonia) 音视频多媒体库集合，不支持 AVC/H.264。
+- [video-rs](https://github.com/oddity-ai/video-rs) 基于 ffmpeg-next 库的视频工具库，依赖 ffmpeg 二进制动态库。
+- [rust-rgb](https://github.com/kornelski/rust-rgb) rgb 像素色彩类型库。
+- [rust-ffmpeg](https://github.com/zmwangx/rust-ffmpeg) ffmpeg 封装 ffmpeg-next。
 
 ### 网络框架和库
 
@@ -537,6 +537,7 @@ fi
 - [ring](https://github.com/briansmith/ring) 密码学加密算法实验性项目，用于研究。
 - [cube](https://github.com/cube-js/cube) 开源语义层，汇总多端数据，做数据分析。
 - [rtk](https://github.com/rtk-ai/rtk) 命令行代理，在 AI 和 bash 这些命令行工具之间加入一个中间层，AI 通过 rtk 调用 bash 可以更高效。
+- [videocall-rs](https://github.com/security-union/videocall-rs) 视频会议方案。
 
 ## 兼容
 
@@ -550,4 +551,32 @@ rustup install 1.75.0
 
 # 切换工具链
 rustup default 1.75.0-x86_64-pc-windows-msvc
+```
+
+## 一些特性
+
+Rust 和 C++ 一样有很强的类型推到能力，但是这就导致很多隐式转换，不过因为是通过 trait From Into 和泛型约束，不是使用构造函数所以不会有 C++ 构造函数命中奇怪类型的问题。
+
+### 'static 生命周期
+
+'static 是一个名字带有误解的生命周期：
+1. 当作用引用时 &'static str 要求被引用实例的生命周期如静态变量要整个程序运行周期
+2. 而作用在实例时 T 'static 则是实例要完整的生命周期可控。
+所以用 static 作为这个生命周期的名字就很容易造成误解，感觉用 'all 都比 'static 好。
+
+### Option 和 Result
+
+```rust
+// as_ref: Option<String> => Option<&String>
+// as_deref: Option<String> => Option<&'a str>
+// as_deref: Result<String,Error> => Result<&'a str, &Error>
+let a: Option<String> = Some("a".to_string());
+let b: Option<&str> = a.as_deref(); // 等价下面
+let c: Option<&str> = a.as_ref().map(|s| s.deref());
+```
+
+### 字符串格式化
+
+```rust
+format!("{:.2}", 0.1);
 ```

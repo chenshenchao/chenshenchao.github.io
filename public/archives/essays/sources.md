@@ -319,8 +319,6 @@
 - [openoffice](https://github.com/apache/openoffice) Apache 开源的兼容 微软Office 办公软件。
 - [MirrorX](https://github.com/MirrorX-Desktop/MirrorX) 远程桌面客户端，有配套的服务器。
 - [VisualStudioUninstaller](https://github.com/microsoft/VisualStudioUninstaller) VisualStudio 卸载工具。
-- [texstudio](https://github.com/texstudio-org/texstudio) LaTeX 编辑器。
-- [Setzer](https://github.com/cvfosammmm/Setzer) 基于 python 和 GTK 开发的 LaTeX 编辑器。
 - [WechatMomentScreenshot](https://github.com/TransparentLC/WechatMomentScreenshot) 当老板要求你转发朋友圈并截图时，可以用这个网站生成一张假的截图去糊弄老板。
 
 ### 监控、渗透、测试工具

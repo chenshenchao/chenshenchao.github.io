@@ -4,7 +4,6 @@
 
 - CMake
 - [xmake](https://github.com/xmake-io/xmake) 以 lua 为脚本的构建工具。
-- [vcpkg](https://github.com/microsoft/vcpkg) 基于 CMAKE 的包管理工具。
 - [clib](https://github.com/clibs/clib) 包管理工具
 - [conan](https://github.com/conan-io/conan) python 写的 C/C++ 包管理工具。
 - [biicode](https://github.com/biicode/biicode) C/C++ 包管理工具。
