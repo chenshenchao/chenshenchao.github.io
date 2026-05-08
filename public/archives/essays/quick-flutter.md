@@ -104,3 +104,13 @@ flutter logs --clear
 ## 常见问题
 
 flutter run 等待锁，Flutter 安装目录下把 bin/cache/lockfile 文件删了。
+
+### 墙
+
+- [镜像文档](https://docs.flutter.cn/community/china/)
+- [SDK 归档下载](https://docs.flutter.cn/install/archive/)
+
+```ps1
+$env:PUB_HOSTED_URL="https://pub.flutter-io.cn"
+$env:FLUTTER_STORAGE_BASE_URL="https://storage.flutter-io.cn"
+```

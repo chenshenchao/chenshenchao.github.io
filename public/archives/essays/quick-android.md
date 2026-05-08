@@ -5,6 +5,7 @@
 - Android 12 + 后，设置 HIDE_OVERLAY_WINDOWS 的窗口禁止其他应用在其界面上绘制，杜绝了悬浮球等。
 - ddmlib 是 adb、ddms（后拆分成 Logcat、设备管理等多个工具，原 ddms 废弃，而 ddmlib 仍维护。） 的底层实现库，连接 adb server 或 adbd，包名：com.android.tools.ddms:ddmlib
 - adbd 端口号：5555；adb server 端口号：5037
+- ANDROID_HOME 环境变量：常规值如 ~\AppData\Local\Android\Sdk，本身安卓开发并不重要，主要是给 Flutter 等其他工具找到 SDK 用的变量。所以安卓 SDK 最好安装在默认路径，有些跨平台工具直接认默认路径就能找到。
 
 ## 官方库
 
@@ -410,3 +411,9 @@ cat /system/etc/security/cacerts/* | grep ISRG
 
 - [Magisk](https://github.com/topjohnwu/Magisk)
 - SuperSU
+
+## 墙
+
+```groovy
+maven { url 'https://maven.aliyun.com/repository/public/' }
+```

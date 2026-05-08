@@ -180,6 +180,8 @@
 - [list.js](https://github.com/javve/list.js) 前端 table ul ol 操作库。
 - [scrollreveal](https://github.com/jlmakes/scrollreveal) 根据滚动条播放动画。
 - [WebSlides](https://github.com/webslides/WebSlides) 用前端做演讲稿。
+- [fft.js](https://github.com/indutny/fft.js) Radix-4/Radix-2 FFT 实现。
+- [dsp.js](https://github.com/corbanbrook/dsp.js) DFT、FFT 实现。
 
 ### Web
 

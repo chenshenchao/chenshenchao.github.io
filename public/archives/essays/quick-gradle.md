@@ -32,6 +32,15 @@ gradle 包缓存目录 ~/.gradle/caches
 
 ## 配置
 
+安卓端设置代理后会往 ~/.gradle/ 加入 gradle.properties 文件配置代理。
+
+```ini
+systemProp.http.proxyHost=127.0.0.1
+systemProp.http.proxyPort=10808
+systemProp.https.proxyHost=127.0.0.1
+systemProp.https.proxyPort=10808
+```
+
 ```groovy
 allprojects {
   repositories {

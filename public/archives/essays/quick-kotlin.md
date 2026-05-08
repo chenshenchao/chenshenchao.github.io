@@ -6,7 +6,6 @@
 
 - [kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization) 序列化库。
 - [kotlinx-datetime](https://github.com/Kotlin/kotlinx-datetime) 日期时间库。
-- [compose-multiplatform](https://github.com/JetBrains/compose-multiplatform) 跨平台图形应用开发框架。
 - [Exposed](https://github.com/JetBrains/Exposed) SQL 框架。
 - [ksp](https://github.com/google/ksp)
 

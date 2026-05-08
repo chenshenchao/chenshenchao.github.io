@@ -11,6 +11,17 @@
 
 - Taro.scanCode： 扫码
 
+### 音频
+
+- Taro.createInnerAudioContext： 获得内部音频上下文。（只能播放已有音频文件）
+- Taro.createWebAudioContext: 获取Web音频上下文。（可以生成音频，有配套 Web* 接口，兼容 Web 标准）
+
+### 麦克风
+
+- Taro.getRecorderManager： 获取录音管理器
+- Taro.startRecord： 开始录音（onFrameRecorded 要结束录制才被调用，设置 frameSize 后按 frameSize * kb 获取帧并回调）
+- Taro.stopRecord： 停止录音
+
 ### 蓝牙
 
 - Taro.openBluetoothAdapter： 蓝牙打开适配
