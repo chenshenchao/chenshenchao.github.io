@@ -4,3 +4,4 @@
 - [drawio-diagrams](https://github.com/jgraph/drawio-diagrams)
 - [drawio-libs](https://github.com/jgraph/drawio-libs) drawio 的库。
 - [drawio-mcp](https://github.com/jgraph/drawio-mcp)
+- [next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io)

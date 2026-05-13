@@ -252,6 +252,9 @@ go work use project_dir
 
 # workspace 所有子项目拉依赖，不同于 go mod tidy，没有清理功能。
 go work sync
+
+# 工作区构建指定项目。
+go build ./app
 ```
 
 ### go mod

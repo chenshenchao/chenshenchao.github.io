@@ -480,6 +480,7 @@ fi
 - [PoloDB](https://github.com/PoloDB/PoloDB) 可内嵌的文档数据库。
 - [native_db](https://github.com/vincent-herlemont/native_db) 可内嵌的关系型数据库，不支持 SQL 语言，只能靠 API 操作。
 - [redb](https://github.com/cberner/redb) 可内嵌的键值对数据库。
+- [sled](https://github.com/spacejam/sled) 可内嵌的键值对数据库。
 - [tantivy](https://github.com/quickwit-oss/tantivy) 可内嵌的全文搜索库。
 - [rucene](https://github.com/zhihu/rucene) 倒排索引库。
 - [wickdb](https://github.com/Fullstop000/wickdb) LSM-Tree 存储引擎。
