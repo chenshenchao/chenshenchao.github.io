@@ -7,49 +7,6 @@
 小程序兼容还是有问题，全新的项目创建后就会报错。
 通过翻译成 React-Native 和 Flutter 实现的 APP 开发。
 
-## 跨平台接口
-
-- Taro.scanCode： 扫码
-
-### 音频
-
-- Taro.createInnerAudioContext： 获得内部音频上下文。（只能播放已有音频文件）
-- Taro.createWebAudioContext: 获取Web音频上下文。（可以生成音频，有配套 Web* 接口，兼容 Web 标准）
-
-### 麦克风
-
-- Taro.getRecorderManager： 获取录音管理器
-- Taro.startRecord： 开始录音（onFrameRecorded 要结束录制才被调用，设置 frameSize 后按 frameSize * kb 获取帧并回调）
-- Taro.stopRecord： 停止录音
-
-### 蓝牙
-
-- Taro.openBluetoothAdapter： 蓝牙打开适配
-- Taro.closeBluetoothAdapter：蓝牙关闭适配
-- Taro.getBluetoothAdapterState：蓝牙获取适配状态
-- Taro.onBluetoothAdapterStateChange：蓝牙适配状态回调
-- Taro.offBluetoothAdapterStateChange：
-
-- Taro.startBluetoothDevicesDiscovery：蓝牙开始扫描设备
-- Taro.stopBluetoothDevicesDiscovery：蓝牙停止扫描设备
-- Taro.getBluetoothDevices：蓝牙获取设备列表
-- Taro.onBluetoothDeviceFound： 蓝牙发现设备回调
-- Taro.offBluetoothDeviceFound：
-
-- Taro.createBLEConnection：蓝牙创建连接
-- Taro.closeBLEConnection：蓝牙关闭连接
-- Taro.onBLEConnectionStateChange：蓝牙连接状态回调
-
-- Taro.getBLEDeviceServices：蓝牙获取设备服务
-- Taro.getBLEMTU：蓝牙获取最大传输单元
-- Taro.getBLEDeviceRSSI：蓝牙获取设备型号强度
-
-- Taro.getBLEDeviceCharacteristics：蓝牙获取设备特征值
-- Taro.writeBLECharacteristicValue：蓝牙特征值写入
-- Taro.readBLECharacteristicValue：蓝牙特征值读取
-- Taro.notifyBLECharacteristicValueChange：蓝牙特征值改变通知启用
-- Taro.onBLECharacteristicValueChange：蓝牙特征值改变回调
-
 ## 常用库
 
 - [tarojs-plugin-ssr](https://github.com/NervJS/tarojs-plugin-ssr) 让 Taro H5 支持 SSR 扩展。
@@ -173,3 +130,46 @@ config = {
   ],
 };
 ```
+
+## 跨平台接口
+
+- Taro.scanCode： 扫码
+
+### 音频
+
+- Taro.createInnerAudioContext： 获得内部音频上下文。（只能播放已有音频文件）
+- Taro.createWebAudioContext: 获取Web音频上下文。（可以生成音频，有配套 Web* 接口，兼容 Web 标准）
+
+### 麦克风
+
+- Taro.getRecorderManager： 获取录音管理器
+- Taro.startRecord： 开始录音（onFrameRecorded 要结束录制才被调用，设置 frameSize 后按 frameSize * kb 获取帧并回调）
+- Taro.stopRecord： 停止录音
+
+### 蓝牙
+
+- Taro.openBluetoothAdapter： 蓝牙打开适配
+- Taro.closeBluetoothAdapter：蓝牙关闭适配
+- Taro.getBluetoothAdapterState：蓝牙获取适配状态
+- Taro.onBluetoothAdapterStateChange：蓝牙适配状态回调
+- Taro.offBluetoothAdapterStateChange：
+
+- Taro.startBluetoothDevicesDiscovery：蓝牙开始扫描设备
+- Taro.stopBluetoothDevicesDiscovery：蓝牙停止扫描设备
+- Taro.getBluetoothDevices：蓝牙获取设备列表
+- Taro.onBluetoothDeviceFound： 蓝牙发现设备回调
+- Taro.offBluetoothDeviceFound：
+
+- Taro.createBLEConnection：蓝牙创建连接
+- Taro.closeBLEConnection：蓝牙关闭连接
+- Taro.onBLEConnectionStateChange：蓝牙连接状态回调
+
+- Taro.getBLEDeviceServices：蓝牙获取设备服务
+- Taro.getBLEMTU：蓝牙获取最大传输单元
+- Taro.getBLEDeviceRSSI：蓝牙获取设备型号强度
+
+- Taro.getBLEDeviceCharacteristics：蓝牙获取设备特征值
+- Taro.writeBLECharacteristicValue：蓝牙特征值写入
+- Taro.readBLECharacteristicValue：蓝牙特征值读取
+- Taro.notifyBLECharacteristicValueChange：蓝牙特征值改变通知启用
+- Taro.onBLECharacteristicValueChange：蓝牙特征值改变回调
