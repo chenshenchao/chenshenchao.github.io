@@ -275,11 +275,3 @@ qwen
 ### 预训练
 
 ### 微调
-
-
-## 开发环境与工具
-
-### [ollama](https://github.com/ollama/ollama)
-
-ollama 是一个把多个 Transformers 整合到一起，方便安装部署的环境。
-如果不做模型开发，只是做应用开发的话，ollama 很方便。

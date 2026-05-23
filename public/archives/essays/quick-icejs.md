@@ -7,13 +7,26 @@
 
 ```bash
 # 当前目录初始化。
-npm create ice 
+npm create ice
 # 创建 ice-app 目录并初始化。
 npm create ice ice-app
 # 创建 ice-app 目录，指定生成最小的框架，只 web 。
 npm create ice ice-app --template @ice/lite-scaffold
 # 创建 ice-app 目录，指定生成有小程序相关的框架。
 npm create ice ice-app --template @ice/miniapp-scaffold
+```
+
+## 配置
+
+### package.json
+
+```json
+{
+  "scripts": {
+    "dev": "ice start --port 14003 --no-open",
+    "start": "ice start --port 14003 --no-open"
+  }
+}
 ```
 
 ## 插件
@@ -51,7 +64,6 @@ npm i -D @ice/plugin-antd
 
 使用 ice 模块导出的 useData 操作页面数据，这个是为了兼容小程序 data 的无奈设计。
 使用 ice 模块导出的 definePageConfig 做页面配置，小程序和 web 的配置有所区别。
-
 
 ## 常见问题
 

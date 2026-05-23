@@ -5,6 +5,8 @@
 - [vscode-go](https://github.com/golang/vscode-go) vscode 扩展。
 - [goproxy](https://github.com/goproxy/goproxy) go 代理开发库。
 - [goproxy.cn 站点源码](https://github.com/goproxy/goproxy.cn) 七牛云提供的GO模块代理。
+- [awesome-go](https://github.com/avelino/awesome-go)
+- [awesome-go-cn](https://github.com/jobbole/awesome-go-cn)
 
 ```bash
 # 打开 go111 的模块化（一般新版默认开着）
@@ -21,7 +23,6 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [testify](https://github.com/stretchr/testify) 测试库。
 - [golang-set](https://github.com/deckarep/golang-set) set 类型实现。
 - [concurrent-map](https://github.com/orcaman/concurrent-map) 线程安全的 map，go 1.9 之前没有 sync.Map。
-- [zap](https://github.com/uber-go/zap) uber 的日志库。
 - [logrus](https://github.com/sirupsen/logrus) 结构化的日志库。
 - [zerolog](https://github.com/rs/zerolog) JSON 日志。
 - [seelog](https://github.com/cihub/seelog) 日志库。
@@ -54,8 +55,6 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [lo](https://github.com/samber/lo) 链式库。
 - [do](https://github.com/samber/do) 依赖注入库。
 - [wire](https://github.com/google/wire) 编译时依赖注入库，已经不维护。
-- [dig](https://github.com/uber-go/dig) uber 的反射依赖注入。
-- [fx](https://github.com/uber-go/fx) uber 的基于 dig 依赖注入库的应用框架。
 - [mimetype](https://github.com/gabriel-vasile/mimetype) 通过文件头部来判断文件 MIME 类型。
 - [filetype](https://github.com/h2non/filetype) 通过文件头部来判断文件类型。
 - [gopsutil](https://github.com/shirou/gopsutil) 进程系统监控库。
