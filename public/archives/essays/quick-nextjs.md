@@ -20,7 +20,7 @@ npm run dev
 - [cookies-next](https://github.com/andreizanik/cookies-next) 为 NextJS 的 Cookie 库。
 - [next-i18next](https://github.com/i18next/next-i18next) 为 NextJS 的 Pages 模式的 i18n 多语言库。
 - [next-intl](https://github.com/amannn/next-intl) 为 NextJS 的 i18n 多语言库。
-- [next-auth](https://github.com/nextauthjs/next-auth) 鉴权库。
+- [next-auth](https://github.com/nextauthjs/next-auth) 鉴权库，已经并入 Better-Auth 了。
 
 ## 模式
 
@@ -32,6 +32,10 @@ nextjs 有两种模式：App 和 Pages 模式，推荐使用 App 模式。
 
 注：两种模式可以混合使用，但是同个 url pathname 只能取绑定的路径一种，例如：
 app/page.tsx 和 pages\index.tsx 会冲突，必须删掉一个。
+
+### proxy.ts 和 middleware.ts
+
+NextJS 16 开始把 middleware.ts 更名为 proxy.ts 更贴合其实际作用，其实就是后端处理部分做了中间件处理，比如附带 cookie、加 HTTP 头部字段、重定向等。
 
 ### app 模式
 

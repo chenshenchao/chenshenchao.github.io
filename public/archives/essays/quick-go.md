@@ -15,6 +15,8 @@ go env -w GO111MODULE=on
 go env -w GOPROXY=https://goproxy.cn,direct
 ```
 
+- 嵌套≠继承，嵌套的指针不能转化。
+
 ## 常用库
 
 - [uuid](https://github.com/google/uuid) 谷歌开源的 UUID 库。
@@ -29,11 +31,11 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [file-rotatelogs](https://github.com/lestrrat-go/file-rotatelogs) 类 perl5 文件滚动落盘日志库。
 - [lumberjack](https://github.com/natefinch/lumberjack) 文件滚动落盘日志库。
 - [pie](https://github.com/elliotchance/pie) 切片(slice) 和 字典(map) 功能扩展库。
-- [urfave/cli](https://github.com/urfave/cli) 命令行参数分析库。
-- [cobra](https://github.com/spf13/cobra) 命令行开发框架。
-- [go-flags](https://github.com/jessevdk/go-flags) 命令行参数分析库。
-- [kingpin](https://github.com/alecthomas/kingpin) 命令行参数分析库。
-- [kong](https://github.com/alecthomas/kong) 命令行参数分析库。
+- [urfave/cli](https://github.com/urfave/cli) 命令行参数分析库，代码配置，go-zero 个别插件使用这个库做命令行参数分析。
+- [cobra](https://github.com/spf13/cobra) 命令行开发框架，代码生成器，go-zero 使用这个库做命令行参数分析。
+- [go-flags](https://github.com/jessevdk/go-flags) 命令行参数分析库，使用反射（一级）。
+- [kingpin](https://github.com/alecthomas/kingpin) 命令行参数分析库，链式配置。
+- [kong](https://github.com/alecthomas/kong) 命令行参数分析库，使用反射（二级），配置简洁。
 - [go-faker](https://github.com/go-faker/faker) 生成调试开发数据的库。
 - [tinygo](https://github.com/tinygo-org/tinygo) GO 的 MCU、WASM 编译器。
 - [xlsReader](https://github.com/shakinm/xlsReader)  xls (Excel) 文件读取。
@@ -196,6 +198,7 @@ go env -w GOPROXY=https://goproxy.cn,direct
 ## 项目
 
 - [esbuild](https://github.com/evanw/esbuild) go 开发的一个前端打包工具。
+- [goreleaser](https://github.com/goreleaser/goreleaser) GO 开发的一个打包发布工具，把项目打包成 zip、docker 等发布的工具。
 - [gotify server](https://github.com/gotify/server) gotify 即时聊天服务器。
 - [gotify android](https://github.com/gotify/android) gotify 即时聊天安卓端。
 - [nsq](https://github.com/nsqio/nsq) 实时分布式消息分发服务器。
@@ -214,6 +217,7 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [rclone](https://github.com/rclone/rclone) 命令行工具用于同步文件到 谷歌 Drive、亚马逊S3、Dropbox 等云存储上。
 - [Yearning](https://github.com/cookieY/Yearning) MySQL SQL 审计平台。
 - [bettercap](https://github.com/bettercap/bettercap) GO 开发的网络抓包工具。
+- [goreplay](https://github.com/probelabs/goreplay) GO 开发的流量监控工具，部署到正式机，旁路抓包 --input-raw 复制到 --output-http 测试机。
 - [grumpy](https://github.com/google/grumpy) python 翻译成 go 的工具。
 - [pike](https://github.com/vicanso/pike) HTTP 缓存服务器，提供管理 web 界面。已不维护。
 - [kubebrain](https://github.com/kubewharf/kubebrain) k8s 分布式调控 API 服务器。

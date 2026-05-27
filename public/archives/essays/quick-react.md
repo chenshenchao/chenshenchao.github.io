@@ -348,13 +348,6 @@ function YourComponent() {
 
 - [React Native 源码](https://github.com/facebook/react-native)
 
-官网文档使用 expo 。
-
-```bash
-# 创建项目
-npx create-expo-app@latest
-```
-
 ### 基于 NextJS 的 React Native
 
 #### [t3-app](https://github.com/t3-oss/create-t3-app) 和 [t3-turbo](https://github.com/t3-oss/create-t3-turbo)

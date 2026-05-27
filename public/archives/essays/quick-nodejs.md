@@ -193,8 +193,9 @@ npm i
 # 带有 package-lock.json 的项目，安装依赖包
 npm ci 
 
-# 直接通过命令指定阿里的镜像源
+# 直接通过命令指定阿里的镜像源（一些新的包同步慢，可能没有）
 npm --registry https://registry.npmmirror.com i gsap
+# 直接通过命令指定腾讯的镜像源
 npm --registry https://mirrors.tencent.com/npm i 
 
 # 设置全局镜像

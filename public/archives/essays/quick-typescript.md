@@ -47,6 +47,7 @@
 - [amis-admin](https://github.com/aisuda/amis-admin) 基于 amis 的后台。
 - [flatpickr](https://github.com/flatpickr/flatpickr) 零依赖的日期选择器组件。
 - [hotkeys-js](https://github.com/jaywcjlove/hotkeys-js) 网页端快捷键监听库。
+- [zod](https://github.com/colinhacks/zod) 数据校验库。
 
 ### web
 
@@ -65,6 +66,9 @@
 - [lit](https://github.com/lit/lit) 基于 web components 开发组件的框架。
 - [omi](https://github.com/Tencent/omi) 腾讯开源的 web 前端组件框架。
 - [better-scroll](https://github.com/ustbhuangyi/better-scroll)
+- [better-auth](https://github.com/better-auth/better-auth) 鉴权库。
+- [better-auth-credentials-plugin](https://github.com/erickweil/better-auth-credentials-plugin)
+- [better-auth-custom-credentials](https://github.com/Pradumn27/better-auth-custom-credentials)
 - [slate](https://github.com/ianstormtaylor/slate) 富文本编辑器开发库，可以定制富文本编辑器。
 - [blocksuite](https://github.com/toeverything/blocksuite) 编辑器开发库，可以定制富文本编辑器、流程图编辑器。
 - [lexical](https://github.com/facebook/lexical) facebook 开源的可扩展的文本编辑器框架。
