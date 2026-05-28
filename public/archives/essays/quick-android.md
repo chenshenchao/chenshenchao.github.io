@@ -10,6 +10,7 @@
 ## 官方库
 
 - [architecture-samples](https://github.com/android/architecture-samples) 结构示例。
+- [bundletool](https://github.com/google/bundletool) 谷歌商店使用的 AAB（Android App Bundles） 格式处理工具。
 - [androidx](https://github.com/androidx/androidx) Android Jetpack
 - [media](https://github.com/androidx/media) 多媒体库，内置 ExoPlayer 视频播放器。
 - [ExoPlayer](https://github.com/google/ExoPlayer) 视频播放器，仓库已不更新，移动到 androidx media

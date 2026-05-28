@@ -23,7 +23,7 @@ eas init --id 9d1266ef-2e4c-4c14-b075-0a98382ea559
 # 构建全部
 eas build --platform all
 # 构建安卓
-eas build --platform android
+eas build --platform android # 打包的是 aab 格式。
 # 查看构建
 eas build:list
 ```

@@ -247,7 +247,6 @@
 - [Dependencies](https://github.com/lucasg/Dependencies) C# 重写 depends.exe，用于查看 DLL 依赖的图形工具。
 - [rufus](https://github.com/pbatard/rufus) USB 格式化工具。
 - [hey](https://github.com/rakyll/hey) Go 开发的压力测试命令行工具。
-- [winflexbison](https://github.com/lexxmark/winflexbison) windows 下的 flex 和 bison。
 - [mold](https://github.com/rui314/mold) 快速的 Unix 链接器，据说比 lld、ld 快。
 - [scala-js](https://github.com/scala-js/scala-js) scala 转 JS 编译器。
 - [obfuscator](https://github.com/obfuscator-llvm/obfuscator) OLLVM 代码混淆。
