@@ -70,9 +70,12 @@ npx create-expo-app
 - [ahooks](https://github.com/alibaba/hooks) 扩展钩子(Hook)库。
 - [react-use](https://github.com/streamich/react-use) 扩展钩子(Hook)库。
 - [redux](https://github.com/reduxjs/redux) 状态管理，厚重稳定。类似 vue 的 vuex 或 pinia 。
+- [redux-thunk](https://github.com/reduxjs/redux-thunk) 支持异步中间件。
 - [redux-persist](https://github.com/rt2zz/redux-persist) redux 持久化扩展，多年不更新，对新 redux 有点小问题。
-- [zustand](https://github.com/pmndrs/zustand) 状态管理，轻量化。
+- [redux-logger](https://github.com/LogRocket/redux-logger) redux 日志扩展，多年不更新。
+- [zustand](https://github.com/pmndrs/zustand) 状态管理，轻量化，功能多。
 - [jotai](https://github.com/pmndrs/jotai) 状态管理，原子粒度。
+- [mobx](https://github.com/mobxjs/mobx) 状态管理，轻量化，像 redux 简化。
 - [mantine](https://github.com/mantinedev/mantine) 图标、字体等更能齐全的组件库。
 - [tanstack](https://tanstack.com) 包括原[react-query](https://github.com/tanstack/query)扩展到支持多框架多功能的开发库集合。
 - [styled-components](https://github.com/styled-components/styled-components) 样式定义组件的库。

@@ -13,6 +13,11 @@
 - [taro React Native 开发文档](https://docs.taro.zone/docs/react-native)
 - [taro-native-shell](https://github.com/NervJS/taro-native-shell) 基于 expo 的壳。
 
+```bash
+# React 状态管理库。
+npm install --save redux react-redux redux-thunk redux-logger
+```
+
 ## 常用命令
 
 ```bash

@@ -64,6 +64,10 @@ git push origin --force --all
 配置文件会修改项目的 .git/config 文件，或者全局的 ~/.gitconfig 文件。
 
 ```bash
+# 查看
+git config --list
+git config --global --list
+
 # 查看用户名和邮件
 git config user.name
 git config user.email
@@ -98,6 +102,11 @@ git config --global safe.directory '*'
 # 放行所有，相当于不管这个漏洞了。
 git config --global --add safe.directory '*'
 git config --global --unset-all safe.directory
+
+# 强制 GitHub 走 SSH 而非 HTTPS
+git config --global url."git@github.com:".insteadOf "https://github.com/"
+# 取消
+git config --global --unset url."git@github.com:".insteadOf
 ```
 
 .git/config 或者 ~/.gitconfig 文件的配置：

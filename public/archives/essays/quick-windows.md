@@ -38,6 +38,11 @@ set HTTP_PROXY=socks5://127.0.0.1:10808
 set HTTPS_PROXY=socks5://127.0.0.1:10808
 ```
 
+```ps1
+$env:HTTP_PROXY="http://127.0.0.1:10808"
+$env:HTTPS_PROXY="http://127.0.0.1:10808"
+```
+
 ## Windows API
 
 ### 管道(pipe)

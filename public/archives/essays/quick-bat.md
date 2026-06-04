@@ -1,6 +1,14 @@
 # bat 速查
 
 ```bat
+@rem CMD 命令行变量临时设置，配置 HTTP 代理
+set HTTP_PROXY=http://127.0.0.1:10808
+set HTTPS_PROXY=http://127.0.0.1:10808
+set HTTP_PROXY=socks5://127.0.0.1:10808
+set HTTPS_PROXY=socks5://127.0.0.1:10808
+```
+
+```bat
 @rem 获取当前目录 写到 here_dir 变量里。
 for /f "delims=" %%t in ('pwd') do set here_dir=%%t
 

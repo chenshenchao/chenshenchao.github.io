@@ -8,14 +8,35 @@
 - [awesome-go](https://github.com/avelino/awesome-go)
 - [awesome-go-cn](https://github.com/jobbole/awesome-go-cn)
 
-```bash
-# 打开 go111 的模块化（一般新版默认开着）
-go env -w GO111MODULE=on
-# 配置代理
-go env -w GOPROXY=https://goproxy.cn,direct
+- 嵌套≠继承，嵌套的指针不能转化。
+
+## 速查表
+
+### 时间（time.Time）和 时间段（time.Duration）
+
+```
+2006-01-02 15:04:05.000
 ```
 
-- 嵌套≠继承，嵌套的指针不能转化。
+| 简写 | 含义 | 示例 | 对应时长 |
+| ---- | ---- | ---- | -------- |
+| ns   | 纳秒 | 300ns | 300 纳秒 |
+| us   | 微秒 | 5us   | 5 微秒   |
+| ms   | 毫秒 | 500ms | 500 毫秒 |
+| s    | 秒   | 30s   | 30 秒    |
+| m    | 分钟 | 10m   | 10 分钟  |
+| h    | 小时 | 24h   | 24 小时  |
+
+可以组合，以下是 1天12小时30分 的时间段。
+
+```
+1d12h30m
+```
+
+## 标准库
+
+- runtime：运行时，GC CPU 相关信息。
+- reflect: 反射。
 
 ## 常用库
 
@@ -31,11 +52,14 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [file-rotatelogs](https://github.com/lestrrat-go/file-rotatelogs) 类 perl5 文件滚动落盘日志库。
 - [lumberjack](https://github.com/natefinch/lumberjack) 文件滚动落盘日志库。
 - [pie](https://github.com/elliotchance/pie) 切片(slice) 和 字典(map) 功能扩展库。
+- [fatih/color](https://github.com/fatih/color) 命令行颜色输出。
+- [gookit/color](github.com/gookit/color) 命令行颜色输出。
 - [urfave/cli](https://github.com/urfave/cli) 命令行参数分析库，代码配置，go-zero 个别插件使用这个库做命令行参数分析。
-- [cobra](https://github.com/spf13/cobra) 命令行开发框架，代码生成器，go-zero 使用这个库做命令行参数分析。
 - [go-flags](https://github.com/jessevdk/go-flags) 命令行参数分析库，使用反射（一级）。
-- [kingpin](https://github.com/alecthomas/kingpin) 命令行参数分析库，链式配置。
+- [kingpin](https://github.com/alecthomas/kingpin) 命令行参数分析库，链式配置，全局污染。
 - [kong](https://github.com/alecthomas/kong) 命令行参数分析库，使用反射（二级），配置简洁。
+- [cobra](https://github.com/spf13/cobra) spf13 命令行开发框架，代码生成器，go-zero 使用这个库做命令行参数分析。
+- [viper](github.com/spf13/viper) spf13 配置加载库，支持 JSON、YAML、.env、INI 等。
 - [go-faker](https://github.com/go-faker/faker) 生成调试开发数据的库。
 - [tinygo](https://github.com/tinygo-org/tinygo) GO 的 MCU、WASM 编译器。
 - [xlsReader](https://github.com/shakinm/xlsReader)  xls (Excel) 文件读取。
@@ -76,7 +100,8 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - [sgn](https://github.com/EgeBalci/sgn) 二进制编码器，用于渗透的 shellcode 的库。
 - [pigo](https://github.com/esimov/pigo) 人脸识别库。
 - [go-ini](https://github.com/go-ini/ini) *.ini 文件处理库。
-- [go-yaml](https://github.com/go-yaml/yaml) YAML 文件处理库。
+- [go-yaml](https://github.com/go-yaml/yaml) YAML 文件处理库，停止更新。
+- [go-yaml](https://github.com/goccy/go-yaml) YAML 文件处理库。
 - [mix](https://github.com/mix-go/mix) 快速开发的工具库。
 - [go-lua](https://github.com/Shopify/go-lua) lua 解释器。
 - [yaegi](https://github.com/traefik/yaegi) go 解释器。
@@ -242,6 +267,22 @@ go env -w GOPROXY=https://goproxy.cn,direct
 go build -gcflags="-m" main.go
 ```
 
+### go env
+
+```bash
+# 打开 go111 的模块化（一般新版默认开着）
+go env -w GO111MODULE=on
+# 配置代理
+go env -w GOPROXY=https://goproxy.cn,direct
+# 取消代理配置
+go env -u GOPROXY
+# 查看
+go env GOPROXY
+
+# 设置私有仓库，在此 URL 下不走校验，直接用本地权限拉。
+go env -w GOPRIVATE=github.com/chenshenchao
+```
+
 ### go work
 
 ```bash
@@ -290,4 +331,9 @@ set GOARCH=amd64
 go build .
 ```
 
+## 常见问题
 
+```go
+ch1 := make(chan int) // 阻塞，必须不同协程，不然报：fatal error: all goroutines are asleep - deadlock!
+ch2 := make(chan int, 1) // 带缓冲数量
+```

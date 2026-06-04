@@ -9,6 +9,19 @@ $env:HTTPS_PROXY="http://127.0.0.1:10808"
 
 注：由于是海外项目，基座、各种基座模块的下载都受墙影响。
 
+## 常用库
+
+- [expo-wechat](https://github.com/likeSo/expo-wechat) 第三方微信库。
+
+## 命令
+
+会根据扩展名适用平台。
+
+- .ios.tsx	仅 iOS
+- .android.tsx	仅 Android
+- .web.tsx	仅 Web 浏览器
+- .native.tsx	iOS + Android（原生双端）
+
 - [expo](https://github.com/expo/expo)
 - [Orbit](https://github.com/expo/orbit) 是跨平台的模拟器。
 
@@ -61,14 +74,64 @@ npx expo install package-name
 npx expo lint
 ```
 
+## 模块
+
+- expo/config-plugins：插件配置，提供 ConfigPlugin、withAndroidManifest、withInfoPlist 。
+- expo-router：路由，提供的 Stack（基础路由配置）、NativeTabs （原生底部标签栏和路由）、Tags（跨平台底部栏和路由）、Link。 
+- expo-status-bar： 状态栏
+
+```bash
+# 提供 Image 
+npx expo install expo-image
+
+# 提供 ImagePicker 文件选择器
+npx expo install expo-image-picker
+
+# 相机
+npx expo install expo-camera
+
+# 文件系统
+npx expo install expo-file-system
+
+# 多媒体截屏  captureRef 函数。
+npx expo install react-native-view-shot expo-media-library
+
+# 热更新
+npx expo install expo-updates
+
+npx expo install package
+
+npx expo install react-native-svg
+
+npx expo install react-native-webview
+
+# dom 转图片。
+npm install dom-to-image
+```
+
+
+## react native
+
+渲染只有虚拟 DOM ，没有原生 DOM，由虚拟 DOM 翻译成原生组件。DevTools 只能看到命令行、网络等，看不到 DOM 元素。只能手机端 Inspect 查看原生元素。
+
+- react-native： 提供 View、StyleSheet、Pressable、Text、TextInput、ScrollView 等基础组件；ImageSourcePropType 等基础类型；Dimensions, PixelRatio 等屏幕参数。
+- react-native-gesture-handler： 提供基础手势操作 GestureHandlerRootView、GestureDetector 组件 和 Gesture 定义类。
+- react-native-reanimated： 提供动画 Animated 组件 和 useAnimatedStyle（不能闭包函数）, useSharedValue, withSpring 等钩子。
+
 ```bash
 # 安装 路由导航库 https://reactnavigation.org/docs/hello-react-navigation?config=static
 npm install @react-navigation/native 
-npm install @react-navigation/native-stack
+
+# 路由导航 Stack
+npm install @react-navigation/native-stack 
+
+# 路由导航相关元素
 npm install @react-navigation/elements
 ```
 
-```bash
-npx expo install expo-image
-npx expo install expo-camera
-```
+### 常用库
+
+- [react-native-reanimated](https://github.com/software-mansion/react-native-reanimated) software-mansion 动画库。
+- [react-native-gesture-handler](https://github.com/software-mansion/react-native-gesture-handler) software-mansion 平台原生触控与手势系统库。
+- [react-native-wechat-lib](https://github.com/little-snow-fox/react-native-wechat-lib) 第三方微信库
+- [react-native-async-storage](https://github.com/react-native-async-storage/async-storage) 异步存储。
