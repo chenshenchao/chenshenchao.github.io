@@ -73,6 +73,7 @@
 - [fresh](https://github.com/gravityblast/fresh) 实现 watch 功能，代码修改自动重启的命令行工具。
 - [air](https://github.com/air-verse/air) 实现 watch 功能，代码修改自动重启的命令行工具。
 - [godotenv](https://github.com/joho/godotenv) .env 处理库。
+- [env](https://github.com/caarlos0/env) 环境变量解析库。
 - [captcha](https://github.com/dchest/captcha) 验证码。
 - [base64Captcha](https://github.com/mojocn/base64Captcha) base64 字符串格式的验证码。
 - [otto](https://github.com/robertkrimen/otto) 可内嵌的 JS 解释器。
@@ -231,6 +232,8 @@
 - [httpmq](https://github.com/sysulq/httpmq) 基于 HTTP 的消息队列。
 - [flutter-webrtc-server](https://github.com/flutter-webrtc/flutter-webrtc-server) flutter-webrtc 开发的服务器。
 - [lindb](https://github.com/lindb/lindb) 时序数据库。
+- [cockroach](https://github.com/cockroachdb/cockroach) 分布式数据库。
+- [cockroachdb/errors](https://github.com/cockroachdb/errors) cockroachdb 的错误处理库。
 - [websocketd](https://github.com/joewalnes/websocketd) websocket 命令行工具，类似 inetd 。
 - [gocron](https://github.com/ouqiang/gocron) 类 crontab 的定时任务服务，web 后台管理任务。
 - [ngrok](https://github.com/inconshreveable/ngrok) 内网穿透代理。
@@ -332,6 +335,22 @@ go build .
 ```
 
 ## 常见问题
+
+### 错误处理
+
+```go
+var (
+    YourError = errors.New("your error")
+    OtherError = errors.New("other error")
+)
+
+func YourFunc() error {
+    // 通过 %w 格式化参数，包装错误实例。
+    return fmt.Errorf("wrap error %w", errors.Join(YourError, OtherError))
+}
+```
+
+### 管道
 
 ```go
 ch1 := make(chan int) // 阻塞，必须不同协程，不然报：fatal error: all goroutines are asleep - deadlock!

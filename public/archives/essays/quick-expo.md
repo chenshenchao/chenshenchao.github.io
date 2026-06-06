@@ -109,6 +109,38 @@ npx expo install react-native-webview
 npm install dom-to-image
 ```
 
+### 安卓本地打包
+
+```bash
+# 生成密钥
+keytool -genkey -v -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
+```
+
+```kts
+// 配置 签名证书
+    signingConfigs {
+        release {
+            storeFile file('my-upload-key.keystore')
+            storePassword '123456'
+            keyAlias 'my-key-alias'
+            keyPassword '123456'
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+```
+
+```bash
+# 编译后 aab 文件在 android/app/build/outputs/bundle/release 目录 
+./gradlew app:bundleRelease
+
+# 编译后 apk 文件在 android\app\build\outputs\apk\release 目录
+./gradlew assembleRelease
+```
+
 
 ## react native
 

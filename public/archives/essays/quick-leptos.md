@@ -10,9 +10,11 @@
 全栈框架，rust 写前端页面，支持类 react 的 jsx-like 风格 和 链式 builder 风格，无 VDOM 开销，支持水合。
 
 ```bash
-# 需要支持 WASM 的目标。
+# 添加编译目标支持 wasm32
 rustup target add wasm32-unknown-unknown
+```
 
+```bash
 # 安装命令行工具（需要编译，有C库依赖，建议使用 binstall）
 cargo install cargo-leptos
 

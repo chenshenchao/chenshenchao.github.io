@@ -453,7 +453,6 @@ fi
 - [iron](https://github.com/iron/iron) web 框架。
 - [warp](https://github.com/seanmonstar/warp) web 框架。
 - [tuono](https://github.com/tuono-labs/tuono) 用 rust 实现了 NextJs 的框架，只能使用 pages 模式，目录在 routes 目录下，好处是后端代码由 TS 换成了 rust 这样比较容易分辨前后端代码，NextJs 前后端代码都是 TS。
-- [yew](https://github.com/yewstack/yew) 老牌前端框架，rust 写前端页面，亮点是生成 WASM 仿 react 风格。
 - [sycamore](https://github.com/sycamore-rs/sycamore) rust 写前端页面，亮点是生成 WASM，类 react 风格，前端框架，无 VDOM 开销。
 - [perseus](https://github.com/framesurge/perseus) rust 写前端页面，前端基于 sycamore 扩展，支持后端开发的全栈框架。
 - [salvo](https://github.com/salvo-rs/salvo) 简易 web 框架。
@@ -462,6 +461,7 @@ fi
 - [rustful](https://github.com/Ogeon/rustful) web 框架。
 - [zmq.rs](https://github.com/zeromq/zmq.rs) ZeroMQ 的实现。
 - [pingora](https://github.com/cloudflare/pingora) 网络库，反向代理等功能。
+- [trunk](https://github.com/trunk-rs/trunk) rust 开发前端 WASM 的打包工具。
 
 ### 数据库
 
