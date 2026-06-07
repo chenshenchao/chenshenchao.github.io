@@ -124,6 +124,9 @@ cargo build --release --target=x86_64-unknown-linux-musl
 - [cargo-edit](https://github.com/killercup/cargo-edit) 通过命令行来修改 Cargo.toml 文件。（挺搞笑的扩展）
 - [cargo-workspaces](https://github.com/pksunkara/cargo-workspaces) 扩展 workspace 命令（原生无工作区命令，需要手动写工作区的 Cargo.toml 文件。）
 - [wasm-bindgen](https://github.com/wasm-bindgen/wasm-bindgen) wasn 生成命令行工具。
+- [cargo-udeps](https://github.com/est31/cargo-udeps) 剔除无用依赖配置工具（目前只有 nightly 版本可用）。 
+- [cargo-machete](https://github.com/bnjbvr/cargo-machete) 分析和剔除无用依赖配置工具。
+- [cargo-shear](https://github.com/Boshen/cargo-shear) 剔除无用依赖配置工具。
 
 ### cargo.toml 配置
 
@@ -336,6 +339,8 @@ fi
 
 ## 常用库
 
+- [chrono](https://github.com/chronotope/chrono) 时间库。
+- [time-rs](https://github.com/time-rs/time) 时间库。
 - [serde](https://github.com/serde-rs/serde) 序列化库。
 - [rkyv](https://github.com/rkyv/rkyv) 序列化库。
 - [thiserror](https://github.com/dtolnay/thiserror)

@@ -3,6 +3,10 @@
 - [www.gigadevice.com](https://www.gigadevice.com/) 兆易集团官网，下载东西要注册。
 - [www.gd32mcu.com](https://www.gd32mcu.com/) 兆易 MCU 相关，下载不用注册。
 
+## 常用库
+
+- [GD32Firmware](https://github.com/CommunityGD32Cores/GD32Firmware)
+
 ## 命名
 
 兆易创新的命名规则几乎沿用了意法半导体的。

@@ -93,6 +93,7 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [OpenVINO](https://github.com/openvinotoolkit/openvino) 优化模型库，主要优化 Intel 的CPU和GPU。
 - [transformers](https://github.com/huggingface/transformers) huggingface 的 transformers 定义框架，方便模型通用一套代码。
 - [longformer](https://github.com/allenai/longformer) 长文档编码解码器。
+- [supermemory](https://github.com/supermemoryai/supermemory) supermemory(增强版 RAG + 长期记忆引擎 + 用户知识图谱)的客户端 SDK 项目。
 
 ## 模型
 
@@ -102,6 +103,7 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [DeepSeek-Coder](https://github.com/deepseek-ai/DeepSeek-Coder)
 - [MiMo](https://github.com/XiaomiMiMo/MiMo)
 - [VibeVoice](https://github.com/microsoft/VibeVoice) 微软开源 TTS 模型。
+- [markitdown](https://github.com/microsoft/markitdown) 微软开源 将各种文件转 markdown 模型。
 - [whisper](https://github.com/openai/whisper) openai 开源的语音模型。
 - [OmniParser](https://github.com/microsoft/OmniParser) 微软开源 UI 界面分析模型。
 - [UI-TARS](https://github.com/bytedance/UI-TARS) 字节开源 UI 界面分析模型。
@@ -126,6 +128,7 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [whisper-web](https://github.com/xenova/whisper-web) TTS 模型，预训练模型中文支持很差。
 - [TTS](https://github.com/coqui-ai/TTS) coqui-a 的 TTS 模型集合项目。
 - [TTS](https://github.com/mozilla/TTS) mozilla 的 TTS 模型集合项目。
+- [VoxCPM](https://github.com/OpenBMB/VoxCPM) 北京大学开源 TTS 模型，无 Tokenizer。
 - [DeepSpeech](https://github.com/mozilla/DeepSpeech) mozilla 开源的可嵌入离线的 STT 项目。
 - [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
 - [LAVIS](https://github.com/salesforce/LAVIS) 多个图片、视频与文本的视觉模型整合库。
@@ -156,13 +159,15 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 所以对上下文的处理是有代价的，现在大部分 AI 应用都会在用户问一次模型后，通过多次调用模型，把输入和输出做加工后在返回给用户。
 这样就由一次调用变成多次的损耗是线性增加的，最典型的就是 DeepSeek 刚火时的模式，先让 AI 用思考的方式总结一遍问题，然后再用总结的回答作为输入再输出回答。
 
-### 开源 AI Agant 项目
+### AI Agant 项目
 
 - [openclaw](https://github.com/openclaw/openclaw)
 - [ironclaw](https://github.com/nearai/ironclaw)
 - [nanoclaw](https://github.com/qwibitai/nanoclaw)
 - [goclaw](https://github.com/nextlevelbuilder/goclaw)
 - [hermes-agent](https://github.com/NousResearch/hermes-agent) 会自我成长的 agent 。
+- [ChatALL](https://github.com/ai-shifu/ChatALL) 批量提问多个 AI 汇总信息。
+- [kewen.ai](https://kewen.ai/zh-hans) 闭源 chrome 插件（问题很多），批量提问多个 AI 汇总信息。
 
 ### AI 编程工具
 

@@ -120,6 +120,7 @@
 - [goose](https://github.com/pressly/goose) 数据库迁移命令行工具与库，基于 SQL 文件。
 - [dbmate](https://github.com/amacneil/dbmate) 数据库迁移命令行工具与库，功能比较多。
 - [sql-migrate](https://github.com/rubenv/sql-migrate) 数据库迁移命令行工具与库。
+- [FlyDB](https://github.com/ByteStorage/FlyDB) 可内嵌的键值对数据库。
 - [badger](https://github.com/dgraph-io/badger) 可内嵌的键值对数据库。
 - [nutsdb](https://github.com/nutsdb/nutsdb) 可内嵌的键值对数据库。
 - [goleveldb](https://github.com/syndtr/goleveldb) 可内嵌的键值对数据库。

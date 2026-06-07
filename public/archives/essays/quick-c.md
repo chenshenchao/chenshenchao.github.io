@@ -131,11 +131,11 @@
 - [libwdi](https://github.com/pbatard/libwdi) Windows 下的 USB 驱动开发库。
 - [FwLib_STC8](https://github.com/IOsetting/FwLib_STC8) STC8 固件库。
 - [u-boot](https://github.com/u-boot/u-boot) 引导加载程序。
-- [pico-sdk](https://github.com/raspberrypi/pico-sdk) 树莓派 pico SDK
 - [mjs](https://github.com/cesanta/mjs) 嵌入式 JS 引擎。
 - [EasyFlash](https://github.com/armink/EasyFlash) 嵌入式利用 Flash 做键值对数据库。（目前支持 stm32f10x与 stm32f4xx）
 - [FlashDB](https://github.com/armink/FlashDB) 嵌入式利用 Flash 做键值对数据库。
 - [ijjs](https://github.com/MarilynDafa/ijjs) 嵌入式 JS 运行库。
+- [xboot](https://github.com/xboot/xboot)
 
 ## 示例、项目
 

@@ -37,6 +37,9 @@ npm install --save-dev @tauri-apps/cli@latest
 # 创建项目，前端可以是 TS/JS、Rust、.NET 等。
 npm create tauri-app@latest
 
+# 运行调试
+npm run tauri dev
+
 # 初始化 安卓 打包
 npm run tauri android init
 # 安卓 调试（需要管理员权限，需要翻墙。需要适配低版本的 gradle 和 java 比较麻烦。）
