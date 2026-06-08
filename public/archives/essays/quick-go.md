@@ -91,7 +91,6 @@
 - [gse](https://github.com/go-ego/gse) NLP 和 分词工具库，默认支持 中、日、英等语言。
 - [go-ego re](https://github.com/go-ego/re) go-ego 的命令工具。
 - [mahonia](https://github.com/axgle/mahonia) 字符集转换库。
-- [protobuf-go](https://github.com/protocolbuffers/protobuf-go) protobuf
 - [crypt2go](https://github.com/andreburgaud/crypt2go) 对标准的加密库的补充。
 - [wagon](https://github.com/go-interpreter/wagon) Go 解释器，Go 语言编写生成 WASM，这样可以在浏览器里运行 Go，已停止维护。
 - [wazero](https://github.com/wazero/wazero) 零依赖 WASM 浏览器端 GO 语言解释器。

@@ -18,6 +18,7 @@
 - [okhttp](https://github.com/square/okhttp) HTTP 客户端。
 - [ktorm](https://github.com/kotlin-orm/ktorm) ORM。
 - [ktor](https://github.com/ktorio/ktor) web 框架。
+- [sqldelight](https://github.com/sqldelight/sqldelight) ORM 库。
 
 ## 项目
 

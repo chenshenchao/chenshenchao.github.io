@@ -166,6 +166,8 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [nanoclaw](https://github.com/qwibitai/nanoclaw)
 - [goclaw](https://github.com/nextlevelbuilder/goclaw)
 - [hermes-agent](https://github.com/NousResearch/hermes-agent) 会自我成长的 agent 。
+- [coze-studio](https://github.com/coze-dev/coze-studio) workflow AI 工作流。
+- [dify](https://github.com/langgenius/dify) workflow AI 工作流。
 - [ChatALL](https://github.com/ai-shifu/ChatALL) 批量提问多个 AI 汇总信息。
 - [kewen.ai](https://kewen.ai/zh-hans) 闭源 chrome 插件（问题很多），批量提问多个 AI 汇总信息。
 

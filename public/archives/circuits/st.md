@@ -2,6 +2,10 @@
 
 ST 的 M 系列单片机可以说是市面上使用最多的单片机了。
 
+## 常用库
+
+- [STM32_SPI_SDCARD](https://github.com/eziya/STM32_SPI_SDCARD)
+
 ## 命名
 
 封装（第8位）：

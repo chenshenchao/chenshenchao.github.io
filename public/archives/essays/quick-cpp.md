@@ -19,8 +19,6 @@
 - [recastnavigation](https://github.com/recastnavigation/recastnavigation) 导航网格实现库，Unit3D、Godot 等都使用了这个库。
 - [SuperDllHijack](https://github.com/anhkgg/SuperDllHijack) DLL 劫持库。
 - [coost](https://github.com/idealvin/coost) 工具库，目标是 boost。
-- [grpc](https://github.com/grpc/grpc) 官方实现。
-- [protobuf](https://github.com/protocolbuffers/protobuf)
 - [bond](https://github.com/microsoft/bond)
 - [filament](https://github.com/google/filament) 谷歌开源的多种平台物理引擎，有安卓封装的 aar 包等。
 - [box2d](https://github.com/erincatto/box2d) 2D 物理引擎。

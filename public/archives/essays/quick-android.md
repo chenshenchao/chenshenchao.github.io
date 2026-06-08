@@ -82,7 +82,7 @@
 ```bash
 # [alias] 为别名、[name] 为文件名
 # 生成 RSA 证书
-keytool -genkey -alias [alias] -keyalg RSA -keysize 2048 -validity 36500 -keystore [name].keystore
+keytool -genkey -v -alias [alias] -keyalg RSA -keysize 2048 -validity 36500 -keystore [name].keystore
 # 生成 EC 证书
 keytool -genkey -v -keystore [name].jks -keyalg EC -groupname secp256r1 -validity 36500 -alias [alias] -sigalg SHA256withECDSA
 ```

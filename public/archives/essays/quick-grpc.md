@@ -1,5 +1,9 @@
 # grpc 速查
 
+- [grpc](https://github.com/grpc/grpc) 官方实现。
+- [protobuf](https://github.com/protocolbuffers/protobuf)
+- [protobuf-go](https://github.com/protocolbuffers/protobuf-go) protobuf go 语言插件。
+
 GRPC 是谷歌开源的一套跨语言远程调用技术栈。
 
 ## protobuf

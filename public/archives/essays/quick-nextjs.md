@@ -21,6 +21,7 @@ npm run dev
 - [next-i18next](https://github.com/i18next/next-i18next) 为 NextJS 的 Pages 模式的 i18n 多语言库。
 - [next-intl](https://github.com/amannn/next-intl) 为 NextJS 的 i18n 多语言库。
 - [next-auth](https://github.com/nextauthjs/next-auth) 鉴权库，已经并入 Better-Auth 了。
+- [next-themes](https://github.com/pacocoursey/next-themes) 切换主题库。
 
 ## 模式
 

@@ -127,6 +127,7 @@ cargo build --release --target=x86_64-unknown-linux-musl
 - [cargo-udeps](https://github.com/est31/cargo-udeps) 剔除无用依赖配置工具（目前只有 nightly 版本可用）。 
 - [cargo-machete](https://github.com/bnjbvr/cargo-machete) 分析和剔除无用依赖配置工具。
 - [cargo-shear](https://github.com/Boshen/cargo-shear) 剔除无用依赖配置工具。
+- [cargo-release](https://github.com/crate-ci/cargo-release) 发布命令，CI/CD 工具。
 
 ### cargo.toml 配置
 
@@ -420,11 +421,11 @@ fi
 - [glium](https://github.com/glium/glium) OpenGL 封装。
 - [emu](https://github.com/calebwin/emu) GPGPU 库。
 - [wgpu](https://github.com/gfx-rs/wgpu) 跨平台纯 rust 的图形API。
-- [vello](https://github.com/linebender/vello) 2D 渲染库，基于 wgpu。
 - [iced](https://github.com/iced-rs/iced)
 - [Relm4](https://github.com/Relm4/Relm4)
 - [kas](https://github.com/kas-gui/kas)
 - [conrod](https://github.com/PistonDevelopers/conrod)  UI 库。
+- [vello](https://github.com/linebender/vello) 2D 渲染库，基于 wgpu。
 - [xilem](https://github.com/linebender/xilem) 实验性的桌面 UI 框架。
 - [masonry](https://github.com/linebender/masonry) 已经合并到 xilem 的 UI 设计工具。
 - [druid](https://github.com/linebender/druid) 桌面 UI 框架。
@@ -488,6 +489,7 @@ fi
 - [sled](https://github.com/spacejam/sled) 可内嵌的键值对数据库。
 - [tantivy](https://github.com/quickwit-oss/tantivy) 可内嵌的全文搜索库。
 - [rucene](https://github.com/zhihu/rucene) 倒排索引库。
+- [flowdb](https://github.com/restsend/flowdb) LSM-Tree 存储引擎。
 - [wickdb](https://github.com/Fullstop000/wickdb) LSM-Tree 存储引擎。
 - [leveldb-rs](https://github.com/dermesser/leveldb-rs) rust 实现的 leveldb 键值对存储。
 - [polars](https://github.com/pola-rs/polars) 基于数据帧的查询引擎，提供 rust、python 库。
