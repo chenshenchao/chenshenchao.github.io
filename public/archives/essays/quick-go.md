@@ -261,6 +261,8 @@
 - [velociraptor](https://github.com/Velocidex/velociraptor) 监控项目，提供图形界面，支持事件响应、监控、数据采集。
 - [mm-wiki](https://github.com/phachon/mm-wiki) Wiki 站点。
 - [bbvm](https://github.com/wenerme/bbvm) Basic 虚拟机。
+- [seaweedfs](https://github.com/seaweedfs/seaweedfs) GO 实现的高性能分布式对象存储。
+- [storj](https://github.com/storj/storj) GO 实现的中心协调 P2P 对象存储。
 
 ## 常用命令
 

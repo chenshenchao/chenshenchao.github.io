@@ -132,8 +132,6 @@ cargo build --release --target=x86_64-unknown-linux-musl
 ### cargo.toml 配置
 
 ```toml
-[package]
-
 [workspace]
 members = [
 	"your_crate", # 具体目录
@@ -144,6 +142,17 @@ members = [
 [[example]]
 name = "your_example"# 名字，如果和目录同名则不需要写 path
 path = "your_examples/your_example.rs"#路径
+```
+
+```toml
+[package]
+name = "myapp"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "new_bin_name"
+path = "src/main.rs"
 ```
 
 ### 配置镜像
@@ -546,6 +555,7 @@ fi
 - [cube](https://github.com/cube-js/cube) 开源语义层，汇总多端数据，做数据分析。
 - [rtk](https://github.com/rtk-ai/rtk) 命令行代理，在 AI 和 bash 这些命令行工具之间加入一个中间层，AI 通过 rtk 调用 bash 可以更高效。
 - [videocall-rs](https://github.com/security-union/videocall-rs) 视频会议方案。
+- [arrow-rs-object-store](https://github.com/apache/arrow-rs-object-store) apache 的 rust 实现的高性能分布式对象存储。
 
 ## 兼容
 

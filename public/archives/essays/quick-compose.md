@@ -17,6 +17,11 @@
 - [compose-multiplatform-file-picker](https://github.com/Wavesonics/compose-multiplatform-file-picker) 文件选择器。
 - [PreCompose](https://github.com/Tlaster/PreCompose) 导航和状态管理库。
 - [coil](https://github.com/coil-kt/coil) 图片显示库。
+- [kizitonwose/Calendar](https://github.com/kizitonwose/Calendar) 日历组件。
+- [moko-mvvm](https://github.com/icerockdev/moko-mvvm) moko 的 MVVM 开发（类似 Java + XML Android View 的形式）
+- [moko-permissions](https://github.com/icerockdev/moko-permissions) moko 权限库。
+- [moko-media](https://github.com/icerockdev/moko-media) moko 媒体文件选择器。
+- [moko-resources](https://github.com/icerockdev/moko-resources) moko 资源访问库。
 
 ## Jetpack Compose
 
