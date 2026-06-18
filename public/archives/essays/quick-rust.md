@@ -1,6 +1,7 @@
 # rust 速查
 
 - [rust 源码](https://github.com/rust-lang/rust)
+- [mdBook](https://github.com/rust-lang/mdBook)
 - [https://rsproxy.cn/](https://rsproxy.cn/) 字节的镜像，应该是最好的。
 
 ## rustup
@@ -556,6 +557,34 @@ fi
 - [rtk](https://github.com/rtk-ai/rtk) 命令行代理，在 AI 和 bash 这些命令行工具之间加入一个中间层，AI 通过 rtk 调用 bash 可以更高效。
 - [videocall-rs](https://github.com/security-union/videocall-rs) 视频会议方案。
 - [arrow-rs-object-store](https://github.com/apache/arrow-rs-object-store) apache 的 rust 实现的高性能分布式对象存储。
+
+## 文档
+
+### mdBook
+
+静态文档开发框架。
+
+- [mdBook](https://github.com/rust-lang/mdBook)
+- [mdbook-i18n-helpers](https://github.com/google/mdbook-i18n-helpers)
+
+### zola
+
+静态站开发框架。
+
+- [zola](https://github.com/getzola/zola)
+
+```bash
+# 安装
+cargo install --locked --git https://github.com/getzola/zola
+# 安装（指定 tls）
+cargo install --locked --no-default-features --features=native-tls --git https://github.com/getzola/zola
+
+# 查看版本
+zola --version
+
+# 创建项目
+zola init myblog
+```
 
 ## 兼容
 

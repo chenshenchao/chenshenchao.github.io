@@ -336,6 +336,32 @@ set GOARCH=amd64
 go build .
 ```
 
+## 文档
+
+### hugo
+
+静态站生成框架。
+
+- [hugo](https://github.com/gohugoio/hugo)
+- [gohugo-ananke](https://github.com/gohugo-ananke/ananke) 一个 hugo 的主题项目。
+
+```bash
+# 安装工具
+go install github.com/gohugoio/hugo@latest
+
+# 查看版本
+hugo version
+
+# 创建项目
+hugo new project yourproject
+
+# 启动开发服务器
+hugo server
+
+# 添加内容
+hugo new content content/posts/my-first-post.md
+```
+
 ## 常见问题
 
 ### 错误处理

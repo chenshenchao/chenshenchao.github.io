@@ -4,6 +4,10 @@
 
 - [simple](https://github.com/wangfenjin/simple) 支持中文分词拼音的 fts5 全文搜索分词扩展。
 
+## 基础表
+
+- sqlite_sequence: 当创建了有 AUTOINCREMENT 自增主键的表时会生成这个表用于记录自增，一般的数据库管理工具不显示这个表。
+
 ## 类型
 
 Sqlite 是动态类型，所以建表时列可以不指定类型。除了主键（估计是为了优化，有类型更好优化。），即便指定了类型，也可以往里面存其他类型。

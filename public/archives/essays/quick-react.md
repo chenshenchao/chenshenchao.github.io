@@ -2,6 +2,8 @@
 
 React 被多种框架所使用，官方文档有多种框架的使用教程。
 
+- [react](https://github.com/react/react)
+- [docusaurus](https://github.com/facebook/docusaurus) facebook 静态网页建站框架，适合开发文档、博客站。
 [官方文档](https://react.dev/learn/creating-a-react-app)
 [官方文档（旧）](https://github.com/facebook/create-react-app)
 
@@ -64,6 +66,7 @@ npx create-expo-app
 - [UI Kitten](https://github.com/akveo/react-native-ui-kitten) React native 的 UI 组件库。
 - [react-slick](https://github.com/akiran/react-slick) 轮播库。
 - [react-virtualized](https://github.com/bvaughn/react-virtualized) 虚拟滚动库。
+- [react-virtualized-auto-sizer](https://github.com/bvaughn/react-virtualized-auto-sizer) react-virtualized 的自动适配大小组件。
 - [react-router](https://github.com/remix-run/react-router) v7 及以后 路由库，TS 写的，无需 @types 库。
 - [react-router-dom](https://github.com/remix-run/react-router) （旧 v6 以及之前的路由库，TS 的话需要 @types/react-router-dom）。
 - [loadable-components](https://github.com/gregberge/loadable-components) React 有自带的 lazy 函数，这个组件是在 React 没提供时期做的，后来 React 自带了，但是这个库的功能更多。

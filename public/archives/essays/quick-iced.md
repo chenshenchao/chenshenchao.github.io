@@ -1,6 +1,9 @@
 # [草稿] iced 速查
 
 - [iced](https://github.com/iced-rs/iced)
+- [iced_aw](https://github.com/iced-rs/iced_aw) 官方扩展组件库。
+- [iced_audio](https://github.com/iced-rs/iced_audio) 官方提供音频方向组件库。
+- [awesome-iced](https://github.com/iced-rs/awesome-iced)
 
 一个 rust 语言下类 Flutter 的保留模式（Retained Mode）渲染的面向对象声明式图形框架。
 
@@ -20,6 +23,7 @@ iced = "0.14.0"
 - 消息：数据变更不直接修改，而是通过消息通知组件。
 - 视图：根据当前组件状态渲染，由渲染框架调用，规范上渲染函数只传消息不写逻辑代码，返回的组件类型被消息类型染色（作用是：类型安全，限制消息类型和 update 一致）。
 - 更新：接收到消息时触发，处理组件状态更新，返回值可以是 Task 发出一个消息。子组件的 update 由手动传参调用。
+- 映射：以 ChildElement.map(Message::ChildMessage).into() 的形式把不同消息的子组件映射成符合父组件相同消息的子组件类型。（如果没有这个 map 做映射，要解耦所有组件就必须学 iced 的基础组件做泛型化消息，这样开发难度陡增。不然就要使用统一消息类型导致组件耦合。）
 
 ```rust
 use iced::widget::{button, column, text, Column};

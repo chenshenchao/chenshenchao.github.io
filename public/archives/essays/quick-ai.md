@@ -184,6 +184,7 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [LM Studio](https://lmstudio.ai/) 本地模型 AI IDE
 - [lms](https://github.com/lmstudio-ai/lms) LM Studio 命令行工具。
 - [mtga](https://github.com/BiFangKNT/mtga) 中间代理服务，设配多种 AI API 转成 OpenAI API 给 IDE 用。
+- [SkillOpt](https://github.com/microsoft/SkillOpt) skill.md 生成 best_skill.md 的工具。
 
 ```bash
 # 安装 anomalyco open code
