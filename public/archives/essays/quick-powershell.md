@@ -18,6 +18,11 @@ $env:HTTP_PROXY="http://127.0.0.1:10808"
 $env:HTTPS_PROXY="http://127.0.0.1:10808"
 ```
 
+```ps1
+# 删除 HTTP_PROXY 的设置
+Remove-Item env:\HTTP_PROXY
+```
+
 ## 项目
 
 - [K8tools](https://github.com/k8gege/K8tools) 渗透测试工具集。

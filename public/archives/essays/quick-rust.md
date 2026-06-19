@@ -1,7 +1,7 @@
 # rust 速查
 
 - [rust 源码](https://github.com/rust-lang/rust)
-- [mdBook](https://github.com/rust-lang/mdBook)
+- [book](https://github.com/rust-lang/book) 官方文档
 - [https://rsproxy.cn/](https://rsproxy.cn/) 字节的镜像，应该是最好的。
 
 ## rustup
@@ -565,7 +565,53 @@ fi
 静态文档开发框架。
 
 - [mdBook](https://github.com/rust-lang/mdBook)
-- [mdbook-i18n-helpers](https://github.com/google/mdbook-i18n-helpers)
+- [mdbook-i18n-helpers](https://github.com/google/mdbook-i18n-helpers) 使用 gettext 做多语言。
+- [gettext-iconv-windows](https://github.com/mlocati/gettext-iconv-windows) Windows 下 gettext
+- [mdbook-admonish](https://github.com/tommilligan/mdbook-admonish) 彩色图标
+
+```bash
+# 安装 mdbook 和 i18n 插件（mdbook-xgettext、mdbook-gettext、mdbook-i18n-normalize；需要安装 gettext）
+cargo install mdbook
+cargo install mdbook-admonish
+cargo install mdbook-i18n-helpers
+
+# 创建文档项目
+mdbook init my-first-book
+
+# 启动开发服务器并打开浏览器
+mdbook serve --open
+
+# 生成文档静态网站项目
+mdbook build
+```
+
+```ps1
+# 配置 MDBOOK_OUTPUT 环境变量，启用 xgettext 插件。
+$env:MDBOOK_OUTPUT='{"xgettext": {}}'
+# 初始化 多语言 po 目录，生成 messages.pot 文件
+mdbook build -d po
+
+# 从 pot 模板生成中文 po 文件。
+msginit -i po/messages.pot -l zh-cn -o po/zh-cn.po
+
+# 更新 messages.pot 模板的内容到 zh_cn.po 文件。 
+msgmerge --update po/zh-cn.po po/messages.pot
+
+# 设置 mdbook 使用中文
+$env:MDBOOK_BOOK__LANGUAGE='zh-cn'
+
+# 构建（MDBOOK_OUTPUT不能配置启用 xgettext 插件，不然构建会失败。）
+mdbook build -d book/zh-cn
+# 启动开发服务器（MDBOOK_OUTPUT不能配置启用 xgettext 插件，不然构建会失败。）
+mdbook serve -d book/zh-cn --open
+```
+
+```ps1
+# 配置 MDBOOK_OUTPUT 环境变量，启用 xgettext 插件，并配置其读取深度为1。
+$env:MDBOOK_OUTPUT='{"xgettext": {"depth": 1}}'
+# 初始化 多语言 po/messages 目录，生成 *.pot 文件
+mdbook build -d po/messages
+```
 
 ### zola
 

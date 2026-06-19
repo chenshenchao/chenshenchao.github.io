@@ -1,5 +1,12 @@
 # WSL 速查
 
+```bash
+# 安装
+wsl --install
+```
+
+## 常见问题
+
 Windows 下 ~\AppData\Local\Microsoft\WindowsApps\ubuntu2204.exe 可以找到各个子系统命令。
 
 此路径代表 wsl 可通过此路径读 wsl 的内容，文件资源管理器可打开，写入有权限限制：
