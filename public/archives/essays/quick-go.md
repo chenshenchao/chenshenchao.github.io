@@ -109,6 +109,7 @@
 - [goml](https://github.com/cdipaolo/goml) 机器学习库。
 - [gtranslate](https://github.com/bregydoc/gtranslate) 谷歌翻译API，第三方调用封装。
 - [service](https://github.com/kardianos/service) go 开发跨平台（Windows、Linux、OS X）服务开发库。
+- [go-i18n](https://github.com/nicksnyder/go-i18n)
 
 ### 数据库
 
@@ -157,6 +158,7 @@
 - [revel](https://github.com/revel/revel) web 框架。
 - [fasthttp](https://github.com/valyala/fasthttp) HTTP 库，比标准库 net/http 要快。
 - [gin](https://github.com/gin-gonic/gin) web 框架。
+- [gin-contrib/i18n](https://github.com/gin-contrib/i18n)
 - [grpc-go](https://github.com/grpc/grpc-go)
 - [gnet](https://github.com/panjf2000/gnet) 网络框架。
 - [jupiter](https://github.com/douyu/jupiter) 斗鱼开源的微服务 web 框架。
@@ -197,6 +199,8 @@
 - [kubo](https://github.com/ipfs/kubo) IPFS 实现。
 - [websocket](https://github.com/gorilla/websocket) websocket 库。
 - [ip2region](https://github.com/lionsoul2014/ip2region) 支持多语言的 IP 查地区库，作者会定期更新 xdb 的 IP 地区数据库。
+- [aws-sdk-go-v2](https://github.com/aws/aws-sdk-go-v2)
+- [amazon-s3-encryption-client-go](https://github.com/aws/amazon-s3-encryption-client-go)
 
 ### 图形
 
@@ -383,4 +387,34 @@ func YourFunc() error {
 ```go
 ch1 := make(chan int) // 阻塞，必须不同协程，不然报：fatal error: all goroutines are asleep - deadlock!
 ch2 := make(chan int, 1) // 带缓冲数量
+```
+
+### 内嵌（embed tag）
+
+编译阶段把文件合并嵌入到生成的可执行文件里。
+
+```go
+import "embed"
+
+// 嵌入目录
+//go:embed *.log
+var Logs embed.FS
+
+// 嵌入文件
+//go:embed a.txt
+var Text string
+```
+
+### 构建（build tag）
+
+系统标签：windows、linux、darwin、amd64 等。
+
+```bash
+go run ./ -tags "dev debug"
+go build ./ -tags "dev debug"
+```
+
+```go
+//go:build dev
+// 文件头部添加后，只在带此标签的环境下编译。
 ```

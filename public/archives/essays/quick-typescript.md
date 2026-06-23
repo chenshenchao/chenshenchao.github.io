@@ -53,6 +53,7 @@
 
 - [ky](https://github.com/sindresorhus/ky) HTTP 客户端库。
 - [web-udp](https://github.com/3mcd/web-udp) 基于 webRTC 的类 UDP 的无序且不可靠协议库。
+- [isomorphic-dompurify](https://github.com/kkomelin/isomorphic-dompurify) 防止跨站脚本XSS 库。
 
 ### 图形
 
@@ -69,9 +70,8 @@
 - [better-auth](https://github.com/better-auth/better-auth) 鉴权库。
 - [better-auth-credentials-plugin](https://github.com/erickweil/better-auth-credentials-plugin)
 - [better-auth-custom-credentials](https://github.com/Pradumn27/better-auth-custom-credentials)
-- [slate](https://github.com/ianstormtaylor/slate) 富文本编辑器开发库，可以定制富文本编辑器。
 - [blocksuite](https://github.com/toeverything/blocksuite) 编辑器开发库，可以定制富文本编辑器、流程图编辑器。
-- [lexical](https://github.com/facebook/lexical) facebook 开源的可扩展的文本编辑器框架。
+- [lexical](https://github.com/facebook/lexical) facebook 开源的可扩展的文本编辑器框架，替代 Draft.js。
 - [textbus](https://github.com/textbus/textbus) 支持 Viewfly、Vue、React 多框架的富文本编辑器。
 - [editor.js](https://github.com/codex-team/editor.js) 富文本编辑器。
 - [editable](https://github.com/editablejs/editable) 富文本编辑器。

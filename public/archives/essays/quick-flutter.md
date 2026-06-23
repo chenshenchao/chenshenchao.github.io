@@ -22,7 +22,8 @@ flutter run --no-enable-impeller
 # h: 帮助文档
 # d: 停止调试回到命令行输入，flutter run 的 app 仍然运行。
 # c: 清除屏幕
-# p：显示性能叠加层
+# p：显示性能叠加层。
+# i: 显示 inspect 浮窗。
 # q：退出运行
 
 # 监听调试日志

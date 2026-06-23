@@ -26,6 +26,8 @@
 - [caffe](https://github.com/BVLC/caffe) 深度学习框架。
 - [angel](https://github.com/Angel-ML/angel) Java 技术栈的深度学习框架。
 - [smile](https://github.com/haifengl/smile) Java 技术栈的深度学习框架。
+- [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) 跨平台语音运行推理框架。
+- [FunASR](https://github.com/modelscope/FunASR) 阿里 开源的语音训练工具箱。
 
 ## 资料源
 
@@ -129,6 +131,7 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [TTS](https://github.com/coqui-ai/TTS) coqui-a 的 TTS 模型集合项目。
 - [TTS](https://github.com/mozilla/TTS) mozilla 的 TTS 模型集合项目。
 - [VoxCPM](https://github.com/OpenBMB/VoxCPM) 北京大学开源 TTS 模型，无 Tokenizer。
+- [paraformer-zh](https://huggingface.co/funasr/paraformer-zh) 阿里 FunASR 的中文 STT 语音模型。
 - [DeepSpeech](https://github.com/mozilla/DeepSpeech) mozilla 开源的可嵌入离线的 STT 项目。
 - [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
 - [LAVIS](https://github.com/salesforce/LAVIS) 多个图片、视频与文本的视觉模型整合库。

@@ -159,6 +159,11 @@ sdk install java 23-graal
 sdk list java
 ```
 
+## jni、jna、jnr
+
+开发 jni 就是给 JVM 写 C 插件。
+开发 jna、jnr 就是 ffi 调用外部动态库。
+
 ## GraalVM
 
 GraalVM 除了作为性能向的 JVM 外，还支持把 JVM 语言（Java、Scala、Kotlin等）编译成二进制 Native Image，这样来得到原生性能。
