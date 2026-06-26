@@ -50,7 +50,6 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [quicktype](https://github.com/glideapps/quicktype) 从 JSON, Schema, 和 GraphQL 生成指定语言的数据结构代码。 
 - [ssh2](https://github.com/mscdex/ssh2) SSH2 客户端库。
 - [cache-manager](https://github.com/nestjs/cache-manager) 缓存库。
-- [node-cache-manager-redis-store](https://github.com/dabroek/node-cache-manager-redis-store) cache-manager 使用 redis 客户端。
 - [git-js](https://github.com/steveukx/git-js) git 命令封装。
 - [node-glob](https://github.com/isaacs/node-glob) 提供多种 glob 函数库。
 - [globby](https://github.com/sindresorhus/globby) 提供 glob 功能函数库。
@@ -96,8 +95,6 @@ nvm node_mirror https://mirrors.cloud.tencent.com/nodejs-release
 - [typeorm](https://github.com/typeorm/typeorm) 数据库 ORM 代码设计比较好，性能性能不足，工具不齐全，只能算轻量级。
 - [pg-logical-replication](https://github.com/kibae/pg-logical-replication) PostgreSQL WAL 数据复制库。
 - [libsql-client-ts](https://github.com/tursodatabase/libsql-client-ts) libsql 客户端。
-- [ioredis](https://github.com/redis/ioredis) redis 官方的客户端库。
-- [node-redis](https://github.com/redis/node-redis) redis 官方的客户端库。
 - [lowdb](https://github.com/typicode/lowdb) 可内嵌的 JSON 数据库。
 - [nedb](https://github.com/louischatriot/nedb) 可内嵌的文档数据库。
 - [pouchdb](https://github.com/apache/pouchdb) 可内嵌的文档数据库。

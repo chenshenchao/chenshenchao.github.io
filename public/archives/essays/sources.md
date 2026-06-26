@@ -286,10 +286,6 @@
 
 - [deskflow](https://github.com/deskflow/deskflow) 多电脑共享键盘鼠标。
 - [Lightscreen](https://github.com/ckaiser/Lightscreen) 截屏工具。
-- [AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) Redis 图形客户端工具。
-- [RedisStudio](https://github.com/cinience/RedisStudio) Redis 图形客户端工具。
-- [medis](https://github.com/luin/medis) 苹果 MAC 上的 Redis 客户端图形工具。
-- [iredis](https://github.com/laixintao/iredis) Redis 命令行客户端工具。
 - [PDFPatcher](https://github.com/wmjordan/PDFPatcher) PDF 编辑工具。
 - [marktext](https://github.com/marktext/marktext) markdown 编辑器。
 - [Zettlr](https://github.com/Zettlr/Zettlr) markdown 编辑器。

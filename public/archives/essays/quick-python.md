@@ -51,9 +51,6 @@ python -m http.server 8000
 - [paramiko](https://github.com/paramiko/paramiko) ssh v2 库。
 - [fabric](https://github.com/fabric/fabric) 通过 SSH 远程执行脚本，基于 Paramiko。
 - [ssh2-python](https://github.com/ParallelSSH/ssh2-python) 封装了 libssh2
-- [aioredis-py](https://github.com/aio-libs-abandoned/aioredis-py) 支持异步的 redis 客户端。
-- [redis-py](https://github.com/redis/redis-py) redis 客户端。
-- [walrus](https://github.com/coleifer/walrus) 简化 redis 客户端的使用，做了封装。
 - [uiautomator](https://github.com/xiaocong/uiautomator) 安卓 uiautomator 封装。
 - [uiautomator2](https://github.com/openatx/uiautomator2) 安卓 uiautomator2 封装。
 - [aiosqlite](https://github.com/omnilib/aiosqlite) 异步 SQLite

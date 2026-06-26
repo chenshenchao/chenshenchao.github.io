@@ -24,3 +24,4 @@
 - [freqtrade](https://github.com/freqtrade/freqtrade) 加密货币量化交易机器人，算法交易全流程解决方案。
 - [ZeroNet](https://github.com/HelloZeroNet/ZeroNet) 利用比特币加密技术和比特流网络搭建的去中心化网站。
 - [bcos](https://github.com/bcosorg/bcos) 开源的区块链底层技术平台。
+- [IceFireDB](https://github.com/IceFireDB/IceFireDB) 兼容 redis 的分布式键值对数据库，web3 向，支持 IPFS 分布式存储。

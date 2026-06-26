@@ -56,7 +56,6 @@
 - [yaml-cpp](https://github.com/jbeder/yaml-cpp) yaml 库。
 - [botan](https://github.com/randombit/botan) 加密工具库。
 - [taskflow](https://github.com/taskflow/taskflow) 任务并发库。
-- [xredis](https://github.com/0xsky/xredis) redis 客户端库。
 - [ScriptX](https://github.com/Tencent/ScriptX) 腾讯开源的脚本引擎抽象层，支持接入 JS、Lua 的脚本引擎。
 - [objeck-lang](https://github.com/objeck/objeck-lang) 一个类 JS/GO 的编程语言。
 - [libco](https://github.com/Tencent/libco) 腾讯开源的协程库。
@@ -214,7 +213,6 @@
 - [scummvm](https://github.com/scummvm/scummvm) 多种游戏机模拟器（100+种，包括任天堂 Switch 、索尼 PS 等）。
 - [doxygen](https://github.com/doxygen/doxygen) 主 C++ 注释自动生成文档工具，也支持其他多种语言。
 - [cherrytree](https://github.com/giuspen/cherrytree) 富文本笔记软件，可以保存 XML 等。
-- [ssdb](https://github.com/ideawu/ssdb) 键值对数据库服务，可替代 Redis 。
 - [tair](https://github.com/alibaba/tair) 阿里开源的键值对数据库服务。
 - [Stockfish](https://github.com/official-stockfish/Stockfish) 国际象棋项目。
 - [Stockfish](https://github.com/mcostalba/Stockfish) 国际象棋项目。

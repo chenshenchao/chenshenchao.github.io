@@ -146,8 +146,6 @@
 - [go-mysql](https://github.com/go-mysql-org/go-mysql) 纯 Go 实现的 MySQL 客户端，支持binlog做数据迁移。
 - [go-mysql-elasticsearch](https://github.com/go-mysql-org/go-mysql-elasticsearch) MySQL 同步到 elasticsearch。
 - [go-linq](https://github.com/ahmetb/go-linq) 链式 SQL 拼接，远达不到 C# 的 LINQ 程度，没有改变 GO 语法。
-- [go-redis](https://github.com/redis/go-redis) redis 客户端。
-- [redigo](https://github.com/gomodule/redigo) redis 客户端。
 - [go-duckdb](https://github.com/marcboeker/go-duckdb) database/sql 的 duckDB 引擎。
 - [btree](https://github.com/google/btree) 谷歌开发的一个b树实现。
 - [go-adaptive-radix-tree](https://github.com/plar/go-adaptive-radix-tree) ART树实现。
@@ -267,6 +265,7 @@
 - [bbvm](https://github.com/wenerme/bbvm) Basic 虚拟机。
 - [seaweedfs](https://github.com/seaweedfs/seaweedfs) GO 实现的高性能分布式对象存储。
 - [storj](https://github.com/storj/storj) GO 实现的中心协调 P2P 对象存储。
+- [mage](https://github.com/magefile/mage) 类 makefile 执行 magefile.go 的构造工具。
 
 ## 常用命令
 
@@ -274,6 +273,16 @@
 # 构建
 # -gcflags="-m" 打印内联信息
 go build -gcflags="-m" main.go
+```
+
+```bash
+# 安装依赖包
+go get go.uber.org/zap
+# 关联依赖工具
+go get -tool github.com/golang-migrate/migrate/v4@v4.17.1
+
+# 运行依赖工具
+go tool github.com/golang-migrate/migrate/v4 -source file://path/to/migrations -database postgres://localhost:5432/database
 ```
 
 ### go env
@@ -311,6 +320,17 @@ go work sync
 go build ./app
 ```
 
+go work 没有特殊命令修改，必须手动修改 go.work 文件。
+
+```go
+// 全局替换：远程包 → 本地目录
+replace github.com/xxx/common => ./common
+// 替换指定版本
+replace github.com/xxx/common v1.2.0 => ./local-common
+// 替换为另一个远程版本
+replace github.com/xxx/common => github.com/xxx/common v1.3.0
+```
+
 ### go mod
 
 ```bash
@@ -319,6 +339,9 @@ go mod init yourdemain.com/yourproject
 
 # 清理并拉项目依赖。
 go mod tidy
+
+# 重置依赖源会添加在 go.mod 里一条 replace
+go mod edit -replace github.com/xxx/foo=github.com/xxx/foo@v1.1.0
 ```
 
 ## 单元测试
@@ -417,4 +440,21 @@ go build ./ -tags "dev debug"
 ```go
 //go:build dev
 // 文件头部添加后，只在带此标签的环境下编译。
+```
+
+### 生成（generate）
+
+```go
+//go:generate echo "hello"
+```
+
+```bash
+# 执行代码里嵌入的 generate 命令
+go generate
+```
+
+复杂项目时使用 generate-scripts（自定义名）的 go 项目来完全控制生成流程。
+
+```go
+//go:generate go run ./generate-scripts
 ```

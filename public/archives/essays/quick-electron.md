@@ -17,7 +17,6 @@
 ## 项目、工具
 
 - [lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) 桌面音乐软件。
-- [redis-desktop-client](https://github.com/david1025/redis-desktop-client) electron + vue 开发的 redis 管理工具。
 - [rockplayer](https://github.com/ziyang0116/rockplayer) 跨平台视频播放器。
 - [theia](https://github.com/eclipse-theia/theia) 类 VSCODE 的基于 Electron 的 IDE。
 - [vue-cli-plugin-electron-builder](https://github.com/nklayman/vue-cli-plugin-electron-builder) vue-cli 的 electron-builder 插件。

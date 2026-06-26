@@ -420,7 +420,6 @@ fi
 - [apalis](https://github.com/apalis-dev/apalis) 后台进程库。
 - [rodio](https://github.com/RustAudio/rodio) 音频库。
 - [walkdir](https://github.com/BurntSushi/walkdir) 遍历文件夹库。
-- [redis-rs](https://github.com/redis-rs/redis-rs) redis 客户端。
 - [tokenizers](https://github.com/huggingface/tokenizers) 分词器，支持 rust、python 等端。
 - [bon](https://github.com/elastio/bon) 链式方式初始化对象的库。
 - [cursive](https://github.com/gyscos/cursive) TUI 命令行图形库。

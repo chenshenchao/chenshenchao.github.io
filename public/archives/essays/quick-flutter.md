@@ -35,6 +35,11 @@ flutter logs --clear
 flutter clean
 # 清理 pub 全局缓存并修复
 flutter pub cache repair
+
+# 分析单个文件
+flutter analyze lib/main.dart
+# 分析整个目录
+flutter analyze lib/
 ```
 
 - [dart 官方 core 库](https://github.com/dart-lang/core) 包括 async, crypto 等库。

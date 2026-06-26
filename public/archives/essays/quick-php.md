@@ -30,7 +30,6 @@ php -S 0.0.0.0:80
 - [xdebug](https://github.com/xdebug/xdebug)
 - [php-ext-xlswriter](https://github.com/viest/php-ext-xlswriter) XLSX 工具库。
 - [cphalcon](https://github.com/phalcon/cphalcon) 全栈框架。
-- [phpredis](https://github.com/phpredis/phpredis) redis 客户端。
 - [xhprof](https://github.com/phacility/xhprof) 已经不维护，函数级别的性能分析扩展。
 - [xhprof](https://github.com/longxinH/xhprof) fork phacility/xhprof 继续维护。
 - [php-xhprof-extension](https://github.com/tideways/php-xhprof-extension) for longxinH/xhprof。

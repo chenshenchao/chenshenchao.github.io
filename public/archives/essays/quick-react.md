@@ -98,10 +98,14 @@ npx create-expo-app
 - [xyflow](https://github.com/xyflow/xyflow) 流程图组件库。
 - [echarts-for-react](https://github.com/hustcc/echarts-for-react) echarts 图表库的 react 封装。
 - [TanStack react-charts](https://github.com/TanStack/react-charts) TanStack 的图表库 react 封装，已经停止维护。
+- [recharts](https://github.com/recharts/recharts) 基于 D3 开发的图表库 react 封装。
 - [remix](https://github.com/remix-run/remix) 框架。
 - [fluentui](https://github.com/microsoft/fluentui) 微软开源 Fluent 风格组件库。
 - [sonner](https://github.com/emilkowalski/sonner) toast 组件库。
 - [yet-another-react-lightbox](https://github.com/igordanchenko/yet-another-react-lightbox) 图片查看组件。
+- [react-photo-view](https://github.com/MinJieLiu/react-photo-view) 图片浏览器组件库。
+- [react-photoswipe-gallery](https://github.com/dromru/react-photoswipe-gallery) 图片浏览器组件库。
+- [react-viewer](https://github.com/infeng/react-viewer) 图片浏览器组件库。
 - [react-color](https://github.com/casesandberg/react-color) 颜色选取器。
 - [slate](https://github.com/ianstormtaylor/slate) 富文本编辑器开发库，可以定制富文本编辑器，beta 阶段，只支持 React。
 - [draft-js](https://github.com/facebookarchive/draft-js) facebook 开源的富文本编辑器，不维护，转向 Lexical。

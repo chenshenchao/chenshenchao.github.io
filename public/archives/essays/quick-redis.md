@@ -1,22 +1,50 @@
 # Redis 速查
 
 - [redis 源码](https://github.com/redis/redis)
+- [hiredis](https://github.com/redis/hiredis) 官方 c 的 redis 客户端库。
+- [go-redis](https://github.com/redis/go-redis) 官方 go 的 redis 客户端库。
+- [jedis](https://github.com/redis/jedis)官方 java 的 redis 客户端库。
+- [redis-py](https://github.com/redis/redis-py) redis 官方的 python 客户端库。
+- [ioredis](https://github.com/redis/ioredis) redis 官方 nodejs 的客户端库。
+- [node-redis](https://github.com/redis/node-redis) redis 官方 nodejs 的客户端库。
 - [valkey](https://github.com/valkey-io/valkey) redis 分裂的社区项目。
 - [garnet](https://github.com/microsoft/garnet) 微软用 .NET 开发的兼容 Redis 的键值对数据库。
 - [dragonfly](https://github.com/dragonflydb/dragonfly) 兼容 Redis 的键值对数据库。
 - [Windows 下的 redis](https://github.com/tporadowski/redis) 第三方提供的 redis ，版本相对滞后。
-- [IceFireDB](https://github.com/IceFireDB/IceFireDB) 兼容 redis 的分布式键值对数据库。
 - [microsoftarchive redis](https://github.com/microsoftarchive/redis) redis 3.0 的 Windows 版本。
+- [ssdb](https://github.com/ideawu/ssdb) 键值对数据库服务，可替代 Redis ，已经停止维护。
+- [ssdb-bin](https://github.com/ideawu/ssdb-bin) ssdb 的二进制文件，滞后。
 - [KeyDB](https://github.com/Snapchat/KeyDB) 扩展 Redis 为多线程的项目。
 - [predixy](https://github.com/joyieldInc/predixy) redis 代理服务器。
+- [twemproxy](https://github.com/twitter/twemproxy) twitter 开源的分布式 redis 代理服务器。
 
-## 常用扩展
+## 扩展
 
 - [RediSearch](https://github.com/RediSearch/RediSearch) 全文搜索插件，对中文分词有问题。
 - [redisearch-go](https://github.com/RediSearch/redisearch-go) RediSearch go 客户端。
 - [redisearch-php](https://github.com/ethanhann/redisearch-php) RediSearch PHP 客户端。
 - [RedisGraph](https://github.com/RedisGraph/RedisGraph) 图数据库插件。
 - [RedisJSON](https://github.com/RedisJSON/RedisJSON) 提供 JSON 类型，Redis 8 后默认支持 JSON 类型，这个扩展不再更新。
+
+## 开发库
+
+- [redigo](https://github.com/gomodule/redigo) 第三方 go 的 redis 客户端库。
+- [xredis](https://github.com/0xsky/xredis) 第三方 c++ 的 redis 客户端库。
+- [redis-rs](https://github.com/redis-rs/redis-rs) 第三方 rust 的 redis 客户端。
+- [redisson](https://github.com/redisson/redisson) 第三方 java 的 redis 客户端库。
+- [phpredis](https://github.com/phpredis/phpredis) 第三方 php 的 redis 客户端。
+- [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis) C# 开发的 .NET 的 Redis 客户端库。
+- [aioredis-py](https://github.com/aio-libs-abandoned/aioredis-py) 第三方 python 支持异步的 redis 客户端。
+- [walrus](https://github.com/coleifer/walrus) 第三方 python 简化 redis 客户端的使用，做了封装。
+- [node-cache-manager-redis-store](https://github.com/dabroek/node-cache-manager-redis-store) 第三方 nodejs 的 cache-manager 使用 redis 客户端。
+
+## 项目
+
+- [AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) Redis 图形客户端工具。
+- [RedisStudio](https://github.com/cinience/RedisStudio) Redis 图形客户端工具。
+- [medis](https://github.com/luin/medis) 苹果 MAC 上的 Redis 客户端图形工具。
+- [iredis](https://github.com/laixintao/iredis) Redis 命令行客户端工具。
+- [redis-desktop-client](https://github.com/david1025/redis-desktop-client) electron + vue 开发的 redis 管理工具。
 
 ## 配置
 

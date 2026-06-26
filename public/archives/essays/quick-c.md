@@ -64,7 +64,6 @@
 ### 数据库
 
 - [dqlite](https://github.com/canonical/dqlite) 可内嵌的分布式 SQLite 库。
-- [hiredis](https://github.com/redis/hiredis) redis 客户端库。
 - [upscaledb](https://github.com/cruppstahl/upscaledb) 键值对型数据库实现。
 - [unqlite](https://github.com/symisc/unqlite) 键值对型数据库实现。
 - [sqlite](https://github.com/sqlite/sqlite)
@@ -155,7 +154,6 @@
 - [tengine](https://github.com/alibaba/tengine) 阿里开源的基于 nginx 的代理服务器。
 - [nghttp2](https://github.com/nghttp2/nghttp2) http 命令行 客户端和服务器工具。
 - [nuster](https://github.com/jiangwenyuan/nuster) HTTP 代理缓存服务器。
-- [twemproxy](https://github.com/twitter/twemproxy) 分布式 redis 代理服务器。
 - [syslog-ng](https://github.com/syslog-ng/syslog-ng) 日志方案服务，可以接收 系统、网络、SQL、NoSQL 等的日志。
 - [kamailio](https://github.com/kamailio/kamailio) 一个VoIP、即时通信框架。
 
