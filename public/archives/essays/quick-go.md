@@ -2,6 +2,7 @@
 
 - [go 源码](https://github.com/golang/go)
 - [glog](https://github.com/golang/glog)
+- [freetype](https://github.com/golang/freetype) 
 - [vscode-go](https://github.com/golang/vscode-go) vscode 扩展。
 - [goproxy](https://github.com/goproxy/goproxy) go 代理开发库。
 - [goproxy.cn 站点源码](https://github.com/goproxy/goproxy.cn) 七牛云提供的GO模块代理。
@@ -110,6 +111,7 @@
 - [gtranslate](https://github.com/bregydoc/gtranslate) 谷歌翻译API，第三方调用封装。
 - [service](https://github.com/kardianos/service) go 开发跨平台（Windows、Linux、OS X）服务开发库。
 - [go-i18n](https://github.com/nicksnyder/go-i18n)
+- [fsnotify](https://github.com/fsnotify/fsnotify) 跨平台的文件系统通知库。
 
 ### 数据库
 

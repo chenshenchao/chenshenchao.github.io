@@ -6,9 +6,26 @@
 ```bash
 # 运行 bootRun 任务（运行 spring boot 服务）
 gradlew bootRun
+
+# 子模块运行，并打印错误。
+gradlew :admin-api:bootRun --stacktrace --info
 ```
 
 ## 配置
+
+```ini
+# 默认地址 0.0.0.0
+# 默认端口 8080
+server.address=127.0.0.1
+server.port=8080
+```
+
+```ini
+# 启动 虚拟线程
+spring.threads.virtual.enabled=true
+```
+
+### 数据库
 
 application.properties 里 JPA 配置 PostgreSQL 示例：
 
@@ -52,3 +69,18 @@ spring.jpa.properties.hibernate.format_sql=true
 - spring-boot
 - spring-boot-autoconfigure
 - spring-boot-starter-logging
+
+## IO
+
+阻塞：Spring MVC + Spring Data JDBC/JPA
+
+- Spring Data JDBC
+- Spring Data JPA
+
+### Reactive
+
+因为虚拟线程的出现，这套用户少。
+
+非阻塞： Spring WebFlux + Spring Data R2DBC
+
+- Spring Data R2DBC

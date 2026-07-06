@@ -8,6 +8,8 @@
 ```bash
 # 通过 cargo 编译安装。
 cargo install dioxus-cli
+# 指定 git 安装最新版本。
+cargo install --git https://github.com/DioxusLabs/dioxus dioxus-cli --locked
 ```
 
 ```bash
@@ -23,3 +25,9 @@ cargo install cargo-binstall
 cargo binstall dioxus-cli --force
 ```
 
+## 命令
+
+```bash
+# 查看版本
+dx --version
+```

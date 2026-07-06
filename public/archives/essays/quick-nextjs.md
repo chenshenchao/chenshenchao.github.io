@@ -15,13 +15,31 @@ npx create-next-app@latest
 npm run dev
 ```
 
-## 常用库
+## 常用库和项目
 
 - [cookies-next](https://github.com/andreizanik/cookies-next) 为 NextJS 的 Cookie 库。
 - [next-i18next](https://github.com/i18next/next-i18next) 为 NextJS 的 Pages 模式的 i18n 多语言库。
 - [next-intl](https://github.com/amannn/next-intl) 为 NextJS 的 i18n 多语言库。
 - [next-auth](https://github.com/nextauthjs/next-auth) 鉴权库，已经并入 Better-Auth 了。
 - [next-themes](https://github.com/pacocoursey/next-themes) 切换主题库。
+- [nextra](https://github.com/shuding/nextra) 基于 NextJs 的 SSG 静态站框架，提供 文档 和 博客 主题。
+- [payloadcms](https://github.com/payloadcms/payload) 基于 NextJS 的 CMS 。
+
+## 配置
+
+```ts
+const nextConfig: NextConfig = {
+  // 重写，转发 /api 请求。
+  async rewrites() {
+    return [
+      {
+        source: '/api/:path*',
+        destination: `${apiUrl}/api/:path*`,
+      },
+    ];
+  },
+};
+```
 
 ## 模式
 
@@ -90,6 +108,16 @@ NextJS 由于服务端渲染，所以有一个常驻的服务端运行时（Node
 
 - 13 以前：Node.js Runtime ，中间件是在 NodeJs 环境执行。
 - 13 以后：Edge Runtime，中间件是在 服务器端 V8 环境（接近浏览器，限制颇多，不能使用TCP，但是现在很多云服务提供 HTTP、web Socket 的方式连接数据库）执行，由 NextJs 维护的公司 Vercel 的 CDN 服务扩展开来的技术，Edge Runtime 可以在 Vercel 的 CDN 服务上运行。
+
+## SSG
+
+generateStaticParams（此函数必在 build 时被调用，强制全量 SSG 时路由路径有参数的时候不提供此函数会报错。）给页面提供路径参数，函数返回作为参数去调用页面生成文件，做静态页面。
+
+```ts
+const nextConfig: NextConfig = {
+    output: 'export', // 强制全量 SSG 输出。
+}
+```
 
 ## PWA(Progressive Web App) 渐进式网页应用
 

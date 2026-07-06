@@ -37,6 +37,9 @@
 - [阿里云百炼](https://bailian.console.aliyun.com/) 云平台，目前有送免费 100万 tokens 额度。
 - [nlp_chinese_corpus](https://github.com/brightmart/nlp_chinese_corpus) 大规模中文自然语言处理语料
 - [Chinese-Word-Vectors](https://github.com/Embedding/Chinese-Word-Vectors) 中文词向量
+- [duckduckgo](https://duckduckgo.com/) 给 AI 提供的搜索引擎，主要起检索作用，免费境外。
+- [腾讯云WSA](https://cloud.tencent.com/product/wsa) 给 AI 提供的搜索引擎，收费境内。
+- [博查](https://open.bochaai.com/) 给 AI 提供的搜索引擎，收费境内。
 
 ### Huggingface 相关
 
@@ -151,6 +154,9 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [InternSVG](https://github.com/hmwang2002/InternSVG) svg 生成模型。
 - [OmniSVG](https://github.com/OmniSVG/OmniSVG) svg 生成模型。
 - [star-vector](https://github.com/joanrod/star-vector) svg 生成模型。
+- [sherpa-onnx-paraformer-zh-int8-2025-10-07](https://hf-mirror.com/csukuangfj/sherpa-onnx-paraformer-zh-int8-2025-10-07) STT 模型。
+- [vits-zh-hf-fanchen-C](https://hf-mirror.com/csukuangfj/vits-zh-hf-fanchen-C) TTS 百多音色低质模型。
+- [vits-melo-tts-zh_en](https://hf-mirror.com/csukuangfj/vits-melo-tts-zh_en) TTS 单女音色高质模型。
 
 ## AI 应用开发
 
@@ -187,6 +193,9 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [LM Studio](https://lmstudio.ai/) 本地模型 AI IDE
 - [lms](https://github.com/lmstudio-ai/lms) LM Studio 命令行工具。
 - [mtga](https://github.com/BiFangKNT/mtga) 中间代理服务，设配多种 AI API 转成 OpenAI API 给 IDE 用。
+- [one-api](https://github.com/songquanpeng/one-api) LLM API 管理 & 分发系统，支持 OpenAI、Azure、Anthropic Claude、Google Gemini、等主流模型。
+- [new-api](https://github.com/QuantumNous/new-api) 基于 OneApi，界面更新。
+- [sub2api](https://github.com/Wei-Shaw/sub2api) 支持网页订阅转 API 分发，一站式开源中转服务。
 - [SkillOpt](https://github.com/microsoft/SkillOpt) skill.md 生成 best_skill.md 的工具。
 
 ```bash

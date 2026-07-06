@@ -535,4 +535,24 @@ pyinstaller -F -i i.ico source.py
 
 更多资料详见[官网](https://www.pyinstaller.org)
 
+## 文档
 
+### mkdocs
+
+- [mkdocs](https://github.com/mkdocs/mkdocs)
+
+```bash
+# 安装工具
+pip install mkdocs
+# 或 通过 uv 安装
+uv tool install mkdocs
+
+# 创建项目
+mkdocs new my-project
+
+# 启动开发服务器
+mkdocs serve
+
+# 生成静态站
+mkdocs build
+```
