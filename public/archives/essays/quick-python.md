@@ -199,6 +199,7 @@ python -m http.server 8000
 - [trellis](https://github.com/roots/trellis) 基于 Ansible 的 WordPress LEMP 服务器自动化部署与管理工具。
 - [byterun](https://github.com/nedbat/byterun) python 字节码运行库。
 - [wagtail](https://github.com/wagtail/wagtail) 基于 Django 的 CMS 项目。
+- [searxng](https://github.com/searxng/searxng) metasearch 元搜索引擎。
 
 ## 虚拟环境
 

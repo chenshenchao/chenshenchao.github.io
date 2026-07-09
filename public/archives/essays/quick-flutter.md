@@ -78,7 +78,6 @@ flutter analyze lib/
 - [audioplayers](https://github.com/bluefireteam/audioplayers) 音频播放库。
 - [flutter_sound](https://github.com/Canardoux/flutter_sound) 录音、播放库。
 - [record](https://github.com/llfbandit/record) 录音、播放库。
-- [flame](https://github.com/flame-engine/flame) 游戏开发库，包括 3D、音频 等子库。
 - [flutter_tts](https://github.com/dlutton/flutter_tts) TTS 音频库，调用手机系统内置 TTS 功能，需要打开系统 TTS 功能。
 - [marquee](https://github.com/MarcelGarus/marquee) 文字走马灯。
 - [marqueer](https://github.com/GeceGibi/marqueer) 走马灯，可以图片。

@@ -52,6 +52,7 @@ npx create-expo-app
 - [radix-ui themes](https://github.com/radix-ui/themes) 有样式的 radix-ui 组件库，大部分桌面组件，有少部分移动端组件。
 - [radix-ui icons](https://github.com/radix-ui/icons) radix-ui 图标库。
 - [shadcn-ui](https://github.com/shadcn-ui/ui) 基于 radix-ui 做的 UI 组件库和开发工具，风格简约，方便定制，适合做官网。
+- [shadcn-tree-view](https://github.com/mrlightful/shadcn-tree-view) 第三方 shadcn 设计风格的树形控件。
 - [tamagui](https://github.com/tamagui/tamagui) 像素风格 UI 组件库。
 - [chakra-ui](https://github.com/chakra-ui/chakra-ui) UI 组件库。
 - [NativeBase](https://github.com/GeekyAnts/NativeBase) 黑白复古风格 UI 组件库。

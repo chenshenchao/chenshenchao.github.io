@@ -25,6 +25,15 @@ server.port=8080
 spring.threads.virtual.enabled=true
 ```
 
+```bash
+# 加载 prod
+java -jar demo.jar --spring.profiles.active=prod
+gradlew bootRun -Dspring.profiles.active=prod
+# 加载 dev,local
+java -jar demo.jar --spring.profiles.active=dev,local
+gradlew bootRun -Dspring.profiles.active=dev,local
+```
+
 ### 数据库
 
 application.properties 里 JPA 配置 PostgreSQL 示例：

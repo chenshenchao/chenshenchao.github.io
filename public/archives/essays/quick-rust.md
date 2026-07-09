@@ -382,6 +382,7 @@ fi
 - [tch](https://github.com/LaurentMazare/tch-rs) 封装 pytorch 的 c++ 版本绑定 rust
 - [linfa](https://github.com/rust-ml/linfa) 深度学习框架。
 - [burn](https://github.com/tracel-ai/burn) 纯 rust 的深度学习框架。
+- [burn-onnx](https://github.com/tracel-ai/burn-onnx) onnx 转 burn 代码。
 - [tract](https://github.com/sonos/tract) Tensorflow、ONNX 推理运行库。
 - [candle](https://github.com/huggingface/candle) huggingface 开发的机器学习框架。
 - [ndarray](https://github.com/rust-ndarray/ndarray) 类似 python 的 numpy

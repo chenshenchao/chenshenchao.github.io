@@ -29,6 +29,7 @@
 - [CodeBlog](https://github.com/QDMarkMan/CodeBlog) 前端相关的博文。
 - [tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) 面试手册。
 - [gold-miner](https://github.com/xitu/gold-miner) 掘金翻译计划
+- [ulid spec](https://github.com/ulid/spec) ULID 社区事实标准。
 
 ## 开源书籍
 

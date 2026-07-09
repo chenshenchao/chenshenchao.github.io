@@ -102,8 +102,10 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 
 ## 模型
 
+- [DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro)
 - [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
 - [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)
+- [DeepSeek-OCR-2](https://github.com/deepseek-ai/DeepSeek-OCR-2)
 - [DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR)
 - [DeepSeek-Coder](https://github.com/deepseek-ai/DeepSeek-Coder)
 - [MiMo](https://github.com/XiaomiMiMo/MiMo)
@@ -139,6 +141,7 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
 - [LAVIS](https://github.com/salesforce/LAVIS) 多个图片、视频与文本的视觉模型整合库。
 - [Generative-Adversarial-Networks-Projects](https://github.com/PacktPublishing/Generative-Adversarial-Networks-Projects) 一些 GAN 模型。
+- [Hy3](https://github.com/Tencent-Hunyuan/Hy3) 腾讯混元3模型。
 - [GFPGAN](https://github.com/TencentARC/GFPGAN) 照片人脸修复模型。
 - [tuneflow-py](https://github.com/tuneflow/tuneflow-py) 音频生成模型。
 - [DragGAN](https://github.com/XingangPan/DragGAN) 通过拖拽修改图片。
@@ -295,3 +298,10 @@ qwen
 ### 预训练
 
 ### 微调
+
+## harness
+
+上下文连续问题，解决方式：
+
+- PROGRESS.md： 进程文件，长任务或多任务下让 AI 生成子任务文档。解决长任务或多任务下工作不连续，丢三落四的问题。
+- DECISIONS.md： 决策日志，根据使用者账号关联使用者决策偏好。解决同用户反复要更正 AI 使用自己偏好决策。
