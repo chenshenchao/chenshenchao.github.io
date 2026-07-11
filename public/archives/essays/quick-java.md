@@ -69,7 +69,6 @@
 ### 图形
 
 - [FlatLaf](https://github.com/JFormDesigner/FlatLaf) Swing 的组件库。
-- [libgdx](https://github.com/libgdx/libgdx) 跨平台的 Java 游戏引擎。
 
 ### 网络
 

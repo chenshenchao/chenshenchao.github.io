@@ -12,15 +12,40 @@ flutter pub add flame
 
 ## 组件
 
+为提高性能 flame 的组件没有 Flutter 控件的 测量、布局 阶段，全在 flame 自定义的绘制里。
+
 flame/game.dart：
 
-- GameWidget：游戏控件
+- GameWidget：游戏组件
 - FlameGame：游戏主体
 
 flame/components.dart：
 
+- RouterComponent：路由器组件，配置 Route 设置路由。
 - World：场景
-- SpriteComponent: 精灵控件
+- PositionComponent： 位置组件
+- SpriteComponent: 精灵组件，继承自 PositionComponent，可显示 Sprite。
+- SpriteAnimationComponent：精灵动画组件，可显示 Sprite 组成的 SpriteAnimation 动画 或 SpriteAnimationData 配置的动画。
+- SpriteAnimationGroupComponent： 精灵动画组组件。
+- SpriteGroupComponent：精灵组组件。
+- RasterSpriteComponent：
+- ParallaxComponent：视差组件
+- PolygonComponent： 多边形组件。
+- RectangleComponent：方形组件。
+- CircleComponent：圆形组件。
+- SpawnComponent： 生成组件，提供工厂函数生成组件。
+- SvgComponent： SVG 组件。
+- IsometricTileMapComponent：斜角等距瓦片图组件。
+- NineTileBoxComponent：九格瓦片盒组件。
+- CustomPainterComponent：自定义绘制组件。
+- ClipComponent： 裁剪组件。
+- AlignComponent：
+- RowComponent：
+- ColumnComponent：
+- ExpandedComponent：
+- PaddingComponent：
+- WidgetComponent：控件组件，可内嵌 Flutter 的 RenderObjectWidget 控件，问题多，不如 Overlay Widgets 盖在 flame 视口上。
+- Notifier： 组件通知。
 
 flame/events.dart：
 

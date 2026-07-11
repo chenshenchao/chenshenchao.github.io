@@ -22,3 +22,16 @@ zig build test
 # 执行 index.zig 里的测试
 zig test index.zig
 ```
+
+## 泛型
+
+有别于 C++、Rust、Go、Java 的声明式泛型，Zig 使用过程式的编译期函数实现泛型。
+
+```zig
+fn List(comptime T: type) type {
+    return struct {
+        items: []T,
+        fn push(self: *@This(), val: T) void {}
+    };
+}
+```
