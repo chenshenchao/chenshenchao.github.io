@@ -2,6 +2,7 @@
 
 - [spring-boot](https://github.com/spring-projects/spring-boot)
 - [spring initializr](https://start.spring.io/) 这网页可生成 Spring 初始项目。（早年 IDEA 创建 Spring 项目是收费插件）
+- [spring-ai](https://github.com/spring-projects/spring-ai) Spring 官方 LLM 编排框架。
 
 ```bash
 # 运行 bootRun 任务（运行 spring boot 服务）

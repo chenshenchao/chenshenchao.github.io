@@ -99,6 +99,8 @@ $env:HF_HUB_ENABLE_HF_TRANSFER=1
 - [transformers](https://github.com/huggingface/transformers) huggingface 的 transformers 定义框架，方便模型通用一套代码。
 - [longformer](https://github.com/allenai/longformer) 长文档编码解码器。
 - [supermemory](https://github.com/supermemoryai/supermemory) supermemory(增强版 RAG + 长期记忆引擎 + 用户知识图谱)的客户端 SDK 项目。
+- [POML](https://github.com/microsoft/POML) microsoft 的提示词格式。
+- [baml](https://github.com/boundaryml/baml) 面向 AGENT 开发的语言。
 
 ## 模型
 
@@ -238,7 +240,6 @@ qwen
 
 ### AI 框架、库、工具。
 
-- [AutoGen](https://github.com/microsoft/autogen) 微软给 python 的 multi-agent 框架。
 - [jina](https://github.com/jina-ai/serve) 多模态 AI 框架。
 - [Agent Lightning](https://github.com/microsoft/agent-lightning) 微软发布的 AI 代理训练与优化的框架，可以和 autogen 结合使用。
 - [MetaGPT](https://github.com/FoundationAgents/MetaGPT) 软件公司 multi-agent 项目，可用于二开。

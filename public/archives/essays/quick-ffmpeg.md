@@ -6,14 +6,18 @@
 
 ## 常用库
 
-- [ffmpeg-python](https://github.com/kkroening/ffmpeg-python) ffmpeg 绑定封装库。
+- [ffmpeg-python](https://github.com/kkroening/ffmpeg-python) python 的 ffmpeg 绑定封装库。
 - [FFmpeg-Android](https://github.com/bravobit/FFmpeg-Android) ffmpeg 安卓的编译打包库。
 - [ffmpeg-android](https://github.com/cropsly/ffmpeg-android) ffmpeg 安卓的编译二进制文件。
 - [ffmpeg-android-java](https://github.com/cropsly/ffmpeg-android-java) ffmpeg 安卓封装库。
 - [ffmpeg-android-maker](https://github.com/Javernaut/ffmpeg-android-maker) 编译安卓可用 ffmpeg *.so 文件的脚本项目。
 - [FFmpegAndroid](https://github.com/xufuji456/FFmpegAndroid) 安卓 FFmpeg 相关资料。
 - [ffmpeg4android](https://github.com/byhook/ffmpeg4android) 安卓 FFmpeg 相关资料。
-- [small-video-record](https://github.com/mabeijianxi/small-video-record) 基于 ffmpeg 的视频录制示例。
+- [small-video-record](https://github.com/mabeijianxi/small-video-record) 安卓下基于 ffmpeg 的视频录制示例。
+- [videoconverter.js](https://github.com/bgrins/videoconverter.js) JS 封装 wasm ffmpeg 浏览器端视频转换。
+- [PHP-FFMpeg](https://github.com/PHP-FFMpeg/PHP-FFMpeg) PHP 封装 ffmpeg 命令行使用，需要安装 ffmpeg 。
+- [video-rs](https://github.com/oddity-ai/video-rs) rust 的基于 ffmpeg-next 库的视频工具库，依赖 ffmpeg 二进制动态库。
+- [ffmpeg-next](https://github.com/zmwangx/rust-ffmpeg) rust 的 ffmpeg 封装，仓库名 rust-ffmpeg。
 
 ## 命令行工具
 

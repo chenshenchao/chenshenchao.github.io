@@ -48,6 +48,7 @@
 - [websocket-sharp](https://github.com/sta/websocket-sharp) websocket 库。
 - [Power-Fx](https://github.com/microsoft/Power-Fx) 低代码编程语言。
 - [accord-net framework](https://github.com/accord-net/framework) 人脸识别库。
+- [semantic-kernel](https://github.com/microsoft/semantic-kernel) 微软开源的 LLM 编排框架，支持 C#、Python、Java 语言。
 
 ### Blazor
 

@@ -52,6 +52,7 @@
 - [ldtk](https://github.com/deepnight/ldtk) 2D 瓦片地图编辑器。
 - [Ogmo-Editor-3](https://github.com/Ogmo-Editor-3) 2D 瓦片地图编辑器。
 - [piskel](https://github.com/piskelapp/piskel) 基于 web 的像素素材编辑器。
+- [autotiler](https://github.com/itsjavi/autotiler) 制作 BlobTilesets 47 格的瓦片素材制作工具。 
 
 ## 游戏素材
 

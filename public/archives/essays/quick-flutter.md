@@ -16,6 +16,16 @@ flutter run -d chrome --web-port 8080
 # 运行，不启用 impeller
 flutter run --no-enable-impeller
 
+# 打包 Windows 发布。
+flutter build windows --release
+
+# 全局安装 msix 打包工具。
+dart pub global activate msix
+# 执行 msix 打包
+dart pub global run msix:create
+# 卸载 msix 工具
+dart pub global deactivate msix
+
 # 在 flutter run 下可以通过以下输入操作调试（命令行有英文提示，以下是中文）
 # r：热重载（Hot Reload）- 快速更新 UI，保留应用状态
 # R：热重启（Hot Restart）- 重新启动应用，重置状态但比完全重启快
@@ -136,3 +146,6 @@ $env:FLUTTER_STORAGE_BASE_URL="https://mirror.sjtu.edu.cn"
 $env:PUB_HOSTED_URL="https://mirrors.tuna.tsinghua.edu.cn/dart-pub"
 $env:FLUTTER_STORAGE_BASE_URL="https://mirrors.tuna.tsinghua.edu.cn/flutter"
 ```
+
+## 
+

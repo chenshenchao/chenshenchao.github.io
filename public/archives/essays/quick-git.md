@@ -518,6 +518,29 @@ git submodule add -b <branch> <url> <name>
 git submodule add -b <branch> --depth 1 <url> <name>
 ```
 
+## 工作树（worktree）
+
+身兼数职的小公司程序员常常要在一个项目里面同时开发多个功能，再由管理者决定哪个先上线，以往都是 clone 多个项目，但是这样 .git 会出现多分很占控件，worktree 解决了这个问题，同一个 .git 目录检出多个项目工作空间，这样磁盘就可以节省，而且减少拉去的次数，提交的分支时直接互通，而不用向多 clone 那样需要先提交到远程仓库再各自拉去。
+
+```bash
+# 列举
+git worktree list
+# 列举，只看目录
+git worktree list --porcelain
+
+# 在 ../bugfix 目录检出 bugfix 分支，一般检出到原项目外的目录。
+git worktree add ../bugfix bugfix
+# 基于main分支，创建新分支 feature/login，同时生成worktree
+git worktree add -b feature/login ../feature-login main
+
+# 删除，目录内有未提交修改时会拦截 -f 强制。
+git worktree remove ../bugfix
+
+# 清除无效记录
+git worktree prune
+```
+
+
 ## 过滤分支（filter-branch）
 
 实则是遍历分支并附带各种操作。

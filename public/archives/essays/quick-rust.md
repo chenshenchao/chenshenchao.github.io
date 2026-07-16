@@ -244,6 +244,31 @@ cargo run -p <名称>
 cargo run --example <示例名称>
 ```
 
+### feature
+
+```rust
+// 屏蔽整个文件的引入，此属性可以作用于任何语句。
+#[cfg(feature = "your_features")]
+mod your_mod;
+```
+
+```toml
+# 带上 optional=true 的依赖都是可选的，通过 features 启用。
+[dependencies]
+ndarray = { workspace = true, optional = true }
+video-rs = { workspace = true, features = ["ndarray"], optional = true }
+
+# 通过 dep:dep_name 的形式指定启用的依赖。
+[features]
+default = []
+video = ["dep:ndarray", "dep:video-rs"]
+```
+
+```bash
+# 通过指定 feature 开启。
+cargo build -p your_project --features video
+```
+
 ### cargo generate
 
 - [cargo-generate 源码](https://github.com/cargo-generate/cargo-generate)
@@ -460,9 +485,7 @@ fi
 - [bevy](https://github.com/bevyengine/bevy) 数据驱动的游戏引擎。
 - [amethyst](https://github.com/amethyst/amethyst) 游戏引擎，已废弃。
 - [Symphonia](https://github.com/pdeljanov/Symphonia) 音视频多媒体库集合，不支持 AVC/H.264。
-- [video-rs](https://github.com/oddity-ai/video-rs) 基于 ffmpeg-next 库的视频工具库，依赖 ffmpeg 二进制动态库。
 - [rust-rgb](https://github.com/kornelski/rust-rgb) rgb 像素色彩类型库。
-- [rust-ffmpeg](https://github.com/zmwangx/rust-ffmpeg) ffmpeg 封装 ffmpeg-next。
 
 ### 网络框架和库
 
@@ -478,6 +501,7 @@ fi
 - [zmq.rs](https://github.com/zeromq/zmq.rs) ZeroMQ 的实现。
 - [pingora](https://github.com/cloudflare/pingora) 网络库，反向代理等功能。
 - [trunk](https://github.com/trunk-rs/trunk) rust 开发前端 WASM 的打包工具。
+- [AutoAgents](https://github.com/liquidos-ai/AutoAgents) 多 Agent LLM 编排框架，支持 rust、python 等语言。
 
 ### 数据库
 

@@ -28,3 +28,15 @@ Dart 出来好几年却因为没有杀手应用而一直默默无闻，直到被
 - [dart-mongo-lite](https://github.com/KaikyuLotus/dart-mongo-lite) 类似 mongodb 的可内嵌数据库。
 - [fftea](https://github.com/liamappelbe/fftea) FFT 库。
 - [scidart](https://github.com/scidart/scidart) 科学计算库，有 FFT 比较慢。
+
+## 
+
+### 隔离（Isolate）
+
+用于代码层后台执行。
+
+```dart
+import 'dart:isolate';
+// 快速创建后台Isolate（Dart3推荐）
+final result = await Isolate.run(heavyTask);
+```

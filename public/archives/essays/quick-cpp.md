@@ -190,6 +190,7 @@
 - [pybind11](https://github.com/pybind/pybind11) C++11 开发 python 扩展。
 - [WasmEdge](https://github.com/WasmEdge/WasmEdge) Wasm 边缘计算 运行库，支持 IoT 设备。
 - [ChakraCore](https://github.com/chakra-core/ChakraCore) 可内嵌的JS引擎。
+- [llama.cpp](https://github.com/ggml-org/llama.cpp) LLM 推理引擎。
 
 ## 项目、示例
 

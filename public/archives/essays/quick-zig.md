@@ -23,6 +23,10 @@ zig build test
 zig test index.zig
 ```
 
+## 常用库
+
+- [zml](https://github.com/zml/zml) LLM 推理运行时。
+
 ## 泛型
 
 有别于 C++、Rust、Go、Java 的声明式泛型，Zig 使用过程式的编译期函数实现泛型。

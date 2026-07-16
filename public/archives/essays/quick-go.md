@@ -202,6 +202,11 @@
 - [ip2region](https://github.com/lionsoul2014/ip2region) 支持多语言的 IP 查地区库，作者会定期更新 xdb 的 IP 地区数据库。
 - [aws-sdk-go-v2](https://github.com/aws/aws-sdk-go-v2)
 - [amazon-s3-encryption-client-go](https://github.com/aws/amazon-s3-encryption-client-go)
+- [langchaingo](https://github.com/tmc/langchaingo) LangChain 风格的 Go 语言 LLM 编排框架。
+- [langgraphgo](https://github.com/tmc/langgraphgo) LangGraph 风格的 Go 语言 LLM 编排框架。
+- [eino](https://github.com/cloudwego/eino) 字节开源的 Go 语言 LLM 编排框架。
+- [gollm](https://github.com/teilomillet/gollm) 轻量 Go 语言 LLM 编排框架。
+- [AgentTeams](https://github.com/agentscope-ai/AgentTeams) 阿里开源的多 Agent 的 Go 语言 LLM 编排框架。
 
 ### 图形
 

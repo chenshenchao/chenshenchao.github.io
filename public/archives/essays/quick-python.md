@@ -165,6 +165,10 @@ python -m http.server 8000
 - [HanLP](https://github.com/hankcs/HanLP) NLP 分词开发库 和 轻量 RESTful 服务。
 - [nlp-architect](https://github.com/IntelLabs/nlp-architect)  IntelLabs 发布的 NLP 库。
 - [tornado](https://github.com/tornadoweb/tornado) web 框架。
+- [langchain](https://github.com/langchain-ai/langchain) python 语言 LLM 编排框架。
+- [langgraph](https://github.com/langchain-ai/langgraph) python 语言 LLM 编排框架。
+- [AutoGen](https://github.com/microsoft/autogen) 微软给 python 的 multi-agent 框架。
+- [agentscope](https://github.com/agentscope-ai/agentscope) 阿里开源的 python 语言 LLM 编排框架。
 
 ## 示例、项目
 
@@ -269,6 +273,11 @@ irm https://astral.sh/uv/install.ps1 -Proxy "http://127.0.0.1:10808" | iex
 ```
 
 ```bash
+# 查看版本
+uv --version
+# 升级
+uv self update
+
 # 枚举 Python 版本，检索能力很强，连自己安装的没有在PATH里的都能枚举到。
 uv python list
 
@@ -279,6 +288,8 @@ uv python install 3.14
 uv init <project_name>
 # 直接在当前目录创建项目
 uv init
+# 仅生成 project.toml 文件，用来做 workspace 工程化配置。
+uv init --bare
 
 # 添加库 ruff 到项目
 uv add ruff
@@ -289,10 +300,13 @@ uv tool install "Nuitka[all]"
 # 使用 ruff 做 lint 检查
 uv run ruff check
 
+# 虚拟环境初始化。
+uv venv
+
 # 包管理 lock 文件生成。
 uv lock
 
-# 根据 pyproject.toml 拉包
+# 根据 pyproject.toml 拉包和初始化虚拟环境 .venv
 uv sync
 
 # 执行脚本 main.py
@@ -305,6 +319,11 @@ uv build
 uv publish
 ```
 
+```bash
+# 兼容 pip 形式的安装。（不会写入 project.toml）
+uv pip install vllm --torch-backend auto
+```
+
 ## pip
 
 - [pip 源码](https://github.com/pypa/pip)
@@ -314,8 +333,11 @@ Python 自带的包管理器。
 因为墙的原因，需要指定国内镜像。
 
 ```bash
-# -i 指定镜像
+# -i 指定镜像，全称 --index-url
 pip install -i https://mirrors.aliyun.com/pypi/simple/ numpy
+
+# 使用额外的镜像源 https://wheels.vllm.ai/0.25.1/cpu， --extra-index-url 参数可以多个。
+pip install vllm --extra-index-url https://wheels.vllm.ai/0.25.1/cpu --torch-backend cpu
 
 # 更新包
 # -U 如果已安装会变成升级成最新版本

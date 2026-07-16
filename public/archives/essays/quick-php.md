@@ -133,7 +133,6 @@ composer require monolog/monolog:1.25.0 --with-all-dependencies
 - [hyperf](https://github.com/hyperf/hyperf) swoole 框架。
 - [hyperf nano](https://github.com/hyperf/nano) swoole 轻量框架。
 - [hyperf-watch](https://github.com/ha-ni-cc/hyperf-watch) hyperf 自动重启。
-- [PHP-FFMpeg](https://github.com/PHP-FFMpeg/PHP-FFMpeg) 封装 ffmpeg 命令行使用，需要安装 ffmpeg 。
 - [phpunit](https://github.com/sebastianbergmann/phpunit) 单元测试框架。
 - [Medoo](https://github.com/catfan/Medoo) ORM
 - [redbean](https://github.com/gabordemooij/redbean) ORM
