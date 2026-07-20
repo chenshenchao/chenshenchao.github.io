@@ -191,6 +191,7 @@
 - [WasmEdge](https://github.com/WasmEdge/WasmEdge) Wasm 边缘计算 运行库，支持 IoT 设备。
 - [ChakraCore](https://github.com/chakra-core/ChakraCore) 可内嵌的JS引擎。
 - [llama.cpp](https://github.com/ggml-org/llama.cpp) LLM 推理引擎。
+- [cactus](https://github.com/cactus-compute/cactus) LLM 推理引擎，兼 AI 编排框架。专注手机端，能生成 flutter、kotlin 的库文件。
 
 ## 项目、示例
 

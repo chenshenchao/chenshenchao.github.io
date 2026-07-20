@@ -136,6 +136,13 @@ config = {
 };
 ```
 
+### 自定义底部栏
+
+1. app.config.js 里要配置 { tabBar: { custom: true } }
+2. 所有作为 TabBar 页面的 config 里需要声明 usingComponents 项
+3. 必须是在 src 目录下添加 custom-tab-bar 目录。
+4. 此组件自动创建，由 Taro.getCurrentInstance().page.getTabBar() 获取实例。
+
 ## 跨平台接口
 
 - Taro.scanCode： 扫码

@@ -6,7 +6,8 @@
 
 - [kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization) 序列化库。
 - [kotlinx-datetime](https://github.com/Kotlin/kotlinx-datetime) 日期时间库。
-- [Exposed](https://github.com/JetBrains/Exposed) SQL 框架。
+- [Exposed](https://github.com/JetBrains/Exposed) JetBrains 开源的 SQL 框架。
+- [koog](https://github.com/JetBrains/koog) JetBrains 开源的 AI Agent 编排框架。
 - [ksp](https://github.com/google/ksp)
 
 ## 常用库

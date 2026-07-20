@@ -54,6 +54,7 @@
 - [ky](https://github.com/sindresorhus/ky) HTTP 客户端库。
 - [web-udp](https://github.com/3mcd/web-udp) 基于 webRTC 的类 UDP 的无序且不可靠协议库。
 - [isomorphic-dompurify](https://github.com/kkomelin/isomorphic-dompurify) 防止跨站脚本XSS 库。
+- [genkit](https://github.com/genkit-ai/genkit) 谷歌开源的 AI Agent 编排框架。
 
 ### 图形
 

@@ -121,6 +121,7 @@ python -m http.server 8000
 - [tortoise-orm](https://github.com/tortoise/tortoise-orm) ORM
 - [peewee](https://github.com/coleifer/peewee) ORM
 - [pony](https://github.com/ponyorm/pony) ORM
+- [sqlmodel](https://github.com/fastapi/sqlmodel) 整合 sqlalchemy + pydantic 的 ORM。
 - [sqlalchemy](https://github.com/sqlalchemy/sqlalchemy)  ORM
 - [gino](https://github.com/python-gino/gino) SQLAlchemy 核心。
 
@@ -290,15 +291,27 @@ uv init <project_name>
 uv init
 # 仅生成 project.toml 文件，用来做 workspace 工程化配置。
 uv init --bare
+# 创建 common 库项目
+uv init --lib common
 
 # 添加库 ruff 到项目
 uv add ruff
+# 使用仓库镜像
+uv add ruff -i https://pypi.tuna.tsinghua.edu.cn/simple
+# 使用仓库镜像，并配置到 pyproject.toml 的配置里作为默认。
+uv add reflex --default-index https://pypi.tuna.tsinghua.edu.cn/simple
+# 添加 workspace 内自定义库
+uv add ../common
 
 # 添加命令行工具 nuitka 到全局。
 uv tool install "Nuitka[all]"
 
 # 使用 ruff 做 lint 检查
 uv run ruff check
+# 指定目录执行
+uv run --directory your_dir reflex run
+# 指定包名执行，对于 reflex 这种依赖 rxconfig.py 文件位置的无法使用。
+uv run --package your_pkg
 
 # 虚拟环境初始化。
 uv venv

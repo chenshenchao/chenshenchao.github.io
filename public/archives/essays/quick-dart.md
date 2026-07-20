@@ -28,6 +28,7 @@ Dart 出来好几年却因为没有杀手应用而一直默默无闻，直到被
 - [dart-mongo-lite](https://github.com/KaikyuLotus/dart-mongo-lite) 类似 mongodb 的可内嵌数据库。
 - [fftea](https://github.com/liamappelbe/fftea) FFT 库。
 - [scidart](https://github.com/scidart/scidart) 科学计算库，有 FFT 比较慢。
+- [langchain_dart](https://github.com/davidmigloz/langchain_dart) 类 LangChain 的 Dart 实现 AI 编排框架。
 
 ## 
 

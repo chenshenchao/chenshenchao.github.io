@@ -49,6 +49,13 @@
 wx.getPrivacySetting
 ```
 
+### 自定义 custom-tab-bar
+
+app.json 里 { "tabbar": { "custom": true } } 下，项目根目录下：custom-tab-bar 目录会被特殊处理，自动加载，不需要写到 wxml 里。
+原 wx.setTabBarItem 等将失效，可以通过 getTabBar 接口获取自定义 custom-tab-bar 组件实例。
+需要手动控制其二级下 wx.navigateTo 后的显示与隐藏。
+
+
 ## 微信接口
 
 ### access_token 的处理

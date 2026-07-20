@@ -110,6 +110,9 @@ npx create-expo-app
 - [react-color](https://github.com/casesandberg/react-color) 颜色选取器。
 - [slate](https://github.com/ianstormtaylor/slate) 富文本编辑器开发库，可以定制富文本编辑器，beta 阶段，只支持 React。
 - [draft-js](https://github.com/facebookarchive/draft-js) facebook 开源的富文本编辑器，不维护，转向 Lexical。
+- [react-dropzone](https://github.com/react-dropzone/react-dropzone) 拖拽区组件。
+- [react-player](https://github.com/cookpete/react-player) 播放器组件。
+- [react-debounce-input](https://github.com/nkbt/react-debounce-input) 防抖输入框。
 
 ### react native 相关库
 
